@@ -67,6 +67,7 @@ No inventar formatos ni trasladar convenciones de otros juegos de Paradox. Compa
 
 Canon confirmado:
 
+- el imperio élfico corresponde al país `SHA`, definido en `history/countries/SHA - Shaq.txt`;
 - existe un imperio élfico gobernado por el mismo emperador desde hace **3717 años**;
 - solo los elfos pueden ocupar cargos políticos o participar en las decisiones del Estado;
 - humanos y beastfolk viven dentro de sus fronteras, pero quedan excluidos del poder;
@@ -92,7 +93,7 @@ Los 3717 años deben representarse inicialmente en localización y, si tiene efe
 
 #### 1. Contrato mínimo de lore
 
-- [ ] Elegir el país y su tag entre los ya existentes, o justificar un tag nuevo.
+- [x] Elegir el país y su tag: `SHA` (`history/countries/SHA - Shaq.txt`).
 - [ ] Definir el nombre original del imperio, gentilicio y adjetivo.
 - [ ] Definir nombre, título y pronombres del emperador.
 - [ ] Fijar el calendario: fecha inicial del escenario y qué significa exactamente “3717 años”.
@@ -105,10 +106,10 @@ Los 3717 años deben representarse inicialmente en localización y, si tiene efe
 
 #### 2. Gobierno mínimo funcional
 
-- [ ] Comparar `common/ideologies/00_ideologies.txt` vanilla con la versión instalada.
-- [ ] Añadir `elven_imperialism` bajo `neutrality`, tomando `despotism` como base mecánica y conservando los tipos de gobierno que el resto del mod todavía necesite.
+- [x] Comparar `common/ideologies/00_ideologies.txt` vanilla con la versión instalada.
+- [x] Añadir `elven_imperialism` bajo `neutrality`, tomando `despotism` como base mecánica y conservando los tipos de gobierno que el resto del mod todavía necesite.
 - [ ] Añadir `replace_path="common/ideologies"` solo si el mod pasa a poseer una definición completa y validada de todas las ideologías necesarias.
-- [ ] Localizar el nombre y la descripción de la subideología en español e inglés.
+- [x] Localizar el nombre y la descripción de la subideología en español e inglés.
 - [ ] Localizar el nombre largo, nombre corto y adjetivo del país bajo ese gobierno.
 - [ ] Definir el partido o institución gobernante y sus nombres localizado largo y corto.
 - [ ] Crear o adaptar al emperador en `common/characters/`, con la subideología correcta.

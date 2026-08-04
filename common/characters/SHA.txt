@@ -4,7 +4,7 @@ characters = {
 
 		
 		country_leader={
-			ideology=oligarchism
+			ideology=elven_imperialism
 			traits = { celebrity_junta_leader  }
 			expire="1965.1.1.1"
 			id=-1
