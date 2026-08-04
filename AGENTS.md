@@ -125,7 +125,7 @@ Tarkan usa el rasgo `SHA_eternal_emperor` (**Dios Emperador**): +10 % de estabil
 - [x] Desactivar elecciones o rotación de líder.
 - [x] Representar los 3717 años mediante el rasgo localizado `SHA_eternal_emperor`.
 - [ ] Representar el monopolio político élfico y la casta servil mediante ideas o modificadores nacionales, sin simular especies con sistemas que HOI4 no modele realmente.
-- [ ] Añadir retrato, bandera o iconos propios cuando la lógica ya cargue sin errores.
+- [x] Añadir el retrato propio de Tarkan Rohendel y sus sprites grande y pequeño.
 
 #### 3. Coherencia jugable del imperio
 

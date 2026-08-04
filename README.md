@@ -19,6 +19,14 @@ python tools\validate_mvp.py
 
 Los archivos bajo `source/` son fuentes y reportes; los archivos que consume HOI4 se exportan a sus rutas vanilla (`map/`, `history/`, `common/`, `localisation/` y `gfx/`). No se modifica la instalación de Steam.
 
+## Retrato de Tarkan Rohendel
+
+El maestro editable está en `source/portraits/tarkan_rohendel.png`. Regenerar los DDS grande y pequeño con:
+
+```powershell
+.\tools\export_hoi4_portrait.ps1 -InputPath source\portraits\tarkan_rohendel.png -LargePath gfx\leaders\SHA\portrait_SHA_tarkan_rohendel.dds -SmallPath gfx\interface\ideas\portrait_SHA_tarkan_rohendel_small.dds
+```
+
 ## Estado
 
 Las comprobaciones estáticas están automatizadas. Con solo `valonde` activo, HOI4 inicia con `-debug`, carga 2842 entradas de provincia (ID 0 más 2841 provincias), llega al frontend y permanece estable sin errores propios de definición, costura, tamaño provincial, puertos o texturas DDS.

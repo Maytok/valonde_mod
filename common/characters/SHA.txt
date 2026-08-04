@@ -2,7 +2,13 @@ characters = {
 	SHA_Albertor_Lanzia={
 		name="Tarkan Rohendel"
 
-		
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SHA_tarkan_rohendel
+				small = GFX_portrait_SHA_tarkan_rohendel_small
+			}
+		}
+
 		country_leader={
 			ideology=elven_imperialism
 			traits = { SHA_eternal_emperor }
