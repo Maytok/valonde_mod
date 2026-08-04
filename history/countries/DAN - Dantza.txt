@@ -400,16 +400,16 @@ autarkic_economy
 
 
 set_politics = {
-	ruling_party = fascism
-	last_election = "1908.8.19"
+	ruling_party = democratic
+	last_election = "1932.11.8"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 0
-	fascism = 52
-	communism = 44
-	neutrality = 4
+	democratic = 70
+	fascism = 5
+	communism = 15
+	neutrality = 10
 }
 
 

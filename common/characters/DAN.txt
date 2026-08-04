@@ -786,11 +786,11 @@ characters = {
 
 	}
 	DAN_Gaizkaitz_Norimenasunt={
-		name="Gaizkaitz Norimenasunt"
+		name=DAN_Gaizkaitz_Norimenasunt
 
 		
 		country_leader={
-			ideology=liberalism
+			ideology=pact_federalism
 			traits = { veteran_minister  }
 			expire="1965.1.1.1"
 			id=-1

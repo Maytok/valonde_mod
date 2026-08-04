@@ -18,7 +18,7 @@ Principios de diseño:
 
 El repositorio ya contiene el mapa y una base amplia de países, estados, personajes, ideas, unidades y localización. Parte de esa base conserva nombres, tecnologías, gobiernos, historias y otros datos vanilla usados durante la construcción inicial. Esos restos son deuda de conversión, no canon de Valonde.
 
-La fase de prototipo técnico del mapa terminó. No regenerar ni sustituir capas del mapa salvo que una tarea trate expresamente un defecto cartográfico. La prioridad actual es una vertical slice de contenido fantástico, empezando por un imperio élfico.
+La fase de prototipo técnico del mapa terminó. No regenerar ni sustituir capas del mapa salvo que una tarea trate expresamente un defecto cartográfico. La prioridad actual son las vertical slices del Imperio Rohendel y El Pacto.
 
 ## Perfil técnico
 
@@ -32,7 +32,7 @@ La fase de prototipo técnico del mapa terminó. No regenerar ni sustituir capas
 | Sistema principal | Windows |
 | Idioma de documentación | Español |
 | Claves técnicas | Inglés, ASCII y `snake_case`, salvo requisito del motor |
-| Fase actual | Conversión de contenido; vertical slice del imperio élfico |
+| Fase actual | Conversión de contenido; vertical slices del Imperio Rohendel y El Pacto |
 
 Instalaciones vanilla conocidas, siempre de solo lectura:
 
@@ -149,6 +149,48 @@ Tarkan usa el rasgo `SHA_eternal_emperor` (**Dios Emperador**): +10 % de estabil
 
 La vertical slice está terminada cuando el imperio es seleccionable, muestra su gobierno y emperador correctos, conserva al gobernante durante la prueba, no expone texto político vanilla en sus pantallas principales y avanza un mes sin errores críticos nuevos.
 
+## Dirección de diseño: El Pacto
+
+Canon y decisiones iniciales:
+
+- El Pacto corresponde al país `DAN`, definido en `history/countries/DAN - Dantza.txt`; el tag no cambia.
+- Es una federación fantástica de Estados Nación con autonomía interna y un gobierno federal común.
+- Su forma de gobierno usa la subideología `pact_federalism` dentro de `democratic`.
+- La Gran Asamblea del Pacto es la institución gobernante y el jefe federal recibe el título de **Canciller Supremo**.
+- Celebra elecciones federales cada cuatro años.
+- En la primera versión, todo El Pacto funciona bajo un solo tag. Los Estados miembros son parte del canon, pero no países jugables separados.
+
+La **Federación híbrida** debe combinar soberanía regional y autoridad federal sin trasladar al juego una simulación innecesariamente compleja. Defensa, diplomacia y política exterior pertenecen inicialmente al gobierno federal; las diferencias internas se representarán primero mediante estados, modificadores, decisiones y eventos. Solo crear tags subordinados cuando un miembro necesite diplomacia, ejército o una secesión realmente independientes.
+
+### Checklist de El Pacto
+
+#### Gobierno mínimo funcional
+
+- [x] Elegir `DAN` como país base y localizarlo como El Pacto bajo `democratic`.
+- [x] Añadir y localizar `pact_federalism` bajo `democratic`.
+- [x] Establecer un gobierno democrático con elecciones cada 48 meses.
+- [x] Localizar a la Gran Asamblea del Pacto como partido o institución gobernante.
+- [x] Adaptar al líder democrático existente como Canciller Supremo y asignarle `pact_federalism`.
+- [ ] Verificar en juego el nombre del país, la institución, el líder y la subideología.
+- [ ] Avanzar un mes con `-debug` y revisar errores nuevos relacionados con `DAN`.
+
+#### Contrato de lore pendiente
+
+- [ ] Definir el nombre, número, fronteras y culturas de los Estados miembros.
+- [ ] Definir qué competencias son federales, compartidas y exclusivas de cada Estado.
+- [ ] Definir el método de elección, mandato y límites del Canciller Supremo.
+- [ ] Definir la composición y representación de la Gran Asamblea.
+- [ ] Definir una fortaleza política del sistema y su principal conflicto interno.
+
+#### Evolución mecánica de la Federación híbrida
+
+- [ ] Crear una medida de cohesión federal solo cuando existan decisiones o crisis que la modifiquen.
+- [ ] Representar autonomía, integración y tensiones mediante modificadores regionales.
+- [ ] Añadir decisiones de concesiones regionales, centralización y poderes de emergencia.
+- [ ] Diseñar crisis constitucionales, resistencia regional y secesión como consecuencias jugables.
+- [ ] Usar un balance de poder únicamente si las decisiones y modificadores no expresan bien el conflicto federal.
+- [ ] Convertir Estados miembros en tags subordinados solo cuando necesiten agencia militar o diplomática propia.
+
 ## Roadmap de conversión fantástica
 
 Después de aprobar la vertical slice, convertir por capas y no por carpetas completas:
@@ -220,4 +262,4 @@ No afirmar que una función “sirve” solo porque el parser acepta sus archivo
 
 ## Próximo hito
 
-Registrar Valonde como mod local aislado, iniciar HOI4 con `-debug` y verificar en pantalla que `SHA` aparece como Imperio Rohendel, gobernado por Tarkan Rohendel bajo el imperialismo élfico y la Corte Imperial Rohendel.
+Registrar Valonde como mod local aislado, iniciar HOI4 con `-debug` y verificar en pantalla las vertical slices de `SHA` y `DAN`: nombres, gobiernos, gobernantes, instituciones y retratos; después avanzar un mes y revisar los logs.
