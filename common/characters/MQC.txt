@@ -1,0 +1,1083 @@
+characters = {
+	MQC_Varcellius_Scaes={
+		name="Varcellius Scaes"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { democratic_crusader  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MQC_Otho_Spes={
+		name="Otho Spes"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MQC_Otho_Spes
+			traits = {	right_industrialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	MQC_Servius_Pravis={
+		name="Servius Pravis"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MQC_Servius_Pravis
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	MQC_Cassius_Porturraetas={
+		name="Cassius Porturraetas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MQC_Cassius_Porturraetas
+			traits = {	agricultural_nationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	MQC_Otho_Regnis={
+		name="Otho Regnis"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MQC_Otho_Regnis
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	MQC_Domiticustus_Venstia={
+		name="Domiticustus Venstia"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MQC_Domiticustus_Venstia
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	MQC_Tibius_Unita={
+		name="Tibius Unita"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MQC_Tibius_Unita
+			traits = {	socialite_connections 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	MQC_Varcus_Mortastrus={
+		name="Varcus Mortastrus"
+
+		advisor={
+			slot = army_chief
+			idea_token = MQC_Varcus_Mortastrus
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	MQC_Quintus_Ratortium={
+		name="Quintus Ratortium"
+
+		advisor={
+			slot = army_chief
+			idea_token = MQC_Quintus_Ratortium
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	MQC_Viberviusus_Florta={
+		name="Viberviusus Florta"
+
+		advisor={
+			slot = army_chief
+			idea_token = MQC_Viberviusus_Florta
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	MQC_Julus_Plumbus={
+		name="Julus Plumbus"
+
+		advisor={
+			slot = army_chief
+			idea_token = MQC_Julus_Plumbus
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	MQC_Regulus_Sonor={
+		name="Regulus Sonor"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MQC_Regulus_Sonor
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	MQC_Maximus_Pagnus={
+		name="Maximus Pagnus"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MQC_Maximus_Pagnus
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	MQC_Lucimus_Venstia={
+		name="Lucimus Venstia"
+
+		advisor={
+			slot = air_chief
+			idea_token = MQC_Lucimus_Venstia
+			traits = {	air_chief_all_weather_2 	}
+		}
+
+
+	}
+	MQC_Publius_Aerbumensulg={
+		name="Publius Aerbumensulg"
+
+		advisor={
+			slot = air_chief
+			idea_token = MQC_Publius_Aerbumensulg
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	MQC_Servius_Vensare={
+		name="Servius Vensare"
+
+		advisor={
+			slot = high_command
+			idea_token = MQC_Servius_Vensare
+			traits = {	navy_carrier_2 	}
+		}
+
+
+	}
+	MQC_Julus_Strus={
+		name="Julus Strus"
+
+		advisor={
+			slot = high_command
+			idea_token = MQC_Julus_Strus
+			traits = {	air_air_superiority_2 	}
+		}
+
+
+	}
+	MQC_Vibius_Mura={
+		name="Vibius Mura"
+
+		advisor={
+			slot = high_command
+			idea_token = MQC_Vibius_Mura
+			traits = {	air_tactical_bombing_2 	}
+		}
+
+
+	}
+	MQC_Fauliustus_Temides={
+		name="Fauliustus Temides"
+
+		advisor={
+			slot = high_command
+			idea_token = MQC_Fauliustus_Temides
+			traits = {	air_pilot_training_2 	}
+		}
+
+
+	}
+	MQC_Horatius_Gentus={
+		name="Horatius Gentus"
+
+		advisor={
+			slot = high_command
+			idea_token = MQC_Horatius_Gentus
+			traits = {	air_close_air_support_1 	}
+		}
+
+
+	}
+	MQC_Viberviusus_Solum={
+		name="Viberviusus Solum"
+
+		advisor={
+			slot = high_command
+			idea_token = MQC_Viberviusus_Solum
+			traits = {	air_air_superiority_2 	}
+		}
+
+
+	}
+	MQC_Antoniustus_Ordo={
+		name="Antoniustus Ordo"
+
+		
+		country_leader={
+			ideology=nazism
+			traits = { subservient_ultranationalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MQC_Julus_Radicium={
+		name="Julus Radicium"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MQC_Julus_Radicium
+			traits = {	spirit_of_genghis 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	MQC_Prius_Paginciumena={
+		name="Prius Paginciumena"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MQC_Prius_Paginciumena
+			traits = {	vapsid_economist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	MQC_Faudius_Popus={
+		name="Faudius Popus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MQC_Faudius_Popus
+			traits = {	autocratic_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	MQC_Antonius_Mortastrus={
+		name="Antonius Mortastrus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MQC_Antonius_Mortastrus
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	MQC_Prius_Hernima={
+		name="Prius Hernima"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MQC_Prius_Hernima
+			traits = {	collaborator_king 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	MQC_Horatius_Tribernima={
+		name="Horatius Tribernima"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MQC_Horatius_Tribernima
+			traits = {	subservient_ultranationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	MQC_Decimus_Viturudax={
+		name="Decimus Viturudax"
+
+		advisor={
+			slot = army_chief
+			idea_token = MQC_Decimus_Viturudax
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	MQC_Otho_Arbilva={
+		name="Otho Arbilva"
+
+		advisor={
+			slot = army_chief
+			idea_token = MQC_Otho_Arbilva
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	MQC_Fabius_Mare={
+		name="Fabius Mare"
+
+		advisor={
+			slot = army_chief
+			idea_token = MQC_Fabius_Mare
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	MQC_Brus_Galatumbus={
+		name="Brus Galatumbus"
+
+		advisor={
+			slot = army_chief
+			idea_token = MQC_Brus_Galatumbus
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	MQC_Varcelius_Venstia={
+		name="Varcelius Venstia"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MQC_Varcelius_Venstia
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	MQC_Decius_Artas={
+		name="Decius Artas"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MQC_Decius_Artas
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	MQC_Vibius_Magnus={
+		name="Vibius Magnus"
+
+		advisor={
+			slot = air_chief
+			idea_token = MQC_Vibius_Magnus
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	MQC_Julus_Magnus={
+		name="Julus Magnus"
+
+		advisor={
+			slot = air_chief
+			idea_token = MQC_Julus_Magnus
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	MQC_Priscus_Opus={
+		name="Priscus Opus"
+
+		advisor={
+			slot = high_command
+			idea_token = MQC_Priscus_Opus
+			traits = {	air_air_combat_training_2 	}
+		}
+
+
+	}
+	MQC_Spuriscus_Ordo={
+		name="Spuriscus Ordo"
+
+		advisor={
+			slot = high_command
+			idea_token = MQC_Spuriscus_Ordo
+			traits = {	army_cavalry_2 	}
+		}
+
+
+	}
+	MQC_Livius_Scaes={
+		name="Livius Scaes"
+
+		advisor={
+			slot = high_command
+			idea_token = MQC_Livius_Scaes
+			traits = {	navy_fleet_logistics_2 	}
+		}
+
+
+	}
+	MQC_Attius_Flum={
+		name="Attius Flum"
+
+		advisor={
+			slot = high_command
+			idea_token = MQC_Attius_Flum
+			traits = {	army_radio_intelligence_2 	}
+		}
+
+
+	}
+	MQC_Domitellus_Macus={
+		name="Domitellus Macus"
+
+		advisor={
+			slot = high_command
+			idea_token = MQC_Domitellus_Macus
+			traits = {	army_concealment_2 	}
+		}
+
+
+	}
+	MQC_Regulus_Tena={
+		name="Regulus Tena"
+
+		advisor={
+			slot = high_command
+			idea_token = MQC_Regulus_Tena
+			traits = {	air_airborne_1 	}
+		}
+
+
+	}
+	MQC_Lucimus_Mare={
+		name="Lucimus Mare"
+
+		
+		country_leader={
+			ideology=leninism
+			traits = { polemarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MQC_Brus_Lacus={
+		name="Brus Lacus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MQC_Brus_Lacus
+			traits = {	revolutionary_poet 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	MQC_Prius_Frum={
+		name="Prius Frum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MQC_Prius_Frum
+			traits = {	leftist_intellectual 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	MQC_Publianus_Terae={
+		name="Publianus Terae"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MQC_Publianus_Terae
+			traits = {	socialist_justice 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	MQC_Marcellianus_Sonor={
+		name="Marcellianus Sonor"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MQC_Marcellianus_Sonor
+			traits = {	devoted_marxist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	MQC_Julius_Tabum={
+		name="Julius Tabum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MQC_Julius_Tabum
+			traits = {	leftist_independent 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	MQC_Sero_Ponsulum={
+		name="Sero Ponsulum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MQC_Sero_Ponsulum
+			traits = {	reluctant_stalinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	MQC_Otho_Pocus={
+		name="Otho Pocus"
+
+		advisor={
+			slot = army_chief
+			idea_token = MQC_Otho_Pocus
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	MQC_Atticus_Philos={
+		name="Atticus Philos"
+
+		advisor={
+			slot = army_chief
+			idea_token = MQC_Atticus_Philos
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	MQC_Reminus_Tena={
+		name="Reminus Tena"
+
+		advisor={
+			slot = army_chief
+			idea_token = MQC_Reminus_Tena
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	MQC_Varcelius_Forpus={
+		name="Varcelius Forpus"
+
+		advisor={
+			slot = army_chief
+			idea_token = MQC_Varcelius_Forpus
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	MQC_Severius_Philos={
+		name="Severius Philos"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MQC_Severius_Philos
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	MQC_Aulus_Pravis={
+		name="Aulus Pravis"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MQC_Aulus_Pravis
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	MQC_Servius_Macus={
+		name="Servius Macus"
+
+		advisor={
+			slot = air_chief
+			idea_token = MQC_Servius_Macus
+			traits = {	air_chief_all_weather_1 	}
+		}
+
+
+	}
+	MQC_Lucimus_Hernima={
+		name="Lucimus Hernima"
+
+		advisor={
+			slot = air_chief
+			idea_token = MQC_Lucimus_Hernima
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	MQC_Regulus_Lacus={
+		name="Regulus Lacus"
+
+		advisor={
+			slot = high_command
+			idea_token = MQC_Regulus_Lacus
+			traits = {	army_CombinedArms_1 	}
+		}
+
+
+	}
+	MQC_Lucimus_Caravia={
+		name="Lucimus Caravia"
+
+		advisor={
+			slot = high_command
+			idea_token = MQC_Lucimus_Caravia
+			traits = {	air_close_air_support_2 	}
+		}
+
+
+	}
+	MQC_Julus_Scaes={
+		name="Julus Scaes"
+
+		advisor={
+			slot = high_command
+			idea_token = MQC_Julus_Scaes
+			traits = {	air_strategic_bombing_2 	}
+		}
+
+
+	}
+	MQC_Juliustus_Muructudax={
+		name="Juliustus Muructudax"
+
+		advisor={
+			slot = high_command
+			idea_token = MQC_Juliustus_Muructudax
+			traits = {	army_infantry_2 	}
+		}
+
+
+	}
+	MQC_Quinus_Solum={
+		name="Quinus Solum"
+
+		advisor={
+			slot = high_command
+			idea_token = MQC_Quinus_Solum
+			traits = {	air_strategic_bombing_2 	}
+		}
+
+
+	}
+	MQC_Decimus_Paginciumena={
+		name="Decimus Paginciumena"
+
+		advisor={
+			slot = high_command
+			idea_token = MQC_Decimus_Paginciumena
+			traits = {	army_radio_intelligence_1 	}
+		}
+
+
+	}
+	MQC_Valervius_Sonor={
+		name="Valervius Sonor"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { veteran_minister  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MQC_Vibius_Tena={
+		name="Vibius Tena"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MQC_Vibius_Tena
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	MQC_Julus_Beluvis={
+		name="Julus Beluvis"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MQC_Julus_Beluvis
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	MQC_Fauliustus_Centus={
+		name="Fauliustus Centus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MQC_Fauliustus_Centus
+			traits = {	conservative_grandee 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	MQC_Manus_Nobis={
+		name="Manus Nobis"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MQC_Manus_Nobis
+			traits = {	veteran_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	MQC_Spurius_Mare={
+		name="Spurius Mare"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MQC_Spurius_Mare
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	MQC_Gaianus_Orbor={
+		name="Gaianus Orbor"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MQC_Gaianus_Orbor
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	MQC_Julus_Florta={
+		name="Julus Florta"
+
+		advisor={
+			slot = army_chief
+			idea_token = MQC_Julus_Florta
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	MQC_Augulus_Impublicus={
+		name="Augulus Impublicus"
+
+		advisor={
+			slot = army_chief
+			idea_token = MQC_Augulus_Impublicus
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	MQC_Publius_Philis={
+		name="Publius Philis"
+
+		advisor={
+			slot = army_chief
+			idea_token = MQC_Publius_Philis
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	MQC_Varcelius_Pocus={
+		name="Varcelius Pocus"
+
+		advisor={
+			slot = army_chief
+			idea_token = MQC_Varcelius_Pocus
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	MQC_Aulius_Panistrum={
+		name="Aulius Panistrum"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MQC_Aulius_Panistrum
+			traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+
+	}
+	MQC_Brus_Tribernima={
+		name="Brus Tribernima"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MQC_Brus_Tribernima
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	MQC_Quintus_Panistrum={
+		name="Quintus Panistrum"
+
+		advisor={
+			slot = air_chief
+			idea_token = MQC_Quintus_Panistrum
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	MQC_Paudius_Caespus={
+		name="Paudius Caespus"
+
+		advisor={
+			slot = air_chief
+			idea_token = MQC_Paudius_Caespus
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	MQC_Decimus_Florta={
+		name="Decimus Florta"
+
+		advisor={
+			slot = high_command
+			idea_token = MQC_Decimus_Florta
+			traits = {	army_CombinedArms_2 	}
+		}
+
+
+	}
+	MQC_Gemitus_Opus={
+		name="Gemitus Opus"
+
+		advisor={
+			slot = high_command
+			idea_token = MQC_Gemitus_Opus
+			traits = {	navy_anti_submarine_1 	}
+		}
+
+
+	}
+	MQC_Julus_Mortastrus={
+		name="Julus Mortastrus"
+
+		advisor={
+			slot = high_command
+			idea_token = MQC_Julus_Mortastrus
+			traits = {	army_armored_1 	}
+		}
+
+
+	}
+	MQC_Horatius_Pagina={
+		name="Horatius Pagina"
+
+		advisor={
+			slot = high_command
+			idea_token = MQC_Horatius_Pagina
+			traits = {	air_naval_strike_2 	}
+		}
+
+
+	}
+	MQC_Reminus_Ratum={
+		name="Reminus Ratum"
+
+		advisor={
+			slot = high_command
+			idea_token = MQC_Reminus_Ratum
+			traits = {	army_CombinedArms_2 	}
+		}
+
+
+	}
+	MQC_Valervius_Machinatus={
+		name="Valervius Machinatus"
+
+		advisor={
+			slot = high_command
+			idea_token = MQC_Valervius_Machinatus
+			traits = {	navy_amphibious_assault_2 	}
+		}
+
+
+	}
+	MQC_Atticus_Belum={
+		name="Atticus Belum"
+
+		advisor={
+			slot = theorist
+			idea_token = MQC_Atticus_Belum
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	MQC_Otho_Vensare={
+		name="Otho Vensare"
+
+		advisor={
+			slot = theorist
+			idea_token = MQC_Otho_Vensare
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	MQC_Aulus_Flus={
+		name="Aulus Flus"
+
+		advisor={
+			slot = theorist
+			idea_token = MQC_Aulus_Flus
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

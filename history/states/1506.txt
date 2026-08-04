@@ -1,0 +1,37 @@
+
+state={
+	id=1506
+	name="STATE_1506"
+	manpower = 1252645
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=3
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = AJT
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = AJT
+	}
+
+	provinces={
+		16945 16946 16947 16948 16949 16950 16951 
+	}
+	local_supplies=0.0 
+}

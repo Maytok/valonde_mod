@@ -1,0 +1,12 @@
+air_wings = {
+		210 = { 								
+		nav_bomber_equipment_0 = { owner = "WIM" amount = 33 version_name = "Shukwelu Mk 2" }
+
+	}
+	902 = { 								
+		fighter_equipment_0 = { owner = "WIM" amount = 23 version_name = "Majanaji Mk 0" }
+
+	}
+
+
+}

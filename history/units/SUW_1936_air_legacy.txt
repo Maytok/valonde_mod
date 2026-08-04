@@ -1,0 +1,25 @@
+air_wings = {
+		1310 = { 								
+		fighter_equipment_0 = { owner = "SUW" amount = 50 version_name = "Hazn Mk 2" }
+
+	}
+	1306 = { 								
+		CAS_equipment_0 = { owner = "SUW" amount = 50 version_name = "Yemen Mk 1" }
+tac_bomber_equipment_0 = { owner = "SUW" amount = 50 version_name = "Hija Mk 0" }
+
+	}
+	1246 = { 								
+		tac_bomber_equipment_0 = { owner = "SUW" amount = 50 version_name = "Hija Mk 0" }
+
+	}
+	1249 = { 								
+		CAS_equipment_0 = { owner = "SUW" amount = 50 version_name = "Yemen Mk 1" }
+
+	}
+	1299 = { 								
+		fighter_equipment_0 = { owner = "SUW" amount = 50 version_name = "Hazn Mk 2" }
+
+	}
+
+
+}

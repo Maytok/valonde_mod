@@ -1,0 +1,25 @@
+air_wings = {
+		891 = { 								
+		CAS_equipment_0 = { owner = "ITU" amount = 50 version_name = "Anguta Mk 1" }
+
+	}
+	547 = { 								
+		nav_bomber_equipment_0 = { owner = "ITU" amount = 50 version_name = "Spuk Mk 1" }
+
+	}
+	893 = { 								
+		fighter_equipment_0 = { owner = "ITU" amount = 50 version_name = "Napak Mk 2" }
+nav_bomber_equipment_0 = { owner = "ITU" amount = 50 version_name = "Spuk Mk 1" }
+
+	}
+	883 = { 								
+		fighter_equipment_0 = { owner = "ITU" amount = 50 version_name = "Napak Mk 2" }
+
+	}
+	923 = { 								
+		CAS_equipment_0 = { owner = "ITU" amount = 50 version_name = "Anguta Mk 1" }
+
+	}
+
+
+}

@@ -1,0 +1,54 @@
+air_wings = {
+		546 = { 								
+		small_plane_airframe_0 = { owner = "ZAU" amount = 50 version_name = "Plumen Mk 2" }
+
+	}
+	1559 = { 								
+		small_plane_naval_bomber_airframe_1 = { owner = "ZAU" amount = 50 version_name = "Virtas Mk 0" }
+
+	}
+	467 = { 								
+		small_plane_naval_bomber_airframe_1 = { owner = "ZAU" amount = 50 version_name = "Virtas Mk 0" }
+small_plane_airframe_0 = { owner = "ZAU" amount = 50 version_name = "Plumen Mk 2" }
+medium_plane_airframe_0 = { owner = "ZAU" amount = 50 version_name = "Diesaenticie Mk 2" }
+
+	}
+	1492 = { 								
+		small_plane_airframe_1 = { owner = "ZAU" amount = 50 version_name = "Ordo Mk 2" }
+
+	}
+	1494 = { 								
+		small_plane_cas_airframe_0 = { owner = "ZAU" amount = 50 version_name = "Cortas Mk 1" }
+
+	}
+	1446 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "ZAU" amount = 50 version_name = "Regotifex Mk 1" }
+
+	}
+	382 = { 								
+		small_plane_cas_airframe_1 = { owner = "ZAU" amount = 50 version_name = "Viturus Mk 2" }
+
+	}
+	593 = { 								
+		small_plane_cas_airframe_1 = { owner = "ZAU" amount = 50 version_name = "Viturus Mk 2" }
+
+	}
+	1585 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "ZAU" amount = 50 version_name = "Regotifex Mk 1" }
+
+	}
+	667 = { 								
+		medium_plane_airframe_0 = { owner = "ZAU" amount = 50 version_name = "Diesaenticie Mk 2" }
+
+	}
+	1663 = { 								
+		small_plane_airframe_1 = { owner = "ZAU" amount = 50 version_name = "Ordo Mk 2" }
+
+	}
+	1574 = { 								
+		small_plane_cas_airframe_0 = { owner = "ZAU" amount = 50 version_name = "Cortas Mk 1" }
+
+	}
+
+
+}

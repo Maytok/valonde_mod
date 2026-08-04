@@ -1,0 +1,37 @@
+
+state={
+	id=374
+	name="STATE_374"
+	manpower = 3469375
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = ZAU
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = ZAU
+	}
+
+	provinces={
+		4289 4290 4291 4292 4293 4294 4295 4296 4297 4298 4299 4300 4301 4302 4303 4304 4305 4306 4307 
+	}
+	local_supplies=0.0 
+}

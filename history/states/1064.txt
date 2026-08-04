@@ -1,0 +1,37 @@
+
+state={
+	id=1064
+	name="STATE_1064"
+	manpower = 2835901
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=13
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = HIK
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = HIK
+	}
+
+	provinces={
+		12240 12241 12242 12243 12244 12245 12246 12247 12248 12249 12250 12251 12252 12253 12254 12255 
+	}
+	local_supplies=0.0 
+}

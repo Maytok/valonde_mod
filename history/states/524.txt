@@ -1,0 +1,37 @@
+
+state={
+	id=524
+	name="STATE_524"
+	manpower = 2435773
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=1
+	}
+
+	history={
+		
+		owner = KFT
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = KFT
+	}
+
+	provinces={
+		6112 6113 6114 6115 6116 6117 6118 6119 6120 6121 6122 6123 
+	}
+	local_supplies=0.0 
+}

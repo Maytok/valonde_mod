@@ -1,0 +1,281 @@
+capital = 1010
+
+oob = "MAT_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "MAT_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "MAT_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	support_weapons= 1
+	tech_support= 1
+	gw_artillery= 1
+	infantry_weapons1= 1
+	tech_maintenance_company= 1
+	interwar_antiair= 1
+	interwar_antitank= 1
+	interwar_artillery= 1
+	basic_machine_tools= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		engine_tech_1 = 1
+		armor_tech_1 = 1
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "MAT_1936_air_bba"
+		set_technology = {
+			
+		}
+
+	else = {
+		set_air_oob = "MAT_1936_air_legacy"
+		set_technology = {
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	early_destroyer = 1
+	
+	}
+	set_naval_oob = "MAT_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Shabala Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	early_ship_hull_light = 1
+	sonar = 1
+	
+	}
+	set_naval_oob = "MAT_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Shabala Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = ship_anti_air_1
+				rear_1_custom_slot = empty
+			}
+		}
+
+	}
+
+
+recruit_character = MAT_Faisan_Doharb
+recruit_character = MAT_Nabilali_Shalb
+recruit_character = MAT_Ibran_Dohayah
+recruit_character = MAT_Mohal_Harq
+recruit_character = MAT_Ahmoud_Turahra
+recruit_character = MAT_Saad_Kawat
+recruit_character = MAT_Bilah_Madi
+recruit_character = MAT_Mohal_Thalb
+recruit_character = MAT_Anwariq_Tharikma
+recruit_character = MAT_Sammed_Kutub
+recruit_character = MAT_Adnan_Shala
+recruit_character = MAT_Omar_Yemen
+recruit_character = MAT_Hamir_Suwatin
+recruit_character = MAT_Khami_Tifa
+recruit_character = MAT_Samza_Hafa
+recruit_character = MAT_Nabilahim_Fartourub
+recruit_character = MAT_Zaisan_Asat
+recruit_character = MAT_Abdullal_Turahra
+recruit_character = MAT_Hami_Majarq
+recruit_character = MAT_Nabilal_Shala
+recruit_character = MAT_Omar_Shalb
+recruit_character = MAT_Jamza_Shana
+recruit_character = MAT_Zaisalid_Madin
+recruit_character = MAT_Faisal_Burub
+recruit_character = MAT_Saad_Madin
+recruit_character = MAT_Yahmal_Kawat
+recruit_character = MAT_Yahim_Darasjidda
+recruit_character = MAT_Ibrahya_Hijra
+recruit_character = MAT_Kariq_Hijraka
+recruit_character = MAT_Anwariq_Saadin
+recruit_character = MAT_Ahmoud_Kalb
+recruit_character = MAT_Yahmal_Saadin
+recruit_character = MAT_Ibrahya_Majarq
+recruit_character = MAT_Yusuf_Zamt
+recruit_character = MAT_Hassali_Hazn
+recruit_character = MAT_Jami_Shabala
+recruit_character = MAT_Sammed_Sanamt
+recruit_character = MAT_Zaid_Reej
+recruit_character = MAT_Mohal_Narab
+recruit_character = MAT_Hassan_Hawara
+recruit_character = MAT_Nabilali_Sanamt
+recruit_character = MAT_Omarid_Raba
+recruit_character = MAT_Abdullal_Shalb
+recruit_character = MAT_Mohami_Darasjidda
+recruit_character = MAT_Khammed_Kitariq
+recruit_character = MAT_Faisal_Khalaktan
+recruit_character = MAT_Zaisalid_Fartourub
+recruit_character = MAT_Mahya_Ramaniyahr
+recruit_character = MAT_Omar_Makech
+recruit_character = MAT_Imran_Fartourub
+recruit_character = MAT_Hassan_Irabil
+recruit_character = MAT_Faisan_Asat
+recruit_character = MAT_Jamali_Maghra
+recruit_character = MAT_Sami_Noum
+recruit_character = MAT_Faisal_Ramanzim
+recruit_character = MAT_Faid_Kitariq
+recruit_character = MAT_Zaisalid_Hafa
+recruit_character = MAT_Adnan_Yemen
+recruit_character = MAT_Nabilal_Madina
+recruit_character = MAT_Jamza_Noum
+recruit_character = MAT_Bilah_Fartourub
+recruit_character = MAT_Ramza_Hafa
+recruit_character = MAT_Mohal_Kalb
+recruit_character = MAT_Ibrahim_Suwatin
+recruit_character = MAT_Ibrahim_Doharb
+recruit_character = MAT_Yahmoud_Hijraka
+recruit_character = MAT_Mahya_Hawara
+recruit_character = MAT_Samza_Qadi
+recruit_character = MAT_Ahmoud_Kitariq
+recruit_character = MAT_Jamir_Burub
+recruit_character = MAT_Jami_Hayr
+recruit_character = MAT_Adnan_Raba
+recruit_character = MAT_Zaid_Basrasra
+recruit_character = MAT_Sami_Kutub
+recruit_character = MAT_Jami_Hayahr
+recruit_character = MAT_Nabil_Tifl
+recruit_character = MAT_Mohal_Saabr
+recruit_character = MAT_Hami_Raba
+recruit_character = MAT_Mahya_Asat
+recruit_character = MAT_Anwarid_Khalama
+recruit_character = MAT_Hami_Hajaz
+recruit_character = MAT_Jami_Hawara
+recruit_character = MAT_Ibran_Shabala
+recruit_character = MAT_Yahim_Sahraba
+recruit_character = MAT_Jamir_Kawat
+recruit_character = MAT_Jamza_Khalaktan
+recruit_character = MAT_Mohami_Hikh
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 3
+set_convoys = 0
+set_stability = 0.55
+set_war_support = 0.45
+
+add_ideas = {
+volunteer_only
+civilian_economy
+export_focus
+}
+
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1914.7.15"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 12
+	fascism = 21
+	communism = 29
+	neutrality = 38
+}
+
+
+
+
+

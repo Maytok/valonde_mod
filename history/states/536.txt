@@ -1,0 +1,37 @@
+
+state={
+	id=536
+	name="STATE_536"
+	manpower = 1363478
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=4
+		chromium=4
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=4
+		coal=9
+	}
+
+	history={
+		
+		owner = DAN
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = DAN
+	}
+
+	provinces={
+		6291 6292 6293 6294 6295 6296 6297 6298 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=1138
+	name="STATE_1138"
+	manpower = 4202142
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=1
+		chromium=1
+		oil=0
+		rubber=6
+		steel=0
+		tungsten=1
+		coal=2
+	}
+
+	history={
+		
+		owner = MAM
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = MAM
+	}
+
+	provinces={
+		13133 13134 13135 13136 13137 13138 13139 13140 13141 13142 13143 13144 13145 13146 13147 13148 13149 13150 13151 13152 13153 13154 
+	}
+	local_supplies=0.0 
+}

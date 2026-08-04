@@ -1,0 +1,445 @@
+capital = 20
+
+oob = "AJT_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "AJT_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "AJT_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	support_weapons= 1
+	tech_trucks= 1
+	tech_support= 1
+	gw_artillery= 1
+	infantry_weapons1= 1
+	marines= 1
+	motorised_infantry= 1
+	tech_recon= 1
+	tech_military_police= 1
+	tech_maintenance_company= 1
+	interwar_antiair= 1
+	interwar_artillery= 1
+	basic_machine_tools= 1
+	fuel_silos= 1
+	construction1= 1
+	basic_fortification_tech= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+		improved_light_tank = 1
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+		engine_tech_1 = 1
+		armor_tech_1 = 1
+		improved_light_tank_chassis = 1
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+		create_equipment_variant = {
+		name = "Imox Mk 0"
+		type = heavy_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = extra_ammo_storage
+			special_type_slot_2 = smoke_launchers
+			suspension_type_slot = tank_christie_suspension
+			turret_type_slot = tank_heavy_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Chok Mk 0"
+		type = light_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_small_cannon_2
+			special_type_slot_1 = secondary_turret_hmg
+			special_type_slot_2 = wet_ammo_storage
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_light_fixed_superstructure_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Zotzikin Mk 1"
+		type = light_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_close_support_gun
+			special_type_slot_1 = smoke_launchers
+			special_type_slot_2 = expanded_fuel_tank
+			special_type_slot_3 = extra_ammo_storage
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_light_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Etzib Mk 0"
+		type = light_tank_chassis_2
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_close_support_gun
+			special_type_slot_1 = secondary_turret_small_cannon
+			special_type_slot_2 = smoke_launchers
+			special_type_slot_3 = extra_ammo_storage
+			suspension_type_slot = tank_christie_suspension
+			turret_type_slot = tank_light_one_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Balan Mk 1"
+		type = medium_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_medium_cannon
+			special_type_slot_1 = secondary_turret_hmg
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_medium_one_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "AJT_1936_air_bba"
+		set_technology = {
+			iw_small_airframe = 1
+			iw_medium_airframe = 1
+			early_bombs = 1
+			photo_reconnaisance = 1
+			aa_lmg = 1
+			engines_1 = 1
+			aircraft_construction = 1
+			bba_early_transport_plane = 1
+			iw_small_airframe = 1
+			
+		}
+		create_equipment_variant = {
+			name = "Ahak Mk 1"
+			type = small_plane_cas_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = bomb_locks
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Tzam Mk 0"
+			type = small_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = light_mg_2x
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Baktunil Mk 1"
+			type = medium_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_2x
+			fixed_main_weapon_slot = medium_bomb_bay
+			special_type_slot_1 = lmg_defense_turret
+
+			}
+		}
+
+	else = {
+		set_air_oob = "AJT_1936_air_legacy"
+		set_technology = {
+			early_fighter = 1
+			early_bomber = 1
+			CAS1 = 1
+			scout_plane1 = 1
+			early_transport_plane = 1
+			early_fighter = 1
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	early_destroyer = 1
+	
+	}
+	set_naval_oob = "AJT_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Canampak Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	early_ship_hull_light = 1
+	sonar = 1
+	
+	}
+	set_naval_oob = "AJT_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Canampak Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = empty
+				rear_1_custom_slot = ship_anti_air_1
+			}
+		}
+
+	}
+
+
+recruit_character = AJT_Tohichen_Chilacom
+recruit_character = AJT_Pakan_Tzam
+recruit_character = AJT_Itzam_Witzik
+recruit_character = AJT_Nacatl_Tohok
+recruit_character = AJT_Bacom_Caracom
+recruit_character = AJT_Nacatl_Witzik
+recruit_character = AJT_Acab_Mutal
+recruit_character = AJT_Oxib_Tzalomte
+recruit_character = AJT_Nacatl_Chilaktunila
+recruit_character = AJT_Kukulkalam_Katuna
+recruit_character = AJT_Acab_Kanil
+recruit_character = AJT_Ekchichen_Tzol
+recruit_character = AJT_Pakan_Noholkin
+recruit_character = AJT_Kukulkalam_Kabalakal
+recruit_character = AJT_Acab_Ajpu
+recruit_character = AJT_Popo_Cozumel
+recruit_character = AJT_Bacom_Ahaktunilaco
+recruit_character = AJT_Kukulkal_Xban
+recruit_character = AJT_Acatl_Mutal
+recruit_character = AJT_Chua_Ajpu
+recruit_character = AJT_Pakal_Ajtznaabah
+recruit_character = AJT_Bacom_Bona
+recruit_character = AJT_Moctez_Chichenquen
+recruit_character = AJT_Kukulkalam_Kancuen
+recruit_character = AJT_Kanek_Naabahpu
+recruit_character = AJT_Popo_Xban
+recruit_character = AJT_Kukulkal_Balahlak
+recruit_character = AJT_Kanek_Bonab
+recruit_character = AJT_Kukulkanek_Witzik
+recruit_character = AJT_Nacom_Ajpu
+recruit_character = AJT_Ekchakal_Zotz
+recruit_character = AJT_Itzam_Halam
+recruit_character = AJT_Bacom_Balan
+recruit_character = AJT_Popo_Chilacom
+recruit_character = AJT_Nacatl_Kancuen
+recruit_character = AJT_Pakal_Zotzaman
+recruit_character = AJT_Chichen_Tzam
+recruit_character = AJT_Ekchua_Chichenquen
+recruit_character = AJT_Chichen_Nahuatun
+recruit_character = AJT_Ekchichen_Kukulkaba
+recruit_character = AJT_Kanek_Bonah
+recruit_character = AJT_Acab_Ahak
+recruit_character = AJT_Yaxkin_Mutal
+recruit_character = AJT_Kukulkanek_Kate
+recruit_character = AJT_Bacatl_Halamna
+recruit_character = AJT_Acab_Balahlak
+recruit_character = AJT_Acab_Katecanquen
+recruit_character = AJT_Itzam_Chilacom
+recruit_character = AJT_Chichen_Ahaktunilaco
+recruit_character = AJT_Popo_Nojil
+recruit_character = AJT_Balam_Yaxun
+recruit_character = AJT_Tecun_Halam
+recruit_character = AJT_Nacom_Oxlam
+recruit_character = AJT_Bacom_Aguate
+recruit_character = AJT_Pakan_Tunabalancue
+recruit_character = AJT_Ekchak_Yaxch
+recruit_character = AJT_Popo_Tzib
+recruit_character = AJT_Pakan_Cobah
+recruit_character = AJT_Kukulkalam_Ahaktunilaco
+recruit_character = AJT_Kanek_Witznai
+recruit_character = AJT_Acab_Tzikin
+recruit_character = AJT_Itzam_Bacolkal
+recruit_character = AJT_Bacatl_Naabahpu
+recruit_character = AJT_Oxib_Tzikin
+recruit_character = AJT_Nacatl_Sayilanil
+recruit_character = AJT_Nacatl_Ajtznaabah
+recruit_character = AJT_Acatl_Halamna
+recruit_character = AJT_Nacatl_Tzikin
+recruit_character = AJT_Ahkin_Chok
+recruit_character = AJT_Ekchua_Kabalakal
+recruit_character = AJT_Itzam_Tohok
+recruit_character = AJT_Ekchak_Chilam
+recruit_character = AJT_Acab_Bacolkal
+recruit_character = AJT_Ekchak_Haaba
+recruit_character = AJT_Nacom_Etzib
+recruit_character = AJT_Acatl_Katecanquen
+recruit_character = AJT_Balam_Bacolkal
+recruit_character = AJT_Tecun_Tzikin
+recruit_character = AJT_Ekchak_Katecanquen
+recruit_character = AJT_Ekchua_Ajawakmul
+recruit_character = AJT_Kukulkanek_Halamna
+recruit_character = AJT_Moctez_Tzol
+recruit_character = AJT_Tecun_Kabalakal
+recruit_character = AJT_Nacom_Nahuatun
+recruit_character = AJT_Acab_Nahuatun
+recruit_character = AJT_Bacatl_Ahak
+recruit_character = AJT_Chichen_Witzik
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 3
+set_convoys = 0
+set_stability = 0.88
+set_war_support = 0.57
+
+add_ideas = {
+disarmed_nation
+low_economic_mobilisation
+limited_exports
+}
+
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1932.7.3"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 30
+	fascism = 23
+	communism = 21
+	neutrality = 26
+}
+
+
+
+
+

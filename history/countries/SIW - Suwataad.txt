@@ -1,0 +1,507 @@
+capital = 1248
+
+oob = "SIW_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "SIW_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "SIW_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	support_weapons= 1
+	tech_trucks= 1
+	tech_support= 1
+	gw_artillery= 1
+	infantry_weapons1= 1
+	marines= 1
+	tech_mountaineers= 1
+	motorised_infantry= 1
+	tech_engineers= 1
+	tech_recon= 1
+	tech_military_police= 1
+	tech_maintenance_company= 1
+	interwar_antiair= 1
+	interwar_antitank= 1
+	interwar_artillery= 1
+	basic_machine_tools= 1
+	fuel_silos= 1
+	construction1= 1
+	synth_oil_experiments= 1
+	basic_fire_control_system= 1
+	basic_fortification_tech= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+		basic_heavy_tank = 1
+		improved_light_tank = 1
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+		basic_heavy_tank_chassis = 1
+		engine_tech_1 = 1
+		improved_light_tank_chassis = 1
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+		create_equipment_variant = {
+		name = "Madi Mk 2"
+		type = heavy_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = wet_ammo_storage
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_heavy_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Imaada Mk 1"
+		type = heavy_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = smoke_launchers
+			special_type_slot_2 = expanded_fuel_tank
+			special_type_slot_3 = wet_ammo_storage
+			suspension_type_slot = tank_christie_suspension
+			turret_type_slot = tank_heavy_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Irabil Mk 2"
+		type = light_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_close_support_gun
+			special_type_slot_1 = secondary_turret_small_cannon
+			special_type_slot_2 = smoke_launchers
+			special_type_slot_3 = expanded_fuel_tank
+			suspension_type_slot = tank_interleaved_suspension
+			turret_type_slot = tank_light_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Tharikma Mk 0"
+		type = light_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_small_cannon
+			special_type_slot_1 = secondary_turret_small_cannon
+			special_type_slot_2 = smoke_launchers
+			special_type_slot_3 = expanded_fuel_tank
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_light_fixed_superstructure_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Kalb Mk 1"
+		type = light_tank_chassis_2
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_small_cannon
+			special_type_slot_1 = secondary_turret_hmg
+			special_type_slot_2 = smoke_launchers
+			special_type_slot_3 = expanded_fuel_tank
+			suspension_type_slot = tank_interleaved_suspension
+			turret_type_slot = tank_light_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Hikh Mk 1"
+		type = medium_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_medium_cannon
+			special_type_slot_1 = secondary_turret_small_cannon
+			special_type_slot_2 = expanded_fuel_tank
+			special_type_slot_3 = wet_ammo_storage
+			suspension_type_slot = tank_christie_suspension
+			turret_type_slot = tank_medium_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "SIW_1936_air_bba"
+		set_technology = {
+			bba_early_transport_plane = 1
+			iw_small_airframe = 1
+			iw_medium_airframe = 1
+			iw_large_airframe = 1
+			early_bombs = 1
+			air_torpedoe_1 = 1
+			aa_lmg = 1
+			engines_1 = 1
+			aircraft_construction = 1
+			armor_piercing_bombs = 1
+			basic_large_airframe = 1
+			
+		}
+		create_equipment_variant = {
+			name = "Fajd Mk 2"
+			type = large_plane_airframe_1
+			modules = {
+							engine_type_slot = engine_1_4x
+			fixed_main_weapon_slot = large_bomb_bay
+			special_type_slot_1 = lmg_defense_turret
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Tifa Mk 2"
+			type = small_plane_cas_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = bomb_locks
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Mawkaba Mk 0"
+			type = small_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = light_mg_2x
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Reej Mk 1"
+			type = small_plane_naval_bomber_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = torpedo_mounting
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Shayatina Mk 1"
+			type = large_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_4x
+			fixed_main_weapon_slot = large_bomb_bay
+			special_type_slot_1 = lmg_defense_turret
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Shabala Mk 2"
+			type = medium_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_2x
+			fixed_main_weapon_slot = medium_bomb_bay
+			special_type_slot_1 = lmg_defense_turret
+
+			}
+		}
+
+	else = {
+		set_air_oob = "SIW_1936_air_legacy"
+		set_technology = {
+			early_transport_plane = 1
+			early_fighter = 1
+			early_bomber = 1
+			strategic_bomber1 = 1
+			CAS1 = 1
+			naval_bomber1 = 1
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	early_destroyer = 1
+	
+	}
+	set_naval_oob = "SIW_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Bahayal Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	early_ship_hull_light = 1
+	sonar = 1
+	
+	}
+	set_naval_oob = "SIW_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Bahayal Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = empty
+				rear_1_custom_slot = empty
+			}
+		}
+
+	}
+
+
+recruit_character = SIW_Zaisan_Ramanzim
+recruit_character = SIW_Omarid_Hajr
+recruit_character = SIW_Mohami_Shibl
+recruit_character = SIW_Anwar_Khalama
+recruit_character = SIW_Nabilali_Shayatina
+recruit_character = SIW_Yahmal_Fartourub
+recruit_character = SIW_Jammed_Fartourub
+recruit_character = SIW_Sammed_Rawat
+recruit_character = SIW_Mohal_Dohayah
+recruit_character = SIW_Jami_Hajr
+recruit_character = SIW_Rammed_Hijra
+recruit_character = SIW_Mahmad_Khaman
+recruit_character = SIW_Ibrah_Kutub
+recruit_character = SIW_Anwar_Mawkaba
+recruit_character = SIW_Kariq_Ghur
+recruit_character = SIW_Nabil_Kutub
+recruit_character = SIW_Hassali_Namartoum
+recruit_character = SIW_Samariq_Shabala
+recruit_character = SIW_Hassal_Nizam
+recruit_character = SIW_Ibran_Rawat
+recruit_character = SIW_Omarid_Saabr
+recruit_character = SIW_Mahmad_Noum
+recruit_character = SIW_Yahim_Shaqq
+recruit_character = SIW_Zaid_Shayatina
+recruit_character = SIW_Zaid_Hija
+recruit_character = SIW_Bilal_Khalaktan
+recruit_character = SIW_Jamza_Shalb
+recruit_character = SIW_Samza_Sharitaadi
+recruit_character = SIW_Omar_Shala
+recruit_character = SIW_Faisal_Sahraba
+recruit_character = SIW_Mohami_Burub
+recruit_character = SIW_Jamza_Bahayal
+recruit_character = SIW_Zaisan_Rihlakech
+recruit_character = SIW_Ibrahya_Kawat
+recruit_character = SIW_Yahim_Saadin
+recruit_character = SIW_Abdullal_Makanam
+recruit_character = SIW_Sami_Shabala
+recruit_character = SIW_Nabilahim_Irabil
+recruit_character = SIW_Mahya_Kalb
+recruit_character = SIW_Yahmal_Nizam
+recruit_character = SIW_Sammed_Burub
+recruit_character = SIW_Omal_Hikmahibl
+recruit_character = SIW_Zaisan_Turahra
+recruit_character = SIW_Zaisan_Yemen
+recruit_character = SIW_Zaisalid_Sharitaadi
+recruit_character = SIW_Karid_Basrasra
+recruit_character = SIW_Nabil_Zamt
+recruit_character = SIW_Ibran_Masjidda
+recruit_character = SIW_Bilah_Shabala
+recruit_character = SIW_Khammed_Rihlakech
+recruit_character = SIW_Yahmal_Kalb
+recruit_character = SIW_Bilal_Khaml
+recruit_character = SIW_Yusuf_Mawda
+recruit_character = SIW_Mohami_Kawat
+recruit_character = SIW_Jamali_Maghrahr
+recruit_character = SIW_Faisal_Basrasra
+recruit_character = SIW_Majid_Madina
+recruit_character = SIW_Khamad_Basrasra
+recruit_character = SIW_Ibrahya_Darasjidda
+recruit_character = SIW_Ibrahim_Fajd
+recruit_character = SIW_Hassal_Asat
+recruit_character = SIW_Yusuf_Hajaz
+recruit_character = SIW_Imran_Fajd
+recruit_character = SIW_Jami_Sharitaadi
+recruit_character = SIW_Rammed_Makech
+recruit_character = SIW_Kariq_Maml
+recruit_character = SIW_Mohami_Majarq
+recruit_character = SIW_Jamali_Mawkana
+recruit_character = SIW_Sammed_Kalb
+recruit_character = SIW_Jamza_Majartourhan
+recruit_character = SIW_Hami_Fartourub
+recruit_character = SIW_Zaisan_Madi
+recruit_character = SIW_Fariq_Nizam
+recruit_character = SIW_Bilal_Shayatina
+recruit_character = SIW_Anwar_Hikmahibl
+recruit_character = SIW_Jamir_Suwatin
+recruit_character = SIW_Jammed_Sahraba
+recruit_character = SIW_Hassali_Harq
+recruit_character = SIW_Nabilali_Shaqafa
+recruit_character = SIW_Yahmal_Shaqafa
+recruit_character = SIW_Jammed_Ghur
+recruit_character = SIW_Yusuf_Ghur
+recruit_character = SIW_Fariq_Qadi
+recruit_character = SIW_Ibrahim_Irabil
+recruit_character = SIW_Sami_Masjidda
+recruit_character = SIW_Sammed_Darasjidda
+recruit_character = SIW_Fariq_Muna
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 5
+set_convoys = 0
+set_stability = 0.92
+set_war_support = 0.52
+
+add_ideas = {
+volunteer_only
+civilian_economy
+export_focus
+}
+
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1887.8.24"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 36
+	fascism = 0
+	communism = 15
+	neutrality = 49
+}
+
+
+create_faction_from_template = faction_template_regional_anti_communist
+add_to_faction = SIW
+

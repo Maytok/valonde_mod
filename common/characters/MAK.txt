@@ -1,0 +1,1083 @@
+characters = {
+	MAK_Hassan_Darasjidda={
+		name="Hassan Darasjidda"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { he_who_bears_the_throne  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MAK_Hamir_Hijraka={
+		name="Hamir Hijraka"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Hamir_Hijraka
+			traits = {	agricultural_nationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	MAK_Alid_Hayahr={
+		name="Alid Hayahr"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Alid_Hayahr
+			traits = {	national_determinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	MAK_Imrahya_Mawda={
+		name="Imrahya Mawda"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Imrahya_Mawda
+			traits = {	right_industrialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	MAK_Anwarid_Harq={
+		name="Anwarid Harq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Anwarid_Harq
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	MAK_Zaisalid_Bahayal={
+		name="Zaisalid Bahayal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Zaisalid_Bahayal
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	MAK_Hassan_Hikmalaktasa={
+		name="Hassan Hikmalaktasa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Hassan_Hikmalaktasa
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	MAK_Mahmad_Kutub={
+		name="Mahmad Kutub"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAK_Mahmad_Kutub
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	MAK_Khamad_Diwat={
+		name="Khamad Diwat"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAK_Khamad_Diwat
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	MAK_Ibran_Hikmahibl={
+		name="Ibran Hikmahibl"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAK_Ibran_Hikmahibl
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	MAK_Ramza_Harq={
+		name="Ramza Harq"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAK_Ramza_Harq
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	MAK_Ibran_Muna={
+		name="Ibran Muna"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MAK_Ibran_Muna
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	MAK_Faisal_Doharb={
+		name="Faisal Doharb"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MAK_Faisal_Doharb
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	MAK_Omarid_Ghur={
+		name="Omarid Ghur"
+
+		advisor={
+			slot = air_chief
+			idea_token = MAK_Omarid_Ghur
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	MAK_Ibrahya_Hazn={
+		name="Ibrahya Hazn"
+
+		advisor={
+			slot = air_chief
+			idea_token = MAK_Ibrahya_Hazn
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	MAK_Faisal_Shalb={
+		name="Faisal Shalb"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Faisal_Shalb
+			traits = {	army_armored_1 	}
+		}
+
+
+	}
+	MAK_Nabilali_Basrasra={
+		name="Nabilali Basrasra"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Nabilali_Basrasra
+			traits = {	navy_capital_ship_1 	}
+		}
+
+
+	}
+	MAK_Sammed_Shayatina={
+		name="Sammed Shayatina"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Sammed_Shayatina
+			traits = {	army_commando_2 	}
+		}
+
+
+	}
+	MAK_Omar_Saabr={
+		name="Omar Saabr"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Omar_Saabr
+			traits = {	navy_amphibious_assault_1 	}
+		}
+
+
+	}
+	MAK_Jamali_Sanamt={
+		name="Jamali Sanamt"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Jamali_Sanamt
+			traits = {	navy_carrier_2 	}
+		}
+
+
+	}
+	MAK_Samza_Shaqq={
+		name="Samza Shaqq"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Samza_Shaqq
+			traits = {	navy_fleet_logistics_2 	}
+		}
+
+
+	}
+	MAK_Yusuf_Bahayal={
+		name="Yusuf Bahayal"
+
+		
+		country_leader={
+			ideology=nazism
+			traits = { militant_minister  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MAK_Hamir_Dohayah={
+		name="Hamir Dohayah"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Hamir_Dohayah
+			traits = {	inexperienced_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	MAK_Adnan_Turahra={
+		name="Adnan Turahra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Adnan_Turahra
+			traits = {	generallissimo 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	MAK_Khal_Zamt={
+		name="Khal Zamt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Khal_Zamt
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	MAK_Bilal_Shaqq={
+		name="Bilal Shaqq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Bilal_Shaqq
+			traits = {	generallissimo 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	MAK_Faisal_Khalama={
+		name="Faisal Khalama"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Faisal_Khalama
+			traits = {	spirit_of_genghis 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	MAK_Hami_Imaada={
+		name="Hami Imaada"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Hami_Imaada
+			traits = {	militant_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	MAK_Anwarid_Madi={
+		name="Anwarid Madi"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAK_Anwarid_Madi
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	MAK_Mahya_Kawat={
+		name="Mahya Kawat"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAK_Mahya_Kawat
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	MAK_Khami_Mawda={
+		name="Khami Mawda"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAK_Khami_Mawda
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	MAK_Zaid_Turahra={
+		name="Zaid Turahra"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAK_Zaid_Turahra
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	MAK_Bilah_Hawara={
+		name="Bilah Hawara"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MAK_Bilah_Hawara
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	MAK_Hami_Hijraka={
+		name="Hami Hijraka"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MAK_Hami_Hijraka
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	MAK_Karid_Maml={
+		name="Karid Maml"
+
+		advisor={
+			slot = air_chief
+			idea_token = MAK_Karid_Maml
+			traits = {	air_chief_all_weather_1 	}
+		}
+
+
+	}
+	MAK_Nabilahim_Suwatin={
+		name="Nabilahim Suwatin"
+
+		advisor={
+			slot = air_chief
+			idea_token = MAK_Nabilahim_Suwatin
+			traits = {	air_chief_all_weather_2 	}
+		}
+
+
+	}
+	MAK_Bilal_Khaman={
+		name="Bilal Khaman"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Bilal_Khaman
+			traits = {	navy_fleet_logistics_2 	}
+		}
+
+
+	}
+	MAK_Nabilali_Noum={
+		name="Nabilali Noum"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Nabilali_Noum
+			traits = {	army_CombinedArms_1 	}
+		}
+
+
+	}
+	MAK_Karid_Saabr={
+		name="Karid Saabr"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Karid_Saabr
+			traits = {	navy_naval_air_defense_2 	}
+		}
+
+
+	}
+	MAK_Hassal_Dohayah={
+		name="Hassal Dohayah"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Hassal_Dohayah
+			traits = {	army_infantry_2 	}
+		}
+
+
+	}
+	MAK_Anwar_Imaada={
+		name="Anwar Imaada"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Anwar_Imaada
+			traits = {	air_airborne_2 	}
+		}
+
+
+	}
+	MAK_Saad_Tifl={
+		name="Saad Tifl"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Saad_Tifl
+			traits = {	army_cavalry_1 	}
+		}
+
+
+	}
+	MAK_Mohal_Shibl={
+		name="Mohal Shibl"
+
+		
+		country_leader={
+			ideology=stalinism
+			traits = { revolutionary_poet  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MAK_Anwariq_Mawda={
+		name="Anwariq Mawda"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Anwariq_Mawda
+			traits = {	patriotic_socialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	MAK_Omarid_Hikh={
+		name="Omarid Hikh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Omarid_Hikh
+			traits = {	political_dancer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	MAK_Khal_Hikmahibl={
+		name="Khal Hikmahibl"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Khal_Hikmahibl
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	MAK_Anwar_Ramaniyahr={
+		name="Anwar Ramaniyahr"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Anwar_Ramaniyahr
+			traits = {	anti_bolshevik_leftist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	MAK_Jamali_Hikh={
+		name="Jamali Hikh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Jamali_Hikh
+			traits = {	mastermind_code_cracker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	MAK_Hassal_Khalama={
+		name="Hassal Khalama"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Hassal_Khalama
+			traits = {	mastermind_code_cracker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	MAK_Jami_Maktarah={
+		name="Jami Maktarah"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAK_Jami_Maktarah
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	MAK_Bilal_Doharb={
+		name="Bilal Doharb"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAK_Bilal_Doharb
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	MAK_Jami_Hayahr={
+		name="Jami Hayahr"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAK_Jami_Hayahr
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	MAK_Saad_Khalaktan={
+		name="Saad Khalaktan"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAK_Saad_Khalaktan
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	MAK_Ibran_Kalb={
+		name="Ibran Kalb"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MAK_Ibran_Kalb
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	MAK_Sami_Hajaz={
+		name="Sami Hajaz"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MAK_Sami_Hajaz
+			traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+
+	}
+	MAK_Hassali_Noum={
+		name="Hassali Noum"
+
+		advisor={
+			slot = air_chief
+			idea_token = MAK_Hassali_Noum
+			traits = {	air_chief_all_weather_2 	}
+		}
+
+
+	}
+	MAK_Jamza_Hikmahibl={
+		name="Jamza Hikmahibl"
+
+		advisor={
+			slot = air_chief
+			idea_token = MAK_Jamza_Hikmahibl
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	MAK_Imran_Shabala={
+		name="Imran Shabala"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Imran_Shabala
+			traits = {	army_artillery_2 	}
+		}
+
+
+	}
+	MAK_Fariq_Tifa={
+		name="Fariq Tifa"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Fariq_Tifa
+			traits = {	navy_fleet_logistics_1 	}
+		}
+
+
+	}
+	MAK_Karid_Nariq={
+		name="Karid Nariq"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Karid_Nariq
+			traits = {	army_radio_intelligence_2 	}
+		}
+
+
+	}
+	MAK_Abdullal_Kawat={
+		name="Abdullal Kawat"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Abdullal_Kawat
+			traits = {	army_artillery_2 	}
+		}
+
+
+	}
+	MAK_Ramir_Hikmalaktasa={
+		name="Ramir Hikmalaktasa"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Ramir_Hikmalaktasa
+			traits = {	air_strategic_bombing_2 	}
+		}
+
+
+	}
+	MAK_Ibrahim_Suwataad={
+		name="Ibrahim Suwataad"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Ibrahim_Suwataad
+			traits = {	army_artillery_2 	}
+		}
+
+
+	}
+	MAK_Abdullal_Maktarah={
+		name="Abdullal Maktarah"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { the_young_magnate  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MAK_Omar_Maghrahr={
+		name="Omar Maghrahr"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Omar_Maghrahr
+			traits = {	veteran_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	MAK_Khami_Fajd={
+		name="Khami Fajd"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Khami_Fajd
+			traits = {	conservative_grandee 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	MAK_Ibrahim_Burub={
+		name="Ibrahim Burub"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Ibrahim_Burub
+			traits = {	conservative_grandee 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	MAK_Omal_Diwat={
+		name="Omal Diwat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Omal_Diwat
+			traits = {	democratic_crusader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	MAK_Zaid_Maghrahr={
+		name="Zaid Maghrahr"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Zaid_Maghrahr
+			traits = {	conservative_grandee 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	MAK_Karid_Sanamt={
+		name="Karid Sanamt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAK_Karid_Sanamt
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	MAK_Sammed_Hikmalaktasa={
+		name="Sammed Hikmalaktasa"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAK_Sammed_Hikmalaktasa
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	MAK_Yahim_Maghrahr={
+		name="Yahim Maghrahr"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAK_Yahim_Maghrahr
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	MAK_Kariq_Makanam={
+		name="Kariq Makanam"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAK_Kariq_Makanam
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	MAK_Ibrah_Burub={
+		name="Ibrah Burub"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAK_Ibrah_Burub
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	MAK_Nabilahim_Shayatina={
+		name="Nabilahim Shayatina"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MAK_Nabilahim_Shayatina
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	MAK_Nabilahim_Diwat={
+		name="Nabilahim Diwat"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MAK_Nabilahim_Diwat
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	MAK_Faisal_Irabil={
+		name="Faisal Irabil"
+
+		advisor={
+			slot = air_chief
+			idea_token = MAK_Faisal_Irabil
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	MAK_Mohami_Madin={
+		name="Mohami Madin"
+
+		advisor={
+			slot = air_chief
+			idea_token = MAK_Mohami_Madin
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	MAK_Kariq_Maghra={
+		name="Kariq Maghra"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Kariq_Maghra
+			traits = {	army_commando_1 	}
+		}
+
+
+	}
+	MAK_Zaisan_Shala={
+		name="Zaisan Shala"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Zaisan_Shala
+			traits = {	air_pilot_training_1 	}
+		}
+
+
+	}
+	MAK_Nabilahim_Burub={
+		name="Nabilahim Burub"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Nabilahim_Burub
+			traits = {	army_commando_1 	}
+		}
+
+
+	}
+	MAK_Nabilali_Harda={
+		name="Nabilali Harda"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Nabilali_Harda
+			traits = {	army_CombinedArms_2 	}
+		}
+
+
+	}
+	MAK_Yusuf_Shala={
+		name="Yusuf Shala"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Yusuf_Shala
+			traits = {	navy_carrier_2 	}
+		}
+
+
+	}
+	MAK_Omal_Hikmahibl={
+		name="Omal Hikmahibl"
+
+		advisor={
+			slot = high_command
+			idea_token = MAK_Omal_Hikmahibl
+			traits = {	navy_naval_air_defense_2 	}
+		}
+
+
+	}
+	MAK_Karid_Fartourub={
+		name="Karid Fartourub"
+
+		advisor={
+			slot = theorist
+			idea_token = MAK_Karid_Fartourub
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	MAK_Fariq_Bahayal={
+		name="Fariq Bahayal"
+
+		advisor={
+			slot = theorist
+			idea_token = MAK_Fariq_Bahayal
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	MAK_Mohal_Tifa={
+		name="Mohal Tifa"
+
+		advisor={
+			slot = theorist
+			idea_token = MAK_Mohal_Tifa
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

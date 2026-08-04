@@ -1,0 +1,37 @@
+
+state={
+	id=359
+	name="STATE_359"
+	manpower = 1779743
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=3
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = SHA
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = SHA
+	}
+
+	provinces={
+		4137 4138 4139 4140 4141 4142 4143 4144 4145 
+	}
+	local_supplies=0.0 
+}

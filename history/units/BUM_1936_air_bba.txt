@@ -1,0 +1,41 @@
+air_wings = {
+		433 = { 								
+		medium_plane_airframe_0 = { owner = "BUM" amount = 50 version_name = "Imaifu Mk 1" }
+
+	}
+	1357 = { 								
+		small_plane_cas_airframe_0 = { owner = "BUM" amount = 50 version_name = "Hisu Mk 1" }
+small_plane_airframe_0 = { owner = "BUM" amount = 50 version_name = "Checho Mk 0" }
+
+	}
+	194 = { 								
+		medium_plane_airframe_0 = { owner = "BUM" amount = 50 version_name = "Imaifu Mk 1" }
+
+	}
+	1373 = { 								
+		small_plane_cas_airframe_1 = { owner = "BUM" amount = 50 version_name = "Mlimaisia Mk 0" }
+
+	}
+	1361 = { 								
+		small_plane_airframe_1 = { owner = "BUM" amount = 50 version_name = "Kumba Mk 0" }
+
+	}
+	1364 = { 								
+		small_plane_airframe_0 = { owner = "BUM" amount = 50 version_name = "Checho Mk 0" }
+
+	}
+	1368 = { 								
+		small_plane_cas_airframe_0 = { owner = "BUM" amount = 50 version_name = "Hisu Mk 1" }
+
+	}
+	1672 = { 								
+		small_plane_airframe_1 = { owner = "BUM" amount = 50 version_name = "Kumba Mk 0" }
+
+	}
+	1363 = { 								
+		small_plane_cas_airframe_1 = { owner = "BUM" amount = 50 version_name = "Mlimaisia Mk 0" }
+
+	}
+
+
+}

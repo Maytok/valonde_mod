@@ -1,0 +1,37 @@
+
+state={
+	id=665
+	name="STATE_665"
+	manpower = 1957862
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = KIM
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = KIM
+	}
+
+	provinces={
+		7830 7831 7832 7833 7834 7835 7836 7837 7838 7839 7840 7841 
+	}
+	local_supplies=0.0 
+}

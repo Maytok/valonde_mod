@@ -1,0 +1,37 @@
+
+state={
+	id=391
+	name="STATE_391"
+	manpower = 1770071
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=12
+		chromium=13
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=12
+		coal=31
+	}
+
+	history={
+		
+		owner = NDO
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = NDO
+	}
+
+	provinces={
+		4452 4453 4454 4455 4456 4457 4458 4459 4460 4461 
+	}
+	local_supplies=0.0 
+}

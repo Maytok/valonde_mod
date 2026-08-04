@@ -1,0 +1,37 @@
+
+state={
+	id=1445
+	name="STATE_1445"
+	manpower = 3170976
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = ZAU
+		buildings = {
+			infrastructure = 4
+			
+			arms_factory = 1
+			industrial_complex = 3
+			
+			
+		}
+		add_core_of = ZAU
+	}
+
+	provinces={
+		16541 16542 16543 16544 16545 16546 16547 16548 16549 16550 16551 16552 16553 16554 16555 16556 
+	}
+	local_supplies=0.0 
+}

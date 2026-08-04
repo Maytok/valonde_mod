@@ -1,0 +1,25 @@
+air_wings = {
+		1310 = { 								
+		small_plane_airframe_0 = { owner = "SUW" amount = 50 version_name = "Hazn Mk 2" }
+
+	}
+	1306 = { 								
+		small_plane_cas_airframe_0 = { owner = "SUW" amount = 50 version_name = "Yemen Mk 1" }
+medium_plane_airframe_0 = { owner = "SUW" amount = 50 version_name = "Hija Mk 0" }
+
+	}
+	1246 = { 								
+		medium_plane_airframe_0 = { owner = "SUW" amount = 50 version_name = "Hija Mk 0" }
+
+	}
+	1249 = { 								
+		small_plane_cas_airframe_0 = { owner = "SUW" amount = 50 version_name = "Yemen Mk 1" }
+
+	}
+	1299 = { 								
+		small_plane_airframe_0 = { owner = "SUW" amount = 50 version_name = "Hazn Mk 2" }
+
+	}
+
+
+}

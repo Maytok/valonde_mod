@@ -1,0 +1,37 @@
+
+state={
+	id=932
+	name="STATE_932"
+	manpower = 492917
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=43
+		chromium=45
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=43
+		coal=109
+	}
+
+	history={
+		
+		owner = CES
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = CES
+	}
+
+	provinces={
+		10738 10739 10740 10741 10742 
+	}
+	local_supplies=0.0 
+}

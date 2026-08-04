@@ -1,0 +1,37 @@
+
+state={
+	id=1011
+	name="STATE_1011"
+	manpower = 4891570
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=4
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = HIK
+		buildings = {
+			infrastructure = 4
+			air_base = 3
+			arms_factory = 2
+			industrial_complex = 2
+			dockyard = 1
+			
+		}
+		add_core_of = HIK
+	}
+
+	provinces={
+		11586 11587 11588 11589 11590 11591 11592 11593 11594 11595 11596 11597 11598 11599 11600 11601 11602 11603 11604 11605 11606 11607 11608 11609 11610 
+	}
+	local_supplies=0.0 
+}

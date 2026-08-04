@@ -1,0 +1,37 @@
+
+state={
+	id=409
+	name="STATE_409"
+	manpower = 1415193
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = MTN
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = MTN
+	}
+
+	provinces={
+		4718 4719 4720 4721 4722 4723 4724 4725 4726 
+	}
+	local_supplies=0.0 
+}

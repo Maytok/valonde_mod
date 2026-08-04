@@ -1,0 +1,270 @@
+capital = 342
+
+oob = "KIJ_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "KIJ_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "KIJ_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "KIJ_1936_air_bba"
+		set_technology = {
+			
+		}
+
+	else = {
+		set_air_oob = "KIJ_1936_air_legacy"
+		set_technology = {
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	early_destroyer = 1
+	
+	}
+	set_naval_oob = "KIJ_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Mapiga Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	early_ship_hull_light = 1
+	sonar = 1
+	
+	}
+	set_naval_oob = "KIJ_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Mapiga Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = empty
+				rear_1_custom_slot = empty
+			}
+		}
+
+	}
+
+
+recruit_character = KIJ_Mbwamari_Soko
+recruit_character = KIJ_Jumau_Kijimti
+recruit_character = KIJ_Taji_Mapiga
+recruit_character = KIJ_Amari_Langanishi
+recruit_character = KIJ_Juma_Chera
+recruit_character = KIJ_Mbwano_Majango
+recruit_character = KIJ_Jumau_Pango
+recruit_character = KIJ_Kama_Kishalme
+recruit_character = KIJ_Nuru_Kumbo
+recruit_character = KIJ_Jumau_Mapiga
+recruit_character = KIJ_Sefu_Kima
+recruit_character = KIJ_Lubana_Panguo
+recruit_character = KIJ_Mbwamari_Mvule
+recruit_character = KIJ_Simbana_Taano
+recruit_character = KIJ_Kwanga_Hisu
+recruit_character = KIJ_Taji_Mtifu
+recruit_character = KIJ_Baka_Simbi
+recruit_character = KIJ_Kwanga_Wimui
+recruit_character = KIJ_Kato_Hati
+recruit_character = KIJ_Simba_Panguo
+recruit_character = KIJ_Baraka_Mipanajesha
+recruit_character = KIJ_Lubana_Chera
+recruit_character = KIJ_Baraka_Mshara
+recruit_character = KIJ_Mosi_Ukuti
+recruit_character = KIJ_Amaraka_Wando
+recruit_character = KIJ_Mbwame_Kumba
+recruit_character = KIJ_Tanga_Taano
+recruit_character = KIJ_Mbwamari_Taano
+recruit_character = KIJ_Sefu_Jeno
+recruit_character = KIJ_Shaka_Histo
+recruit_character = KIJ_Mbwano_Tekete
+recruit_character = KIJ_Baka_Mauti
+recruit_character = KIJ_Juma_Rambiria
+recruit_character = KIJ_Shakari_Soko
+recruit_character = KIJ_Jumau_Siri
+recruit_character = KIJ_Kame_Jumbasi
+recruit_character = KIJ_Mbwamari_Hadisto
+recruit_character = KIJ_Nuru_Chera
+recruit_character = KIJ_Kwanga_Nyanarajesha
+recruit_character = KIJ_Jumau_Jeno
+recruit_character = KIJ_Mbwanga_Nyumbasia
+recruit_character = KIJ_Jumau_Muuji
+recruit_character = KIJ_Tano_Mvule
+recruit_character = KIJ_Mosi_Pano
+recruit_character = KIJ_Simbana_Hisa
+recruit_character = KIJ_Bari_Heshawi
+recruit_character = KIJ_Luba_Mtifu
+recruit_character = KIJ_Shakaraka_Kiono
+recruit_character = KIJ_Bari_Ndoto
+recruit_character = KIJ_Jumaraka_Tekete
+recruit_character = KIJ_Shakari_Ukwezi
+recruit_character = KIJ_Kame_Histo
+recruit_character = KIJ_Kato_Malu
+recruit_character = KIJ_Luba_Muuji
+recruit_character = KIJ_Kwano_Pango
+recruit_character = KIJ_Jumaraka_Kijimti
+recruit_character = KIJ_Kwano_Mapiga
+recruit_character = KIJ_Bari_Muuji
+recruit_character = KIJ_Mbwanga_Majanaji
+recruit_character = KIJ_Mbwamau_Simbi
+recruit_character = KIJ_Kamaraka_Mipanajesha
+recruit_character = KIJ_Mosi_Nyumbe
+recruit_character = KIJ_Shakaraka_Uhawi
+recruit_character = KIJ_Amari_Majanaji
+recruit_character = KIJ_Simbana_Malme
+recruit_character = KIJ_Bari_Langanishi
+recruit_character = KIJ_Baraka_Chera
+recruit_character = KIJ_Shakaraka_Shini
+recruit_character = KIJ_Sefu_Chera
+recruit_character = KIJ_Omari_Kiono
+recruit_character = KIJ_Shaka_Mapiga
+recruit_character = KIJ_Juma_Lando
+recruit_character = KIJ_Tano_Mcheli
+recruit_character = KIJ_Amari_Meli
+recruit_character = KIJ_Mbwamau_Kishalme
+recruit_character = KIJ_Bari_Kiono
+recruit_character = KIJ_Kamaraka_Njozi
+recruit_character = KIJ_Mbwamau_Mvule
+recruit_character = KIJ_Kwanga_Kumbukufu
+recruit_character = KIJ_Kame_Mapiga
+recruit_character = KIJ_Mbwame_Majanaji
+recruit_character = KIJ_Simbana_Pango
+recruit_character = KIJ_Amaraka_Histo
+recruit_character = KIJ_Mbwano_Panjanguzi
+recruit_character = KIJ_Kwano_Shini
+recruit_character = KIJ_Simba_Hofu
+recruit_character = KIJ_Amau_Pepo
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 3
+set_convoys = 0
+set_stability = 0.49
+set_war_support = 0.62
+
+add_ideas = {
+limited_conscription
+partial_economic_mobilisation
+autarkic_economy
+}
+
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1924.1.2"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 19
+	fascism = 21
+	communism = 30
+	neutrality = 30
+}
+
+
+
+
+

@@ -1,0 +1,37 @@
+
+state={
+	id=160
+	name="STATE_160"
+	manpower = 1857347
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = MAG
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = MAG
+	}
+
+	provinces={
+		1936 1937 1938 1939 1940 1941 1942 1943 1944 1945 
+	}
+	local_supplies=0.0 
+}

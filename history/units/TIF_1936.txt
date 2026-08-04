@@ -1,0 +1,100 @@
+division_template = {
+	name = "Militia Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 2 y = 0 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Supported Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+			infantry = {  x = 2 y = 2 }
+
+	}
+	
+	support = {
+			recon = {  x = 0 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+			cavalry = {  x = 0 y = 0 }
+			cavalry = {  x = 0 y = 1 }
+			cavalry = {  x = 1 y = 0 }
+			cavalry = {  x = 2 y = 0 }
+
+	}
+	
+	support = {
+
+	}
+}
+
+
+units = {
+	division= {
+		name = "1st 'Hajaz' Militia Division"
+		location = 12224
+		division_template = "Militia Division"
+		start_experience_factor = 0.834213
+		start_equipment_factor = 0.816174
+	}
+	division= {
+		name = "1st 'Turahra' Infantry Division"
+		location = 11772
+		division_template = "Infantry Division"
+		start_experience_factor = 0.675746
+		start_equipment_factor = 0.837003
+	}
+	division= {
+		name = "1st 'Turahra' Supported Infantry Division"
+		location = 11772
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.496902
+		start_equipment_factor = 0.929150
+	}
+	division= {
+		name = "1st 'Hajaz' Cavalry Division"
+		location = 12945
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.740276
+		start_equipment_factor = 0.878711
+	}
+
+}

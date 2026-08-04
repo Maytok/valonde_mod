@@ -1,0 +1,24 @@
+air_wings = {
+		1587 = { 								
+		tac_bomber_equipment_0 = { owner = "KDU" amount = 50 version_name = "Teka Mk 0" }
+
+	}
+	254 = { 								
+		CAS_equipment_0 = { owner = "KDU" amount = 39 version_name = "Kifu Mk 1" }
+
+	}
+	1664 = { 								
+		fighter_equipment_0 = { owner = "KDU" amount = 47 version_name = "Sheli Mk 2" }
+
+	}
+	332 = { 								
+		tac_bomber_equipment_0 = { owner = "KDU" amount = 50 version_name = "Teka Mk 0" }
+
+	}
+	940 = { 								
+		nav_bomber_equipment_0 = { owner = "KDU" amount = 50 version_name = "Upepo Mk 0" }
+
+	}
+
+
+}

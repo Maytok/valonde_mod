@@ -1,0 +1,37 @@
+
+state={
+	id=809
+	name="STATE_809"
+	manpower = 4776878
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = GRU
+		buildings = {
+			infrastructure = 1
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			
+		}
+		add_core_of = GRU
+	}
+
+	provinces={
+		9456 9457 9458 9459 9460 9461 9462 9463 9464 9465 9466 9467 9468 9469 9470 9471 9472 9473 9474 9475 9476 9477 9478 9479 9480 9481 9482 9483 9484 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,300 @@
+capital = 328
+
+oob = "TAR_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "TAR_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "TAR_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	support_weapons= 1
+	tech_trucks= 1
+	tech_support= 1
+	gw_artillery= 1
+	paratroopers= 1
+	tech_mountaineers= 1
+	motorised_infantry= 1
+	interwar_antiair= 1
+	interwar_artillery= 1
+	electronic_mechanical_engineering= 1
+	basic_fortification_tech= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		engine_tech_1 = 1
+		armor_tech_1 = 1
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "TAR_1936_air_bba"
+		set_technology = {
+			iw_small_airframe = 1
+			photo_reconnaisance = 1
+			iw_small_airframe = 1
+			aa_lmg = 1
+			
+		}
+		create_equipment_variant = {
+			name = "Suwatarita Mk 1"
+			type = small_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = light_mg_2x
+			special_type_slot_1 = empty
+
+			}
+		}
+
+	else = {
+		set_air_oob = "TAR_1936_air_legacy"
+		set_technology = {
+			early_fighter = 1
+			scout_plane1 = 1
+			early_fighter = 1
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	early_destroyer = 1
+	
+	}
+	set_naval_oob = "TAR_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Shan Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	early_ship_hull_light = 1
+	sonar = 1
+	
+	}
+	set_naval_oob = "TAR_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Shan Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = ship_anti_air_1
+				rear_1_custom_slot = ship_anti_air_1
+			}
+		}
+
+	}
+
+
+recruit_character = TAR_Anwar_Balakech
+recruit_character = TAR_Omal_Shan
+recruit_character = TAR_Imrahya_Ghurhamla
+recruit_character = TAR_Anwar_Madin
+recruit_character = TAR_Kariq_Usra
+recruit_character = TAR_Ahmarid_Suwatarita
+recruit_character = TAR_Anwarim_Qala
+recruit_character = TAR_Hassal_Shamaria
+recruit_character = TAR_Omal_Kharb
+recruit_character = TAR_Ramad_Hawanz
+recruit_character = TAR_Nabilal_Tharb
+recruit_character = TAR_Omali_Tifl
+recruit_character = TAR_Mohami_Tharb
+recruit_character = TAR_Hassal_Imalahibl
+recruit_character = TAR_Hamza_Sultarq
+recruit_character = TAR_Abdullal_Turuq
+recruit_character = TAR_Hammed_Nour
+recruit_character = TAR_Omali_Haritasr
+recruit_character = TAR_Fariq_Amarasjid
+recruit_character = TAR_Mohami_Maghria
+recruit_character = TAR_Imrahim_Shan
+recruit_character = TAR_Hamza_Rabat
+recruit_character = TAR_Hassal_Maghria
+recruit_character = TAR_Alid_Barikmal
+recruit_character = TAR_Samza_Dura
+recruit_character = TAR_Adnan_Shamar
+recruit_character = TAR_Tarim_Masa
+recruit_character = TAR_Hami_Nadina
+recruit_character = TAR_Hami_Maghria
+recruit_character = TAR_Mohami_Hawi
+recruit_character = TAR_Kariq_Hikh
+recruit_character = TAR_Bilahmalid_Kharb
+recruit_character = TAR_Tarid_Sabalj
+recruit_character = TAR_Nabilal_Nadina
+recruit_character = TAR_Samar_Madin
+recruit_character = TAR_Hammed_Imalahibl
+recruit_character = TAR_Yusuf_Narim
+recruit_character = TAR_Mohalid_Balahreb
+recruit_character = TAR_Hami_Haritasr
+recruit_character = TAR_Tarid_Bahrim
+recruit_character = TAR_Omal_Nour
+recruit_character = TAR_Khamza_Kita
+recruit_character = TAR_Saad_Mustarb
+recruit_character = TAR_Khamarim_Kharq
+recruit_character = TAR_Tarid_Tanzim
+recruit_character = TAR_Samar_Amanz
+recruit_character = TAR_Ahmarim_Taryat
+recruit_character = TAR_Yahim_Basr
+recruit_character = TAR_Nabilal_Durhar
+recruit_character = TAR_Hammed_Bahrim
+recruit_character = TAR_Alid_Hijr
+recruit_character = TAR_Omal_Basr
+recruit_character = TAR_Sammed_Tunis
+recruit_character = TAR_Mohami_Manub
+recruit_character = TAR_Fariq_Kita
+recruit_character = TAR_Ibrahim_Sultarq
+recruit_character = TAR_Ramir_Wasadi
+recruit_character = TAR_Mahya_Mamt
+recruit_character = TAR_Anwar_Amanz
+recruit_character = TAR_Tarim_Bahrim
+recruit_character = TAR_Anwarim_Imalahibl
+recruit_character = TAR_Anwariq_Tanzim
+recruit_character = TAR_Mohamariq_Taria
+recruit_character = TAR_Hassal_Farahreb
+recruit_character = TAR_Ahmoud_Shar
+recruit_character = TAR_Tarim_Haykh
+recruit_character = TAR_Abdullali_Usra
+recruit_character = TAR_Anwar_Balahreb
+recruit_character = TAR_Nabil_Najd
+recruit_character = TAR_Anwarid_Balakech
+recruit_character = TAR_Sami_Najd
+recruit_character = TAR_Ibrahya_Khayahr
+recruit_character = TAR_Khamarim_Najlifl
+recruit_character = TAR_Imran_Madin
+recruit_character = TAR_Samir_Shajlim
+recruit_character = TAR_Saad_Najd
+recruit_character = TAR_Imrahim_Kharq
+recruit_character = TAR_Hamza_Suwatarita
+recruit_character = TAR_Khamza_Hayalifa
+recruit_character = TAR_Abdullal_Nasjidda
+recruit_character = TAR_Alid_Madin
+recruit_character = TAR_Ibrahya_Ghura
+recruit_character = TAR_Sammed_Bahrim
+recruit_character = TAR_Zaisan_Samlama
+recruit_character = TAR_Hassal_Imanawaryah
+recruit_character = TAR_Anwariq_Samlama
+recruit_character = TAR_Hammed_Najd
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 3
+set_convoys = 0
+set_stability = 0.28
+set_war_support = 0.53
+
+add_ideas = {
+limited_conscription
+civilian_economy
+autarkic_economy
+}
+
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1892.11.15"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 42
+	fascism = 3
+	communism = 5
+	neutrality = 50
+}
+
+
+
+
+

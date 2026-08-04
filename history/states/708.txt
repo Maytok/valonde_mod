@@ -1,0 +1,37 @@
+
+state={
+	id=708
+	name="STATE_708"
+	manpower = 1296137
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=1
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = KFT
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = KFT
+	}
+
+	provinces={
+		8230 8231 8232 8233 8234 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,1083 @@
+characters = {
+	HAJ_Goragomir_Tvrdja={
+		name="Goragomir Tvrdja"
+
+		
+		country_leader={
+			ideology=moderatism
+			traits = { agricultural_capitalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	HAJ_Bran_Obinja={
+		name="Bran Obinja"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAJ_Bran_Obinja
+			traits = {	humble 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	HAJ_Mateusan_Bogina={
+		name="Mateusan Bogina"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAJ_Mateusan_Bogina
+			traits = {	veteran_anti_bolshevik 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	HAJ_Goris_Vatrabrir={
+		name="Goris Vatrabrir"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAJ_Goris_Vatrabrir
+			traits = {	noble_beurocrat 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	HAJ_Stej_Istra={
+		name="Stej Istra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAJ_Stej_Istra
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	HAJ_Vikitrilosla_Vetlovozdja={
+		name="Vikitrilosla Vetlovozdja"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAJ_Vikitrilosla_Vetlovozdja
+			traits = {	agricultural_capitalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	HAJ_Zdeneksei_Svezde={
+		name="Zdeneksei Svezde"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAJ_Zdeneksei_Svezde
+			traits = {	veteran_anti_bolshevik 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	HAJ_Mateusan_Tama={
+		name="Mateusan Tama"
+
+		advisor={
+			slot = army_chief
+			idea_token = HAJ_Mateusan_Tama
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	HAJ_Simiros_Svinja={
+		name="Simiros Svinja"
+
+		advisor={
+			slot = army_chief
+			idea_token = HAJ_Simiros_Svinja
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	HAJ_Draj_Presnikaroda={
+		name="Draj Presnikaroda"
+
+		advisor={
+			slot = army_chief
+			idea_token = HAJ_Draj_Presnikaroda
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	HAJ_Matej_Kradar={
+		name="Matej Kradar"
+
+		advisor={
+			slot = army_chief
+			idea_token = HAJ_Matej_Kradar
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	HAJ_Ilya_Ribar={
+		name="Ilya Ribar"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HAJ_Ilya_Ribar
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	HAJ_Bran_Ostranaga={
+		name="Bran Ostranaga"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HAJ_Bran_Ostranaga
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	HAJ_Maros_Vetlovozdja={
+		name="Maros Vetlovozdja"
+
+		advisor={
+			slot = air_chief
+			idea_token = HAJ_Maros_Vetlovozdja
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	HAJ_Brankolavko_Kradar={
+		name="Brankolavko Kradar"
+
+		advisor={
+			slot = air_chief
+			idea_token = HAJ_Brankolavko_Kradar
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	HAJ_Stan_Hrava={
+		name="Stan Hrava"
+
+		advisor={
+			slot = high_command
+			idea_token = HAJ_Stan_Hrava
+			traits = {	air_bomber_interception_1 	}
+		}
+
+
+	}
+	HAJ_Zdek_Masljivo={
+		name="Zdek Masljivo"
+
+		advisor={
+			slot = high_command
+			idea_token = HAJ_Zdek_Masljivo
+			traits = {	navy_naval_air_defense_2 	}
+		}
+
+
+	}
+	HAJ_Niktoragomas_Telika={
+		name="Niktoragomas Telika"
+
+		advisor={
+			slot = high_command
+			idea_token = HAJ_Niktoragomas_Telika
+			traits = {	army_CombinedArms_2 	}
+		}
+
+
+	}
+	HAJ_Niktoranovan_Hradzbicaksi={
+		name="Niktoranovan Hradzbicaksi"
+
+		advisor={
+			slot = high_command
+			idea_token = HAJ_Niktoranovan_Hradzbicaksi
+			traits = {	army_concealment_2 	}
+		}
+
+
+	}
+	HAJ_Dusanko_Kradar={
+		name="Dusanko Kradar"
+
+		advisor={
+			slot = high_command
+			idea_token = HAJ_Dusanko_Kradar
+			traits = {	navy_anti_submarine_1 	}
+		}
+
+
+	}
+	HAJ_Aleg_Sporisa={
+		name="Aleg Sporisa"
+
+		advisor={
+			slot = high_command
+			idea_token = HAJ_Aleg_Sporisa
+			traits = {	air_naval_strike_1 	}
+		}
+
+
+	}
+	HAJ_Dmir_Teat={
+		name="Dmir Teat"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { polemarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	HAJ_Simeon_Obica={
+		name="Simeon Obica"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAJ_Simeon_Obica
+			traits = {	basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	HAJ_Matefanovan_Zvuk={
+		name="Matefanovan Zvuk"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAJ_Matefanovan_Zvuk
+			traits = {	archon_basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	HAJ_Boriladenek_Greb={
+		name="Boriladenek Greb"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAJ_Boriladenek_Greb
+			traits = {	basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	HAJ_Tomiriloslad_Vetlovozdja={
+		name="Tomiriloslad Vetlovozdja"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAJ_Tomiriloslad_Vetlovozdja
+			traits = {	autokrator 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	HAJ_Tomiros_Teat={
+		name="Tomiros Teat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAJ_Tomiros_Teat
+			traits = {	archon_basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	HAJ_Vikitrilosla_Filo={
+		name="Vikitrilosla Filo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAJ_Vikitrilosla_Filo
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	HAJ_Andrej_Kisacina={
+		name="Andrej Kisacina"
+
+		advisor={
+			slot = army_chief
+			idea_token = HAJ_Andrej_Kisacina
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	HAJ_Yuranko_Presnikaroda={
+		name="Yuranko Presnikaroda"
+
+		advisor={
+			slot = army_chief
+			idea_token = HAJ_Yuranko_Presnikaroda
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	HAJ_Radoslav_Hradzbicaksi={
+		name="Radoslav Hradzbicaksi"
+
+		advisor={
+			slot = army_chief
+			idea_token = HAJ_Radoslav_Hradzbicaksi
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	HAJ_Zori_Grmljstori={
+		name="Zori Grmljstori"
+
+		advisor={
+			slot = army_chief
+			idea_token = HAJ_Zori_Grmljstori
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	HAJ_Vlan_Tama={
+		name="Vlan Tama"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HAJ_Vlan_Tama
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	HAJ_Stan_Glana={
+		name="Stan Glana"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HAJ_Stan_Glana
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	HAJ_Zdeneksei_Obarstvo={
+		name="Zdeneksei Obarstvo"
+
+		advisor={
+			slot = air_chief
+			idea_token = HAJ_Zdeneksei_Obarstvo
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	HAJ_Dmiril_Kisac={
+		name="Dmiril Kisac"
+
+		advisor={
+			slot = air_chief
+			idea_token = HAJ_Dmiril_Kisac
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	HAJ_Lubosh_Vetarst={
+		name="Lubosh Vetarst"
+
+		advisor={
+			slot = high_command
+			idea_token = HAJ_Lubosh_Vetarst
+			traits = {	army_armored_2 	}
+		}
+
+
+	}
+	HAJ_Simeon_Vetlovozdja={
+		name="Simeon Vetlovozdja"
+
+		advisor={
+			slot = high_command
+			idea_token = HAJ_Simeon_Vetlovozdja
+			traits = {	air_air_superiority_2 	}
+		}
+
+
+	}
+	HAJ_Boragomir_Reka={
+		name="Boragomir Reka"
+
+		advisor={
+			slot = high_command
+			idea_token = HAJ_Boragomir_Reka
+			traits = {	air_tactical_bombing_1 	}
+		}
+
+
+	}
+	HAJ_Tomiros_Nebrojst={
+		name="Tomiros Nebrojst"
+
+		advisor={
+			slot = high_command
+			idea_token = HAJ_Tomiros_Nebrojst
+			traits = {	army_cavalry_2 	}
+		}
+
+
+	}
+	HAJ_Dusz_Svet={
+		name="Dusz Svet"
+
+		advisor={
+			slot = high_command
+			idea_token = HAJ_Dusz_Svet
+			traits = {	navy_naval_air_defense_2 	}
+		}
+
+
+	}
+	HAJ_Goragomir_Istra={
+		name="Goragomir Istra"
+
+		advisor={
+			slot = high_command
+			idea_token = HAJ_Goragomir_Istra
+			traits = {	navy_naval_air_defense_2 	}
+		}
+
+
+	}
+	HAJ_Miri_Morenik={
+		name="Miri Morenik"
+
+		
+		country_leader={
+			ideology=marxism
+			traits = { devoted_marxist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	HAJ_Rado_Plemena={
+		name="Rado Plemena"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAJ_Rado_Plemena
+			traits = {	leftist_independent 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	HAJ_Lubos_Drza={
+		name="Lubos Drza"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAJ_Lubos_Drza
+			traits = {	patriotic_socialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	HAJ_Stan_Obica={
+		name="Stan Obica"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAJ_Stan_Obica
+			traits = {	socialist_justice 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	HAJ_Niktoragomas_Vilo={
+		name="Niktoragomas Vilo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAJ_Niktoragomas_Vilo
+			traits = {	political_dancer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	HAJ_Simiros_Hradzbicaksi={
+		name="Simiros Hradzbicaksi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAJ_Simiros_Hradzbicaksi
+			traits = {	leftist_independent 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	HAJ_Goris_Ratram={
+		name="Goris Ratram"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAJ_Goris_Ratram
+			traits = {	leftist_intellectual 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	HAJ_Niko_Drza={
+		name="Niko Drza"
+
+		advisor={
+			slot = army_chief
+			idea_token = HAJ_Niko_Drza
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	HAJ_Zdeneksei_Kulasinaga={
+		name="Zdeneksei Kulasinaga"
+
+		advisor={
+			slot = army_chief
+			idea_token = HAJ_Zdeneksei_Kulasinaga
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	HAJ_Brankolavko_Vrlina={
+		name="Brankolavko Vrlina"
+
+		advisor={
+			slot = army_chief
+			idea_token = HAJ_Brankolavko_Vrlina
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	HAJ_Boragomir_Ostranaga={
+		name="Boragomir Ostranaga"
+
+		advisor={
+			slot = army_chief
+			idea_token = HAJ_Boragomir_Ostranaga
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	HAJ_Radek_Galat={
+		name="Radek Galat"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HAJ_Radek_Galat
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	HAJ_Tomir_Greb={
+		name="Tomir Greb"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HAJ_Tomir_Greb
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	HAJ_Simeon_Tezak={
+		name="Simeon Tezak"
+
+		advisor={
+			slot = air_chief
+			idea_token = HAJ_Simeon_Tezak
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	HAJ_Lubosh_Doba={
+		name="Lubosh Doba"
+
+		advisor={
+			slot = air_chief
+			idea_token = HAJ_Lubosh_Doba
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	HAJ_Goran_Kovo={
+		name="Goran Kovo"
+
+		advisor={
+			slot = high_command
+			idea_token = HAJ_Goran_Kovo
+			traits = {	army_cavalry_1 	}
+		}
+
+
+	}
+	HAJ_Boriladenek_Svemlj={
+		name="Boriladenek Svemlj"
+
+		advisor={
+			slot = high_command
+			idea_token = HAJ_Boriladenek_Svemlj
+			traits = {	army_radio_intelligence_2 	}
+		}
+
+
+	}
+	HAJ_Stej_Suma={
+		name="Stej Suma"
+
+		advisor={
+			slot = high_command
+			idea_token = HAJ_Stej_Suma
+			traits = {	army_armored_1 	}
+		}
+
+
+	}
+	HAJ_Maros_Brza={
+		name="Maros Brza"
+
+		advisor={
+			slot = high_command
+			idea_token = HAJ_Maros_Brza
+			traits = {	army_entrenchment_1 	}
+		}
+
+
+	}
+	HAJ_Viktori_Zvuk={
+		name="Viktori Zvuk"
+
+		advisor={
+			slot = high_command
+			idea_token = HAJ_Viktori_Zvuk
+			traits = {	navy_fleet_logistics_2 	}
+		}
+
+
+	}
+	HAJ_Juran_Leka={
+		name="Juran Leka"
+
+		advisor={
+			slot = high_command
+			idea_token = HAJ_Juran_Leka
+			traits = {	army_artillery_1 	}
+		}
+
+
+	}
+	HAJ_Alexei_Morenik={
+		name="Alexei Morenik"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { famous_aviator  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	HAJ_Vlav_Zvuk={
+		name="Vlav Zvuk"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAJ_Vlav_Zvuk
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	HAJ_Marko_Svinja={
+		name="Marko Svinja"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAJ_Marko_Svinja
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	HAJ_Radimiri_Svemlj={
+		name="Radimiri Svemlj"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAJ_Radimiri_Svemlj
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	HAJ_Radimeon_Drza={
+		name="Radimeon Drza"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAJ_Radimeon_Drza
+			traits = {	liberal_democratic_paragon 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	HAJ_Mateusan_Jeza={
+		name="Mateusan Jeza"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAJ_Mateusan_Jeza
+			traits = {	democratic_crusader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	HAJ_Goris_Sporisao={
+		name="Goris Sporisao"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAJ_Goris_Sporisao
+			traits = {	democratic_crusader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	HAJ_Mateusan_Leka={
+		name="Mateusan Leka"
+
+		advisor={
+			slot = army_chief
+			idea_token = HAJ_Mateusan_Leka
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	HAJ_Dusz_Olod={
+		name="Dusz Olod"
+
+		advisor={
+			slot = army_chief
+			idea_token = HAJ_Dusz_Olod
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	HAJ_Radimiri_Obica={
+		name="Radimiri Obica"
+
+		advisor={
+			slot = army_chief
+			idea_token = HAJ_Radimiri_Obica
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	HAJ_Zdek_Olod={
+		name="Zdek Olod"
+
+		advisor={
+			slot = army_chief
+			idea_token = HAJ_Zdek_Olod
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	HAJ_Alexei_Presnikaroda={
+		name="Alexei Presnikaroda"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HAJ_Alexei_Presnikaroda
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	HAJ_Niktoranovan_Losto={
+		name="Niktoranovan Losto"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HAJ_Niktoranovan_Losto
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	HAJ_Zdeneksei_Rekt={
+		name="Zdeneksei Rekt"
+
+		advisor={
+			slot = air_chief
+			idea_token = HAJ_Zdeneksei_Rekt
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	HAJ_Goranko_Presnikaroda={
+		name="Goranko Presnikaroda"
+
+		advisor={
+			slot = air_chief
+			idea_token = HAJ_Goranko_Presnikaroda
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	HAJ_Rados_Rekt={
+		name="Rados Rekt"
+
+		advisor={
+			slot = high_command
+			idea_token = HAJ_Rados_Rekt
+			traits = {	air_pilot_training_2 	}
+		}
+
+
+	}
+	HAJ_Matefanovan_Muda={
+		name="Matefanovan Muda"
+
+		advisor={
+			slot = high_command
+			idea_token = HAJ_Matefanovan_Muda
+			traits = {	army_artillery_1 	}
+		}
+
+
+	}
+	HAJ_Miri_Rekt={
+		name="Miri Rekt"
+
+		advisor={
+			slot = high_command
+			idea_token = HAJ_Miri_Rekt
+			traits = {	air_air_combat_training_2 	}
+		}
+
+
+	}
+	HAJ_Juri_Hralj={
+		name="Juri Hralj"
+
+		advisor={
+			slot = high_command
+			idea_token = HAJ_Juri_Hralj
+			traits = {	air_strategic_bombing_1 	}
+		}
+
+
+	}
+	HAJ_Stej_Svera={
+		name="Stej Svera"
+
+		advisor={
+			slot = high_command
+			idea_token = HAJ_Stej_Svera
+			traits = {	army_armored_2 	}
+		}
+
+
+	}
+	HAJ_Bogdanov_Hralj={
+		name="Bogdanov Hralj"
+
+		advisor={
+			slot = high_command
+			idea_token = HAJ_Bogdanov_Hralj
+			traits = {	navy_naval_air_defense_2 	}
+		}
+
+
+	}
+	HAJ_Radimeon_Ruca={
+		name="Radimeon Ruca"
+
+		advisor={
+			slot = theorist
+			idea_token = HAJ_Radimeon_Ruca
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	HAJ_Olexei_Laga={
+		name="Olexei Laga"
+
+		advisor={
+			slot = theorist
+			idea_token = HAJ_Olexei_Laga
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	HAJ_Bogdanov_Tvrdja={
+		name="Bogdanov Tvrdja"
+
+		advisor={
+			slot = theorist
+			idea_token = HAJ_Bogdanov_Tvrdja
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

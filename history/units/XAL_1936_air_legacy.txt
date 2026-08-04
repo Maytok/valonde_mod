@@ -1,0 +1,14 @@
+air_wings = {
+		1633 = { 								
+		fighter_equipment_0 = { owner = "XAL" amount = 10 version_name = "Ndoto Mk 0" }
+tac_bomber_equipment_0 = { owner = "XAL" amount = 12 version_name = "Nyoto Mk 2" }
+
+	}
+	1366 = { 								
+		CAS_equipment_0 = { owner = "XAL" amount = 15 version_name = "Pambe Mk 2" }
+nav_bomber_equipment_0 = { owner = "XAL" amount = 19 version_name = "Kiono Mk 0" }
+
+	}
+
+
+}

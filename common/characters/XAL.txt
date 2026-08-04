@@ -1,0 +1,1083 @@
+characters = {
+	XAL_Bakari_Tekete={
+		name="Bakari Tekete"
+
+		
+		country_leader={
+			ideology=oligarchism
+			traits = { famous_aviator  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	XAL_Taji_Nyoto={
+		name="Taji Nyoto"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XAL_Taji_Nyoto
+			traits = {	agricultural_capitalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	XAL_Kwame_Aduiya={
+		name="Kwame Aduiya"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XAL_Kwame_Aduiya
+			traits = {	humble 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	XAL_Taji_Histo={
+		name="Taji Histo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XAL_Taji_Histo
+			traits = {	agricultural_capitalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	XAL_Mbwame_Kiono={
+		name="Mbwame Kiono"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XAL_Mbwame_Kiono
+			traits = {	noble_beurocrat 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	XAL_Mbwano_Wimui={
+		name="Mbwano Wimui"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XAL_Mbwano_Wimui
+			traits = {	socialite_connections 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	XAL_Kwame_Malu={
+		name="Kwame Malu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XAL_Kwame_Malu
+			traits = {	national_determinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	XAL_Mosi_Imaifu={
+		name="Mosi Imaifu"
+
+		advisor={
+			slot = army_chief
+			idea_token = XAL_Mosi_Imaifu
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	XAL_Chidi_Aduiya={
+		name="Chidi Aduiya"
+
+		advisor={
+			slot = army_chief
+			idea_token = XAL_Chidi_Aduiya
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	XAL_Nuru_Malu={
+		name="Nuru Malu"
+
+		advisor={
+			slot = army_chief
+			idea_token = XAL_Nuru_Malu
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	XAL_Mbwano_Soko={
+		name="Mbwano Soko"
+
+		advisor={
+			slot = army_chief
+			idea_token = XAL_Mbwano_Soko
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	XAL_Jumau_Majango={
+		name="Jumau Majango"
+
+		advisor={
+			slot = navy_chief
+			idea_token = XAL_Jumau_Majango
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	XAL_Luba_Upepo={
+		name="Luba Upepo"
+
+		advisor={
+			slot = navy_chief
+			idea_token = XAL_Luba_Upepo
+			traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+
+	}
+	XAL_Chidi_Mvule={
+		name="Chidi Mvule"
+
+		advisor={
+			slot = air_chief
+			idea_token = XAL_Chidi_Mvule
+			traits = {	air_chief_night_operations_2 	}
+		}
+
+
+	}
+	XAL_Shaka_Wimui={
+		name="Shaka Wimui"
+
+		advisor={
+			slot = air_chief
+			idea_token = XAL_Shaka_Wimui
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	XAL_Simbana_Sikuti={
+		name="Simbana Sikuti"
+
+		advisor={
+			slot = high_command
+			idea_token = XAL_Simbana_Sikuti
+			traits = {	navy_anti_submarine_2 	}
+		}
+
+
+	}
+	XAL_Jumaraka_Mali={
+		name="Jumaraka Mali"
+
+		advisor={
+			slot = high_command
+			idea_token = XAL_Jumaraka_Mali
+			traits = {	air_naval_strike_1 	}
+		}
+
+
+	}
+	XAL_Lubanga_Mcheli={
+		name="Lubanga Mcheli"
+
+		advisor={
+			slot = high_command
+			idea_token = XAL_Lubanga_Mcheli
+			traits = {	air_bomber_interception_1 	}
+		}
+
+
+	}
+	XAL_Lubanga_Heshawi={
+		name="Lubanga Heshawi"
+
+		advisor={
+			slot = high_command
+			idea_token = XAL_Lubanga_Heshawi
+			traits = {	air_bomber_interception_1 	}
+		}
+
+
+	}
+	XAL_Kwame_Mili={
+		name="Kwame Mili"
+
+		advisor={
+			slot = high_command
+			idea_token = XAL_Kwame_Mili
+			traits = {	navy_carrier_1 	}
+		}
+
+
+	}
+	XAL_Kama_Piga={
+		name="Kama Piga"
+
+		advisor={
+			slot = high_command
+			idea_token = XAL_Kama_Piga
+			traits = {	air_close_air_support_1 	}
+		}
+
+
+	}
+	XAL_Kwanga_Kiji={
+		name="Kwanga Kiji"
+
+		
+		country_leader={
+			ideology=nazism
+			traits = { polemarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	XAL_Kwame_Njozi={
+		name="Kwame Njozi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XAL_Kwame_Njozi
+			traits = {	militant_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	XAL_Lubana_Mapigano={
+		name="Lubana Mapigano"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XAL_Lubana_Mapigano
+			traits = {	autokrator 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	XAL_Shakaraka_Imaifu={
+		name="Shakaraka Imaifu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XAL_Shakaraka_Imaifu
+			traits = {	inexperienced_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	XAL_Sefu_Kumba={
+		name="Sefu Kumba"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XAL_Sefu_Kumba
+			traits = {	collaborator_king 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	XAL_Omari_Mapiga={
+		name="Omari Mapiga"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XAL_Omari_Mapiga
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	XAL_Mosi_Uhawi={
+		name="Mosi Uhawi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XAL_Mosi_Uhawi
+			traits = {	basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	XAL_Shaka_Muuji={
+		name="Shaka Muuji"
+
+		advisor={
+			slot = army_chief
+			idea_token = XAL_Shaka_Muuji
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	XAL_Kwana_Nyoto={
+		name="Kwana Nyoto"
+
+		advisor={
+			slot = army_chief
+			idea_token = XAL_Kwana_Nyoto
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	XAL_Shakari_Dari={
+		name="Shakari Dari"
+
+		advisor={
+			slot = army_chief
+			idea_token = XAL_Shakari_Dari
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	XAL_Jumari_Mapiga={
+		name="Jumari Mapiga"
+
+		advisor={
+			slot = army_chief
+			idea_token = XAL_Jumari_Mapiga
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	XAL_Mbwano_Mtifu={
+		name="Mbwano Mtifu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = XAL_Mbwano_Mtifu
+			traits = {	navy_chief_reform_2 	}
+		}
+
+
+	}
+	XAL_Lubana_Malu={
+		name="Lubana Malu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = XAL_Lubana_Malu
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	XAL_Simba_Malme={
+		name="Simba Malme"
+
+		advisor={
+			slot = air_chief
+			idea_token = XAL_Simba_Malme
+			traits = {	air_chief_all_weather_2 	}
+		}
+
+
+	}
+	XAL_Juma_Heshawi={
+		name="Juma Heshawi"
+
+		advisor={
+			slot = air_chief
+			idea_token = XAL_Juma_Heshawi
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	XAL_Luba_Mipanajesha={
+		name="Luba Mipanajesha"
+
+		advisor={
+			slot = high_command
+			idea_token = XAL_Luba_Mipanajesha
+			traits = {	army_logistics_2 	}
+		}
+
+
+	}
+	XAL_Taji_Kiono={
+		name="Taji Kiono"
+
+		advisor={
+			slot = high_command
+			idea_token = XAL_Taji_Kiono
+			traits = {	air_pilot_training_2 	}
+		}
+
+
+	}
+	XAL_Jumaraka_Mlimaisia={
+		name="Jumaraka Mlimaisia"
+
+		advisor={
+			slot = high_command
+			idea_token = XAL_Jumaraka_Mlimaisia
+			traits = {	navy_capital_ship_2 	}
+		}
+
+
+	}
+	XAL_Mbwamari_Wimui={
+		name="Mbwamari Wimui"
+
+		advisor={
+			slot = high_command
+			idea_token = XAL_Mbwamari_Wimui
+			traits = {	army_CombinedArms_2 	}
+		}
+
+
+	}
+	XAL_Amaraka_Usiwa={
+		name="Amaraka Usiwa"
+
+		advisor={
+			slot = high_command
+			idea_token = XAL_Amaraka_Usiwa
+			traits = {	air_bomber_interception_1 	}
+		}
+
+
+	}
+	XAL_Kamaraka_Hisu={
+		name="Kamaraka Hisu"
+
+		advisor={
+			slot = high_command
+			idea_token = XAL_Kamaraka_Hisu
+			traits = {	navy_submarine_1 	}
+		}
+
+
+	}
+	XAL_Kama_Majango={
+		name="Kama Majango"
+
+		
+		country_leader={
+			ideology=leninism
+			traits = { socialist_autocrat  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	XAL_Shaka_Jeno={
+		name="Shaka Jeno"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XAL_Shaka_Jeno
+			traits = {	patriotic_socialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	XAL_Kwanga_Aduiya={
+		name="Kwanga Aduiya"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XAL_Kwanga_Aduiya
+			traits = {	patriotic_socialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	XAL_Baka_Nyumbasia={
+		name="Baka Nyumbasia"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XAL_Baka_Nyumbasia
+			traits = {	marxist_fundamentalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	XAL_Kato_Ukuti={
+		name="Kato Ukuti"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XAL_Kato_Ukuti
+			traits = {	leftist_independent 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	XAL_Taji_Shuli={
+		name="Taji Shuli"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XAL_Taji_Shuli
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	XAL_Kamaraka_Shini={
+		name="Kamaraka Shini"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XAL_Kamaraka_Shini
+			traits = {	political_dancer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	XAL_Mosi_Dari={
+		name="Mosi Dari"
+
+		advisor={
+			slot = army_chief
+			idea_token = XAL_Mosi_Dari
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	XAL_Mbwame_Mipanajesha={
+		name="Mbwame Mipanajesha"
+
+		advisor={
+			slot = army_chief
+			idea_token = XAL_Mbwame_Mipanajesha
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	XAL_Jumau_Shukwelu={
+		name="Jumau Shukwelu"
+
+		advisor={
+			slot = army_chief
+			idea_token = XAL_Jumau_Shukwelu
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	XAL_Baraka_Hekete={
+		name="Baraka Hekete"
+
+		advisor={
+			slot = army_chief
+			idea_token = XAL_Baraka_Hekete
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	XAL_Amari_Muuji={
+		name="Amari Muuji"
+
+		advisor={
+			slot = navy_chief
+			idea_token = XAL_Amari_Muuji
+			traits = {	navy_chief_reform_2 	}
+		}
+
+
+	}
+	XAL_Juma_Nyanarajesha={
+		name="Juma Nyanarajesha"
+
+		advisor={
+			slot = navy_chief
+			idea_token = XAL_Juma_Nyanarajesha
+			traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+
+	}
+	XAL_Nuru_Majanaji={
+		name="Nuru Majanaji"
+
+		advisor={
+			slot = air_chief
+			idea_token = XAL_Nuru_Majanaji
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	XAL_Jumari_Hisu={
+		name="Jumari Hisu"
+
+		advisor={
+			slot = air_chief
+			idea_token = XAL_Jumari_Hisu
+			traits = {	air_chief_all_weather_2 	}
+		}
+
+
+	}
+	XAL_Kwana_Ukuti={
+		name="Kwana Ukuti"
+
+		advisor={
+			slot = high_command
+			idea_token = XAL_Kwana_Ukuti
+			traits = {	navy_submarine_2 	}
+		}
+
+
+	}
+	XAL_Shaka_Lando={
+		name="Shaka Lando"
+
+		advisor={
+			slot = high_command
+			idea_token = XAL_Shaka_Lando
+			traits = {	navy_amphibious_assault_1 	}
+		}
+
+
+	}
+	XAL_Temba_Malu={
+		name="Temba Malu"
+
+		advisor={
+			slot = high_command
+			idea_token = XAL_Temba_Malu
+			traits = {	army_cavalry_1 	}
+		}
+
+
+	}
+	XAL_Baraka_Majango={
+		name="Baraka Majango"
+
+		advisor={
+			slot = high_command
+			idea_token = XAL_Baraka_Majango
+			traits = {	navy_amphibious_assault_2 	}
+		}
+
+
+	}
+	XAL_Simbana_Kumba={
+		name="Simbana Kumba"
+
+		advisor={
+			slot = high_command
+			idea_token = XAL_Simbana_Kumba
+			traits = {	air_strategic_bombing_1 	}
+		}
+
+
+	}
+	XAL_Kwanga_Piga={
+		name="Kwanga Piga"
+
+		advisor={
+			slot = high_command
+			idea_token = XAL_Kwanga_Piga
+			traits = {	air_close_air_support_2 	}
+		}
+
+
+	}
+	XAL_Amau_Dhomtaba={
+		name="Amau Dhomtaba"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { the_young_magnate  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	XAL_Nuru_Darali={
+		name="Nuru Darali"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XAL_Nuru_Darali
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	XAL_Mbwamau_Pigaonda={
+		name="Mbwamau Pigaonda"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XAL_Mbwamau_Pigaonda
+			traits = {	leftist_legionary 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	XAL_Luba_Kishalme={
+		name="Luba Kishalme"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XAL_Luba_Kishalme
+			traits = {	conservative_grandee 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	XAL_Chidi_Kishalme={
+		name="Chidi Kishalme"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XAL_Chidi_Kishalme
+			traits = {	leftist_legionary 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	XAL_Shakari_Pigaonda={
+		name="Shakari Pigaonda"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XAL_Shakari_Pigaonda
+			traits = {	veteran_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	XAL_Kwanga_Kumba={
+		name="Kwanga Kumba"
+
+		advisor={
+			slot = political_advisor
+			idea_token = XAL_Kwanga_Kumba
+			traits = {	the_banker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	XAL_Jumau_Kumbukufu={
+		name="Jumau Kumbukufu"
+
+		advisor={
+			slot = army_chief
+			idea_token = XAL_Jumau_Kumbukufu
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	XAL_Bari_Kima={
+		name="Bari Kima"
+
+		advisor={
+			slot = army_chief
+			idea_token = XAL_Bari_Kima
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	XAL_Tano_Mvule={
+		name="Tano Mvule"
+
+		advisor={
+			slot = army_chief
+			idea_token = XAL_Tano_Mvule
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	XAL_Mbwame_Pigaonda={
+		name="Mbwame Pigaonda"
+
+		advisor={
+			slot = army_chief
+			idea_token = XAL_Mbwame_Pigaonda
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	XAL_Kwanga_Nyoto={
+		name="Kwanga Nyoto"
+
+		advisor={
+			slot = navy_chief
+			idea_token = XAL_Kwanga_Nyoto
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	XAL_Kame_Nyoto={
+		name="Kame Nyoto"
+
+		advisor={
+			slot = navy_chief
+			idea_token = XAL_Kame_Nyoto
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	XAL_Tanga_Soko={
+		name="Tanga Soko"
+
+		advisor={
+			slot = air_chief
+			idea_token = XAL_Tanga_Soko
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	XAL_Tano_Shukwelu={
+		name="Tano Shukwelu"
+
+		advisor={
+			slot = air_chief
+			idea_token = XAL_Tano_Shukwelu
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	XAL_Chidi_Malme={
+		name="Chidi Malme"
+
+		advisor={
+			slot = high_command
+			idea_token = XAL_Chidi_Malme
+			traits = {	air_bomber_interception_2 	}
+		}
+
+
+	}
+	XAL_Mbwame_Mshara={
+		name="Mbwame Mshara"
+
+		advisor={
+			slot = high_command
+			idea_token = XAL_Mbwame_Mshara
+			traits = {	air_pilot_training_2 	}
+		}
+
+
+	}
+	XAL_Simbana_Simbi={
+		name="Simbana Simbi"
+
+		advisor={
+			slot = high_command
+			idea_token = XAL_Simbana_Simbi
+			traits = {	army_entrenchment_2 	}
+		}
+
+
+	}
+	XAL_Kwano_Mapigano={
+		name="Kwano Mapigano"
+
+		advisor={
+			slot = high_command
+			idea_token = XAL_Kwano_Mapigano
+			traits = {	air_tactical_bombing_1 	}
+		}
+
+
+	}
+	XAL_Kama_Mshara={
+		name="Kama Mshara"
+
+		advisor={
+			slot = high_command
+			idea_token = XAL_Kama_Mshara
+			traits = {	army_concealment_2 	}
+		}
+
+
+	}
+	XAL_Kamaraka_Malu={
+		name="Kamaraka Malu"
+
+		advisor={
+			slot = high_command
+			idea_token = XAL_Kamaraka_Malu
+			traits = {	navy_anti_submarine_2 	}
+		}
+
+
+	}
+	XAL_Jumau_Wando={
+		name="Jumau Wando"
+
+		advisor={
+			slot = theorist
+			idea_token = XAL_Jumau_Wando
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	XAL_Kato_Teka={
+		name="Kato Teka"
+
+		advisor={
+			slot = theorist
+			idea_token = XAL_Kato_Teka
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	XAL_Temba_Pigaonda={
+		name="Temba Pigaonda"
+
+		advisor={
+			slot = theorist
+			idea_token = XAL_Temba_Pigaonda
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=436
+	name="STATE_436"
+	manpower = 2358169
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=25
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = DAN
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = DAN
+	}
+
+	provinces={
+		5032 5033 5034 5035 5036 5037 5038 5039 5040 5041 5042 5043 5044 5045 5046 5047 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,1083 @@
+characters = {
+	HER_Sored_Karstagenig={
+		name="Sored Karstagenig"
+
+		
+		country_leader={
+			ideology=oligarchism
+			traits = { democratic_crusader  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	HER_Frald_Frosse={
+		name="Frald Frosse"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HER_Frald_Frosse
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	HER_Hels_Monner={
+		name="Hels Monner"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HER_Hels_Monner
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	HER_Matto_Weitz={
+		name="Matto Weitz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HER_Matto_Weitz
+			traits = {	agricultural_capitalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	HER_Kaspar_Ruft={
+		name="Kaspar Ruft"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HER_Kaspar_Ruft
+			traits = {	agricultural_nationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	HER_Richar_Schwest={
+		name="Richar Schwest"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HER_Richar_Schwest
+			traits = {	socialite_connections 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	HER_Knut_Reind={
+		name="Knut Reind"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HER_Knut_Reind
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	HER_Hars_Grassetze={
+		name="Hars Grassetze"
+
+		advisor={
+			slot = army_chief
+			idea_token = HER_Hars_Grassetze
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	HER_Herman_Botsch={
+		name="Herman Botsch"
+
+		advisor={
+			slot = army_chief
+			idea_token = HER_Herman_Botsch
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	HER_Sven_Glaube={
+		name="Sven Glaube"
+
+		advisor={
+			slot = army_chief
+			idea_token = HER_Sven_Glaube
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	HER_Hers_Segelt={
+		name="Hers Segelt"
+
+		advisor={
+			slot = army_chief
+			idea_token = HER_Hers_Segelt
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	HER_Harl_Scht={
+		name="Harl Scht"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HER_Harl_Scht
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	HER_Hars_Mondter={
+		name="Hars Mondter"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HER_Hars_Mondter
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	HER_Helm_Schaffnundte={
+		name="Helm Schaffnundte"
+
+		advisor={
+			slot = air_chief
+			idea_token = HER_Helm_Schaffnundte
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	HER_Arne_Graft={
+		name="Arne Graft"
+
+		advisor={
+			slot = air_chief
+			idea_token = HER_Arne_Graft
+			traits = {	air_chief_night_operations_2 	}
+		}
+
+
+	}
+	HER_Thiasparans_Beishoffenig={
+		name="Thiasparans Beishoffenig"
+
+		advisor={
+			slot = high_command
+			idea_token = HER_Thiasparans_Beishoffenig
+			traits = {	air_airborne_2 	}
+		}
+
+
+	}
+	HER_Rolkers_Gott={
+		name="Rolkers Gott"
+
+		advisor={
+			slot = high_command
+			idea_token = HER_Rolkers_Gott
+			traits = {	army_infantry_2 	}
+		}
+
+
+	}
+	HER_Bjorne_Frizond={
+		name="Bjorne Frizond"
+
+		advisor={
+			slot = high_command
+			idea_token = HER_Bjorne_Frizond
+			traits = {	army_entrenchment_2 	}
+		}
+
+
+	}
+	HER_Leinrich_Gruft={
+		name="Leinrich Gruft"
+
+		advisor={
+			slot = high_command
+			idea_token = HER_Leinrich_Gruft
+			traits = {	army_radio_intelligence_1 	}
+		}
+
+
+	}
+	HER_Larald_Bucht={
+		name="Larald Bucht"
+
+		advisor={
+			slot = high_command
+			idea_token = HER_Larald_Bucht
+			traits = {	army_artillery_2 	}
+		}
+
+
+	}
+	HER_Richan_Kampf={
+		name="Richan Kampf"
+
+		advisor={
+			slot = high_command
+			idea_token = HER_Richan_Kampf
+			traits = {	navy_amphibious_assault_1 	}
+		}
+
+
+	}
+	HER_Kaspar_Weilfe={
+		name="Kaspar Weilfe"
+
+		
+		country_leader={
+			ideology=fascism_ideology
+			traits = { autocratic_imperialist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	HER_Bjorne_Seger={
+		name="Bjorne Seger"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HER_Bjorne_Seger
+			traits = {	inexperienced_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	HER_Sten_Scht={
+		name="Sten Scht"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HER_Sten_Scht
+			traits = {	warmonger 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	HER_Volkerens_Kind={
+		name="Volkerens Kind"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HER_Volkerens_Kind
+			traits = {	spirit_of_genghis 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	HER_Erik_Spelheinzess={
+		name="Erik Spelheinzess"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HER_Erik_Spelheinzess
+			traits = {	spirit_of_genghis 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	HER_Olaf_Spruer={
+		name="Olaf Spruer"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HER_Olaf_Spruer
+			traits = {	generallissimo 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	HER_Geored_Gott={
+		name="Geored Gott"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HER_Geored_Gott
+			traits = {	basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	HER_Georne_Siligshein={
+		name="Georne Siligshein"
+
+		advisor={
+			slot = army_chief
+			idea_token = HER_Georne_Siligshein
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	HER_Magnus_Spel={
+		name="Magnus Spel"
+
+		advisor={
+			slot = army_chief
+			idea_token = HER_Magnus_Spel
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	HER_Frichan_Waft={
+		name="Frichan Waft"
+
+		advisor={
+			slot = army_chief
+			idea_token = HER_Frichan_Waft
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	HER_Oskarl_Zaube={
+		name="Oskarl Zaube"
+
+		advisor={
+			slot = army_chief
+			idea_token = HER_Oskarl_Zaube
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	HER_Vold_Karsch={
+		name="Vold Karsch"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HER_Vold_Karsch
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	HER_Johard_Rung={
+		name="Johard Rung"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HER_Johard_Rung
+			traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+
+	}
+	HER_Rudold_Turg={
+		name="Rudold Turg"
+
+		advisor={
+			slot = air_chief
+			idea_token = HER_Rudold_Turg
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	HER_Sten_Spruer={
+		name="Sten Spruer"
+
+		advisor={
+			slot = air_chief
+			idea_token = HER_Sten_Spruer
+			traits = {	air_chief_night_operations_2 	}
+		}
+
+
+	}
+	HER_Oskarl_Graft={
+		name="Oskarl Graft"
+
+		advisor={
+			slot = high_command
+			idea_token = HER_Oskarl_Graft
+			traits = {	army_CombinedArms_2 	}
+		}
+
+
+	}
+	HER_Kaspard_Spruer={
+		name="Kaspard Spruer"
+
+		advisor={
+			slot = high_command
+			idea_token = HER_Kaspard_Spruer
+			traits = {	navy_amphibious_assault_1 	}
+		}
+
+
+	}
+	HER_Thijs_Stager={
+		name="Thijs Stager"
+
+		advisor={
+			slot = high_command
+			idea_token = HER_Thijs_Stager
+			traits = {	army_CombinedArms_1 	}
+		}
+
+
+	}
+	HER_Otthiasparl_Siligshein={
+		name="Otthiasparl Siligshein"
+
+		advisor={
+			slot = high_command
+			idea_token = HER_Otthiasparl_Siligshein
+			traits = {	air_close_air_support_2 	}
+		}
+
+
+	}
+	HER_Bjorn_Weilbe={
+		name="Bjorn Weilbe"
+
+		advisor={
+			slot = high_command
+			idea_token = HER_Bjorn_Weilbe
+			traits = {	air_tactical_bombing_2 	}
+		}
+
+
+	}
+	HER_Matto_Stager={
+		name="Matto Stager"
+
+		advisor={
+			slot = high_command
+			idea_token = HER_Matto_Stager
+			traits = {	navy_screen_1 	}
+		}
+
+
+	}
+	HER_Alfren_Blucht={
+		name="Alfren Blucht"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { revolutionary_poet  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	HER_Volker_Weitz={
+		name="Volker Weitz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HER_Volker_Weitz
+			traits = {	leftist_intellectual 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	HER_Hers_Beishoffenig={
+		name="Hers Beishoffenig"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HER_Hers_Beishoffenig
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	HER_Kaspar_Dund={
+		name="Kaspar Dund"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HER_Kaspar_Dund
+			traits = {	political_dancer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	HER_Leinrich_Koen={
+		name="Leinrich Koen"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HER_Leinrich_Koen
+			traits = {	indomitable_perseverance 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	HER_Volkerens_Land={
+		name="Volkerens Land"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HER_Volkerens_Land
+			traits = {	mastermind_code_cracker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	HER_Helm_Segen={
+		name="Helm Segen"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HER_Helm_Segen
+			traits = {	leftist_intellectual 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	HER_Knut_Karstagenig={
+		name="Knut Karstagenig"
+
+		advisor={
+			slot = army_chief
+			idea_token = HER_Knut_Karstagenig
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	HER_Hels_Heiselle={
+		name="Hels Heiselle"
+
+		advisor={
+			slot = army_chief
+			idea_token = HER_Hels_Heiselle
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	HER_Bjorenselm_Magerdess={
+		name="Bjorenselm Magerdess"
+
+		advisor={
+			slot = army_chief
+			idea_token = HER_Bjorenselm_Magerdess
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	HER_Heinhold_Glus={
+		name="Heinhold Glus"
+
+		advisor={
+			slot = army_chief
+			idea_token = HER_Heinhold_Glus
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	HER_Bjorenselm_Dund={
+		name="Bjorenselm Dund"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HER_Bjorenselm_Dund
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	HER_Sigurd_Spruer={
+		name="Sigurd Spruer"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HER_Sigurd_Spruer
+			traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+
+	}
+	HER_Frik_Ruft={
+		name="Frik Ruft"
+
+		advisor={
+			slot = air_chief
+			idea_token = HER_Frik_Ruft
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	HER_Matto_Seilie={
+		name="Matto Seilie"
+
+		advisor={
+			slot = air_chief
+			idea_token = HER_Matto_Seilie
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	HER_Sorne_Segen={
+		name="Sorne Segen"
+
+		advisor={
+			slot = high_command
+			idea_token = HER_Sorne_Segen
+			traits = {	air_bomber_interception_2 	}
+		}
+
+
+	}
+	HER_Johar_Spruer={
+		name="Johar Spruer"
+
+		advisor={
+			slot = high_command
+			idea_token = HER_Johar_Spruer
+			traits = {	air_close_air_support_1 	}
+		}
+
+
+	}
+	HER_Hakon_Eise={
+		name="Hakon Eise"
+
+		advisor={
+			slot = high_command
+			idea_token = HER_Hakon_Eise
+			traits = {	army_infantry_2 	}
+		}
+
+
+	}
+	HER_Georenrik_Weis={
+		name="Georenrik Weis"
+
+		advisor={
+			slot = high_command
+			idea_token = HER_Georenrik_Weis
+			traits = {	navy_submarine_2 	}
+		}
+
+
+	}
+	HER_Ander_Botsch={
+		name="Ander Botsch"
+
+		advisor={
+			slot = high_command
+			idea_token = HER_Ander_Botsch
+			traits = {	navy_amphibious_assault_2 	}
+		}
+
+
+	}
+	HER_Sten_Weis={
+		name="Sten Weis"
+
+		advisor={
+			slot = high_command
+			idea_token = HER_Sten_Weis
+			traits = {	army_radio_intelligence_2 	}
+		}
+
+
+	}
+	HER_Wilhelmut_Grudend={
+		name="Wilhelmut Grudend"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { the_banker  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	HER_Wilhelmut_Richilfe={
+		name="Wilhelmut Richilfe"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HER_Wilhelmut_Richilfe
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	HER_Oskar_Mondter={
+		name="Oskar Mondter"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HER_Oskar_Mondter
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	HER_Janselm_Frizond={
+		name="Janselm Frizond"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HER_Janselm_Frizond
+			traits = {	democratic_crusader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	HER_Wilhelmut_Bucht={
+		name="Wilhelmut Bucht"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HER_Wilhelmut_Bucht
+			traits = {	first_lady 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	HER_Rold_Zaube={
+		name="Rold Zaube"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HER_Rold_Zaube
+			traits = {	rearmer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	HER_Rich_Segenigind={
+		name="Rich Segenigind"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HER_Rich_Segenigind
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	HER_Bjorn_Hein={
+		name="Bjorn Hein"
+
+		advisor={
+			slot = army_chief
+			idea_token = HER_Bjorn_Hein
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	HER_Kaspard_Segen={
+		name="Kaspard Segen"
+
+		advisor={
+			slot = army_chief
+			idea_token = HER_Kaspard_Segen
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	HER_Larald_Gotscht={
+		name="Larald Gotscht"
+
+		advisor={
+			slot = army_chief
+			idea_token = HER_Larald_Gotscht
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	HER_Magnut_Krizonner={
+		name="Magnut Krizonner"
+
+		advisor={
+			slot = army_chief
+			idea_token = HER_Magnut_Krizonner
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	HER_Rich_Botsch={
+		name="Rich Botsch"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HER_Rich_Botsch
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	HER_Richar_Tagind={
+		name="Richar Tagind"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HER_Richar_Tagind
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	HER_Geored_Mondter={
+		name="Geored Mondter"
+
+		advisor={
+			slot = air_chief
+			idea_token = HER_Geored_Mondter
+			traits = {	air_chief_all_weather_2 	}
+		}
+
+
+	}
+	HER_Matto_Bucht={
+		name="Matto Bucht"
+
+		advisor={
+			slot = air_chief
+			idea_token = HER_Matto_Bucht
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	HER_Hakon_Kampf={
+		name="Hakon Kampf"
+
+		advisor={
+			slot = high_command
+			idea_token = HER_Hakon_Kampf
+			traits = {	army_CombinedArms_1 	}
+		}
+
+
+	}
+	HER_Oskar_Weis={
+		name="Oskar Weis"
+
+		advisor={
+			slot = high_command
+			idea_token = HER_Oskar_Weis
+			traits = {	navy_capital_ship_1 	}
+		}
+
+
+	}
+	HER_Sven_Glus={
+		name="Sven Glus"
+
+		advisor={
+			slot = high_command
+			idea_token = HER_Sven_Glus
+			traits = {	air_bomber_interception_2 	}
+		}
+
+
+	}
+	HER_Georenrik_Schilieden={
+		name="Georenrik Schilieden"
+
+		advisor={
+			slot = high_command
+			idea_token = HER_Georenrik_Schilieden
+			traits = {	army_CombinedArms_1 	}
+		}
+
+
+	}
+	HER_Bjorn_Ratelheich={
+		name="Bjorn Ratelheich"
+
+		advisor={
+			slot = high_command
+			idea_token = HER_Bjorn_Ratelheich
+			traits = {	army_infantry_2 	}
+		}
+
+
+	}
+	HER_Sten_Richilfe={
+		name="Sten Richilfe"
+
+		advisor={
+			slot = high_command
+			idea_token = HER_Sten_Richilfe
+			traits = {	air_naval_strike_1 	}
+		}
+
+
+	}
+	HER_Volkerens_Krasseld={
+		name="Volkerens Krasseld"
+
+		advisor={
+			slot = theorist
+			idea_token = HER_Volkerens_Krasseld
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	HER_Frik_Schild={
+		name="Frik Schild"
+
+		advisor={
+			slot = theorist
+			idea_token = HER_Frik_Schild
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	HER_Bered_Weis={
+		name="Bered Weis"
+
+		advisor={
+			slot = theorist
+			idea_token = HER_Bered_Weis
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

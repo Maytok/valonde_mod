@@ -1,0 +1,27 @@
+air_wings = {
+		1294 = { 								
+		tac_bomber_equipment_0 = { owner = "MUN" amount = 50 version_name = "Masjidda Mk 2" }
+
+	}
+	1316 = { 								
+		fighter_equipment_0 = { owner = "MUN" amount = 50 version_name = "Khalaktan Mk 0" }
+
+	}
+	1237 = { 								
+		CAS_equipment_0 = { owner = "MUN" amount = 50 version_name = "Asat Mk 2" }
+nav_bomber_equipment_0 = { owner = "MUN" amount = 50 version_name = "Khalama Mk 2" }
+nav_bomber_equipment_0 = { owner = "MUN" amount = 50 version_name = "Khalama Mk 2" }
+
+	}
+	1336 = { 								
+		fighter_equipment_0 = { owner = "MUN" amount = 50 version_name = "Khalaktan Mk 0" }
+tac_bomber_equipment_0 = { owner = "MUN" amount = 50 version_name = "Masjidda Mk 2" }
+
+	}
+	1240 = { 								
+		CAS_equipment_0 = { owner = "MUN" amount = 50 version_name = "Asat Mk 2" }
+
+	}
+
+
+}

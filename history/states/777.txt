@@ -1,0 +1,37 @@
+
+state={
+	id=777
+	name="STATE_777"
+	manpower = 4220171
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = GRU
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = GRU
+	}
+
+	provinces={
+		9085 9086 9087 9088 9089 9090 9091 9092 9093 9094 9095 9096 9097 9098 9099 9100 9101 9102 9103 9104 9105 9106 9107 
+	}
+	local_supplies=0.0 
+}

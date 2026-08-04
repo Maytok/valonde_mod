@@ -1,0 +1,37 @@
+
+state={
+	id=1507
+	name="STATE_1507"
+	manpower = 790267
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=4
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = MTN
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = MTN
+	}
+
+	provinces={
+		16952 16953 16954 16955 16956 
+	}
+	local_supplies=0.0 
+}

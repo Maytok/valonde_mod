@@ -1,0 +1,37 @@
+
+state={
+	id=83
+	name="STATE_83"
+	manpower = 1344448
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = TEM
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = TEM
+	}
+
+	provinces={
+		1054 1055 1056 1057 1058 1059 1060 
+	}
+	local_supplies=0.0 
+}

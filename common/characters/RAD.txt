@@ -1,0 +1,1083 @@
+characters = {
+	RAD_Ngawang_Shen={
+		name="Ngawang Shen"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { autocratic_archbishop  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	RAD_Thun_Zhan={
+		name="Thun Zhan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RAD_Thun_Zhan
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	RAD_Jiang_Tiang={
+		name="Jiang Tiang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RAD_Jiang_Tiang
+			traits = {	noble_beurocrat 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	RAD_Nima_Shao={
+		name="Nima Shao"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RAD_Nima_Shao
+			traits = {	headstrong 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	RAD_Chengdu_Nian={
+		name="Chengdu Nian"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RAD_Chengdu_Nian
+			traits = {	noble_beurocrat 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	RAD_Gyatso_Tong={
+		name="Gyatso Tong"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RAD_Gyatso_Tong
+			traits = {	agricultural_capitalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	RAD_Phun_Chao={
+		name="Phun Chao"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RAD_Phun_Chao
+			traits = {	noble_beurocrat 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	RAD_Tenzing_Tong={
+		name="Tenzing Tong"
+
+		advisor={
+			slot = army_chief
+			idea_token = RAD_Tenzing_Tong
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	RAD_Cheng_Shui={
+		name="Cheng Shui"
+
+		advisor={
+			slot = army_chief
+			idea_token = RAD_Cheng_Shui
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	RAD_Chen_Yuang={
+		name="Chen Yuang"
+
+		advisor={
+			slot = army_chief
+			idea_token = RAD_Chen_Yuang
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	RAD_Renzin_Dong={
+		name="Renzin Dong"
+
+		advisor={
+			slot = army_chief
+			idea_token = RAD_Renzin_Dong
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	RAD_Song_Chuang={
+		name="Song Chuang"
+
+		advisor={
+			slot = navy_chief
+			idea_token = RAD_Song_Chuang
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	RAD_Gyatso_Meng={
+		name="Gyatso Meng"
+
+		advisor={
+			slot = navy_chief
+			idea_token = RAD_Gyatso_Meng
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	RAD_Dawa_Lian={
+		name="Dawa Lian"
+
+		advisor={
+			slot = air_chief
+			idea_token = RAD_Dawa_Lian
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	RAD_Yuntsok_Tong={
+		name="Yuntsok Tong"
+
+		advisor={
+			slot = air_chief
+			idea_token = RAD_Yuntsok_Tong
+			traits = {	air_chief_all_weather_1 	}
+		}
+
+
+	}
+	RAD_Yuntso_Qing={
+		name="Yuntso Qing"
+
+		advisor={
+			slot = high_command
+			idea_token = RAD_Yuntso_Qing
+			traits = {	army_cavalry_1 	}
+		}
+
+
+	}
+	RAD_Heng_Tiang={
+		name="Heng Tiang"
+
+		advisor={
+			slot = high_command
+			idea_token = RAD_Heng_Tiang
+			traits = {	army_commando_2 	}
+		}
+
+
+	}
+	RAD_Thun_Meng={
+		name="Thun Meng"
+
+		advisor={
+			slot = high_command
+			idea_token = RAD_Thun_Meng
+			traits = {	navy_anti_submarine_2 	}
+		}
+
+
+	}
+	RAD_Juntsok_Zhao={
+		name="Juntsok Zhao"
+
+		advisor={
+			slot = high_command
+			idea_token = RAD_Juntsok_Zhao
+			traits = {	navy_naval_air_defense_2 	}
+		}
+
+
+	}
+	RAD_Mingdu_Lian={
+		name="Mingdu Lian"
+
+		advisor={
+			slot = high_command
+			idea_token = RAD_Mingdu_Lian
+			traits = {	army_CombinedArms_1 	}
+		}
+
+
+	}
+	RAD_Renzin_Huang={
+		name="Renzin Huang"
+
+		advisor={
+			slot = high_command
+			idea_token = RAD_Renzin_Huang
+			traits = {	air_bomber_interception_2 	}
+		}
+
+
+	}
+	RAD_Phubtenzing_Shang={
+		name="Phubtenzing Shang"
+
+		
+		country_leader={
+			ideology=nazism
+			traits = { autocratic_imperialist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	RAD_Dawa_Zhao={
+		name="Dawa Zhao"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RAD_Dawa_Zhao
+			traits = {	militant_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	RAD_Ming_Chuang={
+		name="Ming Chuang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RAD_Ming_Chuang
+			traits = {	subservient_ultranationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	RAD_Nima_Huai={
+		name="Nima Huai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RAD_Nima_Huai
+			traits = {	autocratic_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	RAD_Phubten_Qing={
+		name="Phubten Qing"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RAD_Phubten_Qing
+			traits = {	generallissimo 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	RAD_Ngawa_Nang={
+		name="Ngawa Nang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RAD_Ngawa_Nang
+			traits = {	autokrator 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	RAD_Henzing_Hong={
+		name="Henzing Hong"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RAD_Henzing_Hong
+			traits = {	militant_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	RAD_Yuntsok_Qing={
+		name="Yuntsok Qing"
+
+		advisor={
+			slot = army_chief
+			idea_token = RAD_Yuntsok_Qing
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	RAD_Heng_Shui={
+		name="Heng Shui"
+
+		advisor={
+			slot = army_chief
+			idea_token = RAD_Heng_Shui
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	RAD_Jigme_Tong={
+		name="Jigme Tong"
+
+		advisor={
+			slot = army_chief
+			idea_token = RAD_Jigme_Tong
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	RAD_Dawang_Zhou={
+		name="Dawang Zhou"
+
+		advisor={
+			slot = army_chief
+			idea_token = RAD_Dawang_Zhou
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	RAD_Song_Shui={
+		name="Song Shui"
+
+		advisor={
+			slot = navy_chief
+			idea_token = RAD_Song_Shui
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	RAD_Long_Pinxi={
+		name="Long Pinxi"
+
+		advisor={
+			slot = navy_chief
+			idea_token = RAD_Long_Pinxi
+			traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+
+	}
+	RAD_Karma_Pinxi={
+		name="Karma Pinxi"
+
+		advisor={
+			slot = air_chief
+			idea_token = RAD_Karma_Pinxi
+			traits = {	air_chief_night_operations_2 	}
+		}
+
+
+	}
+	RAD_Wangdu_Yuang={
+		name="Wangdu Yuang"
+
+		advisor={
+			slot = air_chief
+			idea_token = RAD_Wangdu_Yuang
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	RAD_Thubtenzin_Tiang={
+		name="Thubtenzin Tiang"
+
+		advisor={
+			slot = high_command
+			idea_token = RAD_Thubtenzin_Tiang
+			traits = {	army_entrenchment_1 	}
+		}
+
+
+	}
+	RAD_Henzing_Tiang={
+		name="Henzing Tiang"
+
+		advisor={
+			slot = high_command
+			idea_token = RAD_Henzing_Tiang
+			traits = {	air_bomber_interception_1 	}
+		}
+
+
+	}
+	RAD_Henzing_Shan={
+		name="Henzing Shan"
+
+		advisor={
+			slot = high_command
+			idea_token = RAD_Henzing_Shan
+			traits = {	navy_screen_2 	}
+		}
+
+
+	}
+	RAD_Dawa_Nian={
+		name="Dawa Nian"
+
+		advisor={
+			slot = high_command
+			idea_token = RAD_Dawa_Nian
+			traits = {	navy_capital_ship_1 	}
+		}
+
+
+	}
+	RAD_Ngawang_Meng={
+		name="Ngawang Meng"
+
+		advisor={
+			slot = high_command
+			idea_token = RAD_Ngawang_Meng
+			traits = {	air_pilot_training_2 	}
+		}
+
+
+	}
+	RAD_Qiang_Xian={
+		name="Qiang Xian"
+
+		advisor={
+			slot = high_command
+			idea_token = RAD_Qiang_Xian
+			traits = {	air_bomber_interception_2 	}
+		}
+
+
+	}
+	RAD_Yuntso_Chuan={
+		name="Yuntso Chuan"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { leftist_intellectual  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	RAD_Phubten_Shao={
+		name="Phubten Shao"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RAD_Phubten_Shao
+			traits = {	revolutionary_poet 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	RAD_Wang_Chuang={
+		name="Wang Chuang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RAD_Wang_Chuang
+			traits = {	reluctant_stalinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	RAD_Thubten_Dong={
+		name="Thubten Dong"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RAD_Thubten_Dong
+			traits = {	leftist_independent 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	RAD_Wang_Shao={
+		name="Wang Shao"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RAD_Wang_Shao
+			traits = {	leftist_independent 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	RAD_Dawan_Shao={
+		name="Dawan Shao"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RAD_Dawan_Shao
+			traits = {	leftist_independent 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	RAD_Ngawang_Tong={
+		name="Ngawang Tong"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RAD_Ngawang_Tong
+			traits = {	indomitable_perseverance 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	RAD_Chen_Zhong={
+		name="Chen Zhong"
+
+		advisor={
+			slot = army_chief
+			idea_token = RAD_Chen_Zhong
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	RAD_Cheng_Nang={
+		name="Cheng Nang"
+
+		advisor={
+			slot = army_chief
+			idea_token = RAD_Cheng_Nang
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	RAD_Yuntsok_Shen={
+		name="Yuntsok Shen"
+
+		advisor={
+			slot = army_chief
+			idea_token = RAD_Yuntsok_Shen
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	RAD_Renzing_Zhou={
+		name="Renzing Zhou"
+
+		advisor={
+			slot = army_chief
+			idea_token = RAD_Renzing_Zhou
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	RAD_Lonam_Zhong={
+		name="Lonam Zhong"
+
+		advisor={
+			slot = navy_chief
+			idea_token = RAD_Lonam_Zhong
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	RAD_Tenzing_Shui={
+		name="Tenzing Shui"
+
+		advisor={
+			slot = navy_chief
+			idea_token = RAD_Tenzing_Shui
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	RAD_Lonam_Shui={
+		name="Lonam Shui"
+
+		advisor={
+			slot = air_chief
+			idea_token = RAD_Lonam_Shui
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	RAD_Yang_Tiang={
+		name="Yang Tiang"
+
+		advisor={
+			slot = air_chief
+			idea_token = RAD_Yang_Tiang
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	RAD_Phuntsok_Ping={
+		name="Phuntsok Ping"
+
+		advisor={
+			slot = high_command
+			idea_token = RAD_Phuntsok_Ping
+			traits = {	air_bomber_interception_1 	}
+		}
+
+
+	}
+	RAD_Chengdu_Bian={
+		name="Chengdu Bian"
+
+		advisor={
+			slot = high_command
+			idea_token = RAD_Chengdu_Bian
+			traits = {	army_entrenchment_2 	}
+		}
+
+
+	}
+	RAD_Sonam_Zhan={
+		name="Sonam Zhan"
+
+		advisor={
+			slot = high_command
+			idea_token = RAD_Sonam_Zhan
+			traits = {	navy_anti_submarine_2 	}
+		}
+
+
+	}
+	RAD_Phun_Xiang={
+		name="Phun Xiang"
+
+		advisor={
+			slot = high_command
+			idea_token = RAD_Phun_Xiang
+			traits = {	air_pilot_training_2 	}
+		}
+
+
+	}
+	RAD_Fang_Yuang={
+		name="Fang Yuang"
+
+		advisor={
+			slot = high_command
+			idea_token = RAD_Fang_Yuang
+			traits = {	air_air_combat_training_2 	}
+		}
+
+
+	}
+	RAD_Thubten_Liang={
+		name="Thubten Liang"
+
+		advisor={
+			slot = high_command
+			idea_token = RAD_Thubten_Liang
+			traits = {	navy_fleet_logistics_2 	}
+		}
+
+
+	}
+	RAD_Gyatsok_Huang={
+		name="Gyatsok Huang"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { leftist_legionary  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	RAD_Lonam_Huai={
+		name="Lonam Huai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RAD_Lonam_Huai
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	RAD_Dawang_Pinxi={
+		name="Dawang Pinxi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RAD_Dawang_Pinxi
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	RAD_Chenzin_Sheng={
+		name="Chenzin Sheng"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RAD_Chenzin_Sheng
+			traits = {	first_lady 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	RAD_Henzing_Nang={
+		name="Henzing Nang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RAD_Henzing_Nang
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	RAD_Chenzin_Zhao={
+		name="Chenzin Zhao"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RAD_Chenzin_Zhao
+			traits = {	conservative_grandee 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	RAD_Dawang_Tiang={
+		name="Dawang Tiang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RAD_Dawang_Tiang
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	RAD_Qiang_Dong={
+		name="Qiang Dong"
+
+		advisor={
+			slot = army_chief
+			idea_token = RAD_Qiang_Dong
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	RAD_Qiang_Zhong={
+		name="Qiang Zhong"
+
+		advisor={
+			slot = army_chief
+			idea_token = RAD_Qiang_Zhong
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	RAD_Sonam_Shou={
+		name="Sonam Shou"
+
+		advisor={
+			slot = army_chief
+			idea_token = RAD_Sonam_Shou
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	RAD_Yuntsok_Nian={
+		name="Yuntsok Nian"
+
+		advisor={
+			slot = army_chief
+			idea_token = RAD_Yuntsok_Nian
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	RAD_Mingdu_Chuan={
+		name="Mingdu Chuan"
+
+		advisor={
+			slot = navy_chief
+			idea_token = RAD_Mingdu_Chuan
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	RAD_Ming_Deng={
+		name="Ming Deng"
+
+		advisor={
+			slot = navy_chief
+			idea_token = RAD_Ming_Deng
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	RAD_Long_Zhong={
+		name="Long Zhong"
+
+		advisor={
+			slot = air_chief
+			idea_token = RAD_Long_Zhong
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	RAD_Dawang_Chuang={
+		name="Dawang Chuang"
+
+		advisor={
+			slot = air_chief
+			idea_token = RAD_Dawang_Chuang
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	RAD_Thubtenzin_Shou={
+		name="Thubtenzin Shou"
+
+		advisor={
+			slot = high_command
+			idea_token = RAD_Thubtenzin_Shou
+			traits = {	navy_screen_1 	}
+		}
+
+
+	}
+	RAD_Dawan_Huang={
+		name="Dawan Huang"
+
+		advisor={
+			slot = high_command
+			idea_token = RAD_Dawan_Huang
+			traits = {	navy_carrier_1 	}
+		}
+
+
+	}
+	RAD_Fang_Zhou={
+		name="Fang Zhou"
+
+		advisor={
+			slot = high_command
+			idea_token = RAD_Fang_Zhou
+			traits = {	navy_carrier_1 	}
+		}
+
+
+	}
+	RAD_Nima_Zhou={
+		name="Nima Zhou"
+
+		advisor={
+			slot = high_command
+			idea_token = RAD_Nima_Zhou
+			traits = {	army_commando_1 	}
+		}
+
+
+	}
+	RAD_Ming_Zhao={
+		name="Ming Zhao"
+
+		advisor={
+			slot = high_command
+			idea_token = RAD_Ming_Zhao
+			traits = {	army_entrenchment_2 	}
+		}
+
+
+	}
+	RAD_Long_Guang={
+		name="Long Guang"
+
+		advisor={
+			slot = high_command
+			idea_token = RAD_Long_Guang
+			traits = {	navy_capital_ship_2 	}
+		}
+
+
+	}
+	RAD_Dawa_Shui={
+		name="Dawa Shui"
+
+		advisor={
+			slot = theorist
+			idea_token = RAD_Dawa_Shui
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	RAD_Thubtenzin_Xiang={
+		name="Thubtenzin Xiang"
+
+		advisor={
+			slot = theorist
+			idea_token = RAD_Thubtenzin_Xiang
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	RAD_Phuntsok_Shan={
+		name="Phuntsok Shan"
+
+		advisor={
+			slot = theorist
+			idea_token = RAD_Phuntsok_Shan
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

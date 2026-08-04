@@ -1,0 +1,408 @@
+capital = 1126
+
+oob = "MAM_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "MAM_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "MAM_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	support_weapons= 1
+	tech_trucks= 1
+	tech_support= 1
+	gw_artillery= 1
+	infantry_weapons1= 1
+	paratroopers= 1
+	marines= 1
+	motorised_infantry= 1
+	armored_car1= 1
+	tech_engineers= 1
+	tech_recon= 1
+	tech_military_police= 1
+	tech_maintenance_company= 1
+	interwar_antiair= 1
+	interwar_antitank= 1
+	interwar_artillery= 1
+	fuel_silos= 1
+	fuel_refining= 1
+	synth_oil_experiments= 1
+	electronic_mechanical_engineering= 1
+	basic_fortification_tech= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+		improved_light_tank = 1
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+		engine_tech_1 = 1
+		armor_tech_1 = 1
+		improved_light_tank_chassis = 1
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+		create_equipment_variant = {
+		name = "Dohayah Mk 2"
+		type = heavy_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = extra_ammo_storage
+			special_type_slot_2 = smoke_launchers
+			special_type_slot_3 = expanded_fuel_tank
+			suspension_type_slot = tank_torsion_bar_suspension
+			turret_type_slot = tank_heavy_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Suwataad Mk 0"
+		type = light_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_small_cannon
+			special_type_slot_1 = secondary_turret_hmg
+			special_type_slot_2 = expanded_fuel_tank
+			suspension_type_slot = tank_interleaved_suspension
+			turret_type_slot = tank_light_fixed_superstructure_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Shana Mk 2"
+		type = light_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_small_cannon_2
+			special_type_slot_1 = smoke_launchers
+			special_type_slot_3 = wet_ammo_storage
+			suspension_type_slot = tank_torsion_bar_suspension
+			turret_type_slot = tank_light_fixed_superstructure_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Maktarah Mk 0"
+		type = light_tank_chassis_2
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_small_cannon
+			special_type_slot_1 = wet_ammo_storage
+			special_type_slot_2 = smoke_launchers
+			special_type_slot_3 = extra_ammo_storage
+			suspension_type_slot = tank_christie_suspension
+			turret_type_slot = tank_light_fixed_superstructure_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Majarq Mk 2"
+		type = medium_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_medium_cannon
+			special_type_slot_1 = expanded_fuel_tank
+			special_type_slot_3 = wet_ammo_storage
+			suspension_type_slot = tank_torsion_bar_suspension
+			turret_type_slot = tank_medium_one_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "MAM_1936_air_bba"
+		set_technology = {
+			early_bombs = 1
+			
+		}
+
+	else = {
+		set_air_oob = "MAM_1936_air_legacy"
+		set_technology = {
+			CAS1 = 1
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	early_destroyer = 1
+	
+	}
+	set_naval_oob = "MAM_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Masjidda Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	early_ship_hull_light = 1
+	sonar = 1
+	
+	}
+	set_naval_oob = "MAM_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Masjidda Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = empty
+				rear_1_custom_slot = empty
+			}
+		}
+
+	}
+
+
+recruit_character = MAM_Zaisalid_Masjidda
+recruit_character = MAM_Bilah_Madi
+recruit_character = MAM_Samariq_Dohayah
+recruit_character = MAM_Alid_Burub
+recruit_character = MAM_Nabil_Maghrahr
+recruit_character = MAM_Ibran_Majarq
+recruit_character = MAM_Imran_Ramaniyahr
+recruit_character = MAM_Anwar_Namartoum
+recruit_character = MAM_Yahmal_Suwataad
+recruit_character = MAM_Anwar_Harda
+recruit_character = MAM_Nabil_Hijra
+recruit_character = MAM_Faid_Narab
+recruit_character = MAM_Zaisan_Kutub
+recruit_character = MAM_Mohal_Madina
+recruit_character = MAM_Bilah_Fartourub
+recruit_character = MAM_Anwarid_Majartourhan
+recruit_character = MAM_Jammed_Basrasra
+recruit_character = MAM_Khamad_Tifl
+recruit_character = MAM_Ibran_Tifa
+recruit_character = MAM_Jammed_Ramanzim
+recruit_character = MAM_Yahim_Namartoum
+recruit_character = MAM_Yahmal_Maghra
+recruit_character = MAM_Ibrahim_Khalaktan
+recruit_character = MAM_Imran_Harq
+recruit_character = MAM_Saad_Khalaktan
+recruit_character = MAM_Imrahya_Hafa
+recruit_character = MAM_Majid_Hafa
+recruit_character = MAM_Ibrahya_Maghra
+recruit_character = MAM_Samza_Kutub
+recruit_character = MAM_Jamza_Harda
+recruit_character = MAM_Yahmoud_Zamt
+recruit_character = MAM_Adnan_Kawat
+recruit_character = MAM_Khamad_Ramanzim
+recruit_character = MAM_Ramir_Hajr
+recruit_character = MAM_Samza_Hijra
+recruit_character = MAM_Majid_Saabr
+recruit_character = MAM_Mohami_Matanz
+recruit_character = MAM_Rammed_Fartourub
+recruit_character = MAM_Sami_Tifa
+recruit_character = MAM_Rammed_Khalaktan
+recruit_character = MAM_Hassan_Dohayah
+recruit_character = MAM_Nabilahim_Ghur
+recruit_character = MAM_Anwariq_Ramaniyahr
+recruit_character = MAM_Khami_Darasjidda
+recruit_character = MAM_Yahim_Maghrahr
+recruit_character = MAM_Jammed_Hayr
+recruit_character = MAM_Faisal_Burub
+recruit_character = MAM_Omarid_Hikmalaktasa
+recruit_character = MAM_Yahmoud_Noum
+recruit_character = MAM_Zaisalid_Maghrahr
+recruit_character = MAM_Omar_Makech
+recruit_character = MAM_Imrahya_Namartoum
+recruit_character = MAM_Ramza_Suwatin
+recruit_character = MAM_Yahmal_Imaada
+recruit_character = MAM_Hassan_Sahraba
+recruit_character = MAM_Nabilahim_Doharb
+recruit_character = MAM_Nabil_Asat
+recruit_character = MAM_Yahmal_Ramanzim
+recruit_character = MAM_Yahmal_Hikmahibl
+recruit_character = MAM_Bilal_Shaqq
+recruit_character = MAM_Bilal_Bahayal
+recruit_character = MAM_Mohal_Hijra
+recruit_character = MAM_Abdullal_Madin
+recruit_character = MAM_Jamir_Masjidda
+recruit_character = MAM_Khamad_Hikmahibl
+recruit_character = MAM_Jami_Khalama
+recruit_character = MAM_Anwar_Hayahr
+recruit_character = MAM_Hami_Saadin
+recruit_character = MAM_Jamir_Shibl
+recruit_character = MAM_Khammed_Hawara
+recruit_character = MAM_Yahim_Hayahr
+recruit_character = MAM_Omarid_Hajr
+recruit_character = MAM_Khamad_Khalaktan
+recruit_character = MAM_Yahmal_Reej
+recruit_character = MAM_Yahim_Hafa
+recruit_character = MAM_Faid_Dohayah
+recruit_character = MAM_Kariq_Suwataad
+recruit_character = MAM_Nabilal_Maghra
+recruit_character = MAM_Omarid_Shabala
+recruit_character = MAM_Samariq_Sahraba
+recruit_character = MAM_Hassal_Hawara
+recruit_character = MAM_Omal_Suwataad
+recruit_character = MAM_Ibrah_Khaml
+recruit_character = MAM_Hamir_Nizam
+recruit_character = MAM_Saad_Doharb
+recruit_character = MAM_Fariq_Mawkaba
+recruit_character = MAM_Khal_Hikmalaktasa
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 4
+set_convoys = 0
+set_stability = 0.23
+set_war_support = 0.41
+
+add_ideas = {
+disarmed_nation
+low_economic_mobilisation
+export_focus
+}
+
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1932.11.22"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 31
+	fascism = 22
+	communism = 28
+	neutrality = 19
+}
+
+
+
+
+

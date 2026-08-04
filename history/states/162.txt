@@ -1,0 +1,37 @@
+
+state={
+	id=162
+	name="STATE_162"
+	manpower = 1630762
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=3
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = KFT
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = KFT
+	}
+
+	provinces={
+		1952 1953 1954 1955 1956 1957 1958 1959 1960 
+	}
+	local_supplies=0.0 
+}

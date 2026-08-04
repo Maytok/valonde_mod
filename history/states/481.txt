@@ -1,0 +1,37 @@
+
+state={
+	id=481
+	name="STATE_481"
+	manpower = 3536066
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = WIM
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = WIM
+	}
+
+	provinces={
+		5564 5565 5566 5567 5568 5569 5570 5571 5572 5573 5574 5575 5576 5577 5578 5579 5580 
+	}
+	local_supplies=0.0 
+}

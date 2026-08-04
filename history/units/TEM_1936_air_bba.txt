@@ -1,0 +1,33 @@
+air_wings = {
+		1510 = { 								
+		medium_plane_airframe_0 = { owner = "TEM" amount = 50 version_name = "Presnikaroda Mk 1" }
+
+	}
+	398 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "TEM" amount = 50 version_name = "Obica Mk 0" }
+
+	}
+	490 = { 								
+		small_plane_cas_airframe_0 = { owner = "TEM" amount = 50 version_name = "Kovo Mk 2" }
+
+	}
+	146 = { 								
+		small_plane_airframe_0 = { owner = "TEM" amount = 50 version_name = "Ratram Mk 0" }
+
+	}
+	66 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "TEM" amount = 50 version_name = "Obica Mk 0" }
+
+	}
+	833 = { 								
+		small_plane_airframe_0 = { owner = "TEM" amount = 50 version_name = "Ratram Mk 0" }
+medium_plane_airframe_0 = { owner = "TEM" amount = 50 version_name = "Presnikaroda Mk 1" }
+
+	}
+	349 = { 								
+		small_plane_cas_airframe_0 = { owner = "TEM" amount = 50 version_name = "Kovo Mk 2" }
+
+	}
+
+
+}

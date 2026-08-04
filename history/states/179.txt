@@ -1,0 +1,37 @@
+
+state={
+	id=179
+	name="STATE_179"
+	manpower = 1357840
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=2
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = MTN
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			
+		}
+		add_core_of = MTN
+	}
+
+	provinces={
+		2127 2128 2129 2130 2131 2132 2133 
+	}
+	local_supplies=0.0 
+}

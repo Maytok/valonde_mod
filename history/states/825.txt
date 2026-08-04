@@ -1,0 +1,37 @@
+
+state={
+	id=825
+	name="STATE_825"
+	manpower = 208099
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=19
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = RAD
+		buildings = {
+			infrastructure = 1
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = RAD
+	}
+
+	provinces={
+		9645 9646 9647 9648 9649 9650 9651 9652 9653 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,211 @@
+division_template = {
+	name = "Militia Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 0 y = 3 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 1 y = 3 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+			infantry = {  x = 2 y = 2 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Supported Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 0 y = 3 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+			infantry = {  x = 2 y = 2 }
+
+	}
+	
+	support = {
+			recon = {  x = 0 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Artillery Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+			infantry = {  x = 2 y = 2 }
+			artillery_brigade = {  x = 3 y = 0 }
+			artillery_brigade = {  x = 3 y = 1 }
+			artillery_brigade = {  x = 3 y = 2 }
+
+	}
+	
+	support = {
+			artillery = {  x = 0 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+			cavalry = {  x = 0 y = 0 }
+			cavalry = {  x = 0 y = 1 }
+			cavalry = {  x = 0 y = 2 }
+			cavalry = {  x = 1 y = 0 }
+			cavalry = {  x = 1 y = 1 }
+			cavalry = {  x = 2 y = 0 }
+			cavalry = {  x = 2 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+
+
+units = {
+	division= {
+		name = "1st 'Tensarvus' Militia Division"
+		location = 4120
+		division_template = "Militia Division"
+		start_experience_factor = 0.386299
+		start_equipment_factor = 0.840950
+	}
+	division= {
+		name = "2nd 'Paginciumena' Militia Division"
+		location = 7871
+		division_template = "Militia Division"
+		start_experience_factor = 0.073542
+		start_equipment_factor = 0.865996
+	}
+	division= {
+		name = "3rd 'Pria' Militia Division"
+		location = 2167
+		division_template = "Militia Division"
+		start_experience_factor = 0.450672
+		start_equipment_factor = 0.820672
+	}
+	division= {
+		name = "4th 'Foritas' Militia Division"
+		location = 4122
+		division_template = "Militia Division"
+		start_experience_factor = 0.678732
+		start_equipment_factor = 0.930449
+	}
+	division= {
+		name = "5th 'Caespus' Militia Division"
+		location = 16892
+		division_template = "Militia Division"
+		start_experience_factor = 0.521884
+		start_equipment_factor = 0.825673
+	}
+	division= {
+		name = "1st 'Scaes' Infantry Division"
+		location = 11043
+		division_template = "Infantry Division"
+		start_experience_factor = 0.826570
+		start_equipment_factor = 0.964713
+	}
+	division= {
+		name = "2nd 'Plum' Infantry Division"
+		location = 3082
+		division_template = "Infantry Division"
+		start_experience_factor = 0.488830
+		start_equipment_factor = 0.972734
+	}
+	division= {
+		name = "1st 'Terae' Supported Infantry Division"
+		location = 5233
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.588273
+		start_equipment_factor = 0.893701
+	}
+	division= {
+		name = "2nd 'Macus' Supported Infantry Division"
+		location = 8596
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.788404
+		start_equipment_factor = 0.851202
+	}
+	division= {
+		name = "3rd 'Gentus' Supported Infantry Division"
+		location = 8606
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.940494
+		start_equipment_factor = 0.815959
+	}
+	division= {
+		name = "1st 'Terae' Artillery Division"
+		location = 5233
+		division_template = "Artillery Division"
+		start_experience_factor = 0.561625
+		start_equipment_factor = 0.798314
+	}
+	division= {
+		name = "2nd 'Mare' Artillery Division"
+		location = 1416
+		division_template = "Artillery Division"
+		start_experience_factor = 0.987900
+		start_equipment_factor = 0.936106
+	}
+	division= {
+		name = "1st 'Deatus' Cavalry Division"
+		location = 3764
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.999966
+		start_equipment_factor = 0.944862
+	}
+	division= {
+		name = "2nd 'Tribernima' Cavalry Division"
+		location = 3965
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.978929
+		start_equipment_factor = 0.881931
+	}
+	division= {
+		name = "3rd 'Opus' Cavalry Division"
+		location = 10736
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.357177
+		start_equipment_factor = 0.793353
+	}
+
+}

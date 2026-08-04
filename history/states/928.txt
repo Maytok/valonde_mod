@@ -1,0 +1,37 @@
+
+state={
+	id=928
+	name="STATE_928"
+	manpower = 694604
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=17
+		chromium=18
+		oil=0
+		rubber=0
+		steel=1
+		tungsten=17
+		coal=44
+	}
+
+	history={
+		
+		owner = HIS
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = HIS
+	}
+
+	provinces={
+		10708 10709 10710 10711 10712 10713 10714 10715 10716 
+	}
+	local_supplies=0.0 
+}

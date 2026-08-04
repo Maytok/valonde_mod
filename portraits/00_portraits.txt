@@ -1,0 +1,2760 @@
+default = {
+	#navy = {
+		#male = {
+		#}
+		#female = {
+		#}
+	#}
+	
+	#army = {
+		#male = {
+		#}
+		#female = {
+		#}
+	#}
+
+	operative = {
+		male = {
+			"GFX_portrait_operative_unknown"
+		}
+		female = {
+			"GFX_portrait_operative_unknown"
+		}
+	}
+
+	male = {
+		"GFX_portrait_unknown"
+	}
+	female = {
+		"GFX_portrait_unknown_female"
+	}
+}
+
+#all the continent visuals
+AJT = {
+	army = {
+		male = {
+			"GFX_Portrait_Arabia_Generic_land_1"
+			"GFX_Portrait_Arabia_Generic_land_2"
+			"GFX_Portrait_Arabia_Generic_land_3"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Arabia_Generic_navy_1"
+			"GFX_Portrait_Arabia_Generic_navy_2"
+			"GFX_Portrait_Arabia_Generic_navy_3"
+		}
+	}
+	
+	political = {
+		communism = {
+			male = { 
+				"GFX_Portrait_Arabia_Generic_1"
+			}
+		}
+		democratic = {
+			male = { 
+				"GFX_Portrait_Arabia_Generic_2"
+			}
+		}
+		fascism = {
+			male = { 
+				"GFX_Portrait_Arabia_Generic_3" 
+			}
+		}
+		neutrality = {
+			male = { 
+				"GFX_Portrait_Arabia_Generic_3" 
+			}
+		}
+	}
+}
+BUM = {
+	army = {
+		male = {
+			"GFX_Portrait_Asia_Generic_land_1"
+			"GFX_Portrait_Asia_Generic_land_2"
+			"GFX_Portrait_Asia_Generic_land_3"
+			"GFX_Portrait_Asia_Generic_land_4"
+			"GFX_Portrait_Asia_Generic_land_5"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Asia_Generic_navy_1"
+			"GFX_Portrait_Asia_Generic_navy_2"
+			"GFX_Portrait_Asia_Generic_navy_3"
+		}
+	}
+
+	political = {
+		communism = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_1"
+			}
+		}
+		democratic = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_2" 
+			}
+		}
+		fascism = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_3" 
+			}
+		}
+		neutrality = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_3" 
+			}
+		}
+	}	
+
+}
+CAS = {
+	army = {
+		male = {
+			"GFX_Portrait_Africa_Generic_land_1"
+			"GFX_Portrait_Africa_Generic_land_2"
+			"GFX_Portrait_Africa_Generic_land_3"
+			"GFX_Portrait_South_Africa_Army_Generic"
+			"GFX_Portrait_South_Africa_Army_Generic_2"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Africa_Generic_navy_1"
+			"GFX_Portrait_Africa_Generic_navy_2"
+			"GFX_Portrait_Africa_Generic_navy_3"
+		}
+	}
+	
+	political = {
+		communism = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_1"	
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+			}
+		}
+		democratic = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_2" 
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"		
+			}
+		}
+		fascism = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_3" 
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"
+				"GFX_Portrait_South_Africa_Army_Generic"
+				"GFX_Portrait_South_Africa_Army_Generic_2"
+			}
+		}
+		neutrality = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_3" 
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"
+			}
+		}
+	}
+}
+CES = {
+	army = {
+		male = {
+			"GFX_Portrait_Asia_Generic_land_1"
+			"GFX_Portrait_Asia_Generic_land_2"
+			"GFX_Portrait_Asia_Generic_land_3"
+			"GFX_Portrait_Asia_Generic_land_4"
+			"GFX_Portrait_Asia_Generic_land_5"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Asia_Generic_navy_1"
+			"GFX_Portrait_Asia_Generic_navy_2"
+			"GFX_Portrait_Asia_Generic_navy_3"
+		}
+	}
+
+	political = {
+		communism = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_1"
+			}
+		}
+		democratic = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_2" 
+			}
+		}
+		fascism = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_3" 
+			}
+		}
+		neutrality = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_3" 
+			}
+		}
+	}	
+
+}
+CHO = {
+	army = {
+		male = {
+			"GFX_Portrait_Arabia_Generic_land_1"
+			"GFX_Portrait_Arabia_Generic_land_2"
+			"GFX_Portrait_Arabia_Generic_land_3"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Arabia_Generic_navy_1"
+			"GFX_Portrait_Arabia_Generic_navy_2"
+			"GFX_Portrait_Arabia_Generic_navy_3"
+		}
+	}
+	
+	political = {
+		communism = {
+			male = { 
+				"GFX_Portrait_Arabia_Generic_1"
+			}
+		}
+		democratic = {
+			male = { 
+				"GFX_Portrait_Arabia_Generic_2"
+			}
+		}
+		fascism = {
+			male = { 
+				"GFX_Portrait_Arabia_Generic_3" 
+			}
+		}
+		neutrality = {
+			male = { 
+				"GFX_Portrait_Arabia_Generic_3" 
+			}
+		}
+	}
+}
+DAN = {
+	army = {
+		male = {
+			"GFX_Portrait_Asia_Generic_land_1"
+			"GFX_Portrait_Asia_Generic_land_2"
+			"GFX_Portrait_Asia_Generic_land_3"
+			"GFX_Portrait_Asia_Generic_land_4"
+			"GFX_Portrait_Asia_Generic_land_5"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Asia_Generic_navy_1"
+			"GFX_Portrait_Asia_Generic_navy_2"
+			"GFX_Portrait_Asia_Generic_navy_3"
+		}
+	}
+
+	political = {
+		communism = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_1"
+			}
+		}
+		democratic = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_2" 
+			}
+		}
+		fascism = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_3" 
+			}
+		}
+		neutrality = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_3" 
+			}
+		}
+	}	
+
+}
+DAR = {
+	army = {
+		male = {
+			"GFX_Portrait_Africa_Generic_land_1"
+			"GFX_Portrait_Africa_Generic_land_2"
+			"GFX_Portrait_Africa_Generic_land_3"
+			"GFX_Portrait_South_Africa_Army_Generic"
+			"GFX_Portrait_South_Africa_Army_Generic_2"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Africa_Generic_navy_1"
+			"GFX_Portrait_Africa_Generic_navy_2"
+			"GFX_Portrait_Africa_Generic_navy_3"
+		}
+	}
+	
+	political = {
+		communism = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_1"	
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+			}
+		}
+		democratic = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_2" 
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"		
+			}
+		}
+		fascism = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_3" 
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"
+				"GFX_Portrait_South_Africa_Army_Generic"
+				"GFX_Portrait_South_Africa_Army_Generic_2"
+			}
+		}
+		neutrality = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_3" 
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"
+			}
+		}
+	}
+}
+DUE = {
+	army = {
+		male = {
+			"GFX_Portrait_Europe_Generic_land_1"
+			"GFX_Portrait_Europe_Generic_land_2"
+			"GFX_Portrait_Europe_Generic_land_3"
+			"GFX_Portrait_Europe_Generic_land_4"
+			"GFX_Portrait_Europe_Generic_land_5"
+			"GFX_portrait_europe_generic_land_13"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Europe_Generic_navy_1"
+			"GFX_Portrait_Europe_Generic_navy_2"
+			"GFX_Portrait_Europe_Generic_navy_3"
+		}
+	}
+	
+	political = {
+		communism = {
+			male = { 
+				"GFX_Portrait_Europe_Generic_1"
+			}
+		}
+		democratic = {
+			male = { 
+				"GFX_Portrait_Europe_Generic_2" 
+			}
+		}
+		fascism = {
+			male = { 
+				"GFX_Portrait_Europe_Generic_3" 
+			}
+		}
+		neutrality = {
+			male = { 
+				"GFX_Portrait_Europe_Generic_3" 
+			}
+		}
+	}
+}
+FRE = {
+	army = {
+		male = {
+			"GFX_Portrait_Europe_Generic_land_1"
+			"GFX_Portrait_Europe_Generic_land_2"
+			"GFX_Portrait_Europe_Generic_land_3"
+			"GFX_Portrait_Europe_Generic_land_4"
+			"GFX_Portrait_Europe_Generic_land_5"
+			"GFX_portrait_europe_generic_land_13"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Europe_Generic_navy_1"
+			"GFX_Portrait_Europe_Generic_navy_2"
+			"GFX_Portrait_Europe_Generic_navy_3"
+		}
+	}
+	
+	political = {
+		communism = {
+			male = { 
+				"GFX_Portrait_Europe_Generic_1"
+			}
+		}
+		democratic = {
+			male = { 
+				"GFX_Portrait_Europe_Generic_2" 
+			}
+		}
+		fascism = {
+			male = { 
+				"GFX_Portrait_Europe_Generic_3" 
+			}
+		}
+		neutrality = {
+			male = { 
+				"GFX_Portrait_Europe_Generic_3" 
+			}
+		}
+	}
+}
+GRU = {
+	army = {
+		male = {
+			"GFX_Portrait_South_America_Generic_land_1"
+			"GFX_Portrait_South_America_Generic_land_2"
+			"GFX_Portrait_South_America_Generic_land_3"
+			"GFX_Portrait_South_America_Generic_land_4"
+			"GFX_Portrait_South_America_Generic_land_5"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_South_America_Generic_navy_1"
+			"GFX_Portrait_South_America_Generic_navy_2"
+			"GFX_Portrait_South_America_Generic_navy_3"
+		}
+	}
+	
+	political = {
+		communism = {
+			male = { 
+				"GFX_Portrait_South_America_Generic_1"
+			}
+		}
+		democratic = {
+			male = { 
+				"GFX_Portrait_South_America_Generic_2" 
+			}
+		}
+		fascism = {
+			male = { 
+				"GFX_Portrait_South_America_Generic_3" 
+			}
+		}
+		neutrality = {
+			male = { 
+				"GFX_Portrait_South_America_Generic_3" 
+			}
+		}
+	}
+}
+HAJ = {
+	army = {
+		male = {
+			"GFX_Portrait_Africa_Generic_land_1"
+			"GFX_Portrait_Africa_Generic_land_2"
+			"GFX_Portrait_Africa_Generic_land_3"
+			"GFX_Portrait_South_Africa_Army_Generic"
+			"GFX_Portrait_South_Africa_Army_Generic_2"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Africa_Generic_navy_1"
+			"GFX_Portrait_Africa_Generic_navy_2"
+			"GFX_Portrait_Africa_Generic_navy_3"
+		}
+	}
+	
+	political = {
+		communism = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_1"	
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+			}
+		}
+		democratic = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_2" 
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"		
+			}
+		}
+		fascism = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_3" 
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"
+				"GFX_Portrait_South_Africa_Army_Generic"
+				"GFX_Portrait_South_Africa_Army_Generic_2"
+			}
+		}
+		neutrality = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_3" 
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"
+			}
+		}
+	}
+}
+HER = {
+	army = {
+		male = {
+			"GFX_Portrait_Asia_Generic_land_1"
+			"GFX_Portrait_Asia_Generic_land_2"
+			"GFX_Portrait_Asia_Generic_land_3"
+			"GFX_Portrait_Asia_Generic_land_4"
+			"GFX_Portrait_Asia_Generic_land_5"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Asia_Generic_navy_1"
+			"GFX_Portrait_Asia_Generic_navy_2"
+			"GFX_Portrait_Asia_Generic_navy_3"
+		}
+	}
+
+	political = {
+		communism = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_1"
+			}
+		}
+		democratic = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_2" 
+			}
+		}
+		fascism = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_3" 
+			}
+		}
+		neutrality = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_3" 
+			}
+		}
+	}	
+
+}
+HIK = {
+	army = {
+		male = {
+			"GFX_Portrait_Africa_Generic_land_1"
+			"GFX_Portrait_Africa_Generic_land_2"
+			"GFX_Portrait_Africa_Generic_land_3"
+			"GFX_Portrait_South_Africa_Army_Generic"
+			"GFX_Portrait_South_Africa_Army_Generic_2"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Africa_Generic_navy_1"
+			"GFX_Portrait_Africa_Generic_navy_2"
+			"GFX_Portrait_Africa_Generic_navy_3"
+		}
+	}
+	
+	political = {
+		communism = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_1"	
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+			}
+		}
+		democratic = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_2" 
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"		
+			}
+		}
+		fascism = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_3" 
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"
+				"GFX_Portrait_South_Africa_Army_Generic"
+				"GFX_Portrait_South_Africa_Army_Generic_2"
+			}
+		}
+		neutrality = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_3" 
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"
+			}
+		}
+	}
+}
+HIS = {
+	army = {
+		male = {
+			"GFX_Portrait_Asia_Generic_land_1"
+			"GFX_Portrait_Asia_Generic_land_2"
+			"GFX_Portrait_Asia_Generic_land_3"
+			"GFX_Portrait_Asia_Generic_land_4"
+			"GFX_Portrait_Asia_Generic_land_5"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Asia_Generic_navy_1"
+			"GFX_Portrait_Asia_Generic_navy_2"
+			"GFX_Portrait_Asia_Generic_navy_3"
+		}
+	}
+
+	political = {
+		communism = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_1"
+			}
+		}
+		democratic = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_2" 
+			}
+		}
+		fascism = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_3" 
+			}
+		}
+		neutrality = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_3" 
+			}
+		}
+	}	
+
+}
+HRA = {
+	army = {
+		male = {
+			"GFX_Portrait_Africa_Generic_land_1"
+			"GFX_Portrait_Africa_Generic_land_2"
+			"GFX_Portrait_Africa_Generic_land_3"
+			"GFX_Portrait_South_Africa_Army_Generic"
+			"GFX_Portrait_South_Africa_Army_Generic_2"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Africa_Generic_navy_1"
+			"GFX_Portrait_Africa_Generic_navy_2"
+			"GFX_Portrait_Africa_Generic_navy_3"
+		}
+	}
+	
+	political = {
+		communism = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_1"	
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+			}
+		}
+		democratic = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_2" 
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"		
+			}
+		}
+		fascism = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_3" 
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"
+				"GFX_Portrait_South_Africa_Army_Generic"
+				"GFX_Portrait_South_Africa_Army_Generic_2"
+			}
+		}
+		neutrality = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_3" 
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"
+			}
+		}
+	}
+}
+IAL = {
+	army = {
+		male = {
+			"GFX_Portrait_Africa_Generic_land_1"
+			"GFX_Portrait_Africa_Generic_land_2"
+			"GFX_Portrait_Africa_Generic_land_3"
+			"GFX_Portrait_South_Africa_Army_Generic"
+			"GFX_Portrait_South_Africa_Army_Generic_2"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Africa_Generic_navy_1"
+			"GFX_Portrait_Africa_Generic_navy_2"
+			"GFX_Portrait_Africa_Generic_navy_3"
+		}
+	}
+	
+	political = {
+		communism = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_1"	
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+			}
+		}
+		democratic = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_2" 
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"		
+			}
+		}
+		fascism = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_3" 
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"
+				"GFX_Portrait_South_Africa_Army_Generic"
+				"GFX_Portrait_South_Africa_Army_Generic_2"
+			}
+		}
+		neutrality = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_3" 
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"
+			}
+		}
+	}
+}
+ITU = {
+	army = {
+		male = {
+			"GFX_Portrait_Asia_Generic_land_1"
+			"GFX_Portrait_Asia_Generic_land_2"
+			"GFX_Portrait_Asia_Generic_land_3"
+			"GFX_Portrait_Asia_Generic_land_4"
+			"GFX_Portrait_Asia_Generic_land_5"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Asia_Generic_navy_1"
+			"GFX_Portrait_Asia_Generic_navy_2"
+			"GFX_Portrait_Asia_Generic_navy_3"
+		}
+	}
+
+	political = {
+		communism = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_1"
+			}
+		}
+		democratic = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_2" 
+			}
+		}
+		fascism = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_3" 
+			}
+		}
+		neutrality = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_3" 
+			}
+		}
+	}	
+
+}
+KDU = {
+	army = {
+		male = {
+			"GFX_Portrait_Asia_Generic_land_1"
+			"GFX_Portrait_Asia_Generic_land_2"
+			"GFX_Portrait_Asia_Generic_land_3"
+			"GFX_Portrait_Asia_Generic_land_4"
+			"GFX_Portrait_Asia_Generic_land_5"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Asia_Generic_navy_1"
+			"GFX_Portrait_Asia_Generic_navy_2"
+			"GFX_Portrait_Asia_Generic_navy_3"
+		}
+	}
+
+	political = {
+		communism = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_1"
+			}
+		}
+		democratic = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_2" 
+			}
+		}
+		fascism = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_3" 
+			}
+		}
+		neutrality = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_3" 
+			}
+		}
+	}	
+
+}
+KFT = {
+	army = {
+		male = {
+			"GFX_Portrait_Asia_Generic_land_1"
+			"GFX_Portrait_Asia_Generic_land_2"
+			"GFX_Portrait_Asia_Generic_land_3"
+			"GFX_Portrait_Asia_Generic_land_4"
+			"GFX_Portrait_Asia_Generic_land_5"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Asia_Generic_navy_1"
+			"GFX_Portrait_Asia_Generic_navy_2"
+			"GFX_Portrait_Asia_Generic_navy_3"
+		}
+	}
+
+	political = {
+		communism = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_1"
+			}
+		}
+		democratic = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_2" 
+			}
+		}
+		fascism = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_3" 
+			}
+		}
+		neutrality = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_3" 
+			}
+		}
+	}	
+
+}
+KIJ = {
+	army = {
+		male = {
+			"GFX_Portrait_Asia_Generic_land_1"
+			"GFX_Portrait_Asia_Generic_land_2"
+			"GFX_Portrait_Asia_Generic_land_3"
+			"GFX_Portrait_Asia_Generic_land_4"
+			"GFX_Portrait_Asia_Generic_land_5"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Asia_Generic_navy_1"
+			"GFX_Portrait_Asia_Generic_navy_2"
+			"GFX_Portrait_Asia_Generic_navy_3"
+		}
+	}
+
+	political = {
+		communism = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_1"
+			}
+		}
+		democratic = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_2" 
+			}
+		}
+		fascism = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_3" 
+			}
+		}
+		neutrality = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_3" 
+			}
+		}
+	}	
+
+}
+KIM = {
+	army = {
+		male = {
+			"GFX_Portrait_Europe_Generic_land_1"
+			"GFX_Portrait_Europe_Generic_land_2"
+			"GFX_Portrait_Europe_Generic_land_3"
+			"GFX_Portrait_Europe_Generic_land_4"
+			"GFX_Portrait_Europe_Generic_land_5"
+			"GFX_portrait_europe_generic_land_13"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Europe_Generic_navy_1"
+			"GFX_Portrait_Europe_Generic_navy_2"
+			"GFX_Portrait_Europe_Generic_navy_3"
+		}
+	}
+	
+	political = {
+		communism = {
+			male = { 
+				"GFX_Portrait_Europe_Generic_1"
+			}
+		}
+		democratic = {
+			male = { 
+				"GFX_Portrait_Europe_Generic_2" 
+			}
+		}
+		fascism = {
+			male = { 
+				"GFX_Portrait_Europe_Generic_3" 
+			}
+		}
+		neutrality = {
+			male = { 
+				"GFX_Portrait_Europe_Generic_3" 
+			}
+		}
+	}
+}
+KRM = {
+	army = {
+		male = {
+			"GFX_Portrait_Asia_Generic_land_1"
+			"GFX_Portrait_Asia_Generic_land_2"
+			"GFX_Portrait_Asia_Generic_land_3"
+			"GFX_Portrait_Asia_Generic_land_4"
+			"GFX_Portrait_Asia_Generic_land_5"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Asia_Generic_navy_1"
+			"GFX_Portrait_Asia_Generic_navy_2"
+			"GFX_Portrait_Asia_Generic_navy_3"
+		}
+	}
+
+	political = {
+		communism = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_1"
+			}
+		}
+		democratic = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_2" 
+			}
+		}
+		fascism = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_3" 
+			}
+		}
+		neutrality = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_3" 
+			}
+		}
+	}	
+
+}
+KUK = {
+	army = {
+		male = {
+			"GFX_Portrait_Arabia_Generic_land_1"
+			"GFX_Portrait_Arabia_Generic_land_2"
+			"GFX_Portrait_Arabia_Generic_land_3"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Arabia_Generic_navy_1"
+			"GFX_Portrait_Arabia_Generic_navy_2"
+			"GFX_Portrait_Arabia_Generic_navy_3"
+		}
+	}
+	
+	political = {
+		communism = {
+			male = { 
+				"GFX_Portrait_Arabia_Generic_1"
+			}
+		}
+		democratic = {
+			male = { 
+				"GFX_Portrait_Arabia_Generic_2"
+			}
+		}
+		fascism = {
+			male = { 
+				"GFX_Portrait_Arabia_Generic_3" 
+			}
+		}
+		neutrality = {
+			male = { 
+				"GFX_Portrait_Arabia_Generic_3" 
+			}
+		}
+	}
+}
+LAH = {
+	army = {
+		male = {
+			"GFX_Portrait_Asia_Generic_land_1"
+			"GFX_Portrait_Asia_Generic_land_2"
+			"GFX_Portrait_Asia_Generic_land_3"
+			"GFX_Portrait_Asia_Generic_land_4"
+			"GFX_Portrait_Asia_Generic_land_5"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Asia_Generic_navy_1"
+			"GFX_Portrait_Asia_Generic_navy_2"
+			"GFX_Portrait_Asia_Generic_navy_3"
+		}
+	}
+
+	political = {
+		communism = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_1"
+			}
+		}
+		democratic = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_2" 
+			}
+		}
+		fascism = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_3" 
+			}
+		}
+		neutrality = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_3" 
+			}
+		}
+	}	
+
+}
+LAN = {
+	army = {
+		male = {
+			"GFX_Portrait_Asia_Generic_land_1"
+			"GFX_Portrait_Asia_Generic_land_2"
+			"GFX_Portrait_Asia_Generic_land_3"
+			"GFX_Portrait_Asia_Generic_land_4"
+			"GFX_Portrait_Asia_Generic_land_5"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Asia_Generic_navy_1"
+			"GFX_Portrait_Asia_Generic_navy_2"
+			"GFX_Portrait_Asia_Generic_navy_3"
+		}
+	}
+
+	political = {
+		communism = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_1"
+			}
+		}
+		democratic = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_2" 
+			}
+		}
+		fascism = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_3" 
+			}
+		}
+		neutrality = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_3" 
+			}
+		}
+	}	
+
+}
+LIJ = {
+	army = {
+		male = {
+			"GFX_Portrait_Asia_Generic_land_1"
+			"GFX_Portrait_Asia_Generic_land_2"
+			"GFX_Portrait_Asia_Generic_land_3"
+			"GFX_Portrait_Asia_Generic_land_4"
+			"GFX_Portrait_Asia_Generic_land_5"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Asia_Generic_navy_1"
+			"GFX_Portrait_Asia_Generic_navy_2"
+			"GFX_Portrait_Asia_Generic_navy_3"
+		}
+	}
+
+	political = {
+		communism = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_1"
+			}
+		}
+		democratic = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_2" 
+			}
+		}
+		fascism = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_3" 
+			}
+		}
+		neutrality = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_3" 
+			}
+		}
+	}	
+
+}
+LOT = {
+	army = {
+		male = {
+			"GFX_Portrait_South_America_Generic_land_1"
+			"GFX_Portrait_South_America_Generic_land_2"
+			"GFX_Portrait_South_America_Generic_land_3"
+			"GFX_Portrait_South_America_Generic_land_4"
+			"GFX_Portrait_South_America_Generic_land_5"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_South_America_Generic_navy_1"
+			"GFX_Portrait_South_America_Generic_navy_2"
+			"GFX_Portrait_South_America_Generic_navy_3"
+		}
+	}
+	
+	political = {
+		communism = {
+			male = { 
+				"GFX_Portrait_South_America_Generic_1"
+			}
+		}
+		democratic = {
+			male = { 
+				"GFX_Portrait_South_America_Generic_2" 
+			}
+		}
+		fascism = {
+			male = { 
+				"GFX_Portrait_South_America_Generic_3" 
+			}
+		}
+		neutrality = {
+			male = { 
+				"GFX_Portrait_South_America_Generic_3" 
+			}
+		}
+	}
+}
+LUF = {
+	army = {
+		male = {
+			"GFX_Portrait_South_America_Generic_land_1"
+			"GFX_Portrait_South_America_Generic_land_2"
+			"GFX_Portrait_South_America_Generic_land_3"
+			"GFX_Portrait_South_America_Generic_land_4"
+			"GFX_Portrait_South_America_Generic_land_5"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_South_America_Generic_navy_1"
+			"GFX_Portrait_South_America_Generic_navy_2"
+			"GFX_Portrait_South_America_Generic_navy_3"
+		}
+	}
+	
+	political = {
+		communism = {
+			male = { 
+				"GFX_Portrait_South_America_Generic_1"
+			}
+		}
+		democratic = {
+			male = { 
+				"GFX_Portrait_South_America_Generic_2" 
+			}
+		}
+		fascism = {
+			male = { 
+				"GFX_Portrait_South_America_Generic_3" 
+			}
+		}
+		neutrality = {
+			male = { 
+				"GFX_Portrait_South_America_Generic_3" 
+			}
+		}
+	}
+}
+MAG = {
+	army = {
+		male = {
+			"GFX_Portrait_Asia_Generic_land_1"
+			"GFX_Portrait_Asia_Generic_land_2"
+			"GFX_Portrait_Asia_Generic_land_3"
+			"GFX_Portrait_Asia_Generic_land_4"
+			"GFX_Portrait_Asia_Generic_land_5"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Asia_Generic_navy_1"
+			"GFX_Portrait_Asia_Generic_navy_2"
+			"GFX_Portrait_Asia_Generic_navy_3"
+		}
+	}
+
+	political = {
+		communism = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_1"
+			}
+		}
+		democratic = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_2" 
+			}
+		}
+		fascism = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_3" 
+			}
+		}
+		neutrality = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_3" 
+			}
+		}
+	}	
+
+}
+MAK = {
+	army = {
+		male = {
+			"GFX_Portrait_Africa_Generic_land_1"
+			"GFX_Portrait_Africa_Generic_land_2"
+			"GFX_Portrait_Africa_Generic_land_3"
+			"GFX_Portrait_South_Africa_Army_Generic"
+			"GFX_Portrait_South_Africa_Army_Generic_2"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Africa_Generic_navy_1"
+			"GFX_Portrait_Africa_Generic_navy_2"
+			"GFX_Portrait_Africa_Generic_navy_3"
+		}
+	}
+	
+	political = {
+		communism = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_1"	
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+			}
+		}
+		democratic = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_2" 
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"		
+			}
+		}
+		fascism = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_3" 
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"
+				"GFX_Portrait_South_Africa_Army_Generic"
+				"GFX_Portrait_South_Africa_Army_Generic_2"
+			}
+		}
+		neutrality = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_3" 
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"
+			}
+		}
+	}
+}
+MAM = {
+	army = {
+		male = {
+			"GFX_Portrait_Africa_Generic_land_1"
+			"GFX_Portrait_Africa_Generic_land_2"
+			"GFX_Portrait_Africa_Generic_land_3"
+			"GFX_Portrait_South_Africa_Army_Generic"
+			"GFX_Portrait_South_Africa_Army_Generic_2"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Africa_Generic_navy_1"
+			"GFX_Portrait_Africa_Generic_navy_2"
+			"GFX_Portrait_Africa_Generic_navy_3"
+		}
+	}
+	
+	political = {
+		communism = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_1"	
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+			}
+		}
+		democratic = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_2" 
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"		
+			}
+		}
+		fascism = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_3" 
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"
+				"GFX_Portrait_South_Africa_Army_Generic"
+				"GFX_Portrait_South_Africa_Army_Generic_2"
+			}
+		}
+		neutrality = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_3" 
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"
+			}
+		}
+	}
+}
+MAP = {
+	army = {
+		male = {
+			"GFX_Portrait_Asia_Generic_land_1"
+			"GFX_Portrait_Asia_Generic_land_2"
+			"GFX_Portrait_Asia_Generic_land_3"
+			"GFX_Portrait_Asia_Generic_land_4"
+			"GFX_Portrait_Asia_Generic_land_5"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Asia_Generic_navy_1"
+			"GFX_Portrait_Asia_Generic_navy_2"
+			"GFX_Portrait_Asia_Generic_navy_3"
+		}
+	}
+
+	political = {
+		communism = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_1"
+			}
+		}
+		democratic = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_2" 
+			}
+		}
+		fascism = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_3" 
+			}
+		}
+		neutrality = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_3" 
+			}
+		}
+	}	
+
+}
+MAT = {
+	army = {
+		male = {
+			"GFX_Portrait_Africa_Generic_land_1"
+			"GFX_Portrait_Africa_Generic_land_2"
+			"GFX_Portrait_Africa_Generic_land_3"
+			"GFX_Portrait_South_Africa_Army_Generic"
+			"GFX_Portrait_South_Africa_Army_Generic_2"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Africa_Generic_navy_1"
+			"GFX_Portrait_Africa_Generic_navy_2"
+			"GFX_Portrait_Africa_Generic_navy_3"
+		}
+	}
+	
+	political = {
+		communism = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_1"	
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+			}
+		}
+		democratic = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_2" 
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"		
+			}
+		}
+		fascism = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_3" 
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"
+				"GFX_Portrait_South_Africa_Army_Generic"
+				"GFX_Portrait_South_Africa_Army_Generic_2"
+			}
+		}
+		neutrality = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_3" 
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"
+			}
+		}
+	}
+}
+MIR = {
+	army = {
+		male = {
+			"GFX_Portrait_Asia_Generic_land_1"
+			"GFX_Portrait_Asia_Generic_land_2"
+			"GFX_Portrait_Asia_Generic_land_3"
+			"GFX_Portrait_Asia_Generic_land_4"
+			"GFX_Portrait_Asia_Generic_land_5"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Asia_Generic_navy_1"
+			"GFX_Portrait_Asia_Generic_navy_2"
+			"GFX_Portrait_Asia_Generic_navy_3"
+		}
+	}
+
+	political = {
+		communism = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_1"
+			}
+		}
+		democratic = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_2" 
+			}
+		}
+		fascism = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_3" 
+			}
+		}
+		neutrality = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_3" 
+			}
+		}
+	}	
+
+}
+MQC = {
+	army = {
+		male = {
+			"GFX_Portrait_Asia_Generic_land_1"
+			"GFX_Portrait_Asia_Generic_land_2"
+			"GFX_Portrait_Asia_Generic_land_3"
+			"GFX_Portrait_Asia_Generic_land_4"
+			"GFX_Portrait_Asia_Generic_land_5"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Asia_Generic_navy_1"
+			"GFX_Portrait_Asia_Generic_navy_2"
+			"GFX_Portrait_Asia_Generic_navy_3"
+		}
+	}
+
+	political = {
+		communism = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_1"
+			}
+		}
+		democratic = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_2" 
+			}
+		}
+		fascism = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_3" 
+			}
+		}
+		neutrality = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_3" 
+			}
+		}
+	}	
+
+}
+MTN = {
+	army = {
+		male = {
+			"GFX_Portrait_Asia_Generic_land_1"
+			"GFX_Portrait_Asia_Generic_land_2"
+			"GFX_Portrait_Asia_Generic_land_3"
+			"GFX_Portrait_Asia_Generic_land_4"
+			"GFX_Portrait_Asia_Generic_land_5"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Asia_Generic_navy_1"
+			"GFX_Portrait_Asia_Generic_navy_2"
+			"GFX_Portrait_Asia_Generic_navy_3"
+		}
+	}
+
+	political = {
+		communism = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_1"
+			}
+		}
+		democratic = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_2" 
+			}
+		}
+		fascism = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_3" 
+			}
+		}
+		neutrality = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_3" 
+			}
+		}
+	}	
+
+}
+MUN = {
+	army = {
+		male = {
+			"GFX_Portrait_Africa_Generic_land_1"
+			"GFX_Portrait_Africa_Generic_land_2"
+			"GFX_Portrait_Africa_Generic_land_3"
+			"GFX_Portrait_South_Africa_Army_Generic"
+			"GFX_Portrait_South_Africa_Army_Generic_2"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Africa_Generic_navy_1"
+			"GFX_Portrait_Africa_Generic_navy_2"
+			"GFX_Portrait_Africa_Generic_navy_3"
+		}
+	}
+	
+	political = {
+		communism = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_1"	
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+			}
+		}
+		democratic = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_2" 
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"		
+			}
+		}
+		fascism = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_3" 
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"
+				"GFX_Portrait_South_Africa_Army_Generic"
+				"GFX_Portrait_South_Africa_Army_Generic_2"
+			}
+		}
+		neutrality = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_3" 
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"
+			}
+		}
+	}
+}
+NAL = {
+	army = {
+		male = {
+			"GFX_Portrait_Asia_Generic_land_1"
+			"GFX_Portrait_Asia_Generic_land_2"
+			"GFX_Portrait_Asia_Generic_land_3"
+			"GFX_Portrait_Asia_Generic_land_4"
+			"GFX_Portrait_Asia_Generic_land_5"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Asia_Generic_navy_1"
+			"GFX_Portrait_Asia_Generic_navy_2"
+			"GFX_Portrait_Asia_Generic_navy_3"
+		}
+	}
+
+	political = {
+		communism = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_1"
+			}
+		}
+		democratic = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_2" 
+			}
+		}
+		fascism = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_3" 
+			}
+		}
+		neutrality = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_3" 
+			}
+		}
+	}	
+
+}
+NDO = {
+	army = {
+		male = {
+			"GFX_Portrait_Asia_Generic_land_1"
+			"GFX_Portrait_Asia_Generic_land_2"
+			"GFX_Portrait_Asia_Generic_land_3"
+			"GFX_Portrait_Asia_Generic_land_4"
+			"GFX_Portrait_Asia_Generic_land_5"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Asia_Generic_navy_1"
+			"GFX_Portrait_Asia_Generic_navy_2"
+			"GFX_Portrait_Asia_Generic_navy_3"
+		}
+	}
+
+	political = {
+		communism = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_1"
+			}
+		}
+		democratic = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_2" 
+			}
+		}
+		fascism = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_3" 
+			}
+		}
+		neutrality = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_3" 
+			}
+		}
+	}	
+
+}
+NHA = {
+	army = {
+		male = {
+			"GFX_Portrait_Africa_Generic_land_1"
+			"GFX_Portrait_Africa_Generic_land_2"
+			"GFX_Portrait_Africa_Generic_land_3"
+			"GFX_Portrait_South_Africa_Army_Generic"
+			"GFX_Portrait_South_Africa_Army_Generic_2"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Africa_Generic_navy_1"
+			"GFX_Portrait_Africa_Generic_navy_2"
+			"GFX_Portrait_Africa_Generic_navy_3"
+		}
+	}
+	
+	political = {
+		communism = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_1"	
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+			}
+		}
+		democratic = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_2" 
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"		
+			}
+		}
+		fascism = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_3" 
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"
+				"GFX_Portrait_South_Africa_Army_Generic"
+				"GFX_Portrait_South_Africa_Army_Generic_2"
+			}
+		}
+		neutrality = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_3" 
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"
+			}
+		}
+	}
+}
+OMB = {
+	army = {
+		male = {
+			"GFX_Portrait_Europe_Generic_land_1"
+			"GFX_Portrait_Europe_Generic_land_2"
+			"GFX_Portrait_Europe_Generic_land_3"
+			"GFX_Portrait_Europe_Generic_land_4"
+			"GFX_Portrait_Europe_Generic_land_5"
+			"GFX_portrait_europe_generic_land_13"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Europe_Generic_navy_1"
+			"GFX_Portrait_Europe_Generic_navy_2"
+			"GFX_Portrait_Europe_Generic_navy_3"
+		}
+	}
+	
+	political = {
+		communism = {
+			male = { 
+				"GFX_Portrait_Europe_Generic_1"
+			}
+		}
+		democratic = {
+			male = { 
+				"GFX_Portrait_Europe_Generic_2" 
+			}
+		}
+		fascism = {
+			male = { 
+				"GFX_Portrait_Europe_Generic_3" 
+			}
+		}
+		neutrality = {
+			male = { 
+				"GFX_Portrait_Europe_Generic_3" 
+			}
+		}
+	}
+}
+OPU = {
+	army = {
+		male = {
+			"GFX_Portrait_South_America_Generic_land_1"
+			"GFX_Portrait_South_America_Generic_land_2"
+			"GFX_Portrait_South_America_Generic_land_3"
+			"GFX_Portrait_South_America_Generic_land_4"
+			"GFX_Portrait_South_America_Generic_land_5"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_South_America_Generic_navy_1"
+			"GFX_Portrait_South_America_Generic_navy_2"
+			"GFX_Portrait_South_America_Generic_navy_3"
+		}
+	}
+	
+	political = {
+		communism = {
+			male = { 
+				"GFX_Portrait_South_America_Generic_1"
+			}
+		}
+		democratic = {
+			male = { 
+				"GFX_Portrait_South_America_Generic_2" 
+			}
+		}
+		fascism = {
+			male = { 
+				"GFX_Portrait_South_America_Generic_3" 
+			}
+		}
+		neutrality = {
+			male = { 
+				"GFX_Portrait_South_America_Generic_3" 
+			}
+		}
+	}
+}
+QAN = {
+	army = {
+		male = {
+			"GFX_Portrait_Asia_Generic_land_1"
+			"GFX_Portrait_Asia_Generic_land_2"
+			"GFX_Portrait_Asia_Generic_land_3"
+			"GFX_Portrait_Asia_Generic_land_4"
+			"GFX_Portrait_Asia_Generic_land_5"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Asia_Generic_navy_1"
+			"GFX_Portrait_Asia_Generic_navy_2"
+			"GFX_Portrait_Asia_Generic_navy_3"
+		}
+	}
+
+	political = {
+		communism = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_1"
+			}
+		}
+		democratic = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_2" 
+			}
+		}
+		fascism = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_3" 
+			}
+		}
+		neutrality = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_3" 
+			}
+		}
+	}	
+
+}
+RAD = {
+	army = {
+		male = {
+			"GFX_Portrait_South_America_Generic_land_1"
+			"GFX_Portrait_South_America_Generic_land_2"
+			"GFX_Portrait_South_America_Generic_land_3"
+			"GFX_Portrait_South_America_Generic_land_4"
+			"GFX_Portrait_South_America_Generic_land_5"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_South_America_Generic_navy_1"
+			"GFX_Portrait_South_America_Generic_navy_2"
+			"GFX_Portrait_South_America_Generic_navy_3"
+		}
+	}
+	
+	political = {
+		communism = {
+			male = { 
+				"GFX_Portrait_South_America_Generic_1"
+			}
+		}
+		democratic = {
+			male = { 
+				"GFX_Portrait_South_America_Generic_2" 
+			}
+		}
+		fascism = {
+			male = { 
+				"GFX_Portrait_South_America_Generic_3" 
+			}
+		}
+		neutrality = {
+			male = { 
+				"GFX_Portrait_South_America_Generic_3" 
+			}
+		}
+	}
+}
+RAM = {
+	army = {
+		male = {
+			"GFX_Portrait_Africa_Generic_land_1"
+			"GFX_Portrait_Africa_Generic_land_2"
+			"GFX_Portrait_Africa_Generic_land_3"
+			"GFX_Portrait_South_Africa_Army_Generic"
+			"GFX_Portrait_South_Africa_Army_Generic_2"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Africa_Generic_navy_1"
+			"GFX_Portrait_Africa_Generic_navy_2"
+			"GFX_Portrait_Africa_Generic_navy_3"
+		}
+	}
+	
+	political = {
+		communism = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_1"	
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+			}
+		}
+		democratic = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_2" 
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"		
+			}
+		}
+		fascism = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_3" 
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"
+				"GFX_Portrait_South_Africa_Army_Generic"
+				"GFX_Portrait_South_Africa_Army_Generic_2"
+			}
+		}
+		neutrality = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_3" 
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"
+			}
+		}
+	}
+}
+SAA = {
+	army = {
+		male = {
+			"GFX_Portrait_Africa_Generic_land_1"
+			"GFX_Portrait_Africa_Generic_land_2"
+			"GFX_Portrait_Africa_Generic_land_3"
+			"GFX_Portrait_South_Africa_Army_Generic"
+			"GFX_Portrait_South_Africa_Army_Generic_2"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Africa_Generic_navy_1"
+			"GFX_Portrait_Africa_Generic_navy_2"
+			"GFX_Portrait_Africa_Generic_navy_3"
+		}
+	}
+	
+	political = {
+		communism = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_1"	
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+			}
+		}
+		democratic = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_2" 
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"		
+			}
+		}
+		fascism = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_3" 
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"
+				"GFX_Portrait_South_Africa_Army_Generic"
+				"GFX_Portrait_South_Africa_Army_Generic_2"
+			}
+		}
+		neutrality = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_3" 
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"
+			}
+		}
+	}
+}
+SDA = {
+	army = {
+		male = {
+			"GFX_Portrait_Europe_Generic_land_1"
+			"GFX_Portrait_Europe_Generic_land_2"
+			"GFX_Portrait_Europe_Generic_land_3"
+			"GFX_Portrait_Europe_Generic_land_4"
+			"GFX_Portrait_Europe_Generic_land_5"
+			"GFX_portrait_europe_generic_land_13"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Europe_Generic_navy_1"
+			"GFX_Portrait_Europe_Generic_navy_2"
+			"GFX_Portrait_Europe_Generic_navy_3"
+		}
+	}
+	
+	political = {
+		communism = {
+			male = { 
+				"GFX_Portrait_Europe_Generic_1"
+			}
+		}
+		democratic = {
+			male = { 
+				"GFX_Portrait_Europe_Generic_2" 
+			}
+		}
+		fascism = {
+			male = { 
+				"GFX_Portrait_Europe_Generic_3" 
+			}
+		}
+		neutrality = {
+			male = { 
+				"GFX_Portrait_Europe_Generic_3" 
+			}
+		}
+	}
+}
+SHA = {
+	army = {
+		male = {
+			"GFX_Portrait_Europe_Generic_land_1"
+			"GFX_Portrait_Europe_Generic_land_2"
+			"GFX_Portrait_Europe_Generic_land_3"
+			"GFX_Portrait_Europe_Generic_land_4"
+			"GFX_Portrait_Europe_Generic_land_5"
+			"GFX_portrait_europe_generic_land_13"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Europe_Generic_navy_1"
+			"GFX_Portrait_Europe_Generic_navy_2"
+			"GFX_Portrait_Europe_Generic_navy_3"
+		}
+	}
+	
+	political = {
+		communism = {
+			male = { 
+				"GFX_Portrait_Europe_Generic_1"
+			}
+		}
+		democratic = {
+			male = { 
+				"GFX_Portrait_Europe_Generic_2" 
+			}
+		}
+		fascism = {
+			male = { 
+				"GFX_Portrait_Europe_Generic_3" 
+			}
+		}
+		neutrality = {
+			male = { 
+				"GFX_Portrait_Europe_Generic_3" 
+			}
+		}
+	}
+}
+SHU = {
+	army = {
+		male = {
+			"GFX_Portrait_Asia_Generic_land_1"
+			"GFX_Portrait_Asia_Generic_land_2"
+			"GFX_Portrait_Asia_Generic_land_3"
+			"GFX_Portrait_Asia_Generic_land_4"
+			"GFX_Portrait_Asia_Generic_land_5"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Asia_Generic_navy_1"
+			"GFX_Portrait_Asia_Generic_navy_2"
+			"GFX_Portrait_Asia_Generic_navy_3"
+		}
+	}
+
+	political = {
+		communism = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_1"
+			}
+		}
+		democratic = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_2" 
+			}
+		}
+		fascism = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_3" 
+			}
+		}
+		neutrality = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_3" 
+			}
+		}
+	}	
+
+}
+SIR = {
+	army = {
+		male = {
+			"GFX_Portrait_Asia_Generic_land_1"
+			"GFX_Portrait_Asia_Generic_land_2"
+			"GFX_Portrait_Asia_Generic_land_3"
+			"GFX_Portrait_Asia_Generic_land_4"
+			"GFX_Portrait_Asia_Generic_land_5"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Asia_Generic_navy_1"
+			"GFX_Portrait_Asia_Generic_navy_2"
+			"GFX_Portrait_Asia_Generic_navy_3"
+		}
+	}
+
+	political = {
+		communism = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_1"
+			}
+		}
+		democratic = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_2" 
+			}
+		}
+		fascism = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_3" 
+			}
+		}
+		neutrality = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_3" 
+			}
+		}
+	}	
+
+}
+SIW = {
+	army = {
+		male = {
+			"GFX_Portrait_Africa_Generic_land_1"
+			"GFX_Portrait_Africa_Generic_land_2"
+			"GFX_Portrait_Africa_Generic_land_3"
+			"GFX_Portrait_South_Africa_Army_Generic"
+			"GFX_Portrait_South_Africa_Army_Generic_2"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Africa_Generic_navy_1"
+			"GFX_Portrait_Africa_Generic_navy_2"
+			"GFX_Portrait_Africa_Generic_navy_3"
+		}
+	}
+	
+	political = {
+		communism = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_1"	
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+			}
+		}
+		democratic = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_2" 
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"		
+			}
+		}
+		fascism = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_3" 
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"
+				"GFX_Portrait_South_Africa_Army_Generic"
+				"GFX_Portrait_South_Africa_Army_Generic_2"
+			}
+		}
+		neutrality = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_3" 
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"
+			}
+		}
+	}
+}
+SOO = {
+	army = {
+		male = {
+			"GFX_Portrait_Asia_Generic_land_1"
+			"GFX_Portrait_Asia_Generic_land_2"
+			"GFX_Portrait_Asia_Generic_land_3"
+			"GFX_Portrait_Asia_Generic_land_4"
+			"GFX_Portrait_Asia_Generic_land_5"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Asia_Generic_navy_1"
+			"GFX_Portrait_Asia_Generic_navy_2"
+			"GFX_Portrait_Asia_Generic_navy_3"
+		}
+	}
+
+	political = {
+		communism = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_1"
+			}
+		}
+		democratic = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_2" 
+			}
+		}
+		fascism = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_3" 
+			}
+		}
+		neutrality = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_3" 
+			}
+		}
+	}	
+
+}
+SUW = {
+	army = {
+		male = {
+			"GFX_Portrait_Africa_Generic_land_1"
+			"GFX_Portrait_Africa_Generic_land_2"
+			"GFX_Portrait_Africa_Generic_land_3"
+			"GFX_Portrait_South_Africa_Army_Generic"
+			"GFX_Portrait_South_Africa_Army_Generic_2"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Africa_Generic_navy_1"
+			"GFX_Portrait_Africa_Generic_navy_2"
+			"GFX_Portrait_Africa_Generic_navy_3"
+		}
+	}
+	
+	political = {
+		communism = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_1"	
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+			}
+		}
+		democratic = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_2" 
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"		
+			}
+		}
+		fascism = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_3" 
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"
+				"GFX_Portrait_South_Africa_Army_Generic"
+				"GFX_Portrait_South_Africa_Army_Generic_2"
+			}
+		}
+		neutrality = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_3" 
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"
+			}
+		}
+	}
+}
+SVE = {
+	army = {
+		male = {
+			"GFX_Portrait_Africa_Generic_land_1"
+			"GFX_Portrait_Africa_Generic_land_2"
+			"GFX_Portrait_Africa_Generic_land_3"
+			"GFX_Portrait_South_Africa_Army_Generic"
+			"GFX_Portrait_South_Africa_Army_Generic_2"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Africa_Generic_navy_1"
+			"GFX_Portrait_Africa_Generic_navy_2"
+			"GFX_Portrait_Africa_Generic_navy_3"
+		}
+	}
+	
+	political = {
+		communism = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_1"	
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+			}
+		}
+		democratic = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_2" 
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"		
+			}
+		}
+		fascism = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_3" 
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"
+				"GFX_Portrait_South_Africa_Army_Generic"
+				"GFX_Portrait_South_Africa_Army_Generic_2"
+			}
+		}
+		neutrality = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_3" 
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"
+			}
+		}
+	}
+}
+TAR = {
+	army = {
+		male = {
+			"GFX_Portrait_Europe_Generic_land_1"
+			"GFX_Portrait_Europe_Generic_land_2"
+			"GFX_Portrait_Europe_Generic_land_3"
+			"GFX_Portrait_Europe_Generic_land_4"
+			"GFX_Portrait_Europe_Generic_land_5"
+			"GFX_portrait_europe_generic_land_13"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Europe_Generic_navy_1"
+			"GFX_Portrait_Europe_Generic_navy_2"
+			"GFX_Portrait_Europe_Generic_navy_3"
+		}
+	}
+	
+	political = {
+		communism = {
+			male = { 
+				"GFX_Portrait_Europe_Generic_1"
+			}
+		}
+		democratic = {
+			male = { 
+				"GFX_Portrait_Europe_Generic_2" 
+			}
+		}
+		fascism = {
+			male = { 
+				"GFX_Portrait_Europe_Generic_3" 
+			}
+		}
+		neutrality = {
+			male = { 
+				"GFX_Portrait_Europe_Generic_3" 
+			}
+		}
+	}
+}
+TEM = {
+	army = {
+		male = {
+			"GFX_Portrait_Africa_Generic_land_1"
+			"GFX_Portrait_Africa_Generic_land_2"
+			"GFX_Portrait_Africa_Generic_land_3"
+			"GFX_Portrait_South_Africa_Army_Generic"
+			"GFX_Portrait_South_Africa_Army_Generic_2"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Africa_Generic_navy_1"
+			"GFX_Portrait_Africa_Generic_navy_2"
+			"GFX_Portrait_Africa_Generic_navy_3"
+		}
+	}
+	
+	political = {
+		communism = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_1"	
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+			}
+		}
+		democratic = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_2" 
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"		
+			}
+		}
+		fascism = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_3" 
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"
+				"GFX_Portrait_South_Africa_Army_Generic"
+				"GFX_Portrait_South_Africa_Army_Generic_2"
+			}
+		}
+		neutrality = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_3" 
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"
+			}
+		}
+	}
+}
+TIF = {
+	army = {
+		male = {
+			"GFX_Portrait_Africa_Generic_land_1"
+			"GFX_Portrait_Africa_Generic_land_2"
+			"GFX_Portrait_Africa_Generic_land_3"
+			"GFX_Portrait_South_Africa_Army_Generic"
+			"GFX_Portrait_South_Africa_Army_Generic_2"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Africa_Generic_navy_1"
+			"GFX_Portrait_Africa_Generic_navy_2"
+			"GFX_Portrait_Africa_Generic_navy_3"
+		}
+	}
+	
+	political = {
+		communism = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_1"	
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+			}
+		}
+		democratic = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_2" 
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"		
+			}
+		}
+		fascism = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_3" 
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"
+				"GFX_Portrait_South_Africa_Army_Generic"
+				"GFX_Portrait_South_Africa_Army_Generic_2"
+			}
+		}
+		neutrality = {
+			male = { 
+				"GFX_Portrait_Africa_Generic_3" 
+				"GFX_Portrait_South_Africa_Political_Leader_Generic"
+				"GFX_Portrait_South_Africa_Political_Leader_Generic_2"
+			}
+		}
+	}
+}
+WIM = {
+	army = {
+		male = {
+			"GFX_Portrait_Asia_Generic_land_1"
+			"GFX_Portrait_Asia_Generic_land_2"
+			"GFX_Portrait_Asia_Generic_land_3"
+			"GFX_Portrait_Asia_Generic_land_4"
+			"GFX_Portrait_Asia_Generic_land_5"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Asia_Generic_navy_1"
+			"GFX_Portrait_Asia_Generic_navy_2"
+			"GFX_Portrait_Asia_Generic_navy_3"
+		}
+	}
+
+	political = {
+		communism = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_1"
+			}
+		}
+		democratic = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_2" 
+			}
+		}
+		fascism = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_3" 
+			}
+		}
+		neutrality = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_3" 
+			}
+		}
+	}	
+
+}
+XAL = {
+	army = {
+		male = {
+			"GFX_Portrait_Asia_Generic_land_1"
+			"GFX_Portrait_Asia_Generic_land_2"
+			"GFX_Portrait_Asia_Generic_land_3"
+			"GFX_Portrait_Asia_Generic_land_4"
+			"GFX_Portrait_Asia_Generic_land_5"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Asia_Generic_navy_1"
+			"GFX_Portrait_Asia_Generic_navy_2"
+			"GFX_Portrait_Asia_Generic_navy_3"
+		}
+	}
+
+	political = {
+		communism = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_1"
+			}
+		}
+		democratic = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_2" 
+			}
+		}
+		fascism = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_3" 
+			}
+		}
+		neutrality = {
+			male = { 
+				"GFX_Portrait_Asia_Generic_3" 
+			}
+		}
+	}	
+
+}
+ZAU = {
+	army = {
+		male = {
+			"GFX_Portrait_South_America_Generic_land_1"
+			"GFX_Portrait_South_America_Generic_land_2"
+			"GFX_Portrait_South_America_Generic_land_3"
+			"GFX_Portrait_South_America_Generic_land_4"
+			"GFX_Portrait_South_America_Generic_land_5"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_South_America_Generic_navy_1"
+			"GFX_Portrait_South_America_Generic_navy_2"
+			"GFX_Portrait_South_America_Generic_navy_3"
+		}
+	}
+	
+	political = {
+		communism = {
+			male = { 
+				"GFX_Portrait_South_America_Generic_1"
+			}
+		}
+		democratic = {
+			male = { 
+				"GFX_Portrait_South_America_Generic_2" 
+			}
+		}
+		fascism = {
+			male = { 
+				"GFX_Portrait_South_America_Generic_3" 
+			}
+		}
+		neutrality = {
+			male = { 
+				"GFX_Portrait_South_America_Generic_3" 
+			}
+		}
+	}
+}

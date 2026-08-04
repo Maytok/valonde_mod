@@ -1,0 +1,40 @@
+air_wings = {
+		1090 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "HIK" amount = 50 version_name = "Maml Mk 2" }
+
+	}
+	1473 = { 								
+		large_plane_airframe_0 = { owner = "HIK" amount = 50 version_name = "Hawara Mk 1" }
+
+	}
+	1509 = { 								
+		small_plane_cas_airframe_0 = { owner = "HIK" amount = 50 version_name = "Namartoum Mk 0" }
+
+	}
+	1058 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "HIK" amount = 50 version_name = "Maml Mk 2" }
+
+	}
+	1200 = { 								
+		small_plane_airframe_0 = { owner = "HIK" amount = 50 version_name = "Sahraba Mk 1" }
+
+	}
+	1066 = { 								
+		small_plane_airframe_0 = { owner = "HIK" amount = 50 version_name = "Sahraba Mk 1" }
+
+	}
+	1130 = { 								
+		small_plane_cas_airframe_0 = { owner = "HIK" amount = 50 version_name = "Namartoum Mk 0" }
+
+	}
+	1076 = { 								
+		large_plane_airframe_0 = { owner = "HIK" amount = 50 version_name = "Hawara Mk 1" }
+
+	}
+	1475 = { 								
+		small_plane_cas_airframe_0 = { owner = "HIK" amount = 50 version_name = "Namartoum Mk 0" }
+
+	}
+
+
+}

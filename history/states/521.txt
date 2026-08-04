@@ -1,0 +1,37 @@
+
+state={
+	id=521
+	name="STATE_521"
+	manpower = 4309788
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=1
+		chromium=1
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=1
+		coal=1
+	}
+
+	history={
+		
+		owner = KIM
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = KIM
+	}
+
+	provinces={
+		6053 6054 6055 6056 6057 6058 6059 6060 6061 6062 6063 6064 6065 6066 6067 6068 6069 6070 6071 6072 6073 6074 6075 6076 6077 6078 
+	}
+	local_supplies=0.0 
+}

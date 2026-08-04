@@ -1,0 +1,37 @@
+
+state={
+	id=493
+	name="STATE_493"
+	manpower = 2178117
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = NDO
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			dockyard = 1
+			
+		}
+		add_core_of = NDO
+	}
+
+	provinces={
+		5749 5750 5751 5752 5753 5754 5755 5756 5757 5758 5759 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=3
+	name="STATE_3"
+	manpower = 1466273
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=3
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = SDA
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = SDA
+	}
+
+	provinces={
+		25 26 27 28 29 30 31 32 
+	}
+	local_supplies=0.0 
+}

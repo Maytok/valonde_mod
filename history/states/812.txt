@@ -1,0 +1,37 @@
+
+state={
+	id=812
+	name="STATE_812"
+	manpower = 3188733
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=7
+		chromium=7
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=7
+		coal=18
+	}
+
+	history={
+		
+		owner = KIM
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = KIM
+	}
+
+	provinces={
+		9534 9535 9536 9537 9538 9539 9540 9541 9542 9543 9544 9545 9546 9547 9548 9549 9550 9551 
+	}
+	local_supplies=0.0 
+}

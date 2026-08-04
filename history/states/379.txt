@@ -1,0 +1,37 @@
+
+state={
+	id=379
+	name="STATE_379"
+	manpower = 2693944
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=6
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = FRE
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = FRE
+	}
+
+	provinces={
+		4339 4340 4341 4342 4343 4344 4345 4346 4347 4348 4349 4350 4351 4352 4353 4354 
+	}
+	local_supplies=0.0 
+}

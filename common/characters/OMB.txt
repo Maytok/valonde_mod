@@ -1,0 +1,1083 @@
+characters = {
+	OMB_Jeancescolo_Luce={
+		name="Jeancescolo Luce"
+
+		
+		country_leader={
+			ideology=oligarchism
+			traits = { autocratic_archbishop  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	OMB_Marlo_Ghierofezion={
+		name="Marlo Ghierofezion"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OMB_Marlo_Ghierofezion
+			traits = {	headstrong 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	OMB_Lucario_Temoneracola={
+		name="Lucario Temoneracola"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OMB_Lucario_Temoneracola
+			traits = {	socialite_connections 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	OMB_Lucario_Cavolo={
+		name="Lucario Cavolo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OMB_Lucario_Cavolo
+			traits = {	right_industrialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	OMB_Victor_Prinito={
+		name="Victor Prinito"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OMB_Victor_Prinito
+			traits = {	agricultural_nationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	OMB_Stefano_Anierace={
+		name="Stefano Anierace"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OMB_Stefano_Anierace
+			traits = {	socialite_connections 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	OMB_Lucario_Seggella={
+		name="Lucario Seggella"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OMB_Lucario_Seggella
+			traits = {	national_determinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	OMB_Andro_Mira={
+		name="Andro Mira"
+
+		advisor={
+			slot = army_chief
+			idea_token = OMB_Andro_Mira
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	OMB_Steon_Cone={
+		name="Steon Cone"
+
+		advisor={
+			slot = army_chief
+			idea_token = OMB_Steon_Cone
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	OMB_Victor_Voce={
+		name="Victor Voce"
+
+		advisor={
+			slot = army_chief
+			idea_token = OMB_Victor_Voce
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	OMB_Leon_Divalego={
+		name="Leon Divalego"
+
+		advisor={
+			slot = army_chief
+			idea_token = OMB_Leon_Divalego
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	OMB_Vica_Acquarittile={
+		name="Vica Acquarittile"
+
+		advisor={
+			slot = navy_chief
+			idea_token = OMB_Vica_Acquarittile
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	OMB_Francescomo_Duerio={
+		name="Francescomo Duerio"
+
+		advisor={
+			slot = navy_chief
+			idea_token = OMB_Francescomo_Duerio
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	OMB_Jeandre_Lampamperoe={
+		name="Jeandre Lampamperoe"
+
+		advisor={
+			slot = air_chief
+			idea_token = OMB_Jeandre_Lampamperoe
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	OMB_Luca_Rume={
+		name="Luca Rume"
+
+		advisor={
+			slot = air_chief
+			idea_token = OMB_Luca_Rume
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	OMB_Alexancescom_Voce={
+		name="Alexancescom Voce"
+
+		advisor={
+			slot = high_command
+			idea_token = OMB_Alexancescom_Voce
+			traits = {	navy_naval_air_defense_1 	}
+		}
+
+
+	}
+	OMB_Cardo_Spame={
+		name="Cardo Spame"
+
+		advisor={
+			slot = high_command
+			idea_token = OMB_Cardo_Spame
+			traits = {	army_cavalry_1 	}
+		}
+
+
+	}
+	OMB_Alexano_Guerna={
+		name="Alexano Guerna"
+
+		advisor={
+			slot = high_command
+			idea_token = OMB_Alexano_Guerna
+			traits = {	army_regrouping_1 	}
+		}
+
+
+	}
+	OMB_Paolose_Voce={
+		name="Paolose Voce"
+
+		advisor={
+			slot = high_command
+			idea_token = OMB_Paolose_Voce
+			traits = {	navy_naval_air_defense_2 	}
+		}
+
+
+	}
+	OMB_Jeandro_Ponfita={
+		name="Jeandro Ponfita"
+
+		advisor={
+			slot = high_command
+			idea_token = OMB_Jeandro_Ponfita
+			traits = {	air_pilot_training_2 	}
+		}
+
+
+	}
+	OMB_Jeandro_Ghierofezion={
+		name="Jeandro Ghierofezion"
+
+		advisor={
+			slot = high_command
+			idea_token = OMB_Jeandro_Ghierofezion
+			traits = {	navy_capital_ship_2 	}
+		}
+
+
+	}
+	OMB_Bruno_Alla={
+		name="Bruno Alla"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { autokrator  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	OMB_Cardo_Canordizia={
+		name="Cardo Canordizia"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OMB_Cardo_Canordizia
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	OMB_Mattefancesc_Regio={
+		name="Mattefancesc Regio"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OMB_Mattefancesc_Regio
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	OMB_Anto_Cuoreseroe={
+		name="Anto Cuoreseroe"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OMB_Anto_Cuoreseroe
+			traits = {	autocratic_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	OMB_Victor_Ghierofezion={
+		name="Victor Ghierofezion"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OMB_Victor_Ghierofezion
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	OMB_Ramo_Tero={
+		name="Ramo Tero"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OMB_Ramo_Tero
+			traits = {	autocratic_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	OMB_Ramo_Acquarittile={
+		name="Ramo Acquarittile"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OMB_Ramo_Acquarittile
+			traits = {	autocratic_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	OMB_Jean_Mira={
+		name="Jean Mira"
+
+		advisor={
+			slot = army_chief
+			idea_token = OMB_Jean_Mira
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	OMB_Paolose_Lagna={
+		name="Paolose Lagna"
+
+		advisor={
+			slot = army_chief
+			idea_token = OMB_Paolose_Lagna
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	OMB_Matteon_Scone={
+		name="Matteon Scone"
+
+		advisor={
+			slot = army_chief
+			idea_token = OMB_Matteon_Scone
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	OMB_Vicardo_Navale={
+		name="Vicardo Navale"
+
+		advisor={
+			slot = army_chief
+			idea_token = OMB_Vicardo_Navale
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	OMB_Jeandre_Cito={
+		name="Jeandre Cito"
+
+		advisor={
+			slot = navy_chief
+			idea_token = OMB_Jeandre_Cito
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	OMB_Vica_Voce={
+		name="Vica Voce"
+
+		advisor={
+			slot = navy_chief
+			idea_token = OMB_Vica_Voce
+			traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+
+	}
+	OMB_Felipe_Sore={
+		name="Felipe Sore"
+
+		advisor={
+			slot = air_chief
+			idea_token = OMB_Felipe_Sore
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	OMB_Albertor_Cuoreseroe={
+		name="Albertor Cuoreseroe"
+
+		advisor={
+			slot = air_chief
+			idea_token = OMB_Albertor_Cuoreseroe
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	OMB_Vicardo_Moreccancudo={
+		name="Vicardo Moreccancudo"
+
+		advisor={
+			slot = high_command
+			idea_token = OMB_Vicardo_Moreccancudo
+			traits = {	army_logistics_1 	}
+		}
+
+
+	}
+	OMB_Lucario_Ponfita={
+		name="Lucario Ponfita"
+
+		advisor={
+			slot = high_command
+			idea_token = OMB_Lucario_Ponfita
+			traits = {	air_air_superiority_2 	}
+		}
+
+
+	}
+	OMB_Luca_Dempio={
+		name="Luca Dempio"
+
+		advisor={
+			slot = high_command
+			idea_token = OMB_Luca_Dempio
+			traits = {	navy_submarine_2 	}
+		}
+
+
+	}
+	OMB_Marco_Spame={
+		name="Marco Spame"
+
+		advisor={
+			slot = high_command
+			idea_token = OMB_Marco_Spame
+			traits = {	air_pilot_training_2 	}
+		}
+
+
+	}
+	OMB_Alexancescom_Cone={
+		name="Alexancescom Cone"
+
+		advisor={
+			slot = high_command
+			idea_token = OMB_Alexancescom_Cone
+			traits = {	air_strategic_bombing_2 	}
+		}
+
+
+	}
+	OMB_Pablo_Neve={
+		name="Pablo Neve"
+
+		advisor={
+			slot = high_command
+			idea_token = OMB_Pablo_Neve
+			traits = {	army_regrouping_2 	}
+		}
+
+
+	}
+	OMB_Andro_Lagna={
+		name="Andro Lagna"
+
+		
+		country_leader={
+			ideology=leninism
+			traits = { indomitable_perseverance  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	OMB_Andre_Vita={
+		name="Andre Vita"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OMB_Andre_Vita
+			traits = {	revolutionary_poet 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	OMB_Leon_Villa={
+		name="Leon Villa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OMB_Leon_Villa
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	OMB_Matteo_Albernortore={
+		name="Matteo Albernortore"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OMB_Matteo_Albernortore
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	OMB_Jeandro_Regio={
+		name="Jeandro Regio"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OMB_Jeandro_Regio
+			traits = {	devoted_marxist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	OMB_Alexancescol_Erba={
+		name="Alexancescol Erba"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OMB_Alexancescol_Erba
+			traits = {	patriotic_socialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	OMB_Steo_Profezza={
+		name="Steo Profezza"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OMB_Steo_Profezza
+			traits = {	patriotic_socialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	OMB_Giaco_Sorno={
+		name="Giaco Sorno"
+
+		advisor={
+			slot = army_chief
+			idea_token = OMB_Giaco_Sorno
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	OMB_Thien_Seggella={
+		name="Thien Seggella"
+
+		advisor={
+			slot = army_chief
+			idea_token = OMB_Thien_Seggella
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	OMB_Rico_Scuolaggio={
+		name="Rico Scuolaggio"
+
+		advisor={
+			slot = army_chief
+			idea_token = OMB_Rico_Scuolaggio
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	OMB_Cardo_Cielo={
+		name="Cardo Cielo"
+
+		advisor={
+			slot = army_chief
+			idea_token = OMB_Cardo_Cielo
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	OMB_Andre_Lagna={
+		name="Andre Lagna"
+
+		advisor={
+			slot = navy_chief
+			idea_token = OMB_Andre_Lagna
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	OMB_Marcolo_Eseria={
+		name="Marcolo Eseria"
+
+		advisor={
+			slot = navy_chief
+			idea_token = OMB_Marcolo_Eseria
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	OMB_Vicardo_Notte={
+		name="Vicardo Notte"
+
+		advisor={
+			slot = air_chief
+			idea_token = OMB_Vicardo_Notte
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	OMB_Jeandro_Scuolaggio={
+		name="Jeandro Scuolaggio"
+
+		advisor={
+			slot = air_chief
+			idea_token = OMB_Jeandro_Scuolaggio
+			traits = {	air_chief_all_weather_1 	}
+		}
+
+
+	}
+	OMB_Marco_Destillo={
+		name="Marco Destillo"
+
+		advisor={
+			slot = high_command
+			idea_token = OMB_Marco_Destillo
+			traits = {	navy_screen_2 	}
+		}
+
+
+	}
+	OMB_Paolose_Fumortagno={
+		name="Paolose Fumortagno"
+
+		advisor={
+			slot = high_command
+			idea_token = OMB_Paolose_Fumortagno
+			traits = {	air_tactical_bombing_1 	}
+		}
+
+
+	}
+	OMB_Felipe_Voce={
+		name="Felipe Voce"
+
+		advisor={
+			slot = high_command
+			idea_token = OMB_Felipe_Voce
+			traits = {	navy_naval_air_defense_1 	}
+		}
+
+
+	}
+	OMB_Lucario_Prinito={
+		name="Lucario Prinito"
+
+		advisor={
+			slot = high_command
+			idea_token = OMB_Lucario_Prinito
+			traits = {	navy_fleet_logistics_2 	}
+		}
+
+
+	}
+	OMB_Felipe_Arcorte={
+		name="Felipe Arcorte"
+
+		advisor={
+			slot = high_command
+			idea_token = OMB_Felipe_Arcorte
+			traits = {	air_tactical_bombing_1 	}
+		}
+
+
+	}
+	OMB_Cardo_Arcorte={
+		name="Cardo Arcorte"
+
+		advisor={
+			slot = high_command
+			idea_token = OMB_Cardo_Arcorte
+			traits = {	army_concealment_2 	}
+		}
+
+
+	}
+	OMB_Victor_Spame={
+		name="Victor Spame"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { the_young_magnate  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	OMB_Vicardo_Fiumento={
+		name="Vicardo Fiumento"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OMB_Vicardo_Fiumento
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	OMB_Carco_Moreccancudo={
+		name="Carco Moreccancudo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OMB_Carco_Moreccancudo
+			traits = {	conservative_grandee 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	OMB_Vica_Cavale={
+		name="Vica Cavale"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OMB_Vica_Cavale
+			traits = {	democratic_crusader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	OMB_Pedre_Cito={
+		name="Pedre Cito"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OMB_Pedre_Cito
+			traits = {	the_banker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	OMB_Luis_Fuore={
+		name="Luis Fuore"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OMB_Luis_Fuore
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	OMB_Marlos_Anierace={
+		name="Marlos Anierace"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OMB_Marlos_Anierace
+			traits = {	veteran_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	OMB_Felien_Profezza={
+		name="Felien Profezza"
+
+		advisor={
+			slot = army_chief
+			idea_token = OMB_Felien_Profezza
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	OMB_Francescomo_Morra={
+		name="Francescomo Morra"
+
+		advisor={
+			slot = army_chief
+			idea_token = OMB_Francescomo_Morra
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	OMB_Jeancescolo_Odincano={
+		name="Jeancescolo Odincano"
+
+		advisor={
+			slot = army_chief
+			idea_token = OMB_Jeancescolo_Odincano
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	OMB_Lucario_Eseria={
+		name="Lucario Eseria"
+
+		advisor={
+			slot = army_chief
+			idea_token = OMB_Lucario_Eseria
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	OMB_Ricomo_Lampamperoe={
+		name="Ricomo Lampamperoe"
+
+		advisor={
+			slot = navy_chief
+			idea_token = OMB_Ricomo_Lampamperoe
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	OMB_Ramo_Destillo={
+		name="Ramo Destillo"
+
+		advisor={
+			slot = navy_chief
+			idea_token = OMB_Ramo_Destillo
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	OMB_Alexancescol_Cito={
+		name="Alexancescol Cito"
+
+		advisor={
+			slot = air_chief
+			idea_token = OMB_Alexancescol_Cito
+			traits = {	air_chief_night_operations_2 	}
+		}
+
+
+	}
+	OMB_Lucario_Memicolo={
+		name="Lucario Memicolo"
+
+		advisor={
+			slot = air_chief
+			idea_token = OMB_Lucario_Memicolo
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	OMB_Paolose_Incionfo={
+		name="Paolose Incionfo"
+
+		advisor={
+			slot = high_command
+			idea_token = OMB_Paolose_Incionfo
+			traits = {	army_armored_1 	}
+		}
+
+
+	}
+	OMB_Jeandre_Alla={
+		name="Jeandre Alla"
+
+		advisor={
+			slot = high_command
+			idea_token = OMB_Jeandre_Alla
+			traits = {	navy_capital_ship_1 	}
+		}
+
+
+	}
+	OMB_Antonarlo_Rego={
+		name="Antonarlo Rego"
+
+		advisor={
+			slot = high_command
+			idea_token = OMB_Antonarlo_Rego
+			traits = {	air_air_superiority_2 	}
+		}
+
+
+	}
+	OMB_Antonarlo_Acquarittile={
+		name="Antonarlo Acquarittile"
+
+		advisor={
+			slot = high_command
+			idea_token = OMB_Antonarlo_Acquarittile
+			traits = {	air_air_combat_training_1 	}
+		}
+
+
+	}
+	OMB_Pablo_Navale={
+		name="Pablo Navale"
+
+		advisor={
+			slot = high_command
+			idea_token = OMB_Pablo_Navale
+			traits = {	air_strategic_bombing_2 	}
+		}
+
+
+	}
+	OMB_Pablo_Sorno={
+		name="Pablo Sorno"
+
+		advisor={
+			slot = high_command
+			idea_token = OMB_Pablo_Sorno
+			traits = {	navy_screen_2 	}
+		}
+
+
+	}
+	OMB_Jeandre_Mura={
+		name="Jeandre Mura"
+
+		advisor={
+			slot = theorist
+			idea_token = OMB_Jeandre_Mura
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	OMB_Giaco_Lanzia={
+		name="Giaco Lanzia"
+
+		advisor={
+			slot = theorist
+			idea_token = OMB_Giaco_Lanzia
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	OMB_Ricomo_Cone={
+		name="Ricomo Cone"
+
+		advisor={
+			slot = theorist
+			idea_token = OMB_Ricomo_Cone
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

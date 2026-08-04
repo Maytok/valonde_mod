@@ -1,0 +1,37 @@
+
+state={
+	id=326
+	name="STATE_326"
+	manpower = 3197207
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=2
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = LIJ
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 3
+			
+			
+		}
+		add_core_of = LIJ
+	}
+
+	provinces={
+		3770 3771 3772 3773 3774 3775 3776 3777 3778 3779 3780 3781 3782 3783 3784 3785 3786 
+	}
+	local_supplies=0.0 
+}

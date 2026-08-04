@@ -1,0 +1,37 @@
+
+state={
+	id=1035
+	name="STATE_1035"
+	manpower = 960959
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=35
+		chromium=38
+		oil=28
+		rubber=0
+		steel=5
+		tungsten=36
+		coal=91
+	}
+
+	history={
+		
+		owner = NHA
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = NHA
+	}
+
+	provinces={
+		11906 11907 11908 11909 11910 11911 11912 11913 11914 11915 11916 11917 11918 11919 11920 11921 11922 11923 11924 11925 11926 11927 
+	}
+	local_supplies=0.0 
+}

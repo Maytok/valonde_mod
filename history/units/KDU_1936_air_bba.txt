@@ -1,0 +1,24 @@
+air_wings = {
+		1587 = { 								
+		medium_plane_airframe_0 = { owner = "KDU" amount = 50 version_name = "Teka Mk 0" }
+
+	}
+	254 = { 								
+		small_plane_cas_airframe_0 = { owner = "KDU" amount = 39 version_name = "Kifu Mk 1" }
+
+	}
+	1664 = { 								
+		small_plane_airframe_0 = { owner = "KDU" amount = 47 version_name = "Sheli Mk 2" }
+
+	}
+	332 = { 								
+		medium_plane_airframe_0 = { owner = "KDU" amount = 50 version_name = "Teka Mk 0" }
+
+	}
+	940 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "KDU" amount = 50 version_name = "Upepo Mk 0" }
+
+	}
+
+
+}

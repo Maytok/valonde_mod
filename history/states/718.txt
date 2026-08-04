@@ -1,0 +1,37 @@
+
+state={
+	id=718
+	name="STATE_718"
+	manpower = 871916
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = TEM
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = TEM
+	}
+
+	provinces={
+		8294 8295 8296 8297 
+	}
+	local_supplies=0.0 
+}

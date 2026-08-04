@@ -1,0 +1,37 @@
+
+state={
+	id=1148
+	name="STATE_1148"
+	manpower = 2818776
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=2
+		rubber=3
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = NHA
+		buildings = {
+			infrastructure = 3
+			air_base = 3
+			arms_factory = 0
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = NHA
+	}
+
+	provinces={
+		13270 13271 13272 13273 13274 13275 13276 13277 13278 13279 13280 13281 13282 13283 13284 
+	}
+	local_supplies=0.0 
+}

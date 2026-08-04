@@ -1,0 +1,37 @@
+
+state={
+	id=419
+	name="STATE_419"
+	manpower = 4030990
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=4
+		chromium=5
+		oil=0
+		rubber=0
+		steel=9
+		tungsten=4
+		coal=11
+	}
+
+	history={
+		
+		owner = KFT
+		buildings = {
+			infrastructure = 2
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = KFT
+	}
+
+	provinces={
+		4834 4835 4836 4837 4838 4839 4840 4841 4842 4843 4844 4845 4846 4847 4848 4849 4850 4851 4852 4853 4854 4855 4856 4857 
+	}
+	local_supplies=0.0 
+}

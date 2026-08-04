@@ -1,0 +1,37 @@
+
+state={
+	id=620
+	name="STATE_620"
+	manpower = 2347924
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = TEM
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+			
+		}
+		add_core_of = TEM
+	}
+
+	provinces={
+		7267 7268 7269 7270 7271 7272 7273 7274 7275 7276 7277 7278 
+	}
+	local_supplies=0.0 
+}

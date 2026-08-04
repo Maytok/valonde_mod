@@ -1,0 +1,17 @@
+air_wings = {
+		1632 = { 								
+		fighter_equipment_0 = { owner = "SAA" amount = 4 version_name = "Nizam Mk 2" }
+nav_bomber_equipment_0 = { owner = "SAA" amount = 6 version_name = "Shala Mk 2" }
+
+	}
+	1385 = { 								
+		CAS_equipment_0 = { owner = "SAA" amount = 5 version_name = "Fartourub Mk 1" }
+
+	}
+	1391 = { 								
+		tac_bomber_equipment_0 = { owner = "SAA" amount = 9 version_name = "Kalb Mk 0" }
+
+	}
+
+
+}

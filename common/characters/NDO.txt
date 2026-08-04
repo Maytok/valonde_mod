@@ -1,0 +1,1083 @@
+characters = {
+	NDO_Mbwano_Hadisto={
+		name="Mbwano Hadisto"
+
+		
+		country_leader={
+			ideology=oligarchism
+			traits = { staunch_aristocrat  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	NDO_Amau_Majango={
+		name="Amau Majango"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NDO_Amau_Majango
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	NDO_Amaraka_Chera={
+		name="Amaraka Chera"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NDO_Amaraka_Chera
+			traits = {	humble 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	NDO_Jumaraka_Aduiya={
+		name="Jumaraka Aduiya"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NDO_Jumaraka_Aduiya
+			traits = {	agricultural_nationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	NDO_Nuru_Nyoto={
+		name="Nuru Nyoto"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NDO_Nuru_Nyoto
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	NDO_Juma_Nyanarajesha={
+		name="Juma Nyanarajesha"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NDO_Juma_Nyanarajesha
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	NDO_Lubana_Soko={
+		name="Lubana Soko"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NDO_Lubana_Soko
+			traits = {	humble 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	NDO_Mbwano_Dhomtaba={
+		name="Mbwano Dhomtaba"
+
+		advisor={
+			slot = army_chief
+			idea_token = NDO_Mbwano_Dhomtaba
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	NDO_Simbana_Mcheli={
+		name="Simbana Mcheli"
+
+		advisor={
+			slot = army_chief
+			idea_token = NDO_Simbana_Mcheli
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	NDO_Taji_Shukwelu={
+		name="Taji Shukwelu"
+
+		advisor={
+			slot = army_chief
+			idea_token = NDO_Taji_Shukwelu
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	NDO_Kama_Hofumbuka={
+		name="Kama Hofumbuka"
+
+		advisor={
+			slot = army_chief
+			idea_token = NDO_Kama_Hofumbuka
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	NDO_Kwano_Checho={
+		name="Kwano Checho"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NDO_Kwano_Checho
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	NDO_Simba_Mshara={
+		name="Simba Mshara"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NDO_Simba_Mshara
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	NDO_Tanga_Pepo={
+		name="Tanga Pepo"
+
+		advisor={
+			slot = air_chief
+			idea_token = NDO_Tanga_Pepo
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	NDO_Musa_Mipanajesha={
+		name="Musa Mipanajesha"
+
+		advisor={
+			slot = air_chief
+			idea_token = NDO_Musa_Mipanajesha
+			traits = {	air_chief_all_weather_1 	}
+		}
+
+
+	}
+	NDO_Kwanga_Checho={
+		name="Kwanga Checho"
+
+		advisor={
+			slot = high_command
+			idea_token = NDO_Kwanga_Checho
+			traits = {	army_cavalry_2 	}
+		}
+
+
+	}
+	NDO_Bari_Wimui={
+		name="Bari Wimui"
+
+		advisor={
+			slot = high_command
+			idea_token = NDO_Bari_Wimui
+			traits = {	army_artillery_2 	}
+		}
+
+
+	}
+	NDO_Mbwamari_Panjanguzi={
+		name="Mbwamari Panjanguzi"
+
+		advisor={
+			slot = high_command
+			idea_token = NDO_Mbwamari_Panjanguzi
+			traits = {	air_airborne_2 	}
+		}
+
+
+	}
+	NDO_Luba_Majanaji={
+		name="Luba Majanaji"
+
+		advisor={
+			slot = high_command
+			idea_token = NDO_Luba_Majanaji
+			traits = {	army_commando_2 	}
+		}
+
+
+	}
+	NDO_Mosi_Kumbo={
+		name="Mosi Kumbo"
+
+		advisor={
+			slot = high_command
+			idea_token = NDO_Mosi_Kumbo
+			traits = {	navy_carrier_1 	}
+		}
+
+
+	}
+	NDO_Shaka_Hadita={
+		name="Shaka Hadita"
+
+		advisor={
+			slot = high_command
+			idea_token = NDO_Shaka_Hadita
+			traits = {	air_tactical_bombing_1 	}
+		}
+
+
+	}
+	NDO_Luba_Lando={
+		name="Luba Lando"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { subservient_ultranationalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	NDO_Baraka_Meli={
+		name="Baraka Meli"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NDO_Baraka_Meli
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	NDO_Simba_Mwithi={
+		name="Simba Mwithi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NDO_Simba_Mwithi
+			traits = {	spirit_of_genghis 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	NDO_Kato_Uhawi={
+		name="Kato Uhawi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NDO_Kato_Uhawi
+			traits = {	autokrator 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	NDO_Chidi_Majango={
+		name="Chidi Majango"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NDO_Chidi_Majango
+			traits = {	vapsid_economist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	NDO_Temba_Mapiga={
+		name="Temba Mapiga"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NDO_Temba_Mapiga
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	NDO_Simba_Mili={
+		name="Simba Mili"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NDO_Simba_Mili
+			traits = {	subservient_ultranationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	NDO_Sefu_Heka={
+		name="Sefu Heka"
+
+		advisor={
+			slot = army_chief
+			idea_token = NDO_Sefu_Heka
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	NDO_Lubana_Kumba={
+		name="Lubana Kumba"
+
+		advisor={
+			slot = army_chief
+			idea_token = NDO_Lubana_Kumba
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	NDO_Amari_Mwani={
+		name="Amari Mwani"
+
+		advisor={
+			slot = army_chief
+			idea_token = NDO_Amari_Mwani
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	NDO_Shakaraka_Kifu={
+		name="Shakaraka Kifu"
+
+		advisor={
+			slot = army_chief
+			idea_token = NDO_Shakaraka_Kifu
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	NDO_Juma_Hofu={
+		name="Juma Hofu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NDO_Juma_Hofu
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	NDO_Tanga_Kishalme={
+		name="Tanga Kishalme"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NDO_Tanga_Kishalme
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	NDO_Simba_Pano={
+		name="Simba Pano"
+
+		advisor={
+			slot = air_chief
+			idea_token = NDO_Simba_Pano
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	NDO_Mbwamari_Hekete={
+		name="Mbwamari Hekete"
+
+		advisor={
+			slot = air_chief
+			idea_token = NDO_Mbwamari_Hekete
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	NDO_Kama_Taano={
+		name="Kama Taano"
+
+		advisor={
+			slot = high_command
+			idea_token = NDO_Kama_Taano
+			traits = {	navy_naval_air_defense_2 	}
+		}
+
+
+	}
+	NDO_Mosi_Sheli={
+		name="Mosi Sheli"
+
+		advisor={
+			slot = high_command
+			idea_token = NDO_Mosi_Sheli
+			traits = {	air_bomber_interception_2 	}
+		}
+
+
+	}
+	NDO_Nuru_Njozi={
+		name="Nuru Njozi"
+
+		advisor={
+			slot = high_command
+			idea_token = NDO_Nuru_Njozi
+			traits = {	army_artillery_1 	}
+		}
+
+
+	}
+	NDO_Jumau_Nyumbasia={
+		name="Jumau Nyumbasia"
+
+		advisor={
+			slot = high_command
+			idea_token = NDO_Jumau_Nyumbasia
+			traits = {	air_air_superiority_1 	}
+		}
+
+
+	}
+	NDO_Amari_Shuli={
+		name="Amari Shuli"
+
+		advisor={
+			slot = high_command
+			idea_token = NDO_Amari_Shuli
+			traits = {	army_cavalry_1 	}
+		}
+
+
+	}
+	NDO_Juma_Siri={
+		name="Juma Siri"
+
+		advisor={
+			slot = high_command
+			idea_token = NDO_Juma_Siri
+			traits = {	navy_submarine_1 	}
+		}
+
+
+	}
+	NDO_Amari_Mwithi={
+		name="Amari Mwithi"
+
+		
+		country_leader={
+			ideology=anti_revisionism
+			traits = { leftist_intellectual  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	NDO_Amaraka_Usiwa={
+		name="Amaraka Usiwa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NDO_Amaraka_Usiwa
+			traits = {	political_dancer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	NDO_Jumaraka_Malme={
+		name="Jumaraka Malme"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NDO_Jumaraka_Malme
+			traits = {	leftist_intellectual 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	NDO_Mbwamau_Jeno={
+		name="Mbwamau Jeno"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NDO_Mbwamau_Jeno
+			traits = {	reluctant_stalinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	NDO_Baraka_Imaifu={
+		name="Baraka Imaifu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NDO_Baraka_Imaifu
+			traits = {	revolutionary_poet 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	NDO_Mbwamau_Hofumbuka={
+		name="Mbwamau Hofumbuka"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NDO_Mbwamau_Hofumbuka
+			traits = {	revolutionary_poet 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	NDO_Tano_Shuli={
+		name="Tano Shuli"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NDO_Tano_Shuli
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	NDO_Kato_Hekete={
+		name="Kato Hekete"
+
+		advisor={
+			slot = army_chief
+			idea_token = NDO_Kato_Hekete
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	NDO_Mbwamari_Hofu={
+		name="Mbwamari Hofu"
+
+		advisor={
+			slot = army_chief
+			idea_token = NDO_Mbwamari_Hofu
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	NDO_Temba_Panguo={
+		name="Temba Panguo"
+
+		advisor={
+			slot = army_chief
+			idea_token = NDO_Temba_Panguo
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	NDO_Amari_Hadita={
+		name="Amari Hadita"
+
+		advisor={
+			slot = army_chief
+			idea_token = NDO_Amari_Hadita
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	NDO_Amau_Malu={
+		name="Amau Malu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NDO_Amau_Malu
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	NDO_Mbwano_Malme={
+		name="Mbwano Malme"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NDO_Mbwano_Malme
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	NDO_Mbwano_Pango={
+		name="Mbwano Pango"
+
+		advisor={
+			slot = air_chief
+			idea_token = NDO_Mbwano_Pango
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	NDO_Mbwano_Hisa={
+		name="Mbwano Hisa"
+
+		advisor={
+			slot = air_chief
+			idea_token = NDO_Mbwano_Hisa
+			traits = {	air_chief_all_weather_2 	}
+		}
+
+
+	}
+	NDO_Mbwano_Chera={
+		name="Mbwano Chera"
+
+		advisor={
+			slot = high_command
+			idea_token = NDO_Mbwano_Chera
+			traits = {	army_concealment_2 	}
+		}
+
+
+	}
+	NDO_Juma_Malme={
+		name="Juma Malme"
+
+		advisor={
+			slot = high_command
+			idea_token = NDO_Juma_Malme
+			traits = {	army_entrenchment_2 	}
+		}
+
+
+	}
+	NDO_Kwano_Pigaonda={
+		name="Kwano Pigaonda"
+
+		advisor={
+			slot = high_command
+			idea_token = NDO_Kwano_Pigaonda
+			traits = {	army_commando_1 	}
+		}
+
+
+	}
+	NDO_Omari_Pano={
+		name="Omari Pano"
+
+		advisor={
+			slot = high_command
+			idea_token = NDO_Omari_Pano
+			traits = {	army_radio_intelligence_1 	}
+		}
+
+
+	}
+	NDO_Amari_Sikuti={
+		name="Amari Sikuti"
+
+		advisor={
+			slot = high_command
+			idea_token = NDO_Amari_Sikuti
+			traits = {	air_bomber_interception_2 	}
+		}
+
+
+	}
+	NDO_Tano_Mapiga={
+		name="Tano Mapiga"
+
+		advisor={
+			slot = high_command
+			idea_token = NDO_Tano_Mapiga
+			traits = {	army_regrouping_1 	}
+		}
+
+
+	}
+	NDO_Nuru_Hadisto={
+		name="Nuru Hadisto"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { the_young_magnate  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	NDO_Kwame_Mlimaisia={
+		name="Kwame Mlimaisia"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NDO_Kwame_Mlimaisia
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	NDO_Jumaraka_Jumbasi={
+		name="Jumaraka Jumbasi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NDO_Jumaraka_Jumbasi
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	NDO_Baka_Kima={
+		name="Baka Kima"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NDO_Baka_Kima
+			traits = {	first_lady 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	NDO_Shakari_Hisu={
+		name="Shakari Hisu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NDO_Shakari_Hisu
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	NDO_Mbwame_Usiwa={
+		name="Mbwame Usiwa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NDO_Mbwame_Usiwa
+			traits = {	democratic_crusader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	NDO_Mbwame_Dari={
+		name="Mbwame Dari"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NDO_Mbwame_Dari
+			traits = {	conservative_grandee 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	NDO_Jumaraka_Nyumba={
+		name="Jumaraka Nyumba"
+
+		advisor={
+			slot = army_chief
+			idea_token = NDO_Jumaraka_Nyumba
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	NDO_Nuru_Dari={
+		name="Nuru Dari"
+
+		advisor={
+			slot = army_chief
+			idea_token = NDO_Nuru_Dari
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	NDO_Kwanga_Siri={
+		name="Kwanga Siri"
+
+		advisor={
+			slot = army_chief
+			idea_token = NDO_Kwanga_Siri
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	NDO_Nuru_Majanaji={
+		name="Nuru Majanaji"
+
+		advisor={
+			slot = army_chief
+			idea_token = NDO_Nuru_Majanaji
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	NDO_Chidi_Mshara={
+		name="Chidi Mshara"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NDO_Chidi_Mshara
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	NDO_Temba_Hadisto={
+		name="Temba Hadisto"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NDO_Temba_Hadisto
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	NDO_Tanga_Njozi={
+		name="Tanga Njozi"
+
+		advisor={
+			slot = air_chief
+			idea_token = NDO_Tanga_Njozi
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	NDO_Jumari_Shuli={
+		name="Jumari Shuli"
+
+		advisor={
+			slot = air_chief
+			idea_token = NDO_Jumari_Shuli
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	NDO_Shakaraka_Nyanarajesha={
+		name="Shakaraka Nyanarajesha"
+
+		advisor={
+			slot = high_command
+			idea_token = NDO_Shakaraka_Nyanarajesha
+			traits = {	army_commando_2 	}
+		}
+
+
+	}
+	NDO_Jumari_Kumbukufu={
+		name="Jumari Kumbukufu"
+
+		advisor={
+			slot = high_command
+			idea_token = NDO_Jumari_Kumbukufu
+			traits = {	army_concealment_1 	}
+		}
+
+
+	}
+	NDO_Simbana_Nyumba={
+		name="Simbana Nyumba"
+
+		advisor={
+			slot = high_command
+			idea_token = NDO_Simbana_Nyumba
+			traits = {	air_pilot_training_2 	}
+		}
+
+
+	}
+	NDO_Kwanga_Mapigano={
+		name="Kwanga Mapigano"
+
+		advisor={
+			slot = high_command
+			idea_token = NDO_Kwanga_Mapigano
+			traits = {	navy_naval_air_defense_1 	}
+		}
+
+
+	}
+	NDO_Taji_Mshara={
+		name="Taji Mshara"
+
+		advisor={
+			slot = high_command
+			idea_token = NDO_Taji_Mshara
+			traits = {	air_bomber_interception_2 	}
+		}
+
+
+	}
+	NDO_Jumau_Malu={
+		name="Jumau Malu"
+
+		advisor={
+			slot = high_command
+			idea_token = NDO_Jumau_Malu
+			traits = {	navy_screen_1 	}
+		}
+
+
+	}
+	NDO_Nuru_Lando={
+		name="Nuru Lando"
+
+		advisor={
+			slot = theorist
+			idea_token = NDO_Nuru_Lando
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	NDO_Mbwame_Hisu={
+		name="Mbwame Hisu"
+
+		advisor={
+			slot = theorist
+			idea_token = NDO_Mbwame_Hisu
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	NDO_Taji_Pigaonda={
+		name="Taji Pigaonda"
+
+		advisor={
+			slot = theorist
+			idea_token = NDO_Taji_Pigaonda
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

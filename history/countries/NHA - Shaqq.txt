@@ -1,0 +1,350 @@
+capital = 1068
+
+oob = "NHA_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "NHA_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "NHA_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	support_weapons= 1
+	tech_trucks= 1
+	tech_support= 1
+	infantry_weapons1= 1
+	paratroopers= 1
+	tech_mountaineers= 1
+	armored_car1= 1
+	tech_engineers= 1
+	tech_recon= 1
+	tech_maintenance_company= 1
+	basic_machine_tools= 1
+	fuel_silos= 1
+	construction1= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		engine_tech_1 = 1
+		armor_tech_1 = 1
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "NHA_1936_air_bba"
+		set_technology = {
+			iw_small_airframe = 1
+			iw_medium_airframe = 1
+			iw_large_airframe = 1
+			early_bombs = 1
+			photo_reconnaisance = 1
+			air_torpedoe_1 = 1
+			aa_lmg = 1
+			engines_1 = 1
+			aircraft_construction = 1
+			
+		}
+		create_equipment_variant = {
+			name = "Mawkaba Mk 2"
+			type = small_plane_cas_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = bomb_locks
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Matanz Mk 1"
+			type = small_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = light_mg_2x
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Kutub Mk 1"
+			type = small_plane_naval_bomber_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = torpedo_mounting
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Zamt Mk 0"
+			type = large_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_4x
+			fixed_main_weapon_slot = large_bomb_bay
+			special_type_slot_1 = lmg_defense_turret
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Khalama Mk 1"
+			type = medium_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_2x
+			fixed_main_weapon_slot = medium_bomb_bay
+			special_type_slot_1 = lmg_defense_turret
+
+			}
+		}
+
+	else = {
+		set_air_oob = "NHA_1936_air_legacy"
+		set_technology = {
+			early_fighter = 1
+			early_bomber = 1
+			strategic_bomber1 = 1
+			CAS1 = 1
+			scout_plane1 = 1
+			naval_bomber1 = 1
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	early_destroyer = 1
+	
+	}
+	set_naval_oob = "NHA_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Ramanzim Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	early_ship_hull_light = 1
+	sonar = 1
+	
+	}
+	set_naval_oob = "NHA_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Ramanzim Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = empty
+				rear_1_custom_slot = empty
+			}
+		}
+
+	}
+
+
+recruit_character = NHA_Omarid_Doharb
+recruit_character = NHA_Yahim_Muna
+recruit_character = NHA_Mohami_Basrasra
+recruit_character = NHA_Nabilal_Muna
+recruit_character = NHA_Jammed_Hija
+recruit_character = NHA_Nabilali_Khaman
+recruit_character = NHA_Samza_Sahraba
+recruit_character = NHA_Fariq_Hazn
+recruit_character = NHA_Omar_Khaml
+recruit_character = NHA_Yusuf_Muna
+recruit_character = NHA_Omar_Hijraka
+recruit_character = NHA_Imran_Sham
+recruit_character = NHA_Faisan_Makech
+recruit_character = NHA_Mohal_Kitariq
+recruit_character = NHA_Jamir_Reej
+recruit_character = NHA_Majid_Sanamt
+recruit_character = NHA_Hassan_Hikmalaktasa
+recruit_character = NHA_Mohal_Darasjidda
+recruit_character = NHA_Hassal_Ghur
+recruit_character = NHA_Omarid_Sahraba
+recruit_character = NHA_Khami_Narab
+recruit_character = NHA_Mohami_Shaqafa
+recruit_character = NHA_Ibrahim_Shibl
+recruit_character = NHA_Hassal_Saabr
+recruit_character = NHA_Zaisan_Shana
+recruit_character = NHA_Yahim_Sharitaadi
+recruit_character = NHA_Sami_Shayatina
+recruit_character = NHA_Zaisan_Hijraka
+recruit_character = NHA_Imran_Tharikma
+recruit_character = NHA_Bilah_Khaml
+recruit_character = NHA_Faid_Tifl
+recruit_character = NHA_Abdullal_Diwat
+recruit_character = NHA_Nabil_Noum
+recruit_character = NHA_Jami_Masra
+recruit_character = NHA_Yahim_Yemen
+recruit_character = NHA_Omal_Reej
+recruit_character = NHA_Khammed_Thalb
+recruit_character = NHA_Yahmal_Fajd
+recruit_character = NHA_Majid_Qadi
+recruit_character = NHA_Samza_Hajaz
+recruit_character = NHA_Faid_Amirasrabib
+recruit_character = NHA_Hassan_Shibl
+recruit_character = NHA_Ahmoud_Irabil
+recruit_character = NHA_Ahmoud_Maml
+recruit_character = NHA_Faisal_Masjidda
+recruit_character = NHA_Faisan_Harda
+recruit_character = NHA_Nabilali_Masra
+recruit_character = NHA_Khammed_Kutub
+recruit_character = NHA_Faid_Asat
+recruit_character = NHA_Mohal_Rawat
+recruit_character = NHA_Nabilali_Ramanzim
+recruit_character = NHA_Anwarid_Maghrahr
+recruit_character = NHA_Rammed_Sahraba
+recruit_character = NHA_Omar_Saadin
+recruit_character = NHA_Khammed_Shabala
+recruit_character = NHA_Imran_Basrasra
+recruit_character = NHA_Hassali_Mawda
+recruit_character = NHA_Khami_Nizam
+recruit_character = NHA_Bilal_Yemen
+recruit_character = NHA_Ibrah_Mawkana
+recruit_character = NHA_Sami_Shaqq
+recruit_character = NHA_Khami_Ramanzim
+recruit_character = NHA_Majid_Khaml
+recruit_character = NHA_Anwariq_Basrasra
+recruit_character = NHA_Fariq_Tharikma
+recruit_character = NHA_Jamir_Shaqafa
+recruit_character = NHA_Samza_Masjidda
+recruit_character = NHA_Mahya_Yemen
+recruit_character = NHA_Nabilali_Shibl
+recruit_character = NHA_Ibran_Diwat
+recruit_character = NHA_Hassali_Makech
+recruit_character = NHA_Bilah_Suwataad
+recruit_character = NHA_Mahya_Amirasrabib
+recruit_character = NHA_Samza_Ghur
+recruit_character = NHA_Bilal_Madin
+recruit_character = NHA_Karid_Rawat
+recruit_character = NHA_Faisal_Hikh
+recruit_character = NHA_Zaisalid_Ramanzim
+recruit_character = NHA_Samza_Hijraka
+recruit_character = NHA_Nabilali_Dohayah
+recruit_character = NHA_Imran_Kitariq
+recruit_character = NHA_Nabilahim_Hijraka
+recruit_character = NHA_Nabilahim_Masra
+recruit_character = NHA_Nabilal_Harda
+recruit_character = NHA_Khammed_Khalama
+recruit_character = NHA_Samariq_Madi
+recruit_character = NHA_Khami_Doharb
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 4
+set_convoys = 0
+set_stability = 0.86
+set_war_support = 0.46
+
+add_ideas = {
+limited_conscription
+low_economic_mobilisation
+limited_exports
+}
+
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1928.6.15"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 28
+	fascism = 34
+	communism = 8
+	neutrality = 30
+}
+
+
+
+
+

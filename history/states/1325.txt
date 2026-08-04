@@ -1,0 +1,37 @@
+
+state={
+	id=1325
+	name="STATE_1325"
+	manpower = 3258950
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = SIW
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			arms_factory = 1
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = SIW
+	}
+
+	provinces={
+		15170 15171 15172 15173 15174 15175 15176 15177 15178 15179 15180 15181 15182 15183 15184 15185 
+	}
+	local_supplies=0.0 
+}

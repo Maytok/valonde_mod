@@ -1,0 +1,37 @@
+
+state={
+	id=559
+	name="STATE_559"
+	manpower = 2413689
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = DAN
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = DAN
+	}
+
+	provinces={
+		6535 6536 6537 6538 6539 6540 6541 6542 6543 6544 6545 6546 6547 6548 
+	}
+	local_supplies=0.0 
+}

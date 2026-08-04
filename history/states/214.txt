@@ -1,0 +1,37 @@
+
+state={
+	id=214
+	name="STATE_214"
+	manpower = 4287804
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = RAD
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 2
+			dockyard = 1
+			
+		}
+		add_core_of = RAD
+	}
+
+	provinces={
+		2511 2512 2513 2514 2515 2516 2517 2518 2519 2520 2521 2522 2523 2524 2525 2526 2527 2528 2529 2530 2531 2532 2533 
+	}
+	local_supplies=0.0 
+}

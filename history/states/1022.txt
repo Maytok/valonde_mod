@@ -1,0 +1,37 @@
+
+state={
+	id=1022
+	name="STATE_1022"
+	manpower = 2028970
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=7
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = TIF
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = TIF
+	}
+
+	provinces={
+		11741 11742 11743 11744 11745 11746 11747 11748 11749 11750 11751 
+	}
+	local_supplies=0.0 
+}

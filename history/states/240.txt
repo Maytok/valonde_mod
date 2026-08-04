@@ -1,0 +1,37 @@
+
+state={
+	id=240
+	name="STATE_240"
+	manpower = 2562740
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = OPU
+		buildings = {
+			infrastructure = 2
+			air_base = 3
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = OPU
+	}
+
+	provinces={
+		2793 2794 2795 2796 2797 2798 2799 2800 2801 2802 2803 2804 2805 2806 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=1359
+	name="STATE_1359"
+	manpower = 3396214
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=2
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = XAL
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 0
+			dockyard = 2
+			
+		}
+		add_core_of = XAL
+	}
+
+	provinces={
+		15531 15532 15533 15534 15535 15536 15537 15538 15539 15540 15541 15542 15543 15544 15545 15546 15547 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,270 @@
+capital = 666
+
+oob = "OMB_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "OMB_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "OMB_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "OMB_1936_air_bba"
+		set_technology = {
+			
+		}
+
+	else = {
+		set_air_oob = "OMB_1936_air_legacy"
+		set_technology = {
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	early_destroyer = 1
+	
+	}
+	set_naval_oob = "OMB_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Guerregiantu Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	early_ship_hull_light = 1
+	sonar = 1
+	
+	}
+	set_naval_oob = "OMB_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Guerregiantu Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = empty
+				rear_1_custom_slot = empty
+			}
+		}
+
+	}
+
+
+recruit_character = OMB_Jeancescolo_Luce
+recruit_character = OMB_Marlo_Ghierofezion
+recruit_character = OMB_Lucario_Temoneracola
+recruit_character = OMB_Lucario_Cavolo
+recruit_character = OMB_Victor_Prinito
+recruit_character = OMB_Stefano_Anierace
+recruit_character = OMB_Lucario_Seggella
+recruit_character = OMB_Andro_Mira
+recruit_character = OMB_Steon_Cone
+recruit_character = OMB_Victor_Voce
+recruit_character = OMB_Leon_Divalego
+recruit_character = OMB_Vica_Acquarittile
+recruit_character = OMB_Francescomo_Duerio
+recruit_character = OMB_Jeandre_Lampamperoe
+recruit_character = OMB_Luca_Rume
+recruit_character = OMB_Alexancescom_Voce
+recruit_character = OMB_Cardo_Spame
+recruit_character = OMB_Alexano_Guerna
+recruit_character = OMB_Paolose_Voce
+recruit_character = OMB_Jeandro_Ponfita
+recruit_character = OMB_Jeandro_Ghierofezion
+recruit_character = OMB_Bruno_Alla
+recruit_character = OMB_Cardo_Canordizia
+recruit_character = OMB_Mattefancesc_Regio
+recruit_character = OMB_Anto_Cuoreseroe
+recruit_character = OMB_Victor_Ghierofezion
+recruit_character = OMB_Ramo_Tero
+recruit_character = OMB_Ramo_Acquarittile
+recruit_character = OMB_Jean_Mira
+recruit_character = OMB_Paolose_Lagna
+recruit_character = OMB_Matteon_Scone
+recruit_character = OMB_Vicardo_Navale
+recruit_character = OMB_Jeandre_Cito
+recruit_character = OMB_Vica_Voce
+recruit_character = OMB_Felipe_Sore
+recruit_character = OMB_Albertor_Cuoreseroe
+recruit_character = OMB_Vicardo_Moreccancudo
+recruit_character = OMB_Lucario_Ponfita
+recruit_character = OMB_Luca_Dempio
+recruit_character = OMB_Marco_Spame
+recruit_character = OMB_Alexancescom_Cone
+recruit_character = OMB_Pablo_Neve
+recruit_character = OMB_Andro_Lagna
+recruit_character = OMB_Andre_Vita
+recruit_character = OMB_Leon_Villa
+recruit_character = OMB_Matteo_Albernortore
+recruit_character = OMB_Jeandro_Regio
+recruit_character = OMB_Alexancescol_Erba
+recruit_character = OMB_Steo_Profezza
+recruit_character = OMB_Giaco_Sorno
+recruit_character = OMB_Thien_Seggella
+recruit_character = OMB_Rico_Scuolaggio
+recruit_character = OMB_Cardo_Cielo
+recruit_character = OMB_Andre_Lagna
+recruit_character = OMB_Marcolo_Eseria
+recruit_character = OMB_Vicardo_Notte
+recruit_character = OMB_Jeandro_Scuolaggio
+recruit_character = OMB_Marco_Destillo
+recruit_character = OMB_Paolose_Fumortagno
+recruit_character = OMB_Felipe_Voce
+recruit_character = OMB_Lucario_Prinito
+recruit_character = OMB_Felipe_Arcorte
+recruit_character = OMB_Cardo_Arcorte
+recruit_character = OMB_Victor_Spame
+recruit_character = OMB_Vicardo_Fiumento
+recruit_character = OMB_Carco_Moreccancudo
+recruit_character = OMB_Vica_Cavale
+recruit_character = OMB_Pedre_Cito
+recruit_character = OMB_Luis_Fuore
+recruit_character = OMB_Marlos_Anierace
+recruit_character = OMB_Felien_Profezza
+recruit_character = OMB_Francescomo_Morra
+recruit_character = OMB_Jeancescolo_Odincano
+recruit_character = OMB_Lucario_Eseria
+recruit_character = OMB_Ricomo_Lampamperoe
+recruit_character = OMB_Ramo_Destillo
+recruit_character = OMB_Alexancescol_Cito
+recruit_character = OMB_Lucario_Memicolo
+recruit_character = OMB_Paolose_Incionfo
+recruit_character = OMB_Jeandre_Alla
+recruit_character = OMB_Antonarlo_Rego
+recruit_character = OMB_Antonarlo_Acquarittile
+recruit_character = OMB_Pablo_Navale
+recruit_character = OMB_Pablo_Sorno
+recruit_character = OMB_Jeandre_Mura
+recruit_character = OMB_Giaco_Lanzia
+recruit_character = OMB_Ricomo_Cone
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 3
+set_convoys = 0
+set_stability = 0.70
+set_war_support = 0.74
+
+add_ideas = {
+limited_conscription
+low_economic_mobilisation
+limited_exports
+}
+
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1880.7.17"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 20
+	fascism = 32
+	communism = 20
+	neutrality = 28
+}
+
+
+
+
+

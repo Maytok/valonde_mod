@@ -1,0 +1,37 @@
+
+state={
+	id=1492
+	name="STATE_1492"
+	manpower = 2521533
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=2
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = ZAU
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = ZAU
+	}
+
+	provinces={
+		16852 16853 16854 16855 16856 16857 16858 16859 16860 16861 16862 16863 16864 
+	}
+	local_supplies=0.0 
+}

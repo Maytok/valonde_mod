@@ -1,0 +1,37 @@
+
+state={
+	id=951
+	name="STATE_951"
+	manpower = 1701138
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = TEM
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = TEM
+	}
+
+	provinces={
+		10924 10925 10926 10927 10928 10929 10930 10931 10932 
+	}
+	local_supplies=0.0 
+}

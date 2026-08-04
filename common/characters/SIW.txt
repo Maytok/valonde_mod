@@ -1,0 +1,1083 @@
+characters = {
+	SIW_Zaisan_Ramanzim={
+		name="Zaisan Ramanzim"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { right_industrialist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SIW_Omarid_Hajr={
+		name="Omarid Hajr"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SIW_Omarid_Hajr
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	SIW_Mohami_Shibl={
+		name="Mohami Shibl"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SIW_Mohami_Shibl
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	SIW_Anwar_Khalama={
+		name="Anwar Khalama"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SIW_Anwar_Khalama
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	SIW_Nabilali_Shayatina={
+		name="Nabilali Shayatina"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SIW_Nabilali_Shayatina
+			traits = {	national_determinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	SIW_Yahmal_Fartourub={
+		name="Yahmal Fartourub"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SIW_Yahmal_Fartourub
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	SIW_Jammed_Fartourub={
+		name="Jammed Fartourub"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SIW_Jammed_Fartourub
+			traits = {	noble_beurocrat 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	SIW_Sammed_Rawat={
+		name="Sammed Rawat"
+
+		advisor={
+			slot = army_chief
+			idea_token = SIW_Sammed_Rawat
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	SIW_Mohal_Dohayah={
+		name="Mohal Dohayah"
+
+		advisor={
+			slot = army_chief
+			idea_token = SIW_Mohal_Dohayah
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	SIW_Jami_Hajr={
+		name="Jami Hajr"
+
+		advisor={
+			slot = army_chief
+			idea_token = SIW_Jami_Hajr
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	SIW_Rammed_Hijra={
+		name="Rammed Hijra"
+
+		advisor={
+			slot = army_chief
+			idea_token = SIW_Rammed_Hijra
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	SIW_Mahmad_Khaman={
+		name="Mahmad Khaman"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SIW_Mahmad_Khaman
+			traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+
+	}
+	SIW_Ibrah_Kutub={
+		name="Ibrah Kutub"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SIW_Ibrah_Kutub
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	SIW_Anwar_Mawkaba={
+		name="Anwar Mawkaba"
+
+		advisor={
+			slot = air_chief
+			idea_token = SIW_Anwar_Mawkaba
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	SIW_Kariq_Ghur={
+		name="Kariq Ghur"
+
+		advisor={
+			slot = air_chief
+			idea_token = SIW_Kariq_Ghur
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	SIW_Nabil_Kutub={
+		name="Nabil Kutub"
+
+		advisor={
+			slot = high_command
+			idea_token = SIW_Nabil_Kutub
+			traits = {	army_cavalry_1 	}
+		}
+
+
+	}
+	SIW_Hassali_Namartoum={
+		name="Hassali Namartoum"
+
+		advisor={
+			slot = high_command
+			idea_token = SIW_Hassali_Namartoum
+			traits = {	air_naval_strike_2 	}
+		}
+
+
+	}
+	SIW_Samariq_Shabala={
+		name="Samariq Shabala"
+
+		advisor={
+			slot = high_command
+			idea_token = SIW_Samariq_Shabala
+			traits = {	air_strategic_bombing_1 	}
+		}
+
+
+	}
+	SIW_Hassal_Nizam={
+		name="Hassal Nizam"
+
+		advisor={
+			slot = high_command
+			idea_token = SIW_Hassal_Nizam
+			traits = {	army_commando_2 	}
+		}
+
+
+	}
+	SIW_Ibran_Rawat={
+		name="Ibran Rawat"
+
+		advisor={
+			slot = high_command
+			idea_token = SIW_Ibran_Rawat
+			traits = {	navy_carrier_1 	}
+		}
+
+
+	}
+	SIW_Omarid_Saabr={
+		name="Omarid Saabr"
+
+		advisor={
+			slot = high_command
+			idea_token = SIW_Omarid_Saabr
+			traits = {	navy_submarine_2 	}
+		}
+
+
+	}
+	SIW_Mahmad_Noum={
+		name="Mahmad Noum"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { falangist_militarist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SIW_Yahim_Shaqq={
+		name="Yahim Shaqq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SIW_Yahim_Shaqq
+			traits = {	archon_basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	SIW_Zaid_Shayatina={
+		name="Zaid Shayatina"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SIW_Zaid_Shayatina
+			traits = {	basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	SIW_Zaid_Hija={
+		name="Zaid Hija"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SIW_Zaid_Hija
+			traits = {	basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	SIW_Bilal_Khalaktan={
+		name="Bilal Khalaktan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SIW_Bilal_Khalaktan
+			traits = {	militant_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	SIW_Jamza_Shalb={
+		name="Jamza Shalb"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SIW_Jamza_Shalb
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	SIW_Samza_Sharitaadi={
+		name="Samza Sharitaadi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SIW_Samza_Sharitaadi
+			traits = {	subservient_ultranationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	SIW_Omar_Shala={
+		name="Omar Shala"
+
+		advisor={
+			slot = army_chief
+			idea_token = SIW_Omar_Shala
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	SIW_Faisal_Sahraba={
+		name="Faisal Sahraba"
+
+		advisor={
+			slot = army_chief
+			idea_token = SIW_Faisal_Sahraba
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	SIW_Mohami_Burub={
+		name="Mohami Burub"
+
+		advisor={
+			slot = army_chief
+			idea_token = SIW_Mohami_Burub
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	SIW_Jamza_Bahayal={
+		name="Jamza Bahayal"
+
+		advisor={
+			slot = army_chief
+			idea_token = SIW_Jamza_Bahayal
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	SIW_Zaisan_Rihlakech={
+		name="Zaisan Rihlakech"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SIW_Zaisan_Rihlakech
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	SIW_Ibrahya_Kawat={
+		name="Ibrahya Kawat"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SIW_Ibrahya_Kawat
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	SIW_Yahim_Saadin={
+		name="Yahim Saadin"
+
+		advisor={
+			slot = air_chief
+			idea_token = SIW_Yahim_Saadin
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	SIW_Abdullal_Makanam={
+		name="Abdullal Makanam"
+
+		advisor={
+			slot = air_chief
+			idea_token = SIW_Abdullal_Makanam
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	SIW_Sami_Shabala={
+		name="Sami Shabala"
+
+		advisor={
+			slot = high_command
+			idea_token = SIW_Sami_Shabala
+			traits = {	army_radio_intelligence_1 	}
+		}
+
+
+	}
+	SIW_Nabilahim_Irabil={
+		name="Nabilahim Irabil"
+
+		advisor={
+			slot = high_command
+			idea_token = SIW_Nabilahim_Irabil
+			traits = {	army_commando_1 	}
+		}
+
+
+	}
+	SIW_Mahya_Kalb={
+		name="Mahya Kalb"
+
+		advisor={
+			slot = high_command
+			idea_token = SIW_Mahya_Kalb
+			traits = {	air_pilot_training_1 	}
+		}
+
+
+	}
+	SIW_Yahmal_Nizam={
+		name="Yahmal Nizam"
+
+		advisor={
+			slot = high_command
+			idea_token = SIW_Yahmal_Nizam
+			traits = {	air_bomber_interception_1 	}
+		}
+
+
+	}
+	SIW_Sammed_Burub={
+		name="Sammed Burub"
+
+		advisor={
+			slot = high_command
+			idea_token = SIW_Sammed_Burub
+			traits = {	army_CombinedArms_1 	}
+		}
+
+
+	}
+	SIW_Omal_Hikmahibl={
+		name="Omal Hikmahibl"
+
+		advisor={
+			slot = high_command
+			idea_token = SIW_Omal_Hikmahibl
+			traits = {	army_armored_2 	}
+		}
+
+
+	}
+	SIW_Zaisan_Turahra={
+		name="Zaisan Turahra"
+
+		
+		country_leader={
+			ideology=stalinism
+			traits = { reluctant_stalinist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SIW_Zaisan_Yemen={
+		name="Zaisan Yemen"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SIW_Zaisan_Yemen
+			traits = {	marxist_fundamentalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	SIW_Zaisalid_Sharitaadi={
+		name="Zaisalid Sharitaadi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SIW_Zaisalid_Sharitaadi
+			traits = {	anti_bolshevik_leftist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	SIW_Karid_Basrasra={
+		name="Karid Basrasra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SIW_Karid_Basrasra
+			traits = {	revolutionary_poet 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	SIW_Nabil_Zamt={
+		name="Nabil Zamt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SIW_Nabil_Zamt
+			traits = {	marxist_fundamentalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	SIW_Ibran_Masjidda={
+		name="Ibran Masjidda"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SIW_Ibran_Masjidda
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	SIW_Bilah_Shabala={
+		name="Bilah Shabala"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SIW_Bilah_Shabala
+			traits = {	socialist_justice 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	SIW_Khammed_Rihlakech={
+		name="Khammed Rihlakech"
+
+		advisor={
+			slot = army_chief
+			idea_token = SIW_Khammed_Rihlakech
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	SIW_Yahmal_Kalb={
+		name="Yahmal Kalb"
+
+		advisor={
+			slot = army_chief
+			idea_token = SIW_Yahmal_Kalb
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	SIW_Bilal_Khaml={
+		name="Bilal Khaml"
+
+		advisor={
+			slot = army_chief
+			idea_token = SIW_Bilal_Khaml
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	SIW_Yusuf_Mawda={
+		name="Yusuf Mawda"
+
+		advisor={
+			slot = army_chief
+			idea_token = SIW_Yusuf_Mawda
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	SIW_Mohami_Kawat={
+		name="Mohami Kawat"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SIW_Mohami_Kawat
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	SIW_Jamali_Maghrahr={
+		name="Jamali Maghrahr"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SIW_Jamali_Maghrahr
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	SIW_Faisal_Basrasra={
+		name="Faisal Basrasra"
+
+		advisor={
+			slot = air_chief
+			idea_token = SIW_Faisal_Basrasra
+			traits = {	air_chief_all_weather_2 	}
+		}
+
+
+	}
+	SIW_Majid_Madina={
+		name="Majid Madina"
+
+		advisor={
+			slot = air_chief
+			idea_token = SIW_Majid_Madina
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	SIW_Khamad_Basrasra={
+		name="Khamad Basrasra"
+
+		advisor={
+			slot = high_command
+			idea_token = SIW_Khamad_Basrasra
+			traits = {	air_pilot_training_1 	}
+		}
+
+
+	}
+	SIW_Ibrahya_Darasjidda={
+		name="Ibrahya Darasjidda"
+
+		advisor={
+			slot = high_command
+			idea_token = SIW_Ibrahya_Darasjidda
+			traits = {	air_strategic_bombing_2 	}
+		}
+
+
+	}
+	SIW_Ibrahim_Fajd={
+		name="Ibrahim Fajd"
+
+		advisor={
+			slot = high_command
+			idea_token = SIW_Ibrahim_Fajd
+			traits = {	navy_submarine_1 	}
+		}
+
+
+	}
+	SIW_Hassal_Asat={
+		name="Hassal Asat"
+
+		advisor={
+			slot = high_command
+			idea_token = SIW_Hassal_Asat
+			traits = {	air_close_air_support_1 	}
+		}
+
+
+	}
+	SIW_Yusuf_Hajaz={
+		name="Yusuf Hajaz"
+
+		advisor={
+			slot = high_command
+			idea_token = SIW_Yusuf_Hajaz
+			traits = {	navy_capital_ship_1 	}
+		}
+
+
+	}
+	SIW_Imran_Fajd={
+		name="Imran Fajd"
+
+		advisor={
+			slot = high_command
+			idea_token = SIW_Imran_Fajd
+			traits = {	navy_anti_submarine_2 	}
+		}
+
+
+	}
+	SIW_Jami_Sharitaadi={
+		name="Jami Sharitaadi"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { leftist_independent  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SIW_Rammed_Makech={
+		name="Rammed Makech"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SIW_Rammed_Makech
+			traits = {	the_banker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	SIW_Kariq_Maml={
+		name="Kariq Maml"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SIW_Kariq_Maml
+			traits = {	veteran_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	SIW_Mohami_Majarq={
+		name="Mohami Majarq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SIW_Mohami_Majarq
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	SIW_Jamali_Mawkana={
+		name="Jamali Mawkana"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SIW_Jamali_Mawkana
+			traits = {	conservative_grandee 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	SIW_Sammed_Kalb={
+		name="Sammed Kalb"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SIW_Sammed_Kalb
+			traits = {	leftist_legionary 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	SIW_Jamza_Majartourhan={
+		name="Jamza Majartourhan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SIW_Jamza_Majartourhan
+			traits = {	leftist_legionary 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	SIW_Hami_Fartourub={
+		name="Hami Fartourub"
+
+		advisor={
+			slot = army_chief
+			idea_token = SIW_Hami_Fartourub
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	SIW_Zaisan_Madi={
+		name="Zaisan Madi"
+
+		advisor={
+			slot = army_chief
+			idea_token = SIW_Zaisan_Madi
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	SIW_Fariq_Nizam={
+		name="Fariq Nizam"
+
+		advisor={
+			slot = army_chief
+			idea_token = SIW_Fariq_Nizam
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	SIW_Bilal_Shayatina={
+		name="Bilal Shayatina"
+
+		advisor={
+			slot = army_chief
+			idea_token = SIW_Bilal_Shayatina
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	SIW_Anwar_Hikmahibl={
+		name="Anwar Hikmahibl"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SIW_Anwar_Hikmahibl
+			traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+
+	}
+	SIW_Jamir_Suwatin={
+		name="Jamir Suwatin"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SIW_Jamir_Suwatin
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	SIW_Jammed_Sahraba={
+		name="Jammed Sahraba"
+
+		advisor={
+			slot = air_chief
+			idea_token = SIW_Jammed_Sahraba
+			traits = {	air_chief_all_weather_2 	}
+		}
+
+
+	}
+	SIW_Hassali_Harq={
+		name="Hassali Harq"
+
+		advisor={
+			slot = air_chief
+			idea_token = SIW_Hassali_Harq
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	SIW_Nabilali_Shaqafa={
+		name="Nabilali Shaqafa"
+
+		advisor={
+			slot = high_command
+			idea_token = SIW_Nabilali_Shaqafa
+			traits = {	air_naval_strike_1 	}
+		}
+
+
+	}
+	SIW_Yahmal_Shaqafa={
+		name="Yahmal Shaqafa"
+
+		advisor={
+			slot = high_command
+			idea_token = SIW_Yahmal_Shaqafa
+			traits = {	navy_naval_air_defense_1 	}
+		}
+
+
+	}
+	SIW_Jammed_Ghur={
+		name="Jammed Ghur"
+
+		advisor={
+			slot = high_command
+			idea_token = SIW_Jammed_Ghur
+			traits = {	navy_screen_1 	}
+		}
+
+
+	}
+	SIW_Yusuf_Ghur={
+		name="Yusuf Ghur"
+
+		advisor={
+			slot = high_command
+			idea_token = SIW_Yusuf_Ghur
+			traits = {	navy_carrier_2 	}
+		}
+
+
+	}
+	SIW_Fariq_Qadi={
+		name="Fariq Qadi"
+
+		advisor={
+			slot = high_command
+			idea_token = SIW_Fariq_Qadi
+			traits = {	army_CombinedArms_2 	}
+		}
+
+
+	}
+	SIW_Ibrahim_Irabil={
+		name="Ibrahim Irabil"
+
+		advisor={
+			slot = high_command
+			idea_token = SIW_Ibrahim_Irabil
+			traits = {	air_pilot_training_1 	}
+		}
+
+
+	}
+	SIW_Sami_Masjidda={
+		name="Sami Masjidda"
+
+		advisor={
+			slot = theorist
+			idea_token = SIW_Sami_Masjidda
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	SIW_Sammed_Darasjidda={
+		name="Sammed Darasjidda"
+
+		advisor={
+			slot = theorist
+			idea_token = SIW_Sammed_Darasjidda
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	SIW_Fariq_Muna={
+		name="Fariq Muna"
+
+		advisor={
+			slot = theorist
+			idea_token = SIW_Fariq_Muna
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

@@ -1,0 +1,21 @@
+air_wings = {
+		1071 = { 								
+		CAS_equipment_0 = { owner = "CAS" amount = 50 version_name = "Sporisao Mk 2" }
+
+	}
+	1520 = { 								
+		CAS_equipment_0 = { owner = "CAS" amount = 50 version_name = "Sporisao Mk 2" }
+fighter_equipment_0 = { owner = "CAS" amount = 50 version_name = "Kisacina Mk 1" }
+
+	}
+	1059 = { 								
+		fighter_equipment_0 = { owner = "CAS" amount = 50 version_name = "Kisacina Mk 1" }
+
+	}
+	1040 = { 								
+		tac_bomber_equipment_0 = { owner = "CAS" amount = 43 version_name = "Kulasinaga Mk 0" }
+
+	}
+
+
+}

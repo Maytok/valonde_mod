@@ -1,0 +1,37 @@
+
+state={
+	id=707
+	name="STATE_707"
+	manpower = 3004422
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = KRM
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			dockyard = 1
+			
+		}
+		add_core_of = KRM
+	}
+
+	provinces={
+		8214 8215 8216 8217 8218 8219 8220 8221 8222 8223 8224 8225 8226 8227 8228 8229 
+	}
+	local_supplies=0.0 
+}

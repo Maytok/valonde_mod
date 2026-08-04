@@ -1,0 +1,1083 @@
+characters = {
+	LAH_Talcinan_Gululuk={
+		name="Talcinan Gululuk"
+
+		
+		country_leader={
+			ideology=oligarchism
+			traits = { headstrong  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	LAH_Ahmet_Sehir={
+		name="Ahmet Sehir"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LAH_Ahmet_Sehir
+			traits = {	noble_beurocrat 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	LAH_Eferkan_Ordu={
+		name="Eferkan Ordu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LAH_Eferkan_Ordu
+			traits = {	right_industrialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	LAH_Salha_Ulken={
+		name="Salha Ulken"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LAH_Salha_Ulken
+			traits = {	veteran_anti_bolshevik 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	LAH_Salha_Dent={
+		name="Salha Dent"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LAH_Salha_Dent
+			traits = {	veteran_anti_bolshevik 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	LAH_Mehmet_Kaynakil={
+		name="Mehmet Kaynakil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LAH_Mehmet_Kaynakil
+			traits = {	national_determinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	LAH_Baran_Yaye={
+		name="Baran Yaye"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LAH_Baran_Yaye
+			traits = {	headstrong 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	LAH_Selil_Busun={
+		name="Selil Busun"
+
+		advisor={
+			slot = army_chief
+			idea_token = LAH_Selil_Busun
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	LAH_Musulender_Umur={
+		name="Musulender Umur"
+
+		advisor={
+			slot = army_chief
+			idea_token = LAH_Musulender_Umur
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	LAH_Hakan_Agar={
+		name="Hakan Agar"
+
+		advisor={
+			slot = army_chief
+			idea_token = LAH_Hakan_Agar
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	LAH_Suat_Doru={
+		name="Suat Doru"
+
+		advisor={
+			slot = army_chief
+			idea_token = LAH_Suat_Doru
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	LAH_Ader_Bahir={
+		name="Ader Bahir"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LAH_Ader_Bahir
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	LAH_Enerem_Uzak={
+		name="Enerem Uzak"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LAH_Enerem_Uzak
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	LAH_Sinan_Ordu={
+		name="Sinan Ordu"
+
+		advisor={
+			slot = air_chief
+			idea_token = LAH_Sinan_Ordu
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	LAH_Onur_Nehirlikarih={
+		name="Onur Nehirlikarih"
+
+		advisor={
+			slot = air_chief
+			idea_token = LAH_Onur_Nehirlikarih
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	LAH_Talhatuha_Kaderin={
+		name="Talhatuha Kaderin"
+
+		advisor={
+			slot = high_command
+			idea_token = LAH_Talhatuha_Kaderin
+			traits = {	air_air_combat_training_1 	}
+		}
+
+
+	}
+	LAH_Enerem_Busun={
+		name="Enerem Busun"
+
+		advisor={
+			slot = high_command
+			idea_token = LAH_Enerem_Busun
+			traits = {	navy_capital_ship_1 	}
+		}
+
+
+	}
+	LAH_Kerhan_Kalecmis={
+		name="Kerhan Kalecmis"
+
+		advisor={
+			slot = high_command
+			idea_token = LAH_Kerhan_Kalecmis
+			traits = {	navy_amphibious_assault_1 	}
+		}
+
+
+	}
+	LAH_Harun_Yayat={
+		name="Harun Yayat"
+
+		advisor={
+			slot = high_command
+			idea_token = LAH_Harun_Yayat
+			traits = {	air_air_combat_training_1 	}
+		}
+
+
+	}
+	LAH_Yusulent_Yesillikari={
+		name="Yusulent Yesillikari"
+
+		advisor={
+			slot = high_command
+			idea_token = LAH_Yusulent_Yesillikari
+			traits = {	air_airborne_1 	}
+		}
+
+
+	}
+	LAH_Harunc_Ilce={
+		name="Harunc Ilce"
+
+		advisor={
+			slot = high_command
+			idea_token = LAH_Harunc_Ilce
+			traits = {	air_close_air_support_1 	}
+		}
+
+
+	}
+	LAH_Ramazan_Agar={
+		name="Ramazan Agar"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { autokrator  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	LAH_Harunc_Gemis={
+		name="Harunc Gemis"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LAH_Harunc_Gemis
+			traits = {	archon_basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	LAH_Yustafa_Kirli={
+		name="Yustafa Kirli"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LAH_Yustafa_Kirli
+			traits = {	autokrator 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	LAH_Cemazan_Sonbahar={
+		name="Cemazan Sonbahar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LAH_Cemazan_Sonbahar
+			traits = {	autokrator 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	LAH_Talhatuhan_Ulken={
+		name="Talhatuhan Ulken"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LAH_Talhatuhan_Ulken
+			traits = {	generallissimo 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	LAH_Serhan_Yillik={
+		name="Serhan Yillik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LAH_Serhan_Yillik
+			traits = {	inexperienced_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	LAH_Yalhat_Yesillikari={
+		name="Yalhat Yesillikari"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LAH_Yalhat_Yesillikari
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	LAH_Resuf_Beref={
+		name="Resuf Beref"
+
+		advisor={
+			slot = army_chief
+			idea_token = LAH_Resuf_Beref
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	LAH_Orhat_Uzak={
+		name="Orhat Uzak"
+
+		advisor={
+			slot = army_chief
+			idea_token = LAH_Orhat_Uzak
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	LAH_Yusulent_Ormanin={
+		name="Yusulent Ormanin"
+
+		advisor={
+			slot = army_chief
+			idea_token = LAH_Yusulent_Ormanin
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	LAH_Tunc_Sehil={
+		name="Tunc Sehil"
+
+		advisor={
+			slot = army_chief
+			idea_token = LAH_Tunc_Sehil
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	LAH_Ramazan_Kuluk={
+		name="Ramazan Kuluk"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LAH_Ramazan_Kuluk
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	LAH_Sinan_Yolge={
+		name="Sinan Yolge"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LAH_Sinan_Yolge
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	LAH_Musulender_Hayat={
+		name="Musulender Hayat"
+
+		advisor={
+			slot = air_chief
+			idea_token = LAH_Musulender_Hayat
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	LAH_Cemazan_Kale={
+		name="Cemazan Kale"
+
+		advisor={
+			slot = air_chief
+			idea_token = LAH_Cemazan_Kale
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	LAH_Yalhat_Kalecmis={
+		name="Yalhat Kalecmis"
+
+		advisor={
+			slot = high_command
+			idea_token = LAH_Yalhat_Kalecmis
+			traits = {	army_entrenchment_2 	}
+		}
+
+
+	}
+	LAH_Enerem_Buluk={
+		name="Enerem Buluk"
+
+		advisor={
+			slot = high_command
+			idea_token = LAH_Enerem_Buluk
+			traits = {	army_logistics_2 	}
+		}
+
+
+	}
+	LAH_Efer_Anahari={
+		name="Efer Anahari"
+
+		advisor={
+			slot = high_command
+			idea_token = LAH_Efer_Anahari
+			traits = {	army_artillery_1 	}
+		}
+
+
+	}
+	LAH_Yusuf_Kayla={
+		name="Yusuf Kayla"
+
+		advisor={
+			slot = high_command
+			idea_token = LAH_Yusuf_Kayla
+			traits = {	army_cavalry_2 	}
+		}
+
+
+	}
+	LAH_Serhan_Goldir={
+		name="Serhan Goldir"
+
+		advisor={
+			slot = high_command
+			idea_token = LAH_Serhan_Goldir
+			traits = {	air_strategic_bombing_1 	}
+		}
+
+
+	}
+	LAH_Hakan_Sonbahar={
+		name="Hakan Sonbahar"
+
+		advisor={
+			slot = high_command
+			idea_token = LAH_Hakan_Sonbahar
+			traits = {	army_cavalry_2 	}
+		}
+
+
+	}
+	LAH_Taylan_Agar={
+		name="Taylan Agar"
+
+		
+		country_leader={
+			ideology=leninism
+			traits = { polemarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	LAH_Barul_Temiz={
+		name="Barul Temiz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LAH_Barul_Temiz
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	LAH_Bekir_Saat={
+		name="Bekir Saat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LAH_Bekir_Saat
+			traits = {	indomitable_perseverance 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	LAH_Ilkerem_Asik={
+		name="Ilkerem Asik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LAH_Ilkerem_Asik
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	LAH_Resuf_Yaye={
+		name="Resuf Yaye"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LAH_Resuf_Yaye
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	LAH_Harun_Yolge={
+		name="Harun Yolge"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LAH_Harun_Yolge
+			traits = {	patriotic_socialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	LAH_Enesuf_Duvar={
+		name="Enesuf Duvar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LAH_Enesuf_Duvar
+			traits = {	mastermind_code_cracker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	LAH_Salha_Kayla={
+		name="Salha Kayla"
+
+		advisor={
+			slot = army_chief
+			idea_token = LAH_Salha_Kayla
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	LAH_Enesuf_Yaye={
+		name="Enesuf Yaye"
+
+		advisor={
+			slot = army_chief
+			idea_token = LAH_Enesuf_Yaye
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	LAH_Salha_Ormanin={
+		name="Salha Ormanin"
+
+		advisor={
+			slot = army_chief
+			idea_token = LAH_Salha_Ormanin
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	LAH_Utku_Agar={
+		name="Utku Agar"
+
+		advisor={
+			slot = army_chief
+			idea_token = LAH_Utku_Agar
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	LAH_Talhatuhan_Asik={
+		name="Talhatuhan Asik"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LAH_Talhatuhan_Asik
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	LAH_Tunc_Umut={
+		name="Tunc Umut"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LAH_Tunc_Umut
+			traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+
+	}
+	LAH_Selih_Dogru={
+		name="Selih Dogru"
+
+		advisor={
+			slot = air_chief
+			idea_token = LAH_Selih_Dogru
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	LAH_Seremaz_Kapi={
+		name="Seremaz Kapi"
+
+		advisor={
+			slot = air_chief
+			idea_token = LAH_Seremaz_Kapi
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	LAH_Savas_Gemis={
+		name="Savas Gemis"
+
+		advisor={
+			slot = high_command
+			idea_token = LAH_Savas_Gemis
+			traits = {	air_air_superiority_2 	}
+		}
+
+
+	}
+	LAH_Musulender_Umut={
+		name="Musulender Umut"
+
+		advisor={
+			slot = high_command
+			idea_token = LAH_Musulender_Umut
+			traits = {	navy_capital_ship_1 	}
+		}
+
+
+	}
+	LAH_Bekir_Isimanak={
+		name="Bekir Isimanak"
+
+		advisor={
+			slot = high_command
+			idea_token = LAH_Bekir_Isimanak
+			traits = {	army_radio_intelligence_2 	}
+		}
+
+
+	}
+	LAH_Eferkan_Umurt={
+		name="Eferkan Umurt"
+
+		advisor={
+			slot = high_command
+			idea_token = LAH_Eferkan_Umurt
+			traits = {	army_commando_1 	}
+		}
+
+
+	}
+	LAH_Savas_Isil={
+		name="Savas Isil"
+
+		advisor={
+			slot = high_command
+			idea_token = LAH_Savas_Isil
+			traits = {	navy_capital_ship_1 	}
+		}
+
+
+	}
+	LAH_Harunc_Kaderin={
+		name="Harunc Kaderin"
+
+		advisor={
+			slot = high_command
+			idea_token = LAH_Harunc_Kaderin
+			traits = {	navy_carrier_2 	}
+		}
+
+
+	}
+	LAH_Enerem_Kopruk={
+		name="Enerem Kopruk"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { veteran_minister  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	LAH_Emir_Aksam={
+		name="Emir Aksam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LAH_Emir_Aksam
+			traits = {	first_lady 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	LAH_Selim_Kaderin={
+		name="Selim Kaderin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LAH_Selim_Kaderin
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	LAH_Salha_Buluk={
+		name="Salha Buluk"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LAH_Salha_Buluk
+			traits = {	conservative_grandee 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	LAH_Arif_Koyla={
+		name="Arif Koyla"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LAH_Arif_Koyla
+			traits = {	veteran_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	LAH_Harunc_Baharimsek={
+		name="Harunc Baharimsek"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LAH_Harunc_Baharimsek
+			traits = {	rearmer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	LAH_Yalhat_Kuluk={
+		name="Yalhat Kuluk"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LAH_Yalhat_Kuluk
+			traits = {	the_banker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	LAH_Arif_Sevda={
+		name="Arif Sevda"
+
+		advisor={
+			slot = army_chief
+			idea_token = LAH_Arif_Sevda
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	LAH_Ahmet_Busun={
+		name="Ahmet Busun"
+
+		advisor={
+			slot = army_chief
+			idea_token = LAH_Ahmet_Busun
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	LAH_Ramazan_Goldir={
+		name="Ramazan Goldir"
+
+		advisor={
+			slot = army_chief
+			idea_token = LAH_Ramazan_Goldir
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	LAH_Musulender_Baharinda={
+		name="Musulender Baharinda"
+
+		advisor={
+			slot = army_chief
+			idea_token = LAH_Musulender_Baharinda
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	LAH_Zafe_Kapi={
+		name="Zafe Kapi"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LAH_Zafe_Kapi
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	LAH_Emir_Temisla={
+		name="Emir Temisla"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LAH_Emir_Temisla
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	LAH_Baran_Busun={
+		name="Baran Busun"
+
+		advisor={
+			slot = air_chief
+			idea_token = LAH_Baran_Busun
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	LAH_Zafe_Sevda={
+		name="Zafe Sevda"
+
+		advisor={
+			slot = air_chief
+			idea_token = LAH_Zafe_Sevda
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	LAH_Yusuf_Sonbahar={
+		name="Yusuf Sonbahar"
+
+		advisor={
+			slot = high_command
+			idea_token = LAH_Yusuf_Sonbahar
+			traits = {	navy_submarine_1 	}
+		}
+
+
+	}
+	LAH_Iskent_Kisanide={
+		name="Iskent Kisanide"
+
+		advisor={
+			slot = high_command
+			idea_token = LAH_Iskent_Kisanide
+			traits = {	navy_screen_1 	}
+		}
+
+
+	}
+	LAH_Taylan_Kuluk={
+		name="Taylan Kuluk"
+
+		advisor={
+			slot = high_command
+			idea_token = LAH_Taylan_Kuluk
+			traits = {	army_commando_1 	}
+		}
+
+
+	}
+	LAH_Resuf_Yayat={
+		name="Resuf Yayat"
+
+		advisor={
+			slot = high_command
+			idea_token = LAH_Resuf_Yayat
+			traits = {	air_air_combat_training_2 	}
+		}
+
+
+	}
+	LAH_Yusulent_Sehir={
+		name="Yusulent Sehir"
+
+		advisor={
+			slot = high_command
+			idea_token = LAH_Yusulent_Sehir
+			traits = {	navy_submarine_1 	}
+		}
+
+
+	}
+	LAH_Cemazan_Anahari={
+		name="Cemazan Anahari"
+
+		advisor={
+			slot = high_command
+			idea_token = LAH_Cemazan_Anahari
+			traits = {	army_logistics_2 	}
+		}
+
+
+	}
+	LAH_Orhan_Yolge={
+		name="Orhan Yolge"
+
+		advisor={
+			slot = theorist
+			idea_token = LAH_Orhan_Yolge
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	LAH_Suat_Isil={
+		name="Suat Isil"
+
+		advisor={
+			slot = theorist
+			idea_token = LAH_Suat_Isil
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	LAH_Serhan_Kapi={
+		name="Serhan Kapi"
+
+		advisor={
+			slot = theorist
+			idea_token = LAH_Serhan_Kapi
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

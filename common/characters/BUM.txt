@@ -1,0 +1,1083 @@
+characters = {
+	BUM_Amaraka_Pigaonda={
+		name="Amaraka Pigaonda"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { royal_dictator  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	BUM_Mosi_Lando={
+		name="Mosi Lando"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUM_Mosi_Lando
+			traits = {	right_industrialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	BUM_Amaraka_Mwithi={
+		name="Amaraka Mwithi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUM_Amaraka_Mwithi
+			traits = {	right_industrialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	BUM_Simbana_Kumba={
+		name="Simbana Kumba"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUM_Simbana_Kumba
+			traits = {	headstrong 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	BUM_Tanga_Uhawi={
+		name="Tanga Uhawi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUM_Tanga_Uhawi
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	BUM_Kwano_Pango={
+		name="Kwano Pango"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUM_Kwano_Pango
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	BUM_Omari_Muuji={
+		name="Omari Muuji"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUM_Omari_Muuji
+			traits = {	humble 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	BUM_Jumau_Usiwa={
+		name="Jumau Usiwa"
+
+		advisor={
+			slot = army_chief
+			idea_token = BUM_Jumau_Usiwa
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	BUM_Jumari_Kiono={
+		name="Jumari Kiono"
+
+		advisor={
+			slot = army_chief
+			idea_token = BUM_Jumari_Kiono
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	BUM_Kwana_Mapiga={
+		name="Kwana Mapiga"
+
+		advisor={
+			slot = army_chief
+			idea_token = BUM_Kwana_Mapiga
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	BUM_Amari_Mwithi={
+		name="Amari Mwithi"
+
+		advisor={
+			slot = army_chief
+			idea_token = BUM_Amari_Mwithi
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	BUM_Mosi_Mapiga={
+		name="Mosi Mapiga"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BUM_Mosi_Mapiga
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	BUM_Shakaraka_Wando={
+		name="Shakaraka Wando"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BUM_Shakaraka_Wando
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	BUM_Sefu_Majango={
+		name="Sefu Majango"
+
+		advisor={
+			slot = air_chief
+			idea_token = BUM_Sefu_Majango
+			traits = {	air_chief_night_operations_2 	}
+		}
+
+
+	}
+	BUM_Lubanga_Dari={
+		name="Lubanga Dari"
+
+		advisor={
+			slot = air_chief
+			idea_token = BUM_Lubanga_Dari
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	BUM_Shakari_Sikuti={
+		name="Shakari Sikuti"
+
+		advisor={
+			slot = high_command
+			idea_token = BUM_Shakari_Sikuti
+			traits = {	navy_fleet_logistics_2 	}
+		}
+
+
+	}
+	BUM_Mbwano_Sikuti={
+		name="Mbwano Sikuti"
+
+		advisor={
+			slot = high_command
+			idea_token = BUM_Mbwano_Sikuti
+			traits = {	army_regrouping_1 	}
+		}
+
+
+	}
+	BUM_Jumaraka_Hisa={
+		name="Jumaraka Hisa"
+
+		advisor={
+			slot = high_command
+			idea_token = BUM_Jumaraka_Hisa
+			traits = {	army_cavalry_2 	}
+		}
+
+
+	}
+	BUM_Simbana_Wando={
+		name="Simbana Wando"
+
+		advisor={
+			slot = high_command
+			idea_token = BUM_Simbana_Wando
+			traits = {	air_naval_strike_1 	}
+		}
+
+
+	}
+	BUM_Mosi_Simbi={
+		name="Mosi Simbi"
+
+		advisor={
+			slot = high_command
+			idea_token = BUM_Mosi_Simbi
+			traits = {	air_pilot_training_2 	}
+		}
+
+
+	}
+	BUM_Tano_Shuli={
+		name="Tano Shuli"
+
+		advisor={
+			slot = high_command
+			idea_token = BUM_Tano_Shuli
+			traits = {	navy_capital_ship_1 	}
+		}
+
+
+	}
+	BUM_Lubana_Imaifu={
+		name="Lubana Imaifu"
+
+		
+		country_leader={
+			ideology=nazism
+			traits = { basileus  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	BUM_Mbwanga_Shimutaki={
+		name="Mbwanga Shimutaki"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUM_Mbwanga_Shimutaki
+			traits = {	warmonger 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	BUM_Mbwamari_Hofumbuka={
+		name="Mbwamari Hofumbuka"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUM_Mbwamari_Hofumbuka
+			traits = {	inexperienced_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	BUM_Kwana_Mshara={
+		name="Kwana Mshara"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUM_Kwana_Mshara
+			traits = {	militant_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	BUM_Bari_Hisa={
+		name="Bari Hisa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUM_Bari_Hisa
+			traits = {	basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	BUM_Amau_Kima={
+		name="Amau Kima"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUM_Amau_Kima
+			traits = {	inexperienced_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	BUM_Simba_Dari={
+		name="Simba Dari"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUM_Simba_Dari
+			traits = {	autocratic_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	BUM_Simba_Taana={
+		name="Simba Taana"
+
+		advisor={
+			slot = army_chief
+			idea_token = BUM_Simba_Taana
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	BUM_Kame_Rambiria={
+		name="Kame Rambiria"
+
+		advisor={
+			slot = army_chief
+			idea_token = BUM_Kame_Rambiria
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	BUM_Tano_Majanaji={
+		name="Tano Majanaji"
+
+		advisor={
+			slot = army_chief
+			idea_token = BUM_Tano_Majanaji
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	BUM_Kwame_Tekete={
+		name="Kwame Tekete"
+
+		advisor={
+			slot = army_chief
+			idea_token = BUM_Kwame_Tekete
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	BUM_Kwame_Nyumbe={
+		name="Kwame Nyumbe"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BUM_Kwame_Nyumbe
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	BUM_Bakari_Soko={
+		name="Bakari Soko"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BUM_Bakari_Soko
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	BUM_Omari_Hisu={
+		name="Omari Hisu"
+
+		advisor={
+			slot = air_chief
+			idea_token = BUM_Omari_Hisu
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	BUM_Jumau_Ukuti={
+		name="Jumau Ukuti"
+
+		advisor={
+			slot = air_chief
+			idea_token = BUM_Jumau_Ukuti
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	BUM_Mbwame_Mapigano={
+		name="Mbwame Mapigano"
+
+		advisor={
+			slot = high_command
+			idea_token = BUM_Mbwame_Mapigano
+			traits = {	navy_capital_ship_1 	}
+		}
+
+
+	}
+	BUM_Simbana_Mvule={
+		name="Simbana Mvule"
+
+		advisor={
+			slot = high_command
+			idea_token = BUM_Simbana_Mvule
+			traits = {	air_air_superiority_1 	}
+		}
+
+
+	}
+	BUM_Baraka_Shimutaki={
+		name="Baraka Shimutaki"
+
+		advisor={
+			slot = high_command
+			idea_token = BUM_Baraka_Shimutaki
+			traits = {	navy_naval_air_defense_1 	}
+		}
+
+
+	}
+	BUM_Mbwamau_Uhawi={
+		name="Mbwamau Uhawi"
+
+		advisor={
+			slot = high_command
+			idea_token = BUM_Mbwamau_Uhawi
+			traits = {	air_naval_strike_1 	}
+		}
+
+
+	}
+	BUM_Taji_Panguo={
+		name="Taji Panguo"
+
+		advisor={
+			slot = high_command
+			idea_token = BUM_Taji_Panguo
+			traits = {	navy_amphibious_assault_1 	}
+		}
+
+
+	}
+	BUM_Amaraka_Ndoto={
+		name="Amaraka Ndoto"
+
+		advisor={
+			slot = high_command
+			idea_token = BUM_Amaraka_Ndoto
+			traits = {	air_close_air_support_1 	}
+		}
+
+
+	}
+	BUM_Chidi_Mlimaisia={
+		name="Chidi Mlimaisia"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { anti_bolshevik_leftist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	BUM_Baka_Pano={
+		name="Baka Pano"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUM_Baka_Pano
+			traits = {	leftist_intellectual 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	BUM_Baka_Pepo={
+		name="Baka Pepo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUM_Baka_Pepo
+			traits = {	anti_bolshevik_leftist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	BUM_Tano_Mlimaisia={
+		name="Tano Mlimaisia"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUM_Tano_Mlimaisia
+			traits = {	anti_bolshevik_leftist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	BUM_Shakari_Heka={
+		name="Shakari Heka"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUM_Shakari_Heka
+			traits = {	indomitable_perseverance 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	BUM_Tano_Ukuti={
+		name="Tano Ukuti"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUM_Tano_Ukuti
+			traits = {	political_dancer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	BUM_Amau_Hati={
+		name="Amau Hati"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUM_Amau_Hati
+			traits = {	anti_bolshevik_leftist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	BUM_Temba_Majango={
+		name="Temba Majango"
+
+		advisor={
+			slot = army_chief
+			idea_token = BUM_Temba_Majango
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	BUM_Kamaraka_Ukwezi={
+		name="Kamaraka Ukwezi"
+
+		advisor={
+			slot = army_chief
+			idea_token = BUM_Kamaraka_Ukwezi
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	BUM_Kama_Darali={
+		name="Kama Darali"
+
+		advisor={
+			slot = army_chief
+			idea_token = BUM_Kama_Darali
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	BUM_Kwame_Pango={
+		name="Kwame Pango"
+
+		advisor={
+			slot = army_chief
+			idea_token = BUM_Kwame_Pango
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	BUM_Shakaraka_Shukwelu={
+		name="Shakaraka Shukwelu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BUM_Shakaraka_Shukwelu
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	BUM_Bari_Shini={
+		name="Bari Shini"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BUM_Bari_Shini
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	BUM_Baka_Pambe={
+		name="Baka Pambe"
+
+		advisor={
+			slot = air_chief
+			idea_token = BUM_Baka_Pambe
+			traits = {	air_chief_night_operations_2 	}
+		}
+
+
+	}
+	BUM_Baraka_Kiji={
+		name="Baraka Kiji"
+
+		advisor={
+			slot = air_chief
+			idea_token = BUM_Baraka_Kiji
+			traits = {	air_chief_all_weather_1 	}
+		}
+
+
+	}
+	BUM_Sefu_Nyoto={
+		name="Sefu Nyoto"
+
+		advisor={
+			slot = high_command
+			idea_token = BUM_Sefu_Nyoto
+			traits = {	navy_screen_1 	}
+		}
+
+
+	}
+	BUM_Tano_Shukwelu={
+		name="Tano Shukwelu"
+
+		advisor={
+			slot = high_command
+			idea_token = BUM_Tano_Shukwelu
+			traits = {	air_pilot_training_2 	}
+		}
+
+
+	}
+	BUM_Tano_Pambe={
+		name="Tano Pambe"
+
+		advisor={
+			slot = high_command
+			idea_token = BUM_Tano_Pambe
+			traits = {	army_entrenchment_1 	}
+		}
+
+
+	}
+	BUM_Kama_Heka={
+		name="Kama Heka"
+
+		advisor={
+			slot = high_command
+			idea_token = BUM_Kama_Heka
+			traits = {	navy_screen_1 	}
+		}
+
+
+	}
+	BUM_Jumau_Nyanarajesha={
+		name="Jumau Nyanarajesha"
+
+		advisor={
+			slot = high_command
+			idea_token = BUM_Jumau_Nyanarajesha
+			traits = {	navy_naval_air_defense_1 	}
+		}
+
+
+	}
+	BUM_Jumaraka_Shuli={
+		name="Jumaraka Shuli"
+
+		advisor={
+			slot = high_command
+			idea_token = BUM_Jumaraka_Shuli
+			traits = {	army_artillery_1 	}
+		}
+
+
+	}
+	BUM_Shakari_Njozi={
+		name="Shakari Njozi"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { famous_aviator  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	BUM_Tanga_Pano={
+		name="Tanga Pano"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUM_Tanga_Pano
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	BUM_Lubanga_Mtifu={
+		name="Lubanga Mtifu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUM_Lubanga_Mtifu
+			traits = {	liberal_democratic_paragon 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	BUM_Tanga_Shimutaki={
+		name="Tanga Shimutaki"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUM_Tanga_Shimutaki
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	BUM_Kamaraka_Panjanguzi={
+		name="Kamaraka Panjanguzi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUM_Kamaraka_Panjanguzi
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	BUM_Chidi_Pango={
+		name="Chidi Pango"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUM_Chidi_Pango
+			traits = {	leftist_legionary 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	BUM_Kwano_Mcheli={
+		name="Kwano Mcheli"
+
+		advisor={
+			slot = political_advisor
+			idea_token = BUM_Kwano_Mcheli
+			traits = {	leftist_legionary 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	BUM_Mbwanga_Shukwelu={
+		name="Mbwanga Shukwelu"
+
+		advisor={
+			slot = army_chief
+			idea_token = BUM_Mbwanga_Shukwelu
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	BUM_Shakaraka_Tekete={
+		name="Shakaraka Tekete"
+
+		advisor={
+			slot = army_chief
+			idea_token = BUM_Shakaraka_Tekete
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	BUM_Kama_Shimutaki={
+		name="Kama Shimutaki"
+
+		advisor={
+			slot = army_chief
+			idea_token = BUM_Kama_Shimutaki
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	BUM_Sefu_Hofu={
+		name="Sefu Hofu"
+
+		advisor={
+			slot = army_chief
+			idea_token = BUM_Sefu_Hofu
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	BUM_Shaka_Mwithi={
+		name="Shaka Mwithi"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BUM_Shaka_Mwithi
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	BUM_Kato_Mcheli={
+		name="Kato Mcheli"
+
+		advisor={
+			slot = navy_chief
+			idea_token = BUM_Kato_Mcheli
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	BUM_Mbwano_Hati={
+		name="Mbwano Hati"
+
+		advisor={
+			slot = air_chief
+			idea_token = BUM_Mbwano_Hati
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	BUM_Baraka_Majango={
+		name="Baraka Majango"
+
+		advisor={
+			slot = air_chief
+			idea_token = BUM_Baraka_Majango
+			traits = {	air_chief_all_weather_1 	}
+		}
+
+
+	}
+	BUM_Kato_Mili={
+		name="Kato Mili"
+
+		advisor={
+			slot = high_command
+			idea_token = BUM_Kato_Mili
+			traits = {	army_CombinedArms_2 	}
+		}
+
+
+	}
+	BUM_Shaka_Njozi={
+		name="Shaka Njozi"
+
+		advisor={
+			slot = high_command
+			idea_token = BUM_Shaka_Njozi
+			traits = {	air_naval_strike_1 	}
+		}
+
+
+	}
+	BUM_Chidi_Kumbukufu={
+		name="Chidi Kumbukufu"
+
+		advisor={
+			slot = high_command
+			idea_token = BUM_Chidi_Kumbukufu
+			traits = {	navy_fleet_logistics_2 	}
+		}
+
+
+	}
+	BUM_Kwano_Mipanajesha={
+		name="Kwano Mipanajesha"
+
+		advisor={
+			slot = high_command
+			idea_token = BUM_Kwano_Mipanajesha
+			traits = {	air_pilot_training_1 	}
+		}
+
+
+	}
+	BUM_Kamaraka_Taana={
+		name="Kamaraka Taana"
+
+		advisor={
+			slot = high_command
+			idea_token = BUM_Kamaraka_Taana
+			traits = {	army_infantry_1 	}
+		}
+
+
+	}
+	BUM_Kamaraka_Chuli={
+		name="Kamaraka Chuli"
+
+		advisor={
+			slot = high_command
+			idea_token = BUM_Kamaraka_Chuli
+			traits = {	army_logistics_1 	}
+		}
+
+
+	}
+	BUM_Jumau_Langanishi={
+		name="Jumau Langanishi"
+
+		advisor={
+			slot = theorist
+			idea_token = BUM_Jumau_Langanishi
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	BUM_Taji_Lando={
+		name="Taji Lando"
+
+		advisor={
+			slot = theorist
+			idea_token = BUM_Taji_Lando
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	BUM_Jumaraka_Mali={
+		name="Jumaraka Mali"
+
+		advisor={
+			slot = theorist
+			idea_token = BUM_Jumaraka_Mali
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

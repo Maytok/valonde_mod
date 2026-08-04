@@ -1,0 +1,37 @@
+
+state={
+	id=238
+	name="STATE_238"
+	manpower = 3496031
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=7
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = GRU
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = GRU
+	}
+
+	provinces={
+		2761 2762 2763 2764 2765 2766 2767 2768 2769 2770 2771 2772 2773 2774 2775 2776 2777 2778 2779 2780 
+	}
+	local_supplies=0.0 
+}

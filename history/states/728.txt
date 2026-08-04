@@ -1,0 +1,37 @@
+
+state={
+	id=728
+	name="STATE_728"
+	manpower = 5531311
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = ZAU
+		buildings = {
+			infrastructure = 5
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 5
+			dockyard = 1
+			
+		}
+		add_core_of = ZAU
+	}
+
+	provinces={
+		8410 8411 8412 8413 8414 8415 8416 8417 8418 8419 8420 8421 8422 8423 8424 8425 8426 8427 8428 8429 8430 8431 8432 8433 8434 8435 8436 8437 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=1391
+	name="STATE_1391"
+	manpower = 3382938
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=4
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = SAA
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = SAA
+	}
+
+	provinces={
+		16033 16034 16035 16036 16037 16038 16039 16040 16041 16042 16043 16044 16045 16046 16047 16048 16049 
+	}
+	local_supplies=0.0 
+}

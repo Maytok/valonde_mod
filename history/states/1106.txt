@@ -1,0 +1,37 @@
+
+state={
+	id=1106
+	name="STATE_1106"
+	manpower = 3244532
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=3
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = HAJ
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = HAJ
+	}
+
+	provinces={
+		12727 12728 12729 12730 12731 12732 12733 12734 12735 12736 12737 12738 12739 12740 12741 12742 
+	}
+	local_supplies=0.0 
+}

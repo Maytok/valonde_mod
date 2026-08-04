@@ -1,0 +1,21 @@
+air_wings = {
+		1071 = { 								
+		small_plane_cas_airframe_0 = { owner = "CAS" amount = 50 version_name = "Sporisao Mk 2" }
+
+	}
+	1520 = { 								
+		small_plane_cas_airframe_0 = { owner = "CAS" amount = 50 version_name = "Sporisao Mk 2" }
+small_plane_airframe_0 = { owner = "CAS" amount = 50 version_name = "Kisacina Mk 1" }
+
+	}
+	1059 = { 								
+		small_plane_airframe_0 = { owner = "CAS" amount = 50 version_name = "Kisacina Mk 1" }
+
+	}
+	1040 = { 								
+		medium_plane_airframe_0 = { owner = "CAS" amount = 43 version_name = "Kulasinaga Mk 0" }
+
+	}
+
+
+}

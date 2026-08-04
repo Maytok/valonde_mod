@@ -1,0 +1,37 @@
+
+state={
+	id=20
+	name="STATE_20"
+	manpower = 6793502
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=2
+		chromium=3
+		oil=0
+		rubber=2
+		steel=0
+		tungsten=2
+		coal=6
+	}
+
+	history={
+		
+		owner = AJT
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = AJT
+	}
+
+	provinces={
+		233 234 235 236 237 238 239 240 241 242 243 244 245 246 247 248 249 250 251 252 253 254 255 256 257 258 259 260 261 262 263 264 265 266 267 268 269 270 271 272 
+	}
+	local_supplies=0.0 
+}

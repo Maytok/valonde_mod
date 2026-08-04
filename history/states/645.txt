@@ -1,0 +1,37 @@
+
+state={
+	id=645
+	name="STATE_645"
+	manpower = 1962662
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = NDO
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			dockyard = 1
+			
+		}
+		add_core_of = NDO
+	}
+
+	provinces={
+		7574 7575 7576 7577 7578 7579 7580 7581 7582 7583 
+	}
+	local_supplies=0.0 
+}

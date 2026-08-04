@@ -1,0 +1,13 @@
+air_wings = {
+		1668 = { 								
+		small_plane_airframe_0 = { owner = "MAP" amount = 30 version_name = "Njozi Mk 2" }
+medium_plane_airframe_0 = { owner = "MAP" amount = 36 version_name = "Mapiga Mk 1" }
+
+	}
+	675 = { 								
+		small_plane_cas_airframe_0 = { owner = "MAP" amount = 28 version_name = "Mali Mk 2" }
+
+	}
+
+
+}

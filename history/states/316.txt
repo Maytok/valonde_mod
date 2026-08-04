@@ -1,0 +1,37 @@
+
+state={
+	id=316
+	name="STATE_316"
+	manpower = 2772587
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=14
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = DAN
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = DAN
+	}
+
+	provinces={
+		3667 3668 3669 3670 3671 3672 3673 3674 3675 3676 3677 3678 3679 3680 3681 3682 3683 
+	}
+	local_supplies=0.0 
+}

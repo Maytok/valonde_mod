@@ -1,0 +1,37 @@
+
+state={
+	id=424
+	name="STATE_424"
+	manpower = 2541244
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=3
+		steel=2
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = LAN
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = LAN
+	}
+
+	provinces={
+		4897 4898 4899 4900 4901 4902 4903 4904 4905 4906 4907 4908 
+	}
+	local_supplies=0.0 
+}

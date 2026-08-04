@@ -1,0 +1,385 @@
+capital = 797
+
+oob = "SHA_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "SHA_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "SHA_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	support_weapons= 1
+	tech_trucks= 1
+	tech_support= 1
+	infantry_weapons1= 1
+	paratroopers= 1
+	marines= 1
+	motorised_infantry= 1
+	armored_car1= 1
+	tech_military_police= 1
+	basic_machine_tools= 1
+	fuel_silos= 1
+	fuel_refining= 1
+	synth_oil_experiments= 1
+	electronic_mechanical_engineering= 1
+	basic_fire_control_system= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+		engine_tech_1 = 1
+		armor_tech_1 = 1
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+		create_equipment_variant = {
+		name = "Linita Mk 0"
+		type = heavy_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = wet_ammo_storage
+			special_type_slot_3 = smoke_launchers
+			suspension_type_slot = tank_christie_suspension
+			turret_type_slot = tank_heavy_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Rego Mk 2"
+		type = light_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_heavy_machine_gun
+			special_type_slot_1 = smoke_launchers
+			special_type_slot_2 = wet_ammo_storage
+			suspension_type_slot = tank_interleaved_suspension
+			turret_type_slot = tank_light_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Spira Mk 0"
+		type = light_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_heavy_machine_gun
+			special_type_slot_1 = secondary_turret_small_cannon
+			special_type_slot_2 = smoke_launchers
+			special_type_slot_3 = extra_ammo_storage
+			suspension_type_slot = tank_christie_suspension
+			turret_type_slot = tank_light_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Sore Mk 2"
+		type = medium_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_medium_cannon
+			special_type_slot_1 = expanded_fuel_tank
+			special_type_slot_3 = wet_ammo_storage
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_medium_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "SHA_1936_air_bba"
+		set_technology = {
+			bba_early_transport_plane = 1
+			photo_reconnaisance = 1
+			air_torpedoe_1 = 1
+			aa_lmg = 1
+			engines_1 = 1
+			aircraft_construction = 1
+			
+		}
+
+	else = {
+		set_air_oob = "SHA_1936_air_legacy"
+		set_technology = {
+			early_transport_plane = 1
+			scout_plane1 = 1
+			naval_bomber1 = 1
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	early_destroyer = 1
+	
+	}
+	set_naval_oob = "SHA_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Camore Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	early_ship_hull_light = 1
+	sonar = 1
+	
+	}
+	set_naval_oob = "SHA_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Camore Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = empty
+				rear_1_custom_slot = empty
+			}
+		}
+
+	}
+
+
+recruit_character = SHA_Albertor_Lanzia
+recruit_character = SHA_Enzo_Caledizia
+recruit_character = SHA_Jeandro_Arcorte
+recruit_character = SHA_Julierto_Lanzia
+recruit_character = SHA_Nicomonario_Storra
+recruit_character = SHA_Alexandro_Navale
+recruit_character = SHA_Marco_Lagna
+recruit_character = SHA_Paolose_Duerio
+recruit_character = SHA_Alexancescom_Cielo
+recruit_character = SHA_Mardo_Lampamperoe
+recruit_character = SHA_Marlo_Lagna
+recruit_character = SHA_Jeandro_Caledizia
+recruit_character = SHA_Ramo_Cave
+recruit_character = SHA_Ricomo_Fuore
+recruit_character = SHA_Giacolo_Lampamperoe
+recruit_character = SHA_Paolas_Stelta
+recruit_character = SHA_Jeandro_Storra
+recruit_character = SHA_Antonarlo_Cappame
+recruit_character = SHA_Marcolo_Cana
+recruit_character = SHA_Antonarlo_Reggellagno
+recruit_character = SHA_Mardo_Cielo
+recruit_character = SHA_Marcolas_Notte
+recruit_character = SHA_Jean_Stre
+recruit_character = SHA_Pedre_Libra
+recruit_character = SHA_Alexan_Nazia
+recruit_character = SHA_Pablo_Neve
+recruit_character = SHA_Albertor_Ponfita
+recruit_character = SHA_Marcolo_Verace
+recruit_character = SHA_Ramo_Reginedizio
+recruit_character = SHA_Pablos_Cavale
+recruit_character = SHA_Pedre_Moreccancudo
+recruit_character = SHA_Vica_Odincano
+recruit_character = SHA_Jeancescolo_Morra
+recruit_character = SHA_Thien_Freto
+recruit_character = SHA_Antonarlo_Regio
+recruit_character = SHA_Steon_Temoregia
+recruit_character = SHA_Paolas_Fuore
+recruit_character = SHA_Jeancescolo_Spame
+recruit_character = SHA_Julierto_Temichia
+recruit_character = SHA_Andre_Seggella
+recruit_character = SHA_Enzo_Libra
+recruit_character = SHA_Julien_Scone
+recruit_character = SHA_Julien_Cone
+recruit_character = SHA_Carco_Reginedizio
+recruit_character = SHA_Andro_Cavalone
+recruit_character = SHA_Giacomon_Nazia
+recruit_character = SHA_Anto_Fontorno
+recruit_character = SHA_Jeandre_Cana
+recruit_character = SHA_Luis_Mira
+recruit_character = SHA_Lucario_Reggellagno
+recruit_character = SHA_Cardo_Verace
+recruit_character = SHA_Matteo_Cappame
+recruit_character = SHA_Cardo_Voce
+recruit_character = SHA_Steo_Villo
+recruit_character = SHA_Paolas_Lagna
+recruit_character = SHA_Pablos_Reggellagno
+recruit_character = SHA_Mattefancesc_Camore
+recruit_character = SHA_Julien_Lampamperoe
+recruit_character = SHA_Ramo_Eseria
+recruit_character = SHA_Vicardo_Amichia
+recruit_character = SHA_Steo_Acquarittile
+recruit_character = SHA_Giacomon_Terofezza
+recruit_character = SHA_Alexancescom_Villa
+recruit_character = SHA_Nicomonario_Fontorno
+recruit_character = SHA_Matteon_Morra
+recruit_character = SHA_Francescomo_Leggionera
+recruit_character = SHA_Felien_Santura
+recruit_character = SHA_Ricto_Temoneracola
+recruit_character = SHA_Francescomo_Duerio
+recruit_character = SHA_Albertor_Morra
+recruit_character = SHA_Luca_Stelta
+recruit_character = SHA_Leon_Notte
+recruit_character = SHA_Rico_Lagna
+recruit_character = SHA_Andro_Regio
+recruit_character = SHA_Jose_Ordizionfine
+recruit_character = SHA_Andre_Cangueltantu
+recruit_character = SHA_Mardo_Stelta
+recruit_character = SHA_Mario_Libra
+recruit_character = SHA_Stefan_Tero
+recruit_character = SHA_Giacomon_Stelta
+recruit_character = SHA_Marlos_Cana
+recruit_character = SHA_Vicardo_Cuoreseroe
+recruit_character = SHA_Alexancescom_Stre
+recruit_character = SHA_Vicolas_Neve
+recruit_character = SHA_Antonarlo_Guerregiantu
+recruit_character = SHA_Ramo_Villo
+recruit_character = SHA_Marcolo_Fontorno
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 4
+set_convoys = 0
+set_stability = 0.03
+set_war_support = 0.33
+
+add_ideas = {
+volunteer_only
+civilian_economy
+export_focus
+}
+
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1893.3.21"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 16
+	fascism = 25
+	communism = 27
+	neutrality = 32
+}
+
+
+
+
+

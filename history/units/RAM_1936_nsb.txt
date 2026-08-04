@@ -1,0 +1,190 @@
+division_template = {
+	name = "Militia Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 2 y = 0 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Supported Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 0 y = 3 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+
+	}
+	
+	support = {
+			recon = {  x = 0 y = 0 }
+			engineer = {  x = 0 y = 1 }
+
+	}
+}
+division_template = {
+	name = "Artillery Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+			artillery_brigade = {  x = 3 y = 0 }
+
+	}
+	
+	support = {
+			maintenance_company = {  x = 0 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+			cavalry = {  x = 0 y = 0 }
+			cavalry = {  x = 0 y = 1 }
+			cavalry = {  x = 0 y = 2 }
+			cavalry = {  x = 1 y = 0 }
+			cavalry = {  x = 1 y = 1 }
+			cavalry = {  x = 1 y = 2 }
+
+	}
+	
+	support = {
+
+	}
+}
+
+
+units = {
+	division= {
+		name = "1st 'Masra' Militia Division"
+		location = 15880
+		division_template = "Militia Division"
+		start_experience_factor = 0.447802
+		start_equipment_factor = 0.819434
+	}
+	division= {
+		name = "2nd 'Geindt' Militia Division"
+		location = 4214
+		division_template = "Militia Division"
+		start_experience_factor = 0.008332
+		start_equipment_factor = 0.916047
+	}
+	division= {
+		name = "3rd 'Maktarah' Militia Division"
+		location = 15903
+		division_template = "Militia Division"
+		start_experience_factor = 0.594250
+		start_equipment_factor = 0.863380
+	}
+	division= {
+		name = "4th 'Burub' Militia Division"
+		location = 15985
+		division_template = "Militia Division"
+		start_experience_factor = 0.519133
+		start_equipment_factor = 0.815027
+	}
+	division= {
+		name = "1st 'Segenig' Infantry Division"
+		location = 4371
+		division_template = "Infantry Division"
+		start_experience_factor = 0.124746
+		start_equipment_factor = 0.874691
+	}
+	division= {
+		name = "2nd 'Shaqafa' Infantry Division"
+		location = 15881
+		division_template = "Infantry Division"
+		start_experience_factor = 0.417623
+		start_equipment_factor = 0.976891
+	}
+	division= {
+		name = "3rd 'Kopf' Infantry Division"
+		location = 4363
+		division_template = "Infantry Division"
+		start_experience_factor = 0.547819
+		start_equipment_factor = 0.875880
+	}
+	division= {
+		name = "4th 'Hayahr' Infantry Division"
+		location = 15901
+		division_template = "Infantry Division"
+		start_experience_factor = 0.044560
+		start_equipment_factor = 0.822535
+	}
+	division= {
+		name = "1st 'Hajaz' Supported Infantry Division"
+		location = 17091
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.563871
+		start_equipment_factor = 0.956048
+	}
+	division= {
+		name = "2nd 'Shaqafa' Supported Infantry Division"
+		location = 15881
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.725148
+		start_equipment_factor = 0.871495
+	}
+	division= {
+		name = "1st 'Noum' Artillery Division"
+		location = 15861
+		division_template = "Artillery Division"
+		start_experience_factor = 0.367871
+		start_equipment_factor = 0.827288
+	}
+	division= {
+		name = "2nd 'Harda' Artillery Division"
+		location = 16025
+		division_template = "Artillery Division"
+		start_experience_factor = 0.109817
+		start_equipment_factor = 0.936713
+	}
+	division= {
+		name = "1st 'Hijra' Cavalry Division"
+		location = 15940
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.280112
+		start_equipment_factor = 0.828143
+	}
+	division= {
+		name = "2nd 'Fajd' Cavalry Division"
+		location = 16057
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.231778
+		start_equipment_factor = 0.921532
+	}
+
+}

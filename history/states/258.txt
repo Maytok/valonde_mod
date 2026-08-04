@@ -1,0 +1,37 @@
+
+state={
+	id=258
+	name="STATE_258"
+	manpower = 6017918
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=17
+		chromium=18
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=18
+		coal=44
+	}
+
+	history={
+		
+		owner = KDU
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = KDU
+	}
+
+	provinces={
+		3019 3020 3021 3022 3023 3024 3025 3026 3027 3028 3029 3030 3031 3032 3033 3034 3035 3036 3037 3038 3039 3040 3041 3042 3043 3044 3045 3046 3047 3048 3049 3050 3051 3052 3053 
+	}
+	local_supplies=0.0 
+}

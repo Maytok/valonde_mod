@@ -1,0 +1,1083 @@
+characters = {
+	MIR_Niktoran_Hralja={
+		name="Niktoran Hralja"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { veteran_anti_bolshevik  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MIR_Bohdan_Otaro={
+		name="Bohdan Otaro"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIR_Bohdan_Otaro
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	MIR_Milado_Izvo={
+		name="Milado Izvo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIR_Milado_Izvo
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	MIR_Peta_Glast={
+		name="Peta Glast"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIR_Peta_Glast
+			traits = {	noble_beurocrat 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	MIR_Radoslavel_Mirisija={
+		name="Radoslavel Mirisija"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIR_Radoslavel_Mirisija
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	MIR_Sladek_Konzulak={
+		name="Sladek Konzulak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIR_Sladek_Konzulak
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	MIR_Niktoragomas_Hoda={
+		name="Niktoragomas Hoda"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIR_Niktoragomas_Hoda
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	MIR_Boragomita_Vato={
+		name="Boragomita Vato"
+
+		advisor={
+			slot = army_chief
+			idea_token = MIR_Boragomita_Vato
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	MIR_Zdek_Stradje={
+		name="Zdek Stradje"
+
+		advisor={
+			slot = army_chief
+			idea_token = MIR_Zdek_Stradje
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	MIR_Starosladosl_Zven={
+		name="Starosladosl Zven"
+
+		advisor={
+			slot = army_chief
+			idea_token = MIR_Starosladosl_Zven
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	MIR_Matefanovan_Suma={
+		name="Matefanovan Suma"
+
+		advisor={
+			slot = army_chief
+			idea_token = MIR_Matefanovan_Suma
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	MIR_Ilya_Pisina={
+		name="Ilya Pisina"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MIR_Ilya_Pisina
+			traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+
+	}
+	MIR_Goranis_Mast={
+		name="Goranis Mast"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MIR_Goranis_Mast
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	MIR_Stan_Hleb={
+		name="Stan Hleb"
+
+		advisor={
+			slot = air_chief
+			idea_token = MIR_Stan_Hleb
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	MIR_Bohdan_Mirisija={
+		name="Bohdan Mirisija"
+
+		advisor={
+			slot = air_chief
+			idea_token = MIR_Bohdan_Mirisija
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	MIR_Andrej_Glast={
+		name="Andrej Glast"
+
+		advisor={
+			slot = high_command
+			idea_token = MIR_Andrej_Glast
+			traits = {	army_armored_2 	}
+		}
+
+
+	}
+	MIR_Velimiroslan_Koreb={
+		name="Velimiroslan Koreb"
+
+		advisor={
+			slot = high_command
+			idea_token = MIR_Velimiroslan_Koreb
+			traits = {	air_tactical_bombing_1 	}
+		}
+
+
+	}
+	MIR_Luboslav_Stor={
+		name="Luboslav Stor"
+
+		advisor={
+			slot = high_command
+			idea_token = MIR_Luboslav_Stor
+			traits = {	air_pilot_training_2 	}
+		}
+
+
+	}
+	MIR_Janovan_Slicaksija={
+		name="Janovan Slicaksija"
+
+		advisor={
+			slot = high_command
+			idea_token = MIR_Janovan_Slicaksija
+			traits = {	navy_submarine_2 	}
+		}
+
+
+	}
+	MIR_Simir_Slovotir={
+		name="Simir Slovotir"
+
+		advisor={
+			slot = high_command
+			idea_token = MIR_Simir_Slovotir
+			traits = {	air_tactical_bombing_1 	}
+		}
+
+
+	}
+	MIR_Ivanovan_Viteza={
+		name="Ivanovan Viteza"
+
+		advisor={
+			slot = high_command
+			idea_token = MIR_Ivanovan_Viteza
+			traits = {	navy_screen_2 	}
+		}
+
+
+	}
+	MIR_Olexei_Slicaksija={
+		name="Olexei Slicaksija"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { spirit_of_genghis  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MIR_Aleksei_Viteza={
+		name="Aleksei Viteza"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIR_Aleksei_Viteza
+			traits = {	vapsid_economist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	MIR_Simir_Zemen={
+		name="Simir Zemen"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIR_Simir_Zemen
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	MIR_Andrej_Slovo={
+		name="Andrej Slovo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIR_Andrej_Slovo
+			traits = {	spirit_of_genghis 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	MIR_Rado_Grebo={
+		name="Rado Grebo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIR_Rado_Grebo
+			traits = {	vapsid_economist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	MIR_Peta_Sresnikar={
+		name="Peta Sresnikar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIR_Peta_Sresnikar
+			traits = {	vapsid_economist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	MIR_Ilya_Tramen={
+		name="Ilya Tramen"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIR_Ilya_Tramen
+			traits = {	autokrator 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	MIR_Ivan_Slovo={
+		name="Ivan Slovo"
+
+		advisor={
+			slot = army_chief
+			idea_token = MIR_Ivan_Slovo
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	MIR_Vlav_Slovotir={
+		name="Vlav Slovotir"
+
+		advisor={
+			slot = army_chief
+			idea_token = MIR_Vlav_Slovotir
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	MIR_Peta_Muda={
+		name="Peta Muda"
+
+		advisor={
+			slot = army_chief
+			idea_token = MIR_Peta_Muda
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	MIR_Boran_Glak={
+		name="Boran Glak"
+
+		advisor={
+			slot = army_chief
+			idea_token = MIR_Boran_Glak
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	MIR_Tomas_Zivozduh={
+		name="Tomas Zivozduh"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MIR_Tomas_Zivozduh
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	MIR_Andrej_Muzik={
+		name="Andrej Muzik"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MIR_Andrej_Muzik
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	MIR_Lubos_Dusao={
+		name="Lubos Dusao"
+
+		advisor={
+			slot = air_chief
+			idea_token = MIR_Lubos_Dusao
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	MIR_Aleg_Grom={
+		name="Aleg Grom"
+
+		advisor={
+			slot = air_chief
+			idea_token = MIR_Aleg_Grom
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	MIR_Pavko_Ljubava={
+		name="Pavko Ljubava"
+
+		advisor={
+			slot = high_command
+			idea_token = MIR_Pavko_Ljubava
+			traits = {	army_artillery_2 	}
+		}
+
+
+	}
+	MIR_Matefanislav_Velica={
+		name="Matefanislav Velica"
+
+		advisor={
+			slot = high_command
+			idea_token = MIR_Matefanislav_Velica
+			traits = {	army_concealment_2 	}
+		}
+
+
+	}
+	MIR_Luboslav_Vrebo={
+		name="Luboslav Vrebo"
+
+		advisor={
+			slot = high_command
+			idea_token = MIR_Luboslav_Vrebo
+			traits = {	army_radio_intelligence_2 	}
+		}
+
+
+	}
+	MIR_Peta_Stor={
+		name="Peta Stor"
+
+		advisor={
+			slot = high_command
+			idea_token = MIR_Peta_Stor
+			traits = {	army_artillery_1 	}
+		}
+
+
+	}
+	MIR_Ivan_Vecnost={
+		name="Ivan Vecnost"
+
+		advisor={
+			slot = high_command
+			idea_token = MIR_Ivan_Vecnost
+			traits = {	army_entrenchment_2 	}
+		}
+
+
+	}
+	MIR_Pavko_Slovo={
+		name="Pavko Slovo"
+
+		advisor={
+			slot = high_command
+			idea_token = MIR_Pavko_Slovo
+			traits = {	navy_submarine_2 	}
+		}
+
+
+	}
+	MIR_Alexei_Zivozduh={
+		name="Alexei Zivozduh"
+
+		
+		country_leader={
+			ideology=marxism
+			traits = { mastermind_code_cracker  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MIR_Miri_Lekt={
+		name="Miri Lekt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIR_Miri_Lekt
+			traits = {	leftist_intellectual 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	MIR_Stan_Slik={
+		name="Stan Slik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIR_Stan_Slik
+			traits = {	patriotic_socialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	MIR_Radenek_Hralja={
+		name="Radenek Hralja"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIR_Radenek_Hralja
+			traits = {	devoted_marxist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	MIR_Radimeon_Svetlovo={
+		name="Radimeon Svetlovo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIR_Radimeon_Svetlovo
+			traits = {	mastermind_code_cracker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	MIR_Sladek_Grad={
+		name="Sladek Grad"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIR_Sladek_Grad
+			traits = {	political_dancer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	MIR_Vlav_Zvetnostor={
+		name="Vlav Zvetnostor"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIR_Vlav_Zvetnostor
+			traits = {	marxist_fundamentalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	MIR_Sladimir_Sresnikar={
+		name="Sladimir Sresnikar"
+
+		advisor={
+			slot = army_chief
+			idea_token = MIR_Sladimir_Sresnikar
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	MIR_Tomas_Morir={
+		name="Tomas Morir"
+
+		advisor={
+			slot = army_chief
+			idea_token = MIR_Tomas_Morir
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	MIR_Zdeksei_Velica={
+		name="Zdeksei Velica"
+
+		advisor={
+			slot = army_chief
+			idea_token = MIR_Zdeksei_Velica
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	MIR_Alexei_Zvetar={
+		name="Alexei Zvetar"
+
+		advisor={
+			slot = army_chief
+			idea_token = MIR_Alexei_Zvetar
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	MIR_Dusz_Morir={
+		name="Dusz Morir"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MIR_Dusz_Morir
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	MIR_Viktoraj_Zven={
+		name="Viktoraj Zven"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MIR_Viktoraj_Zven
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	MIR_Peta_Jezan={
+		name="Peta Jezan"
+
+		advisor={
+			slot = air_chief
+			idea_token = MIR_Peta_Jezan
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	MIR_Bori_Obican={
+		name="Bori Obican"
+
+		advisor={
+			slot = air_chief
+			idea_token = MIR_Bori_Obican
+			traits = {	air_chief_night_operations_2 	}
+		}
+
+
+	}
+	MIR_Vlav_Zivozduh={
+		name="Vlav Zivozduh"
+
+		advisor={
+			slot = high_command
+			idea_token = MIR_Vlav_Zivozduh
+			traits = {	navy_anti_submarine_2 	}
+		}
+
+
+	}
+	MIR_Ivanovan_Mast={
+		name="Ivanovan Mast"
+
+		advisor={
+			slot = high_command
+			idea_token = MIR_Ivanovan_Mast
+			traits = {	army_concealment_2 	}
+		}
+
+
+	}
+	MIR_Radimeon_Morir={
+		name="Radimeon Morir"
+
+		advisor={
+			slot = high_command
+			idea_token = MIR_Radimeon_Morir
+			traits = {	army_cavalry_1 	}
+		}
+
+
+	}
+	MIR_Tomas_Ljubava={
+		name="Tomas Ljubava"
+
+		advisor={
+			slot = high_command
+			idea_token = MIR_Tomas_Ljubava
+			traits = {	army_cavalry_2 	}
+		}
+
+
+	}
+	MIR_Simiroslav_Polja={
+		name="Simiroslav Polja"
+
+		advisor={
+			slot = high_command
+			idea_token = MIR_Simiroslav_Polja
+			traits = {	navy_fleet_logistics_1 	}
+		}
+
+
+	}
+	MIR_Juran_Zvetnostor={
+		name="Juran Zvetnostor"
+
+		advisor={
+			slot = high_command
+			idea_token = MIR_Juran_Zvetnostor
+			traits = {	air_air_superiority_2 	}
+		}
+
+
+	}
+	MIR_Slavko_Voda={
+		name="Slavko Voda"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { staunch_constitutionalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MIR_Zdek_Delova={
+		name="Zdek Delova"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIR_Zdek_Delova
+			traits = {	democratic_crusader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	MIR_Zdeneksei_Otaro={
+		name="Zdeneksei Otaro"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIR_Zdeneksei_Otaro
+			traits = {	liberal_democratic_paragon 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	MIR_Radimeon_Oblanstradja={
+		name="Radimeon Oblanstradja"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIR_Radimeon_Oblanstradja
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	MIR_Tomas_Jezan={
+		name="Tomas Jezan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIR_Tomas_Jezan
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	MIR_Alek_Obicana={
+		name="Alek Obicana"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIR_Alek_Obicana
+			traits = {	the_banker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	MIR_Radenek_Muzik={
+		name="Radenek Muzik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MIR_Radenek_Muzik
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	MIR_Stefan_Vecnost={
+		name="Stefan Vecnost"
+
+		advisor={
+			slot = army_chief
+			idea_token = MIR_Stefan_Vecnost
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	MIR_Olexei_Velik={
+		name="Olexei Velik"
+
+		advisor={
+			slot = army_chief
+			idea_token = MIR_Olexei_Velik
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	MIR_Luboslanko_Glava={
+		name="Luboslanko Glava"
+
+		advisor={
+			slot = army_chief
+			idea_token = MIR_Luboslanko_Glava
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	MIR_Velimiroslan_Velik={
+		name="Velimiroslan Velik"
+
+		advisor={
+			slot = army_chief
+			idea_token = MIR_Velimiroslan_Velik
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	MIR_Radoslavel_Grom={
+		name="Radoslavel Grom"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MIR_Radoslavel_Grom
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	MIR_Radoslavel_Koreb={
+		name="Radoslavel Koreb"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MIR_Radoslavel_Koreb
+			traits = {	navy_chief_reform_2 	}
+		}
+
+
+	}
+	MIR_Vikitan_Lekt={
+		name="Vikitan Lekt"
+
+		advisor={
+			slot = air_chief
+			idea_token = MIR_Vikitan_Lekt
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	MIR_Bori_Vinja={
+		name="Bori Vinja"
+
+		advisor={
+			slot = air_chief
+			idea_token = MIR_Bori_Vinja
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	MIR_Viktoraj_Pastvo={
+		name="Viktoraj Pastvo"
+
+		advisor={
+			slot = high_command
+			idea_token = MIR_Viktoraj_Pastvo
+			traits = {	air_strategic_bombing_2 	}
+		}
+
+
+	}
+	MIR_Olexei_Vilaslje={
+		name="Olexei Vilaslje"
+
+		advisor={
+			slot = high_command
+			idea_token = MIR_Olexei_Vilaslje
+			traits = {	navy_screen_1 	}
+		}
+
+
+	}
+	MIR_Goranis_Polja={
+		name="Goranis Polja"
+
+		advisor={
+			slot = high_command
+			idea_token = MIR_Goranis_Polja
+			traits = {	air_airborne_2 	}
+		}
+
+
+	}
+	MIR_Zdeneksei_Hralja={
+		name="Zdeneksei Hralja"
+
+		advisor={
+			slot = high_command
+			idea_token = MIR_Zdeneksei_Hralja
+			traits = {	air_tactical_bombing_2 	}
+		}
+
+
+	}
+	MIR_Tomas_Delova={
+		name="Tomas Delova"
+
+		advisor={
+			slot = high_command
+			idea_token = MIR_Tomas_Delova
+			traits = {	navy_amphibious_assault_2 	}
+		}
+
+
+	}
+	MIR_Radosh_Velica={
+		name="Radosh Velica"
+
+		advisor={
+			slot = high_command
+			idea_token = MIR_Radosh_Velica
+			traits = {	navy_anti_submarine_1 	}
+		}
+
+
+	}
+	MIR_Radimeon_Svetad={
+		name="Radimeon Svetad"
+
+		advisor={
+			slot = theorist
+			idea_token = MIR_Radimeon_Svetad
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	MIR_Milado_Slovotir={
+		name="Milado Slovotir"
+
+		advisor={
+			slot = theorist
+			idea_token = MIR_Milado_Slovotir
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	MIR_Matefanovan_Polja={
+		name="Matefanovan Polja"
+
+		advisor={
+			slot = theorist
+			idea_token = MIR_Matefanovan_Polja
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

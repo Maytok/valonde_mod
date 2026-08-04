@@ -1,0 +1,37 @@
+
+state={
+	id=773
+	name="STATE_773"
+	manpower = 5626904
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=4
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = LAH
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = LAH
+	}
+
+	provinces={
+		9028 9029 9030 9031 9032 9033 9034 9035 9036 9037 9038 9039 9040 9041 9042 9043 9044 9045 9046 9047 9048 9049 9050 9051 9052 9053 9054 9055 9056 9057 9058 
+	}
+	local_supplies=0.0 
+}

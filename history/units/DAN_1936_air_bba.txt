@@ -1,0 +1,16 @@
+air_wings = {
+		16 = { 								
+		small_plane_airframe_0 = { owner = "DAN" amount = 50 version_name = "Goimea Mk 2" }
+
+	}
+	842 = { 								
+		small_plane_airframe_0 = { owner = "DAN" amount = 50 version_name = "Goimea Mk 2" }
+
+	}
+	866 = { 								
+		small_plane_airframe_0 = { owner = "DAN" amount = 50 version_name = "Goimea Mk 2" }
+
+	}
+
+
+}

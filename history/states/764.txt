@@ -1,0 +1,37 @@
+
+state={
+	id=764
+	name="STATE_764"
+	manpower = 2842853
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=1
+	}
+
+	history={
+		
+		owner = DAN
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = DAN
+	}
+
+	provinces={
+		8920 8921 8922 8923 8924 8925 8926 8927 8928 8929 8930 8931 8932 8933 8934 8935 8936 8937 
+	}
+	local_supplies=0.0 
+}

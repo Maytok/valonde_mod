@@ -1,0 +1,37 @@
+
+state={
+	id=1292
+	name="STATE_1292"
+	manpower = 3135838
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = SIW
+		buildings = {
+			infrastructure = 4
+			air_base = 2
+			arms_factory = 2
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = SIW
+	}
+
+	provinces={
+		14827 14828 14829 14830 14831 14832 14833 14834 14835 14836 14837 14838 14839 14840 14841 
+	}
+	local_supplies=0.0 
+}

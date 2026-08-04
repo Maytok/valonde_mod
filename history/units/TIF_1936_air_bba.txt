@@ -1,0 +1,13 @@
+air_wings = {
+		1023 = { 								
+		small_plane_cas_airframe_0 = { owner = "TIF" amount = 12 version_name = "Hajr Mk 1" }
+small_plane_airframe_0 = { owner = "TIF" amount = 7 version_name = "Muna Mk 0" }
+
+	}
+	1033 = { 								
+		medium_plane_airframe_0 = { owner = "TIF" amount = 12 version_name = "Kutub Mk 1" }
+
+	}
+
+
+}

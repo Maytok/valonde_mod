@@ -1,0 +1,37 @@
+
+state={
+	id=601
+	name="STATE_601"
+	manpower = 4829660
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = MTN
+		buildings = {
+			infrastructure = 4
+			
+			arms_factory = 1
+			industrial_complex = 0
+			dockyard = 3
+			
+		}
+		add_core_of = MTN
+	}
+
+	provinces={
+		7082 7083 7084 7085 7086 7087 7088 7089 7090 7091 7092 7093 7094 7095 7096 7097 7098 7099 7100 7101 7102 7103 7104 7105 7106 
+	}
+	local_supplies=0.0 
+}

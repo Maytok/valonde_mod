@@ -1,0 +1,46 @@
+air_wings = {
+		555 = { 								
+		nav_bomber_equipment_0 = { owner = "KFT" amount = 50 version_name = "Vensare Mk 2" }
+nav_bomber_equipment_0 = { owner = "KFT" amount = 50 version_name = "Vensare Mk 2" }
+
+	}
+	934 = { 								
+		tac_bomber_equipment_0 = { owner = "KFT" amount = 50 version_name = "Pravis Mk 2" }
+tac_bomber_equipment_0 = { owner = "KFT" amount = 50 version_name = "Pravis Mk 2" }
+
+	}
+	708 = { 								
+		CAS_equipment_0 = { owner = "KFT" amount = 50 version_name = "Radicium Mk 1" }
+
+	}
+	265 = { 								
+		fighter_equipment_0 = { owner = "KFT" amount = 50 version_name = "Muructudax Mk 2" }
+
+	}
+	626 = { 								
+		tac_bomber_equipment_0 = { owner = "KFT" amount = 50 version_name = "Pravis Mk 2" }
+
+	}
+	784 = { 								
+		fighter_equipment_0 = { owner = "KFT" amount = 50 version_name = "Muructudax Mk 2" }
+
+	}
+	479 = { 								
+		nav_bomber_equipment_0 = { owner = "KFT" amount = 50 version_name = "Vensare Mk 2" }
+
+	}
+	152 = { 								
+		CAS_equipment_0 = { owner = "KFT" amount = 50 version_name = "Radicium Mk 1" }
+
+	}
+	208 = { 								
+		CAS_equipment_0 = { owner = "KFT" amount = 50 version_name = "Radicium Mk 1" }
+
+	}
+	685 = { 								
+		fighter_equipment_0 = { owner = "KFT" amount = 50 version_name = "Muructudax Mk 2" }
+
+	}
+
+
+}

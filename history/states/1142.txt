@@ -1,0 +1,37 @@
+
+state={
+	id=1142
+	name="STATE_1142"
+	manpower = 1923725
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = DAR
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = DAR
+	}
+
+	provinces={
+		13190 13191 13192 13193 13194 13195 13196 13197 13198 13199 
+	}
+	local_supplies=0.0 
+}

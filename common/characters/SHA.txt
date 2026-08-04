@@ -1,0 +1,1083 @@
+characters = {
+	SHA_Albertor_Lanzia={
+		name="Albertor Lanzia"
+
+		
+		country_leader={
+			ideology=oligarchism
+			traits = { celebrity_junta_leader  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SHA_Enzo_Caledizia={
+		name="Enzo Caledizia"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHA_Enzo_Caledizia
+			traits = {	headstrong 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	SHA_Jeandro_Arcorte={
+		name="Jeandro Arcorte"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHA_Jeandro_Arcorte
+			traits = {	veteran_anti_bolshevik 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	SHA_Julierto_Lanzia={
+		name="Julierto Lanzia"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHA_Julierto_Lanzia
+			traits = {	headstrong 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	SHA_Nicomonario_Storra={
+		name="Nicomonario Storra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHA_Nicomonario_Storra
+			traits = {	national_determinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	SHA_Alexandro_Navale={
+		name="Alexandro Navale"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHA_Alexandro_Navale
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	SHA_Marco_Lagna={
+		name="Marco Lagna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHA_Marco_Lagna
+			traits = {	humble 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	SHA_Paolose_Duerio={
+		name="Paolose Duerio"
+
+		advisor={
+			slot = army_chief
+			idea_token = SHA_Paolose_Duerio
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	SHA_Alexancescom_Cielo={
+		name="Alexancescom Cielo"
+
+		advisor={
+			slot = army_chief
+			idea_token = SHA_Alexancescom_Cielo
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	SHA_Mardo_Lampamperoe={
+		name="Mardo Lampamperoe"
+
+		advisor={
+			slot = army_chief
+			idea_token = SHA_Mardo_Lampamperoe
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	SHA_Marlo_Lagna={
+		name="Marlo Lagna"
+
+		advisor={
+			slot = army_chief
+			idea_token = SHA_Marlo_Lagna
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	SHA_Jeandro_Caledizia={
+		name="Jeandro Caledizia"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SHA_Jeandro_Caledizia
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	SHA_Ramo_Cave={
+		name="Ramo Cave"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SHA_Ramo_Cave
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	SHA_Ricomo_Fuore={
+		name="Ricomo Fuore"
+
+		advisor={
+			slot = air_chief
+			idea_token = SHA_Ricomo_Fuore
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	SHA_Giacolo_Lampamperoe={
+		name="Giacolo Lampamperoe"
+
+		advisor={
+			slot = air_chief
+			idea_token = SHA_Giacolo_Lampamperoe
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	SHA_Paolas_Stelta={
+		name="Paolas Stelta"
+
+		advisor={
+			slot = high_command
+			idea_token = SHA_Paolas_Stelta
+			traits = {	navy_screen_1 	}
+		}
+
+
+	}
+	SHA_Jeandro_Storra={
+		name="Jeandro Storra"
+
+		advisor={
+			slot = high_command
+			idea_token = SHA_Jeandro_Storra
+			traits = {	navy_screen_1 	}
+		}
+
+
+	}
+	SHA_Antonarlo_Cappame={
+		name="Antonarlo Cappame"
+
+		advisor={
+			slot = high_command
+			idea_token = SHA_Antonarlo_Cappame
+			traits = {	army_infantry_1 	}
+		}
+
+
+	}
+	SHA_Marcolo_Cana={
+		name="Marcolo Cana"
+
+		advisor={
+			slot = high_command
+			idea_token = SHA_Marcolo_Cana
+			traits = {	navy_amphibious_assault_2 	}
+		}
+
+
+	}
+	SHA_Antonarlo_Reggellagno={
+		name="Antonarlo Reggellagno"
+
+		advisor={
+			slot = high_command
+			idea_token = SHA_Antonarlo_Reggellagno
+			traits = {	army_armored_1 	}
+		}
+
+
+	}
+	SHA_Mardo_Cielo={
+		name="Mardo Cielo"
+
+		advisor={
+			slot = high_command
+			idea_token = SHA_Mardo_Cielo
+			traits = {	army_regrouping_2 	}
+		}
+
+
+	}
+	SHA_Marcolas_Notte={
+		name="Marcolas Notte"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { autokrator  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SHA_Jean_Stre={
+		name="Jean Stre"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHA_Jean_Stre
+			traits = {	militant_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	SHA_Pedre_Libra={
+		name="Pedre Libra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHA_Pedre_Libra
+			traits = {	militant_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	SHA_Alexan_Nazia={
+		name="Alexan Nazia"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHA_Alexan_Nazia
+			traits = {	inexperienced_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	SHA_Pablo_Neve={
+		name="Pablo Neve"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHA_Pablo_Neve
+			traits = {	subservient_ultranationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	SHA_Albertor_Ponfita={
+		name="Albertor Ponfita"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHA_Albertor_Ponfita
+			traits = {	warmonger 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	SHA_Marcolo_Verace={
+		name="Marcolo Verace"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHA_Marcolo_Verace
+			traits = {	autokrator 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	SHA_Ramo_Reginedizio={
+		name="Ramo Reginedizio"
+
+		advisor={
+			slot = army_chief
+			idea_token = SHA_Ramo_Reginedizio
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	SHA_Pablos_Cavale={
+		name="Pablos Cavale"
+
+		advisor={
+			slot = army_chief
+			idea_token = SHA_Pablos_Cavale
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	SHA_Pedre_Moreccancudo={
+		name="Pedre Moreccancudo"
+
+		advisor={
+			slot = army_chief
+			idea_token = SHA_Pedre_Moreccancudo
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	SHA_Vica_Odincano={
+		name="Vica Odincano"
+
+		advisor={
+			slot = army_chief
+			idea_token = SHA_Vica_Odincano
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	SHA_Jeancescolo_Morra={
+		name="Jeancescolo Morra"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SHA_Jeancescolo_Morra
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	SHA_Thien_Freto={
+		name="Thien Freto"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SHA_Thien_Freto
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	SHA_Antonarlo_Regio={
+		name="Antonarlo Regio"
+
+		advisor={
+			slot = air_chief
+			idea_token = SHA_Antonarlo_Regio
+			traits = {	air_chief_all_weather_1 	}
+		}
+
+
+	}
+	SHA_Steon_Temoregia={
+		name="Steon Temoregia"
+
+		advisor={
+			slot = air_chief
+			idea_token = SHA_Steon_Temoregia
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	SHA_Paolas_Fuore={
+		name="Paolas Fuore"
+
+		advisor={
+			slot = high_command
+			idea_token = SHA_Paolas_Fuore
+			traits = {	army_entrenchment_1 	}
+		}
+
+
+	}
+	SHA_Jeancescolo_Spame={
+		name="Jeancescolo Spame"
+
+		advisor={
+			slot = high_command
+			idea_token = SHA_Jeancescolo_Spame
+			traits = {	air_strategic_bombing_1 	}
+		}
+
+
+	}
+	SHA_Julierto_Temichia={
+		name="Julierto Temichia"
+
+		advisor={
+			slot = high_command
+			idea_token = SHA_Julierto_Temichia
+			traits = {	army_infantry_1 	}
+		}
+
+
+	}
+	SHA_Andre_Seggella={
+		name="Andre Seggella"
+
+		advisor={
+			slot = high_command
+			idea_token = SHA_Andre_Seggella
+			traits = {	navy_capital_ship_1 	}
+		}
+
+
+	}
+	SHA_Enzo_Libra={
+		name="Enzo Libra"
+
+		advisor={
+			slot = high_command
+			idea_token = SHA_Enzo_Libra
+			traits = {	air_bomber_interception_2 	}
+		}
+
+
+	}
+	SHA_Julien_Scone={
+		name="Julien Scone"
+
+		advisor={
+			slot = high_command
+			idea_token = SHA_Julien_Scone
+			traits = {	air_air_superiority_1 	}
+		}
+
+
+	}
+	SHA_Julien_Cone={
+		name="Julien Cone"
+
+		
+		country_leader={
+			ideology=anti_revisionism
+			traits = { indomitable_perseverance  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SHA_Carco_Reginedizio={
+		name="Carco Reginedizio"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHA_Carco_Reginedizio
+			traits = {	mastermind_code_cracker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	SHA_Andro_Cavalone={
+		name="Andro Cavalone"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHA_Andro_Cavalone
+			traits = {	political_dancer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	SHA_Giacomon_Nazia={
+		name="Giacomon Nazia"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHA_Giacomon_Nazia
+			traits = {	mastermind_code_cracker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	SHA_Anto_Fontorno={
+		name="Anto Fontorno"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHA_Anto_Fontorno
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	SHA_Jeandre_Cana={
+		name="Jeandre Cana"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHA_Jeandre_Cana
+			traits = {	reluctant_stalinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	SHA_Luis_Mira={
+		name="Luis Mira"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHA_Luis_Mira
+			traits = {	anti_bolshevik_leftist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	SHA_Lucario_Reggellagno={
+		name="Lucario Reggellagno"
+
+		advisor={
+			slot = army_chief
+			idea_token = SHA_Lucario_Reggellagno
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	SHA_Cardo_Verace={
+		name="Cardo Verace"
+
+		advisor={
+			slot = army_chief
+			idea_token = SHA_Cardo_Verace
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	SHA_Matteo_Cappame={
+		name="Matteo Cappame"
+
+		advisor={
+			slot = army_chief
+			idea_token = SHA_Matteo_Cappame
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	SHA_Cardo_Voce={
+		name="Cardo Voce"
+
+		advisor={
+			slot = army_chief
+			idea_token = SHA_Cardo_Voce
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	SHA_Steo_Villo={
+		name="Steo Villo"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SHA_Steo_Villo
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	SHA_Paolas_Lagna={
+		name="Paolas Lagna"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SHA_Paolas_Lagna
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	SHA_Pablos_Reggellagno={
+		name="Pablos Reggellagno"
+
+		advisor={
+			slot = air_chief
+			idea_token = SHA_Pablos_Reggellagno
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	SHA_Mattefancesc_Camore={
+		name="Mattefancesc Camore"
+
+		advisor={
+			slot = air_chief
+			idea_token = SHA_Mattefancesc_Camore
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	SHA_Julien_Lampamperoe={
+		name="Julien Lampamperoe"
+
+		advisor={
+			slot = high_command
+			idea_token = SHA_Julien_Lampamperoe
+			traits = {	air_pilot_training_2 	}
+		}
+
+
+	}
+	SHA_Ramo_Eseria={
+		name="Ramo Eseria"
+
+		advisor={
+			slot = high_command
+			idea_token = SHA_Ramo_Eseria
+			traits = {	army_armored_1 	}
+		}
+
+
+	}
+	SHA_Vicardo_Amichia={
+		name="Vicardo Amichia"
+
+		advisor={
+			slot = high_command
+			idea_token = SHA_Vicardo_Amichia
+			traits = {	air_naval_strike_1 	}
+		}
+
+
+	}
+	SHA_Steo_Acquarittile={
+		name="Steo Acquarittile"
+
+		advisor={
+			slot = high_command
+			idea_token = SHA_Steo_Acquarittile
+			traits = {	air_air_superiority_1 	}
+		}
+
+
+	}
+	SHA_Giacomon_Terofezza={
+		name="Giacomon Terofezza"
+
+		advisor={
+			slot = high_command
+			idea_token = SHA_Giacomon_Terofezza
+			traits = {	army_entrenchment_2 	}
+		}
+
+
+	}
+	SHA_Alexancescom_Villa={
+		name="Alexancescom Villa"
+
+		advisor={
+			slot = high_command
+			idea_token = SHA_Alexancescom_Villa
+			traits = {	air_naval_strike_1 	}
+		}
+
+
+	}
+	SHA_Nicomonario_Fontorno={
+		name="Nicomonario Fontorno"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { the_banker  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SHA_Matteon_Morra={
+		name="Matteon Morra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHA_Matteon_Morra
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	SHA_Francescomo_Leggionera={
+		name="Francescomo Leggionera"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHA_Francescomo_Leggionera
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	SHA_Felien_Santura={
+		name="Felien Santura"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHA_Felien_Santura
+			traits = {	liberal_democratic_paragon 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	SHA_Ricto_Temoneracola={
+		name="Ricto Temoneracola"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHA_Ricto_Temoneracola
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	SHA_Francescomo_Duerio={
+		name="Francescomo Duerio"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHA_Francescomo_Duerio
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	SHA_Albertor_Morra={
+		name="Albertor Morra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHA_Albertor_Morra
+			traits = {	first_lady 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	SHA_Luca_Stelta={
+		name="Luca Stelta"
+
+		advisor={
+			slot = army_chief
+			idea_token = SHA_Luca_Stelta
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	SHA_Leon_Notte={
+		name="Leon Notte"
+
+		advisor={
+			slot = army_chief
+			idea_token = SHA_Leon_Notte
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	SHA_Rico_Lagna={
+		name="Rico Lagna"
+
+		advisor={
+			slot = army_chief
+			idea_token = SHA_Rico_Lagna
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	SHA_Andro_Regio={
+		name="Andro Regio"
+
+		advisor={
+			slot = army_chief
+			idea_token = SHA_Andro_Regio
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	SHA_Jose_Ordizionfine={
+		name="Jose Ordizionfine"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SHA_Jose_Ordizionfine
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	SHA_Andre_Cangueltantu={
+		name="Andre Cangueltantu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SHA_Andre_Cangueltantu
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	SHA_Mardo_Stelta={
+		name="Mardo Stelta"
+
+		advisor={
+			slot = air_chief
+			idea_token = SHA_Mardo_Stelta
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	SHA_Mario_Libra={
+		name="Mario Libra"
+
+		advisor={
+			slot = air_chief
+			idea_token = SHA_Mario_Libra
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	SHA_Stefan_Tero={
+		name="Stefan Tero"
+
+		advisor={
+			slot = high_command
+			idea_token = SHA_Stefan_Tero
+			traits = {	air_bomber_interception_1 	}
+		}
+
+
+	}
+	SHA_Giacomon_Stelta={
+		name="Giacomon Stelta"
+
+		advisor={
+			slot = high_command
+			idea_token = SHA_Giacomon_Stelta
+			traits = {	navy_naval_air_defense_2 	}
+		}
+
+
+	}
+	SHA_Marlos_Cana={
+		name="Marlos Cana"
+
+		advisor={
+			slot = high_command
+			idea_token = SHA_Marlos_Cana
+			traits = {	navy_naval_air_defense_1 	}
+		}
+
+
+	}
+	SHA_Vicardo_Cuoreseroe={
+		name="Vicardo Cuoreseroe"
+
+		advisor={
+			slot = high_command
+			idea_token = SHA_Vicardo_Cuoreseroe
+			traits = {	navy_carrier_1 	}
+		}
+
+
+	}
+	SHA_Alexancescom_Stre={
+		name="Alexancescom Stre"
+
+		advisor={
+			slot = high_command
+			idea_token = SHA_Alexancescom_Stre
+			traits = {	army_artillery_2 	}
+		}
+
+
+	}
+	SHA_Vicolas_Neve={
+		name="Vicolas Neve"
+
+		advisor={
+			slot = high_command
+			idea_token = SHA_Vicolas_Neve
+			traits = {	air_air_combat_training_2 	}
+		}
+
+
+	}
+	SHA_Antonarlo_Guerregiantu={
+		name="Antonarlo Guerregiantu"
+
+		advisor={
+			slot = theorist
+			idea_token = SHA_Antonarlo_Guerregiantu
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	SHA_Ramo_Villo={
+		name="Ramo Villo"
+
+		advisor={
+			slot = theorist
+			idea_token = SHA_Ramo_Villo
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	SHA_Marcolo_Fontorno={
+		name="Marcolo Fontorno"
+
+		advisor={
+			slot = theorist
+			idea_token = SHA_Marcolo_Fontorno
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

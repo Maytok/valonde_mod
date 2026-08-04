@@ -1,0 +1,37 @@
+
+state={
+	id=737
+	name="STATE_737"
+	manpower = 3210095
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = MTN
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = MTN
+	}
+
+	provinces={
+		8568 8569 8570 8571 8572 8573 8574 8575 8576 8577 8578 8579 8580 8581 8582 8583 
+	}
+	local_supplies=0.0 
+}

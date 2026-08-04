@@ -1,0 +1,37 @@
+
+state={
+	id=802
+	name="STATE_802"
+	manpower = 2878483
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=8
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = KDU
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = KDU
+	}
+
+	provinces={
+		9392 9393 9394 9395 9396 9397 9398 9399 9400 9401 9402 9403 9404 9405 9406 9407 9408 9409 
+	}
+	local_supplies=0.0 
+}

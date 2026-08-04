@@ -1,0 +1,37 @@
+
+state={
+	id=560
+	name="STATE_560"
+	manpower = 1724276
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=7
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = RAM
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = RAM
+	}
+
+	provinces={
+		6549 6550 6551 6552 6553 6554 6555 6556 6557 6558 
+	}
+	local_supplies=0.0 
+}

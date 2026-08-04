@@ -1,0 +1,1083 @@
+characters = {
+	SHU_Mbwanga_Mipanajesha={
+		name="Mbwanga Mipanajesha"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { staunch_constitutionalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SHU_Sefu_Hadisto={
+		name="Sefu Hadisto"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHU_Sefu_Hadisto
+			traits = {	right_industrialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	SHU_Amau_Malu={
+		name="Amau Malu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHU_Amau_Malu
+			traits = {	veteran_anti_bolshevik 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	SHU_Omari_Malme={
+		name="Omari Malme"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHU_Omari_Malme
+			traits = {	national_determinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	SHU_Kwanga_Kiono={
+		name="Kwanga Kiono"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHU_Kwanga_Kiono
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	SHU_Simba_Ukuti={
+		name="Simba Ukuti"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHU_Simba_Ukuti
+			traits = {	socialite_connections 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	SHU_Simbana_Chera={
+		name="Simbana Chera"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHU_Simbana_Chera
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	SHU_Mbwame_Lando={
+		name="Mbwame Lando"
+
+		advisor={
+			slot = army_chief
+			idea_token = SHU_Mbwame_Lando
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	SHU_Luba_Heka={
+		name="Luba Heka"
+
+		advisor={
+			slot = army_chief
+			idea_token = SHU_Luba_Heka
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	SHU_Lubana_Darali={
+		name="Lubana Darali"
+
+		advisor={
+			slot = army_chief
+			idea_token = SHU_Lubana_Darali
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	SHU_Omari_Wando={
+		name="Omari Wando"
+
+		advisor={
+			slot = army_chief
+			idea_token = SHU_Omari_Wando
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	SHU_Shakaraka_Kima={
+		name="Shakaraka Kima"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SHU_Shakaraka_Kima
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	SHU_Bari_Jeno={
+		name="Bari Jeno"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SHU_Bari_Jeno
+			traits = {	navy_chief_reform_2 	}
+		}
+
+
+	}
+	SHU_Jumau_Kumbukufu={
+		name="Jumau Kumbukufu"
+
+		advisor={
+			slot = air_chief
+			idea_token = SHU_Jumau_Kumbukufu
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	SHU_Kwano_Mshara={
+		name="Kwano Mshara"
+
+		advisor={
+			slot = air_chief
+			idea_token = SHU_Kwano_Mshara
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	SHU_Nuru_Kiji={
+		name="Nuru Kiji"
+
+		advisor={
+			slot = high_command
+			idea_token = SHU_Nuru_Kiji
+			traits = {	air_bomber_interception_1 	}
+		}
+
+
+	}
+	SHU_Nuru_Heshawi={
+		name="Nuru Heshawi"
+
+		advisor={
+			slot = high_command
+			idea_token = SHU_Nuru_Heshawi
+			traits = {	army_artillery_1 	}
+		}
+
+
+	}
+	SHU_Mbwanga_Pano={
+		name="Mbwanga Pano"
+
+		advisor={
+			slot = high_command
+			idea_token = SHU_Mbwanga_Pano
+			traits = {	air_bomber_interception_1 	}
+		}
+
+
+	}
+	SHU_Shakaraka_Heka={
+		name="Shakaraka Heka"
+
+		advisor={
+			slot = high_command
+			idea_token = SHU_Shakaraka_Heka
+			traits = {	navy_amphibious_assault_2 	}
+		}
+
+
+	}
+	SHU_Baraka_Hati={
+		name="Baraka Hati"
+
+		advisor={
+			slot = high_command
+			idea_token = SHU_Baraka_Hati
+			traits = {	air_bomber_interception_1 	}
+		}
+
+
+	}
+	SHU_Kato_Rambiria={
+		name="Kato Rambiria"
+
+		advisor={
+			slot = high_command
+			idea_token = SHU_Kato_Rambiria
+			traits = {	navy_carrier_2 	}
+		}
+
+
+	}
+	SHU_Jumau_Majango={
+		name="Jumau Majango"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { basileus  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SHU_Mbwame_Siri={
+		name="Mbwame Siri"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHU_Mbwame_Siri
+			traits = {	collaborator_king 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	SHU_Kwanga_Nyumbasia={
+		name="Kwanga Nyumbasia"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHU_Kwanga_Nyumbasia
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	SHU_Bari_Laandisha={
+		name="Bari Laandisha"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHU_Bari_Laandisha
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	SHU_Jumaraka_Heshawi={
+		name="Jumaraka Heshawi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHU_Jumaraka_Heshawi
+			traits = {	spirit_of_genghis 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	SHU_Kwanga_Mipanajesha={
+		name="Kwanga Mipanajesha"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHU_Kwanga_Mipanajesha
+			traits = {	subservient_ultranationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	SHU_Kwanga_Mwithi={
+		name="Kwanga Mwithi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHU_Kwanga_Mwithi
+			traits = {	collaborator_king 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	SHU_Kamaraka_Nyoto={
+		name="Kamaraka Nyoto"
+
+		advisor={
+			slot = army_chief
+			idea_token = SHU_Kamaraka_Nyoto
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	SHU_Baka_Mlimaisia={
+		name="Baka Mlimaisia"
+
+		advisor={
+			slot = army_chief
+			idea_token = SHU_Baka_Mlimaisia
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	SHU_Kwanga_Dari={
+		name="Kwanga Dari"
+
+		advisor={
+			slot = army_chief
+			idea_token = SHU_Kwanga_Dari
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	SHU_Musa_Hekete={
+		name="Musa Hekete"
+
+		advisor={
+			slot = army_chief
+			idea_token = SHU_Musa_Hekete
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	SHU_Baraka_Meli={
+		name="Baraka Meli"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SHU_Baraka_Meli
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	SHU_Amaraka_Majanaji={
+		name="Amaraka Majanaji"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SHU_Amaraka_Majanaji
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	SHU_Mbwamau_Dari={
+		name="Mbwamau Dari"
+
+		advisor={
+			slot = air_chief
+			idea_token = SHU_Mbwamau_Dari
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	SHU_Omari_Dari={
+		name="Omari Dari"
+
+		advisor={
+			slot = air_chief
+			idea_token = SHU_Omari_Dari
+			traits = {	air_chief_night_operations_2 	}
+		}
+
+
+	}
+	SHU_Chidi_Sikuti={
+		name="Chidi Sikuti"
+
+		advisor={
+			slot = high_command
+			idea_token = SHU_Chidi_Sikuti
+			traits = {	army_entrenchment_2 	}
+		}
+
+
+	}
+	SHU_Bari_Mauti={
+		name="Bari Mauti"
+
+		advisor={
+			slot = high_command
+			idea_token = SHU_Bari_Mauti
+			traits = {	air_bomber_interception_1 	}
+		}
+
+
+	}
+	SHU_Tanga_Jeno={
+		name="Tanga Jeno"
+
+		advisor={
+			slot = high_command
+			idea_token = SHU_Tanga_Jeno
+			traits = {	army_commando_1 	}
+		}
+
+
+	}
+	SHU_Amari_Darali={
+		name="Amari Darali"
+
+		advisor={
+			slot = high_command
+			idea_token = SHU_Amari_Darali
+			traits = {	army_concealment_2 	}
+		}
+
+
+	}
+	SHU_Mbwanga_Mwani={
+		name="Mbwanga Mwani"
+
+		advisor={
+			slot = high_command
+			idea_token = SHU_Mbwanga_Mwani
+			traits = {	navy_submarine_1 	}
+		}
+
+
+	}
+	SHU_Kama_Upepo={
+		name="Kama Upepo"
+
+		advisor={
+			slot = high_command
+			idea_token = SHU_Kama_Upepo
+			traits = {	air_naval_strike_1 	}
+		}
+
+
+	}
+	SHU_Omari_Mtifu={
+		name="Omari Mtifu"
+
+		
+		country_leader={
+			ideology=leninism
+			traits = { devoted_marxist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SHU_Amaraka_Malme={
+		name="Amaraka Malme"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHU_Amaraka_Malme
+			traits = {	revolutionary_poet 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	SHU_Jumaraka_Hati={
+		name="Jumaraka Hati"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHU_Jumaraka_Hati
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	SHU_Luba_Soko={
+		name="Luba Soko"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHU_Luba_Soko
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	SHU_Musa_Heka={
+		name="Musa Heka"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHU_Musa_Heka
+			traits = {	revolutionary_poet 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	SHU_Sefu_Kiji={
+		name="Sefu Kiji"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHU_Sefu_Kiji
+			traits = {	marxist_fundamentalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	SHU_Kwame_Meli={
+		name="Kwame Meli"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHU_Kwame_Meli
+			traits = {	leftist_independent 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	SHU_Tano_Kifu={
+		name="Tano Kifu"
+
+		advisor={
+			slot = army_chief
+			idea_token = SHU_Tano_Kifu
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	SHU_Jumau_Teka={
+		name="Jumau Teka"
+
+		advisor={
+			slot = army_chief
+			idea_token = SHU_Jumau_Teka
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	SHU_Kwanga_Jeno={
+		name="Kwanga Jeno"
+
+		advisor={
+			slot = army_chief
+			idea_token = SHU_Kwanga_Jeno
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	SHU_Taji_Mili={
+		name="Taji Mili"
+
+		advisor={
+			slot = army_chief
+			idea_token = SHU_Taji_Mili
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	SHU_Mbwanga_Piga={
+		name="Mbwanga Piga"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SHU_Mbwanga_Piga
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	SHU_Tanga_Fuki={
+		name="Tanga Fuki"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SHU_Tanga_Fuki
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	SHU_Kama_Teka={
+		name="Kama Teka"
+
+		advisor={
+			slot = air_chief
+			idea_token = SHU_Kama_Teka
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	SHU_Shakari_Heka={
+		name="Shakari Heka"
+
+		advisor={
+			slot = air_chief
+			idea_token = SHU_Shakari_Heka
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	SHU_Kwame_Pepo={
+		name="Kwame Pepo"
+
+		advisor={
+			slot = high_command
+			idea_token = SHU_Kwame_Pepo
+			traits = {	army_commando_2 	}
+		}
+
+
+	}
+	SHU_Tano_Rambiria={
+		name="Tano Rambiria"
+
+		advisor={
+			slot = high_command
+			idea_token = SHU_Tano_Rambiria
+			traits = {	army_entrenchment_1 	}
+		}
+
+
+	}
+	SHU_Kwana_Chera={
+		name="Kwana Chera"
+
+		advisor={
+			slot = high_command
+			idea_token = SHU_Kwana_Chera
+			traits = {	air_air_combat_training_1 	}
+		}
+
+
+	}
+	SHU_Baka_Mili={
+		name="Baka Mili"
+
+		advisor={
+			slot = high_command
+			idea_token = SHU_Baka_Mili
+			traits = {	air_naval_strike_2 	}
+		}
+
+
+	}
+	SHU_Temba_Langanishi={
+		name="Temba Langanishi"
+
+		advisor={
+			slot = high_command
+			idea_token = SHU_Temba_Langanishi
+			traits = {	army_concealment_1 	}
+		}
+
+
+	}
+	SHU_Simbana_Lando={
+		name="Simbana Lando"
+
+		advisor={
+			slot = high_command
+			idea_token = SHU_Simbana_Lando
+			traits = {	navy_screen_2 	}
+		}
+
+
+	}
+	SHU_Amau_Imaifu={
+		name="Amau Imaifu"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { the_banker  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SHU_Bari_Upepo={
+		name="Bari Upepo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHU_Bari_Upepo
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	SHU_Nuru_Panguo={
+		name="Nuru Panguo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHU_Nuru_Panguo
+			traits = {	first_lady 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	SHU_Sefu_Heshawi={
+		name="Sefu Heshawi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHU_Sefu_Heshawi
+			traits = {	leftist_legionary 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	SHU_Kwana_Kani={
+		name="Kwana Kani"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHU_Kwana_Kani
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	SHU_Amaraka_Lando={
+		name="Amaraka Lando"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHU_Amaraka_Lando
+			traits = {	rearmer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	SHU_Mosi_Mshara={
+		name="Mosi Mshara"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SHU_Mosi_Mshara
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	SHU_Kwanga_Mauti={
+		name="Kwanga Mauti"
+
+		advisor={
+			slot = army_chief
+			idea_token = SHU_Kwanga_Mauti
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	SHU_Mbwamau_Mtifu={
+		name="Mbwamau Mtifu"
+
+		advisor={
+			slot = army_chief
+			idea_token = SHU_Mbwamau_Mtifu
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	SHU_Kwanga_Teka={
+		name="Kwanga Teka"
+
+		advisor={
+			slot = army_chief
+			idea_token = SHU_Kwanga_Teka
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	SHU_Bari_Uhawi={
+		name="Bari Uhawi"
+
+		advisor={
+			slot = army_chief
+			idea_token = SHU_Bari_Uhawi
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	SHU_Amaraka_Ukwezi={
+		name="Amaraka Ukwezi"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SHU_Amaraka_Ukwezi
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	SHU_Kwana_Jeno={
+		name="Kwana Jeno"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SHU_Kwana_Jeno
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	SHU_Kama_Histo={
+		name="Kama Histo"
+
+		advisor={
+			slot = air_chief
+			idea_token = SHU_Kama_Histo
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	SHU_Bakari_Meli={
+		name="Bakari Meli"
+
+		advisor={
+			slot = air_chief
+			idea_token = SHU_Bakari_Meli
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	SHU_Lubana_Checho={
+		name="Lubana Checho"
+
+		advisor={
+			slot = high_command
+			idea_token = SHU_Lubana_Checho
+			traits = {	army_entrenchment_1 	}
+		}
+
+
+	}
+	SHU_Lubana_Dari={
+		name="Lubana Dari"
+
+		advisor={
+			slot = high_command
+			idea_token = SHU_Lubana_Dari
+			traits = {	air_close_air_support_2 	}
+		}
+
+
+	}
+	SHU_Simba_Kumbo={
+		name="Simba Kumbo"
+
+		advisor={
+			slot = high_command
+			idea_token = SHU_Simba_Kumbo
+			traits = {	navy_carrier_2 	}
+		}
+
+
+	}
+	SHU_Amari_Jumbasi={
+		name="Amari Jumbasi"
+
+		advisor={
+			slot = high_command
+			idea_token = SHU_Amari_Jumbasi
+			traits = {	navy_screen_1 	}
+		}
+
+
+	}
+	SHU_Mbwano_Kumbo={
+		name="Mbwano Kumbo"
+
+		advisor={
+			slot = high_command
+			idea_token = SHU_Mbwano_Kumbo
+			traits = {	air_airborne_2 	}
+		}
+
+
+	}
+	SHU_Mbwanga_Mvule={
+		name="Mbwanga Mvule"
+
+		advisor={
+			slot = high_command
+			idea_token = SHU_Mbwanga_Mvule
+			traits = {	navy_fleet_logistics_2 	}
+		}
+
+
+	}
+	SHU_Shakari_Majanaji={
+		name="Shakari Majanaji"
+
+		advisor={
+			slot = theorist
+			idea_token = SHU_Shakari_Majanaji
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	SHU_Tanga_Sheli={
+		name="Tanga Sheli"
+
+		advisor={
+			slot = theorist
+			idea_token = SHU_Tanga_Sheli
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	SHU_Jumau_Malme={
+		name="Jumau Malme"
+
+		advisor={
+			slot = theorist
+			idea_token = SHU_Jumau_Malme
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

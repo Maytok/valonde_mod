@@ -1,0 +1,37 @@
+
+state={
+	id=1313
+	name="STATE_1313"
+	manpower = 1832305
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = SUW
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			dockyard = 1
+			
+		}
+		add_core_of = SUW
+	}
+
+	provinces={
+		15019 15020 15021 15022 15023 15024 15025 15026 
+	}
+	local_supplies=0.0 
+}

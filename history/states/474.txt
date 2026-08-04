@@ -1,0 +1,37 @@
+
+state={
+	id=474
+	name="STATE_474"
+	manpower = 41108
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=18
+		chromium=19
+		oil=24
+		rubber=0
+		steel=0
+		tungsten=18
+		coal=46
+	}
+
+	history={
+		
+		owner = OMB
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = OMB
+	}
+
+	provinces={
+		5469 5470 5471 5472 5473 5474 5475 5476 5477 5478 5479 5480 5481 5482 
+	}
+	local_supplies=0.0 
+}

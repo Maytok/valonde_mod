@@ -1,0 +1,37 @@
+
+state={
+	id=245
+	name="STATE_245"
+	manpower = 3732273
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=1
+		chromium=1
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=1
+		coal=2
+	}
+
+	history={
+		
+		owner = DAN
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = DAN
+	}
+
+	provinces={
+		2862 2863 2864 2865 2866 2867 2868 2869 2870 2871 2872 2873 2874 2875 2876 2877 2878 2879 2880 2881 2882 2883 
+	}
+	local_supplies=0.0 
+}

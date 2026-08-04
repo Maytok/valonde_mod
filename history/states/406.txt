@@ -1,0 +1,37 @@
+
+state={
+	id=406
+	name="STATE_406"
+	manpower = 2548758
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = SIR
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = SIR
+	}
+
+	provinces={
+		4681 4682 4683 4684 4685 4686 4687 4688 4689 4690 4691 4692 4693 4694 
+	}
+	local_supplies=0.0 
+}

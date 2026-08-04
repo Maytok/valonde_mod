@@ -1,0 +1,37 @@
+
+state={
+	id=657
+	name="STATE_657"
+	manpower = 2986713
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=7
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = SHA
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = SHA
+	}
+
+	provinces={
+		7721 7722 7723 7724 7725 7726 7727 7728 7729 7730 7731 7732 7733 7734 7735 7736 7737 
+	}
+	local_supplies=0.0 
+}

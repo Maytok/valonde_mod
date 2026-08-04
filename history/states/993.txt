@@ -1,0 +1,37 @@
+
+state={
+	id=993
+	name="STATE_993"
+	manpower = 4787432
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=1
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = HAJ
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = HAJ
+	}
+
+	provinces={
+		11343 11344 11345 11346 11347 11348 11349 11350 11351 11352 11353 11354 11355 11356 11357 11358 11359 11360 11361 11362 11363 11364 11365 11366 11367 11368 
+	}
+	local_supplies=0.0 
+}

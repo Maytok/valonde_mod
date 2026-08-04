@@ -1,0 +1,32 @@
+air_wings = {
+		1169 = { 								
+		medium_plane_airframe_0 = { owner = "NHA" amount = 40 version_name = "Khalama Mk 1" }
+
+	}
+	1080 = { 								
+		small_plane_airframe_0 = { owner = "NHA" amount = 50 version_name = "Matanz Mk 1" }
+
+	}
+	1140 = { 								
+		small_plane_cas_airframe_0 = { owner = "NHA" amount = 50 version_name = "Mawkaba Mk 2" }
+
+	}
+	1105 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "NHA" amount = 44 version_name = "Kutub Mk 1" }
+
+	}
+	1068 = { 								
+		small_plane_airframe_0 = { owner = "NHA" amount = 50 version_name = "Matanz Mk 1" }
+
+	}
+	1104 = { 								
+		large_plane_airframe_0 = { owner = "NHA" amount = 46 version_name = "Zamt Mk 0" }
+
+	}
+	1056 = { 								
+		small_plane_cas_airframe_0 = { owner = "NHA" amount = 50 version_name = "Mawkaba Mk 2" }
+
+	}
+
+
+}

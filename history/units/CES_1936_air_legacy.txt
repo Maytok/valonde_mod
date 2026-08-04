@@ -1,0 +1,16 @@
+air_wings = {
+		598 = { 								
+		CAS_equipment_0 = { owner = "CES" amount = 15 version_name = "Mtifu Mk 0" }
+
+	}
+	877 = { 								
+		fighter_equipment_0 = { owner = "CES" amount = 12 version_name = "Hadisto Mk 1" }
+
+	}
+	389 = { 								
+		nav_bomber_equipment_0 = { owner = "CES" amount = 10 version_name = "Hofumbuka Mk 2" }
+
+	}
+
+
+}

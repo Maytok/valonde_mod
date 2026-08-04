@@ -1,0 +1,29 @@
+air_wings = {
+		69 = { 								
+		small_plane_airframe_0 = { owner = "MTN" amount = 50 version_name = "Bulturt Mk 1" }
+small_plane_airframe_0 = { owner = "MTN" amount = 50 version_name = "Bulturt Mk 1" }
+
+	}
+	948 = { 								
+		small_plane_cas_airframe_0 = { owner = "MTN" amount = 50 version_name = "Sahar Mk 1" }
+
+	}
+	169 = { 								
+		small_plane_cas_airframe_0 = { owner = "MTN" amount = 50 version_name = "Sahar Mk 1" }
+
+	}
+	1530 = { 								
+		small_plane_airframe_0 = { owner = "MTN" amount = 50 version_name = "Bulturt Mk 1" }
+
+	}
+	1523 = { 								
+		medium_plane_airframe_0 = { owner = "MTN" amount = 50 version_name = "Umutlut Mk 2" }
+
+	}
+	396 = { 								
+		medium_plane_airframe_0 = { owner = "MTN" amount = 50 version_name = "Umutlut Mk 2" }
+
+	}
+
+
+}

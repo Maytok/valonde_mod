@@ -1,0 +1,1083 @@
+characters = {
+	TIF_Hamir_Hazn={
+		name="Hamir Hazn"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { national_determinist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TIF_Anwarid_Khalama={
+		name="Anwarid Khalama"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIF_Anwarid_Khalama
+			traits = {	veteran_anti_bolshevik 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	TIF_Anwarid_Madin={
+		name="Anwarid Madin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIF_Anwarid_Madin
+			traits = {	veteran_anti_bolshevik 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	TIF_Saad_Maktarah={
+		name="Saad Maktarah"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIF_Saad_Maktarah
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	TIF_Ibran_Doharb={
+		name="Ibran Doharb"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIF_Ibran_Doharb
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	TIF_Kariq_Suwataad={
+		name="Kariq Suwataad"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIF_Kariq_Suwataad
+			traits = {	noble_beurocrat 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	TIF_Jamir_Yemen={
+		name="Jamir Yemen"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIF_Jamir_Yemen
+			traits = {	agricultural_capitalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	TIF_Khami_Saadin={
+		name="Khami Saadin"
+
+		advisor={
+			slot = army_chief
+			idea_token = TIF_Khami_Saadin
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	TIF_Anwarid_Kawat={
+		name="Anwarid Kawat"
+
+		advisor={
+			slot = army_chief
+			idea_token = TIF_Anwarid_Kawat
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	TIF_Anwarid_Hajaz={
+		name="Anwarid Hajaz"
+
+		advisor={
+			slot = army_chief
+			idea_token = TIF_Anwarid_Hajaz
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	TIF_Yusuf_Masjidda={
+		name="Yusuf Masjidda"
+
+		advisor={
+			slot = army_chief
+			idea_token = TIF_Yusuf_Masjidda
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	TIF_Jami_Harda={
+		name="Jami Harda"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TIF_Jami_Harda
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	TIF_Rammed_Khaman={
+		name="Rammed Khaman"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TIF_Rammed_Khaman
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	TIF_Khammed_Sanamt={
+		name="Khammed Sanamt"
+
+		advisor={
+			slot = air_chief
+			idea_token = TIF_Khammed_Sanamt
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	TIF_Hami_Kitariq={
+		name="Hami Kitariq"
+
+		advisor={
+			slot = air_chief
+			idea_token = TIF_Hami_Kitariq
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	TIF_Omar_Doharb={
+		name="Omar Doharb"
+
+		advisor={
+			slot = high_command
+			idea_token = TIF_Omar_Doharb
+			traits = {	army_cavalry_2 	}
+		}
+
+
+	}
+	TIF_Hami_Hikh={
+		name="Hami Hikh"
+
+		advisor={
+			slot = high_command
+			idea_token = TIF_Hami_Hikh
+			traits = {	air_bomber_interception_1 	}
+		}
+
+
+	}
+	TIF_Yahim_Asat={
+		name="Yahim Asat"
+
+		advisor={
+			slot = high_command
+			idea_token = TIF_Yahim_Asat
+			traits = {	army_artillery_1 	}
+		}
+
+
+	}
+	TIF_Jamza_Ramaniyahr={
+		name="Jamza Ramaniyahr"
+
+		advisor={
+			slot = high_command
+			idea_token = TIF_Jamza_Ramaniyahr
+			traits = {	air_naval_strike_1 	}
+		}
+
+
+	}
+	TIF_Karid_Hijraka={
+		name="Karid Hijraka"
+
+		advisor={
+			slot = high_command
+			idea_token = TIF_Karid_Hijraka
+			traits = {	navy_amphibious_assault_2 	}
+		}
+
+
+	}
+	TIF_Jami_Reej={
+		name="Jami Reej"
+
+		advisor={
+			slot = high_command
+			idea_token = TIF_Jami_Reej
+			traits = {	navy_capital_ship_2 	}
+		}
+
+
+	}
+	TIF_Bilal_Kitariq={
+		name="Bilal Kitariq"
+
+		
+		country_leader={
+			ideology=nazism
+			traits = { spirit_of_genghis  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TIF_Ahmoud_Kawat={
+		name="Ahmoud Kawat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIF_Ahmoud_Kawat
+			traits = {	generallissimo 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	TIF_Ibrah_Shibl={
+		name="Ibrah Shibl"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIF_Ibrah_Shibl
+			traits = {	autokrator 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	TIF_Fariq_Raba={
+		name="Fariq Raba"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIF_Fariq_Raba
+			traits = {	warmonger 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	TIF_Ahmoud_Shibl={
+		name="Ahmoud Shibl"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIF_Ahmoud_Shibl
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	TIF_Anwariq_Suwatin={
+		name="Anwariq Suwatin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIF_Anwariq_Suwatin
+			traits = {	autocratic_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	TIF_Zaisalid_Shana={
+		name="Zaisalid Shana"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIF_Zaisalid_Shana
+			traits = {	archon_basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	TIF_Abdullal_Hijraka={
+		name="Abdullal Hijraka"
+
+		advisor={
+			slot = army_chief
+			idea_token = TIF_Abdullal_Hijraka
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	TIF_Adnan_Namartoum={
+		name="Adnan Namartoum"
+
+		advisor={
+			slot = army_chief
+			idea_token = TIF_Adnan_Namartoum
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	TIF_Khami_Ghur={
+		name="Khami Ghur"
+
+		advisor={
+			slot = army_chief
+			idea_token = TIF_Khami_Ghur
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	TIF_Saad_Majartourhan={
+		name="Saad Majartourhan"
+
+		advisor={
+			slot = army_chief
+			idea_token = TIF_Saad_Majartourhan
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	TIF_Ibrahya_Ramanzim={
+		name="Ibrahya Ramanzim"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TIF_Ibrahya_Ramanzim
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	TIF_Anwar_Yemen={
+		name="Anwar Yemen"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TIF_Anwar_Yemen
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	TIF_Mohal_Maktarah={
+		name="Mohal Maktarah"
+
+		advisor={
+			slot = air_chief
+			idea_token = TIF_Mohal_Maktarah
+			traits = {	air_chief_all_weather_1 	}
+		}
+
+
+	}
+	TIF_Kariq_Matanz={
+		name="Kariq Matanz"
+
+		advisor={
+			slot = air_chief
+			idea_token = TIF_Kariq_Matanz
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	TIF_Samariq_Harq={
+		name="Samariq Harq"
+
+		advisor={
+			slot = high_command
+			idea_token = TIF_Samariq_Harq
+			traits = {	air_tactical_bombing_2 	}
+		}
+
+
+	}
+	TIF_Anwar_Imaada={
+		name="Anwar Imaada"
+
+		advisor={
+			slot = high_command
+			idea_token = TIF_Anwar_Imaada
+			traits = {	navy_submarine_2 	}
+		}
+
+
+	}
+	TIF_Faisan_Maghra={
+		name="Faisan Maghra"
+
+		advisor={
+			slot = high_command
+			idea_token = TIF_Faisan_Maghra
+			traits = {	army_concealment_2 	}
+		}
+
+
+	}
+	TIF_Samza_Qadi={
+		name="Samza Qadi"
+
+		advisor={
+			slot = high_command
+			idea_token = TIF_Samza_Qadi
+			traits = {	army_concealment_1 	}
+		}
+
+
+	}
+	TIF_Anwarid_Hikmalaktasa={
+		name="Anwarid Hikmalaktasa"
+
+		advisor={
+			slot = high_command
+			idea_token = TIF_Anwarid_Hikmalaktasa
+			traits = {	air_air_combat_training_2 	}
+		}
+
+
+	}
+	TIF_Mahmad_Zamt={
+		name="Mahmad Zamt"
+
+		advisor={
+			slot = high_command
+			idea_token = TIF_Mahmad_Zamt
+			traits = {	air_strategic_bombing_2 	}
+		}
+
+
+	}
+	TIF_Samza_Maghrahr={
+		name="Samza Maghrahr"
+
+		
+		country_leader={
+			ideology=marxism
+			traits = { reluctant_stalinist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TIF_Ibrahya_Makanam={
+		name="Ibrahya Makanam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIF_Ibrahya_Makanam
+			traits = {	political_dancer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	TIF_Nabilal_Sahraba={
+		name="Nabilal Sahraba"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIF_Nabilal_Sahraba
+			traits = {	political_dancer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	TIF_Ramir_Hikmalaktasa={
+		name="Ramir Hikmalaktasa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIF_Ramir_Hikmalaktasa
+			traits = {	indomitable_perseverance 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	TIF_Bilah_Khaman={
+		name="Bilah Khaman"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIF_Bilah_Khaman
+			traits = {	political_dancer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	TIF_Saad_Rawat={
+		name="Saad Rawat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIF_Saad_Rawat
+			traits = {	leftist_intellectual 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	TIF_Anwariq_Shana={
+		name="Anwariq Shana"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIF_Anwariq_Shana
+			traits = {	anti_bolshevik_leftist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	TIF_Bilal_Khalama={
+		name="Bilal Khalama"
+
+		advisor={
+			slot = army_chief
+			idea_token = TIF_Bilal_Khalama
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	TIF_Hami_Hayr={
+		name="Hami Hayr"
+
+		advisor={
+			slot = army_chief
+			idea_token = TIF_Hami_Hayr
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	TIF_Khammed_Maml={
+		name="Khammed Maml"
+
+		advisor={
+			slot = army_chief
+			idea_token = TIF_Khammed_Maml
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	TIF_Anwarid_Irabil={
+		name="Anwarid Irabil"
+
+		advisor={
+			slot = army_chief
+			idea_token = TIF_Anwarid_Irabil
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	TIF_Nabilali_Maml={
+		name="Nabilali Maml"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TIF_Nabilali_Maml
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	TIF_Kariq_Kitariq={
+		name="Kariq Kitariq"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TIF_Kariq_Kitariq
+			traits = {	navy_chief_reform_2 	}
+		}
+
+
+	}
+	TIF_Majid_Mawkana={
+		name="Majid Mawkana"
+
+		advisor={
+			slot = air_chief
+			idea_token = TIF_Majid_Mawkana
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	TIF_Ahmoud_Diwat={
+		name="Ahmoud Diwat"
+
+		advisor={
+			slot = air_chief
+			idea_token = TIF_Ahmoud_Diwat
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	TIF_Zaisan_Madi={
+		name="Zaisan Madi"
+
+		advisor={
+			slot = high_command
+			idea_token = TIF_Zaisan_Madi
+			traits = {	air_air_superiority_1 	}
+		}
+
+
+	}
+	TIF_Hassan_Fajd={
+		name="Hassan Fajd"
+
+		advisor={
+			slot = high_command
+			idea_token = TIF_Hassan_Fajd
+			traits = {	army_regrouping_2 	}
+		}
+
+
+	}
+	TIF_Omar_Irabil={
+		name="Omar Irabil"
+
+		advisor={
+			slot = high_command
+			idea_token = TIF_Omar_Irabil
+			traits = {	air_air_superiority_1 	}
+		}
+
+
+	}
+	TIF_Karid_Narab={
+		name="Karid Narab"
+
+		advisor={
+			slot = high_command
+			idea_token = TIF_Karid_Narab
+			traits = {	air_tactical_bombing_2 	}
+		}
+
+
+	}
+	TIF_Ramir_Burub={
+		name="Ramir Burub"
+
+		advisor={
+			slot = high_command
+			idea_token = TIF_Ramir_Burub
+			traits = {	army_concealment_2 	}
+		}
+
+
+	}
+	TIF_Abdullal_Diwat={
+		name="Abdullal Diwat"
+
+		advisor={
+			slot = high_command
+			idea_token = TIF_Abdullal_Diwat
+			traits = {	army_cavalry_1 	}
+		}
+
+
+	}
+	TIF_Bilah_Khalama={
+		name="Bilah Khalama"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { veteran_minister  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TIF_Samza_Maml={
+		name="Samza Maml"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIF_Samza_Maml
+			traits = {	democratic_crusader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	TIF_Khal_Mawkana={
+		name="Khal Mawkana"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIF_Khal_Mawkana
+			traits = {	the_banker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	TIF_Jamza_Masra={
+		name="Jamza Masra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIF_Jamza_Masra
+			traits = {	veteran_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	TIF_Adnan_Suwatin={
+		name="Adnan Suwatin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIF_Adnan_Suwatin
+			traits = {	democratic_crusader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	TIF_Anwariq_Khaman={
+		name="Anwariq Khaman"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIF_Anwariq_Khaman
+			traits = {	leftist_legionary 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	TIF_Faid_Tifl={
+		name="Faid Tifl"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIF_Faid_Tifl
+			traits = {	rearmer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	TIF_Mohal_Masjidda={
+		name="Mohal Masjidda"
+
+		advisor={
+			slot = army_chief
+			idea_token = TIF_Mohal_Masjidda
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	TIF_Adnan_Saabr={
+		name="Adnan Saabr"
+
+		advisor={
+			slot = army_chief
+			idea_token = TIF_Adnan_Saabr
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	TIF_Khami_Sharitaadi={
+		name="Khami Sharitaadi"
+
+		advisor={
+			slot = army_chief
+			idea_token = TIF_Khami_Sharitaadi
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	TIF_Mohami_Shabala={
+		name="Mohami Shabala"
+
+		advisor={
+			slot = army_chief
+			idea_token = TIF_Mohami_Shabala
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	TIF_Nabilahim_Raba={
+		name="Nabilahim Raba"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TIF_Nabilahim_Raba
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	TIF_Anwar_Tharikma={
+		name="Anwar Tharikma"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TIF_Anwar_Tharikma
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	TIF_Hamir_Sultab={
+		name="Hamir Sultab"
+
+		advisor={
+			slot = air_chief
+			idea_token = TIF_Hamir_Sultab
+			traits = {	air_chief_all_weather_1 	}
+		}
+
+
+	}
+	TIF_Hassan_Rawat={
+		name="Hassan Rawat"
+
+		advisor={
+			slot = air_chief
+			idea_token = TIF_Hassan_Rawat
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	TIF_Anwarid_Tifa={
+		name="Anwarid Tifa"
+
+		advisor={
+			slot = high_command
+			idea_token = TIF_Anwarid_Tifa
+			traits = {	army_concealment_1 	}
+		}
+
+
+	}
+	TIF_Hamir_Diwat={
+		name="Hamir Diwat"
+
+		advisor={
+			slot = high_command
+			idea_token = TIF_Hamir_Diwat
+			traits = {	navy_naval_air_defense_1 	}
+		}
+
+
+	}
+	TIF_Yusuf_Hijraka={
+		name="Yusuf Hijraka"
+
+		advisor={
+			slot = high_command
+			idea_token = TIF_Yusuf_Hijraka
+			traits = {	air_air_superiority_1 	}
+		}
+
+
+	}
+	TIF_Yahmal_Mawkana={
+		name="Yahmal Mawkana"
+
+		advisor={
+			slot = high_command
+			idea_token = TIF_Yahmal_Mawkana
+			traits = {	air_airborne_2 	}
+		}
+
+
+	}
+	TIF_Jamali_Hijra={
+		name="Jamali Hijra"
+
+		advisor={
+			slot = high_command
+			idea_token = TIF_Jamali_Hijra
+			traits = {	navy_screen_2 	}
+		}
+
+
+	}
+	TIF_Anwarid_Hayahr={
+		name="Anwarid Hayahr"
+
+		advisor={
+			slot = high_command
+			idea_token = TIF_Anwarid_Hayahr
+			traits = {	air_pilot_training_2 	}
+		}
+
+
+	}
+	TIF_Jammed_Shana={
+		name="Jammed Shana"
+
+		advisor={
+			slot = theorist
+			idea_token = TIF_Jammed_Shana
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	TIF_Zaid_Shabala={
+		name="Zaid Shabala"
+
+		advisor={
+			slot = theorist
+			idea_token = TIF_Zaid_Shabala
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	TIF_Imran_Turahra={
+		name="Imran Turahra"
+
+		advisor={
+			slot = theorist
+			idea_token = TIF_Imran_Turahra
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

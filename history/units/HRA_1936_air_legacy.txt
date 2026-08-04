@@ -1,0 +1,25 @@
+air_wings = {
+		1467 = { 								
+		strat_bomber_equipment_0 = { owner = "HRA" amount = 30 version_name = "Svezde Mk 0" }
+
+	}
+	1598 = { 								
+		CAS_equipment_0 = { owner = "HRA" amount = 31 version_name = "Tezak Mk 1" }
+
+	}
+	1486 = { 								
+		fighter_equipment_0 = { owner = "HRA" amount = 33 version_name = "Losto Mk 1" }
+
+	}
+	1420 = { 								
+		nav_bomber_equipment_0 = { owner = "HRA" amount = 33 version_name = "Morenik Mk 2" }
+
+	}
+	1415 = { 								
+		strat_bomber_equipment_0 = { owner = "HRA" amount = 27 version_name = "Nebrojst Mk 1" }
+tac_bomber_equipment_0 = { owner = "HRA" amount = 28 version_name = "Obarstvo Mk 2" }
+
+	}
+
+
+}

@@ -1,0 +1,280 @@
+capital = 318
+
+oob = "LUF_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "LUF_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "LUF_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	support_weapons= 1
+	tech_trucks= 1
+	tech_support= 1
+	gw_artillery= 1
+	infantry_weapons1= 1
+	tech_recon= 1
+	basic_machine_tools= 1
+	fuel_silos= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		engine_tech_1 = 1
+		armor_tech_1 = 1
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "LUF_1936_air_bba"
+		set_technology = {
+			
+		}
+
+	else = {
+		set_air_oob = "LUF_1936_air_legacy"
+		set_technology = {
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	early_destroyer = 1
+	
+	}
+	set_naval_oob = "LUF_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Weise Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	early_ship_hull_light = 1
+	sonar = 1
+	
+	}
+	set_naval_oob = "LUF_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Weise Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = ship_anti_air_1
+				rear_1_custom_slot = ship_anti_air_1
+			}
+		}
+
+	}
+
+
+recruit_character = LUF_Anselmut_Hilig
+recruit_character = LUF_Ulrich_Tonneelle
+recruit_character = LUF_Fritz_Staginze
+recruit_character = LUF_Nielm_Hilig
+recruit_character = LUF_Matto_Festurm
+recruit_character = LUF_Wilhelmut_Fammele
+recruit_character = LUF_Helm_Magent
+recruit_character = LUF_Ulrich_Stadter
+recruit_character = LUF_Frichars_Marster
+recruit_character = LUF_Volfred_Staginze
+recruit_character = LUF_Nielm_Lichwest
+recruit_character = LUF_Johar_Steraube
+recruit_character = LUF_Heif_Beitze
+recruit_character = LUF_Helm_Staginze
+recruit_character = LUF_Magnus_Blum
+recruit_character = LUF_Jenrik_Klaubend
+recruit_character = LUF_Knus_Heise
+recruit_character = LUF_Frik_Frost
+recruit_character = LUF_Jann_Herden
+recruit_character = LUF_Magnut_Gotsch
+recruit_character = LUF_Soren_Schloster
+recruit_character = LUF_Eirk_Wind
+recruit_character = LUF_Volf_Meel
+recruit_character = LUF_Karans_Wind
+recruit_character = LUF_Hansels_Seger
+recruit_character = LUF_Oskarl_Fest
+recruit_character = LUF_Bers_Nacht
+recruit_character = LUF_Knut_Seille
+recruit_character = LUF_Emilhelm_Bucht
+recruit_character = LUF_Oskarald_Golz
+recruit_character = LUF_Heinrik_Eise
+recruit_character = LUF_Sorenrik_Golz
+recruit_character = LUF_Soren_Wind
+recruit_character = LUF_Matthias_Frost
+recruit_character = LUF_Sten_Bogenigen
+recruit_character = LUF_Frann_Runke
+recruit_character = LUF_Volf_Bogeld
+recruit_character = LUF_Knut_Licht
+recruit_character = LUF_Reif_Weilbe
+recruit_character = LUF_Franz_Priebenzeste
+recruit_character = LUF_Soren_Kopf
+recruit_character = LUF_Wilhelmut_Bogeld
+recruit_character = LUF_Heif_Tonneelle
+recruit_character = LUF_Reif_Segenig
+recruit_character = LUF_Karans_Prizonne
+recruit_character = LUF_Matthias_Prizonne
+recruit_character = LUF_Frich_Gest
+recruit_character = LUF_Nielm_Meel
+recruit_character = LUF_Heif_Ster
+recruit_character = LUF_Hermans_Gest
+recruit_character = LUF_Sorenrik_Eise
+recruit_character = LUF_Heif_Bogeld
+recruit_character = LUF_Matto_Krab
+recruit_character = LUF_Fran_Dorfahr
+recruit_character = LUF_Nielm_Bogenigen
+recruit_character = LUF_Frichars_Fammele
+recruit_character = LUF_Kasparl_Greuecke
+recruit_character = LUF_Bjorg_Staginze
+recruit_character = LUF_Andermans_Reis
+recruit_character = LUF_Sten_Blum
+recruit_character = LUF_Kasparl_Kammeld
+recruit_character = LUF_Anselm_Seise
+recruit_character = LUF_Andermans_Inse
+recruit_character = LUF_Karans_Ehre
+recruit_character = LUF_Hanz_Bott
+recruit_character = LUF_Heinrik_Geste
+recruit_character = LUF_Hermans_Beiseriffeit
+recruit_character = LUF_Volfred_Meel
+recruit_character = LUF_Bjorg_Blus
+recruit_character = LUF_Knut_Dorhe
+recruit_character = LUF_Helm_Bott
+recruit_character = LUF_Wilhelmut_Eise
+recruit_character = LUF_Volf_Volz
+recruit_character = LUF_Sigurd_Legen
+recruit_character = LUF_Sten_Kopf
+recruit_character = LUF_Dirik_Spruch
+recruit_character = LUF_Otthiaspar_Fammele
+recruit_character = LUF_Fritz_Goteinze
+recruit_character = LUF_Bjoren_Runke
+recruit_character = LUF_Wilhelmut_Legenigienen
+recruit_character = LUF_Knus_Beiseriffeit
+recruit_character = LUF_Bjored_Bruderag
+recruit_character = LUF_Heinholfren_Meel
+recruit_character = LUF_Fritz_Herden
+recruit_character = LUF_Oskars_Baum
+recruit_character = LUF_Matto_Seise
+recruit_character = LUF_Rold_Beitz
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 3
+set_convoys = 0
+set_stability = 0.90
+set_war_support = 0.33
+
+add_ideas = {
+volunteer_only
+low_economic_mobilisation
+free_trade
+}
+
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1932.7.12"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 34
+	fascism = 12
+	communism = 28
+	neutrality = 26
+}
+
+
+
+
+

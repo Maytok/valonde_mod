@@ -1,0 +1,37 @@
+
+state={
+	id=308
+	name="STATE_308"
+	manpower = 2593331
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=10
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = LIJ
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			
+		}
+		add_core_of = LIJ
+	}
+
+	provinces={
+		3588 3589 3590 3591 3592 3593 3594 3595 3596 3597 3598 3599 3600 3601 3602 
+	}
+	local_supplies=0.0 
+}

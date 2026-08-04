@@ -1,0 +1,37 @@
+
+state={
+	id=830
+	name="STATE_830"
+	manpower = 3884805
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=18
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = GRU
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = GRU
+	}
+
+	provinces={
+		9677 9678 9679 9680 9681 9682 9683 9684 9685 9686 9687 9688 9689 9690 9691 9692 9693 9694 9695 9696 9697 9698 9699 9700 
+	}
+	local_supplies=0.0 
+}

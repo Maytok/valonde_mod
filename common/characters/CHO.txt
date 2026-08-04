@@ -1,0 +1,1083 @@
+characters = {
+	CHO_Nacom_Nohilam={
+		name="Nacom Nohilam"
+
+		
+		country_leader={
+			ideology=oligarchism
+			traits = { first_lady  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	CHO_Kukulkanek_Witznai={
+		name="Kukulkanek Witznai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CHO_Kukulkanek_Witznai
+			traits = {	veteran_anti_bolshevik 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	CHO_Tecun_Caran={
+		name="Tecun Caran"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CHO_Tecun_Caran
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	CHO_Yaxkin_Kanil={
+		name="Yaxkin Kanil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CHO_Yaxkin_Kanil
+			traits = {	agricultural_nationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	CHO_Bacatl_Kate={
+		name="Bacatl Kate"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CHO_Bacatl_Kate
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	CHO_Pakan_Cozumel={
+		name="Pakan Cozumel"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CHO_Pakan_Cozumel
+			traits = {	agricultural_nationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	CHO_Nacatl_Bahuwen={
+		name="Nacatl Bahuwen"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CHO_Nacatl_Bahuwen
+			traits = {	noble_beurocrat 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	CHO_Kukulkal_Yalan={
+		name="Kukulkal Yalan"
+
+		advisor={
+			slot = army_chief
+			idea_token = CHO_Kukulkal_Yalan
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	CHO_Nacom_Tunabalancue={
+		name="Nacom Tunabalancue"
+
+		advisor={
+			slot = army_chief
+			idea_token = CHO_Nacom_Tunabalancue
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	CHO_Kukulkan_Caracomte={
+		name="Kukulkan Caracomte"
+
+		advisor={
+			slot = army_chief
+			idea_token = CHO_Kukulkan_Caracomte
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	CHO_Ahkin_Chilacom={
+		name="Ahkin Chilacom"
+
+		advisor={
+			slot = army_chief
+			idea_token = CHO_Ahkin_Chilacom
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	CHO_Acatl_Kukulkaba={
+		name="Acatl Kukulkaba"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CHO_Acatl_Kukulkaba
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	CHO_Ekchua_Tohok={
+		name="Ekchua Tohok"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CHO_Ekchua_Tohok
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	CHO_Chua_Chichenquen={
+		name="Chua Chichenquen"
+
+		advisor={
+			slot = air_chief
+			idea_token = CHO_Chua_Chichenquen
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	CHO_Kukulkan_Kancuen={
+		name="Kukulkan Kancuen"
+
+		advisor={
+			slot = air_chief
+			idea_token = CHO_Kukulkan_Kancuen
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	CHO_Nacatl_Sayilanil={
+		name="Nacatl Sayilanil"
+
+		advisor={
+			slot = high_command
+			idea_token = CHO_Nacatl_Sayilanil
+			traits = {	air_strategic_bombing_1 	}
+		}
+
+
+	}
+	CHO_Ahkin_Yaxun={
+		name="Ahkin Yaxun"
+
+		advisor={
+			slot = high_command
+			idea_token = CHO_Ahkin_Yaxun
+			traits = {	army_entrenchment_1 	}
+		}
+
+
+	}
+	CHO_Pakan_Chilaktunila={
+		name="Pakan Chilaktunila"
+
+		advisor={
+			slot = high_command
+			idea_token = CHO_Pakan_Chilaktunila
+			traits = {	navy_capital_ship_1 	}
+		}
+
+
+	}
+	CHO_Popo_Noholkin={
+		name="Popo Noholkin"
+
+		advisor={
+			slot = high_command
+			idea_token = CHO_Popo_Noholkin
+			traits = {	navy_screen_2 	}
+		}
+
+
+	}
+	CHO_Ekchichen_Kanil={
+		name="Ekchichen Kanil"
+
+		advisor={
+			slot = high_command
+			idea_token = CHO_Ekchichen_Kanil
+			traits = {	navy_capital_ship_1 	}
+		}
+
+
+	}
+	CHO_Chichen_Caracom={
+		name="Chichen Caracom"
+
+		advisor={
+			slot = high_command
+			idea_token = CHO_Chichen_Caracom
+			traits = {	navy_capital_ship_2 	}
+		}
+
+
+	}
+	CHO_Ekchichen_Chuwen={
+		name="Ekchichen Chuwen"
+
+		
+		country_leader={
+			ideology=fascism_ideology
+			traits = { polemarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	CHO_Kukulkal_Bona={
+		name="Kukulkal Bona"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CHO_Kukulkal_Bona
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	CHO_Ekchak_Yalan={
+		name="Ekchak Yalan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CHO_Ekchak_Yalan
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	CHO_Ekchak_Chil={
+		name="Ekchak Chil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CHO_Ekchak_Chil
+			traits = {	collaborator_king 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	CHO_Yaxkin_Ajtznaabah={
+		name="Yaxkin Ajtznaabah"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CHO_Yaxkin_Ajtznaabah
+			traits = {	warmonger 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	CHO_Tohichen_Tzikin={
+		name="Tohichen Tzikin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CHO_Tohichen_Tzikin
+			traits = {	vapsid_economist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	CHO_Tohichen_Bona={
+		name="Tohichen Bona"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CHO_Tohichen_Bona
+			traits = {	collaborator_king 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	CHO_Chichen_Zotzikin={
+		name="Chichen Zotzikin"
+
+		advisor={
+			slot = army_chief
+			idea_token = CHO_Chichen_Zotzikin
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	CHO_Pakan_Witzamna={
+		name="Pakan Witzamna"
+
+		advisor={
+			slot = army_chief
+			idea_token = CHO_Pakan_Witzamna
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	CHO_Ekchak_Zotz={
+		name="Ekchak Zotz"
+
+		advisor={
+			slot = army_chief
+			idea_token = CHO_Ekchak_Zotz
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	CHO_Tohil_Witznai={
+		name="Tohil Witznai"
+
+		advisor={
+			slot = army_chief
+			idea_token = CHO_Tohil_Witznai
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	CHO_Kukulkanek_Zotzikin={
+		name="Kukulkanek Zotzikin"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CHO_Kukulkanek_Zotzikin
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	CHO_Chichen_Naabahpu={
+		name="Chichen Naabahpu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CHO_Chichen_Naabahpu
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	CHO_Itzam_Tzib={
+		name="Itzam Tzib"
+
+		advisor={
+			slot = air_chief
+			idea_token = CHO_Itzam_Tzib
+			traits = {	air_chief_all_weather_2 	}
+		}
+
+
+	}
+	CHO_Nacom_Zotz={
+		name="Nacom Zotz"
+
+		advisor={
+			slot = air_chief
+			idea_token = CHO_Nacom_Zotz
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	CHO_Acatl_Kancuen={
+		name="Acatl Kancuen"
+
+		advisor={
+			slot = high_command
+			idea_token = CHO_Acatl_Kancuen
+			traits = {	air_strategic_bombing_1 	}
+		}
+
+
+	}
+	CHO_Chua_Bacolkal={
+		name="Chua Bacolkal"
+
+		advisor={
+			slot = high_command
+			idea_token = CHO_Chua_Bacolkal
+			traits = {	air_pilot_training_1 	}
+		}
+
+
+	}
+	CHO_Nacom_Itzikin={
+		name="Nacom Itzikin"
+
+		advisor={
+			slot = high_command
+			idea_token = CHO_Nacom_Itzikin
+			traits = {	air_air_superiority_1 	}
+		}
+
+
+	}
+	CHO_Bacatl_Aguate={
+		name="Bacatl Aguate"
+
+		advisor={
+			slot = high_command
+			idea_token = CHO_Bacatl_Aguate
+			traits = {	air_naval_strike_2 	}
+		}
+
+
+	}
+	CHO_Bacatl_Witzik={
+		name="Bacatl Witzik"
+
+		advisor={
+			slot = high_command
+			idea_token = CHO_Bacatl_Witzik
+			traits = {	navy_screen_2 	}
+		}
+
+
+	}
+	CHO_Kukulkan_Caracom={
+		name="Kukulkan Caracom"
+
+		advisor={
+			slot = high_command
+			idea_token = CHO_Kukulkan_Caracom
+			traits = {	navy_capital_ship_1 	}
+		}
+
+
+	}
+	CHO_Tohichen_Kate={
+		name="Tohichen Kate"
+
+		
+		country_leader={
+			ideology=anti_revisionism
+			traits = { political_dancer  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	CHO_Chua_Kanil={
+		name="Chua Kanil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CHO_Chua_Kanil
+			traits = {	anti_bolshevik_leftist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	CHO_Ekchakal_Sakha={
+		name="Ekchakal Sakha"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CHO_Ekchakal_Sakha
+			traits = {	devoted_marxist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	CHO_Itzam_Noholkin={
+		name="Itzam Noholkin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CHO_Itzam_Noholkin
+			traits = {	marxist_fundamentalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	CHO_Oxib_Kanil={
+		name="Oxib Kanil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CHO_Oxib_Kanil
+			traits = {	anti_bolshevik_leftist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	CHO_Kukulkan_Tzam={
+		name="Kukulkan Tzam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CHO_Kukulkan_Tzam
+			traits = {	leftist_intellectual 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	CHO_Acab_Bonab={
+		name="Acab Bonab"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CHO_Acab_Bonab
+			traits = {	anti_bolshevik_leftist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	CHO_Nacom_Halamna={
+		name="Nacom Halamna"
+
+		advisor={
+			slot = army_chief
+			idea_token = CHO_Nacom_Halamna
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	CHO_Ekchakal_Ahaktunilaco={
+		name="Ekchakal Ahaktunilaco"
+
+		advisor={
+			slot = army_chief
+			idea_token = CHO_Ekchakal_Ahaktunilaco
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	CHO_Bacatl_Sayilanil={
+		name="Bacatl Sayilanil"
+
+		advisor={
+			slot = army_chief
+			idea_token = CHO_Bacatl_Sayilanil
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	CHO_Popo_Imox={
+		name="Popo Imox"
+
+		advisor={
+			slot = army_chief
+			idea_token = CHO_Popo_Imox
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	CHO_Ekchakal_Kukulkaba={
+		name="Ekchakal Kukulkaba"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CHO_Ekchakal_Kukulkaba
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	CHO_Moctez_Kukulkaba={
+		name="Moctez Kukulkaba"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CHO_Moctez_Kukulkaba
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	CHO_Kukulkan_Akbe={
+		name="Kukulkan Akbe"
+
+		advisor={
+			slot = air_chief
+			idea_token = CHO_Kukulkan_Akbe
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	CHO_Ekchakal_Tzalomte={
+		name="Ekchakal Tzalomte"
+
+		advisor={
+			slot = air_chief
+			idea_token = CHO_Ekchakal_Tzalomte
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	CHO_Kukulkalam_Yalan={
+		name="Kukulkalam Yalan"
+
+		advisor={
+			slot = high_command
+			idea_token = CHO_Kukulkalam_Yalan
+			traits = {	navy_screen_1 	}
+		}
+
+
+	}
+	CHO_Acab_Nohil={
+		name="Acab Nohil"
+
+		advisor={
+			slot = high_command
+			idea_token = CHO_Acab_Nohil
+			traits = {	army_logistics_1 	}
+		}
+
+
+	}
+	CHO_Itzam_Tzol={
+		name="Itzam Tzol"
+
+		advisor={
+			slot = high_command
+			idea_token = CHO_Itzam_Tzol
+			traits = {	navy_screen_2 	}
+		}
+
+
+	}
+	CHO_Tohichen_Bonab={
+		name="Tohichen Bonab"
+
+		advisor={
+			slot = high_command
+			idea_token = CHO_Tohichen_Bonab
+			traits = {	air_pilot_training_1 	}
+		}
+
+
+	}
+	CHO_Moctez_Bakchichen={
+		name="Moctez Bakchichen"
+
+		advisor={
+			slot = high_command
+			idea_token = CHO_Moctez_Bakchichen
+			traits = {	navy_naval_air_defense_2 	}
+		}
+
+
+	}
+	CHO_Moctez_Nojil={
+		name="Moctez Nojil"
+
+		advisor={
+			slot = high_command
+			idea_token = CHO_Moctez_Nojil
+			traits = {	air_close_air_support_1 	}
+		}
+
+
+	}
+	CHO_Popo_Nojil={
+		name="Popo Nojil"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { leftist_legionary  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	CHO_Itzam_Balahlak={
+		name="Itzam Balahlak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CHO_Itzam_Balahlak
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	CHO_Kukulkanek_Tzam={
+		name="Kukulkanek Tzam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CHO_Kukulkanek_Tzam
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	CHO_Chichen_Witznai={
+		name="Chichen Witznai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CHO_Chichen_Witznai
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	CHO_Kukulkal_Oxlam={
+		name="Kukulkal Oxlam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CHO_Kukulkal_Oxlam
+			traits = {	veteran_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	CHO_Ekchichen_Xban={
+		name="Ekchichen Xban"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CHO_Ekchichen_Xban
+			traits = {	the_banker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	CHO_Acab_Kanil={
+		name="Acab Kanil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CHO_Acab_Kanil
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	CHO_Ahkin_Tzikin={
+		name="Ahkin Tzikin"
+
+		advisor={
+			slot = army_chief
+			idea_token = CHO_Ahkin_Tzikin
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	CHO_Nacom_Witzamna={
+		name="Nacom Witzamna"
+
+		advisor={
+			slot = army_chief
+			idea_token = CHO_Nacom_Witzamna
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	CHO_Tohil_Kabalakal={
+		name="Tohil Kabalakal"
+
+		advisor={
+			slot = army_chief
+			idea_token = CHO_Tohil_Kabalakal
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	CHO_Kukulkanek_Itzal={
+		name="Kukulkanek Itzal"
+
+		advisor={
+			slot = army_chief
+			idea_token = CHO_Kukulkanek_Itzal
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	CHO_Ekchichen_Chok={
+		name="Ekchichen Chok"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CHO_Ekchichen_Chok
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	CHO_Balam_Etzib={
+		name="Balam Etzib"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CHO_Balam_Etzib
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	CHO_Balam_Halamna={
+		name="Balam Halamna"
+
+		advisor={
+			slot = air_chief
+			idea_token = CHO_Balam_Halamna
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	CHO_Moctez_Ajtznaabah={
+		name="Moctez Ajtznaabah"
+
+		advisor={
+			slot = air_chief
+			idea_token = CHO_Moctez_Ajtznaabah
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	CHO_Ekchua_Kukulkaba={
+		name="Ekchua Kukulkaba"
+
+		advisor={
+			slot = high_command
+			idea_token = CHO_Ekchua_Kukulkaba
+			traits = {	air_airborne_1 	}
+		}
+
+
+	}
+	CHO_Ekchichen_Katecab={
+		name="Ekchichen Katecab"
+
+		advisor={
+			slot = high_command
+			idea_token = CHO_Ekchichen_Katecab
+			traits = {	air_pilot_training_1 	}
+		}
+
+
+	}
+	CHO_Kukulkalam_Chilam={
+		name="Kukulkalam Chilam"
+
+		advisor={
+			slot = high_command
+			idea_token = CHO_Kukulkalam_Chilam
+			traits = {	navy_anti_submarine_1 	}
+		}
+
+
+	}
+	CHO_Moctez_Bahuwen={
+		name="Moctez Bahuwen"
+
+		advisor={
+			slot = high_command
+			idea_token = CHO_Moctez_Bahuwen
+			traits = {	army_logistics_1 	}
+		}
+
+
+	}
+	CHO_Popo_Kate={
+		name="Popo Kate"
+
+		advisor={
+			slot = high_command
+			idea_token = CHO_Popo_Kate
+			traits = {	army_concealment_2 	}
+		}
+
+
+	}
+	CHO_Chichen_Ahak={
+		name="Chichen Ahak"
+
+		advisor={
+			slot = high_command
+			idea_token = CHO_Chichen_Ahak
+			traits = {	navy_amphibious_assault_1 	}
+		}
+
+
+	}
+	CHO_Acatl_Sakha={
+		name="Acatl Sakha"
+
+		advisor={
+			slot = theorist
+			idea_token = CHO_Acatl_Sakha
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	CHO_Tecun_Tzamna={
+		name="Tecun Tzamna"
+
+		advisor={
+			slot = theorist
+			idea_token = CHO_Tecun_Tzamna
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	CHO_Ekchichen_Katecanquen={
+		name="Ekchichen Katecanquen"
+
+		advisor={
+			slot = theorist
+			idea_token = CHO_Ekchichen_Katecanquen
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

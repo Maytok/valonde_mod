@@ -1,0 +1,17 @@
+air_wings = {
+		240 = { 								
+		small_plane_airframe_0 = { owner = "OPU" amount = 10 version_name = "Colorum Mk 1" }
+
+	}
+	694 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "OPU" amount = 13 version_name = "Lens Mk 0" }
+
+	}
+	233 = { 								
+		small_plane_cas_airframe_0 = { owner = "OPU" amount = 16 version_name = "Flum Mk 0" }
+medium_plane_airframe_0 = { owner = "OPU" amount = 17 version_name = "Milva Mk 2" }
+
+	}
+
+
+}

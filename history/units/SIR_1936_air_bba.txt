@@ -1,0 +1,17 @@
+air_wings = {
+		428 = { 								
+		large_plane_airframe_0 = { owner = "SIR" amount = 5 version_name = "Nyoto Mk 2" }
+medium_plane_airframe_0 = { owner = "SIR" amount = 8 version_name = "Imaifu Mk 0" }
+
+	}
+	776 = { 								
+		small_plane_cas_airframe_0 = { owner = "SIR" amount = 6 version_name = "Shini Mk 0" }
+
+	}
+	368 = { 								
+		small_plane_airframe_0 = { owner = "SIR" amount = 7 version_name = "Aduiya Mk 1" }
+
+	}
+
+
+}

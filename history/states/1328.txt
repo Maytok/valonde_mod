@@ -1,0 +1,37 @@
+
+state={
+	id=1328
+	name="STATE_1328"
+	manpower = 7930449
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = QAN
+		buildings = {
+			infrastructure = 5
+			air_base = 2
+			arms_factory = 1
+			industrial_complex = 8
+			
+			
+		}
+		add_core_of = QAN
+	}
+
+	provinces={
+		15201 15202 15203 15204 15205 15206 15207 15208 15209 15210 15211 15212 15213 15214 15215 15216 15217 15218 15219 15220 15221 15222 15223 15224 15225 15226 15227 15228 15229 15230 15231 15232 15233 15234 15235 15236 15237 15238 15239 15240 
+	}
+	local_supplies=0.0 
+}

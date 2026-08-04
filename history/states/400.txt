@@ -1,0 +1,37 @@
+
+state={
+	id=400
+	name="STATE_400"
+	manpower = 2703927
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=2
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = LIJ
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = LIJ
+	}
+
+	provinces={
+		4579 4580 4581 4582 4583 4584 4585 4586 4587 4588 4589 4590 4591 4592 
+	}
+	local_supplies=0.0 
+}

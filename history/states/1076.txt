@@ -1,0 +1,37 @@
+
+state={
+	id=1076
+	name="STATE_1076"
+	manpower = 3952255
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=6
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = HIK
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = HIK
+	}
+
+	provinces={
+		12399 12400 12401 12402 12403 12404 12405 12406 12407 12408 12409 12410 12411 12412 12413 12414 12415 12416 12417 12418 12419 
+	}
+	local_supplies=0.0 
+}

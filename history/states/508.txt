@@ -1,0 +1,37 @@
+
+state={
+	id=508
+	name="STATE_508"
+	manpower = 798869
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=6
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = NDO
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = NDO
+	}
+
+	provinces={
+		5909 5910 5911 5912 5913 5914 5915 5916 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=223
+	name="STATE_223"
+	manpower = 2234921
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=12
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = SHA
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = SHA
+	}
+
+	provinces={
+		2606 2607 2608 2609 2610 2611 2612 2613 2614 2615 2616 2617 2618 2619 
+	}
+	local_supplies=0.0 
+}

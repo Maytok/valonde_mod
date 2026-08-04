@@ -1,0 +1,1083 @@
+characters = {
+	KFT_Paulus_Beluvis={
+		name="Paulus Beluvis"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { staunch_constitutionalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KFT_Antoniustus_Regnis={
+		name="Antoniustus Regnis"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KFT_Antoniustus_Regnis
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	KFT_Julius_Bellatus={
+		name="Julius Bellatus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KFT_Julius_Bellatus
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	KFT_Regulus_Radicium={
+		name="Regulus Radicium"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KFT_Regulus_Radicium
+			traits = {	agricultural_capitalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	KFT_Augulus_Temper={
+		name="Augulus Temper"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KFT_Augulus_Temper
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	KFT_Priscus_Viturudax={
+		name="Priscus Viturudax"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KFT_Priscus_Viturudax
+			traits = {	humble 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	KFT_Valervius_Vensare={
+		name="Valervius Vensare"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KFT_Valervius_Vensare
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	KFT_Remus_Famal={
+		name="Remus Famal"
+
+		advisor={
+			slot = army_chief
+			idea_token = KFT_Remus_Famal
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	KFT_Cassius_Frum={
+		name="Cassius Frum"
+
+		advisor={
+			slot = army_chief
+			idea_token = KFT_Cassius_Frum
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	KFT_Quintus_Flum={
+		name="Quintus Flum"
+
+		advisor={
+			slot = army_chief
+			idea_token = KFT_Quintus_Flum
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	KFT_Drutus_Prinator={
+		name="Drutus Prinator"
+
+		advisor={
+			slot = army_chief
+			idea_token = KFT_Drutus_Prinator
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	KFT_Antonius_Gentus={
+		name="Antonius Gentus"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KFT_Antonius_Gentus
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	KFT_Coracchus_Aqua={
+		name="Coracchus Aqua"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KFT_Coracchus_Aqua
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	KFT_Valervius_Sonor={
+		name="Valervius Sonor"
+
+		advisor={
+			slot = air_chief
+			idea_token = KFT_Valervius_Sonor
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	KFT_Atticus_Regnis={
+		name="Atticus Regnis"
+
+		advisor={
+			slot = air_chief
+			idea_token = KFT_Atticus_Regnis
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	KFT_Servius_Plumbus={
+		name="Servius Plumbus"
+
+		advisor={
+			slot = high_command
+			idea_token = KFT_Servius_Plumbus
+			traits = {	army_armored_2 	}
+		}
+
+
+	}
+	KFT_Nonginus_Equa={
+		name="Nonginus Equa"
+
+		advisor={
+			slot = high_command
+			idea_token = KFT_Nonginus_Equa
+			traits = {	air_tactical_bombing_2 	}
+		}
+
+
+	}
+	KFT_Otho_Arbilva={
+		name="Otho Arbilva"
+
+		advisor={
+			slot = high_command
+			idea_token = KFT_Otho_Arbilva
+			traits = {	navy_fleet_logistics_1 	}
+		}
+
+
+	}
+	KFT_Publius_Turrum={
+		name="Publius Turrum"
+
+		advisor={
+			slot = high_command
+			idea_token = KFT_Publius_Turrum
+			traits = {	army_infantry_2 	}
+		}
+
+
+	}
+	KFT_Cassius_Strus={
+		name="Cassius Strus"
+
+		advisor={
+			slot = high_command
+			idea_token = KFT_Cassius_Strus
+			traits = {	air_close_air_support_2 	}
+		}
+
+
+	}
+	KFT_Gaianus_Thea={
+		name="Gaianus Thea"
+
+		advisor={
+			slot = high_command
+			idea_token = KFT_Gaianus_Thea
+			traits = {	army_armored_2 	}
+		}
+
+
+	}
+	KFT_Varcelius_Machillatium={
+		name="Varcelius Machillatium"
+
+		
+		country_leader={
+			ideology=nazism
+			traits = { falangist_militarist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KFT_Decius_Ordo={
+		name="Decius Ordo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KFT_Decius_Ordo
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	KFT_Quintus_Paginciumena={
+		name="Quintus Paginciumena"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KFT_Quintus_Paginciumena
+			traits = {	archon_basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	KFT_Cassius_Victor={
+		name="Cassius Victor"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KFT_Cassius_Victor
+			traits = {	archon_basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	KFT_Decius_Centus={
+		name="Decius Centus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KFT_Decius_Centus
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	KFT_Livius_Gentus={
+		name="Livius Gentus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KFT_Livius_Gentus
+			traits = {	subservient_ultranationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	KFT_Varcellius_Modes={
+		name="Varcellius Modes"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KFT_Varcellius_Modes
+			traits = {	generallissimo 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	KFT_Horatius_Vensare={
+		name="Horatius Vensare"
+
+		advisor={
+			slot = army_chief
+			idea_token = KFT_Horatius_Vensare
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	KFT_Fabius_Caespus={
+		name="Fabius Caespus"
+
+		advisor={
+			slot = army_chief
+			idea_token = KFT_Fabius_Caespus
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	KFT_Julianus_Anitrum={
+		name="Julianus Anitrum"
+
+		advisor={
+			slot = army_chief
+			idea_token = KFT_Julianus_Anitrum
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	KFT_Prius_Neginciument={
+		name="Prius Neginciument"
+
+		advisor={
+			slot = army_chief
+			idea_token = KFT_Prius_Neginciument
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	KFT_Attius_Strus={
+		name="Attius Strus"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KFT_Attius_Strus
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	KFT_Atticus_Semplus={
+		name="Atticus Semplus"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KFT_Atticus_Semplus
+			traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+
+	}
+	KFT_Aulus_Audex={
+		name="Aulus Audex"
+
+		advisor={
+			slot = air_chief
+			idea_token = KFT_Aulus_Audex
+			traits = {	air_chief_all_weather_1 	}
+		}
+
+
+	}
+	KFT_Tibius_Pocus={
+		name="Tibius Pocus"
+
+		advisor={
+			slot = air_chief
+			idea_token = KFT_Tibius_Pocus
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	KFT_Horatius_Bonus={
+		name="Horatius Bonus"
+
+		advisor={
+			slot = high_command
+			idea_token = KFT_Horatius_Bonus
+			traits = {	army_regrouping_1 	}
+		}
+
+
+	}
+	KFT_Spuriscus_Macus={
+		name="Spuriscus Macus"
+
+		advisor={
+			slot = high_command
+			idea_token = KFT_Spuriscus_Macus
+			traits = {	army_cavalry_2 	}
+		}
+
+
+	}
+	KFT_Nerius_Porturraetas={
+		name="Nerius Porturraetas"
+
+		advisor={
+			slot = high_command
+			idea_token = KFT_Nerius_Porturraetas
+			traits = {	navy_anti_submarine_1 	}
+		}
+
+
+	}
+	KFT_Otho_Forpus={
+		name="Otho Forpus"
+
+		advisor={
+			slot = high_command
+			idea_token = KFT_Otho_Forpus
+			traits = {	navy_carrier_1 	}
+		}
+
+
+	}
+	KFT_Spurius_Tabum={
+		name="Spurius Tabum"
+
+		advisor={
+			slot = high_command
+			idea_token = KFT_Spurius_Tabum
+			traits = {	navy_submarine_1 	}
+		}
+
+
+	}
+	KFT_Livius_Flus={
+		name="Livius Flus"
+
+		advisor={
+			slot = high_command
+			idea_token = KFT_Livius_Flus
+			traits = {	air_naval_strike_1 	}
+		}
+
+
+	}
+	KFT_Viberviusus_Patructum={
+		name="Viberviusus Patructum"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { leftist_independent  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KFT_Varcelius_Philis={
+		name="Varcelius Philis"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KFT_Varcelius_Philis
+			traits = {	anti_bolshevik_leftist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	KFT_Augus_Domentio={
+		name="Augus Domentio"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KFT_Augus_Domentio
+			traits = {	devoted_marxist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	KFT_Fabius_Forpus={
+		name="Fabius Forpus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KFT_Fabius_Forpus
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	KFT_Prius_Famal={
+		name="Prius Famal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KFT_Prius_Famal
+			traits = {	socialist_justice 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	KFT_Servius_Ordo={
+		name="Servius Ordo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KFT_Servius_Ordo
+			traits = {	political_dancer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	KFT_Antoniustus_Ponsulum={
+		name="Antoniustus Ponsulum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KFT_Antoniustus_Ponsulum
+			traits = {	anti_bolshevik_leftist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	KFT_Faudius_Temides={
+		name="Faudius Temides"
+
+		advisor={
+			slot = army_chief
+			idea_token = KFT_Faudius_Temides
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	KFT_Longintus_Domentio={
+		name="Longintus Domentio"
+
+		advisor={
+			slot = army_chief
+			idea_token = KFT_Longintus_Domentio
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	KFT_Manlianus_Temper={
+		name="Manlianus Temper"
+
+		advisor={
+			slot = army_chief
+			idea_token = KFT_Manlianus_Temper
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	KFT_Liviustus_Deus={
+		name="Liviustus Deus"
+
+		advisor={
+			slot = army_chief
+			idea_token = KFT_Liviustus_Deus
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	KFT_Valero_Philis={
+		name="Valero Philis"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KFT_Valero_Philis
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	KFT_Severius_Macus={
+		name="Severius Macus"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KFT_Severius_Macus
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	KFT_Manus_Semplus={
+		name="Manus Semplus"
+
+		advisor={
+			slot = air_chief
+			idea_token = KFT_Manus_Semplus
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	KFT_Manlianus_Famma={
+		name="Manlianus Famma"
+
+		advisor={
+			slot = air_chief
+			idea_token = KFT_Manlianus_Famma
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	KFT_Tibius_Lunus={
+		name="Tibius Lunus"
+
+		advisor={
+			slot = high_command
+			idea_token = KFT_Tibius_Lunus
+			traits = {	air_naval_strike_2 	}
+		}
+
+
+	}
+	KFT_Brus_Orbor={
+		name="Brus Orbor"
+
+		advisor={
+			slot = high_command
+			idea_token = KFT_Brus_Orbor
+			traits = {	army_artillery_2 	}
+		}
+
+
+	}
+	KFT_Julus_Macus={
+		name="Julus Macus"
+
+		advisor={
+			slot = high_command
+			idea_token = KFT_Julus_Macus
+			traits = {	air_naval_strike_1 	}
+		}
+
+
+	}
+	KFT_Julus_Venstia={
+		name="Julus Venstia"
+
+		advisor={
+			slot = high_command
+			idea_token = KFT_Julus_Venstia
+			traits = {	navy_amphibious_assault_1 	}
+		}
+
+
+	}
+	KFT_Julianus_Deatus={
+		name="Julianus Deatus"
+
+		advisor={
+			slot = high_command
+			idea_token = KFT_Julianus_Deatus
+			traits = {	army_regrouping_1 	}
+		}
+
+
+	}
+	KFT_Quinus_Modes={
+		name="Quinus Modes"
+
+		advisor={
+			slot = high_command
+			idea_token = KFT_Quinus_Modes
+			traits = {	army_CombinedArms_2 	}
+		}
+
+
+	}
+	KFT_Scaeverus_Temper={
+		name="Scaeverus Temper"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { rearmer  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KFT_Spurius_Arbilva={
+		name="Spurius Arbilva"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KFT_Spurius_Arbilva
+			traits = {	democratic_crusader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	KFT_Paudius_Ratortium={
+		name="Paudius Ratortium"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KFT_Paudius_Ratortium
+			traits = {	conservative_grandee 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	KFT_Varcus_Unita={
+		name="Varcus Unita"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KFT_Varcus_Unita
+			traits = {	conservative_grandee 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	KFT_Antoniustus_Victor={
+		name="Antoniustus Victor"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KFT_Antoniustus_Victor
+			traits = {	liberal_democratic_paragon 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	KFT_Augus_Piscatrum={
+		name="Augus Piscatrum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KFT_Augus_Piscatrum
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	KFT_Cassius_Turrum={
+		name="Cassius Turrum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KFT_Cassius_Turrum
+			traits = {	first_lady 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	KFT_Nerus_Macus={
+		name="Nerus Macus"
+
+		advisor={
+			slot = army_chief
+			idea_token = KFT_Nerus_Macus
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	KFT_Domiticustus_Tensarvus={
+		name="Domiticustus Tensarvus"
+
+		advisor={
+			slot = army_chief
+			idea_token = KFT_Domiticustus_Tensarvus
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	KFT_Servius_Aques={
+		name="Servius Aques"
+
+		advisor={
+			slot = army_chief
+			idea_token = KFT_Servius_Aques
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	KFT_Varcus_Beluvis={
+		name="Varcus Beluvis"
+
+		advisor={
+			slot = army_chief
+			idea_token = KFT_Varcus_Beluvis
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	KFT_Spurius_Mentura={
+		name="Spurius Mentura"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KFT_Spurius_Mentura
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	KFT_Otho_Ordo={
+		name="Otho Ordo"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KFT_Otho_Ordo
+			traits = {	navy_chief_reform_2 	}
+		}
+
+
+	}
+	KFT_Lucimus_Aqua={
+		name="Lucimus Aqua"
+
+		advisor={
+			slot = air_chief
+			idea_token = KFT_Lucimus_Aqua
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	KFT_Julianus_Patructum={
+		name="Julianus Patructum"
+
+		advisor={
+			slot = air_chief
+			idea_token = KFT_Julianus_Patructum
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	KFT_Sero_Muructudax={
+		name="Sero Muructudax"
+
+		advisor={
+			slot = high_command
+			idea_token = KFT_Sero_Muructudax
+			traits = {	navy_naval_air_defense_1 	}
+		}
+
+
+	}
+	KFT_Julus_Anitrum={
+		name="Julus Anitrum"
+
+		advisor={
+			slot = high_command
+			idea_token = KFT_Julus_Anitrum
+			traits = {	air_close_air_support_1 	}
+		}
+
+
+	}
+	KFT_Prius_Ratortium={
+		name="Prius Ratortium"
+
+		advisor={
+			slot = high_command
+			idea_token = KFT_Prius_Ratortium
+			traits = {	army_CombinedArms_1 	}
+		}
+
+
+	}
+	KFT_Flavius_Patructum={
+		name="Flavius Patructum"
+
+		advisor={
+			slot = high_command
+			idea_token = KFT_Flavius_Patructum
+			traits = {	air_airborne_2 	}
+		}
+
+
+	}
+	KFT_Sextus_Porturraetas={
+		name="Sextus Porturraetas"
+
+		advisor={
+			slot = high_command
+			idea_token = KFT_Sextus_Porturraetas
+			traits = {	air_air_superiority_2 	}
+		}
+
+
+	}
+	KFT_Marcellianus_Tribernima={
+		name="Marcellianus Tribernima"
+
+		advisor={
+			slot = high_command
+			idea_token = KFT_Marcellianus_Tribernima
+			traits = {	air_air_combat_training_2 	}
+		}
+
+
+	}
+	KFT_Lucimus_Domentio={
+		name="Lucimus Domentio"
+
+		advisor={
+			slot = theorist
+			idea_token = KFT_Lucimus_Domentio
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	KFT_Lucimus_Regnis={
+		name="Lucimus Regnis"
+
+		advisor={
+			slot = theorist
+			idea_token = KFT_Lucimus_Regnis
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	KFT_Antonius_Venstia={
+		name="Antonius Venstia"
+
+		advisor={
+			slot = theorist
+			idea_token = KFT_Antonius_Venstia
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=1321
+	name="STATE_1321"
+	manpower = 2377358
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = MUN
+		buildings = {
+			infrastructure = 4
+			air_base = 3
+			arms_factory = 3
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = MUN
+	}
+
+	provinces={
+		15112 15113 15114 15115 15116 15117 15118 15119 15120 15121 
+	}
+	local_supplies=0.0 
+}

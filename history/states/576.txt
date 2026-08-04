@@ -1,0 +1,37 @@
+
+state={
+	id=576
+	name="STATE_576"
+	manpower = 2647476
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = LAN
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			dockyard = 1
+			
+		}
+		add_core_of = LAN
+	}
+
+	provinces={
+		6776 6777 6778 6779 6780 6781 6782 6783 6784 6785 6786 6787 6788 
+	}
+	local_supplies=0.0 
+}

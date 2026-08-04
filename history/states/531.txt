@@ -1,0 +1,37 @@
+
+state={
+	id=531
+	name="STATE_531"
+	manpower = 2214410
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=1
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = MTN
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = MTN
+	}
+
+	provinces={
+		6236 6237 6238 6239 6240 6241 6242 6243 6244 6245 6246 
+	}
+	local_supplies=0.0 
+}

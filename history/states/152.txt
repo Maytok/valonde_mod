@@ -1,0 +1,37 @@
+
+state={
+	id=152
+	name="STATE_152"
+	manpower = 1932689
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=6
+		chromium=6
+		oil=0
+		rubber=1
+		steel=0
+		tungsten=6
+		coal=15
+	}
+
+	history={
+		
+		owner = KFT
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = KFT
+	}
+
+	provinces={
+		1886 1887 1888 1889 1890 1891 1892 1893 1894 1895 
+	}
+	local_supplies=0.0 
+}

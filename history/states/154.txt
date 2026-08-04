@@ -1,0 +1,37 @@
+
+state={
+	id=154
+	name="STATE_154"
+	manpower = 260892
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = RAD
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = RAD
+	}
+
+	provinces={
+		1898 1899 1900 1901 1902 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,1083 @@
+characters = {
+	SVE_Zori_Hrava={
+		name="Zori Hrava"
+
+		
+		country_leader={
+			ideology=oligarchism
+			traits = { noble_beurocrat  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SVE_Boran_Vazde={
+		name="Boran Vazde"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SVE_Boran_Vazde
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	SVE_Bogdanov_Vrlina={
+		name="Bogdanov Vrlina"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SVE_Bogdanov_Vrlina
+			traits = {	socialite_connections 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	SVE_Sergei_Muzik={
+		name="Sergei Muzik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SVE_Sergei_Muzik
+			traits = {	headstrong 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	SVE_Radimiri_Vilat={
+		name="Radimiri Vilat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SVE_Radimiri_Vilat
+			traits = {	socialite_connections 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	SVE_Lubosh_Kapijava={
+		name="Lubosh Kapijava"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SVE_Lubosh_Kapijava
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	SVE_Radimir_Dana={
+		name="Radimir Dana"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SVE_Radimir_Dana
+			traits = {	humble 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	SVE_Niktoragomas_Jezak={
+		name="Niktoragomas Jezak"
+
+		advisor={
+			slot = army_chief
+			idea_token = SVE_Niktoragomas_Jezak
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	SVE_Dusan_Sporisao={
+		name="Dusan Sporisao"
+
+		advisor={
+			slot = army_chief
+			idea_token = SVE_Dusan_Sporisao
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	SVE_Radoslav_Galat={
+		name="Radoslav Galat"
+
+		advisor={
+			slot = army_chief
+			idea_token = SVE_Radoslav_Galat
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	SVE_Dusanko_Vilo={
+		name="Dusanko Vilo"
+
+		advisor={
+			slot = army_chief
+			idea_token = SVE_Dusanko_Vilo
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	SVE_Yuranko_Muzikar={
+		name="Yuranko Muzikar"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SVE_Yuranko_Muzikar
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	SVE_Nikitri_Grmlja={
+		name="Nikitri Grmlja"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SVE_Nikitri_Grmlja
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	SVE_Tomiroslanko_Nebrojst={
+		name="Tomiroslanko Nebrojst"
+
+		advisor={
+			slot = air_chief
+			idea_token = SVE_Tomiroslanko_Nebrojst
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	SVE_Goragomir_Slik={
+		name="Goragomir Slik"
+
+		advisor={
+			slot = air_chief
+			idea_token = SVE_Goragomir_Slik
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	SVE_Boran_Rekt={
+		name="Boran Rekt"
+
+		advisor={
+			slot = high_command
+			idea_token = SVE_Boran_Rekt
+			traits = {	navy_anti_submarine_1 	}
+		}
+
+
+	}
+	SVE_Sergei_Svezde={
+		name="Sergei Svezde"
+
+		advisor={
+			slot = high_command
+			idea_token = SVE_Sergei_Svezde
+			traits = {	air_pilot_training_2 	}
+		}
+
+
+	}
+	SVE_Draj_Nebrojst={
+		name="Draj Nebrojst"
+
+		advisor={
+			slot = high_command
+			idea_token = SVE_Draj_Nebrojst
+			traits = {	army_armored_1 	}
+		}
+
+
+	}
+	SVE_Zdeneksei_Jezak={
+		name="Zdeneksei Jezak"
+
+		advisor={
+			slot = high_command
+			idea_token = SVE_Zdeneksei_Jezak
+			traits = {	army_artillery_1 	}
+		}
+
+
+	}
+	SVE_Zdeneksei_Vilat={
+		name="Zdeneksei Vilat"
+
+		advisor={
+			slot = high_command
+			idea_token = SVE_Zdeneksei_Vilat
+			traits = {	air_naval_strike_2 	}
+		}
+
+
+	}
+	SVE_Viktori_Svet={
+		name="Viktori Svet"
+
+		advisor={
+			slot = high_command
+			idea_token = SVE_Viktori_Svet
+			traits = {	army_armored_1 	}
+		}
+
+
+	}
+	SVE_Matej_Teat={
+		name="Matej Teat"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { falangist_militarist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SVE_Kiroslav_Castra={
+		name="Kiroslav Castra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SVE_Kiroslav_Castra
+			traits = {	collaborator_king 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	SVE_Velimir_Nebrojst={
+		name="Velimir Nebrojst"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SVE_Velimir_Nebrojst
+			traits = {	autocratic_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	SVE_Dusanko_Tvrdja={
+		name="Dusanko Tvrdja"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SVE_Dusanko_Tvrdja
+			traits = {	inexperienced_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	SVE_Tomiros_Grmljstori={
+		name="Tomiros Grmljstori"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SVE_Tomiros_Grmljstori
+			traits = {	basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	SVE_Zori_Hradzbicaksi={
+		name="Zori Hradzbicaksi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SVE_Zori_Hradzbicaksi
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	SVE_Radimiri_Kulturanika={
+		name="Radimiri Kulturanika"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SVE_Radimiri_Kulturanika
+			traits = {	collaborator_king 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	SVE_Niktoranovan_Morenik={
+		name="Niktoranovan Morenik"
+
+		advisor={
+			slot = army_chief
+			idea_token = SVE_Niktoranovan_Morenik
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	SVE_Bran_Zemenikar={
+		name="Bran Zemenikar"
+
+		advisor={
+			slot = army_chief
+			idea_token = SVE_Bran_Zemenikar
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	SVE_Mateusan_Zvuk={
+		name="Mateusan Zvuk"
+
+		advisor={
+			slot = army_chief
+			idea_token = SVE_Mateusan_Zvuk
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	SVE_Kiroslav_Galat={
+		name="Kiroslav Galat"
+
+		advisor={
+			slot = army_chief
+			idea_token = SVE_Kiroslav_Galat
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	SVE_Kiroslav_Drza={
+		name="Kiroslav Drza"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SVE_Kiroslav_Drza
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	SVE_Goris_Hradzbicaksi={
+		name="Goris Hradzbicaksi"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SVE_Goris_Hradzbicaksi
+			traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+
+	}
+	SVE_Bran_Morenik={
+		name="Bran Morenik"
+
+		advisor={
+			slot = air_chief
+			idea_token = SVE_Bran_Morenik
+			traits = {	air_chief_all_weather_2 	}
+		}
+
+
+	}
+	SVE_Simiros_Greb={
+		name="Simiros Greb"
+
+		advisor={
+			slot = air_chief
+			idea_token = SVE_Simiros_Greb
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	SVE_Rados_Doba={
+		name="Rados Doba"
+
+		advisor={
+			slot = high_command
+			idea_token = SVE_Rados_Doba
+			traits = {	army_cavalry_2 	}
+		}
+
+
+	}
+	SVE_Niktoragomas_Hradzbicaksi={
+		name="Niktoragomas Hradzbicaksi"
+
+		advisor={
+			slot = high_command
+			idea_token = SVE_Niktoragomas_Hradzbicaksi
+			traits = {	army_concealment_2 	}
+		}
+
+
+	}
+	SVE_Rados_Ribav={
+		name="Rados Ribav"
+
+		advisor={
+			slot = high_command
+			idea_token = SVE_Rados_Ribav
+			traits = {	army_artillery_2 	}
+		}
+
+
+	}
+	SVE_Dragomir_Filo={
+		name="Dragomir Filo"
+
+		advisor={
+			slot = high_command
+			idea_token = SVE_Dragomir_Filo
+			traits = {	air_tactical_bombing_1 	}
+		}
+
+
+	}
+	SVE_Vlan_Olod={
+		name="Vlan Olod"
+
+		advisor={
+			slot = high_command
+			idea_token = SVE_Vlan_Olod
+			traits = {	army_logistics_1 	}
+		}
+
+
+	}
+	SVE_Juri_Vatrabrir={
+		name="Juri Vatrabrir"
+
+		advisor={
+			slot = high_command
+			idea_token = SVE_Juri_Vatrabrir
+			traits = {	army_entrenchment_2 	}
+		}
+
+
+	}
+	SVE_Rado_Kisacina={
+		name="Rado Kisacina"
+
+		
+		country_leader={
+			ideology=marxism
+			traits = { leftist_legionary  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SVE_Brankolavko_Kovo={
+		name="Brankolavko Kovo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SVE_Brankolavko_Kovo
+			traits = {	leftist_independent 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	SVE_Ilya_Svezde={
+		name="Ilya Svezde"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SVE_Ilya_Svezde
+			traits = {	indomitable_perseverance 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	SVE_Matefanovan_Sunce={
+		name="Matefanovan Sunce"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SVE_Matefanovan_Sunce
+			traits = {	leftist_intellectual 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	SVE_Ilya_Smrt={
+		name="Ilya Smrt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SVE_Ilya_Smrt
+			traits = {	leftist_intellectual 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	SVE_Maros_Ostranaga={
+		name="Maros Ostranaga"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SVE_Maros_Ostranaga
+			traits = {	leftist_intellectual 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	SVE_Tomiriloslad_Moresnik={
+		name="Tomiriloslad Moresnik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SVE_Tomiriloslad_Moresnik
+			traits = {	political_dancer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	SVE_Viktor_Delos={
+		name="Viktor Delos"
+
+		advisor={
+			slot = army_chief
+			idea_token = SVE_Viktor_Delos
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	SVE_Zori_Teat={
+		name="Zori Teat"
+
+		advisor={
+			slot = army_chief
+			idea_token = SVE_Zori_Teat
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	SVE_Goranko_Vecnoslad={
+		name="Goranko Vecnoslad"
+
+		advisor={
+			slot = army_chief
+			idea_token = SVE_Goranko_Vecnoslad
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	SVE_Aleksei_Olod={
+		name="Aleksei Olod"
+
+		advisor={
+			slot = army_chief
+			idea_token = SVE_Aleksei_Olod
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	SVE_Radoslav_Tama={
+		name="Radoslav Tama"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SVE_Radoslav_Tama
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	SVE_Dusan_Svet={
+		name="Dusan Svet"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SVE_Dusan_Svet
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	SVE_Bran_Plemena={
+		name="Bran Plemena"
+
+		advisor={
+			slot = air_chief
+			idea_token = SVE_Bran_Plemena
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	SVE_Zori_Moresnik={
+		name="Zori Moresnik"
+
+		advisor={
+			slot = air_chief
+			idea_token = SVE_Zori_Moresnik
+			traits = {	air_chief_all_weather_2 	}
+		}
+
+
+	}
+	SVE_Yuranko_Slicanikar={
+		name="Yuranko Slicanikar"
+
+		advisor={
+			slot = high_command
+			idea_token = SVE_Yuranko_Slicanikar
+			traits = {	navy_fleet_logistics_1 	}
+		}
+
+
+	}
+	SVE_Juran_Doba={
+		name="Juran Doba"
+
+		advisor={
+			slot = high_command
+			idea_token = SVE_Juran_Doba
+			traits = {	army_commando_2 	}
+		}
+
+
+	}
+	SVE_Matefanovan_Sporisao={
+		name="Matefanovan Sporisao"
+
+		advisor={
+			slot = high_command
+			idea_token = SVE_Matefanovan_Sporisao
+			traits = {	air_air_combat_training_2 	}
+		}
+
+
+	}
+	SVE_Goranko_Drza={
+		name="Goranko Drza"
+
+		advisor={
+			slot = high_command
+			idea_token = SVE_Goranko_Drza
+			traits = {	army_CombinedArms_2 	}
+		}
+
+
+	}
+	SVE_Radek_Tama={
+		name="Radek Tama"
+
+		advisor={
+			slot = high_command
+			idea_token = SVE_Radek_Tama
+			traits = {	navy_naval_air_defense_2 	}
+		}
+
+
+	}
+	SVE_Tomiroslanko_Vetarst={
+		name="Tomiroslanko Vetarst"
+
+		advisor={
+			slot = high_command
+			idea_token = SVE_Tomiroslanko_Vetarst
+			traits = {	army_CombinedArms_2 	}
+		}
+
+
+	}
+	SVE_Bran_Ribav={
+		name="Bran Ribav"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { rearmer  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SVE_Radoslav_Pesec={
+		name="Radoslav Pesec"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SVE_Radoslav_Pesec
+			traits = {	liberal_democratic_paragon 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	SVE_Ivan_Bogina={
+		name="Ivan Bogina"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SVE_Ivan_Bogina
+			traits = {	veteran_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	SVE_Goragomir_Obarstvo={
+		name="Goragomir Obarstvo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SVE_Goragomir_Obarstvo
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	SVE_Kiroslav_Sneg={
+		name="Kiroslav Sneg"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SVE_Kiroslav_Sneg
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	SVE_Goris_Zvera={
+		name="Goris Zvera"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SVE_Goris_Zvera
+			traits = {	conservative_grandee 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	SVE_Stan_Glana={
+		name="Stan Glana"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SVE_Stan_Glana
+			traits = {	veteran_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	SVE_Juran_Sneg={
+		name="Juran Sneg"
+
+		advisor={
+			slot = army_chief
+			idea_token = SVE_Juran_Sneg
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	SVE_Radenek_Zvuk={
+		name="Radenek Zvuk"
+
+		advisor={
+			slot = army_chief
+			idea_token = SVE_Radenek_Zvuk
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	SVE_Luboslado_Telika={
+		name="Luboslado Telika"
+
+		advisor={
+			slot = army_chief
+			idea_token = SVE_Luboslado_Telika
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	SVE_Simiros_Moresnik={
+		name="Simiros Moresnik"
+
+		advisor={
+			slot = army_chief
+			idea_token = SVE_Simiros_Moresnik
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	SVE_Aleg_Zvuk={
+		name="Aleg Zvuk"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SVE_Aleg_Zvuk
+			traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+
+	}
+	SVE_Ivan_Hradzbicaksi={
+		name="Ivan Hradzbicaksi"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SVE_Ivan_Hradzbicaksi
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	SVE_Ivanislav_Rekt={
+		name="Ivanislav Rekt"
+
+		advisor={
+			slot = air_chief
+			idea_token = SVE_Ivanislav_Rekt
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	SVE_Aleg_Zvetlo={
+		name="Aleg Zvetlo"
+
+		advisor={
+			slot = air_chief
+			idea_token = SVE_Aleg_Zvetlo
+			traits = {	air_chief_all_weather_2 	}
+		}
+
+
+	}
+	SVE_Rados_Masljivo={
+		name="Rados Masljivo"
+
+		advisor={
+			slot = high_command
+			idea_token = SVE_Rados_Masljivo
+			traits = {	army_entrenchment_2 	}
+		}
+
+
+	}
+	SVE_Simeon_Ljubavezer={
+		name="Simeon Ljubavezer"
+
+		advisor={
+			slot = high_command
+			idea_token = SVE_Simeon_Ljubavezer
+			traits = {	navy_carrier_1 	}
+		}
+
+
+	}
+	SVE_Ilya_Kovo={
+		name="Ilya Kovo"
+
+		advisor={
+			slot = high_command
+			idea_token = SVE_Ilya_Kovo
+			traits = {	air_air_combat_training_1 	}
+		}
+
+
+	}
+	SVE_Radimiri_Svet={
+		name="Radimiri Svet"
+
+		advisor={
+			slot = high_command
+			idea_token = SVE_Radimiri_Svet
+			traits = {	air_pilot_training_1 	}
+		}
+
+
+	}
+	SVE_Draj_Zvera={
+		name="Draj Zvera"
+
+		advisor={
+			slot = high_command
+			idea_token = SVE_Draj_Zvera
+			traits = {	navy_submarine_1 	}
+		}
+
+
+	}
+	SVE_Aleksei_Sporisa={
+		name="Aleksei Sporisa"
+
+		advisor={
+			slot = high_command
+			idea_token = SVE_Aleksei_Sporisa
+			traits = {	navy_fleet_logistics_1 	}
+		}
+
+
+	}
+	SVE_Radimiri_Naro={
+		name="Radimiri Naro"
+
+		advisor={
+			slot = theorist
+			idea_token = SVE_Radimiri_Naro
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	SVE_Ivan_Presnikaroda={
+		name="Ivan Presnikaroda"
+
+		advisor={
+			slot = theorist
+			idea_token = SVE_Ivan_Presnikaroda
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	SVE_Simiros_Istra={
+		name="Simiros Istra"
+
+		advisor={
+			slot = theorist
+			idea_token = SVE_Simiros_Istra
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

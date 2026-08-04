@@ -1,0 +1,1083 @@
+characters = {
+	CES_Kame_Teka={
+		name="Kame Teka"
+
+		
+		country_leader={
+			ideology=oligarchism
+			traits = { staunch_aristocrat  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	CES_Musa_Simbi={
+		name="Musa Simbi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CES_Musa_Simbi
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	CES_Kamaraka_Njozi={
+		name="Kamaraka Njozi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CES_Kamaraka_Njozi
+			traits = {	veteran_anti_bolshevik 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	CES_Kame_Shuli={
+		name="Kame Shuli"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CES_Kame_Shuli
+			traits = {	humble 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	CES_Kato_Wimui={
+		name="Kato Wimui"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CES_Kato_Wimui
+			traits = {	headstrong 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	CES_Omari_Muuji={
+		name="Omari Muuji"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CES_Omari_Muuji
+			traits = {	noble_beurocrat 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	CES_Mbwanga_Histo={
+		name="Mbwanga Histo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CES_Mbwanga_Histo
+			traits = {	noble_beurocrat 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	CES_Kwanga_Kumba={
+		name="Kwanga Kumba"
+
+		advisor={
+			slot = army_chief
+			idea_token = CES_Kwanga_Kumba
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	CES_Shaka_Dhomtaba={
+		name="Shaka Dhomtaba"
+
+		advisor={
+			slot = army_chief
+			idea_token = CES_Shaka_Dhomtaba
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	CES_Mbwamari_Ndoto={
+		name="Mbwamari Ndoto"
+
+		advisor={
+			slot = army_chief
+			idea_token = CES_Mbwamari_Ndoto
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	CES_Juma_Usiwa={
+		name="Juma Usiwa"
+
+		advisor={
+			slot = army_chief
+			idea_token = CES_Juma_Usiwa
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	CES_Kwano_Panguo={
+		name="Kwano Panguo"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CES_Kwano_Panguo
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	CES_Bari_Hisu={
+		name="Bari Hisu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CES_Bari_Hisu
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	CES_Baka_Muuji={
+		name="Baka Muuji"
+
+		advisor={
+			slot = air_chief
+			idea_token = CES_Baka_Muuji
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	CES_Mosi_Kumbukufu={
+		name="Mosi Kumbukufu"
+
+		advisor={
+			slot = air_chief
+			idea_token = CES_Mosi_Kumbukufu
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	CES_Jumaraka_Muuji={
+		name="Jumaraka Muuji"
+
+		advisor={
+			slot = high_command
+			idea_token = CES_Jumaraka_Muuji
+			traits = {	army_infantry_2 	}
+		}
+
+
+	}
+	CES_Taji_Mapigano={
+		name="Taji Mapigano"
+
+		advisor={
+			slot = high_command
+			idea_token = CES_Taji_Mapigano
+			traits = {	air_naval_strike_2 	}
+		}
+
+
+	}
+	CES_Jumari_Piga={
+		name="Jumari Piga"
+
+		advisor={
+			slot = high_command
+			idea_token = CES_Jumari_Piga
+			traits = {	army_armored_1 	}
+		}
+
+
+	}
+	CES_Amaraka_Hofu={
+		name="Amaraka Hofu"
+
+		advisor={
+			slot = high_command
+			idea_token = CES_Amaraka_Hofu
+			traits = {	army_regrouping_1 	}
+		}
+
+
+	}
+	CES_Kame_Mlimaisia={
+		name="Kame Mlimaisia"
+
+		advisor={
+			slot = high_command
+			idea_token = CES_Kame_Mlimaisia
+			traits = {	air_naval_strike_2 	}
+		}
+
+
+	}
+	CES_Amari_Nyanarajesha={
+		name="Amari Nyanarajesha"
+
+		advisor={
+			slot = high_command
+			idea_token = CES_Amari_Nyanarajesha
+			traits = {	air_naval_strike_2 	}
+		}
+
+
+	}
+	CES_Simba_Simbi={
+		name="Simba Simbi"
+
+		
+		country_leader={
+			ideology=fascism_ideology
+			traits = { militant_minister  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	CES_Shaka_Pepo={
+		name="Shaka Pepo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CES_Shaka_Pepo
+			traits = {	collaborator_king 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	CES_Jumari_Lando={
+		name="Jumari Lando"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CES_Jumari_Lando
+			traits = {	archon_basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	CES_Kwana_Panguo={
+		name="Kwana Panguo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CES_Kwana_Panguo
+			traits = {	collaborator_king 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	CES_Kwanga_Nyumba={
+		name="Kwanga Nyumba"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CES_Kwanga_Nyumba
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	CES_Mbwame_Chuli={
+		name="Mbwame Chuli"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CES_Mbwame_Chuli
+			traits = {	autocratic_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	CES_Lubana_Jeno={
+		name="Lubana Jeno"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CES_Lubana_Jeno
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	CES_Tanga_Hofumbuka={
+		name="Tanga Hofumbuka"
+
+		advisor={
+			slot = army_chief
+			idea_token = CES_Tanga_Hofumbuka
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	CES_Kwame_Mtifu={
+		name="Kwame Mtifu"
+
+		advisor={
+			slot = army_chief
+			idea_token = CES_Kwame_Mtifu
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	CES_Shakari_Usiwa={
+		name="Shakari Usiwa"
+
+		advisor={
+			slot = army_chief
+			idea_token = CES_Shakari_Usiwa
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	CES_Taji_Nyoto={
+		name="Taji Nyoto"
+
+		advisor={
+			slot = army_chief
+			idea_token = CES_Taji_Nyoto
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	CES_Nuru_Mlimaisia={
+		name="Nuru Mlimaisia"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CES_Nuru_Mlimaisia
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	CES_Mbwanga_Askatimo={
+		name="Mbwanga Askatimo"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CES_Mbwanga_Askatimo
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	CES_Amau_Nyumbe={
+		name="Amau Nyumbe"
+
+		advisor={
+			slot = air_chief
+			idea_token = CES_Amau_Nyumbe
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	CES_Sefu_Mapigano={
+		name="Sefu Mapigano"
+
+		advisor={
+			slot = air_chief
+			idea_token = CES_Sefu_Mapigano
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	CES_Temba_Shini={
+		name="Temba Shini"
+
+		advisor={
+			slot = high_command
+			idea_token = CES_Temba_Shini
+			traits = {	army_cavalry_2 	}
+		}
+
+
+	}
+	CES_Taji_Shukwelu={
+		name="Taji Shukwelu"
+
+		advisor={
+			slot = high_command
+			idea_token = CES_Taji_Shukwelu
+			traits = {	army_regrouping_1 	}
+		}
+
+
+	}
+	CES_Temba_Panguo={
+		name="Temba Panguo"
+
+		advisor={
+			slot = high_command
+			idea_token = CES_Temba_Panguo
+			traits = {	air_tactical_bombing_2 	}
+		}
+
+
+	}
+	CES_Simbana_Hisa={
+		name="Simbana Hisa"
+
+		advisor={
+			slot = high_command
+			idea_token = CES_Simbana_Hisa
+			traits = {	army_radio_intelligence_2 	}
+		}
+
+
+	}
+	CES_Kwano_Kijimti={
+		name="Kwano Kijimti"
+
+		advisor={
+			slot = high_command
+			idea_token = CES_Kwano_Kijimti
+			traits = {	air_tactical_bombing_1 	}
+		}
+
+
+	}
+	CES_Mbwamau_Mwithi={
+		name="Mbwamau Mwithi"
+
+		advisor={
+			slot = high_command
+			idea_token = CES_Mbwamau_Mwithi
+			traits = {	air_strategic_bombing_1 	}
+		}
+
+
+	}
+	CES_Luba_Taana={
+		name="Luba Taana"
+
+		
+		country_leader={
+			ideology=anti_revisionism
+			traits = { reluctant_stalinist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	CES_Baka_Meli={
+		name="Baka Meli"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CES_Baka_Meli
+			traits = {	reluctant_stalinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	CES_Mbwamari_Jumbasi={
+		name="Mbwamari Jumbasi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CES_Mbwamari_Jumbasi
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	CES_Shaka_Meli={
+		name="Shaka Meli"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CES_Shaka_Meli
+			traits = {	reluctant_stalinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	CES_Amari_Sikuti={
+		name="Amari Sikuti"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CES_Amari_Sikuti
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	CES_Bari_Hofu={
+		name="Bari Hofu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CES_Bari_Hofu
+			traits = {	socialist_justice 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	CES_Shaka_Nyumba={
+		name="Shaka Nyumba"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CES_Shaka_Nyumba
+			traits = {	anti_bolshevik_leftist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	CES_Jumari_Jeno={
+		name="Jumari Jeno"
+
+		advisor={
+			slot = army_chief
+			idea_token = CES_Jumari_Jeno
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	CES_Tanga_Ukwezi={
+		name="Tanga Ukwezi"
+
+		advisor={
+			slot = army_chief
+			idea_token = CES_Tanga_Ukwezi
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	CES_Mbwamau_Upepo={
+		name="Mbwamau Upepo"
+
+		advisor={
+			slot = army_chief
+			idea_token = CES_Mbwamau_Upepo
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	CES_Tanga_Nyumbe={
+		name="Tanga Nyumbe"
+
+		advisor={
+			slot = army_chief
+			idea_token = CES_Tanga_Nyumbe
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	CES_Shakaraka_Hadita={
+		name="Shakaraka Hadita"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CES_Shakaraka_Hadita
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	CES_Amaraka_Mili={
+		name="Amaraka Mili"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CES_Amaraka_Mili
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	CES_Omari_Laandisha={
+		name="Omari Laandisha"
+
+		advisor={
+			slot = air_chief
+			idea_token = CES_Omari_Laandisha
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	CES_Taji_Malme={
+		name="Taji Malme"
+
+		advisor={
+			slot = air_chief
+			idea_token = CES_Taji_Malme
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	CES_Kwana_Mapigano={
+		name="Kwana Mapigano"
+
+		advisor={
+			slot = high_command
+			idea_token = CES_Kwana_Mapigano
+			traits = {	army_armored_1 	}
+		}
+
+
+	}
+	CES_Lubanga_Piga={
+		name="Lubanga Piga"
+
+		advisor={
+			slot = high_command
+			idea_token = CES_Lubanga_Piga
+			traits = {	navy_carrier_1 	}
+		}
+
+
+	}
+	CES_Mbwanga_Panguo={
+		name="Mbwanga Panguo"
+
+		advisor={
+			slot = high_command
+			idea_token = CES_Mbwanga_Panguo
+			traits = {	air_strategic_bombing_2 	}
+		}
+
+
+	}
+	CES_Kwana_Heshawi={
+		name="Kwana Heshawi"
+
+		advisor={
+			slot = high_command
+			idea_token = CES_Kwana_Heshawi
+			traits = {	navy_fleet_logistics_2 	}
+		}
+
+
+	}
+	CES_Sefu_Usiwa={
+		name="Sefu Usiwa"
+
+		advisor={
+			slot = high_command
+			idea_token = CES_Sefu_Usiwa
+			traits = {	army_entrenchment_2 	}
+		}
+
+
+	}
+	CES_Mbwame_Hadita={
+		name="Mbwame Hadita"
+
+		advisor={
+			slot = high_command
+			idea_token = CES_Mbwame_Hadita
+			traits = {	air_air_superiority_2 	}
+		}
+
+
+	}
+	CES_Bakari_Kijimti={
+		name="Bakari Kijimti"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { leftist_independent  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	CES_Juma_Askatimo={
+		name="Juma Askatimo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CES_Juma_Askatimo
+			traits = {	liberal_democratic_paragon 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	CES_Taji_Panjanguzi={
+		name="Taji Panjanguzi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CES_Taji_Panjanguzi
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	CES_Taji_Pigaonda={
+		name="Taji Pigaonda"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CES_Taji_Pigaonda
+			traits = {	the_banker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	CES_Baka_Kifu={
+		name="Baka Kifu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CES_Baka_Kifu
+			traits = {	rearmer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	CES_Mbwanga_Hofumbuka={
+		name="Mbwanga Hofumbuka"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CES_Mbwanga_Hofumbuka
+			traits = {	rearmer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	CES_Bari_Hadisto={
+		name="Bari Hadisto"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CES_Bari_Hadisto
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	CES_Amari_Hati={
+		name="Amari Hati"
+
+		advisor={
+			slot = army_chief
+			idea_token = CES_Amari_Hati
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	CES_Mbwanga_Wando={
+		name="Mbwanga Wando"
+
+		advisor={
+			slot = army_chief
+			idea_token = CES_Mbwanga_Wando
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	CES_Lubana_Nyanarajesha={
+		name="Lubana Nyanarajesha"
+
+		advisor={
+			slot = army_chief
+			idea_token = CES_Lubana_Nyanarajesha
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	CES_Tanga_Hadisto={
+		name="Tanga Hadisto"
+
+		advisor={
+			slot = army_chief
+			idea_token = CES_Tanga_Hadisto
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	CES_Amaraka_Histo={
+		name="Amaraka Histo"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CES_Amaraka_Histo
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	CES_Mosi_Langanishi={
+		name="Mosi Langanishi"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CES_Mosi_Langanishi
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	CES_Amaraka_Pepo={
+		name="Amaraka Pepo"
+
+		advisor={
+			slot = air_chief
+			idea_token = CES_Amaraka_Pepo
+			traits = {	air_chief_all_weather_1 	}
+		}
+
+
+	}
+	CES_Jumari_Kiono={
+		name="Jumari Kiono"
+
+		advisor={
+			slot = air_chief
+			idea_token = CES_Jumari_Kiono
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	CES_Kama_Mlimaisia={
+		name="Kama Mlimaisia"
+
+		advisor={
+			slot = high_command
+			idea_token = CES_Kama_Mlimaisia
+			traits = {	navy_screen_2 	}
+		}
+
+
+	}
+	CES_Amari_Hisa={
+		name="Amari Hisa"
+
+		advisor={
+			slot = high_command
+			idea_token = CES_Amari_Hisa
+			traits = {	army_infantry_1 	}
+		}
+
+
+	}
+	CES_Shakaraka_Mwithi={
+		name="Shakaraka Mwithi"
+
+		advisor={
+			slot = high_command
+			idea_token = CES_Shakaraka_Mwithi
+			traits = {	navy_amphibious_assault_2 	}
+		}
+
+
+	}
+	CES_Sefu_Nyanarajesha={
+		name="Sefu Nyanarajesha"
+
+		advisor={
+			slot = high_command
+			idea_token = CES_Sefu_Nyanarajesha
+			traits = {	navy_submarine_2 	}
+		}
+
+
+	}
+	CES_Jumaraka_Ukuti={
+		name="Jumaraka Ukuti"
+
+		advisor={
+			slot = high_command
+			idea_token = CES_Jumaraka_Ukuti
+			traits = {	navy_fleet_logistics_1 	}
+		}
+
+
+	}
+	CES_Baraka_Muuji={
+		name="Baraka Muuji"
+
+		advisor={
+			slot = high_command
+			idea_token = CES_Baraka_Muuji
+			traits = {	air_airborne_2 	}
+		}
+
+
+	}
+	CES_Bakari_Mali={
+		name="Bakari Mali"
+
+		advisor={
+			slot = theorist
+			idea_token = CES_Bakari_Mali
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	CES_Shakaraka_Kijimti={
+		name="Shakaraka Kijimti"
+
+		advisor={
+			slot = theorist
+			idea_token = CES_Shakaraka_Kijimti
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	CES_Kwame_Hisa={
+		name="Kwame Hisa"
+
+		advisor={
+			slot = theorist
+			idea_token = CES_Kwame_Hisa
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

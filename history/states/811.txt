@@ -1,0 +1,37 @@
+
+state={
+	id=811
+	name="STATE_811"
+	manpower = 5978925
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = TEM
+		buildings = {
+			infrastructure = 4
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 2
+			
+		}
+		add_core_of = TEM
+	}
+
+	provinces={
+		9502 9503 9504 9505 9506 9507 9508 9509 9510 9511 9512 9513 9514 9515 9516 9517 9518 9519 9520 9521 9522 9523 9524 9525 9526 9527 9528 9529 9530 9531 9532 9533 
+	}
+	local_supplies=0.0 
+}

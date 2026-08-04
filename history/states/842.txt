@@ -1,0 +1,37 @@
+
+state={
+	id=842
+	name="STATE_842"
+	manpower = 77740
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = DAN
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = DAN
+	}
+
+	provinces={
+		9830 9831 9832 9833 9834 
+	}
+	local_supplies=0.0 
+}

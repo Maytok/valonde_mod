@@ -1,0 +1,16 @@
+air_wings = {
+		830 = { 								
+		small_plane_airframe_0 = { owner = "GRU" amount = 50 version_name = "Sond Mk 2" }
+
+	}
+	441 = { 								
+		small_plane_airframe_0 = { owner = "GRU" amount = 50 version_name = "Sond Mk 2" }
+
+	}
+	809 = { 								
+		small_plane_airframe_0 = { owner = "GRU" amount = 50 version_name = "Sond Mk 2" }
+
+	}
+
+
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=215
+	name="STATE_215"
+	manpower = 2868471
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = LOT
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = LOT
+	}
+
+	provinces={
+		2534 2535 2536 2537 2538 2539 2540 2541 2542 2543 2544 2545 2546 2547 2548 2549 2550 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,1083 @@
+characters = {
+	QAN_Tulok_Ituuq={
+		name="Tulok Ituuq"
+
+		
+		country_leader={
+			ideology=moderatism
+			traits = { rearmer  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	QAN_Kana_Aliqpak={
+		name="Kana Aliqpak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QAN_Kana_Aliqpak
+			traits = {	agricultural_nationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	QAN_Qajaq_Tuna={
+		name="Qajaq Tuna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QAN_Qajaq_Tuna
+			traits = {	socialite_connections 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	QAN_Sila_Tingmi={
+		name="Sila Tingmi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QAN_Sila_Tingmi
+			traits = {	right_industrialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	QAN_Kunik_Forangiq={
+		name="Kunik Forangiq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QAN_Kunik_Forangiq
+			traits = {	headstrong 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	QAN_Kana_Nalupak={
+		name="Kana Nalupak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QAN_Kana_Nalupak
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	QAN_Ukpik_Tata={
+		name="Ukpik Tata"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QAN_Ukpik_Tata
+			traits = {	veteran_anti_bolshevik 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	QAN_Kana_Sellupaq={
+		name="Kana Sellupaq"
+
+		advisor={
+			slot = army_chief
+			idea_token = QAN_Kana_Sellupaq
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	QAN_Oliku_Nalupak={
+		name="Oliku Nalupak"
+
+		advisor={
+			slot = army_chief
+			idea_token = QAN_Oliku_Nalupak
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	QAN_Nutarak_Imaq={
+		name="Nutarak Imaq"
+
+		advisor={
+			slot = army_chief
+			idea_token = QAN_Nutarak_Imaq
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	QAN_Kuniku_Nangiqpak={
+		name="Kuniku Nangiqpak"
+
+		advisor={
+			slot = army_chief
+			idea_token = QAN_Kuniku_Nangiqpak
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	QAN_Nanuq_Tingmi={
+		name="Nanuq Tingmi"
+
+		advisor={
+			slot = navy_chief
+			idea_token = QAN_Nanuq_Tingmi
+			traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+
+	}
+	QAN_Manuq_Ipik={
+		name="Manuq Ipik"
+
+		advisor={
+			slot = navy_chief
+			idea_token = QAN_Manuq_Ipik
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	QAN_Nutarak_Tikuq={
+		name="Nutarak Tikuq"
+
+		advisor={
+			slot = air_chief
+			idea_token = QAN_Nutarak_Tikuq
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	QAN_Ukpikigaq_Avanuk={
+		name="Ukpikigaq Avanuk"
+
+		advisor={
+			slot = air_chief
+			idea_token = QAN_Ukpikigaq_Avanuk
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	QAN_Nuvuk_Kigakuqa={
+		name="Nuvuk Kigakuqa"
+
+		advisor={
+			slot = high_command
+			idea_token = QAN_Nuvuk_Kigakuqa
+			traits = {	air_tactical_bombing_1 	}
+		}
+
+
+	}
+	QAN_Atka_Nanguttak={
+		name="Atka Nanguttak"
+
+		advisor={
+			slot = high_command
+			idea_token = QAN_Atka_Nanguttak
+			traits = {	air_tactical_bombing_2 	}
+		}
+
+
+	}
+	QAN_Kanik_Takak={
+		name="Kanik Takak"
+
+		advisor={
+			slot = high_command
+			idea_token = QAN_Kanik_Takak
+			traits = {	air_close_air_support_1 	}
+		}
+
+
+	}
+	QAN_Siku_Aqulaq={
+		name="Siku Aqulaq"
+
+		advisor={
+			slot = high_command
+			idea_token = QAN_Siku_Aqulaq
+			traits = {	air_naval_strike_2 	}
+		}
+
+
+	}
+	QAN_Nuvuk_Upik={
+		name="Nuvuk Upik"
+
+		advisor={
+			slot = high_command
+			idea_token = QAN_Nuvuk_Upik
+			traits = {	navy_naval_air_defense_2 	}
+		}
+
+
+	}
+	QAN_Kuniku_Surtak={
+		name="Kuniku Surtak"
+
+		advisor={
+			slot = high_command
+			idea_token = QAN_Kuniku_Surtak
+			traits = {	army_artillery_2 	}
+		}
+
+
+	}
+	QAN_Kaviku_Kigaalawimia={
+		name="Kaviku Kigaalawimia"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { collaborator_king  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	QAN_Kaviku_Asatuk={
+		name="Kaviku Asatuk"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QAN_Kaviku_Asatuk
+			traits = {	spirit_of_genghis 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	QAN_Taluk_Aliqpak={
+		name="Taluk Aliqpak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QAN_Taluk_Aliqpak
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	QAN_Kavik_Kuvi={
+		name="Kavik Kuvi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QAN_Kavik_Kuvi
+			traits = {	vapsid_economist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	QAN_Nutarak_Wrana={
+		name="Nutarak Wrana"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QAN_Nutarak_Wrana
+			traits = {	subservient_ultranationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	QAN_Manaq_Aniq={
+		name="Manaq Aniq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QAN_Manaq_Aniq
+			traits = {	spirit_of_genghis 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	QAN_Sila_Avanuk={
+		name="Sila Avanuk"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QAN_Sila_Avanuk
+			traits = {	spirit_of_genghis 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	QAN_Sila_Agluk={
+		name="Sila Agluk"
+
+		advisor={
+			slot = army_chief
+			idea_token = QAN_Sila_Agluk
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	QAN_Kunik_Kuviggaq={
+		name="Kunik Kuviggaq"
+
+		advisor={
+			slot = army_chief
+			idea_token = QAN_Kunik_Kuviggaq
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	QAN_Oliku_Ituuq={
+		name="Oliku Ituuq"
+
+		advisor={
+			slot = army_chief
+			idea_token = QAN_Oliku_Ituuq
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	QAN_Qajaq_Upik={
+		name="Qajaq Upik"
+
+		advisor={
+			slot = army_chief
+			idea_token = QAN_Qajaq_Upik
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	QAN_Siku_Mangiqilupak={
+		name="Siku Mangiqilupak"
+
+		advisor={
+			slot = navy_chief
+			idea_token = QAN_Siku_Mangiqilupak
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	QAN_Manuq_Spurtanupalu={
+		name="Manuq Spurtanupalu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = QAN_Manuq_Spurtanupalu
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	QAN_Kana_Nushaq={
+		name="Kana Nushaq"
+
+		advisor={
+			slot = air_chief
+			idea_token = QAN_Kana_Nushaq
+			traits = {	air_chief_night_operations_2 	}
+		}
+
+
+	}
+	QAN_Atka_Nuskaker={
+		name="Atka Nuskaker"
+
+		advisor={
+			slot = air_chief
+			idea_token = QAN_Atka_Nuskaker
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	QAN_Tulok_Nutak={
+		name="Tulok Nutak"
+
+		advisor={
+			slot = high_command
+			idea_token = QAN_Tulok_Nutak
+			traits = {	air_strategic_bombing_2 	}
+		}
+
+
+	}
+	QAN_Olik_Bubt={
+		name="Olik Bubt"
+
+		advisor={
+			slot = high_command
+			idea_token = QAN_Olik_Bubt
+			traits = {	army_concealment_1 	}
+		}
+
+
+	}
+	QAN_Manaq_Qanguniqtuug={
+		name="Manaq Qanguniqtuug"
+
+		advisor={
+			slot = high_command
+			idea_token = QAN_Manaq_Qanguniqtuug
+			traits = {	navy_submarine_1 	}
+		}
+
+
+	}
+	QAN_Nanuq_Nutak={
+		name="Nanuq Nutak"
+
+		advisor={
+			slot = high_command
+			idea_token = QAN_Nanuq_Nutak
+			traits = {	army_logistics_2 	}
+		}
+
+
+	}
+	QAN_Manuq_Avak={
+		name="Manuq Avak"
+
+		advisor={
+			slot = high_command
+			idea_token = QAN_Manuq_Avak
+			traits = {	navy_screen_1 	}
+		}
+
+
+	}
+	QAN_Kunik_Kuvi={
+		name="Kunik Kuvi"
+
+		advisor={
+			slot = high_command
+			idea_token = QAN_Kunik_Kuvi
+			traits = {	navy_fleet_logistics_2 	}
+		}
+
+
+	}
+	QAN_Panuq_Sikiglaq={
+		name="Panuq Sikiglaq"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { reluctant_stalinist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	QAN_Taluk_Tanuq={
+		name="Taluk Tanuq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QAN_Taluk_Tanuq
+			traits = {	anti_bolshevik_leftist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	QAN_Siku_Spurtanupalu={
+		name="Siku Spurtanupalu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QAN_Siku_Spurtanupalu
+			traits = {	leftist_independent 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	QAN_Nuvuk_Amaq={
+		name="Nuvuk Amaq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QAN_Nuvuk_Amaq
+			traits = {	socialist_justice 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	QAN_Kana_Taktiqtuk={
+		name="Kana Taktiqtuk"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QAN_Kana_Taktiqtuk
+			traits = {	reluctant_stalinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	QAN_Kana_Nalikuqa={
+		name="Kana Nalikuqa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QAN_Kana_Nalikuqa
+			traits = {	patriotic_socialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	QAN_Taluk_Tummaq={
+		name="Taluk Tummaq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QAN_Taluk_Tummaq
+			traits = {	reluctant_stalinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	QAN_Ukpik_Atkaku={
+		name="Ukpik Atkaku"
+
+		advisor={
+			slot = army_chief
+			idea_token = QAN_Ukpik_Atkaku
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	QAN_Sila_Qanguniqtuug={
+		name="Sila Qanguniqtuug"
+
+		advisor={
+			slot = army_chief
+			idea_token = QAN_Sila_Qanguniqtuug
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	QAN_Panuq_Nanguttak={
+		name="Panuq Nanguttak"
+
+		advisor={
+			slot = army_chief
+			idea_token = QAN_Panuq_Nanguttak
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	QAN_Oliku_Nalikuqa={
+		name="Oliku Nalikuqa"
+
+		advisor={
+			slot = army_chief
+			idea_token = QAN_Oliku_Nalikuqa
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	QAN_Kuniku_Kigakuqa={
+		name="Kuniku Kigakuqa"
+
+		advisor={
+			slot = navy_chief
+			idea_token = QAN_Kuniku_Kigakuqa
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	QAN_Olik_Kimiaq={
+		name="Olik Kimiaq"
+
+		advisor={
+			slot = navy_chief
+			idea_token = QAN_Olik_Kimiaq
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	QAN_Atka_Aglagunaq={
+		name="Atka Aglagunaq"
+
+		advisor={
+			slot = air_chief
+			idea_token = QAN_Atka_Aglagunaq
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	QAN_Qajaq_Qikiq={
+		name="Qajaq Qikiq"
+
+		advisor={
+			slot = air_chief
+			idea_token = QAN_Qajaq_Qikiq
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	QAN_Siku_Nunatuk={
+		name="Siku Nunatuk"
+
+		advisor={
+			slot = high_command
+			idea_token = QAN_Siku_Nunatuk
+			traits = {	air_tactical_bombing_2 	}
+		}
+
+
+	}
+	QAN_Mana_Qaniqilulik={
+		name="Mana Qaniqilulik"
+
+		advisor={
+			slot = high_command
+			idea_token = QAN_Mana_Qaniqilulik
+			traits = {	army_cavalry_1 	}
+		}
+
+
+	}
+	QAN_Manuq_Wrana={
+		name="Manuq Wrana"
+
+		advisor={
+			slot = high_command
+			idea_token = QAN_Manuq_Wrana
+			traits = {	air_air_combat_training_1 	}
+		}
+
+
+	}
+	QAN_Manaq_Napak={
+		name="Manaq Napak"
+
+		advisor={
+			slot = high_command
+			idea_token = QAN_Manaq_Napak
+			traits = {	navy_capital_ship_2 	}
+		}
+
+
+	}
+	QAN_Kavik_Imaq={
+		name="Kavik Imaq"
+
+		advisor={
+			slot = high_command
+			idea_token = QAN_Kavik_Imaq
+			traits = {	army_entrenchment_1 	}
+		}
+
+
+	}
+	QAN_Taluk_Bubt={
+		name="Taluk Bubt"
+
+		advisor={
+			slot = high_command
+			idea_token = QAN_Taluk_Bubt
+			traits = {	navy_amphibious_assault_2 	}
+		}
+
+
+	}
+	QAN_Manuq_Kigakuqa={
+		name="Manuq Kigakuqa"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { staunch_constitutionalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	QAN_Manaq_Nusit={
+		name="Manaq Nusit"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QAN_Manaq_Nusit
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	QAN_Iluk_Nuskaker={
+		name="Iluk Nuskaker"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QAN_Iluk_Nuskaker
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	QAN_Kuniku_Qikiq={
+		name="Kuniku Qikiq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QAN_Kuniku_Qikiq
+			traits = {	veteran_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	QAN_Nuvuk_Avanirniqa={
+		name="Nuvuk Avanirniqa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QAN_Nuvuk_Avanirniqa
+			traits = {	first_lady 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	QAN_Kana_Qiniku={
+		name="Kana Qiniku"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QAN_Kana_Qiniku
+			traits = {	conservative_grandee 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	QAN_Taluk_Amaq={
+		name="Taluk Amaq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = QAN_Taluk_Amaq
+			traits = {	the_banker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	QAN_Nanuq_Aniq={
+		name="Nanuq Aniq"
+
+		advisor={
+			slot = army_chief
+			idea_token = QAN_Nanuq_Aniq
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	QAN_Taluk_Sikillutakuq={
+		name="Taluk Sikillutakuq"
+
+		advisor={
+			slot = army_chief
+			idea_token = QAN_Taluk_Sikillutakuq
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	QAN_Iluk_Nangiqpak={
+		name="Iluk Nangiqpak"
+
+		advisor={
+			slot = army_chief
+			idea_token = QAN_Iluk_Nangiqpak
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	QAN_Mana_Kigaaq={
+		name="Mana Kigaaq"
+
+		advisor={
+			slot = army_chief
+			idea_token = QAN_Mana_Kigaaq
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	QAN_Sila_Qangiq={
+		name="Sila Qangiq"
+
+		advisor={
+			slot = navy_chief
+			idea_token = QAN_Sila_Qangiq
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	QAN_Atka_Kigaalawimia={
+		name="Atka Kigaalawimia"
+
+		advisor={
+			slot = navy_chief
+			idea_token = QAN_Atka_Kigaalawimia
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	QAN_Manuq_Kimiaq={
+		name="Manuq Kimiaq"
+
+		advisor={
+			slot = air_chief
+			idea_token = QAN_Manuq_Kimiaq
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	QAN_Kaviku_Taktiqtuk={
+		name="Kaviku Taktiqtuk"
+
+		advisor={
+			slot = air_chief
+			idea_token = QAN_Kaviku_Taktiqtuk
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	QAN_Oliku_Nangiqpak={
+		name="Oliku Nangiqpak"
+
+		advisor={
+			slot = high_command
+			idea_token = QAN_Oliku_Nangiqpak
+			traits = {	air_naval_strike_2 	}
+		}
+
+
+	}
+	QAN_Kanaq_Wrana={
+		name="Kanaq Wrana"
+
+		advisor={
+			slot = high_command
+			idea_token = QAN_Kanaq_Wrana
+			traits = {	army_cavalry_2 	}
+		}
+
+
+	}
+	QAN_Kanik_Hayes={
+		name="Kanik Hayes"
+
+		advisor={
+			slot = high_command
+			idea_token = QAN_Kanik_Hayes
+			traits = {	navy_amphibious_assault_2 	}
+		}
+
+
+	}
+	QAN_Kunik_Anaapikiq={
+		name="Kunik Anaapikiq"
+
+		advisor={
+			slot = high_command
+			idea_token = QAN_Kunik_Anaapikiq
+			traits = {	air_pilot_training_1 	}
+		}
+
+
+	}
+	QAN_Panik_Anguta={
+		name="Panik Anguta"
+
+		advisor={
+			slot = high_command
+			idea_token = QAN_Panik_Anguta
+			traits = {	navy_anti_submarine_1 	}
+		}
+
+
+	}
+	QAN_Kana_Kanuaq={
+		name="Kana Kanuaq"
+
+		advisor={
+			slot = high_command
+			idea_token = QAN_Kana_Kanuaq
+			traits = {	air_air_superiority_1 	}
+		}
+
+
+	}
+	QAN_Manuq_Amakuqatkani={
+		name="Manuq Amakuqatkani"
+
+		advisor={
+			slot = theorist
+			idea_token = QAN_Manuq_Amakuqatkani
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	QAN_Kanik_Kuvuk={
+		name="Kanik Kuvuk"
+
+		advisor={
+			slot = theorist
+			idea_token = QAN_Kanik_Kuvuk
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	QAN_Panuq_Kuvi={
+		name="Panuq Kuvi"
+
+		advisor={
+			slot = theorist
+			idea_token = QAN_Panuq_Kuvi
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

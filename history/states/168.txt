@@ -1,0 +1,37 @@
+
+state={
+	id=168
+	name="STATE_168"
+	manpower = 2204676
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = ZAU
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = ZAU
+	}
+
+	provinces={
+		2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 
+	}
+	local_supplies=0.0 
+}

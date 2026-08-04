@@ -1,0 +1,37 @@
+
+state={
+	id=86
+	name="STATE_86"
+	manpower = 1731375
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=9
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = CES
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = CES
+	}
+
+	provinces={
+		1080 1081 1082 1083 1084 1085 1086 1087 1088 1089 1090 
+	}
+	local_supplies=0.0 
+}

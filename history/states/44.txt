@@ -1,0 +1,37 @@
+
+state={
+	id=44
+	name="STATE_44"
+	manpower = 3123877
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = SHA
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = SHA
+	}
+
+	provinces={
+		531 532 533 534 535 536 537 538 539 540 541 542 543 544 545 546 547 
+	}
+	local_supplies=0.0 
+}

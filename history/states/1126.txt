@@ -1,0 +1,37 @@
+
+state={
+	id=1126
+	name="STATE_1126"
+	manpower = 7119806
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = MAM
+		buildings = {
+			infrastructure = 5
+			
+			arms_factory = 2
+			industrial_complex = 5
+			dockyard = 3
+			
+		}
+		add_core_of = MAM
+	}
+
+	provinces={
+		12954 12955 12956 12957 12958 12959 12960 12961 12962 12963 12964 12965 12966 12967 12968 12969 12970 12971 12972 12973 12974 12975 12976 12977 12978 12979 12980 12981 12982 12983 12984 12985 12986 12987 
+	}
+	local_supplies=0.0 
+}

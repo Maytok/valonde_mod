@@ -1,0 +1,36 @@
+air_wings = {
+		400 = { 								
+		nav_bomber_equipment_0 = { owner = "LIJ" amount = 50 version_name = "Jumbasi Mk 1" }
+
+	}
+	1639 = { 								
+		fighter_equipment_0 = { owner = "LIJ" amount = 50 version_name = "Nyumbe Mk 0" }
+
+	}
+	1617 = { 								
+		fighter_equipment_0 = { owner = "LIJ" amount = 50 version_name = "Nyumbe Mk 0" }
+
+	}
+	727 = { 								
+		CAS_equipment_0 = { owner = "LIJ" amount = 50 version_name = "Tekete Mk 1" }
+
+	}
+	390 = { 								
+		tac_bomber_equipment_0 = { owner = "LIJ" amount = 46 version_name = "Kima Mk 0" }
+
+	}
+	126 = { 								
+		CAS_equipment_0 = { owner = "LIJ" amount = 50 version_name = "Tekete Mk 1" }
+
+	}
+	54 = { 								
+		nav_bomber_equipment_0 = { owner = "LIJ" amount = 50 version_name = "Jumbasi Mk 1" }
+
+	}
+	420 = { 								
+		strat_bomber_equipment_0 = { owner = "LIJ" amount = 44 version_name = "Nyumbe Mk 0" }
+
+	}
+
+
+}

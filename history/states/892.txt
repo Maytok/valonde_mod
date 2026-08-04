@@ -1,0 +1,37 @@
+
+state={
+	id=892
+	name="STATE_892"
+	manpower = 2126152
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = KUK
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = KUK
+	}
+
+	provinces={
+		10373 10374 10375 10376 10377 10378 10379 10380 10381 10382 10383 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=1042
+	name="STATE_1042"
+	manpower = 1280379
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=3
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = HAJ
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = HAJ
+	}
+
+	provinces={
+		11993 11994 11995 11996 11997 11998 11999 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=1221
+	name="STATE_1221"
+	manpower = 2722591
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = DAR
+		buildings = {
+			infrastructure = 4
+			
+			arms_factory = 2
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = DAR
+	}
+
+	provinces={
+		14039 14040 14041 14042 14043 14044 14045 14046 14047 14048 14049 14050 14051 
+	}
+	local_supplies=0.0 
+}

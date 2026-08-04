@@ -1,0 +1,37 @@
+
+state={
+	id=952
+	name="STATE_952"
+	manpower = 4634285
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=5
+		steel=6
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = SHA
+		buildings = {
+			infrastructure = 4
+			
+			arms_factory = 0
+			industrial_complex = 4
+			
+			
+		}
+		add_core_of = SHA
+	}
+
+	provinces={
+		10933 10934 10935 10936 10937 10938 10939 10940 10941 10942 10943 10944 10945 10946 10947 10948 10949 10950 10951 10952 10953 10954 10955 10956 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=36
+	name="STATE_36"
+	manpower = 3372455
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=71
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = GRU
+		buildings = {
+			infrastructure = 1
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = GRU
+	}
+
+	provinces={
+		430 431 432 433 434 435 436 437 438 439 440 441 442 443 444 445 446 447 448 449 450 451 
+	}
+	local_supplies=0.0 
+}

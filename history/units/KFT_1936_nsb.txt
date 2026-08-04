@@ -1,0 +1,278 @@
+division_template = {
+	name = "Militia Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Supported Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 0 y = 3 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 1 y = 3 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+			infantry = {  x = 2 y = 2 }
+
+	}
+	
+	support = {
+			maintenance_company = {  x = 0 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+			cavalry = {  x = 0 y = 0 }
+			cavalry = {  x = 0 y = 1 }
+			cavalry = {  x = 1 y = 0 }
+			cavalry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Motorized Division"
+
+	regiments = {
+			motorized = {  x = 0 y = 0 }
+			motorized = {  x = 0 y = 1 }
+			motorized = {  x = 0 y = 2 }
+			motorized = {  x = 1 y = 0 }
+			motorized = {  x = 1 y = 1 }
+			motorized = {  x = 1 y = 2 }
+			motorized = {  x = 2 y = 0 }
+			motorized = {  x = 2 y = 1 }
+			motorized = {  x = 2 y = 2 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Supported Motorized Division"
+
+	regiments = {
+			motorized = {  x = 0 y = 0 }
+			motorized = {  x = 0 y = 1 }
+			motorized = {  x = 0 y = 2 }
+			motorized = {  x = 1 y = 0 }
+			motorized = {  x = 1 y = 1 }
+			motorized = {  x = 2 y = 0 }
+			motorized = {  x = 2 y = 1 }
+
+	}
+	
+	support = {
+			maintenance_company = {  x = 0 y = 0 }
+			engineer = {  x = 0 y = 1 }
+
+	}
+}
+
+
+units = {
+	division= {
+		name = "1st 'Cozumel' Militia Division"
+		location = 7652
+		division_template = "Militia Division"
+		start_experience_factor = 0.047197
+		start_equipment_factor = 0.943244
+	}
+	division= {
+		name = "2nd 'Spes' Militia Division"
+		location = 4850
+		division_template = "Militia Division"
+		start_experience_factor = 0.359878
+		start_equipment_factor = 0.893038
+	}
+	division= {
+		name = "3rd 'Bakchichen' Militia Division"
+		location = 4059
+		division_template = "Militia Division"
+		start_experience_factor = 0.809466
+		start_equipment_factor = 0.865284
+	}
+	division= {
+		name = "4th 'Oxlam' Militia Division"
+		location = 7376
+		division_template = "Militia Division"
+		start_experience_factor = 0.446545
+		start_equipment_factor = 0.971437
+	}
+	division= {
+		name = "5th 'Mentura' Militia Division"
+		location = 9165
+		division_template = "Militia Division"
+		start_experience_factor = 0.533735
+		start_equipment_factor = 0.989678
+	}
+	division= {
+		name = "6th 'Impublicus' Militia Division"
+		location = 4099
+		division_template = "Militia Division"
+		start_experience_factor = 0.322231
+		start_equipment_factor = 0.949196
+	}
+	division= {
+		name = "1st 'Halam' Infantry Division"
+		location = 3121
+		division_template = "Infantry Division"
+		start_experience_factor = 0.424816
+		start_equipment_factor = 0.884034
+	}
+	division= {
+		name = "2nd 'Domentio' Infantry Division"
+		location = 491
+		division_template = "Infantry Division"
+		start_experience_factor = 0.315341
+		start_equipment_factor = 0.917558
+	}
+	division= {
+		name = "3rd 'Opus' Infantry Division"
+		location = 6117
+		division_template = "Infantry Division"
+		start_experience_factor = 0.510181
+		start_equipment_factor = 0.855594
+	}
+	division= {
+		name = "1st 'Zotzikin' Supported Infantry Division"
+		location = 3114
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.445843
+		start_equipment_factor = 0.969980
+	}
+	division= {
+		name = "2nd 'Sayilanil' Supported Infantry Division"
+		location = 5548
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.146992
+		start_equipment_factor = 0.903632
+	}
+	division= {
+		name = "3rd 'Ajawakmul' Supported Infantry Division"
+		location = 7379
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.619618
+		start_equipment_factor = 0.988566
+	}
+	division= {
+		name = "1st 'Pagina' Cavalry Division"
+		location = 5219
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.728594
+		start_equipment_factor = 0.907983
+	}
+	division= {
+		name = "2nd 'Impublicus' Cavalry Division"
+		location = 1889
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.222308
+		start_equipment_factor = 0.971341
+	}
+	division= {
+		name = "3rd 'Mentura' Cavalry Division"
+		location = 5399
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.127788
+		start_equipment_factor = 0.938577
+	}
+	division= {
+		name = "4th 'Caespus' Cavalry Division"
+		location = 5220
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.174688
+		start_equipment_factor = 0.830487
+	}
+	division= {
+		name = "5th 'Katecanquen' Cavalry Division"
+		location = 5544
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.261272
+		start_equipment_factor = 0.909592
+	}
+	division= {
+		name = "6th 'Mortastrus' Cavalry Division"
+		location = 8068
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.889461
+		start_equipment_factor = 0.864123
+	}
+	division= {
+		name = "1st 'Famal' Motorized Division"
+		location = 1893
+		division_template = "Motorized Division"
+		start_experience_factor = 0.560621
+		start_equipment_factor = 0.826784
+	}
+	division= {
+		name = "2nd 'Chichel' Motorized Division"
+		location = 6493
+		division_template = "Motorized Division"
+		start_experience_factor = 0.027820
+		start_equipment_factor = 0.896786
+	}
+	division= {
+		name = "1st 'Artas' Supported Motorized Division"
+		location = 7633
+		division_template = "Supported Motorized Division"
+		start_experience_factor = 0.416639
+		start_equipment_factor = 0.945397
+	}
+	division= {
+		name = "2nd 'Prinator' Supported Motorized Division"
+		location = 3402
+		division_template = "Supported Motorized Division"
+		start_experience_factor = 0.430265
+		start_equipment_factor = 0.972171
+	}
+	division= {
+		name = "3rd 'Pria' Supported Motorized Division"
+		location = 4098
+		division_template = "Supported Motorized Division"
+		start_experience_factor = 0.763612
+		start_equipment_factor = 0.953677
+	}
+
+}

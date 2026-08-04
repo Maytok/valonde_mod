@@ -1,0 +1,37 @@
+
+state={
+	id=458
+	name="STATE_458"
+	manpower = 1780454
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=1
+		chromium=1
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=1
+		coal=3
+	}
+
+	history={
+		
+		owner = BUM
+		buildings = {
+			infrastructure = 2
+			air_base = 3
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = BUM
+	}
+
+	provinces={
+		5293 5294 5295 5296 5297 5298 5299 5300 5301 5302 
+	}
+	local_supplies=0.0 
+}

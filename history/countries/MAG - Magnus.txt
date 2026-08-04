@@ -1,0 +1,403 @@
+capital = 78
+
+oob = "MAG_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "MAG_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "MAG_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	support_weapons= 1
+	tech_trucks= 1
+	tech_support= 1
+	gw_artillery= 1
+	infantry_weapons1= 1
+	paratroopers= 1
+	marines= 1
+	tech_mountaineers= 1
+	motorised_infantry= 1
+	armored_car1= 1
+	tech_engineers= 1
+	tech_recon= 1
+	tech_military_police= 1
+	interwar_antiair= 1
+	interwar_artillery= 1
+	basic_machine_tools= 1
+	fuel_silos= 1
+	construction1= 1
+	fuel_refining= 1
+	basic_fortification_tech= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+		basic_heavy_tank = 1
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+		basic_heavy_tank_chassis = 1
+		engine_tech_1 = 1
+		armor_tech_1 = 1
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+		create_equipment_variant = {
+		name = "Plum Mk 1"
+		type = heavy_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = smoke_launchers
+			suspension_type_slot = tank_torsion_bar_suspension
+			turret_type_slot = tank_heavy_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Foritas Mk 2"
+		type = heavy_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = secondary_turret_hmg
+			special_type_slot_2 = extra_ammo_storage
+			special_type_slot_3 = wet_ammo_storage
+			suspension_type_slot = tank_torsion_bar_suspension
+			turret_type_slot = tank_heavy_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Milluvis Mk 1"
+		type = light_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_small_cannon_2
+			special_type_slot_1 = secondary_turret_small_cannon
+			special_type_slot_2 = smoke_launchers
+			special_type_slot_3 = extra_ammo_storage
+			suspension_type_slot = tank_christie_suspension
+			turret_type_slot = tank_light_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Philis Mk 0"
+		type = light_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_small_cannon_2
+			special_type_slot_1 = secondary_turret_hmg
+			special_type_slot_3 = expanded_fuel_tank
+			suspension_type_slot = tank_torsion_bar_suspension
+			turret_type_slot = tank_light_fixed_superstructure_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Piscatrum Mk 1"
+		type = medium_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_medium_cannon
+			special_type_slot_1 = smoke_launchers
+			suspension_type_slot = tank_christie_suspension
+			turret_type_slot = tank_medium_one_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "MAG_1936_air_bba"
+		set_technology = {
+			
+		}
+
+	else = {
+		set_air_oob = "MAG_1936_air_legacy"
+		set_technology = {
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	early_destroyer = 1
+	
+	}
+	set_naval_oob = "MAG_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Pravis Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	early_ship_hull_light = 1
+	sonar = 1
+	
+	}
+	set_naval_oob = "MAG_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Pravis Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = ship_anti_air_1
+				rear_1_custom_slot = empty
+			}
+		}
+
+	}
+
+
+recruit_character = MAG_Remus_Pagnus
+recruit_character = MAG_Vibervius_Turrum
+recruit_character = MAG_Varcellius_Viturudax
+recruit_character = MAG_Fabius_Deatus
+recruit_character = MAG_Longintus_Regnis
+recruit_character = MAG_Aulius_Equa
+recruit_character = MAG_Marcellianus_Frum
+recruit_character = MAG_Nerius_Terae
+recruit_character = MAG_Marcellianus_Caravia
+recruit_character = MAG_Regulus_Aques
+recruit_character = MAG_Decimus_Plum
+recruit_character = MAG_Julianus_Solum
+recruit_character = MAG_Marcus_Hernima
+recruit_character = MAG_Quinus_Lunus
+recruit_character = MAG_Julus_Mura
+recruit_character = MAG_Horatius_Spes
+recruit_character = MAG_Nonginus_Galatumbus
+recruit_character = MAG_Publius_Arbilva
+recruit_character = MAG_Atticus_Nobis
+recruit_character = MAG_Flavius_Centus
+recruit_character = MAG_Atticus_Aerbumensulg
+recruit_character = MAG_Vibius_Machinatus
+recruit_character = MAG_Spuriusus_Victor
+recruit_character = MAG_Spuriusus_Solum
+recruit_character = MAG_Manlianus_Tensarvus
+recruit_character = MAG_Attius_Frum
+recruit_character = MAG_Aulus_Popus
+recruit_character = MAG_Varro_Victor
+recruit_character = MAG_Quintus_Radicium
+recruit_character = MAG_Attius_Plumen
+recruit_character = MAG_Nerius_Spes
+recruit_character = MAG_Nonginus_Unita
+recruit_character = MAG_Sero_Mura
+recruit_character = MAG_Marcus_Magnus
+recruit_character = MAG_Silvanus_Forpus
+recruit_character = MAG_Longintus_Plumen
+recruit_character = MAG_Domitellus_Victor
+recruit_character = MAG_Spuriscus_Macus
+recruit_character = MAG_Quintus_Scaes
+recruit_character = MAG_Longintus_Florta
+recruit_character = MAG_Varcellius_Arbilva
+recruit_character = MAG_Lucimus_Solum
+recruit_character = MAG_Nerus_Equa
+recruit_character = MAG_Julius_Forpus
+recruit_character = MAG_Liviustus_Flus
+recruit_character = MAG_Servius_Pagina
+recruit_character = MAG_Gemitus_Terae
+recruit_character = MAG_Longintus_Thea
+recruit_character = MAG_Manlianus_Caespus
+recruit_character = MAG_Gaianus_Lunus
+recruit_character = MAG_Servius_Famal
+recruit_character = MAG_Spurius_Philos
+recruit_character = MAG_Flavius_Strus
+recruit_character = MAG_Tibius_Paginciumena
+recruit_character = MAG_Decimus_Ratum
+recruit_character = MAG_Sextus_Caravia
+recruit_character = MAG_Varcus_Macus
+recruit_character = MAG_Nerius_Orbor
+recruit_character = MAG_Decimus_Pocus
+recruit_character = MAG_Coracchus_Tena
+recruit_character = MAG_Drutus_Stellaentus
+recruit_character = MAG_Augulus_Belum
+recruit_character = MAG_Valero_Radicium
+recruit_character = MAG_Sextus_Florta
+recruit_character = MAG_Attius_Piscatrum
+recruit_character = MAG_Reminus_Muructudax
+recruit_character = MAG_Atticus_Scaes
+recruit_character = MAG_Gemitus_Philos
+recruit_character = MAG_Marcellius_Plumbus
+recruit_character = MAG_Varcellius_Piscatrum
+recruit_character = MAG_Flavius_Caesae
+recruit_character = MAG_Julianus_Nobis
+recruit_character = MAG_Reminus_Sonor
+recruit_character = MAG_Marcellius_Strus
+recruit_character = MAG_Cassius_Lunus
+recruit_character = MAG_Prius_Regnis
+recruit_character = MAG_Augus_Beluvis
+recruit_character = MAG_Sextus_Philis
+recruit_character = MAG_Vibervius_Lunus
+recruit_character = MAG_Valero_Foritas
+recruit_character = MAG_Spurius_Plumbus
+recruit_character = MAG_Quinus_Gentus
+recruit_character = MAG_Flaus_Aqua
+recruit_character = MAG_Aulius_Caravia
+recruit_character = MAG_Manus_Lunus
+recruit_character = MAG_Paudius_Aerbumensulg
+recruit_character = MAG_Servius_Modes
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 4
+set_convoys = 0
+set_stability = 0.38
+set_war_support = 0.59
+
+add_ideas = {
+disarmed_nation
+low_economic_mobilisation
+autarkic_economy
+}
+
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1921.6.3"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 27
+	fascism = 26
+	communism = 34
+	neutrality = 13
+}
+
+
+
+
+

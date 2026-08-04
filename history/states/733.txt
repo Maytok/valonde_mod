@@ -1,0 +1,37 @@
+
+state={
+	id=733
+	name="STATE_733"
+	manpower = 2311525
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=3
+		chromium=3
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=3
+		coal=7
+	}
+
+	history={
+		
+		owner = KIM
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = KIM
+	}
+
+	provinces={
+		8501 8502 8503 8504 8505 8506 8507 8508 8509 8510 8511 8512 8513 
+	}
+	local_supplies=0.0 
+}

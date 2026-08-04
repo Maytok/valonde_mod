@@ -1,0 +1,32 @@
+air_wings = {
+		1169 = { 								
+		tac_bomber_equipment_0 = { owner = "NHA" amount = 40 version_name = "Khalama Mk 1" }
+
+	}
+	1080 = { 								
+		fighter_equipment_0 = { owner = "NHA" amount = 50 version_name = "Matanz Mk 1" }
+
+	}
+	1140 = { 								
+		CAS_equipment_0 = { owner = "NHA" amount = 50 version_name = "Mawkaba Mk 2" }
+
+	}
+	1105 = { 								
+		nav_bomber_equipment_0 = { owner = "NHA" amount = 44 version_name = "Kutub Mk 1" }
+
+	}
+	1068 = { 								
+		fighter_equipment_0 = { owner = "NHA" amount = 50 version_name = "Matanz Mk 1" }
+
+	}
+	1104 = { 								
+		strat_bomber_equipment_0 = { owner = "NHA" amount = 46 version_name = "Zamt Mk 0" }
+
+	}
+	1056 = { 								
+		CAS_equipment_0 = { owner = "NHA" amount = 50 version_name = "Mawkaba Mk 2" }
+
+	}
+
+
+}

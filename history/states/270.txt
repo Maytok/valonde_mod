@@ -1,0 +1,37 @@
+
+state={
+	id=270
+	name="STATE_270"
+	manpower = 2063646
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = MAG
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = MAG
+	}
+
+	provinces={
+		3152 3153 3154 3155 3156 3157 3158 3159 3160 3161 3162 3163 3164 3165 
+	}
+	local_supplies=0.0 
+}

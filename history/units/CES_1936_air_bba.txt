@@ -1,0 +1,16 @@
+air_wings = {
+		598 = { 								
+		small_plane_cas_airframe_0 = { owner = "CES" amount = 15 version_name = "Mtifu Mk 0" }
+
+	}
+	877 = { 								
+		small_plane_airframe_0 = { owner = "CES" amount = 12 version_name = "Hadisto Mk 1" }
+
+	}
+	389 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "CES" amount = 10 version_name = "Hofumbuka Mk 2" }
+
+	}
+
+
+}

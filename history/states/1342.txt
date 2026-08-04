@@ -1,0 +1,37 @@
+
+state={
+	id=1342
+	name="STATE_1342"
+	manpower = 2921183
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = QAN
+		buildings = {
+			infrastructure = 4
+			
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 2
+			
+		}
+		add_core_of = QAN
+	}
+
+	provinces={
+		15323 15324 15325 15326 15327 15328 15329 15330 15331 15332 15333 15334 15335 15336 
+	}
+	local_supplies=0.0 
+}

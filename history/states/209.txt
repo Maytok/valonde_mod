@@ -1,0 +1,37 @@
+
+state={
+	id=209
+	name="STATE_209"
+	manpower = 2281113
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = RAD
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = RAD
+	}
+
+	provinces={
+		2456 2457 2458 2459 2460 2461 2462 2463 2464 2465 2466 
+	}
+	local_supplies=0.0 
+}

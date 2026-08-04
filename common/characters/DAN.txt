@@ -1,0 +1,1083 @@
+characters = {
+	DAN_Gaizka_Eguzkuna={
+		name="Gaizka Eguzkuna"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { staunch_aristocrat  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	DAN_Asier_Ingura={
+		name="Asier Ingura"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Asier_Ingura
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	DAN_Harkaitz_Zentza={
+		name="Harkaitz Zentza"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Harkaitz_Zentza
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	DAN_Ander_Amena={
+		name="Ander Amena"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Ander_Amena
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	DAN_Harkaizka_Bakina={
+		name="Harkaizka Bakina"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Harkaizka_Bakina
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	DAN_Gaizka_Kantzuna={
+		name="Gaizka Kantzuna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Gaizka_Kantzuna
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	DAN_Benai_Herotzaguna={
+		name="Benai Herotzaguna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Benai_Herotzaguna
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	DAN_Benai_Aintzuloa={
+		name="Benai Aintzuloa"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAN_Benai_Aintzuloa
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	DAN_Ekaitz_Here={
+		name="Ekaitz Here"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAN_Ekaitz_Here
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	DAN_Ekaizkai_Goita={
+		name="Ekaizkai Goita"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAN_Ekaizkai_Goita
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	DAN_Xabier_Zuloa={
+		name="Xabier Zuloa"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAN_Xabier_Zuloa
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	DAN_Aitorka_Ariak={
+		name="Aitorka Ariak"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DAN_Aitorka_Ariak
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	DAN_Mikel_Dantza={
+		name="Mikel Dantza"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DAN_Mikel_Dantza
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	DAN_Gaitz_Ariak={
+		name="Gaitz Ariak"
+
+		advisor={
+			slot = air_chief
+			idea_token = DAN_Gaitz_Ariak
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	DAN_Iban_Treba={
+		name="Iban Treba"
+
+		advisor={
+			slot = air_chief
+			idea_token = DAN_Iban_Treba
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	DAN_Iban_Gaua={
+		name="Iban Gaua"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Iban_Gaua
+			traits = {	air_air_superiority_2 	}
+		}
+
+
+	}
+	DAN_Gaiur_Poza={
+		name="Gaiur Poza"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Gaiur_Poza
+			traits = {	navy_naval_air_defense_1 	}
+		}
+
+
+	}
+	DAN_Iban_Zapendu={
+		name="Iban Zapendu"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Iban_Zapendu
+			traits = {	air_naval_strike_2 	}
+		}
+
+
+	}
+	DAN_Ander_Alaki={
+		name="Ander Alaki"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Ander_Alaki
+			traits = {	army_artillery_1 	}
+		}
+
+
+	}
+	DAN_Gaiur_Heroizionasu={
+		name="Gaiur Heroizionasu"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Gaiur_Heroizionasu
+			traits = {	army_regrouping_2 	}
+		}
+
+
+	}
+	DAN_Gorkaitorkai_Norimenasunt={
+		name="Gorkaitorkai Norimenasunt"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Gorkaitorkai_Norimenasunt
+			traits = {	army_concealment_1 	}
+		}
+
+
+	}
+	DAN_Unat_Oihota={
+		name="Unat Oihota"
+
+		
+		country_leader={
+			ideology=fascism_ideology
+			traits = { spirit_of_genghis  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	DAN_Gorka_Ariak={
+		name="Gorka Ariak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Gorka_Ariak
+			traits = {	autocratic_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	DAN_Amaizkaitor_Gogoa={
+		name="Amaizkaitor Gogoa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Amaizkaitor_Gogoa
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	DAN_Mikel_Herotzaguna={
+		name="Mikel Herotzaguna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Mikel_Herotzaguna
+			traits = {	archon_basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	DAN_Ibanti_Hiza={
+		name="Ibanti Hiza"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Ibanti_Hiza
+			traits = {	autocratic_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	DAN_Mikel_Maiz={
+		name="Mikel Maiz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Mikel_Maiz
+			traits = {	vapsid_economist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	DAN_Amai_Bihantza={
+		name="Amai Bihantza"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Amai_Bihantza
+			traits = {	basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	DAN_Amai_Elura={
+		name="Amai Elura"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAN_Amai_Elura
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	DAN_Koldo_Zaitzmin={
+		name="Koldo Zaitzmin"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAN_Koldo_Zaitzmin
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	DAN_Ekaizkai_Norimenasunt={
+		name="Ekaizkai Norimenasunt"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAN_Ekaizkai_Norimenasunt
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	DAN_Amaiur_Bakimena={
+		name="Amaiur Bakimena"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAN_Amaiur_Bakimena
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	DAN_Gaiur_Zora={
+		name="Gaiur Zora"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DAN_Gaiur_Zora
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	DAN_Iker_Ametasun={
+		name="Iker Ametasun"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DAN_Iker_Ametasun
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	DAN_Eder_Goita={
+		name="Eder Goita"
+
+		advisor={
+			slot = air_chief
+			idea_token = DAN_Eder_Goita
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	DAN_Ikel_Eusmoa={
+		name="Ikel Eusmoa"
+
+		advisor={
+			slot = air_chief
+			idea_token = DAN_Ikel_Eusmoa
+			traits = {	air_chief_night_operations_2 	}
+		}
+
+
+	}
+	DAN_Asier_Eguzkuna={
+		name="Asier Eguzkuna"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Asier_Eguzkuna
+			traits = {	air_close_air_support_1 	}
+		}
+
+
+	}
+	DAN_Gorka_Trebetasunau={
+		name="Gorka Trebetasunau"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Gorka_Trebetasunau
+			traits = {	navy_carrier_2 	}
+		}
+
+
+	}
+	DAN_Aitorka_Izea={
+		name="Aitorka Izea"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Aitorka_Izea
+			traits = {	air_naval_strike_1 	}
+		}
+
+
+	}
+	DAN_Xabier_Bihotasai={
+		name="Xabier Bihotasai"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Xabier_Bihotasai
+			traits = {	army_CombinedArms_2 	}
+		}
+
+
+	}
+	DAN_Gorka_Gogoa={
+		name="Gorka Gogoa"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Gorka_Gogoa
+			traits = {	army_armored_2 	}
+		}
+
+
+	}
+	DAN_Ibaitz_Zarri={
+		name="Ibaitz Zarri"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Ibaitz_Zarri
+			traits = {	air_strategic_bombing_1 	}
+		}
+
+
+	}
+	DAN_Gorka_Baki={
+		name="Gorka Baki"
+
+		
+		country_leader={
+			ideology=leninism
+			traits = { leftist_intellectual  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	DAN_Amaitz_Ekintza={
+		name="Amaitz Ekintza"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Amaitz_Ekintza
+			traits = {	anti_bolshevik_leftist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	DAN_Ekaitz_Bakina={
+		name="Ekaitz Bakina"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Ekaitz_Bakina
+			traits = {	mastermind_code_cracker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	DAN_Aitorka_Trebetasunau={
+		name="Aitorka Trebetasunau"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Aitorka_Trebetasunau
+			traits = {	leftist_independent 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	DAN_Mikel_Bihantza={
+		name="Mikel Bihantza"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Mikel_Bihantza
+			traits = {	marxist_fundamentalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	DAN_Ander_Abesti={
+		name="Ander Abesti"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Ander_Abesti
+			traits = {	indomitable_perseverance 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	DAN_Gorkaizka_Ikusketa={
+		name="Gorkaizka Ikusketa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Gorkaizka_Ikusketa
+			traits = {	patriotic_socialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	DAN_Asier_Kantza={
+		name="Asier Kantza"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAN_Asier_Kantza
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	DAN_Gorkai_Zaitzmin={
+		name="Gorkai Zaitzmin"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAN_Gorkai_Zaitzmin
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	DAN_Aitz_Ekintza={
+		name="Aitz Ekintza"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAN_Aitz_Ekintza
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	DAN_Ibaitz_Here={
+		name="Ibaitz Here"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAN_Ibaitz_Here
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	DAN_Asier_Zuloa={
+		name="Asier Zuloa"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DAN_Asier_Zuloa
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	DAN_Asier_Treba={
+		name="Asier Treba"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DAN_Asier_Treba
+			traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+
+	}
+	DAN_Gaizkaitz_Gogoa={
+		name="Gaizkaitz Gogoa"
+
+		advisor={
+			slot = air_chief
+			idea_token = DAN_Gaizkaitz_Gogoa
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	DAN_Amaizkaitor_Oihotzapore={
+		name="Amaizkaitor Oihotzapore"
+
+		advisor={
+			slot = air_chief
+			idea_token = DAN_Amaizkaitor_Oihotzapore
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	DAN_Amai_Trebetasunau={
+		name="Amai Trebetasunau"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Amai_Trebetasunau
+			traits = {	army_artillery_2 	}
+		}
+
+
+	}
+	DAN_Amaiur_Alarteria={
+		name="Amaiur Alarteria"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Amaiur_Alarteria
+			traits = {	air_naval_strike_2 	}
+		}
+
+
+	}
+	DAN_Ibaitz_Zaitzalabaia={
+		name="Ibaitz Zaitzalabaia"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Ibaitz_Zaitzalabaia
+			traits = {	air_air_combat_training_1 	}
+		}
+
+
+	}
+	DAN_Gorkaitorkai_Entz={
+		name="Gorkaitorkai Entz"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Gorkaitorkai_Entz
+			traits = {	navy_screen_2 	}
+		}
+
+
+	}
+	DAN_Aitz_Behe={
+		name="Aitz Behe"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Aitz_Behe
+			traits = {	navy_fleet_logistics_1 	}
+		}
+
+
+	}
+	DAN_Ekaitz_Entz={
+		name="Ekaitz Entz"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Ekaitz_Entz
+			traits = {	navy_submarine_2 	}
+		}
+
+
+	}
+	DAN_Gaizkaitz_Norimenasunt={
+		name="Gaizkaitz Norimenasunt"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { veteran_minister  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	DAN_Harkaizka_Haurreberoit={
+		name="Harkaizka Haurreberoit"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Harkaizka_Haurreberoit
+			traits = {	rearmer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	DAN_Ibaitz_Aria={
+		name="Ibaitz Aria"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Ibaitz_Aria
+			traits = {	veteran_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	DAN_Harkai_Ikusketa={
+		name="Harkai Ikusketa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Harkai_Ikusketa
+			traits = {	first_lady 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	DAN_Gaizka_Alarteria={
+		name="Gaizka Alarteria"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Gaizka_Alarteria
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	DAN_Gaitz_Neur={
+		name="Gaitz Neur"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Gaitz_Neur
+			traits = {	the_banker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	DAN_Iker_Bakina={
+		name="Iker Bakina"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Iker_Bakina
+			traits = {	first_lady 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	DAN_Ibanti_Egutza={
+		name="Ibanti Egutza"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAN_Ibanti_Egutza
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	DAN_Amaitz_Kantu={
+		name="Amaitz Kantu"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAN_Amaitz_Kantu
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	DAN_Harkaitz_Entz={
+		name="Harkaitz Entz"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAN_Harkaitz_Entz
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	DAN_Amaitz_Kokasuna={
+		name="Amaitz Kokasuna"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAN_Amaitz_Kokasuna
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	DAN_Unat_Basuna={
+		name="Unat Basuna"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DAN_Unat_Basuna
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	DAN_Gorkaizka_Alarteria={
+		name="Gorkaizka Alarteria"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DAN_Gorkaizka_Alarteria
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	DAN_Gorka_Zarri={
+		name="Gorka Zarri"
+
+		advisor={
+			slot = air_chief
+			idea_token = DAN_Gorka_Zarri
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	DAN_Asier_Bihantza={
+		name="Asier Bihantza"
+
+		advisor={
+			slot = air_chief
+			idea_token = DAN_Asier_Bihantza
+			traits = {	air_chief_all_weather_1 	}
+		}
+
+
+	}
+	DAN_Iker_Zelarteri={
+		name="Iker Zelarteri"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Iker_Zelarteri
+			traits = {	army_logistics_2 	}
+		}
+
+
+	}
+	DAN_Amai_Zaitzmin={
+		name="Amai Zaitzmin"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Amai_Zaitzmin
+			traits = {	air_naval_strike_1 	}
+		}
+
+
+	}
+	DAN_Iban_Koba={
+		name="Iban Koba"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Iban_Koba
+			traits = {	air_bomber_interception_1 	}
+		}
+
+
+	}
+	DAN_Ibaitz_Heroizionasu={
+		name="Ibaitz Heroizionasu"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Ibaitz_Heroizionasu
+			traits = {	air_naval_strike_1 	}
+		}
+
+
+	}
+	DAN_Gaiur_Herotzaguna={
+		name="Gaiur Herotzaguna"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Gaiur_Herotzaguna
+			traits = {	army_CombinedArms_1 	}
+		}
+
+
+	}
+	DAN_Ekaitz_Harra={
+		name="Ekaitz Harra"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Ekaitz_Harra
+			traits = {	army_regrouping_2 	}
+		}
+
+
+	}
+	DAN_Aitor_Ilaba={
+		name="Aitor Ilaba"
+
+		advisor={
+			slot = theorist
+			idea_token = DAN_Aitor_Ilaba
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	DAN_Benaiur_Norimenasunt={
+		name="Benaiur Norimenasunt"
+
+		advisor={
+			slot = theorist
+			idea_token = DAN_Benaiur_Norimenasunt
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	DAN_Ander_Oihota={
+		name="Ander Oihota"
+
+		advisor={
+			slot = theorist
+			idea_token = DAN_Ander_Oihota
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

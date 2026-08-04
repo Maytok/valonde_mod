@@ -1,0 +1,37 @@
+
+state={
+	id=77
+	name="STATE_77"
+	manpower = 46977
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=1
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = WIM
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = WIM
+	}
+
+	provinces={
+		934 935 936 937 938 939 940 941 942 943 944 945 946 947 948 949 950 
+	}
+	local_supplies=0.0 
+}

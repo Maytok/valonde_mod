@@ -1,0 +1,37 @@
+
+state={
+	id=171
+	name="STATE_171"
+	manpower = 1990678
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = TEM
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = TEM
+	}
+
+	provinces={
+		2043 2044 2045 2046 2047 2048 2049 2050 2051 2052 
+	}
+	local_supplies=0.0 
+}

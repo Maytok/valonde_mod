@@ -1,0 +1,37 @@
+
+state={
+	id=1336
+	name="STATE_1336"
+	manpower = 1368237
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = MUN
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = MUN
+	}
+
+	provinces={
+		15280 15281 15282 15283 15284 15285 15286 
+	}
+	local_supplies=0.0 
+}

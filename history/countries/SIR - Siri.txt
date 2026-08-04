@@ -1,0 +1,424 @@
+capital = 8
+
+oob = "SIR_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "SIR_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "SIR_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	support_weapons= 1
+	tech_trucks= 1
+	tech_support= 1
+	infantry_weapons1= 1
+	paratroopers= 1
+	tech_military_police= 1
+	basic_machine_tools= 1
+	fuel_silos= 1
+	basic_fire_control_system= 1
+	basic_fortification_tech= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+		engine_tech_1 = 1
+		armor_tech_1 = 1
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+		create_equipment_variant = {
+		name = "Ukuti Mk 2"
+		type = heavy_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = secondary_turret_small_cannon
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_heavy_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Pambe Mk 0"
+		type = light_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_heavy_machine_gun
+			special_type_slot_1 = extra_ammo_storage
+			special_type_slot_2 = smoke_launchers
+			special_type_slot_3 = expanded_fuel_tank
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_light_one_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Taana Mk 2"
+		type = light_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_heavy_machine_gun
+			special_type_slot_1 = expanded_fuel_tank
+			special_type_slot_2 = extra_ammo_storage
+			special_type_slot_3 = wet_ammo_storage
+			suspension_type_slot = tank_christie_suspension
+			turret_type_slot = tank_light_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Histo Mk 1"
+		type = medium_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_medium_cannon
+			special_type_slot_1 = secondary_turret_hmg
+			special_type_slot_2 = smoke_launchers
+			suspension_type_slot = tank_torsion_bar_suspension
+			turret_type_slot = tank_medium_fixed_superstructure_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "SIR_1936_air_bba"
+		set_technology = {
+			bba_early_transport_plane = 1
+			iw_small_airframe = 1
+			iw_medium_airframe = 1
+			iw_large_airframe = 1
+			early_bombs = 1
+			photo_reconnaisance = 1
+			aa_lmg = 1
+			
+		}
+		create_equipment_variant = {
+			name = "Shini Mk 0"
+			type = small_plane_cas_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = bomb_locks
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Aduiya Mk 1"
+			type = small_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = light_mg_2x
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Nyoto Mk 2"
+			type = large_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_4x
+			fixed_main_weapon_slot = large_bomb_bay
+			special_type_slot_1 = lmg_defense_turret
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Imaifu Mk 0"
+			type = medium_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_2x
+			fixed_main_weapon_slot = medium_bomb_bay
+			special_type_slot_1 = lmg_defense_turret
+
+			}
+		}
+
+	else = {
+		set_air_oob = "SIR_1936_air_legacy"
+		set_technology = {
+			early_transport_plane = 1
+			early_fighter = 1
+			early_bomber = 1
+			strategic_bomber1 = 1
+			CAS1 = 1
+			scout_plane1 = 1
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	early_destroyer = 1
+	
+	}
+	set_naval_oob = "SIR_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Meli Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	early_ship_hull_light = 1
+	sonar = 1
+	
+	}
+	set_naval_oob = "SIR_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Meli Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = empty
+				rear_1_custom_slot = empty
+			}
+		}
+
+	}
+
+
+recruit_character = SIR_Jumari_Siri
+recruit_character = SIR_Shaka_Kijimti
+recruit_character = SIR_Mbwano_Ukuti
+recruit_character = SIR_Musa_Chera
+recruit_character = SIR_Shaka_Histo
+recruit_character = SIR_Mbwano_Hati
+recruit_character = SIR_Amaraka_Panjanguzi
+recruit_character = SIR_Amari_Hisu
+recruit_character = SIR_Amau_Nyumba
+recruit_character = SIR_Omari_Mili
+recruit_character = SIR_Sefu_Mauti
+recruit_character = SIR_Mbwanga_Hekete
+recruit_character = SIR_Tano_Hadisto
+recruit_character = SIR_Mbwanga_Kishalme
+recruit_character = SIR_Tano_Pango
+recruit_character = SIR_Mbwanga_Kani
+recruit_character = SIR_Kwana_Malu
+recruit_character = SIR_Simbana_Usiwa
+recruit_character = SIR_Baka_Mtifu
+recruit_character = SIR_Lubanga_Sheli
+recruit_character = SIR_Kwana_Sheli
+recruit_character = SIR_Kato_Chera
+recruit_character = SIR_Lubanga_Panjanguzi
+recruit_character = SIR_Mbwame_Fuki
+recruit_character = SIR_Baka_Muuji
+recruit_character = SIR_Mbwamari_Meli
+recruit_character = SIR_Mbwanga_Nyoto
+recruit_character = SIR_Kame_Malme
+recruit_character = SIR_Amau_Muuji
+recruit_character = SIR_Mbwanga_Hofumbuka
+recruit_character = SIR_Mbwamari_Nyanarajesha
+recruit_character = SIR_Shakaraka_Nyoto
+recruit_character = SIR_Kato_Pano
+recruit_character = SIR_Amaraka_Shini
+recruit_character = SIR_Tanga_Mauti
+recruit_character = SIR_Tanga_Soko
+recruit_character = SIR_Kwame_Checho
+recruit_character = SIR_Kamaraka_Wimui
+recruit_character = SIR_Amaraka_Hekete
+recruit_character = SIR_Baka_Malme
+recruit_character = SIR_Lubana_Shini
+recruit_character = SIR_Baraka_Dari
+recruit_character = SIR_Jumau_Pano
+recruit_character = SIR_Bari_Jeno
+recruit_character = SIR_Shakaraka_Teka
+recruit_character = SIR_Baraka_Langanishi
+recruit_character = SIR_Kato_Muuji
+recruit_character = SIR_Lubanga_Langanishi
+recruit_character = SIR_Shakaraka_Kima
+recruit_character = SIR_Mbwamari_Jeno
+recruit_character = SIR_Kamaraka_Askatimo
+recruit_character = SIR_Jumari_Simbi
+recruit_character = SIR_Omari_Mvule
+recruit_character = SIR_Shakari_Mlimaisia
+recruit_character = SIR_Jumari_Kumbo
+recruit_character = SIR_Tano_Aduiya
+recruit_character = SIR_Kamaraka_Fuki
+recruit_character = SIR_Kamaraka_Teka
+recruit_character = SIR_Simba_Majanaji
+recruit_character = SIR_Kwano_Upepo
+recruit_character = SIR_Jumaraka_Mali
+recruit_character = SIR_Kama_Pepo
+recruit_character = SIR_Tanga_Hofumbuka
+recruit_character = SIR_Simba_Mlimaisia
+recruit_character = SIR_Simba_Nyanarajesha
+recruit_character = SIR_Lubanga_Njozi
+recruit_character = SIR_Mbwamari_Malu
+recruit_character = SIR_Jumau_Wimui
+recruit_character = SIR_Kwana_Aduiya
+recruit_character = SIR_Amari_Hadisto
+recruit_character = SIR_Kamaraka_Simbi
+recruit_character = SIR_Mbwamau_Hisu
+recruit_character = SIR_Kato_Panjanguzi
+recruit_character = SIR_Jumau_Aduiya
+recruit_character = SIR_Nuru_Kumbukufu
+recruit_character = SIR_Chidi_Kiono
+recruit_character = SIR_Jumaraka_Ukuti
+recruit_character = SIR_Kamaraka_Kumbo
+recruit_character = SIR_Jumaraka_Nyumbasia
+recruit_character = SIR_Musa_Dari
+recruit_character = SIR_Shakaraka_Ndoto
+recruit_character = SIR_Kamaraka_Imaifu
+recruit_character = SIR_Mbwame_Dhomtaba
+recruit_character = SIR_Mbwanga_Kima
+recruit_character = SIR_Musa_Kiono
+recruit_character = SIR_Mbwame_Histo
+recruit_character = SIR_Omari_Wimui
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 3
+set_convoys = 0
+set_stability = 0.12
+set_war_support = 0.74
+
+add_ideas = {
+disarmed_nation
+civilian_economy
+autarkic_economy
+}
+
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1910.11.15"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 22
+	fascism = 24
+	communism = 28
+	neutrality = 26
+}
+
+
+
+
+

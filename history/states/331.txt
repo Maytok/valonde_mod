@@ -1,0 +1,37 @@
+
+state={
+	id=331
+	name="STATE_331"
+	manpower = 4289617
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=2
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = ITU
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 2
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = ITU
+	}
+
+	provinces={
+		3847 3848 3849 3850 3851 3852 3853 3854 3855 3856 3857 3858 3859 3860 3861 3862 3863 3864 3865 3866 3867 3868 3869 3870 
+	}
+	local_supplies=0.0 
+}

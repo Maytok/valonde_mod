@@ -1,0 +1,33 @@
+air_wings = {
+		1510 = { 								
+		tac_bomber_equipment_0 = { owner = "TEM" amount = 50 version_name = "Presnikaroda Mk 1" }
+
+	}
+	398 = { 								
+		nav_bomber_equipment_0 = { owner = "TEM" amount = 50 version_name = "Obica Mk 0" }
+
+	}
+	490 = { 								
+		CAS_equipment_0 = { owner = "TEM" amount = 50 version_name = "Kovo Mk 2" }
+
+	}
+	146 = { 								
+		fighter_equipment_0 = { owner = "TEM" amount = 50 version_name = "Ratram Mk 0" }
+
+	}
+	66 = { 								
+		nav_bomber_equipment_0 = { owner = "TEM" amount = 50 version_name = "Obica Mk 0" }
+
+	}
+	833 = { 								
+		fighter_equipment_0 = { owner = "TEM" amount = 50 version_name = "Ratram Mk 0" }
+tac_bomber_equipment_0 = { owner = "TEM" amount = 50 version_name = "Presnikaroda Mk 1" }
+
+	}
+	349 = { 								
+		CAS_equipment_0 = { owner = "TEM" amount = 50 version_name = "Kovo Mk 2" }
+
+	}
+
+
+}

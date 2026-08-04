@@ -1,0 +1,21 @@
+air_wings = {
+		653 = { 								
+		strat_bomber_equipment_0 = { owner = "HIS" amount = 12 version_name = "Aduiya Mk 2" }
+
+	}
+	749 = { 								
+		CAS_equipment_0 = { owner = "HIS" amount = 21 version_name = "Sheli Mk 0" }
+
+	}
+	100 = { 								
+		nav_bomber_equipment_0 = { owner = "HIS" amount = 21 version_name = "Ukuti Mk 2" }
+
+	}
+	820 = { 								
+		fighter_equipment_0 = { owner = "HIS" amount = 18 version_name = "Kishalme Mk 1" }
+tac_bomber_equipment_0 = { owner = "HIS" amount = 19 version_name = "Kiji Mk 0" }
+
+	}
+
+
+}

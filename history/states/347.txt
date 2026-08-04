@@ -1,0 +1,37 @@
+
+state={
+	id=347
+	name="STATE_347"
+	manpower = 1638066
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = ZAU
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = ZAU
+	}
+
+	provinces={
+		4019 4020 4021 4022 4023 4024 4025 4026 4027 
+	}
+	local_supplies=0.0 
+}

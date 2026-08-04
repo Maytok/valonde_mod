@@ -1,0 +1,37 @@
+
+state={
+	id=1306
+	name="STATE_1306"
+	manpower = 2535459
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = SUW
+		buildings = {
+			infrastructure = 4
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 2
+			dockyard = 2
+			
+		}
+		add_core_of = SUW
+	}
+
+	provinces={
+		14962 14963 14964 14965 14966 14967 14968 14969 14970 14971 14972 14973 
+	}
+	local_supplies=0.0 
+}

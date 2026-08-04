@@ -1,0 +1,37 @@
+
+state={
+	id=633
+	name="STATE_633"
+	manpower = 2303875
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = GRU
+		buildings = {
+			infrastructure = 1
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			
+		}
+		add_core_of = GRU
+	}
+
+	provinces={
+		7442 7443 7444 7445 7446 7447 7448 7449 7450 7451 7452 7453 7454 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,226 @@
+division_template = {
+	name = "Militia Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Supported Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+
+	}
+	
+	support = {
+			engineer = {  x = 0 y = 0 }
+			artillery = {  x = 0 y = 1 }
+
+	}
+}
+division_template = {
+	name = "Artillery Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+			artillery_brigade = {  x = 3 y = 0 }
+			artillery_brigade = {  x = 3 y = 1 }
+
+	}
+	
+	support = {
+			engineer = {  x = 0 y = 0 }
+			anti_air = {  x = 0 y = 1 }
+
+	}
+}
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+			cavalry = {  x = 0 y = 0 }
+			cavalry = {  x = 0 y = 1 }
+			cavalry = {  x = 0 y = 2 }
+			cavalry = {  x = 1 y = 0 }
+			cavalry = {  x = 1 y = 1 }
+			cavalry = {  x = 1 y = 2 }
+			cavalry = {  x = 2 y = 0 }
+			cavalry = {  x = 2 y = 1 }
+			cavalry = {  x = 2 y = 2 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Motorized Division"
+
+	regiments = {
+			motorized = {  x = 0 y = 0 }
+			motorized = {  x = 0 y = 1 }
+			motorized = {  x = 0 y = 2 }
+			motorized = {  x = 1 y = 0 }
+			motorized = {  x = 1 y = 1 }
+			motorized = {  x = 1 y = 2 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Supported Motorized Division"
+
+	regiments = {
+			motorized = {  x = 0 y = 0 }
+			motorized = {  x = 0 y = 1 }
+			motorized = {  x = 1 y = 0 }
+			motorized = {  x = 2 y = 0 }
+
+	}
+	
+	support = {
+			artillery = {  x = 0 y = 0 }
+			engineer = {  x = 0 y = 1 }
+
+	}
+}
+division_template = {
+	name = "Motorized Artillery Division"
+
+	regiments = {
+			motorized = {  x = 0 y = 0 }
+			motorized = {  x = 0 y = 1 }
+			motorized = {  x = 1 y = 0 }
+			motorized = {  x = 2 y = 0 }
+			mot_artillery_brigade = {  x = 3 y = 0 }
+
+	}
+	
+	support = {
+			engineer = {  x = 0 y = 0 }
+			artillery = {  x = 0 y = 1 }
+
+	}
+}
+
+
+units = {
+	division= {
+		name = "1st 'Dari' Militia Division"
+		location = 15686
+		division_template = "Militia Division"
+		start_experience_factor = 0.379473
+		start_equipment_factor = 0.916140
+	}
+	division= {
+		name = "2nd 'Askatimo' Militia Division"
+		location = 2092
+		division_template = "Militia Division"
+		start_experience_factor = 0.734389
+		start_equipment_factor = 0.924162
+	}
+	division= {
+		name = "1st 'Hisu' Infantry Division"
+		location = 15611
+		division_template = "Infantry Division"
+		start_experience_factor = 0.962623
+		start_equipment_factor = 0.836044
+	}
+	division= {
+		name = "2nd 'Usiwa' Infantry Division"
+		location = 15840
+		division_template = "Infantry Division"
+		start_experience_factor = 0.365570
+		start_equipment_factor = 0.864982
+	}
+	division= {
+		name = "1st 'Mauti' Supported Infantry Division"
+		location = 15711
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.489049
+		start_equipment_factor = 0.917519
+	}
+	division= {
+		name = "1st 'Shini' Artillery Division"
+		location = 15706
+		division_template = "Artillery Division"
+		start_experience_factor = 0.905075
+		start_equipment_factor = 0.859860
+	}
+	division= {
+		name = "1st 'Nyoto' Cavalry Division"
+		location = 5302
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.902864
+		start_equipment_factor = 0.975934
+	}
+	division= {
+		name = "1st 'Askatimo' Motorized Division"
+		location = 15563
+		division_template = "Motorized Division"
+		start_experience_factor = 0.089509
+		start_equipment_factor = 0.875666
+	}
+	division= {
+		name = "1st 'Aduiya' Supported Motorized Division"
+		location = 15614
+		division_template = "Supported Motorized Division"
+		start_experience_factor = 0.019466
+		start_equipment_factor = 0.929594
+	}
+	division= {
+		name = "2nd 'Hofu' Supported Motorized Division"
+		location = 5297
+		division_template = "Supported Motorized Division"
+		start_experience_factor = 0.007056
+		start_equipment_factor = 0.822078
+	}
+	division= {
+		name = "1st 'Mili' Motorized Artillery Division"
+		location = 1139
+		division_template = "Motorized Artillery Division"
+		start_experience_factor = 0.219311
+		start_equipment_factor = 0.867910
+	}
+
+}

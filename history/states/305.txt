@@ -1,0 +1,37 @@
+
+state={
+	id=305
+	name="STATE_305"
+	manpower = 3580809
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=17
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = MAG
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = MAG
+	}
+
+	provinces={
+		3530 3531 3532 3533 3534 3535 3536 3537 3538 3539 3540 3541 3542 3543 3544 3545 3546 3547 3548 3549 3550 3551 
+	}
+	local_supplies=0.0 
+}

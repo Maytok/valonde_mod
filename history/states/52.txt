@@ -1,0 +1,37 @@
+
+state={
+	id=52
+	name="STATE_52"
+	manpower = 1559950
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = KDU
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			dockyard = 1
+			
+		}
+		add_core_of = KDU
+	}
+
+	provinces={
+		632 633 634 635 636 637 638 639 
+	}
+	local_supplies=0.0 
+}

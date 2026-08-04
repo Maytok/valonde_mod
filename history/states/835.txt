@@ -1,0 +1,37 @@
+
+state={
+	id=835
+	name="STATE_835"
+	manpower = 1879042
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = MAP
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = MAP
+	}
+
+	provinces={
+		9749 9750 9751 9752 9753 9754 9755 9756 9757 
+	}
+	local_supplies=0.0 
+}

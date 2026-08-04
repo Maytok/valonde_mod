@@ -1,0 +1,37 @@
+
+state={
+	id=1392
+	name="STATE_1392"
+	manpower = 2542688
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=7
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = RAM
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			
+		}
+		add_core_of = RAM
+	}
+
+	provinces={
+		16050 16051 16052 16053 16054 16055 16056 16057 16058 16059 16060 16061 16062 
+	}
+	local_supplies=0.0 
+}

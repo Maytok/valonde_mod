@@ -1,0 +1,37 @@
+
+state={
+	id=1116
+	name="STATE_1116"
+	manpower = 1410668
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=1
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = CAS
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = CAS
+	}
+
+	provinces={
+		12861 12862 12863 12864 12865 12866 
+	}
+	local_supplies=0.0 
+}

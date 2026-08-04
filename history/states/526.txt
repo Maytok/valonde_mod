@@ -1,0 +1,37 @@
+
+state={
+	id=526
+	name="STATE_526"
+	manpower = 14636
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=12
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = SDA
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = SDA
+	}
+
+	provinces={
+		6149 6150 6151 6152 6153 
+	}
+	local_supplies=0.0 
+}

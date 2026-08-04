@@ -1,0 +1,241 @@
+division_template = {
+	name = "Militia Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+			infantry = {  x = 2 y = 2 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Supported Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+
+	}
+	
+	support = {
+			maintenance_company = {  x = 0 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Artillery Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+			artillery_brigade = {  x = 3 y = 0 }
+			artillery_brigade = {  x = 3 y = 1 }
+			artillery_brigade = {  x = 3 y = 2 }
+
+	}
+	
+	support = {
+			recon = {  x = 0 y = 0 }
+			engineer = {  x = 0 y = 1 }
+
+	}
+}
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+			cavalry = {  x = 0 y = 0 }
+			cavalry = {  x = 0 y = 1 }
+			cavalry = {  x = 0 y = 2 }
+			cavalry = {  x = 1 y = 0 }
+			cavalry = {  x = 1 y = 1 }
+			cavalry = {  x = 1 y = 2 }
+			cavalry = {  x = 2 y = 0 }
+			cavalry = {  x = 2 y = 1 }
+			cavalry = {  x = 2 y = 2 }
+
+	}
+	
+	support = {
+
+	}
+}
+
+
+units = {
+	division= {
+		name = "1st 'Shayatina' Supported Infantry Division"
+		location = 14118
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.975881
+		start_equipment_factor = 0.872311
+	}
+	division= {
+		name = "2nd 'Hikmahibl' Supported Infantry Division"
+		location = 14845
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.180180
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "3rd 'Nariq' Supported Infantry Division"
+		location = 14358
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.944073
+		start_equipment_factor = 0.929104
+	}
+	division= {
+		name = "4th 'Kitariq' Supported Infantry Division"
+		location = 14304
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.394487
+		start_equipment_factor = 0.899958
+	}
+	division= {
+		name = "5th 'Shibl' Supported Infantry Division"
+		location = 14201
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.431010
+		start_equipment_factor = 0.872934
+	}
+	division= {
+		name = "6th 'Shaqafa' Supported Infantry Division"
+		location = 14881
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.203862
+		start_equipment_factor = 0.997703
+	}
+	division= {
+		name = "7th 'Diwat' Supported Infantry Division"
+		location = 14356
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.515771
+		start_equipment_factor = 0.934140
+	}
+	division= {
+		name = "8th 'Sahraba' Supported Infantry Division"
+		location = 14872
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.922410
+		start_equipment_factor = 0.869877
+	}
+	division= {
+		name = "9th 'Shana' Supported Infantry Division"
+		location = 14735
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.127600
+		start_equipment_factor = 0.890112
+	}
+	division= {
+		name = "10th 'Turahra' Supported Infantry Division"
+		location = 14202
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.380154
+		start_equipment_factor = 0.864357
+	}
+	division= {
+		name = "11th 'Fartourub' Supported Infantry Division"
+		location = 14943
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.109228
+		start_equipment_factor = 0.870396
+	}
+	division= {
+		name = "12th 'Shana' Supported Infantry Division"
+		location = 15028
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.567246
+		start_equipment_factor = 0.870966
+	}
+	division= {
+		name = "13th 'Maktarah' Supported Infantry Division"
+		location = 14951
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.895684
+		start_equipment_factor = 0.950016
+	}
+	division= {
+		name = "1st 'Turahra' Artillery Division"
+		location = 14200
+		division_template = "Artillery Division"
+		start_experience_factor = 0.126618
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "2nd 'Kalb' Artillery Division"
+		location = 14971
+		division_template = "Artillery Division"
+		start_experience_factor = 0.311635
+		start_equipment_factor = 0.991397
+	}
+	division= {
+		name = "3rd 'Fartourub' Artillery Division"
+		location = 14765
+		division_template = "Artillery Division"
+		start_experience_factor = 0.982865
+		start_equipment_factor = 0.994405
+	}
+	division= {
+		name = "4th 'Makech' Artillery Division"
+		location = 15274
+		division_template = "Artillery Division"
+		start_experience_factor = 0.394635
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "5th 'Hijraka' Artillery Division"
+		location = 14354
+		division_template = "Artillery Division"
+		start_experience_factor = 0.914245
+		start_equipment_factor = 0.941858
+	}
+	division= {
+		name = "6th 'Mawkana' Artillery Division"
+		location = 14968
+		division_template = "Artillery Division"
+		start_experience_factor = 0.424921
+		start_equipment_factor = 0.952218
+	}
+	division= {
+		name = "7th 'Maktarah' Artillery Division"
+		location = 14767
+		division_template = "Artillery Division"
+		start_experience_factor = 0.023201
+		start_equipment_factor = 0.906704
+	}
+
+}

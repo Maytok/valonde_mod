@@ -1,0 +1,37 @@
+
+state={
+	id=1190
+	name="STATE_1190"
+	manpower = 3626425
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=12
+		rubber=8
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = NHA
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = NHA
+	}
+
+	provinces={
+		13754 13755 13756 13757 13758 13759 13760 13761 13762 13763 13764 13765 13766 13767 13768 13769 13770 13771 13772 13773 13774 13775 13776 
+	}
+	local_supplies=0.0 
+}

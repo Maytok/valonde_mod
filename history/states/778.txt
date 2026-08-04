@@ -1,0 +1,37 @@
+
+state={
+	id=778
+	name="STATE_778"
+	manpower = 1792888
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = HIS
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = HIS
+	}
+
+	provinces={
+		9108 9109 9110 9111 9112 9113 9114 9115 9116 
+	}
+	local_supplies=0.0 
+}

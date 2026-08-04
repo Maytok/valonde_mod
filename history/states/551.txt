@@ -1,0 +1,37 @@
+
+state={
+	id=551
+	name="STATE_551"
+	manpower = 970936
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = KFT
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = KFT
+	}
+
+	provinces={
+		6456 6457 6458 6459 6460 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,1083 @@
+characters = {
+	HIS_Shaka_Chuli={
+		name="Shaka Chuli"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { rearmer  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	HIS_Simbana_Jumbasi={
+		name="Simbana Jumbasi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HIS_Simbana_Jumbasi
+			traits = {	socialite_connections 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	HIS_Juma_Hadisto={
+		name="Juma Hadisto"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HIS_Juma_Hadisto
+			traits = {	noble_beurocrat 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	HIS_Mosi_Kumbukufu={
+		name="Mosi Kumbukufu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HIS_Mosi_Kumbukufu
+			traits = {	socialite_connections 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	HIS_Omari_Malu={
+		name="Omari Malu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HIS_Omari_Malu
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	HIS_Jumau_Panjanguzi={
+		name="Jumau Panjanguzi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HIS_Jumau_Panjanguzi
+			traits = {	agricultural_capitalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	HIS_Bakari_Rambiria={
+		name="Bakari Rambiria"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HIS_Bakari_Rambiria
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	HIS_Amau_Hekete={
+		name="Amau Hekete"
+
+		advisor={
+			slot = army_chief
+			idea_token = HIS_Amau_Hekete
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	HIS_Lubanga_Kishidito={
+		name="Lubanga Kishidito"
+
+		advisor={
+			slot = army_chief
+			idea_token = HIS_Lubanga_Kishidito
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	HIS_Jumau_Sheli={
+		name="Jumau Sheli"
+
+		advisor={
+			slot = army_chief
+			idea_token = HIS_Jumau_Sheli
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	HIS_Mbwanga_Kijimti={
+		name="Mbwanga Kijimti"
+
+		advisor={
+			slot = army_chief
+			idea_token = HIS_Mbwanga_Kijimti
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	HIS_Baraka_Kumba={
+		name="Baraka Kumba"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HIS_Baraka_Kumba
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	HIS_Baraka_Pepo={
+		name="Baraka Pepo"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HIS_Baraka_Pepo
+			traits = {	navy_chief_reform_2 	}
+		}
+
+
+	}
+	HIS_Mbwamau_Mshara={
+		name="Mbwamau Mshara"
+
+		advisor={
+			slot = air_chief
+			idea_token = HIS_Mbwamau_Mshara
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	HIS_Chidi_Taana={
+		name="Chidi Taana"
+
+		advisor={
+			slot = air_chief
+			idea_token = HIS_Chidi_Taana
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	HIS_Tano_Kiji={
+		name="Tano Kiji"
+
+		advisor={
+			slot = high_command
+			idea_token = HIS_Tano_Kiji
+			traits = {	army_entrenchment_1 	}
+		}
+
+
+	}
+	HIS_Omari_Mapigano={
+		name="Omari Mapigano"
+
+		advisor={
+			slot = high_command
+			idea_token = HIS_Omari_Mapigano
+			traits = {	air_airborne_2 	}
+		}
+
+
+	}
+	HIS_Simba_Mili={
+		name="Simba Mili"
+
+		advisor={
+			slot = high_command
+			idea_token = HIS_Simba_Mili
+			traits = {	navy_carrier_2 	}
+		}
+
+
+	}
+	HIS_Juma_Shuli={
+		name="Juma Shuli"
+
+		advisor={
+			slot = high_command
+			idea_token = HIS_Juma_Shuli
+			traits = {	air_pilot_training_1 	}
+		}
+
+
+	}
+	HIS_Baka_Mapiga={
+		name="Baka Mapiga"
+
+		advisor={
+			slot = high_command
+			idea_token = HIS_Baka_Mapiga
+			traits = {	air_airborne_2 	}
+		}
+
+
+	}
+	HIS_Kwana_Hisu={
+		name="Kwana Hisu"
+
+		advisor={
+			slot = high_command
+			idea_token = HIS_Kwana_Hisu
+			traits = {	navy_anti_submarine_1 	}
+		}
+
+
+	}
+	HIS_Jumari_Jumbasi={
+		name="Jumari Jumbasi"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { militant_minister  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	HIS_Mbwanga_Laandisha={
+		name="Mbwanga Laandisha"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HIS_Mbwanga_Laandisha
+			traits = {	inexperienced_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	HIS_Mbwamau_Mali={
+		name="Mbwamau Mali"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HIS_Mbwamau_Mali
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	HIS_Chidi_Nyumbasia={
+		name="Chidi Nyumbasia"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HIS_Chidi_Nyumbasia
+			traits = {	warmonger 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	HIS_Kwame_Malu={
+		name="Kwame Malu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HIS_Kwame_Malu
+			traits = {	militant_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	HIS_Musa_Hofu={
+		name="Musa Hofu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HIS_Musa_Hofu
+			traits = {	inexperienced_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	HIS_Omari_Mauti={
+		name="Omari Mauti"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HIS_Omari_Mauti
+			traits = {	inexperienced_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	HIS_Amau_Usiwa={
+		name="Amau Usiwa"
+
+		advisor={
+			slot = army_chief
+			idea_token = HIS_Amau_Usiwa
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	HIS_Bari_Mipanajesha={
+		name="Bari Mipanajesha"
+
+		advisor={
+			slot = army_chief
+			idea_token = HIS_Bari_Mipanajesha
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	HIS_Mbwame_Teka={
+		name="Mbwame Teka"
+
+		advisor={
+			slot = army_chief
+			idea_token = HIS_Mbwame_Teka
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	HIS_Bari_Dhomtaba={
+		name="Bari Dhomtaba"
+
+		advisor={
+			slot = army_chief
+			idea_token = HIS_Bari_Dhomtaba
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	HIS_Kwanga_Mapigano={
+		name="Kwanga Mapigano"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HIS_Kwanga_Mapigano
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	HIS_Tano_Siri={
+		name="Tano Siri"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HIS_Tano_Siri
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	HIS_Jumau_Heka={
+		name="Jumau Heka"
+
+		advisor={
+			slot = air_chief
+			idea_token = HIS_Jumau_Heka
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	HIS_Temba_Hadita={
+		name="Temba Hadita"
+
+		advisor={
+			slot = air_chief
+			idea_token = HIS_Temba_Hadita
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	HIS_Kwana_Sikuti={
+		name="Kwana Sikuti"
+
+		advisor={
+			slot = high_command
+			idea_token = HIS_Kwana_Sikuti
+			traits = {	air_air_superiority_2 	}
+		}
+
+
+	}
+	HIS_Amari_Darali={
+		name="Amari Darali"
+
+		advisor={
+			slot = high_command
+			idea_token = HIS_Amari_Darali
+			traits = {	army_infantry_2 	}
+		}
+
+
+	}
+	HIS_Baka_Mapigano={
+		name="Baka Mapigano"
+
+		advisor={
+			slot = high_command
+			idea_token = HIS_Baka_Mapigano
+			traits = {	air_close_air_support_2 	}
+		}
+
+
+	}
+	HIS_Tanga_Hadita={
+		name="Tanga Hadita"
+
+		advisor={
+			slot = high_command
+			idea_token = HIS_Tanga_Hadita
+			traits = {	navy_anti_submarine_2 	}
+		}
+
+
+	}
+	HIS_Nuru_Wimui={
+		name="Nuru Wimui"
+
+		advisor={
+			slot = high_command
+			idea_token = HIS_Nuru_Wimui
+			traits = {	air_air_superiority_1 	}
+		}
+
+
+	}
+	HIS_Bakari_Nyumbasia={
+		name="Bakari Nyumbasia"
+
+		advisor={
+			slot = high_command
+			idea_token = HIS_Bakari_Nyumbasia
+			traits = {	army_radio_intelligence_1 	}
+		}
+
+
+	}
+	HIS_Mbwano_Nyanarajesha={
+		name="Mbwano Nyanarajesha"
+
+		
+		country_leader={
+			ideology=marxism
+			traits = { polemarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	HIS_Juma_Hofumbuka={
+		name="Juma Hofumbuka"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HIS_Juma_Hofumbuka
+			traits = {	leftist_independent 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	HIS_Kwana_Mlimaisia={
+		name="Kwana Mlimaisia"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HIS_Kwana_Mlimaisia
+			traits = {	anti_bolshevik_leftist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	HIS_Kato_Hati={
+		name="Kato Hati"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HIS_Kato_Hati
+			traits = {	reluctant_stalinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	HIS_Kato_Majanaji={
+		name="Kato Majanaji"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HIS_Kato_Majanaji
+			traits = {	revolutionary_poet 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	HIS_Kama_Mili={
+		name="Kama Mili"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HIS_Kama_Mili
+			traits = {	devoted_marxist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	HIS_Kama_Njozi={
+		name="Kama Njozi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HIS_Kama_Njozi
+			traits = {	revolutionary_poet 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	HIS_Kamaraka_Shukwelu={
+		name="Kamaraka Shukwelu"
+
+		advisor={
+			slot = army_chief
+			idea_token = HIS_Kamaraka_Shukwelu
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	HIS_Mbwano_Kima={
+		name="Mbwano Kima"
+
+		advisor={
+			slot = army_chief
+			idea_token = HIS_Mbwano_Kima
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	HIS_Amaraka_Kumbo={
+		name="Amaraka Kumbo"
+
+		advisor={
+			slot = army_chief
+			idea_token = HIS_Amaraka_Kumbo
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	HIS_Taji_Jumbasi={
+		name="Taji Jumbasi"
+
+		advisor={
+			slot = army_chief
+			idea_token = HIS_Taji_Jumbasi
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	HIS_Mbwamari_Mali={
+		name="Mbwamari Mali"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HIS_Mbwamari_Mali
+			traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+
+	}
+	HIS_Kwame_Panjanguzi={
+		name="Kwame Panjanguzi"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HIS_Kwame_Panjanguzi
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	HIS_Amari_Rambiria={
+		name="Amari Rambiria"
+
+		advisor={
+			slot = air_chief
+			idea_token = HIS_Amari_Rambiria
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	HIS_Chidi_Heka={
+		name="Chidi Heka"
+
+		advisor={
+			slot = air_chief
+			idea_token = HIS_Chidi_Heka
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	HIS_Kwano_Mauti={
+		name="Kwano Mauti"
+
+		advisor={
+			slot = high_command
+			idea_token = HIS_Kwano_Mauti
+			traits = {	army_logistics_1 	}
+		}
+
+
+	}
+	HIS_Tanga_Kima={
+		name="Tanga Kima"
+
+		advisor={
+			slot = high_command
+			idea_token = HIS_Tanga_Kima
+			traits = {	army_regrouping_1 	}
+		}
+
+
+	}
+	HIS_Nuru_Kiji={
+		name="Nuru Kiji"
+
+		advisor={
+			slot = high_command
+			idea_token = HIS_Nuru_Kiji
+			traits = {	navy_screen_2 	}
+		}
+
+
+	}
+	HIS_Bakari_Upepo={
+		name="Bakari Upepo"
+
+		advisor={
+			slot = high_command
+			idea_token = HIS_Bakari_Upepo
+			traits = {	navy_fleet_logistics_1 	}
+		}
+
+
+	}
+	HIS_Lubanga_Hofumbuka={
+		name="Lubanga Hofumbuka"
+
+		advisor={
+			slot = high_command
+			idea_token = HIS_Lubanga_Hofumbuka
+			traits = {	navy_fleet_logistics_2 	}
+		}
+
+
+	}
+	HIS_Temba_Nyumbasia={
+		name="Temba Nyumbasia"
+
+		advisor={
+			slot = high_command
+			idea_token = HIS_Temba_Nyumbasia
+			traits = {	navy_fleet_logistics_1 	}
+		}
+
+
+	}
+	HIS_Kama_Mauti={
+		name="Kama Mauti"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { the_young_magnate  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	HIS_Jumaraka_Checho={
+		name="Jumaraka Checho"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HIS_Jumaraka_Checho
+			traits = {	rearmer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	HIS_Juma_Chera={
+		name="Juma Chera"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HIS_Juma_Chera
+			traits = {	conservative_grandee 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	HIS_Omari_Pano={
+		name="Omari Pano"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HIS_Omari_Pano
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	HIS_Mbwamau_Panguo={
+		name="Mbwamau Panguo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HIS_Mbwamau_Panguo
+			traits = {	first_lady 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	HIS_Lubana_Panjanguzi={
+		name="Lubana Panjanguzi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HIS_Lubana_Panjanguzi
+			traits = {	veteran_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	HIS_Tano_Histo={
+		name="Tano Histo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HIS_Tano_Histo
+			traits = {	first_lady 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	HIS_Shakari_Wando={
+		name="Shakari Wando"
+
+		advisor={
+			slot = army_chief
+			idea_token = HIS_Shakari_Wando
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	HIS_Mbwanga_Nyumba={
+		name="Mbwanga Nyumba"
+
+		advisor={
+			slot = army_chief
+			idea_token = HIS_Mbwanga_Nyumba
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	HIS_Kamaraka_Askatimo={
+		name="Kamaraka Askatimo"
+
+		advisor={
+			slot = army_chief
+			idea_token = HIS_Kamaraka_Askatimo
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	HIS_Shakari_Hofu={
+		name="Shakari Hofu"
+
+		advisor={
+			slot = army_chief
+			idea_token = HIS_Shakari_Hofu
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	HIS_Amari_Hisu={
+		name="Amari Hisu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HIS_Amari_Hisu
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	HIS_Kwana_Mapigano={
+		name="Kwana Mapigano"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HIS_Kwana_Mapigano
+			traits = {	navy_chief_reform_2 	}
+		}
+
+
+	}
+	HIS_Jumari_Mtifu={
+		name="Jumari Mtifu"
+
+		advisor={
+			slot = air_chief
+			idea_token = HIS_Jumari_Mtifu
+			traits = {	air_chief_all_weather_2 	}
+		}
+
+
+	}
+	HIS_Kamaraka_Dhomtaba={
+		name="Kamaraka Dhomtaba"
+
+		advisor={
+			slot = air_chief
+			idea_token = HIS_Kamaraka_Dhomtaba
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	HIS_Shakari_Kijimti={
+		name="Shakari Kijimti"
+
+		advisor={
+			slot = high_command
+			idea_token = HIS_Shakari_Kijimti
+			traits = {	air_airborne_1 	}
+		}
+
+
+	}
+	HIS_Mbwamau_Mlimaisia={
+		name="Mbwamau Mlimaisia"
+
+		advisor={
+			slot = high_command
+			idea_token = HIS_Mbwamau_Mlimaisia
+			traits = {	air_air_combat_training_1 	}
+		}
+
+
+	}
+	HIS_Shaka_Pepo={
+		name="Shaka Pepo"
+
+		advisor={
+			slot = high_command
+			idea_token = HIS_Shaka_Pepo
+			traits = {	navy_carrier_1 	}
+		}
+
+
+	}
+	HIS_Chidi_Panguo={
+		name="Chidi Panguo"
+
+		advisor={
+			slot = high_command
+			idea_token = HIS_Chidi_Panguo
+			traits = {	air_bomber_interception_1 	}
+		}
+
+
+	}
+	HIS_Jumaraka_Rambiria={
+		name="Jumaraka Rambiria"
+
+		advisor={
+			slot = high_command
+			idea_token = HIS_Jumaraka_Rambiria
+			traits = {	air_tactical_bombing_1 	}
+		}
+
+
+	}
+	HIS_Tanga_Ukuti={
+		name="Tanga Ukuti"
+
+		advisor={
+			slot = high_command
+			idea_token = HIS_Tanga_Ukuti
+			traits = {	navy_submarine_1 	}
+		}
+
+
+	}
+	HIS_Lubanga_Aduiya={
+		name="Lubanga Aduiya"
+
+		advisor={
+			slot = theorist
+			idea_token = HIS_Lubanga_Aduiya
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	HIS_Shakaraka_Majango={
+		name="Shakaraka Majango"
+
+		advisor={
+			slot = theorist
+			idea_token = HIS_Shakaraka_Majango
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	HIS_Juma_Heshawi={
+		name="Juma Heshawi"
+
+		advisor={
+			slot = theorist
+			idea_token = HIS_Juma_Heshawi
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

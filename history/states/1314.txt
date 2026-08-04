@@ -1,0 +1,37 @@
+
+state={
+	id=1314
+	name="STATE_1314"
+	manpower = 762459
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = SUW
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = SUW
+	}
+
+	provinces={
+		15027 15028 15029 
+	}
+	local_supplies=0.0 
+}

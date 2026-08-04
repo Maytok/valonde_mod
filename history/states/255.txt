@@ -1,0 +1,37 @@
+
+state={
+	id=255
+	name="STATE_255"
+	manpower = 3401302
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=44
+		steel=5
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = TAR
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = TAR
+	}
+
+	provinces={
+		2985 2986 2987 2988 2989 2990 2991 2992 2993 2994 2995 2996 2997 2998 2999 3000 3001 3002 3003 3004 3005 
+	}
+	local_supplies=0.0 
+}

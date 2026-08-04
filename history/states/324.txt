@@ -1,0 +1,37 @@
+
+state={
+	id=324
+	name="STATE_324"
+	manpower = 1086987
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=6
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = KUK
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = KUK
+	}
+
+	provinces={
+		3758 3759 3760 3761 3762 3763 
+	}
+	local_supplies=0.0 
+}

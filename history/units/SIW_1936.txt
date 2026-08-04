@@ -1,0 +1,485 @@
+division_template = {
+	name = "Militia Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Supported Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+
+	}
+	
+	support = {
+			recon = {  x = 0 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Artillery Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+			infantry = {  x = 2 y = 2 }
+			artillery_brigade = {  x = 3 y = 0 }
+
+	}
+	
+	support = {
+			artillery = {  x = 0 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+			cavalry = {  x = 0 y = 0 }
+			cavalry = {  x = 0 y = 1 }
+			cavalry = {  x = 0 y = 2 }
+			cavalry = {  x = 1 y = 0 }
+			cavalry = {  x = 1 y = 1 }
+			cavalry = {  x = 1 y = 2 }
+			cavalry = {  x = 2 y = 0 }
+			cavalry = {  x = 2 y = 1 }
+			cavalry = {  x = 2 y = 2 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Motorized Division"
+
+	regiments = {
+			motorized = {  x = 0 y = 0 }
+			motorized = {  x = 0 y = 1 }
+			motorized = {  x = 0 y = 2 }
+			motorized = {  x = 1 y = 0 }
+			motorized = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Supported Motorized Division"
+
+	regiments = {
+			motorized = {  x = 0 y = 0 }
+			motorized = {  x = 0 y = 1 }
+			motorized = {  x = 1 y = 0 }
+			motorized = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+			engineer = {  x = 0 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Motorized Artillery Division"
+
+	regiments = {
+			motorized = {  x = 0 y = 0 }
+			motorized = {  x = 0 y = 1 }
+			motorized = {  x = 0 y = 2 }
+			motorized = {  x = 1 y = 0 }
+			motorized = {  x = 1 y = 1 }
+			motorized = {  x = 1 y = 2 }
+			mot_artillery_brigade = {  x = 2 y = 0 }
+
+	}
+	
+	support = {
+			artillery = {  x = 0 y = 0 }
+
+	}
+}
+
+
+units = {
+	division= {
+		name = "1st 'Hijra' Militia Division"
+		location = 14863
+		division_template = "Militia Division"
+		start_experience_factor = 0.799239
+		start_equipment_factor = 0.869413
+	}
+	division= {
+		name = "2nd 'Harq' Militia Division"
+		location = 15156
+		division_template = "Militia Division"
+		start_experience_factor = 0.952918
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "3rd 'Kawat' Militia Division"
+		location = 14785
+		division_template = "Militia Division"
+		start_experience_factor = 0.284323
+		start_equipment_factor = 0.894456
+	}
+	division= {
+		name = "4th 'Sham' Militia Division"
+		location = 14725
+		division_template = "Militia Division"
+		start_experience_factor = 0.056980
+		start_equipment_factor = 0.859488
+	}
+	division= {
+		name = "1st 'Ramaniyahr' Infantry Division"
+		location = 14494
+		division_template = "Infantry Division"
+		start_experience_factor = 0.550020
+		start_equipment_factor = 0.896738
+	}
+	division= {
+		name = "2nd 'Mawkana' Infantry Division"
+		location = 15152
+		division_template = "Infantry Division"
+		start_experience_factor = 0.197758
+		start_equipment_factor = 0.841564
+	}
+	division= {
+		name = "3rd 'Sharitaadi' Infantry Division"
+		location = 14610
+		division_template = "Infantry Division"
+		start_experience_factor = 0.724911
+		start_equipment_factor = 0.938437
+	}
+	division= {
+		name = "4th 'Kawat' Infantry Division"
+		location = 15159
+		division_template = "Infantry Division"
+		start_experience_factor = 0.038200
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "5th 'Sharitaadi' Infantry Division"
+		location = 14610
+		division_template = "Infantry Division"
+		start_experience_factor = 0.540798
+		start_equipment_factor = 0.872549
+	}
+	division= {
+		name = "1st 'Hayr' Supported Infantry Division"
+		location = 14616
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.309291
+		start_equipment_factor = 0.916232
+	}
+	division= {
+		name = "2nd 'Shibl' Supported Infantry Division"
+		location = 14976
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.512124
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "3rd 'Mawkaba' Supported Infantry Division"
+		location = 14132
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.263714
+		start_equipment_factor = 0.979830
+	}
+	division= {
+		name = "4th 'Raba' Supported Infantry Division"
+		location = 14672
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.069735
+		start_equipment_factor = 0.979578
+	}
+	division= {
+		name = "5th 'Matanz' Supported Infantry Division"
+		location = 15034
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.712050
+		start_equipment_factor = 0.919374
+	}
+	division= {
+		name = "6th 'Suwatin' Supported Infantry Division"
+		location = 14330
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.402808
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "7th 'Raba' Supported Infantry Division"
+		location = 14180
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.154858
+		start_equipment_factor = 0.994674
+	}
+	division= {
+		name = "1st 'Makech' Artillery Division"
+		location = 15243
+		division_template = "Artillery Division"
+		start_experience_factor = 0.315648
+		start_equipment_factor = 0.871246
+	}
+	division= {
+		name = "2nd 'Fartourub' Artillery Division"
+		location = 14314
+		division_template = "Artillery Division"
+		start_experience_factor = 0.607924
+		start_equipment_factor = 0.846825
+	}
+	division= {
+		name = "3rd 'Hayahr' Artillery Division"
+		location = 14487
+		division_template = "Artillery Division"
+		start_experience_factor = 0.786075
+		start_equipment_factor = 0.899991
+	}
+	division= {
+		name = "4th 'Raba' Artillery Division"
+		location = 14787
+		division_template = "Artillery Division"
+		start_experience_factor = 0.938719
+		start_equipment_factor = 0.938638
+	}
+	division= {
+		name = "5th 'Mawkana' Artillery Division"
+		location = 14338
+		division_template = "Artillery Division"
+		start_experience_factor = 0.082699
+		start_equipment_factor = 0.874864
+	}
+	division= {
+		name = "1st 'Makech' Cavalry Division"
+		location = 17021
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.149014
+		start_equipment_factor = 0.843482
+	}
+	division= {
+		name = "2nd 'Shayatina' Cavalry Division"
+		location = 14667
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.068500
+		start_equipment_factor = 0.952470
+	}
+	division= {
+		name = "1st 'Hayahr' Motorized Division"
+		location = 14190
+		division_template = "Motorized Division"
+		start_experience_factor = 0.110216
+		start_equipment_factor = 0.995521
+	}
+	division= {
+		name = "2nd 'Madi' Motorized Division"
+		location = 15144
+		division_template = "Motorized Division"
+		start_experience_factor = 0.794813
+		start_equipment_factor = 0.975846
+	}
+	division= {
+		name = "3rd 'Nangiqpak' Motorized Division"
+		location = 14935
+		division_template = "Motorized Division"
+		start_experience_factor = 0.958677
+		start_equipment_factor = 0.950343
+	}
+	division= {
+		name = "4th 'Nariq' Motorized Division"
+		location = 14483
+		division_template = "Motorized Division"
+		start_experience_factor = 0.101279
+		start_equipment_factor = 0.981162
+	}
+	division= {
+		name = "5th 'Kitariq' Motorized Division"
+		location = 15139
+		division_template = "Motorized Division"
+		start_experience_factor = 0.868506
+		start_equipment_factor = 0.973104
+	}
+	division= {
+		name = "6th 'Zamt' Motorized Division"
+		location = 14701
+		division_template = "Motorized Division"
+		start_experience_factor = 0.236451
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "1st 'Hayr' Supported Motorized Division"
+		location = 14365
+		division_template = "Supported Motorized Division"
+		start_experience_factor = 0.890785
+		start_equipment_factor = 0.892576
+	}
+	division= {
+		name = "2nd 'Madina' Supported Motorized Division"
+		location = 14589
+		division_template = "Supported Motorized Division"
+		start_experience_factor = 0.341636
+		start_equipment_factor = 0.923842
+	}
+	division= {
+		name = "3rd 'Darasjidda' Supported Motorized Division"
+		location = 15311
+		division_template = "Supported Motorized Division"
+		start_experience_factor = 0.853068
+		start_equipment_factor = 0.938503
+	}
+	division= {
+		name = "4th 'Tharikma' Supported Motorized Division"
+		location = 14328
+		division_template = "Supported Motorized Division"
+		start_experience_factor = 0.826724
+		start_equipment_factor = 0.919796
+	}
+	division= {
+		name = "5th 'Nuskaker' Supported Motorized Division"
+		location = 14927
+		division_template = "Supported Motorized Division"
+		start_experience_factor = 0.354980
+		start_equipment_factor = 0.922222
+	}
+	division= {
+		name = "6th 'Harda' Supported Motorized Division"
+		location = 15092
+		division_template = "Supported Motorized Division"
+		start_experience_factor = 0.890010
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "7th 'Madi' Supported Motorized Division"
+		location = 15042
+		division_template = "Supported Motorized Division"
+		start_experience_factor = 0.339977
+		start_equipment_factor = 0.929395
+	}
+	division= {
+		name = "8th 'Mawda' Supported Motorized Division"
+		location = 14661
+		division_template = "Supported Motorized Division"
+		start_experience_factor = 0.785440
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "9th 'Ramanzim' Supported Motorized Division"
+		location = 14837
+		division_template = "Supported Motorized Division"
+		start_experience_factor = 0.166183
+		start_equipment_factor = 0.990128
+	}
+	division= {
+		name = "10th 'Noum' Supported Motorized Division"
+		location = 15032
+		division_template = "Supported Motorized Division"
+		start_experience_factor = 0.063693
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "11th 'Iliaqa' Supported Motorized Division"
+		location = 15410
+		division_template = "Supported Motorized Division"
+		start_experience_factor = 0.648631
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "12th 'Diwat' Supported Motorized Division"
+		location = 15392
+		division_template = "Supported Motorized Division"
+		start_experience_factor = 0.754993
+		start_equipment_factor = 0.953025
+	}
+	division= {
+		name = "1st 'Mawkana' Motorized Artillery Division"
+		location = 14992
+		division_template = "Motorized Artillery Division"
+		start_experience_factor = 0.425507
+		start_equipment_factor = 0.997633
+	}
+	division= {
+		name = "2nd 'Doharb' Motorized Artillery Division"
+		location = 14320
+		division_template = "Motorized Artillery Division"
+		start_experience_factor = 0.240607
+		start_equipment_factor = 0.931307
+	}
+	division= {
+		name = "3rd 'Hikmahibl' Motorized Artillery Division"
+		location = 14485
+		division_template = "Motorized Artillery Division"
+		start_experience_factor = 0.182850
+		start_equipment_factor = 0.967802
+	}
+	division= {
+		name = "4th 'Shaqafa' Motorized Artillery Division"
+		location = 14624
+		division_template = "Motorized Artillery Division"
+		start_experience_factor = 0.604760
+		start_equipment_factor = 0.938556
+	}
+	division= {
+		name = "5th 'Tuna' Motorized Artillery Division"
+		location = 14895
+		division_template = "Motorized Artillery Division"
+		start_experience_factor = 0.664090
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "6th 'Nipik' Motorized Artillery Division"
+		location = 14937
+		division_template = "Motorized Artillery Division"
+		start_experience_factor = 0.882554
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "7th 'Saabr' Motorized Artillery Division"
+		location = 14583
+		division_template = "Motorized Artillery Division"
+		start_experience_factor = 0.145157
+		start_equipment_factor = 1.000000
+	}
+
+}

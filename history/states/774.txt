@@ -1,0 +1,37 @@
+
+state={
+	id=774
+	name="STATE_774"
+	manpower = 1203486
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = KIM
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			
+		}
+		add_core_of = KIM
+	}
+
+	provinces={
+		9059 9060 9061 9062 9063 9064 
+	}
+	local_supplies=0.0 
+}

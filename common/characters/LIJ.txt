@@ -1,0 +1,1083 @@
+characters = {
+	LIJ_Kama_Kumbo={
+		name="Kama Kumbo"
+
+		
+		country_leader={
+			ideology=moderatism
+			traits = { democratic_crusader  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	LIJ_Lubana_Pigaonda={
+		name="Lubana Pigaonda"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIJ_Lubana_Pigaonda
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	LIJ_Mosi_Fuki={
+		name="Mosi Fuki"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIJ_Mosi_Fuki
+			traits = {	agricultural_capitalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	LIJ_Lubana_Tekete={
+		name="Lubana Tekete"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIJ_Lubana_Tekete
+			traits = {	headstrong 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	LIJ_Mbwanga_Jumbasi={
+		name="Mbwanga Jumbasi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIJ_Mbwanga_Jumbasi
+			traits = {	national_determinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	LIJ_Jumaraka_Laandisha={
+		name="Jumaraka Laandisha"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIJ_Jumaraka_Laandisha
+			traits = {	socialite_connections 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	LIJ_Kama_Uhawi={
+		name="Kama Uhawi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIJ_Kama_Uhawi
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	LIJ_Kato_Malme={
+		name="Kato Malme"
+
+		advisor={
+			slot = army_chief
+			idea_token = LIJ_Kato_Malme
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	LIJ_Taji_Hisu={
+		name="Taji Hisu"
+
+		advisor={
+			slot = army_chief
+			idea_token = LIJ_Taji_Hisu
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	LIJ_Mosi_Uhawi={
+		name="Mosi Uhawi"
+
+		advisor={
+			slot = army_chief
+			idea_token = LIJ_Mosi_Uhawi
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	LIJ_Shaka_Kumbukufu={
+		name="Shaka Kumbukufu"
+
+		advisor={
+			slot = army_chief
+			idea_token = LIJ_Shaka_Kumbukufu
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	LIJ_Musa_Wimui={
+		name="Musa Wimui"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LIJ_Musa_Wimui
+			traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+
+	}
+	LIJ_Shaka_Pigaonda={
+		name="Shaka Pigaonda"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LIJ_Shaka_Pigaonda
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	LIJ_Jumari_Siri={
+		name="Jumari Siri"
+
+		advisor={
+			slot = air_chief
+			idea_token = LIJ_Jumari_Siri
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	LIJ_Shaka_Meli={
+		name="Shaka Meli"
+
+		advisor={
+			slot = air_chief
+			idea_token = LIJ_Shaka_Meli
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	LIJ_Musa_Hisu={
+		name="Musa Hisu"
+
+		advisor={
+			slot = high_command
+			idea_token = LIJ_Musa_Hisu
+			traits = {	army_regrouping_1 	}
+		}
+
+
+	}
+	LIJ_Mbwame_Tekete={
+		name="Mbwame Tekete"
+
+		advisor={
+			slot = high_command
+			idea_token = LIJ_Mbwame_Tekete
+			traits = {	army_entrenchment_1 	}
+		}
+
+
+	}
+	LIJ_Mbwano_Sikuti={
+		name="Mbwano Sikuti"
+
+		advisor={
+			slot = high_command
+			idea_token = LIJ_Mbwano_Sikuti
+			traits = {	navy_naval_air_defense_2 	}
+		}
+
+
+	}
+	LIJ_Baraka_Fuki={
+		name="Baraka Fuki"
+
+		advisor={
+			slot = high_command
+			idea_token = LIJ_Baraka_Fuki
+			traits = {	army_entrenchment_2 	}
+		}
+
+
+	}
+	LIJ_Sefu_Piga={
+		name="Sefu Piga"
+
+		advisor={
+			slot = high_command
+			idea_token = LIJ_Sefu_Piga
+			traits = {	air_airborne_2 	}
+		}
+
+
+	}
+	LIJ_Lubanga_Majango={
+		name="Lubanga Majango"
+
+		advisor={
+			slot = high_command
+			idea_token = LIJ_Lubanga_Majango
+			traits = {	air_close_air_support_2 	}
+		}
+
+
+	}
+	LIJ_Amari_Chera={
+		name="Amari Chera"
+
+		
+		country_leader={
+			ideology=fascism_ideology
+			traits = { the_young_magnate  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	LIJ_Mosi_Mapigano={
+		name="Mosi Mapigano"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIJ_Mosi_Mapigano
+			traits = {	warmonger 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	LIJ_Shaka_Heshawi={
+		name="Shaka Heshawi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIJ_Shaka_Heshawi
+			traits = {	autokrator 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	LIJ_Sefu_Taano={
+		name="Sefu Taano"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIJ_Sefu_Taano
+			traits = {	spirit_of_genghis 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	LIJ_Sefu_Mauti={
+		name="Sefu Mauti"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIJ_Sefu_Mauti
+			traits = {	vapsid_economist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	LIJ_Lubanga_Njozi={
+		name="Lubanga Njozi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIJ_Lubanga_Njozi
+			traits = {	warmonger 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	LIJ_Mbwamau_Sikuti={
+		name="Mbwamau Sikuti"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIJ_Mbwamau_Sikuti
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	LIJ_Kame_Jumbasi={
+		name="Kame Jumbasi"
+
+		advisor={
+			slot = army_chief
+			idea_token = LIJ_Kame_Jumbasi
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	LIJ_Bakari_Kishalme={
+		name="Bakari Kishalme"
+
+		advisor={
+			slot = army_chief
+			idea_token = LIJ_Bakari_Kishalme
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	LIJ_Nuru_Laandisha={
+		name="Nuru Laandisha"
+
+		advisor={
+			slot = army_chief
+			idea_token = LIJ_Nuru_Laandisha
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	LIJ_Tanga_Langanishi={
+		name="Tanga Langanishi"
+
+		advisor={
+			slot = army_chief
+			idea_token = LIJ_Tanga_Langanishi
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	LIJ_Mbwano_Muuji={
+		name="Mbwano Muuji"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LIJ_Mbwano_Muuji
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	LIJ_Baraka_Wimui={
+		name="Baraka Wimui"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LIJ_Baraka_Wimui
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	LIJ_Shaka_Mshara={
+		name="Shaka Mshara"
+
+		advisor={
+			slot = air_chief
+			idea_token = LIJ_Shaka_Mshara
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	LIJ_Shaka_Kiji={
+		name="Shaka Kiji"
+
+		advisor={
+			slot = air_chief
+			idea_token = LIJ_Shaka_Kiji
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	LIJ_Kama_Hadisto={
+		name="Kama Hadisto"
+
+		advisor={
+			slot = high_command
+			idea_token = LIJ_Kama_Hadisto
+			traits = {	air_strategic_bombing_1 	}
+		}
+
+
+	}
+	LIJ_Shakaraka_Hati={
+		name="Shakaraka Hati"
+
+		advisor={
+			slot = high_command
+			idea_token = LIJ_Shakaraka_Hati
+			traits = {	army_logistics_1 	}
+		}
+
+
+	}
+	LIJ_Kwanga_Kumbukufu={
+		name="Kwanga Kumbukufu"
+
+		advisor={
+			slot = high_command
+			idea_token = LIJ_Kwanga_Kumbukufu
+			traits = {	navy_submarine_1 	}
+		}
+
+
+	}
+	LIJ_Musa_Hati={
+		name="Musa Hati"
+
+		advisor={
+			slot = high_command
+			idea_token = LIJ_Musa_Hati
+			traits = {	air_airborne_2 	}
+		}
+
+
+	}
+	LIJ_Simbana_Nyumba={
+		name="Simbana Nyumba"
+
+		advisor={
+			slot = high_command
+			idea_token = LIJ_Simbana_Nyumba
+			traits = {	navy_naval_air_defense_2 	}
+		}
+
+
+	}
+	LIJ_Baka_Taana={
+		name="Baka Taana"
+
+		advisor={
+			slot = high_command
+			idea_token = LIJ_Baka_Taana
+			traits = {	army_radio_intelligence_2 	}
+		}
+
+
+	}
+	LIJ_Shakari_Nyumba={
+		name="Shakari Nyumba"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { revolutionary_poet  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	LIJ_Musa_Majango={
+		name="Musa Majango"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIJ_Musa_Majango
+			traits = {	indomitable_perseverance 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	LIJ_Mbwamari_Kishalme={
+		name="Mbwamari Kishalme"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIJ_Mbwamari_Kishalme
+			traits = {	mastermind_code_cracker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	LIJ_Mbwanga_Nyoto={
+		name="Mbwanga Nyoto"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIJ_Mbwanga_Nyoto
+			traits = {	leftist_independent 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	LIJ_Kato_Sheli={
+		name="Kato Sheli"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIJ_Kato_Sheli
+			traits = {	anti_bolshevik_leftist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	LIJ_Temba_Panguo={
+		name="Temba Panguo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIJ_Temba_Panguo
+			traits = {	mastermind_code_cracker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	LIJ_Bakari_Malme={
+		name="Bakari Malme"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIJ_Bakari_Malme
+			traits = {	leftist_independent 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	LIJ_Tano_Rambiria={
+		name="Tano Rambiria"
+
+		advisor={
+			slot = army_chief
+			idea_token = LIJ_Tano_Rambiria
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	LIJ_Lubanga_Mili={
+		name="Lubanga Mili"
+
+		advisor={
+			slot = army_chief
+			idea_token = LIJ_Lubanga_Mili
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	LIJ_Jumari_Nyanarajesha={
+		name="Jumari Nyanarajesha"
+
+		advisor={
+			slot = army_chief
+			idea_token = LIJ_Jumari_Nyanarajesha
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	LIJ_Temba_Muuji={
+		name="Temba Muuji"
+
+		advisor={
+			slot = army_chief
+			idea_token = LIJ_Temba_Muuji
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	LIJ_Mbwamari_Pano={
+		name="Mbwamari Pano"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LIJ_Mbwamari_Pano
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	LIJ_Baka_Nyumbasia={
+		name="Baka Nyumbasia"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LIJ_Baka_Nyumbasia
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	LIJ_Simba_Simbi={
+		name="Simba Simbi"
+
+		advisor={
+			slot = air_chief
+			idea_token = LIJ_Simba_Simbi
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	LIJ_Mosi_Nyumbasia={
+		name="Mosi Nyumbasia"
+
+		advisor={
+			slot = air_chief
+			idea_token = LIJ_Mosi_Nyumbasia
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	LIJ_Kwana_Shimutaki={
+		name="Kwana Shimutaki"
+
+		advisor={
+			slot = high_command
+			idea_token = LIJ_Kwana_Shimutaki
+			traits = {	army_entrenchment_2 	}
+		}
+
+
+	}
+	LIJ_Amaraka_Shimutaki={
+		name="Amaraka Shimutaki"
+
+		advisor={
+			slot = high_command
+			idea_token = LIJ_Amaraka_Shimutaki
+			traits = {	navy_amphibious_assault_2 	}
+		}
+
+
+	}
+	LIJ_Musa_Langanishi={
+		name="Musa Langanishi"
+
+		advisor={
+			slot = high_command
+			idea_token = LIJ_Musa_Langanishi
+			traits = {	navy_naval_air_defense_2 	}
+		}
+
+
+	}
+	LIJ_Lubanga_Kumbukufu={
+		name="Lubanga Kumbukufu"
+
+		advisor={
+			slot = high_command
+			idea_token = LIJ_Lubanga_Kumbukufu
+			traits = {	air_airborne_1 	}
+		}
+
+
+	}
+	LIJ_Shakaraka_Njozi={
+		name="Shakaraka Njozi"
+
+		advisor={
+			slot = high_command
+			idea_token = LIJ_Shakaraka_Njozi
+			traits = {	army_artillery_2 	}
+		}
+
+
+	}
+	LIJ_Bari_Nyoto={
+		name="Bari Nyoto"
+
+		advisor={
+			slot = high_command
+			idea_token = LIJ_Bari_Nyoto
+			traits = {	army_entrenchment_1 	}
+		}
+
+
+	}
+	LIJ_Lubanga_Teka={
+		name="Lubanga Teka"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { the_banker  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	LIJ_Baka_Mvule={
+		name="Baka Mvule"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIJ_Baka_Mvule
+			traits = {	rearmer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	LIJ_Mbwame_Fuki={
+		name="Mbwame Fuki"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIJ_Mbwame_Fuki
+			traits = {	conservative_grandee 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	LIJ_Mbwanga_Panguo={
+		name="Mbwanga Panguo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIJ_Mbwanga_Panguo
+			traits = {	democratic_crusader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	LIJ_Omari_Langanishi={
+		name="Omari Langanishi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIJ_Omari_Langanishi
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	LIJ_Musa_Kima={
+		name="Musa Kima"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIJ_Musa_Kima
+			traits = {	rearmer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	LIJ_Amaraka_Dari={
+		name="Amaraka Dari"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LIJ_Amaraka_Dari
+			traits = {	the_banker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	LIJ_Shaka_Pepo={
+		name="Shaka Pepo"
+
+		advisor={
+			slot = army_chief
+			idea_token = LIJ_Shaka_Pepo
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	LIJ_Mbwamari_Ukwezi={
+		name="Mbwamari Ukwezi"
+
+		advisor={
+			slot = army_chief
+			idea_token = LIJ_Mbwamari_Ukwezi
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	LIJ_Kwanga_Pigaonda={
+		name="Kwanga Pigaonda"
+
+		advisor={
+			slot = army_chief
+			idea_token = LIJ_Kwanga_Pigaonda
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	LIJ_Jumaraka_Uhawi={
+		name="Jumaraka Uhawi"
+
+		advisor={
+			slot = army_chief
+			idea_token = LIJ_Jumaraka_Uhawi
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	LIJ_Amau_Mali={
+		name="Amau Mali"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LIJ_Amau_Mali
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	LIJ_Mbwano_Teka={
+		name="Mbwano Teka"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LIJ_Mbwano_Teka
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	LIJ_Mbwanga_Kishidito={
+		name="Mbwanga Kishidito"
+
+		advisor={
+			slot = air_chief
+			idea_token = LIJ_Mbwanga_Kishidito
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	LIJ_Kwana_Piga={
+		name="Kwana Piga"
+
+		advisor={
+			slot = air_chief
+			idea_token = LIJ_Kwana_Piga
+			traits = {	air_chief_night_operations_2 	}
+		}
+
+
+	}
+	LIJ_Shaka_Mali={
+		name="Shaka Mali"
+
+		advisor={
+			slot = high_command
+			idea_token = LIJ_Shaka_Mali
+			traits = {	army_radio_intelligence_1 	}
+		}
+
+
+	}
+	LIJ_Tano_Piga={
+		name="Tano Piga"
+
+		advisor={
+			slot = high_command
+			idea_token = LIJ_Tano_Piga
+			traits = {	air_air_combat_training_1 	}
+		}
+
+
+	}
+	LIJ_Kwame_Histo={
+		name="Kwame Histo"
+
+		advisor={
+			slot = high_command
+			idea_token = LIJ_Kwame_Histo
+			traits = {	air_air_combat_training_1 	}
+		}
+
+
+	}
+	LIJ_Baraka_Mapiga={
+		name="Baraka Mapiga"
+
+		advisor={
+			slot = high_command
+			idea_token = LIJ_Baraka_Mapiga
+			traits = {	air_airborne_2 	}
+		}
+
+
+	}
+	LIJ_Kama_Mili={
+		name="Kama Mili"
+
+		advisor={
+			slot = high_command
+			idea_token = LIJ_Kama_Mili
+			traits = {	air_strategic_bombing_2 	}
+		}
+
+
+	}
+	LIJ_Jumari_Sheli={
+		name="Jumari Sheli"
+
+		advisor={
+			slot = high_command
+			idea_token = LIJ_Jumari_Sheli
+			traits = {	navy_carrier_2 	}
+		}
+
+
+	}
+	LIJ_Kwana_Mili={
+		name="Kwana Mili"
+
+		advisor={
+			slot = theorist
+			idea_token = LIJ_Kwana_Mili
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	LIJ_Shakari_Mauti={
+		name="Shakari Mauti"
+
+		advisor={
+			slot = theorist
+			idea_token = LIJ_Shakari_Mauti
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	LIJ_Jumari_Panjanguzi={
+		name="Jumari Panjanguzi"
+
+		advisor={
+			slot = theorist
+			idea_token = LIJ_Jumari_Panjanguzi
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=888
+	name="STATE_888"
+	manpower = 2769248
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=6
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = FRE
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = FRE
+	}
+
+	provinces={
+		10290 10291 10292 10293 10294 10295 10296 10297 10298 10299 10300 10301 10302 10303 10304 10305 10306 
+	}
+	local_supplies=0.0 
+}

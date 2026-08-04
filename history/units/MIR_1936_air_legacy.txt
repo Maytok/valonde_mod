@@ -1,0 +1,20 @@
+air_wings = {
+		1634 = { 								
+		CAS_equipment_0 = { owner = "MIR" amount = 42 version_name = "Hralja Mk 1" }
+
+	}
+	1526 = { 								
+		tac_bomber_equipment_0 = { owner = "MIR" amount = 27 version_name = "Viteza Mk 1" }
+
+	}
+	1464 = { 								
+		fighter_equipment_0 = { owner = "MIR" amount = 40 version_name = "Drvozduh Mk 2" }
+
+	}
+	1527 = { 								
+		nav_bomber_equipment_0 = { owner = "MIR" amount = 28 version_name = "Slovo Mk 2" }
+
+	}
+
+
+}

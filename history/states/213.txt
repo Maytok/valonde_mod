@@ -1,0 +1,37 @@
+
+state={
+	id=213
+	name="STATE_213"
+	manpower = 1068053
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = RAD
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = RAD
+	}
+
+	provinces={
+		2505 2506 2507 2508 2509 2510 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=33
+	name="STATE_33"
+	manpower = 60053
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=1
+		chromium=1
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=1
+		coal=3
+	}
+
+	history={
+		
+		owner = AJT
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = AJT
+	}
+
+	provinces={
+		390 391 392 393 394 395 396 397 398 399 400 401 402 403 404 405 406 407 408 409 410 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,177 @@
+division_template = {
+	name = "Militia Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Supported Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+			infantry = {  x = 2 y = 2 }
+
+	}
+	
+	support = {
+			maintenance_company = {  x = 0 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+			cavalry = {  x = 0 y = 0 }
+			cavalry = {  x = 0 y = 1 }
+			cavalry = {  x = 0 y = 2 }
+			cavalry = {  x = 1 y = 0 }
+			cavalry = {  x = 1 y = 1 }
+			cavalry = {  x = 1 y = 2 }
+			cavalry = {  x = 2 y = 0 }
+			cavalry = {  x = 2 y = 1 }
+			cavalry = {  x = 2 y = 2 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Motorized Division"
+
+	regiments = {
+			motorized = {  x = 0 y = 0 }
+			motorized = {  x = 0 y = 1 }
+			motorized = {  x = 1 y = 0 }
+			motorized = {  x = 1 y = 1 }
+			motorized = {  x = 2 y = 0 }
+			motorized = {  x = 2 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Supported Motorized Division"
+
+	regiments = {
+			motorized = {  x = 0 y = 0 }
+			motorized = {  x = 0 y = 1 }
+			motorized = {  x = 0 y = 2 }
+			motorized = {  x = 1 y = 0 }
+			motorized = {  x = 1 y = 1 }
+			motorized = {  x = 2 y = 0 }
+			motorized = {  x = 2 y = 1 }
+
+	}
+	
+	support = {
+			recon = {  x = 0 y = 0 }
+			maintenance_company = {  x = 0 y = 1 }
+
+	}
+}
+
+
+units = {
+	division= {
+		name = "1st 'Akbe' Militia Division"
+		location = 3634
+		division_template = "Militia Division"
+		start_experience_factor = 0.959967
+		start_equipment_factor = 0.859568
+	}
+	division= {
+		name = "2nd 'Kancuen' Militia Division"
+		location = 3761
+		division_template = "Militia Division"
+		start_experience_factor = 0.835398
+		start_equipment_factor = 0.955155
+	}
+	division= {
+		name = "1st 'Oxib' Infantry Division"
+		location = 3061
+		division_template = "Infantry Division"
+		start_experience_factor = 0.732528
+		start_equipment_factor = 0.974875
+	}
+	division= {
+		name = "2nd 'Zotzikin' Infantry Division"
+		location = 2565
+		division_template = "Infantry Division"
+		start_experience_factor = 0.024422
+		start_equipment_factor = 0.803649
+	}
+	division= {
+		name = "3rd 'Caracomte' Infantry Division"
+		location = 6170
+		division_template = "Infantry Division"
+		start_experience_factor = 0.603051
+		start_equipment_factor = 0.798575
+	}
+	division= {
+		name = "1st 'Imox' Supported Infantry Division"
+		location = 10376
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.053771
+		start_equipment_factor = 0.977808
+	}
+	division= {
+		name = "1st 'Katuna' Cavalry Division"
+		location = 4638
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.048002
+		start_equipment_factor = 0.989121
+	}
+	division= {
+		name = "1st 'Witzik' Motorized Division"
+		location = 1950
+		division_template = "Motorized Division"
+		start_experience_factor = 0.168601
+		start_equipment_factor = 0.819222
+	}
+	division= {
+		name = "1st 'Bacolkal' Supported Motorized Division"
+		location = 4628
+		division_template = "Supported Motorized Division"
+		start_experience_factor = 0.659566
+		start_equipment_factor = 0.895609
+	}
+
+}

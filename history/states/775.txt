@@ -1,0 +1,37 @@
+
+state={
+	id=775
+	name="STATE_775"
+	manpower = 2786353
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = MTN
+		buildings = {
+			infrastructure = 2
+			air_base = 2
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = MTN
+	}
+
+	provinces={
+		9065 9066 9067 9068 9069 9070 9071 9072 9073 9074 9075 9076 9077 9078 9079 
+	}
+	local_supplies=0.0 
+}

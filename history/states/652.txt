@@ -1,0 +1,37 @@
+
+state={
+	id=652
+	name="STATE_652"
+	manpower = 3976115
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=26
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = DUE
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = DUE
+	}
+
+	provinces={
+		7669 7670 7671 7672 7673 7674 7675 7676 7677 7678 7679 7680 7681 7682 7683 7684 7685 7686 7687 7688 7689 7690 7691 
+	}
+	local_supplies=0.0 
+}

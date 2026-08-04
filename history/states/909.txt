@@ -1,0 +1,37 @@
+
+state={
+	id=909
+	name="STATE_909"
+	manpower = 2617495
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=8
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = KDU
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = KDU
+	}
+
+	provinces={
+		10577 10578 10579 10580 10581 10582 10583 10584 10585 10586 10587 10588 10589 10590 10591 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,14 @@
+air_wings = {
+		1222 = { 								
+		small_plane_cas_airframe_0 = { owner = "DAR" amount = 29 version_name = "Shana Mk 2" }
+small_plane_airframe_0 = { owner = "DAR" amount = 25 version_name = "Hazn Mk 2" }
+small_plane_naval_bomber_airframe_0 = { owner = "DAR" amount = 34 version_name = "Rihlakech Mk 2" }
+
+	}
+	1553 = { 								
+		medium_plane_airframe_0 = { owner = "DAR" amount = 32 version_name = "Madina Mk 0" }
+
+	}
+
+
+}

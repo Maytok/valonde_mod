@@ -1,0 +1,37 @@
+
+state={
+	id=537
+	name="STATE_537"
+	manpower = 2121990
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=1
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = LAN
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			dockyard = 1
+			
+		}
+		add_core_of = LAN
+	}
+
+	provinces={
+		6299 6300 6301 6302 6303 6304 6305 6306 6307 6308 6309 
+	}
+	local_supplies=0.0 
+}

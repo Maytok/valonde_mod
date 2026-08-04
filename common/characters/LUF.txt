@@ -1,0 +1,1083 @@
+characters = {
+	LUF_Anselmut_Hilig={
+		name="Anselmut Hilig"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { royal_dictator  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	LUF_Ulrich_Tonneelle={
+		name="Ulrich Tonneelle"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LUF_Ulrich_Tonneelle
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	LUF_Fritz_Staginze={
+		name="Fritz Staginze"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LUF_Fritz_Staginze
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	LUF_Nielm_Hilig={
+		name="Nielm Hilig"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LUF_Nielm_Hilig
+			traits = {	socialite_connections 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	LUF_Matto_Festurm={
+		name="Matto Festurm"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LUF_Matto_Festurm
+			traits = {	headstrong 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	LUF_Wilhelmut_Fammele={
+		name="Wilhelmut Fammele"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LUF_Wilhelmut_Fammele
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	LUF_Helm_Magent={
+		name="Helm Magent"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LUF_Helm_Magent
+			traits = {	socialite_connections 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	LUF_Ulrich_Stadter={
+		name="Ulrich Stadter"
+
+		advisor={
+			slot = army_chief
+			idea_token = LUF_Ulrich_Stadter
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	LUF_Frichars_Marster={
+		name="Frichars Marster"
+
+		advisor={
+			slot = army_chief
+			idea_token = LUF_Frichars_Marster
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	LUF_Volfred_Staginze={
+		name="Volfred Staginze"
+
+		advisor={
+			slot = army_chief
+			idea_token = LUF_Volfred_Staginze
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	LUF_Nielm_Lichwest={
+		name="Nielm Lichwest"
+
+		advisor={
+			slot = army_chief
+			idea_token = LUF_Nielm_Lichwest
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	LUF_Johar_Steraube={
+		name="Johar Steraube"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LUF_Johar_Steraube
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	LUF_Heif_Beitze={
+		name="Heif Beitze"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LUF_Heif_Beitze
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	LUF_Helm_Staginze={
+		name="Helm Staginze"
+
+		advisor={
+			slot = air_chief
+			idea_token = LUF_Helm_Staginze
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	LUF_Magnus_Blum={
+		name="Magnus Blum"
+
+		advisor={
+			slot = air_chief
+			idea_token = LUF_Magnus_Blum
+			traits = {	air_chief_night_operations_2 	}
+		}
+
+
+	}
+	LUF_Jenrik_Klaubend={
+		name="Jenrik Klaubend"
+
+		advisor={
+			slot = high_command
+			idea_token = LUF_Jenrik_Klaubend
+			traits = {	army_CombinedArms_1 	}
+		}
+
+
+	}
+	LUF_Knus_Heise={
+		name="Knus Heise"
+
+		advisor={
+			slot = high_command
+			idea_token = LUF_Knus_Heise
+			traits = {	air_naval_strike_1 	}
+		}
+
+
+	}
+	LUF_Frik_Frost={
+		name="Frik Frost"
+
+		advisor={
+			slot = high_command
+			idea_token = LUF_Frik_Frost
+			traits = {	army_regrouping_1 	}
+		}
+
+
+	}
+	LUF_Jann_Herden={
+		name="Jann Herden"
+
+		advisor={
+			slot = high_command
+			idea_token = LUF_Jann_Herden
+			traits = {	army_cavalry_2 	}
+		}
+
+
+	}
+	LUF_Magnut_Gotsch={
+		name="Magnut Gotsch"
+
+		advisor={
+			slot = high_command
+			idea_token = LUF_Magnut_Gotsch
+			traits = {	air_air_superiority_2 	}
+		}
+
+
+	}
+	LUF_Soren_Schloster={
+		name="Soren Schloster"
+
+		advisor={
+			slot = high_command
+			idea_token = LUF_Soren_Schloster
+			traits = {	navy_fleet_logistics_2 	}
+		}
+
+
+	}
+	LUF_Eirk_Wind={
+		name="Eirk Wind"
+
+		
+		country_leader={
+			ideology=nazism
+			traits = { autocratic_imperialist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	LUF_Volf_Meel={
+		name="Volf Meel"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LUF_Volf_Meel
+			traits = {	spirit_of_genghis 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	LUF_Karans_Wind={
+		name="Karans Wind"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LUF_Karans_Wind
+			traits = {	vapsid_economist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	LUF_Hansels_Seger={
+		name="Hansels Seger"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LUF_Hansels_Seger
+			traits = {	collaborator_king 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	LUF_Oskarl_Fest={
+		name="Oskarl Fest"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LUF_Oskarl_Fest
+			traits = {	autocratic_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	LUF_Bers_Nacht={
+		name="Bers Nacht"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LUF_Bers_Nacht
+			traits = {	archon_basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	LUF_Knut_Seille={
+		name="Knut Seille"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LUF_Knut_Seille
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	LUF_Emilhelm_Bucht={
+		name="Emilhelm Bucht"
+
+		advisor={
+			slot = army_chief
+			idea_token = LUF_Emilhelm_Bucht
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	LUF_Oskarald_Golz={
+		name="Oskarald Golz"
+
+		advisor={
+			slot = army_chief
+			idea_token = LUF_Oskarald_Golz
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	LUF_Heinrik_Eise={
+		name="Heinrik Eise"
+
+		advisor={
+			slot = army_chief
+			idea_token = LUF_Heinrik_Eise
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	LUF_Sorenrik_Golz={
+		name="Sorenrik Golz"
+
+		advisor={
+			slot = army_chief
+			idea_token = LUF_Sorenrik_Golz
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	LUF_Soren_Wind={
+		name="Soren Wind"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LUF_Soren_Wind
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	LUF_Matthias_Frost={
+		name="Matthias Frost"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LUF_Matthias_Frost
+			traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+
+	}
+	LUF_Sten_Bogenigen={
+		name="Sten Bogenigen"
+
+		advisor={
+			slot = air_chief
+			idea_token = LUF_Sten_Bogenigen
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	LUF_Frann_Runke={
+		name="Frann Runke"
+
+		advisor={
+			slot = air_chief
+			idea_token = LUF_Frann_Runke
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	LUF_Volf_Bogeld={
+		name="Volf Bogeld"
+
+		advisor={
+			slot = high_command
+			idea_token = LUF_Volf_Bogeld
+			traits = {	air_airborne_2 	}
+		}
+
+
+	}
+	LUF_Knut_Licht={
+		name="Knut Licht"
+
+		advisor={
+			slot = high_command
+			idea_token = LUF_Knut_Licht
+			traits = {	air_tactical_bombing_1 	}
+		}
+
+
+	}
+	LUF_Reif_Weilbe={
+		name="Reif Weilbe"
+
+		advisor={
+			slot = high_command
+			idea_token = LUF_Reif_Weilbe
+			traits = {	army_concealment_1 	}
+		}
+
+
+	}
+	LUF_Franz_Priebenzeste={
+		name="Franz Priebenzeste"
+
+		advisor={
+			slot = high_command
+			idea_token = LUF_Franz_Priebenzeste
+			traits = {	army_logistics_1 	}
+		}
+
+
+	}
+	LUF_Soren_Kopf={
+		name="Soren Kopf"
+
+		advisor={
+			slot = high_command
+			idea_token = LUF_Soren_Kopf
+			traits = {	navy_amphibious_assault_1 	}
+		}
+
+
+	}
+	LUF_Wilhelmut_Bogeld={
+		name="Wilhelmut Bogeld"
+
+		advisor={
+			slot = high_command
+			idea_token = LUF_Wilhelmut_Bogeld
+			traits = {	navy_fleet_logistics_2 	}
+		}
+
+
+	}
+	LUF_Heif_Tonneelle={
+		name="Heif Tonneelle"
+
+		
+		country_leader={
+			ideology=anti_revisionism
+			traits = { marxist_fundamentalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	LUF_Reif_Segenig={
+		name="Reif Segenig"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LUF_Reif_Segenig
+			traits = {	leftist_intellectual 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	LUF_Karans_Prizonne={
+		name="Karans Prizonne"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LUF_Karans_Prizonne
+			traits = {	anti_bolshevik_leftist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	LUF_Matthias_Prizonne={
+		name="Matthias Prizonne"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LUF_Matthias_Prizonne
+			traits = {	mastermind_code_cracker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	LUF_Frich_Gest={
+		name="Frich Gest"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LUF_Frich_Gest
+			traits = {	marxist_fundamentalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	LUF_Nielm_Meel={
+		name="Nielm Meel"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LUF_Nielm_Meel
+			traits = {	mastermind_code_cracker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	LUF_Heif_Ster={
+		name="Heif Ster"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LUF_Heif_Ster
+			traits = {	leftist_independent 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	LUF_Hermans_Gest={
+		name="Hermans Gest"
+
+		advisor={
+			slot = army_chief
+			idea_token = LUF_Hermans_Gest
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	LUF_Sorenrik_Eise={
+		name="Sorenrik Eise"
+
+		advisor={
+			slot = army_chief
+			idea_token = LUF_Sorenrik_Eise
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	LUF_Heif_Bogeld={
+		name="Heif Bogeld"
+
+		advisor={
+			slot = army_chief
+			idea_token = LUF_Heif_Bogeld
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	LUF_Matto_Krab={
+		name="Matto Krab"
+
+		advisor={
+			slot = army_chief
+			idea_token = LUF_Matto_Krab
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	LUF_Fran_Dorfahr={
+		name="Fran Dorfahr"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LUF_Fran_Dorfahr
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	LUF_Nielm_Bogenigen={
+		name="Nielm Bogenigen"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LUF_Nielm_Bogenigen
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	LUF_Frichars_Fammele={
+		name="Frichars Fammele"
+
+		advisor={
+			slot = air_chief
+			idea_token = LUF_Frichars_Fammele
+			traits = {	air_chief_night_operations_2 	}
+		}
+
+
+	}
+	LUF_Kasparl_Greuecke={
+		name="Kasparl Greuecke"
+
+		advisor={
+			slot = air_chief
+			idea_token = LUF_Kasparl_Greuecke
+			traits = {	air_chief_night_operations_2 	}
+		}
+
+
+	}
+	LUF_Bjorg_Staginze={
+		name="Bjorg Staginze"
+
+		advisor={
+			slot = high_command
+			idea_token = LUF_Bjorg_Staginze
+			traits = {	air_pilot_training_1 	}
+		}
+
+
+	}
+	LUF_Andermans_Reis={
+		name="Andermans Reis"
+
+		advisor={
+			slot = high_command
+			idea_token = LUF_Andermans_Reis
+			traits = {	air_air_superiority_2 	}
+		}
+
+
+	}
+	LUF_Sten_Blum={
+		name="Sten Blum"
+
+		advisor={
+			slot = high_command
+			idea_token = LUF_Sten_Blum
+			traits = {	army_radio_intelligence_2 	}
+		}
+
+
+	}
+	LUF_Kasparl_Kammeld={
+		name="Kasparl Kammeld"
+
+		advisor={
+			slot = high_command
+			idea_token = LUF_Kasparl_Kammeld
+			traits = {	army_entrenchment_2 	}
+		}
+
+
+	}
+	LUF_Anselm_Seise={
+		name="Anselm Seise"
+
+		advisor={
+			slot = high_command
+			idea_token = LUF_Anselm_Seise
+			traits = {	army_regrouping_2 	}
+		}
+
+
+	}
+	LUF_Andermans_Inse={
+		name="Andermans Inse"
+
+		advisor={
+			slot = high_command
+			idea_token = LUF_Andermans_Inse
+			traits = {	navy_amphibious_assault_1 	}
+		}
+
+
+	}
+	LUF_Karans_Ehre={
+		name="Karans Ehre"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { staunch_constitutionalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	LUF_Hanz_Bott={
+		name="Hanz Bott"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LUF_Hanz_Bott
+			traits = {	the_banker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	LUF_Heinrik_Geste={
+		name="Heinrik Geste"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LUF_Heinrik_Geste
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	LUF_Hermans_Beiseriffeit={
+		name="Hermans Beiseriffeit"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LUF_Hermans_Beiseriffeit
+			traits = {	democratic_crusader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	LUF_Volfred_Meel={
+		name="Volfred Meel"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LUF_Volfred_Meel
+			traits = {	democratic_crusader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	LUF_Bjorg_Blus={
+		name="Bjorg Blus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LUF_Bjorg_Blus
+			traits = {	first_lady 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	LUF_Knut_Dorhe={
+		name="Knut Dorhe"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LUF_Knut_Dorhe
+			traits = {	liberal_democratic_paragon 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	LUF_Helm_Bott={
+		name="Helm Bott"
+
+		advisor={
+			slot = army_chief
+			idea_token = LUF_Helm_Bott
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	LUF_Wilhelmut_Eise={
+		name="Wilhelmut Eise"
+
+		advisor={
+			slot = army_chief
+			idea_token = LUF_Wilhelmut_Eise
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	LUF_Volf_Volz={
+		name="Volf Volz"
+
+		advisor={
+			slot = army_chief
+			idea_token = LUF_Volf_Volz
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	LUF_Sigurd_Legen={
+		name="Sigurd Legen"
+
+		advisor={
+			slot = army_chief
+			idea_token = LUF_Sigurd_Legen
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	LUF_Sten_Kopf={
+		name="Sten Kopf"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LUF_Sten_Kopf
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	LUF_Dirik_Spruch={
+		name="Dirik Spruch"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LUF_Dirik_Spruch
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	LUF_Otthiaspar_Fammele={
+		name="Otthiaspar Fammele"
+
+		advisor={
+			slot = air_chief
+			idea_token = LUF_Otthiaspar_Fammele
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	LUF_Fritz_Goteinze={
+		name="Fritz Goteinze"
+
+		advisor={
+			slot = air_chief
+			idea_token = LUF_Fritz_Goteinze
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	LUF_Bjoren_Runke={
+		name="Bjoren Runke"
+
+		advisor={
+			slot = high_command
+			idea_token = LUF_Bjoren_Runke
+			traits = {	army_commando_2 	}
+		}
+
+
+	}
+	LUF_Wilhelmut_Legenigienen={
+		name="Wilhelmut Legenigienen"
+
+		advisor={
+			slot = high_command
+			idea_token = LUF_Wilhelmut_Legenigienen
+			traits = {	army_regrouping_1 	}
+		}
+
+
+	}
+	LUF_Knus_Beiseriffeit={
+		name="Knus Beiseriffeit"
+
+		advisor={
+			slot = high_command
+			idea_token = LUF_Knus_Beiseriffeit
+			traits = {	army_radio_intelligence_2 	}
+		}
+
+
+	}
+	LUF_Bjored_Bruderag={
+		name="Bjored Bruderag"
+
+		advisor={
+			slot = high_command
+			idea_token = LUF_Bjored_Bruderag
+			traits = {	air_bomber_interception_1 	}
+		}
+
+
+	}
+	LUF_Heinholfren_Meel={
+		name="Heinholfren Meel"
+
+		advisor={
+			slot = high_command
+			idea_token = LUF_Heinholfren_Meel
+			traits = {	navy_amphibious_assault_1 	}
+		}
+
+
+	}
+	LUF_Fritz_Herden={
+		name="Fritz Herden"
+
+		advisor={
+			slot = high_command
+			idea_token = LUF_Fritz_Herden
+			traits = {	army_cavalry_2 	}
+		}
+
+
+	}
+	LUF_Oskars_Baum={
+		name="Oskars Baum"
+
+		advisor={
+			slot = theorist
+			idea_token = LUF_Oskars_Baum
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	LUF_Matto_Seise={
+		name="Matto Seise"
+
+		advisor={
+			slot = theorist
+			idea_token = LUF_Matto_Seise
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	LUF_Rold_Beitz={
+		name="Rold Beitz"
+
+		advisor={
+			slot = theorist
+			idea_token = LUF_Rold_Beitz
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

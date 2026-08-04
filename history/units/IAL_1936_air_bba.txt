@@ -1,0 +1,13 @@
+air_wings = {
+		1394 = { 								
+		small_plane_cas_airframe_0 = { owner = "IAL" amount = 15 version_name = "Namartoum Mk 2" }
+medium_plane_airframe_0 = { owner = "IAL" amount = 10 version_name = "Saadin Mk 0" }
+
+	}
+	1383 = { 								
+		small_plane_airframe_0 = { owner = "IAL" amount = 11 version_name = "Ramaniyahr Mk 0" }
+
+	}
+
+
+}

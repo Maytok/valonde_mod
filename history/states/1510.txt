@@ -1,0 +1,37 @@
+
+state={
+	id=1510
+	name="STATE_1510"
+	manpower = 1320786
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = TEM
+		buildings = {
+			infrastructure = 2
+			air_base = 2
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = TEM
+	}
+
+	provinces={
+		16961 16962 16963 16964 16965 16966 16967 
+	}
+	local_supplies=0.0 
+}

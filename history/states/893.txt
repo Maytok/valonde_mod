@@ -1,0 +1,37 @@
+
+state={
+	id=893
+	name="STATE_893"
+	manpower = 2594596
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = ITU
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			arms_factory = 2
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = ITU
+	}
+
+	provinces={
+		10384 10385 10386 10387 10388 10389 10390 10391 10392 10393 10394 10395 10396 
+	}
+	local_supplies=0.0 
+}

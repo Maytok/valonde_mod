@@ -1,0 +1,426 @@
+capital = 563
+
+oob = "KIM_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "KIM_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "KIM_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	support_weapons= 1
+	tech_trucks= 1
+	tech_support= 1
+	gw_artillery= 1
+	infantry_weapons1= 1
+	paratroopers= 1
+	marines= 1
+	tech_mountaineers= 1
+	motorised_infantry= 1
+	tech_engineers= 1
+	tech_military_police= 1
+	tech_maintenance_company= 1
+	basic_machine_tools= 1
+	fuel_silos= 1
+	synth_oil_experiments= 1
+	basic_fire_control_system= 1
+	basic_fortification_tech= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+		basic_heavy_tank = 1
+		improved_light_tank = 1
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+		basic_heavy_tank_chassis = 1
+		engine_tech_1 = 1
+		armor_tech_1 = 1
+		improved_light_tank_chassis = 1
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+		create_equipment_variant = {
+		name = "Sonbahil Mk 1"
+		type = heavy_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = wet_ammo_storage
+			special_type_slot_2 = extra_ammo_storage
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_heavy_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Bulu Mk 2"
+		type = heavy_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = extra_ammo_storage
+			special_type_slot_2 = expanded_fuel_tank
+			special_type_slot_3 = smoke_launchers
+			suspension_type_slot = tank_christie_suspension
+			turret_type_slot = tank_heavy_fixed_superstructure_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Bultur Mk 0"
+		type = light_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_small_cannon
+			special_type_slot_1 = secondary_turret_hmg
+			special_type_slot_2 = expanded_fuel_tank
+			special_type_slot_3 = wet_ammo_storage
+			suspension_type_slot = tank_torsion_bar_suspension
+			turret_type_slot = tank_light_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Yesik Mk 0"
+		type = light_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_small_cannon
+			special_type_slot_1 = secondary_turret_hmg
+			special_type_slot_2 = extra_ammo_storage
+			suspension_type_slot = tank_christie_suspension
+			turret_type_slot = tank_light_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Ordu Mk 0"
+		type = light_tank_chassis_2
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_small_cannon
+			special_type_slot_1 = extra_ammo_storage
+			special_type_slot_2 = expanded_fuel_tank
+			special_type_slot_3 = smoke_launchers
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_light_fixed_superstructure_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Koyluk Mk 2"
+		type = medium_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_medium_cannon
+			special_type_slot_1 = secondary_turret_hmg
+			special_type_slot_2 = extra_ammo_storage
+			suspension_type_slot = tank_torsion_bar_suspension
+			turret_type_slot = tank_medium_one_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "KIM_1936_air_bba"
+		set_technology = {
+			
+		}
+
+	else = {
+		set_air_oob = "KIM_1936_air_legacy"
+		set_technology = {
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	early_destroyer = 1
+	
+	}
+	set_naval_oob = "KIM_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Saat Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	early_ship_hull_light = 1
+	sonar = 1
+	
+	}
+	set_naval_oob = "KIM_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Saat Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = ship_anti_air_1
+				rear_1_custom_slot = empty
+			}
+		}
+
+	}
+
+
+recruit_character = KIM_Onur_Servas
+recruit_character = KIM_Ener_Anakin
+recruit_character = KIM_Musuf_Ormanin
+recruit_character = KIM_Batugrun_Servas
+recruit_character = KIM_Kaan_Koplukar
+recruit_character = KIM_Utku_Atesillil
+recruit_character = KIM_Enesul_Umutlu
+recruit_character = KIM_Baruk_Hikayat
+recruit_character = KIM_Ertugruk_Koylak
+recruit_character = KIM_Tunc_Akinda
+recruit_character = KIM_Adem_Anat
+recruit_character = KIM_Hakanes_Akilda
+recruit_character = KIM_Cemaz_Bultur
+recruit_character = KIM_Ader_Kaynakinlisl
+recruit_character = KIM_Serem_Dogukaye
+recruit_character = KIM_Zafe_Ordu
+recruit_character = KIM_Enesuf_Guluk
+recruit_character = KIM_Ertugruk_Yasar
+recruit_character = KIM_Arif_Bahtarinlik
+recruit_character = KIM_Sinan_Sonbahtarimd
+recruit_character = KIM_Salcinan_Yolge
+recruit_character = KIM_Selih_Yolge
+recruit_character = KIM_Cemaz_Sehirin
+recruit_character = KIM_Bora_Kanizci
+recruit_character = KIM_Iskerem_Akinda
+recruit_character = KIM_Yusulenderem_Ulket
+recruit_character = KIM_Talcinan_Atesillil
+recruit_character = KIM_Salilmaz_Gemiz
+recruit_character = KIM_Baruk_Ruzgar
+recruit_character = KIM_Haran_Yesik
+recruit_character = KIM_Yusulenderem_Asken
+recruit_character = KIM_Emir_Gemisla
+recruit_character = KIM_Selih_Hikayat
+recruit_character = KIM_Zafa_Sehilde
+recruit_character = KIM_Utku_Kara
+recruit_character = KIM_Iskerhan_Kaynakinlisl
+recruit_character = KIM_Suatuhatugru_Ordu
+recruit_character = KIM_Taylan_Daglik
+recruit_character = KIM_Adem_Akguk
+recruit_character = KIM_Batugrun_Sonbahil
+recruit_character = KIM_Haran_Servas
+recruit_character = KIM_Haran_Obaharis
+recruit_character = KIM_Suatuhatugru_Kalp
+recruit_character = KIM_Orha_Busun
+recruit_character = KIM_Savas_Kirlikaye
+recruit_character = KIM_Batugrun_Akinda
+recruit_character = KIM_Halim_Gemisla
+recruit_character = KIM_Sinan_Sonbahil
+recruit_character = KIM_Emin_Kalp
+recruit_character = KIM_Orha_Sehilde
+recruit_character = KIM_Enesuf_Basarinlik
+recruit_character = KIM_Musuf_Gemisla
+recruit_character = KIM_Tunc_Asilda
+recruit_character = KIM_Arif_Akgun
+recruit_character = KIM_Orhan_Sonbahtara
+recruit_character = KIM_Haruk_Basarinlik
+recruit_character = KIM_Ramaz_Saat
+recruit_character = KIM_Suatuhatugru_Ormane
+recruit_character = KIM_Zafe_Koylak
+recruit_character = KIM_Mehmet_Sehirin
+recruit_character = KIM_Hakanes_Kirlis
+recruit_character = KIM_Ilkendem_Saat
+recruit_character = KIM_Orha_Akgun
+recruit_character = KIM_Salih_Yaglildi
+recruit_character = KIM_Salhan_Yanak
+recruit_character = KIM_Haruk_Dent
+recruit_character = KIM_Enesuf_Kapi
+recruit_character = KIM_Kaan_Kopluk
+recruit_character = KIM_Bekir_Servas
+recruit_character = KIM_Emir_Kopluk
+recruit_character = KIM_Kaan_Yeni
+recruit_character = KIM_Hakan_Bulut
+recruit_character = KIM_Enesul_Bulut
+recruit_character = KIM_Cemaz_Gele
+recruit_character = KIM_Selih_Ormane
+recruit_character = KIM_Batugrun_Kayat
+recruit_character = KIM_Ader_Yolge
+recruit_character = KIM_Yalcinan_Yeninahtari
+recruit_character = KIM_Utku_Gemisla
+recruit_character = KIM_Hakan_Akilda
+recruit_character = KIM_Emir_Seref
+recruit_character = KIM_Ener_Gemis
+recruit_character = KIM_Selih_Dilde
+recruit_character = KIM_Enes_Daglik
+recruit_character = KIM_Bulender_Buluk
+recruit_character = KIM_Ramaz_Yasar
+recruit_character = KIM_Yalha_Sogru
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 5
+set_convoys = 0
+set_stability = 0.88
+set_war_support = 0.60
+
+add_ideas = {
+extensive_conscription
+partial_economic_mobilisation
+autarkic_economy
+}
+
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1912.6.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 27
+	fascism = 29
+	communism = 9
+	neutrality = 35
+}
+
+
+create_faction_from_template = faction_template_industrial_focus
+add_to_faction = KIM
+

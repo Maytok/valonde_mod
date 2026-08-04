@@ -1,0 +1,12 @@
+air_wings = {
+		210 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "WIM" amount = 33 version_name = "Shukwelu Mk 2" }
+
+	}
+	902 = { 								
+		small_plane_airframe_0 = { owner = "WIM" amount = 23 version_name = "Majanaji Mk 0" }
+
+	}
+
+
+}

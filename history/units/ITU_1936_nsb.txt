@@ -1,0 +1,132 @@
+division_template = {
+	name = "Militia Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+			infantry = {  x = 2 y = 2 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+			cavalry = {  x = 0 y = 0 }
+			cavalry = {  x = 0 y = 1 }
+			cavalry = {  x = 0 y = 2 }
+			cavalry = {  x = 0 y = 3 }
+			cavalry = {  x = 1 y = 0 }
+			cavalry = {  x = 1 y = 1 }
+			cavalry = {  x = 1 y = 2 }
+			cavalry = {  x = 2 y = 0 }
+			cavalry = {  x = 2 y = 1 }
+			cavalry = {  x = 2 y = 2 }
+
+	}
+	
+	support = {
+
+	}
+}
+
+
+units = {
+	division= {
+		name = "1st 'Bubt' Militia Division"
+		location = 10634
+		division_template = "Militia Division"
+		start_experience_factor = 0.651181
+		start_equipment_factor = 0.899496
+	}
+	division= {
+		name = "2nd 'Oliatangiq' Militia Division"
+		location = 2418
+		division_template = "Militia Division"
+		start_experience_factor = 0.499027
+		start_equipment_factor = 0.863243
+	}
+	division= {
+		name = "3rd 'Tata' Militia Division"
+		location = 10362
+		division_template = "Militia Division"
+		start_experience_factor = 0.160983
+		start_equipment_factor = 0.813628
+	}
+	division= {
+		name = "4th 'Tummaq' Militia Division"
+		location = 5467
+		division_template = "Militia Division"
+		start_experience_factor = 0.748519
+		start_equipment_factor = 0.981757
+	}
+	division= {
+		name = "5th 'Anak' Militia Division"
+		location = 5464
+		division_template = "Militia Division"
+		start_experience_factor = 0.088707
+		start_equipment_factor = 0.892181
+	}
+	division= {
+		name = "1st 'Tanuk' Infantry Division"
+		location = 11176
+		division_template = "Infantry Division"
+		start_experience_factor = 0.134031
+		start_equipment_factor = 0.874201
+	}
+	division= {
+		name = "2nd 'Nusit' Infantry Division"
+		location = 10687
+		division_template = "Infantry Division"
+		start_experience_factor = 0.435779
+		start_equipment_factor = 0.837562
+	}
+	division= {
+		name = "3rd 'Mangiqilupak' Infantry Division"
+		location = 3617
+		division_template = "Infantry Division"
+		start_experience_factor = 0.983754
+		start_equipment_factor = 0.823361
+	}
+	division= {
+		name = "1st 'Atkaku' Cavalry Division"
+		location = 3857
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.013076
+		start_equipment_factor = 0.826473
+	}
+	division= {
+		name = "2nd 'Asatuk' Cavalry Division"
+		location = 3849
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.384625
+		start_equipment_factor = 0.807616
+	}
+
+}

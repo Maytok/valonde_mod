@@ -1,0 +1,37 @@
+
+state={
+	id=66
+	name="STATE_66"
+	manpower = 2845550
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = TEM
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+			
+		}
+		add_core_of = TEM
+	}
+
+	provinces={
+		804 805 806 807 808 809 810 811 812 813 814 815 816 817 
+	}
+	local_supplies=0.0 
+}

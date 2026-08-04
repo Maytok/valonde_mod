@@ -1,0 +1,37 @@
+
+state={
+	id=85
+	name="STATE_85"
+	manpower = 1465357
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = MAG
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = MAG
+	}
+
+	provinces={
+		1072 1073 1074 1075 1076 1077 1078 1079 
+	}
+	local_supplies=0.0 
+}

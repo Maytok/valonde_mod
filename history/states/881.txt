@@ -1,0 +1,37 @@
+
+state={
+	id=881
+	name="STATE_881"
+	manpower = 2302427
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=8
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = CHO
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = CHO
+	}
+
+	provinces={
+		10210 10211 10212 10213 10214 10215 10216 10217 10218 10219 10220 10221 10222 10223 
+	}
+	local_supplies=0.0 
+}

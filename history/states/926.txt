@@ -1,0 +1,37 @@
+
+state={
+	id=926
+	name="STATE_926"
+	manpower = 1435800
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=3
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = LIJ
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			
+		}
+		add_core_of = LIJ
+	}
+
+	provinces={
+		10696 10697 10698 10699 10700 10701 10702 10703 
+	}
+	local_supplies=0.0 
+}

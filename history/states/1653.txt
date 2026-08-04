@@ -1,0 +1,37 @@
+
+state={
+	id=1653
+	name="STATE_1653"
+	manpower = 68092
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = TEM
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			
+		}
+		add_core_of = TEM
+	}
+
+	provinces={
+		17166 
+	}
+	local_supplies=0.0 
+}

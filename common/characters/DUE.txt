@@ -1,0 +1,1083 @@
+characters = {
+	DUE_Ramad_Qala={
+		name="Ramad Qala"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { socialite_connections  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	DUE_Anwarid_Rawi={
+		name="Anwarid Rawi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DUE_Anwarid_Rawi
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	DUE_Mohamariq_Shamaria={
+		name="Mohamariq Shamaria"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DUE_Mohamariq_Shamaria
+			traits = {	agricultural_capitalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	DUE_Ahmarid_Wasadi={
+		name="Ahmarid Wasadi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DUE_Ahmarid_Wasadi
+			traits = {	humble 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	DUE_Ahmarid_Mustarb={
+		name="Ahmarid Mustarb"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DUE_Ahmarid_Mustarb
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	DUE_Majid_Dawda={
+		name="Majid Dawda"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DUE_Majid_Dawda
+			traits = {	noble_beurocrat 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	DUE_Hassal_Rabatashfa={
+		name="Hassal Rabatashfa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DUE_Hassal_Rabatashfa
+			traits = {	agricultural_capitalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	DUE_Bilahmalid_Kharda={
+		name="Bilahmalid Kharda"
+
+		advisor={
+			slot = army_chief
+			idea_token = DUE_Bilahmalid_Kharda
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	DUE_Zaisan_Bahel={
+		name="Zaisan Bahel"
+
+		advisor={
+			slot = army_chief
+			idea_token = DUE_Zaisan_Bahel
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	DUE_Karid_Durhar={
+		name="Karid Durhar"
+
+		advisor={
+			slot = army_chief
+			idea_token = DUE_Karid_Durhar
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	DUE_Hami_Basr={
+		name="Hami Basr"
+
+		advisor={
+			slot = army_chief
+			idea_token = DUE_Hami_Basr
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	DUE_Hammed_Rabat={
+		name="Hammed Rabat"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DUE_Hammed_Rabat
+			traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+
+	}
+	DUE_Khamza_Shamaria={
+		name="Khamza Shamaria"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DUE_Khamza_Shamaria
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	DUE_Abdullali_Thayahr={
+		name="Abdullali Thayahr"
+
+		advisor={
+			slot = air_chief
+			idea_token = DUE_Abdullali_Thayahr
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	DUE_Zaisan_Qala={
+		name="Zaisan Qala"
+
+		advisor={
+			slot = air_chief
+			idea_token = DUE_Zaisan_Qala
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	DUE_Nabilahmal_Amanz={
+		name="Nabilahmal Amanz"
+
+		advisor={
+			slot = high_command
+			idea_token = DUE_Nabilahmal_Amanz
+			traits = {	army_entrenchment_1 	}
+		}
+
+
+	}
+	DUE_Anwar_Narim={
+		name="Anwar Narim"
+
+		advisor={
+			slot = high_command
+			idea_token = DUE_Anwar_Narim
+			traits = {	air_air_superiority_2 	}
+		}
+
+
+	}
+	DUE_Nabilal_Madin={
+		name="Nabilal Madin"
+
+		advisor={
+			slot = high_command
+			idea_token = DUE_Nabilal_Madin
+			traits = {	army_entrenchment_2 	}
+		}
+
+
+	}
+	DUE_Yahim_Hisn={
+		name="Yahim Hisn"
+
+		advisor={
+			slot = high_command
+			idea_token = DUE_Yahim_Hisn
+			traits = {	air_naval_strike_1 	}
+		}
+
+
+	}
+	DUE_Samza_Tharb={
+		name="Samza Tharb"
+
+		advisor={
+			slot = high_command
+			idea_token = DUE_Samza_Tharb
+			traits = {	navy_amphibious_assault_2 	}
+		}
+
+
+	}
+	DUE_Hassal_Kalamla={
+		name="Hassal Kalamla"
+
+		advisor={
+			slot = high_command
+			idea_token = DUE_Hassal_Kalamla
+			traits = {	navy_amphibious_assault_2 	}
+		}
+
+
+	}
+	DUE_Khal_Tharb={
+		name="Khal Tharb"
+
+		
+		country_leader={
+			ideology=nazism
+			traits = { inexperienced_imperialist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	DUE_Nabilal_Durhar={
+		name="Nabilal Durhar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DUE_Nabilal_Durhar
+			traits = {	inexperienced_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	DUE_Yahya_Qala={
+		name="Yahya Qala"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DUE_Yahya_Qala
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	DUE_Nabil_Dohaba={
+		name="Nabil Dohaba"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DUE_Nabil_Dohaba
+			traits = {	collaborator_king 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	DUE_Imrahim_Mamt={
+		name="Imrahim Mamt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DUE_Imrahim_Mamt
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	DUE_Mohal_Hawi={
+		name="Mohal Hawi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DUE_Mohal_Hawi
+			traits = {	inexperienced_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	DUE_Imran_Khayahr={
+		name="Imran Khayahr"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DUE_Imran_Khayahr
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	DUE_Omal_Maghria={
+		name="Omal Maghria"
+
+		advisor={
+			slot = army_chief
+			idea_token = DUE_Omal_Maghria
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	DUE_Hammed_Makta={
+		name="Hammed Makta"
+
+		advisor={
+			slot = army_chief
+			idea_token = DUE_Hammed_Makta
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	DUE_Hassal_Turuq={
+		name="Hassal Turuq"
+
+		advisor={
+			slot = army_chief
+			idea_token = DUE_Hassal_Turuq
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	DUE_Ibrahya_Haritasr={
+		name="Ibrahya Haritasr"
+
+		advisor={
+			slot = army_chief
+			idea_token = DUE_Ibrahya_Haritasr
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	DUE_Samir_Tifl={
+		name="Samir Tifl"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DUE_Samir_Tifl
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	DUE_Imrahim_Kharda={
+		name="Imrahim Kharda"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DUE_Imrahim_Kharda
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	DUE_Mohami_Durhama={
+		name="Mohami Durhama"
+
+		advisor={
+			slot = air_chief
+			idea_token = DUE_Mohami_Durhama
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	DUE_Mohamariq_Nariq={
+		name="Mohamariq Nariq"
+
+		advisor={
+			slot = air_chief
+			idea_token = DUE_Mohamariq_Nariq
+			traits = {	air_chief_all_weather_2 	}
+		}
+
+
+	}
+	DUE_Faid_Haritasr={
+		name="Faid Haritasr"
+
+		advisor={
+			slot = high_command
+			idea_token = DUE_Faid_Haritasr
+			traits = {	navy_fleet_logistics_2 	}
+		}
+
+
+	}
+	DUE_Saad_Taryat={
+		name="Saad Taryat"
+
+		advisor={
+			slot = high_command
+			idea_token = DUE_Saad_Taryat
+			traits = {	air_tactical_bombing_1 	}
+		}
+
+
+	}
+	DUE_Abdullal_Durharyahr={
+		name="Abdullal Durharyahr"
+
+		advisor={
+			slot = high_command
+			idea_token = DUE_Abdullal_Durharyahr
+			traits = {	navy_submarine_1 	}
+		}
+
+
+	}
+	DUE_Saad_Imalahibl={
+		name="Saad Imalahibl"
+
+		advisor={
+			slot = high_command
+			idea_token = DUE_Saad_Imalahibl
+			traits = {	navy_capital_ship_2 	}
+		}
+
+
+	}
+	DUE_Nabil_Thabal={
+		name="Nabil Thabal"
+
+		advisor={
+			slot = high_command
+			idea_token = DUE_Nabil_Thabal
+			traits = {	navy_capital_ship_1 	}
+		}
+
+
+	}
+	DUE_Sami_Imanawaryah={
+		name="Sami Imanawaryah"
+
+		advisor={
+			slot = high_command
+			idea_token = DUE_Sami_Imanawaryah
+			traits = {	air_tactical_bombing_1 	}
+		}
+
+
+	}
+	DUE_Hami_Manub={
+		name="Hami Manub"
+
+		
+		country_leader={
+			ideology=marxism
+			traits = { polemarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	DUE_Abdullal_Maghria={
+		name="Abdullal Maghria"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DUE_Abdullal_Maghria
+			traits = {	indomitable_perseverance 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	DUE_Faisan_Nasa={
+		name="Faisan Nasa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DUE_Faisan_Nasa
+			traits = {	marxist_fundamentalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	DUE_Hamza_Mufti={
+		name="Hamza Mufti"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DUE_Hamza_Mufti
+			traits = {	marxist_fundamentalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	DUE_Tariq_Wasadi={
+		name="Tariq Wasadi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DUE_Tariq_Wasadi
+			traits = {	anti_bolshevik_leftist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	DUE_Ibrahya_Nadina={
+		name="Ibrahya Nadina"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DUE_Ibrahya_Nadina
+			traits = {	indomitable_perseverance 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	DUE_Tarim_Tunis={
+		name="Tarim Tunis"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DUE_Tarim_Tunis
+			traits = {	mastermind_code_cracker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	DUE_Kariq_Kalamla={
+		name="Kariq Kalamla"
+
+		advisor={
+			slot = army_chief
+			idea_token = DUE_Kariq_Kalamla
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	DUE_Mohal_Durhar={
+		name="Mohal Durhar"
+
+		advisor={
+			slot = army_chief
+			idea_token = DUE_Mohal_Durhar
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	DUE_Hassal_Nasa={
+		name="Hassal Nasa"
+
+		advisor={
+			slot = army_chief
+			idea_token = DUE_Hassal_Nasa
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	DUE_Imran_Mufti={
+		name="Imran Mufti"
+
+		advisor={
+			slot = army_chief
+			idea_token = DUE_Imran_Mufti
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	DUE_Imrahim_Sultarq={
+		name="Imrahim Sultarq"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DUE_Imrahim_Sultarq
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	DUE_Khal_Wadin={
+		name="Khal Wadin"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DUE_Khal_Wadin
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	DUE_Nabilahmal_Rawi={
+		name="Nabilahmal Rawi"
+
+		advisor={
+			slot = air_chief
+			idea_token = DUE_Nabilahmal_Rawi
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	DUE_Yahim_Nasrahjaz={
+		name="Yahim Nasrahjaz"
+
+		advisor={
+			slot = air_chief
+			idea_token = DUE_Yahim_Nasrahjaz
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	DUE_Hami_Hijr={
+		name="Hami Hijr"
+
+		advisor={
+			slot = high_command
+			idea_token = DUE_Hami_Hijr
+			traits = {	navy_capital_ship_1 	}
+		}
+
+
+	}
+	DUE_Hassal_Hawi={
+		name="Hassal Hawi"
+
+		advisor={
+			slot = high_command
+			idea_token = DUE_Hassal_Hawi
+			traits = {	army_CombinedArms_2 	}
+		}
+
+
+	}
+	DUE_Anwariq_Bahel={
+		name="Anwariq Bahel"
+
+		advisor={
+			slot = high_command
+			idea_token = DUE_Anwariq_Bahel
+			traits = {	army_artillery_2 	}
+		}
+
+
+	}
+	DUE_Mahya_Rawi={
+		name="Mahya Rawi"
+
+		advisor={
+			slot = high_command
+			idea_token = DUE_Mahya_Rawi
+			traits = {	navy_fleet_logistics_1 	}
+		}
+
+
+	}
+	DUE_Hammed_Shajlim={
+		name="Hammed Shajlim"
+
+		advisor={
+			slot = high_command
+			idea_token = DUE_Hammed_Shajlim
+			traits = {	navy_capital_ship_1 	}
+		}
+
+
+	}
+	DUE_Tariq_Samlama={
+		name="Tariq Samlama"
+
+		advisor={
+			slot = high_command
+			idea_token = DUE_Tariq_Samlama
+			traits = {	air_tactical_bombing_1 	}
+		}
+
+
+	}
+	DUE_Faisan_Samlama={
+		name="Faisan Samlama"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { veteran_minister  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	DUE_Faisan_Balahreb={
+		name="Faisan Balahreb"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DUE_Faisan_Balahreb
+			traits = {	conservative_grandee 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	DUE_Faid_Samlakech={
+		name="Faid Samlakech"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DUE_Faid_Samlakech
+			traits = {	rearmer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	DUE_Karid_Imanawaryah={
+		name="Karid Imanawaryah"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DUE_Karid_Imanawaryah
+			traits = {	democratic_crusader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	DUE_Anwarim_Shajlim={
+		name="Anwarim Shajlim"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DUE_Anwarim_Shajlim
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	DUE_Ahmoud_Najd={
+		name="Ahmoud Najd"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DUE_Ahmoud_Najd
+			traits = {	rearmer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	DUE_Ahmarid_Hijarikh={
+		name="Ahmarid Hijarikh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DUE_Ahmarid_Hijarikh
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	DUE_Faid_Farahreb={
+		name="Faid Farahreb"
+
+		advisor={
+			slot = army_chief
+			idea_token = DUE_Faid_Farahreb
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	DUE_Anwariq_Nadina={
+		name="Anwariq Nadina"
+
+		advisor={
+			slot = army_chief
+			idea_token = DUE_Anwariq_Nadina
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	DUE_Abdullal_Khayahr={
+		name="Abdullal Khayahr"
+
+		advisor={
+			slot = army_chief
+			idea_token = DUE_Abdullal_Khayahr
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	DUE_Hami_Ghurhamla={
+		name="Hami Ghurhamla"
+
+		advisor={
+			slot = army_chief
+			idea_token = DUE_Hami_Ghurhamla
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	DUE_Omali_Masa={
+		name="Omali Masa"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DUE_Omali_Masa
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	DUE_Hassan_Amahibl={
+		name="Hassan Amahibl"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DUE_Hassan_Amahibl
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	DUE_Sami_Hawi={
+		name="Sami Hawi"
+
+		advisor={
+			slot = air_chief
+			idea_token = DUE_Sami_Hawi
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	DUE_Hassan_Ghurhamla={
+		name="Hassan Ghurhamla"
+
+		advisor={
+			slot = air_chief
+			idea_token = DUE_Hassan_Ghurhamla
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	DUE_Abdullal_Nasjidda={
+		name="Abdullal Nasjidda"
+
+		advisor={
+			slot = high_command
+			idea_token = DUE_Abdullal_Nasjidda
+			traits = {	navy_naval_air_defense_1 	}
+		}
+
+
+	}
+	DUE_Yusuf_Taria={
+		name="Yusuf Taria"
+
+		advisor={
+			slot = high_command
+			idea_token = DUE_Yusuf_Taria
+			traits = {	army_radio_intelligence_1 	}
+		}
+
+
+	}
+	DUE_Anwarid_Tharb={
+		name="Anwarid Tharb"
+
+		advisor={
+			slot = high_command
+			idea_token = DUE_Anwarid_Tharb
+			traits = {	army_radio_intelligence_1 	}
+		}
+
+
+	}
+	DUE_Fariq_Hijr={
+		name="Fariq Hijr"
+
+		advisor={
+			slot = high_command
+			idea_token = DUE_Fariq_Hijr
+			traits = {	navy_submarine_2 	}
+		}
+
+
+	}
+	DUE_Hassan_Khabib={
+		name="Hassan Khabib"
+
+		advisor={
+			slot = high_command
+			idea_token = DUE_Hassan_Khabib
+			traits = {	navy_submarine_1 	}
+		}
+
+
+	}
+	DUE_Saad_Sultaa={
+		name="Saad Sultaa"
+
+		advisor={
+			slot = high_command
+			idea_token = DUE_Saad_Sultaa
+			traits = {	navy_fleet_logistics_1 	}
+		}
+
+
+	}
+	DUE_Mohamariq_Balahreb={
+		name="Mohamariq Balahreb"
+
+		advisor={
+			slot = theorist
+			idea_token = DUE_Mohamariq_Balahreb
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	DUE_Kariq_Sultaa={
+		name="Kariq Sultaa"
+
+		advisor={
+			slot = theorist
+			idea_token = DUE_Kariq_Sultaa
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	DUE_Saad_Mataryalb={
+		name="Saad Mataryalb"
+
+		advisor={
+			slot = theorist
+			idea_token = DUE_Saad_Mataryalb
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

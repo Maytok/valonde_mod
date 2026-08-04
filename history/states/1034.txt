@@ -1,0 +1,37 @@
+
+state={
+	id=1034
+	name="STATE_1034"
+	manpower = 963535
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=1
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = MAM
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			
+		}
+		add_core_of = MAM
+	}
+
+	provinces={
+		11901 11902 11903 11904 11905 
+	}
+	local_supplies=0.0 
+}

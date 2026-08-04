@@ -1,0 +1,37 @@
+
+state={
+	id=1372
+	name="STATE_1372"
+	manpower = 354804
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=23
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = BUM
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = BUM
+	}
+
+	provinces={
+		15753 15754 15755 15756 
+	}
+	local_supplies=0.0 
+}

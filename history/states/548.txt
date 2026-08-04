@@ -1,0 +1,37 @@
+
+state={
+	id=548
+	name="STATE_548"
+	manpower = 2244701
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=1
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = AJT
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = AJT
+	}
+
+	provinces={
+		6431 6432 6433 6434 6435 6436 6437 6438 6439 6440 6441 6442 
+	}
+	local_supplies=0.0 
+}

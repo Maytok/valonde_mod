@@ -1,0 +1,37 @@
+
+state={
+	id=205
+	name="STATE_205"
+	manpower = 2358908
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = ITU
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = ITU
+	}
+
+	provinces={
+		2416 2417 2418 2419 2420 2421 2422 2423 2424 2425 2426 2427 
+	}
+	local_supplies=0.0 
+}

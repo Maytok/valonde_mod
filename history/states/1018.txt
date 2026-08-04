@@ -1,0 +1,37 @@
+
+state={
+	id=1018
+	name="STATE_1018"
+	manpower = 1414474
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=13
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = DAR
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = DAR
+	}
+
+	provinces={
+		11694 11695 11696 11697 11698 11699 11700 11701 11702 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,16 @@
+air_wings = {
+		830 = { 								
+		fighter_equipment_0 = { owner = "GRU" amount = 50 version_name = "Sond Mk 2" }
+
+	}
+	441 = { 								
+		fighter_equipment_0 = { owner = "GRU" amount = 50 version_name = "Sond Mk 2" }
+
+	}
+	809 = { 								
+		fighter_equipment_0 = { owner = "GRU" amount = 50 version_name = "Sond Mk 2" }
+
+	}
+
+
+}

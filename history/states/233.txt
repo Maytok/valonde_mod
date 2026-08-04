@@ -1,0 +1,37 @@
+
+state={
+	id=233
+	name="STATE_233"
+	manpower = 1007411
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = OPU
+		buildings = {
+			infrastructure = 2
+			air_base = 2
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = OPU
+	}
+
+	provinces={
+		2721 2722 2723 2724 2725 
+	}
+	local_supplies=0.0 
+}

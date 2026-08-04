@@ -1,0 +1,1083 @@
+characters = {
+	ZAU_Tratius_Opulgus={
+		name="Tratius Opulgus"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { agricultural_capitalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	ZAU_Marcus_Patio={
+		name="Marcus Patio"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZAU_Marcus_Patio
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	ZAU_Atticusus_Scaellaes={
+		name="Atticusus Scaellaes"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZAU_Atticusus_Scaellaes
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	ZAU_Vibervius_Regoticae={
+		name="Vibervius Regoticae"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZAU_Vibervius_Regoticae
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	ZAU_Sextus_Bellama={
+		name="Sextus Bellama"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZAU_Sextus_Bellama
+			traits = {	agricultural_nationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	ZAU_Gemus_Vinus={
+		name="Gemus Vinus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZAU_Gemus_Vinus
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	ZAU_Priusus_Scaellaes={
+		name="Priusus Scaellaes"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZAU_Priusus_Scaellaes
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	ZAU_Domitus_Plum={
+		name="Domitus Plum"
+
+		advisor={
+			slot = army_chief
+			idea_token = ZAU_Domitus_Plum
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	ZAU_Silvanus_Aqua={
+		name="Silvanus Aqua"
+
+		advisor={
+			slot = army_chief
+			idea_token = ZAU_Silvanus_Aqua
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	ZAU_Atticusus_Mentifex={
+		name="Atticusus Mentifex"
+
+		advisor={
+			slot = army_chief
+			idea_token = ZAU_Atticusus_Mentifex
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	ZAU_Gaianus_Virticus={
+		name="Gaianus Virticus"
+
+		advisor={
+			slot = army_chief
+			idea_token = ZAU_Gaianus_Virticus
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	ZAU_Traius_Lenticol={
+		name="Traius Lenticol"
+
+		advisor={
+			slot = navy_chief
+			idea_token = ZAU_Traius_Lenticol
+			traits = {	navy_chief_reform_2 	}
+		}
+
+
+	}
+	ZAU_Caius_Nobilos={
+		name="Caius Nobilos"
+
+		advisor={
+			slot = navy_chief
+			idea_token = ZAU_Caius_Nobilos
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	ZAU_Faulus_Caespus={
+		name="Faulus Caespus"
+
+		advisor={
+			slot = air_chief
+			idea_token = ZAU_Faulus_Caespus
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	ZAU_Graianus_Regotium={
+		name="Graianus Regotium"
+
+		advisor={
+			slot = air_chief
+			idea_token = ZAU_Graianus_Regotium
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	ZAU_Gemitus_Fama={
+		name="Gemitus Fama"
+
+		advisor={
+			slot = high_command
+			idea_token = ZAU_Gemitus_Fama
+			traits = {	army_infantry_1 	}
+		}
+
+
+	}
+	ZAU_Maximus_Mena={
+		name="Maximus Mena"
+
+		advisor={
+			slot = high_command
+			idea_token = ZAU_Maximus_Mena
+			traits = {	army_infantry_1 	}
+		}
+
+
+	}
+	ZAU_Vibervius_Regotium={
+		name="Vibervius Regotium"
+
+		advisor={
+			slot = high_command
+			idea_token = ZAU_Vibervius_Regotium
+			traits = {	air_naval_strike_2 	}
+		}
+
+
+	}
+	ZAU_Tibius_Citas={
+		name="Tibius Citas"
+
+		advisor={
+			slot = high_command
+			idea_token = ZAU_Tibius_Citas
+			traits = {	air_air_combat_training_2 	}
+		}
+
+
+	}
+	ZAU_Paudius_Fonus={
+		name="Paudius Fonus"
+
+		advisor={
+			slot = high_command
+			idea_token = ZAU_Paudius_Fonus
+			traits = {	army_regrouping_2 	}
+		}
+
+
+	}
+	ZAU_Caius_Argens={
+		name="Caius Argens"
+
+		advisor={
+			slot = high_command
+			idea_token = ZAU_Caius_Argens
+			traits = {	air_air_combat_training_1 	}
+		}
+
+
+	}
+	ZAU_Domintonius_Insus={
+		name="Domintonius Insus"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { spirit_of_genghis  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	ZAU_Augus_Opulgus={
+		name="Augus Opulgus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZAU_Augus_Opulgus
+			traits = {	inexperienced_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	ZAU_Aulus_Mena={
+		name="Aulus Mena"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZAU_Aulus_Mena
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	ZAU_Domitus_Theator={
+		name="Domitus Theator"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZAU_Domitus_Theator
+			traits = {	vapsid_economist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	ZAU_Otho_Bellama={
+		name="Otho Bellama"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZAU_Otho_Bellama
+			traits = {	autokrator 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	ZAU_Drus_Medicium={
+		name="Drus Medicium"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZAU_Drus_Medicium
+			traits = {	inexperienced_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	ZAU_Valerius_Argen={
+		name="Valerius Argen"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZAU_Valerius_Argen
+			traits = {	vapsid_economist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	ZAU_Silvanus_Viturus={
+		name="Silvanus Viturus"
+
+		advisor={
+			slot = army_chief
+			idea_token = ZAU_Silvanus_Viturus
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	ZAU_Marro_Popublis={
+		name="Marro Popublis"
+
+		advisor={
+			slot = army_chief
+			idea_token = ZAU_Marro_Popublis
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	ZAU_Graius_Mentifex={
+		name="Graius Mentifex"
+
+		advisor={
+			slot = army_chief
+			idea_token = ZAU_Graius_Mentifex
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	ZAU_Silvanus_Turribes={
+		name="Silvanus Turribes"
+
+		advisor={
+			slot = army_chief
+			idea_token = ZAU_Silvanus_Turribes
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	ZAU_Scaevero_Tempus={
+		name="Scaevero Tempus"
+
+		advisor={
+			slot = navy_chief
+			idea_token = ZAU_Scaevero_Tempus
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	ZAU_Paudius_Viturus={
+		name="Paudius Viturus"
+
+		advisor={
+			slot = navy_chief
+			idea_token = ZAU_Paudius_Viturus
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	ZAU_Gaianus_Flum={
+		name="Gaianus Flum"
+
+		advisor={
+			slot = air_chief
+			idea_token = ZAU_Gaianus_Flum
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	ZAU_Servius_Plum={
+		name="Servius Plum"
+
+		advisor={
+			slot = air_chief
+			idea_token = ZAU_Servius_Plum
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	ZAU_Traius_Mentifex={
+		name="Traius Mentifex"
+
+		advisor={
+			slot = high_command
+			idea_token = ZAU_Traius_Mentifex
+			traits = {	navy_carrier_1 	}
+		}
+
+
+	}
+	ZAU_Decius_Luna={
+		name="Decius Luna"
+
+		advisor={
+			slot = high_command
+			idea_token = ZAU_Decius_Luna
+			traits = {	air_airborne_1 	}
+		}
+
+
+	}
+	ZAU_Nonius_Forma={
+		name="Nonius Forma"
+
+		advisor={
+			slot = high_command
+			idea_token = ZAU_Nonius_Forma
+			traits = {	army_logistics_1 	}
+		}
+
+
+	}
+	ZAU_Augulus_Audo={
+		name="Augulus Audo"
+
+		advisor={
+			slot = high_command
+			idea_token = ZAU_Augulus_Audo
+			traits = {	army_concealment_2 	}
+		}
+
+
+	}
+	ZAU_Atticusus_Negina={
+		name="Atticusus Negina"
+
+		advisor={
+			slot = high_command
+			idea_token = ZAU_Atticusus_Negina
+			traits = {	army_armored_2 	}
+		}
+
+
+	}
+	ZAU_Atticusus_Flum={
+		name="Atticusus Flum"
+
+		advisor={
+			slot = high_command
+			idea_token = ZAU_Atticusus_Flum
+			traits = {	army_CombinedArms_2 	}
+		}
+
+
+	}
+	ZAU_Domitus_Deus={
+		name="Domitus Deus"
+
+		
+		country_leader={
+			ideology=marxism
+			traits = { socialist_justice  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	ZAU_Seriscus_Honum={
+		name="Seriscus Honum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZAU_Seriscus_Honum
+			traits = {	leftist_independent 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	ZAU_Domintonius_Poetespus={
+		name="Domintonius Poetespus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZAU_Domintonius_Poetespus
+			traits = {	patriotic_socialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	ZAU_Vibervius_Cortas={
+		name="Vibervius Cortas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZAU_Vibervius_Cortas
+			traits = {	reluctant_stalinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	ZAU_Livius_Theator={
+		name="Livius Theator"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZAU_Livius_Theator
+			traits = {	devoted_marxist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	ZAU_Drus_Luna={
+		name="Drus Luna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZAU_Drus_Luna
+			traits = {	revolutionary_poet 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	ZAU_Vibervius_Plum={
+		name="Vibervius Plum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZAU_Vibervius_Plum
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	ZAU_Scaevervius_Radicistrus={
+		name="Scaevervius Radicistrus"
+
+		advisor={
+			slot = army_chief
+			idea_token = ZAU_Scaevervius_Radicistrus
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	ZAU_Valero_Belus={
+		name="Valero Belus"
+
+		advisor={
+			slot = army_chief
+			idea_token = ZAU_Valero_Belus
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	ZAU_Atticusus_Cultus={
+		name="Atticusus Cultus"
+
+		advisor={
+			slot = army_chief
+			idea_token = ZAU_Atticusus_Cultus
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	ZAU_Prius_Dien={
+		name="Prius Dien"
+
+		advisor={
+			slot = army_chief
+			idea_token = ZAU_Prius_Dien
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	ZAU_Lucimus_Ordo={
+		name="Lucimus Ordo"
+
+		advisor={
+			slot = navy_chief
+			idea_token = ZAU_Lucimus_Ordo
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	ZAU_Graticus_Plum={
+		name="Graticus Plum"
+
+		advisor={
+			slot = navy_chief
+			idea_token = ZAU_Graticus_Plum
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	ZAU_Graticus_Lacus={
+		name="Graticus Lacus"
+
+		advisor={
+			slot = air_chief
+			idea_token = ZAU_Graticus_Lacus
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	ZAU_Faulius_Scrithar={
+		name="Faulius Scrithar"
+
+		advisor={
+			slot = air_chief
+			idea_token = ZAU_Faulius_Scrithar
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	ZAU_Gemitus_Argens={
+		name="Gemitus Argens"
+
+		advisor={
+			slot = high_command
+			idea_token = ZAU_Gemitus_Argens
+			traits = {	navy_screen_2 	}
+		}
+
+
+	}
+	ZAU_Faulius_Theator={
+		name="Faulius Theator"
+
+		advisor={
+			slot = high_command
+			idea_token = ZAU_Faulius_Theator
+			traits = {	army_concealment_2 	}
+		}
+
+
+	}
+	ZAU_Silvanus_Sillae={
+		name="Silvanus Sillae"
+
+		advisor={
+			slot = high_command
+			idea_token = ZAU_Silvanus_Sillae
+			traits = {	air_tactical_bombing_2 	}
+		}
+
+
+	}
+	ZAU_Decimus_Sillae={
+		name="Decimus Sillae"
+
+		advisor={
+			slot = high_command
+			idea_token = ZAU_Decimus_Sillae
+			traits = {	navy_screen_1 	}
+		}
+
+
+	}
+	ZAU_Lucimus_Negotiumbuna={
+		name="Lucimus Negotiumbuna"
+
+		advisor={
+			slot = high_command
+			idea_token = ZAU_Lucimus_Negotiumbuna
+			traits = {	army_infantry_1 	}
+		}
+
+
+	}
+	ZAU_Decimus_Milva={
+		name="Decimus Milva"
+
+		advisor={
+			slot = high_command
+			idea_token = ZAU_Decimus_Milva
+			traits = {	army_radio_intelligence_2 	}
+		}
+
+
+	}
+	ZAU_Augulus_Tempus={
+		name="Augulus Tempus"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { conservative_grandee  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	ZAU_Aulus_Honum={
+		name="Aulus Honum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZAU_Aulus_Honum
+			traits = {	veteran_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	ZAU_Coraticus_Otiumen={
+		name="Coraticus Otiumen"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZAU_Coraticus_Otiumen
+			traits = {	rearmer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	ZAU_Valerius_Honum={
+		name="Valerius Honum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZAU_Valerius_Honum
+			traits = {	liberal_democratic_paragon 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	ZAU_Serus_Aerbilva={
+		name="Serus Aerbilva"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZAU_Serus_Aerbilva
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	ZAU_Gracchus_Argens={
+		name="Gracchus Argens"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZAU_Gracchus_Argens
+			traits = {	veteran_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	ZAU_Prius_Fortastraeta={
+		name="Prius Fortastraeta"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ZAU_Prius_Fortastraeta
+			traits = {	rearmer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	ZAU_Caianus_Poculgus={
+		name="Caianus Poculgus"
+
+		advisor={
+			slot = army_chief
+			idea_token = ZAU_Caianus_Poculgus
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	ZAU_Atticusus_Regoticae={
+		name="Atticusus Regoticae"
+
+		advisor={
+			slot = army_chief
+			idea_token = ZAU_Atticusus_Regoticae
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	ZAU_Silvanus_Regotis={
+		name="Silvanus Regotis"
+
+		advisor={
+			slot = army_chief
+			idea_token = ZAU_Silvanus_Regotis
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	ZAU_Brus_Volortisca={
+		name="Brus Volortisca"
+
+		advisor={
+			slot = army_chief
+			idea_token = ZAU_Brus_Volortisca
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	ZAU_Quintonginus_Aerbilva={
+		name="Quintonginus Aerbilva"
+
+		advisor={
+			slot = navy_chief
+			idea_token = ZAU_Quintonginus_Aerbilva
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	ZAU_Gemitus_Amoris={
+		name="Gemitus Amoris"
+
+		advisor={
+			slot = navy_chief
+			idea_token = ZAU_Gemitus_Amoris
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	ZAU_Augus_Popublicipto={
+		name="Augus Popublicipto"
+
+		advisor={
+			slot = air_chief
+			idea_token = ZAU_Augus_Popublicipto
+			traits = {	air_chief_all_weather_2 	}
+		}
+
+
+	}
+	ZAU_Hornellius_Fortio={
+		name="Hornellius Fortio"
+
+		advisor={
+			slot = air_chief
+			idea_token = ZAU_Hornellius_Fortio
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	ZAU_Gracchus_Radix={
+		name="Gracchus Radix"
+
+		advisor={
+			slot = high_command
+			idea_token = ZAU_Gracchus_Radix
+			traits = {	air_air_combat_training_1 	}
+		}
+
+
+	}
+	ZAU_Valerus_Belus={
+		name="Valerus Belus"
+
+		advisor={
+			slot = high_command
+			idea_token = ZAU_Valerus_Belus
+			traits = {	navy_naval_air_defense_2 	}
+		}
+
+
+	}
+	ZAU_Caius_Honsum={
+		name="Caius Honsum"
+
+		advisor={
+			slot = high_command
+			idea_token = ZAU_Caius_Honsum
+			traits = {	navy_naval_air_defense_2 	}
+		}
+
+
+	}
+	ZAU_Scaevervius_Volortisca={
+		name="Scaevervius Volortisca"
+
+		advisor={
+			slot = high_command
+			idea_token = ZAU_Scaevervius_Volortisca
+			traits = {	army_cavalry_1 	}
+		}
+
+
+	}
+	ZAU_Traius_Fortastraeta={
+		name="Traius Fortastraeta"
+
+		advisor={
+			slot = high_command
+			idea_token = ZAU_Traius_Fortastraeta
+			traits = {	navy_capital_ship_2 	}
+		}
+
+
+	}
+	ZAU_Drus_Bellum={
+		name="Drus Bellum"
+
+		advisor={
+			slot = high_command
+			idea_token = ZAU_Drus_Bellum
+			traits = {	navy_naval_air_defense_2 	}
+		}
+
+
+	}
+	ZAU_Gemitus_Tabes={
+		name="Gemitus Tabes"
+
+		advisor={
+			slot = theorist
+			idea_token = ZAU_Gemitus_Tabes
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	ZAU_Maximusus_Mara={
+		name="Maximusus Mara"
+
+		advisor={
+			slot = theorist
+			idea_token = ZAU_Maximusus_Mara
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	ZAU_Domitius_Citas={
+		name="Domitius Citas"
+
+		advisor={
+			slot = theorist
+			idea_token = ZAU_Domitius_Citas
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

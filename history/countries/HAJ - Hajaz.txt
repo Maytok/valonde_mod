@@ -1,0 +1,424 @@
+capital = 1409
+
+oob = "HAJ_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "HAJ_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "HAJ_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	support_weapons= 1
+	tech_trucks= 1
+	tech_support= 1
+	gw_artillery= 1
+	infantry_weapons1= 1
+	marines= 1
+	tech_mountaineers= 1
+	armored_car1= 1
+	tech_recon= 1
+	tech_military_police= 1
+	interwar_antiair= 1
+	interwar_antitank= 1
+	interwar_artillery= 1
+	basic_machine_tools= 1
+	fuel_silos= 1
+	synth_oil_experiments= 1
+	electronic_mechanical_engineering= 1
+	basic_fortification_tech= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+		basic_heavy_tank = 1
+		improved_light_tank = 1
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+		basic_heavy_tank_chassis = 1
+		engine_tech_1 = 1
+		armor_tech_1 = 1
+		improved_light_tank_chassis = 1
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+		create_equipment_variant = {
+		name = "Muzikar Mk 0"
+		type = heavy_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = secondary_turret_small_cannon
+			suspension_type_slot = tank_interleaved_suspension
+			turret_type_slot = tank_heavy_fixed_superstructure_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Nebrojst Mk 2"
+		type = heavy_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = wet_ammo_storage
+			special_type_slot_2 = expanded_fuel_tank
+			suspension_type_slot = tank_interleaved_suspension
+			turret_type_slot = tank_heavy_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Naro Mk 0"
+		type = light_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_close_support_gun
+			special_type_slot_1 = smoke_launchers
+			special_type_slot_3 = extra_ammo_storage
+			suspension_type_slot = tank_interleaved_suspension
+			turret_type_slot = tank_light_one_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Slicanikar Mk 2"
+		type = light_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_small_cannon
+			special_type_slot_1 = secondary_turret_hmg
+			special_type_slot_2 = wet_ammo_storage
+			special_type_slot_3 = expanded_fuel_tank
+			suspension_type_slot = tank_christie_suspension
+			turret_type_slot = tank_light_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Vetlovozdja Mk 2"
+		type = light_tank_chassis_2
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_close_support_gun
+			special_type_slot_1 = smoke_launchers
+			suspension_type_slot = tank_torsion_bar_suspension
+			turret_type_slot = tank_light_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Prena Mk 2"
+		type = medium_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_medium_cannon
+			special_type_slot_1 = wet_ammo_storage
+			special_type_slot_2 = extra_ammo_storage
+			special_type_slot_3 = smoke_launchers
+			suspension_type_slot = tank_torsion_bar_suspension
+			turret_type_slot = tank_medium_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "HAJ_1936_air_bba"
+		set_technology = {
+			
+		}
+
+	else = {
+		set_air_oob = "HAJ_1936_air_legacy"
+		set_technology = {
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	early_destroyer = 1
+	
+	}
+	set_naval_oob = "HAJ_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Zivo Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	early_ship_hull_light = 1
+	sonar = 1
+	
+	}
+	set_naval_oob = "HAJ_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Zivo Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = ship_anti_air_1
+				rear_1_custom_slot = ship_anti_air_1
+			}
+		}
+
+	}
+
+
+recruit_character = HAJ_Goragomir_Tvrdja
+recruit_character = HAJ_Bran_Obinja
+recruit_character = HAJ_Mateusan_Bogina
+recruit_character = HAJ_Goris_Vatrabrir
+recruit_character = HAJ_Stej_Istra
+recruit_character = HAJ_Vikitrilosla_Vetlovozdja
+recruit_character = HAJ_Zdeneksei_Svezde
+recruit_character = HAJ_Mateusan_Tama
+recruit_character = HAJ_Simiros_Svinja
+recruit_character = HAJ_Draj_Presnikaroda
+recruit_character = HAJ_Matej_Kradar
+recruit_character = HAJ_Ilya_Ribar
+recruit_character = HAJ_Bran_Ostranaga
+recruit_character = HAJ_Maros_Vetlovozdja
+recruit_character = HAJ_Brankolavko_Kradar
+recruit_character = HAJ_Stan_Hrava
+recruit_character = HAJ_Zdek_Masljivo
+recruit_character = HAJ_Niktoragomas_Telika
+recruit_character = HAJ_Niktoranovan_Hradzbicaksi
+recruit_character = HAJ_Dusanko_Kradar
+recruit_character = HAJ_Aleg_Sporisa
+recruit_character = HAJ_Dmir_Teat
+recruit_character = HAJ_Simeon_Obica
+recruit_character = HAJ_Matefanovan_Zvuk
+recruit_character = HAJ_Boriladenek_Greb
+recruit_character = HAJ_Tomiriloslad_Vetlovozdja
+recruit_character = HAJ_Tomiros_Teat
+recruit_character = HAJ_Vikitrilosla_Filo
+recruit_character = HAJ_Andrej_Kisacina
+recruit_character = HAJ_Yuranko_Presnikaroda
+recruit_character = HAJ_Radoslav_Hradzbicaksi
+recruit_character = HAJ_Zori_Grmljstori
+recruit_character = HAJ_Vlan_Tama
+recruit_character = HAJ_Stan_Glana
+recruit_character = HAJ_Zdeneksei_Obarstvo
+recruit_character = HAJ_Dmiril_Kisac
+recruit_character = HAJ_Lubosh_Vetarst
+recruit_character = HAJ_Simeon_Vetlovozdja
+recruit_character = HAJ_Boragomir_Reka
+recruit_character = HAJ_Tomiros_Nebrojst
+recruit_character = HAJ_Dusz_Svet
+recruit_character = HAJ_Goragomir_Istra
+recruit_character = HAJ_Miri_Morenik
+recruit_character = HAJ_Rado_Plemena
+recruit_character = HAJ_Lubos_Drza
+recruit_character = HAJ_Stan_Obica
+recruit_character = HAJ_Niktoragomas_Vilo
+recruit_character = HAJ_Simiros_Hradzbicaksi
+recruit_character = HAJ_Goris_Ratram
+recruit_character = HAJ_Niko_Drza
+recruit_character = HAJ_Zdeneksei_Kulasinaga
+recruit_character = HAJ_Brankolavko_Vrlina
+recruit_character = HAJ_Boragomir_Ostranaga
+recruit_character = HAJ_Radek_Galat
+recruit_character = HAJ_Tomir_Greb
+recruit_character = HAJ_Simeon_Tezak
+recruit_character = HAJ_Lubosh_Doba
+recruit_character = HAJ_Goran_Kovo
+recruit_character = HAJ_Boriladenek_Svemlj
+recruit_character = HAJ_Stej_Suma
+recruit_character = HAJ_Maros_Brza
+recruit_character = HAJ_Viktori_Zvuk
+recruit_character = HAJ_Juran_Leka
+recruit_character = HAJ_Alexei_Morenik
+recruit_character = HAJ_Vlav_Zvuk
+recruit_character = HAJ_Marko_Svinja
+recruit_character = HAJ_Radimiri_Svemlj
+recruit_character = HAJ_Radimeon_Drza
+recruit_character = HAJ_Mateusan_Jeza
+recruit_character = HAJ_Goris_Sporisao
+recruit_character = HAJ_Mateusan_Leka
+recruit_character = HAJ_Dusz_Olod
+recruit_character = HAJ_Radimiri_Obica
+recruit_character = HAJ_Zdek_Olod
+recruit_character = HAJ_Alexei_Presnikaroda
+recruit_character = HAJ_Niktoranovan_Losto
+recruit_character = HAJ_Zdeneksei_Rekt
+recruit_character = HAJ_Goranko_Presnikaroda
+recruit_character = HAJ_Rados_Rekt
+recruit_character = HAJ_Matefanovan_Muda
+recruit_character = HAJ_Miri_Rekt
+recruit_character = HAJ_Juri_Hralj
+recruit_character = HAJ_Stej_Svera
+recruit_character = HAJ_Bogdanov_Hralj
+recruit_character = HAJ_Radimeon_Ruca
+recruit_character = HAJ_Olexei_Laga
+recruit_character = HAJ_Bogdanov_Tvrdja
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 5
+set_convoys = 0
+set_stability = 0.93
+set_war_support = 0.46
+
+add_ideas = {
+disarmed_nation
+partial_economic_mobilisation
+closed_economy
+}
+
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1916.10.7"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 30
+	fascism = 10
+	communism = 32
+	neutrality = 28
+}
+
+
+create_faction_from_template = faction_template_generic_dominance
+add_to_faction = HAJ
+

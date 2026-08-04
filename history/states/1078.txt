@@ -1,0 +1,37 @@
+
+state={
+	id=1078
+	name="STATE_1078"
+	manpower = 11348937
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=1
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = CAS
+		buildings = {
+			infrastructure = 5
+			air_base = 3
+			arms_factory = 2
+			industrial_complex = 6
+			dockyard = 2
+			
+		}
+		add_core_of = CAS
+	}
+
+	provinces={
+		12424 12425 12426 12427 12428 12429 12430 12431 12432 12433 12434 12435 12436 12437 12438 12439 12440 12441 12442 12443 12444 12445 12446 12447 12448 12449 12450 12451 12452 12453 12454 12455 12456 12457 12458 12459 12460 12461 12462 12463 12464 12465 12466 12467 12468 12469 12470 12471 12472 12473 12474 12475 12476 12477 12478 12479 12480 12481 
+	}
+	local_supplies=0.0 
+}

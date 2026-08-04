@@ -1,0 +1,29 @@
+air_wings = {
+		69 = { 								
+		fighter_equipment_0 = { owner = "MTN" amount = 50 version_name = "Bulturt Mk 1" }
+fighter_equipment_0 = { owner = "MTN" amount = 50 version_name = "Bulturt Mk 1" }
+
+	}
+	948 = { 								
+		CAS_equipment_0 = { owner = "MTN" amount = 50 version_name = "Sahar Mk 1" }
+
+	}
+	169 = { 								
+		CAS_equipment_0 = { owner = "MTN" amount = 50 version_name = "Sahar Mk 1" }
+
+	}
+	1530 = { 								
+		fighter_equipment_0 = { owner = "MTN" amount = 50 version_name = "Bulturt Mk 1" }
+
+	}
+	1523 = { 								
+		tac_bomber_equipment_0 = { owner = "MTN" amount = 50 version_name = "Umutlut Mk 2" }
+
+	}
+	396 = { 								
+		tac_bomber_equipment_0 = { owner = "MTN" amount = 50 version_name = "Umutlut Mk 2" }
+
+	}
+
+
+}

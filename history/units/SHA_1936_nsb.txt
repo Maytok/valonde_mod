@@ -1,0 +1,266 @@
+division_template = {
+	name = "Militia Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 0 y = 3 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+			cavalry = {  x = 0 y = 0 }
+			cavalry = {  x = 0 y = 1 }
+			cavalry = {  x = 0 y = 2 }
+			cavalry = {  x = 1 y = 0 }
+			cavalry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Motorized Division"
+
+	regiments = {
+			motorized = {  x = 0 y = 0 }
+			motorized = {  x = 0 y = 1 }
+			motorized = {  x = 1 y = 0 }
+			motorized = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+
+
+units = {
+	division= {
+		name = "1st 'Hijarikh' Militia Division"
+		location = 6446
+		division_template = "Militia Division"
+		start_experience_factor = 0.859838
+		start_equipment_factor = 0.861002
+	}
+	division= {
+		name = "2nd 'Fumortagno' Militia Division"
+		location = 6931
+		division_template = "Militia Division"
+		start_experience_factor = 0.503795
+		start_equipment_factor = 0.962963
+	}
+	division= {
+		name = "3rd 'Mira' Militia Division"
+		location = 7734
+		division_template = "Militia Division"
+		start_experience_factor = 0.811981
+		start_equipment_factor = 0.837762
+	}
+	division= {
+		name = "4th 'Barikmal' Militia Division"
+		location = 9325
+		division_template = "Militia Division"
+		start_experience_factor = 0.958717
+		start_equipment_factor = 0.825573
+	}
+	division= {
+		name = "5th 'Poria' Militia Division"
+		location = 2384
+		division_template = "Militia Division"
+		start_experience_factor = 0.996321
+		start_equipment_factor = 0.878718
+	}
+	division= {
+		name = "6th 'Nariq' Militia Division"
+		location = 10694
+		division_template = "Militia Division"
+		start_experience_factor = 0.574299
+		start_equipment_factor = 0.859389
+	}
+	division= {
+		name = "7th 'Mamt' Militia Division"
+		location = 9327
+		division_template = "Militia Division"
+		start_experience_factor = 0.540364
+		start_equipment_factor = 0.860620
+	}
+	division= {
+		name = "8th 'Nour' Militia Division"
+		location = 10695
+		division_template = "Militia Division"
+		start_experience_factor = 0.637868
+		start_equipment_factor = 0.873809
+	}
+	division= {
+		name = "1st 'Tharb' Infantry Division"
+		location = 8639
+		division_template = "Infantry Division"
+		start_experience_factor = 0.773616
+		start_equipment_factor = 0.880646
+	}
+	division= {
+		name = "2nd 'Bahel' Infantry Division"
+		location = 8119
+		division_template = "Infantry Division"
+		start_experience_factor = 0.848477
+		start_equipment_factor = 0.982077
+	}
+	division= {
+		name = "3rd 'Nasrahjaz' Infantry Division"
+		location = 8028
+		division_template = "Infantry Division"
+		start_experience_factor = 0.312255
+		start_equipment_factor = 0.802383
+	}
+	division= {
+		name = "4th 'Dawda' Infantry Division"
+		location = 10956
+		division_template = "Infantry Division"
+		start_experience_factor = 0.194788
+		start_equipment_factor = 0.945318
+	}
+	division= {
+		name = "5th 'Shaq' Infantry Division"
+		location = 8613
+		division_template = "Infantry Division"
+		start_experience_factor = 0.500602
+		start_equipment_factor = 0.977842
+	}
+	division= {
+		name = "1st 'Poria' Cavalry Division"
+		location = 7728
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.352223
+		start_equipment_factor = 0.975607
+	}
+	division= {
+		name = "2nd 'Rabatashfa' Cavalry Division"
+		location = 8629
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.056584
+		start_equipment_factor = 0.790350
+	}
+	division= {
+		name = "3rd 'Nasjidda' Cavalry Division"
+		location = 8122
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.825430
+		start_equipment_factor = 0.840746
+	}
+	division= {
+		name = "4th 'Maghria' Cavalry Division"
+		location = 2190
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.522090
+		start_equipment_factor = 0.971377
+	}
+	division= {
+		name = "5th 'Cave' Cavalry Division"
+		location = 5311
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.436223
+		start_equipment_factor = 0.831323
+	}
+	division= {
+		name = "6th 'Haritasr' Cavalry Division"
+		location = 9966
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.459884
+		start_equipment_factor = 0.894843
+	}
+	division= {
+		name = "7th 'Suwatarita' Cavalry Division"
+		location = 9978
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.777270
+		start_equipment_factor = 0.819228
+	}
+	division= {
+		name = "8th 'Tharb' Cavalry Division"
+		location = 8027
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.223581
+		start_equipment_factor = 0.961910
+	}
+	division= {
+		name = "1st 'Leggionera' Motorized Division"
+		location = 6889
+		division_template = "Motorized Division"
+		start_experience_factor = 0.851404
+		start_equipment_factor = 0.927378
+	}
+	division= {
+		name = "2nd 'Alberta' Motorized Division"
+		location = 6947
+		division_template = "Motorized Division"
+		start_experience_factor = 0.448427
+		start_equipment_factor = 0.902346
+	}
+	division= {
+		name = "3rd 'Kharb' Motorized Division"
+		location = 5009
+		division_template = "Motorized Division"
+		start_experience_factor = 0.503981
+		start_equipment_factor = 0.921247
+	}
+	division= {
+		name = "4th 'Sore' Motorized Division"
+		location = 5306
+		division_template = "Motorized Division"
+		start_experience_factor = 0.539229
+		start_equipment_factor = 0.827830
+	}
+	division= {
+		name = "5th 'Balahreb' Motorized Division"
+		location = 4996
+		division_template = "Motorized Division"
+		start_experience_factor = 0.216774
+		start_equipment_factor = 0.930957
+	}
+	division= {
+		name = "6th 'Shan' Motorized Division"
+		location = 1104
+		division_template = "Motorized Division"
+		start_experience_factor = 0.399740
+		start_equipment_factor = 0.876230
+	}
+	division= {
+		name = "7th 'Qala' Motorized Division"
+		location = 8986
+		division_template = "Motorized Division"
+		start_experience_factor = 0.906860
+		start_equipment_factor = 0.936096
+	}
+
+}

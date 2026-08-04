@@ -1,0 +1,1083 @@
+characters = {
+	OPU_Publius_Patio={
+		name="Publius Patio"
+
+		
+		country_leader={
+			ideology=oligarchism
+			traits = { humble  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	OPU_Quintonginus_Theator={
+		name="Quintonginus Theator"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OPU_Quintonginus_Theator
+			traits = {	noble_beurocrat 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	OPU_Brutus_Bellaxia={
+		name="Brutus Bellaxia"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OPU_Brutus_Bellaxia
+			traits = {	national_determinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	OPU_Coraticus_Vilita={
+		name="Coraticus Vilita"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OPU_Coraticus_Vilita
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	OPU_Gemus_Audo={
+		name="Gemus Audo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OPU_Gemus_Audo
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	OPU_Sextus_Plumena={
+		name="Sextus Plumena"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OPU_Sextus_Plumena
+			traits = {	national_determinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	OPU_Manus_Regotium={
+		name="Manus Regotium"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OPU_Manus_Regotium
+			traits = {	agricultural_nationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	OPU_Nonius_Regotis={
+		name="Nonius Regotis"
+
+		advisor={
+			slot = army_chief
+			idea_token = OPU_Nonius_Regotis
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	OPU_Valerius_Scaellaes={
+		name="Valerius Scaellaes"
+
+		advisor={
+			slot = army_chief
+			idea_token = OPU_Valerius_Scaellaes
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	OPU_Lucimus_Cortas={
+		name="Lucimus Cortas"
+
+		advisor={
+			slot = army_chief
+			idea_token = OPU_Lucimus_Cortas
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	OPU_Priusus_Insus={
+		name="Priusus Insus"
+
+		advisor={
+			slot = army_chief
+			idea_token = OPU_Priusus_Insus
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	OPU_Graianus_Citas={
+		name="Graianus Citas"
+
+		advisor={
+			slot = navy_chief
+			idea_token = OPU_Graianus_Citas
+			traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+
+	}
+	OPU_Faulus_Virticus={
+		name="Faulus Virticus"
+
+		advisor={
+			slot = navy_chief
+			idea_token = OPU_Faulus_Virticus
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	OPU_Scaevero_Diesaenticie={
+		name="Scaevero Diesaenticie"
+
+		advisor={
+			slot = air_chief
+			idea_token = OPU_Scaevero_Diesaenticie
+			traits = {	air_chief_all_weather_2 	}
+		}
+
+
+	}
+	OPU_Marcus_Vinus={
+		name="Marcus Vinus"
+
+		advisor={
+			slot = air_chief
+			idea_token = OPU_Marcus_Vinus
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	OPU_Cornellus_Turribes={
+		name="Cornellus Turribes"
+
+		advisor={
+			slot = high_command
+			idea_token = OPU_Cornellus_Turribes
+			traits = {	army_commando_1 	}
+		}
+
+
+	}
+	OPU_Tibius_Scatrium={
+		name="Tibius Scatrium"
+
+		advisor={
+			slot = high_command
+			idea_token = OPU_Tibius_Scatrium
+			traits = {	army_cavalry_2 	}
+		}
+
+
+	}
+	OPU_Cassius_Regotium={
+		name="Cassius Regotium"
+
+		advisor={
+			slot = high_command
+			idea_token = OPU_Cassius_Regotium
+			traits = {	air_air_superiority_2 	}
+		}
+
+
+	}
+	OPU_Seriscus_Colorum={
+		name="Seriscus Colorum"
+
+		advisor={
+			slot = high_command
+			idea_token = OPU_Seriscus_Colorum
+			traits = {	air_naval_strike_1 	}
+		}
+
+
+	}
+	OPU_Otho_Opus={
+		name="Otho Opus"
+
+		advisor={
+			slot = high_command
+			idea_token = OPU_Otho_Opus
+			traits = {	air_air_combat_training_2 	}
+		}
+
+
+	}
+	OPU_Valeriscus_Naturus={
+		name="Valeriscus Naturus"
+
+		advisor={
+			slot = high_command
+			idea_token = OPU_Valeriscus_Naturus
+			traits = {	air_bomber_interception_1 	}
+		}
+
+
+	}
+	OPU_Quintonginus_Bellum={
+		name="Quintonginus Bellum"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { basileus  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	OPU_Livius_Lens={
+		name="Livius Lens"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OPU_Livius_Lens
+			traits = {	vapsid_economist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	OPU_Silvanus_Argen={
+		name="Silvanus Argen"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OPU_Silvanus_Argen
+			traits = {	inexperienced_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	OPU_Nonius_Regotifex={
+		name="Nonius Regotifex"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OPU_Nonius_Regotifex
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	OPU_Serus_Medix={
+		name="Serus Medix"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OPU_Serus_Medix
+			traits = {	subservient_ultranationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	OPU_Silvanus_Fonus={
+		name="Silvanus Fonus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OPU_Silvanus_Fonus
+			traits = {	vapsid_economist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	OPU_Silvanus_Naturus={
+		name="Silvanus Naturus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OPU_Silvanus_Naturus
+			traits = {	generallissimo 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	OPU_Gaianus_Pocus={
+		name="Gaianus Pocus"
+
+		advisor={
+			slot = army_chief
+			idea_token = OPU_Gaianus_Pocus
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	OPU_Serus_Honum={
+		name="Serus Honum"
+
+		advisor={
+			slot = army_chief
+			idea_token = OPU_Serus_Honum
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	OPU_Gracchus_Argen={
+		name="Gracchus Argen"
+
+		advisor={
+			slot = army_chief
+			idea_token = OPU_Gracchus_Argen
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	OPU_Serus_Turribes={
+		name="Serus Turribes"
+
+		advisor={
+			slot = army_chief
+			idea_token = OPU_Serus_Turribes
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	OPU_Manustus_Mala={
+		name="Manustus Mala"
+
+		advisor={
+			slot = navy_chief
+			idea_token = OPU_Manustus_Mala
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	OPU_Spurius_Insus={
+		name="Spurius Insus"
+
+		advisor={
+			slot = navy_chief
+			idea_token = OPU_Spurius_Insus
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	OPU_Spurius_Belus={
+		name="Spurius Belus"
+
+		advisor={
+			slot = air_chief
+			idea_token = OPU_Spurius_Belus
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	OPU_Sevola_Volortisca={
+		name="Sevola Volortisca"
+
+		advisor={
+			slot = air_chief
+			idea_token = OPU_Sevola_Volortisca
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	OPU_Marro_Opus={
+		name="Marro Opus"
+
+		advisor={
+			slot = high_command
+			idea_token = OPU_Marro_Opus
+			traits = {	army_regrouping_1 	}
+		}
+
+
+	}
+	OPU_Titius_Flos={
+		name="Titius Flos"
+
+		advisor={
+			slot = high_command
+			idea_token = OPU_Titius_Flos
+			traits = {	navy_submarine_1 	}
+		}
+
+
+	}
+	OPU_Faulus_Opulgus={
+		name="Faulus Opulgus"
+
+		advisor={
+			slot = high_command
+			idea_token = OPU_Faulus_Opulgus
+			traits = {	army_commando_1 	}
+		}
+
+
+	}
+	OPU_Reminus_Mala={
+		name="Reminus Mala"
+
+		advisor={
+			slot = high_command
+			idea_token = OPU_Reminus_Mala
+			traits = {	navy_capital_ship_2 	}
+		}
+
+
+	}
+	OPU_Valerius_Vilita={
+		name="Valerius Vilita"
+
+		advisor={
+			slot = high_command
+			idea_token = OPU_Valerius_Vilita
+			traits = {	army_cavalry_1 	}
+		}
+
+
+	}
+	OPU_Lucimus_Mentifex={
+		name="Lucimus Mentifex"
+
+		advisor={
+			slot = high_command
+			idea_token = OPU_Lucimus_Mentifex
+			traits = {	army_armored_1 	}
+		}
+
+
+	}
+	OPU_Seriscus_Agria={
+		name="Seriscus Agria"
+
+		
+		country_leader={
+			ideology=marxism
+			traits = { leftist_legionary  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	OPU_Scaevero_Honum={
+		name="Scaevero Honum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OPU_Scaevero_Honum
+			traits = {	political_dancer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	OPU_Titius_Liberba={
+		name="Titius Liberba"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OPU_Titius_Liberba
+			traits = {	socialist_justice 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	OPU_Marro_Mena={
+		name="Marro Mena"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OPU_Marro_Mena
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	OPU_Servius_Milva={
+		name="Servius Milva"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OPU_Servius_Milva
+			traits = {	reluctant_stalinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	OPU_Livius_Officiumbus={
+		name="Livius Officiumbus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OPU_Livius_Officiumbus
+			traits = {	political_dancer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	OPU_Marro_Scrisca={
+		name="Marro Scrisca"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OPU_Marro_Scrisca
+			traits = {	political_dancer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	OPU_Sevola_Argens={
+		name="Sevola Argens"
+
+		advisor={
+			slot = army_chief
+			idea_token = OPU_Sevola_Argens
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	OPU_Vibervius_Negina={
+		name="Vibervius Negina"
+
+		advisor={
+			slot = army_chief
+			idea_token = OPU_Vibervius_Negina
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	OPU_Vibervius_Cortas={
+		name="Vibervius Cortas"
+
+		advisor={
+			slot = army_chief
+			idea_token = OPU_Vibervius_Cortas
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	OPU_Seriscus_Nobilos={
+		name="Seriscus Nobilos"
+
+		advisor={
+			slot = army_chief
+			idea_token = OPU_Seriscus_Nobilos
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	OPU_Nervius_Opus={
+		name="Nervius Opus"
+
+		advisor={
+			slot = navy_chief
+			idea_token = OPU_Nervius_Opus
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	OPU_Faulius_Argen={
+		name="Faulius Argen"
+
+		advisor={
+			slot = navy_chief
+			idea_token = OPU_Faulius_Argen
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	OPU_Titius_Argens={
+		name="Titius Argens"
+
+		advisor={
+			slot = air_chief
+			idea_token = OPU_Titius_Argens
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	OPU_Gemitus_Luna={
+		name="Gemitus Luna"
+
+		advisor={
+			slot = air_chief
+			idea_token = OPU_Gemitus_Luna
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	OPU_Maximus_Tempus={
+		name="Maximus Tempus"
+
+		advisor={
+			slot = high_command
+			idea_token = OPU_Maximus_Tempus
+			traits = {	air_air_combat_training_2 	}
+		}
+
+
+	}
+	OPU_Marcus_Argen={
+		name="Marcus Argen"
+
+		advisor={
+			slot = high_command
+			idea_token = OPU_Marcus_Argen
+			traits = {	air_close_air_support_1 	}
+		}
+
+
+	}
+	OPU_Nonius_Diesaenticie={
+		name="Nonius Diesaenticie"
+
+		advisor={
+			slot = high_command
+			idea_token = OPU_Nonius_Diesaenticie
+			traits = {	navy_capital_ship_2 	}
+		}
+
+
+	}
+	OPU_Tibius_Regotium={
+		name="Tibius Regotium"
+
+		advisor={
+			slot = high_command
+			idea_token = OPU_Tibius_Regotium
+			traits = {	army_cavalry_2 	}
+		}
+
+
+	}
+	OPU_Titus_Mara={
+		name="Titus Mara"
+
+		advisor={
+			slot = high_command
+			idea_token = OPU_Titus_Mara
+			traits = {	army_radio_intelligence_1 	}
+		}
+
+
+	}
+	OPU_Otho_Deus={
+		name="Otho Deus"
+
+		advisor={
+			slot = high_command
+			idea_token = OPU_Otho_Deus
+			traits = {	navy_fleet_logistics_2 	}
+		}
+
+
+	}
+	OPU_Decimus_Bellama={
+		name="Decimus Bellama"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { the_banker  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	OPU_Decimus_Fama={
+		name="Decimus Fama"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OPU_Decimus_Fama
+			traits = {	veteran_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	OPU_Paus_Cultus={
+		name="Paus Cultus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OPU_Paus_Cultus
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	OPU_Augus_Poetespus={
+		name="Augus Poetespus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OPU_Augus_Poetespus
+			traits = {	liberal_democratic_paragon 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	OPU_Tibius_Aqua={
+		name="Tibius Aqua"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OPU_Tibius_Aqua
+			traits = {	democratic_crusader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	OPU_Nervius_Vinus={
+		name="Nervius Vinus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OPU_Nervius_Vinus
+			traits = {	liberal_democratic_paragon 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	OPU_Sextus_Deus={
+		name="Sextus Deus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = OPU_Sextus_Deus
+			traits = {	veteran_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	OPU_Scaevero_Regotis={
+		name="Scaevero Regotis"
+
+		advisor={
+			slot = army_chief
+			idea_token = OPU_Scaevero_Regotis
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	OPU_Reminus_Theator={
+		name="Reminus Theator"
+
+		advisor={
+			slot = army_chief
+			idea_token = OPU_Reminus_Theator
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	OPU_Cornellus_Popublis={
+		name="Cornellus Popublis"
+
+		advisor={
+			slot = army_chief
+			idea_token = OPU_Cornellus_Popublis
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	OPU_Traius_Tempus={
+		name="Traius Tempus"
+
+		advisor={
+			slot = army_chief
+			idea_token = OPU_Traius_Tempus
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	OPU_Titius_Argen={
+		name="Titius Argen"
+
+		advisor={
+			slot = navy_chief
+			idea_token = OPU_Titius_Argen
+			traits = {	navy_chief_reform_2 	}
+		}
+
+
+	}
+	OPU_Decius_Milva={
+		name="Decius Milva"
+
+		advisor={
+			slot = navy_chief
+			idea_token = OPU_Decius_Milva
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	OPU_Publiustus_Tonsarvus={
+		name="Publiustus Tonsarvus"
+
+		advisor={
+			slot = air_chief
+			idea_token = OPU_Publiustus_Tonsarvus
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	OPU_Nonius_Virticus={
+		name="Nonius Virticus"
+
+		advisor={
+			slot = air_chief
+			idea_token = OPU_Nonius_Virticus
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	OPU_Paudius_Luna={
+		name="Paudius Luna"
+
+		advisor={
+			slot = high_command
+			idea_token = OPU_Paudius_Luna
+			traits = {	air_airborne_2 	}
+		}
+
+
+	}
+	OPU_Prius_Opus={
+		name="Prius Opus"
+
+		advisor={
+			slot = high_command
+			idea_token = OPU_Prius_Opus
+			traits = {	air_air_superiority_2 	}
+		}
+
+
+	}
+	OPU_Gaianus_Otiumen={
+		name="Gaianus Otiumen"
+
+		advisor={
+			slot = high_command
+			idea_token = OPU_Gaianus_Otiumen
+			traits = {	army_infantry_2 	}
+		}
+
+
+	}
+	OPU_Graius_Opus={
+		name="Graius Opus"
+
+		advisor={
+			slot = high_command
+			idea_token = OPU_Graius_Opus
+			traits = {	army_CombinedArms_1 	}
+		}
+
+
+	}
+	OPU_Spurius_Deus={
+		name="Spurius Deus"
+
+		advisor={
+			slot = high_command
+			idea_token = OPU_Spurius_Deus
+			traits = {	army_entrenchment_2 	}
+		}
+
+
+	}
+	OPU_Caianus_Naturus={
+		name="Caianus Naturus"
+
+		advisor={
+			slot = high_command
+			idea_token = OPU_Caianus_Naturus
+			traits = {	navy_naval_air_defense_2 	}
+		}
+
+
+	}
+	OPU_Sextus_Scrisca={
+		name="Sextus Scrisca"
+
+		advisor={
+			slot = theorist
+			idea_token = OPU_Sextus_Scrisca
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	OPU_Publius_Naturus={
+		name="Publius Naturus"
+
+		advisor={
+			slot = theorist
+			idea_token = OPU_Publius_Naturus
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	OPU_Cassius_Medix={
+		name="Cassius Medix"
+
+		advisor={
+			slot = theorist
+			idea_token = OPU_Cassius_Medix
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

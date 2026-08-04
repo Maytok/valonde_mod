@@ -1,0 +1,1083 @@
+characters = {
+	SOO_Stej_Slovo={
+		name="Stej Slovo"
+
+		
+		country_leader={
+			ideology=oligarchism
+			traits = { democratic_crusader  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SOO_Bran_Prada={
+		name="Bran Prada"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SOO_Bran_Prada
+			traits = {	socialite_connections 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	SOO_Vikitan_Grebrod={
+		name="Vikitan Grebrod"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SOO_Vikitan_Grebrod
+			traits = {	socialite_connections 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	SOO_Goranis_Glak={
+		name="Goranis Glak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SOO_Goranis_Glak
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	SOO_Matefanovan_Zvezer={
+		name="Matefanovan Zvezer"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SOO_Matefanovan_Zvezer
+			traits = {	agricultural_capitalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	SOO_Tomas_Hleb={
+		name="Tomas Hleb"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SOO_Tomas_Hleb
+			traits = {	agricultural_nationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	SOO_Aleg_Tramen={
+		name="Aleg Tramen"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SOO_Aleg_Tramen
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	SOO_Staroslados_Grmlja={
+		name="Staroslados Grmlja"
+
+		advisor={
+			slot = army_chief
+			idea_token = SOO_Staroslados_Grmlja
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	SOO_Pavel_Svetad={
+		name="Pavel Svetad"
+
+		advisor={
+			slot = army_chief
+			idea_token = SOO_Pavel_Svetad
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	SOO_Matefanislav_Drvozduh={
+		name="Matefanislav Drvozduh"
+
+		advisor={
+			slot = army_chief
+			idea_token = SOO_Matefanislav_Drvozduh
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	SOO_Zdeneksei_Obicana={
+		name="Zdeneksei Obicana"
+
+		advisor={
+			slot = army_chief
+			idea_token = SOO_Zdeneksei_Obicana
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	SOO_Branko_Obican={
+		name="Branko Obican"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SOO_Branko_Obican
+			traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+
+	}
+	SOO_Janovan_Muzik={
+		name="Janovan Muzik"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SOO_Janovan_Muzik
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	SOO_Branko_Alavdar={
+		name="Branko Alavdar"
+
+		advisor={
+			slot = air_chief
+			idea_token = SOO_Branko_Alavdar
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	SOO_Petar_Galjevina={
+		name="Petar Galjevina"
+
+		advisor={
+			slot = air_chief
+			idea_token = SOO_Petar_Galjevina
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	SOO_Sladimir_Galjevina={
+		name="Sladimir Galjevina"
+
+		advisor={
+			slot = high_command
+			idea_token = SOO_Sladimir_Galjevina
+			traits = {	navy_carrier_1 	}
+		}
+
+
+	}
+	SOO_Nikitri_Grmlja={
+		name="Nikitri Grmlja"
+
+		advisor={
+			slot = high_command
+			idea_token = SOO_Nikitri_Grmlja
+			traits = {	air_air_combat_training_2 	}
+		}
+
+
+	}
+	SOO_Sladovan_Svetad={
+		name="Sladovan Svetad"
+
+		advisor={
+			slot = high_command
+			idea_token = SOO_Sladovan_Svetad
+			traits = {	air_pilot_training_2 	}
+		}
+
+
+	}
+	SOO_Bohdan_Hralja={
+		name="Bohdan Hralja"
+
+		advisor={
+			slot = high_command
+			idea_token = SOO_Bohdan_Hralja
+			traits = {	navy_screen_1 	}
+		}
+
+
+	}
+	SOO_Stefan_Jezan={
+		name="Stefan Jezan"
+
+		advisor={
+			slot = high_command
+			idea_token = SOO_Stefan_Jezan
+			traits = {	army_radio_intelligence_2 	}
+		}
+
+
+	}
+	SOO_Dusan_Svetad={
+		name="Dusan Svetad"
+
+		advisor={
+			slot = high_command
+			idea_token = SOO_Dusan_Svetad
+			traits = {	navy_capital_ship_1 	}
+		}
+
+
+	}
+	SOO_Matej_Svez={
+		name="Matej Svez"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { vapsid_economist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SOO_Milado_Vodnik={
+		name="Milado Vodnik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SOO_Milado_Vodnik
+			traits = {	subservient_ultranationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	SOO_Aleg_Ljubava={
+		name="Aleg Ljubava"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SOO_Aleg_Ljubava
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	SOO_Pavko_Grad={
+		name="Pavko Grad"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SOO_Pavko_Grad
+			traits = {	inexperienced_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	SOO_Niktoragomas_Viteza={
+		name="Niktoragomas Viteza"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SOO_Niktoragomas_Viteza
+			traits = {	subservient_ultranationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	SOO_Olexei_Hoda={
+		name="Olexei Hoda"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SOO_Olexei_Hoda
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	SOO_Yuran_Glast={
+		name="Yuran Glast"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SOO_Yuran_Glast
+			traits = {	spirit_of_genghis 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	SOO_Radoslavel_Mesec={
+		name="Radoslavel Mesec"
+
+		advisor={
+			slot = army_chief
+			idea_token = SOO_Radoslavel_Mesec
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	SOO_Janovan_Morir={
+		name="Janovan Morir"
+
+		advisor={
+			slot = army_chief
+			idea_token = SOO_Janovan_Morir
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	SOO_Bohdan_Voda={
+		name="Bohdan Voda"
+
+		advisor={
+			slot = army_chief
+			idea_token = SOO_Bohdan_Voda
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	SOO_Aleg_Oblanstradja={
+		name="Aleg Oblanstradja"
+
+		advisor={
+			slot = army_chief
+			idea_token = SOO_Aleg_Oblanstradja
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	SOO_Zdek_Velik={
+		name="Zdek Velik"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SOO_Zdek_Velik
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	SOO_Sladek_Alavdar={
+		name="Sladek Alavdar"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SOO_Sladek_Alavdar
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	SOO_Milado_Grad={
+		name="Milado Grad"
+
+		advisor={
+			slot = air_chief
+			idea_token = SOO_Milado_Grad
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	SOO_Velimiroslan_Slicaksija={
+		name="Velimiroslan Slicaksija"
+
+		advisor={
+			slot = air_chief
+			idea_token = SOO_Velimiroslan_Slicaksija
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	SOO_Viktoraj_Oblanstradja={
+		name="Viktoraj Oblanstradja"
+
+		advisor={
+			slot = high_command
+			idea_token = SOO_Viktoraj_Oblanstradja
+			traits = {	navy_naval_air_defense_1 	}
+		}
+
+
+	}
+	SOO_Bran_Verodno={
+		name="Bran Verodno"
+
+		advisor={
+			slot = high_command
+			idea_token = SOO_Bran_Verodno
+			traits = {	air_pilot_training_1 	}
+		}
+
+
+	}
+	SOO_Radenek_Tezer={
+		name="Radenek Tezer"
+
+		advisor={
+			slot = high_command
+			idea_token = SOO_Radenek_Tezer
+			traits = {	army_radio_intelligence_2 	}
+		}
+
+
+	}
+	SOO_Andrej_Telost={
+		name="Andrej Telost"
+
+		advisor={
+			slot = high_command
+			idea_token = SOO_Andrej_Telost
+			traits = {	navy_screen_1 	}
+		}
+
+
+	}
+	SOO_Simiroslav_Muzik={
+		name="Simiroslav Muzik"
+
+		advisor={
+			slot = high_command
+			idea_token = SOO_Simiroslav_Muzik
+			traits = {	air_naval_strike_2 	}
+		}
+
+
+	}
+	SOO_Tomir_Obican={
+		name="Tomir Obican"
+
+		advisor={
+			slot = high_command
+			idea_token = SOO_Tomir_Obican
+			traits = {	air_tactical_bombing_2 	}
+		}
+
+
+	}
+	SOO_Starosladosl_Tramen={
+		name="Starosladosl Tramen"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { revolutionary_poet  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SOO_Vlav_Drvozduh={
+		name="Vlav Drvozduh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SOO_Vlav_Drvozduh
+			traits = {	anti_bolshevik_leftist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	SOO_Janovan_Verodno={
+		name="Janovan Verodno"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SOO_Janovan_Verodno
+			traits = {	revolutionary_poet 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	SOO_Luboslav_Hradje={
+		name="Luboslav Hradje"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SOO_Luboslav_Hradje
+			traits = {	patriotic_socialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	SOO_Boran_Glast={
+		name="Boran Glast"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SOO_Boran_Glast
+			traits = {	indomitable_perseverance 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	SOO_Stan_Grad={
+		name="Stan Grad"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SOO_Stan_Grad
+			traits = {	patriotic_socialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	SOO_Petar_Mirisija={
+		name="Petar Mirisija"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SOO_Petar_Mirisija
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	SOO_Stan_Dusao={
+		name="Stan Dusao"
+
+		advisor={
+			slot = army_chief
+			idea_token = SOO_Stan_Dusao
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	SOO_Matej_Zvetar={
+		name="Matej Zvetar"
+
+		advisor={
+			slot = army_chief
+			idea_token = SOO_Matej_Zvetar
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	SOO_Dmir_Seme={
+		name="Dmir Seme"
+
+		advisor={
+			slot = army_chief
+			idea_token = SOO_Dmir_Seme
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	SOO_Dranko_Zemen={
+		name="Dranko Zemen"
+
+		advisor={
+			slot = army_chief
+			idea_token = SOO_Dranko_Zemen
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	SOO_Sladimir_Alak={
+		name="Sladimir Alak"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SOO_Sladimir_Alak
+			traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+
+	}
+	SOO_Matej_Muzik={
+		name="Matej Muzik"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SOO_Matej_Muzik
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	SOO_Branko_Vrefeka={
+		name="Branko Vrefeka"
+
+		advisor={
+			slot = air_chief
+			idea_token = SOO_Branko_Vrefeka
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	SOO_Branko_Delova={
+		name="Branko Delova"
+
+		advisor={
+			slot = air_chief
+			idea_token = SOO_Branko_Delova
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	SOO_Matefanislav_Grmlja={
+		name="Matefanislav Grmlja"
+
+		advisor={
+			slot = high_command
+			idea_token = SOO_Matefanislav_Grmlja
+			traits = {	navy_capital_ship_1 	}
+		}
+
+
+	}
+	SOO_Matej_Doba={
+		name="Matej Doba"
+
+		advisor={
+			slot = high_command
+			idea_token = SOO_Matej_Doba
+			traits = {	army_CombinedArms_2 	}
+		}
+
+
+	}
+	SOO_Pavel_Grebo={
+		name="Pavel Grebo"
+
+		advisor={
+			slot = high_command
+			idea_token = SOO_Pavel_Grebo
+			traits = {	army_logistics_1 	}
+		}
+
+
+	}
+	SOO_Radoslavel_Kucan={
+		name="Radoslavel Kucan"
+
+		advisor={
+			slot = high_command
+			idea_token = SOO_Radoslavel_Kucan
+			traits = {	army_concealment_1 	}
+		}
+
+
+	}
+	SOO_Petar_Zvetar={
+		name="Petar Zvetar"
+
+		advisor={
+			slot = high_command
+			idea_token = SOO_Petar_Zvetar
+			traits = {	air_airborne_1 	}
+		}
+
+
+	}
+	SOO_Pavel_Hralja={
+		name="Pavel Hralja"
+
+		advisor={
+			slot = high_command
+			idea_token = SOO_Pavel_Hralja
+			traits = {	air_naval_strike_1 	}
+		}
+
+
+	}
+	SOO_Yuran_Alak={
+		name="Yuran Alak"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { the_banker  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SOO_Ivanovan_Mesec={
+		name="Ivanovan Mesec"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SOO_Ivanovan_Mesec
+			traits = {	the_banker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	SOO_Ilya_Tezer={
+		name="Ilya Tezer"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SOO_Ilya_Tezer
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	SOO_Luboslanko_Ptirom={
+		name="Luboslanko Ptirom"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SOO_Luboslanko_Ptirom
+			traits = {	the_banker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	SOO_Aleg_Alak={
+		name="Aleg Alak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SOO_Aleg_Alak
+			traits = {	rearmer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	SOO_Sladimir_Grebrod={
+		name="Sladimir Grebrod"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SOO_Sladimir_Grebrod
+			traits = {	first_lady 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	SOO_Luboslanko_Hradje={
+		name="Luboslanko Hradje"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SOO_Luboslanko_Hradje
+			traits = {	leftist_legionary 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	SOO_Luboslav_Dusao={
+		name="Luboslav Dusao"
+
+		advisor={
+			slot = army_chief
+			idea_token = SOO_Luboslav_Dusao
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	SOO_Radosh_Svetad={
+		name="Radosh Svetad"
+
+		advisor={
+			slot = army_chief
+			idea_token = SOO_Radosh_Svetad
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	SOO_Dusan_Telost={
+		name="Dusan Telost"
+
+		advisor={
+			slot = army_chief
+			idea_token = SOO_Dusan_Telost
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	SOO_Slavko_Vitad={
+		name="Slavko Vitad"
+
+		advisor={
+			slot = army_chief
+			idea_token = SOO_Slavko_Vitad
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	SOO_Simiroslav_Pisina={
+		name="Simiroslav Pisina"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SOO_Simiroslav_Pisina
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	SOO_Radimeon_Pastvo={
+		name="Radimeon Pastvo"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SOO_Radimeon_Pastvo
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	SOO_Branko_Obicana={
+		name="Branko Obicana"
+
+		advisor={
+			slot = air_chief
+			idea_token = SOO_Branko_Obicana
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	SOO_Radimeon_Obican={
+		name="Radimeon Obican"
+
+		advisor={
+			slot = air_chief
+			idea_token = SOO_Radimeon_Obican
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	SOO_Simir_Smrt={
+		name="Simir Smrt"
+
+		advisor={
+			slot = high_command
+			idea_token = SOO_Simir_Smrt
+			traits = {	air_naval_strike_2 	}
+		}
+
+
+	}
+	SOO_Zdek_Hralja={
+		name="Zdek Hralja"
+
+		advisor={
+			slot = high_command
+			idea_token = SOO_Zdek_Hralja
+			traits = {	army_regrouping_1 	}
+		}
+
+
+	}
+	SOO_Petarko_Slovo={
+		name="Petarko Slovo"
+
+		advisor={
+			slot = high_command
+			idea_token = SOO_Petarko_Slovo
+			traits = {	air_air_superiority_2 	}
+		}
+
+
+	}
+	SOO_Vlav_Kralja={
+		name="Vlav Kralja"
+
+		advisor={
+			slot = high_command
+			idea_token = SOO_Vlav_Kralja
+			traits = {	air_tactical_bombing_1 	}
+		}
+
+
+	}
+	SOO_Yuran_Izvo={
+		name="Yuran Izvo"
+
+		advisor={
+			slot = high_command
+			idea_token = SOO_Yuran_Izvo
+			traits = {	air_airborne_2 	}
+		}
+
+
+	}
+	SOO_Goran_Verodno={
+		name="Goran Verodno"
+
+		advisor={
+			slot = high_command
+			idea_token = SOO_Goran_Verodno
+			traits = {	army_regrouping_1 	}
+		}
+
+
+	}
+	SOO_Starosladosl_Drvozduh={
+		name="Starosladosl Drvozduh"
+
+		advisor={
+			slot = theorist
+			idea_token = SOO_Starosladosl_Drvozduh
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	SOO_Aleksei_Tramen={
+		name="Aleksei Tramen"
+
+		advisor={
+			slot = theorist
+			idea_token = SOO_Aleksei_Tramen
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	SOO_Branko_Jezan={
+		name="Branko Jezan"
+
+		advisor={
+			slot = theorist
+			idea_token = SOO_Branko_Jezan
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=1481
+	name="STATE_1481"
+	manpower = 978690
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = HRA
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = HRA
+	}
+
+	provinces={
+		16784 16785 16786 16787 16788 
+	}
+	local_supplies=0.0 
+}

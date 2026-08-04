@@ -1,0 +1,1083 @@
+characters = {
+	LAN_Kamaraka_Mlimaisia={
+		name="Kamaraka Mlimaisia"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { autocratic_archbishop  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	LAN_Shaka_Laandisha={
+		name="Shaka Laandisha"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LAN_Shaka_Laandisha
+			traits = {	headstrong 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	LAN_Amari_Shuli={
+		name="Amari Shuli"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LAN_Amari_Shuli
+			traits = {	socialite_connections 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	LAN_Chidi_Jeno={
+		name="Chidi Jeno"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LAN_Chidi_Jeno
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	LAN_Taji_Sikuti={
+		name="Taji Sikuti"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LAN_Taji_Sikuti
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	LAN_Mbwamau_Kumbukufu={
+		name="Mbwamau Kumbukufu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LAN_Mbwamau_Kumbukufu
+			traits = {	national_determinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	LAN_Mbwamari_Kumba={
+		name="Mbwamari Kumba"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LAN_Mbwamari_Kumba
+			traits = {	national_determinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	LAN_Amari_Sikuti={
+		name="Amari Sikuti"
+
+		advisor={
+			slot = army_chief
+			idea_token = LAN_Amari_Sikuti
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	LAN_Temba_Dari={
+		name="Temba Dari"
+
+		advisor={
+			slot = army_chief
+			idea_token = LAN_Temba_Dari
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	LAN_Kwana_Meli={
+		name="Kwana Meli"
+
+		advisor={
+			slot = army_chief
+			idea_token = LAN_Kwana_Meli
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	LAN_Omari_Mtifu={
+		name="Omari Mtifu"
+
+		advisor={
+			slot = army_chief
+			idea_token = LAN_Omari_Mtifu
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	LAN_Mbwano_Mwithi={
+		name="Mbwano Mwithi"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LAN_Mbwano_Mwithi
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	LAN_Kwame_Hadisto={
+		name="Kwame Hadisto"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LAN_Kwame_Hadisto
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	LAN_Taji_Pigaonda={
+		name="Taji Pigaonda"
+
+		advisor={
+			slot = air_chief
+			idea_token = LAN_Taji_Pigaonda
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	LAN_Simba_Kishalme={
+		name="Simba Kishalme"
+
+		advisor={
+			slot = air_chief
+			idea_token = LAN_Simba_Kishalme
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	LAN_Juma_Ndoto={
+		name="Juma Ndoto"
+
+		advisor={
+			slot = high_command
+			idea_token = LAN_Juma_Ndoto
+			traits = {	air_bomber_interception_1 	}
+		}
+
+
+	}
+	LAN_Temba_Hadita={
+		name="Temba Hadita"
+
+		advisor={
+			slot = high_command
+			idea_token = LAN_Temba_Hadita
+			traits = {	navy_fleet_logistics_2 	}
+		}
+
+
+	}
+	LAN_Kwano_Aduiya={
+		name="Kwano Aduiya"
+
+		advisor={
+			slot = high_command
+			idea_token = LAN_Kwano_Aduiya
+			traits = {	army_concealment_2 	}
+		}
+
+
+	}
+	LAN_Kwano_Kima={
+		name="Kwano Kima"
+
+		advisor={
+			slot = high_command
+			idea_token = LAN_Kwano_Kima
+			traits = {	air_bomber_interception_1 	}
+		}
+
+
+	}
+	LAN_Mbwanga_Taana={
+		name="Mbwanga Taana"
+
+		advisor={
+			slot = high_command
+			idea_token = LAN_Mbwanga_Taana
+			traits = {	army_armored_1 	}
+		}
+
+
+	}
+	LAN_Shaka_Tekete={
+		name="Shaka Tekete"
+
+		advisor={
+			slot = high_command
+			idea_token = LAN_Shaka_Tekete
+			traits = {	army_regrouping_1 	}
+		}
+
+
+	}
+	LAN_Jumari_Mili={
+		name="Jumari Mili"
+
+		
+		country_leader={
+			ideology=fascism_ideology
+			traits = { subservient_ultranationalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	LAN_Kwanga_Shukwelu={
+		name="Kwanga Shukwelu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LAN_Kwanga_Shukwelu
+			traits = {	collaborator_king 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	LAN_Mbwanga_Tekete={
+		name="Mbwanga Tekete"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LAN_Mbwanga_Tekete
+			traits = {	warmonger 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	LAN_Amari_Mvule={
+		name="Amari Mvule"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LAN_Amari_Mvule
+			traits = {	militant_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	LAN_Jumaraka_Chera={
+		name="Jumaraka Chera"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LAN_Jumaraka_Chera
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	LAN_Kwano_Kifu={
+		name="Kwano Kifu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LAN_Kwano_Kifu
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	LAN_Kwano_Kumba={
+		name="Kwano Kumba"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LAN_Kwano_Kumba
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	LAN_Kwame_Kumba={
+		name="Kwame Kumba"
+
+		advisor={
+			slot = army_chief
+			idea_token = LAN_Kwame_Kumba
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	LAN_Temba_Tekete={
+		name="Temba Tekete"
+
+		advisor={
+			slot = army_chief
+			idea_token = LAN_Temba_Tekete
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	LAN_Mbwano_Mshara={
+		name="Mbwano Mshara"
+
+		advisor={
+			slot = army_chief
+			idea_token = LAN_Mbwano_Mshara
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	LAN_Taji_Hadita={
+		name="Taji Hadita"
+
+		advisor={
+			slot = army_chief
+			idea_token = LAN_Taji_Hadita
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	LAN_Mosi_Mili={
+		name="Mosi Mili"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LAN_Mosi_Mili
+			traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+
+	}
+	LAN_Omari_Askatimo={
+		name="Omari Askatimo"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LAN_Omari_Askatimo
+			traits = {	navy_chief_reform_2 	}
+		}
+
+
+	}
+	LAN_Luba_Panguo={
+		name="Luba Panguo"
+
+		advisor={
+			slot = air_chief
+			idea_token = LAN_Luba_Panguo
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	LAN_Omari_Jeno={
+		name="Omari Jeno"
+
+		advisor={
+			slot = air_chief
+			idea_token = LAN_Omari_Jeno
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	LAN_Bakari_Laandisha={
+		name="Bakari Laandisha"
+
+		advisor={
+			slot = high_command
+			idea_token = LAN_Bakari_Laandisha
+			traits = {	army_logistics_2 	}
+		}
+
+
+	}
+	LAN_Mbwame_Mapigano={
+		name="Mbwame Mapigano"
+
+		advisor={
+			slot = high_command
+			idea_token = LAN_Mbwame_Mapigano
+			traits = {	air_air_superiority_2 	}
+		}
+
+
+	}
+	LAN_Baka_Uhawi={
+		name="Baka Uhawi"
+
+		advisor={
+			slot = high_command
+			idea_token = LAN_Baka_Uhawi
+			traits = {	army_artillery_1 	}
+		}
+
+
+	}
+	LAN_Simbana_Kiono={
+		name="Simbana Kiono"
+
+		advisor={
+			slot = high_command
+			idea_token = LAN_Simbana_Kiono
+			traits = {	army_regrouping_1 	}
+		}
+
+
+	}
+	LAN_Jumaraka_Mwithi={
+		name="Jumaraka Mwithi"
+
+		advisor={
+			slot = high_command
+			idea_token = LAN_Jumaraka_Mwithi
+			traits = {	army_concealment_2 	}
+		}
+
+
+	}
+	LAN_Sefu_Mali={
+		name="Sefu Mali"
+
+		advisor={
+			slot = high_command
+			idea_token = LAN_Sefu_Mali
+			traits = {	air_close_air_support_1 	}
+		}
+
+
+	}
+	LAN_Mbwame_Kima={
+		name="Mbwame Kima"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { reluctant_stalinist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	LAN_Mosi_Heka={
+		name="Mosi Heka"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LAN_Mosi_Heka
+			traits = {	mastermind_code_cracker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	LAN_Amaraka_Chuli={
+		name="Amaraka Chuli"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LAN_Amaraka_Chuli
+			traits = {	marxist_fundamentalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	LAN_Sefu_Nyumba={
+		name="Sefu Nyumba"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LAN_Sefu_Nyumba
+			traits = {	devoted_marxist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	LAN_Mbwame_Mili={
+		name="Mbwame Mili"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LAN_Mbwame_Mili
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	LAN_Sefu_Shukwelu={
+		name="Sefu Shukwelu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LAN_Sefu_Shukwelu
+			traits = {	reluctant_stalinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	LAN_Musa_Pango={
+		name="Musa Pango"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LAN_Musa_Pango
+			traits = {	devoted_marxist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	LAN_Chidi_Hadisto={
+		name="Chidi Hadisto"
+
+		advisor={
+			slot = army_chief
+			idea_token = LAN_Chidi_Hadisto
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	LAN_Shakaraka_Sheli={
+		name="Shakaraka Sheli"
+
+		advisor={
+			slot = army_chief
+			idea_token = LAN_Shakaraka_Sheli
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	LAN_Sefu_Kumba={
+		name="Sefu Kumba"
+
+		advisor={
+			slot = army_chief
+			idea_token = LAN_Sefu_Kumba
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	LAN_Shakari_Ndoto={
+		name="Shakari Ndoto"
+
+		advisor={
+			slot = army_chief
+			idea_token = LAN_Shakari_Ndoto
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	LAN_Luba_Nyanarajesha={
+		name="Luba Nyanarajesha"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LAN_Luba_Nyanarajesha
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	LAN_Mbwanga_Hadisto={
+		name="Mbwanga Hadisto"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LAN_Mbwanga_Hadisto
+			traits = {	navy_chief_reform_2 	}
+		}
+
+
+	}
+	LAN_Kamaraka_Ukwezi={
+		name="Kamaraka Ukwezi"
+
+		advisor={
+			slot = air_chief
+			idea_token = LAN_Kamaraka_Ukwezi
+			traits = {	air_chief_all_weather_2 	}
+		}
+
+
+	}
+	LAN_Baka_Soko={
+		name="Baka Soko"
+
+		advisor={
+			slot = air_chief
+			idea_token = LAN_Baka_Soko
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	LAN_Kamaraka_Kijimti={
+		name="Kamaraka Kijimti"
+
+		advisor={
+			slot = high_command
+			idea_token = LAN_Kamaraka_Kijimti
+			traits = {	air_pilot_training_1 	}
+		}
+
+
+	}
+	LAN_Bari_Simbi={
+		name="Bari Simbi"
+
+		advisor={
+			slot = high_command
+			idea_token = LAN_Bari_Simbi
+			traits = {	air_air_superiority_1 	}
+		}
+
+
+	}
+	LAN_Baraka_Wimui={
+		name="Baraka Wimui"
+
+		advisor={
+			slot = high_command
+			idea_token = LAN_Baraka_Wimui
+			traits = {	air_airborne_1 	}
+		}
+
+
+	}
+	LAN_Tanga_Ndoto={
+		name="Tanga Ndoto"
+
+		advisor={
+			slot = high_command
+			idea_token = LAN_Tanga_Ndoto
+			traits = {	army_CombinedArms_1 	}
+		}
+
+
+	}
+	LAN_Kame_Kiono={
+		name="Kame Kiono"
+
+		advisor={
+			slot = high_command
+			idea_token = LAN_Kame_Kiono
+			traits = {	navy_submarine_1 	}
+		}
+
+
+	}
+	LAN_Mbwamari_Sikuti={
+		name="Mbwamari Sikuti"
+
+		advisor={
+			slot = high_command
+			idea_token = LAN_Mbwamari_Sikuti
+			traits = {	air_close_air_support_1 	}
+		}
+
+
+	}
+	LAN_Kwame_Panjanguzi={
+		name="Kwame Panjanguzi"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { the_young_magnate  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	LAN_Lubanga_Kumbo={
+		name="Lubanga Kumbo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LAN_Lubanga_Kumbo
+			traits = {	leftist_legionary 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	LAN_Kamaraka_Teka={
+		name="Kamaraka Teka"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LAN_Kamaraka_Teka
+			traits = {	rearmer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	LAN_Shakari_Panjanguzi={
+		name="Shakari Panjanguzi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LAN_Shakari_Panjanguzi
+			traits = {	first_lady 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	LAN_Bari_Askatimo={
+		name="Bari Askatimo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LAN_Bari_Askatimo
+			traits = {	first_lady 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	LAN_Mbwamari_Askatimo={
+		name="Mbwamari Askatimo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LAN_Mbwamari_Askatimo
+			traits = {	leftist_legionary 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	LAN_Nuru_Nyanarajesha={
+		name="Nuru Nyanarajesha"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LAN_Nuru_Nyanarajesha
+			traits = {	conservative_grandee 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	LAN_Juma_Simbi={
+		name="Juma Simbi"
+
+		advisor={
+			slot = army_chief
+			idea_token = LAN_Juma_Simbi
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	LAN_Kwano_Hisu={
+		name="Kwano Hisu"
+
+		advisor={
+			slot = army_chief
+			idea_token = LAN_Kwano_Hisu
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	LAN_Jumau_Mali={
+		name="Jumau Mali"
+
+		advisor={
+			slot = army_chief
+			idea_token = LAN_Jumau_Mali
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	LAN_Musa_Rambiria={
+		name="Musa Rambiria"
+
+		advisor={
+			slot = army_chief
+			idea_token = LAN_Musa_Rambiria
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	LAN_Juma_Pano={
+		name="Juma Pano"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LAN_Juma_Pano
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	LAN_Bari_Kiono={
+		name="Bari Kiono"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LAN_Bari_Kiono
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	LAN_Taji_Mcheli={
+		name="Taji Mcheli"
+
+		advisor={
+			slot = air_chief
+			idea_token = LAN_Taji_Mcheli
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	LAN_Kwana_Hofu={
+		name="Kwana Hofu"
+
+		advisor={
+			slot = air_chief
+			idea_token = LAN_Kwana_Hofu
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	LAN_Lubanga_Mwithi={
+		name="Lubanga Mwithi"
+
+		advisor={
+			slot = high_command
+			idea_token = LAN_Lubanga_Mwithi
+			traits = {	air_pilot_training_2 	}
+		}
+
+
+	}
+	LAN_Baka_Mtifu={
+		name="Baka Mtifu"
+
+		advisor={
+			slot = high_command
+			idea_token = LAN_Baka_Mtifu
+			traits = {	army_cavalry_2 	}
+		}
+
+
+	}
+	LAN_Kwame_Hadita={
+		name="Kwame Hadita"
+
+		advisor={
+			slot = high_command
+			idea_token = LAN_Kwame_Hadita
+			traits = {	air_close_air_support_2 	}
+		}
+
+
+	}
+	LAN_Mosi_Mwithi={
+		name="Mosi Mwithi"
+
+		advisor={
+			slot = high_command
+			idea_token = LAN_Mosi_Mwithi
+			traits = {	navy_carrier_2 	}
+		}
+
+
+	}
+	LAN_Chidi_Malme={
+		name="Chidi Malme"
+
+		advisor={
+			slot = high_command
+			idea_token = LAN_Chidi_Malme
+			traits = {	army_CombinedArms_2 	}
+		}
+
+
+	}
+	LAN_Taji_Kiono={
+		name="Taji Kiono"
+
+		advisor={
+			slot = high_command
+			idea_token = LAN_Taji_Kiono
+			traits = {	army_armored_2 	}
+		}
+
+
+	}
+	LAN_Taji_Mapigano={
+		name="Taji Mapigano"
+
+		advisor={
+			slot = theorist
+			idea_token = LAN_Taji_Mapigano
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	LAN_Sefu_Mapigano={
+		name="Sefu Mapigano"
+
+		advisor={
+			slot = theorist
+			idea_token = LAN_Sefu_Mapigano
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	LAN_Jumau_Nyumbe={
+		name="Jumau Nyumbe"
+
+		advisor={
+			slot = theorist
+			idea_token = LAN_Jumau_Nyumbe
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

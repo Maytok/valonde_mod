@@ -1,0 +1,37 @@
+
+state={
+	id=40
+	name="STATE_40"
+	manpower = 1378244
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=2
+		chromium=2
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=2
+		coal=6
+	}
+
+	history={
+		
+		owner = KFT
+		buildings = {
+			infrastructure = 1
+			air_base = 3
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = KFT
+	}
+
+	provinces={
+		488 489 490 491 492 493 494 495 
+	}
+	local_supplies=0.0 
+}

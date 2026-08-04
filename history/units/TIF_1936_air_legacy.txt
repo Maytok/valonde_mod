@@ -1,0 +1,13 @@
+air_wings = {
+		1023 = { 								
+		CAS_equipment_0 = { owner = "TIF" amount = 12 version_name = "Hajr Mk 1" }
+fighter_equipment_0 = { owner = "TIF" amount = 7 version_name = "Muna Mk 0" }
+
+	}
+	1033 = { 								
+		tac_bomber_equipment_0 = { owner = "TIF" amount = 12 version_name = "Kutub Mk 1" }
+
+	}
+
+
+}

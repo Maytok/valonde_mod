@@ -1,0 +1,16 @@
+air_wings = {
+		1571 = { 								
+		tac_bomber_equipment_0 = { owner = "SOO" amount = 24 version_name = "Doba Mk 1" }
+
+	}
+	1407 = { 								
+		CAS_equipment_0 = { owner = "SOO" amount = 24 version_name = "Filova Mk 2" }
+
+	}
+	1397 = { 								
+		fighter_equipment_0 = { owner = "SOO" amount = 19 version_name = "Ribarodar Mk 1" }
+
+	}
+
+
+}

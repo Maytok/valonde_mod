@@ -1,0 +1,37 @@
+
+state={
+	id=47
+	name="STATE_47"
+	manpower = 1654230
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=1
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = MAG
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = MAG
+	}
+
+	provinces={
+		578 579 580 581 582 583 584 585 586 
+	}
+	local_supplies=0.0 
+}

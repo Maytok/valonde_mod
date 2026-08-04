@@ -1,0 +1,423 @@
+capital = 322
+
+oob = "CHO_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "CHO_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "CHO_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	support_weapons= 1
+	tech_trucks= 1
+	tech_support= 1
+	gw_artillery= 1
+	paratroopers= 1
+	marines= 1
+	tech_mountaineers= 1
+	armored_car1= 1
+	tech_military_police= 1
+	tech_maintenance_company= 1
+	interwar_antiair= 1
+	fuel_silos= 1
+	synth_oil_experiments= 1
+	basic_fire_control_system= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+		basic_heavy_tank = 1
+		improved_light_tank = 1
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+		basic_heavy_tank_chassis = 1
+		engine_tech_1 = 1
+		armor_tech_1 = 1
+		improved_light_tank_chassis = 1
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+		create_equipment_variant = {
+		name = "Ahkin Mk 1"
+		type = heavy_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = expanded_fuel_tank
+			special_type_slot_3 = wet_ammo_storage
+			suspension_type_slot = tank_christie_suspension
+			turret_type_slot = tank_heavy_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Sakha Mk 0"
+		type = heavy_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = expanded_fuel_tank
+			special_type_slot_2 = wet_ammo_storage
+			suspension_type_slot = tank_interleaved_suspension
+			turret_type_slot = tank_heavy_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Chilaktunila Mk 2"
+		type = light_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_small_cannon
+			special_type_slot_1 = secondary_turret_hmg
+			special_type_slot_2 = wet_ammo_storage
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_light_fixed_superstructure_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Tzam Mk 0"
+		type = light_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_small_cannon
+			special_type_slot_1 = secondary_turret_hmg
+			special_type_slot_2 = extra_ammo_storage
+			special_type_slot_3 = expanded_fuel_tank
+			suspension_type_slot = tank_interleaved_suspension
+			turret_type_slot = tank_light_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Zotzikin Mk 0"
+		type = light_tank_chassis_2
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_small_cannon
+			special_type_slot_1 = secondary_turret_hmg
+			special_type_slot_2 = expanded_fuel_tank
+			special_type_slot_3 = smoke_launchers
+			suspension_type_slot = tank_interleaved_suspension
+			turret_type_slot = tank_light_fixed_superstructure_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Balan Mk 2"
+		type = medium_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_medium_cannon
+			special_type_slot_1 = secondary_turret_small_cannon
+			suspension_type_slot = tank_christie_suspension
+			turret_type_slot = tank_medium_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "CHO_1936_air_bba"
+		set_technology = {
+			early_bombs = 1
+			
+		}
+
+	else = {
+		set_air_oob = "CHO_1936_air_legacy"
+		set_technology = {
+			CAS1 = 1
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	early_destroyer = 1
+	
+	}
+	set_naval_oob = "CHO_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Bonab Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	early_ship_hull_light = 1
+	sonar = 1
+	
+	}
+	set_naval_oob = "CHO_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Bonab Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = ship_anti_air_1
+				rear_1_custom_slot = ship_anti_air_1
+			}
+		}
+
+	}
+
+
+recruit_character = CHO_Nacom_Nohilam
+recruit_character = CHO_Kukulkanek_Witznai
+recruit_character = CHO_Tecun_Caran
+recruit_character = CHO_Yaxkin_Kanil
+recruit_character = CHO_Bacatl_Kate
+recruit_character = CHO_Pakan_Cozumel
+recruit_character = CHO_Nacatl_Bahuwen
+recruit_character = CHO_Kukulkal_Yalan
+recruit_character = CHO_Nacom_Tunabalancue
+recruit_character = CHO_Kukulkan_Caracomte
+recruit_character = CHO_Ahkin_Chilacom
+recruit_character = CHO_Acatl_Kukulkaba
+recruit_character = CHO_Ekchua_Tohok
+recruit_character = CHO_Chua_Chichenquen
+recruit_character = CHO_Kukulkan_Kancuen
+recruit_character = CHO_Nacatl_Sayilanil
+recruit_character = CHO_Ahkin_Yaxun
+recruit_character = CHO_Pakan_Chilaktunila
+recruit_character = CHO_Popo_Noholkin
+recruit_character = CHO_Ekchichen_Kanil
+recruit_character = CHO_Chichen_Caracom
+recruit_character = CHO_Ekchichen_Chuwen
+recruit_character = CHO_Kukulkal_Bona
+recruit_character = CHO_Ekchak_Yalan
+recruit_character = CHO_Ekchak_Chil
+recruit_character = CHO_Yaxkin_Ajtznaabah
+recruit_character = CHO_Tohichen_Tzikin
+recruit_character = CHO_Tohichen_Bona
+recruit_character = CHO_Chichen_Zotzikin
+recruit_character = CHO_Pakan_Witzamna
+recruit_character = CHO_Ekchak_Zotz
+recruit_character = CHO_Tohil_Witznai
+recruit_character = CHO_Kukulkanek_Zotzikin
+recruit_character = CHO_Chichen_Naabahpu
+recruit_character = CHO_Itzam_Tzib
+recruit_character = CHO_Nacom_Zotz
+recruit_character = CHO_Acatl_Kancuen
+recruit_character = CHO_Chua_Bacolkal
+recruit_character = CHO_Nacom_Itzikin
+recruit_character = CHO_Bacatl_Aguate
+recruit_character = CHO_Bacatl_Witzik
+recruit_character = CHO_Kukulkan_Caracom
+recruit_character = CHO_Tohichen_Kate
+recruit_character = CHO_Chua_Kanil
+recruit_character = CHO_Ekchakal_Sakha
+recruit_character = CHO_Itzam_Noholkin
+recruit_character = CHO_Oxib_Kanil
+recruit_character = CHO_Kukulkan_Tzam
+recruit_character = CHO_Acab_Bonab
+recruit_character = CHO_Nacom_Halamna
+recruit_character = CHO_Ekchakal_Ahaktunilaco
+recruit_character = CHO_Bacatl_Sayilanil
+recruit_character = CHO_Popo_Imox
+recruit_character = CHO_Ekchakal_Kukulkaba
+recruit_character = CHO_Moctez_Kukulkaba
+recruit_character = CHO_Kukulkan_Akbe
+recruit_character = CHO_Ekchakal_Tzalomte
+recruit_character = CHO_Kukulkalam_Yalan
+recruit_character = CHO_Acab_Nohil
+recruit_character = CHO_Itzam_Tzol
+recruit_character = CHO_Tohichen_Bonab
+recruit_character = CHO_Moctez_Bakchichen
+recruit_character = CHO_Moctez_Nojil
+recruit_character = CHO_Popo_Nojil
+recruit_character = CHO_Itzam_Balahlak
+recruit_character = CHO_Kukulkanek_Tzam
+recruit_character = CHO_Chichen_Witznai
+recruit_character = CHO_Kukulkal_Oxlam
+recruit_character = CHO_Ekchichen_Xban
+recruit_character = CHO_Acab_Kanil
+recruit_character = CHO_Ahkin_Tzikin
+recruit_character = CHO_Nacom_Witzamna
+recruit_character = CHO_Tohil_Kabalakal
+recruit_character = CHO_Kukulkanek_Itzal
+recruit_character = CHO_Ekchichen_Chok
+recruit_character = CHO_Balam_Etzib
+recruit_character = CHO_Balam_Halamna
+recruit_character = CHO_Moctez_Ajtznaabah
+recruit_character = CHO_Ekchua_Kukulkaba
+recruit_character = CHO_Ekchichen_Katecab
+recruit_character = CHO_Kukulkalam_Chilam
+recruit_character = CHO_Moctez_Bahuwen
+recruit_character = CHO_Popo_Kate
+recruit_character = CHO_Chichen_Ahak
+recruit_character = CHO_Acatl_Sakha
+recruit_character = CHO_Tecun_Tzamna
+recruit_character = CHO_Ekchichen_Katecanquen
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 3
+set_convoys = 0
+set_stability = 0.62
+set_war_support = 0.41
+
+add_ideas = {
+limited_conscription
+civilian_economy
+autarkic_economy
+}
+
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1904.8.6"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 28
+	fascism = 7
+	communism = 17
+	neutrality = 48
+}
+
+
+
+
+

@@ -1,0 +1,37 @@
+
+state={
+	id=67
+	name="STATE_67"
+	manpower = 3071841
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=19
+		chromium=20
+		oil=14
+		rubber=0
+		steel=0
+		tungsten=19
+		coal=48
+	}
+
+	history={
+		
+		owner = SDA
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = SDA
+	}
+
+	provinces={
+		818 819 820 821 822 823 824 825 826 827 828 829 830 831 832 833 834 835 836 837 
+	}
+	local_supplies=0.0 
+}

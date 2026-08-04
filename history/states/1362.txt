@@ -1,0 +1,37 @@
+
+state={
+	id=1362
+	name="STATE_1362"
+	manpower = 3147959
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=3
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = XAL
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			dockyard = 1
+			
+		}
+		add_core_of = XAL
+	}
+
+	provinces={
+		15568 15569 15570 15571 15572 15573 15574 15575 15576 15577 15578 15579 15580 15581 15582 15583 
+	}
+	local_supplies=0.0 
+}

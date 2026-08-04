@@ -1,0 +1,37 @@
+
+state={
+	id=1066
+	name="STATE_1066"
+	manpower = 740331
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = HIK
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = HIK
+	}
+
+	provinces={
+		12271 12272 12273 12274 
+	}
+	local_supplies=0.0 
+}

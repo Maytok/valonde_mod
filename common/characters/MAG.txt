@@ -1,0 +1,1083 @@
+characters = {
+	MAG_Remus_Pagnus={
+		name="Remus Pagnus"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { veteran_anti_bolshevik  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MAG_Vibervius_Turrum={
+		name="Vibervius Turrum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAG_Vibervius_Turrum
+			traits = {	veteran_anti_bolshevik 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	MAG_Varcellius_Viturudax={
+		name="Varcellius Viturudax"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAG_Varcellius_Viturudax
+			traits = {	veteran_anti_bolshevik 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	MAG_Fabius_Deatus={
+		name="Fabius Deatus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAG_Fabius_Deatus
+			traits = {	right_industrialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	MAG_Longintus_Regnis={
+		name="Longintus Regnis"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAG_Longintus_Regnis
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	MAG_Aulius_Equa={
+		name="Aulius Equa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAG_Aulius_Equa
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	MAG_Marcellianus_Frum={
+		name="Marcellianus Frum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAG_Marcellianus_Frum
+			traits = {	veteran_anti_bolshevik 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	MAG_Nerius_Terae={
+		name="Nerius Terae"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAG_Nerius_Terae
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	MAG_Marcellianus_Caravia={
+		name="Marcellianus Caravia"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAG_Marcellianus_Caravia
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	MAG_Regulus_Aques={
+		name="Regulus Aques"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAG_Regulus_Aques
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	MAG_Decimus_Plum={
+		name="Decimus Plum"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAG_Decimus_Plum
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	MAG_Julianus_Solum={
+		name="Julianus Solum"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MAG_Julianus_Solum
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	MAG_Marcus_Hernima={
+		name="Marcus Hernima"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MAG_Marcus_Hernima
+			traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+
+	}
+	MAG_Quinus_Lunus={
+		name="Quinus Lunus"
+
+		advisor={
+			slot = air_chief
+			idea_token = MAG_Quinus_Lunus
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	MAG_Julus_Mura={
+		name="Julus Mura"
+
+		advisor={
+			slot = air_chief
+			idea_token = MAG_Julus_Mura
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	MAG_Horatius_Spes={
+		name="Horatius Spes"
+
+		advisor={
+			slot = high_command
+			idea_token = MAG_Horatius_Spes
+			traits = {	air_close_air_support_2 	}
+		}
+
+
+	}
+	MAG_Nonginus_Galatumbus={
+		name="Nonginus Galatumbus"
+
+		advisor={
+			slot = high_command
+			idea_token = MAG_Nonginus_Galatumbus
+			traits = {	air_naval_strike_1 	}
+		}
+
+
+	}
+	MAG_Publius_Arbilva={
+		name="Publius Arbilva"
+
+		advisor={
+			slot = high_command
+			idea_token = MAG_Publius_Arbilva
+			traits = {	air_airborne_2 	}
+		}
+
+
+	}
+	MAG_Atticus_Nobis={
+		name="Atticus Nobis"
+
+		advisor={
+			slot = high_command
+			idea_token = MAG_Atticus_Nobis
+			traits = {	navy_naval_air_defense_2 	}
+		}
+
+
+	}
+	MAG_Flavius_Centus={
+		name="Flavius Centus"
+
+		advisor={
+			slot = high_command
+			idea_token = MAG_Flavius_Centus
+			traits = {	army_entrenchment_1 	}
+		}
+
+
+	}
+	MAG_Atticus_Aerbumensulg={
+		name="Atticus Aerbumensulg"
+
+		advisor={
+			slot = high_command
+			idea_token = MAG_Atticus_Aerbumensulg
+			traits = {	air_close_air_support_1 	}
+		}
+
+
+	}
+	MAG_Vibius_Machinatus={
+		name="Vibius Machinatus"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { autokrator  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MAG_Spuriusus_Victor={
+		name="Spuriusus Victor"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAG_Spuriusus_Victor
+			traits = {	autocratic_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	MAG_Spuriusus_Solum={
+		name="Spuriusus Solum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAG_Spuriusus_Solum
+			traits = {	subservient_ultranationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	MAG_Manlianus_Tensarvus={
+		name="Manlianus Tensarvus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAG_Manlianus_Tensarvus
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	MAG_Attius_Frum={
+		name="Attius Frum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAG_Attius_Frum
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	MAG_Aulus_Popus={
+		name="Aulus Popus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAG_Aulus_Popus
+			traits = {	subservient_ultranationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	MAG_Varro_Victor={
+		name="Varro Victor"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAG_Varro_Victor
+			traits = {	subservient_ultranationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	MAG_Quintus_Radicium={
+		name="Quintus Radicium"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAG_Quintus_Radicium
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	MAG_Attius_Plumen={
+		name="Attius Plumen"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAG_Attius_Plumen
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	MAG_Nerius_Spes={
+		name="Nerius Spes"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAG_Nerius_Spes
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	MAG_Nonginus_Unita={
+		name="Nonginus Unita"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAG_Nonginus_Unita
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	MAG_Sero_Mura={
+		name="Sero Mura"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MAG_Sero_Mura
+			traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+
+	}
+	MAG_Marcus_Magnus={
+		name="Marcus Magnus"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MAG_Marcus_Magnus
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	MAG_Silvanus_Forpus={
+		name="Silvanus Forpus"
+
+		advisor={
+			slot = air_chief
+			idea_token = MAG_Silvanus_Forpus
+			traits = {	air_chief_all_weather_1 	}
+		}
+
+
+	}
+	MAG_Longintus_Plumen={
+		name="Longintus Plumen"
+
+		advisor={
+			slot = air_chief
+			idea_token = MAG_Longintus_Plumen
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	MAG_Domitellus_Victor={
+		name="Domitellus Victor"
+
+		advisor={
+			slot = high_command
+			idea_token = MAG_Domitellus_Victor
+			traits = {	air_bomber_interception_1 	}
+		}
+
+
+	}
+	MAG_Spuriscus_Macus={
+		name="Spuriscus Macus"
+
+		advisor={
+			slot = high_command
+			idea_token = MAG_Spuriscus_Macus
+			traits = {	navy_fleet_logistics_1 	}
+		}
+
+
+	}
+	MAG_Quintus_Scaes={
+		name="Quintus Scaes"
+
+		advisor={
+			slot = high_command
+			idea_token = MAG_Quintus_Scaes
+			traits = {	army_CombinedArms_1 	}
+		}
+
+
+	}
+	MAG_Longintus_Florta={
+		name="Longintus Florta"
+
+		advisor={
+			slot = high_command
+			idea_token = MAG_Longintus_Florta
+			traits = {	navy_carrier_2 	}
+		}
+
+
+	}
+	MAG_Varcellius_Arbilva={
+		name="Varcellius Arbilva"
+
+		advisor={
+			slot = high_command
+			idea_token = MAG_Varcellius_Arbilva
+			traits = {	air_air_superiority_2 	}
+		}
+
+
+	}
+	MAG_Lucimus_Solum={
+		name="Lucimus Solum"
+
+		advisor={
+			slot = high_command
+			idea_token = MAG_Lucimus_Solum
+			traits = {	navy_capital_ship_2 	}
+		}
+
+
+	}
+	MAG_Nerus_Equa={
+		name="Nerus Equa"
+
+		
+		country_leader={
+			ideology=leninism
+			traits = { leftist_independent  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MAG_Julius_Forpus={
+		name="Julius Forpus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAG_Julius_Forpus
+			traits = {	anti_bolshevik_leftist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	MAG_Liviustus_Flus={
+		name="Liviustus Flus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAG_Liviustus_Flus
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	MAG_Servius_Pagina={
+		name="Servius Pagina"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAG_Servius_Pagina
+			traits = {	revolutionary_poet 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	MAG_Gemitus_Terae={
+		name="Gemitus Terae"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAG_Gemitus_Terae
+			traits = {	devoted_marxist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	MAG_Longintus_Thea={
+		name="Longintus Thea"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAG_Longintus_Thea
+			traits = {	mastermind_code_cracker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	MAG_Manlianus_Caespus={
+		name="Manlianus Caespus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAG_Manlianus_Caespus
+			traits = {	political_dancer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	MAG_Gaianus_Lunus={
+		name="Gaianus Lunus"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAG_Gaianus_Lunus
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	MAG_Servius_Famal={
+		name="Servius Famal"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAG_Servius_Famal
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	MAG_Spurius_Philos={
+		name="Spurius Philos"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAG_Spurius_Philos
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	MAG_Flavius_Strus={
+		name="Flavius Strus"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAG_Flavius_Strus
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	MAG_Tibius_Paginciumena={
+		name="Tibius Paginciumena"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MAG_Tibius_Paginciumena
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	MAG_Decimus_Ratum={
+		name="Decimus Ratum"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MAG_Decimus_Ratum
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	MAG_Sextus_Caravia={
+		name="Sextus Caravia"
+
+		advisor={
+			slot = air_chief
+			idea_token = MAG_Sextus_Caravia
+			traits = {	air_chief_all_weather_1 	}
+		}
+
+
+	}
+	MAG_Varcus_Macus={
+		name="Varcus Macus"
+
+		advisor={
+			slot = air_chief
+			idea_token = MAG_Varcus_Macus
+			traits = {	air_chief_all_weather_2 	}
+		}
+
+
+	}
+	MAG_Nerius_Orbor={
+		name="Nerius Orbor"
+
+		advisor={
+			slot = high_command
+			idea_token = MAG_Nerius_Orbor
+			traits = {	navy_naval_air_defense_2 	}
+		}
+
+
+	}
+	MAG_Decimus_Pocus={
+		name="Decimus Pocus"
+
+		advisor={
+			slot = high_command
+			idea_token = MAG_Decimus_Pocus
+			traits = {	air_naval_strike_2 	}
+		}
+
+
+	}
+	MAG_Coracchus_Tena={
+		name="Coracchus Tena"
+
+		advisor={
+			slot = high_command
+			idea_token = MAG_Coracchus_Tena
+			traits = {	air_airborne_2 	}
+		}
+
+
+	}
+	MAG_Drutus_Stellaentus={
+		name="Drutus Stellaentus"
+
+		advisor={
+			slot = high_command
+			idea_token = MAG_Drutus_Stellaentus
+			traits = {	army_entrenchment_2 	}
+		}
+
+
+	}
+	MAG_Augulus_Belum={
+		name="Augulus Belum"
+
+		advisor={
+			slot = high_command
+			idea_token = MAG_Augulus_Belum
+			traits = {	air_pilot_training_1 	}
+		}
+
+
+	}
+	MAG_Valero_Radicium={
+		name="Valero Radicium"
+
+		advisor={
+			slot = high_command
+			idea_token = MAG_Valero_Radicium
+			traits = {	air_bomber_interception_1 	}
+		}
+
+
+	}
+	MAG_Sextus_Florta={
+		name="Sextus Florta"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { the_young_magnate  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MAG_Attius_Piscatrum={
+		name="Attius Piscatrum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAG_Attius_Piscatrum
+			traits = {	the_banker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	MAG_Reminus_Muructudax={
+		name="Reminus Muructudax"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAG_Reminus_Muructudax
+			traits = {	liberal_democratic_paragon 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	MAG_Atticus_Scaes={
+		name="Atticus Scaes"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAG_Atticus_Scaes
+			traits = {	leftist_legionary 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	MAG_Gemitus_Philos={
+		name="Gemitus Philos"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAG_Gemitus_Philos
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	MAG_Marcellius_Plumbus={
+		name="Marcellius Plumbus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAG_Marcellius_Plumbus
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	MAG_Varcellius_Piscatrum={
+		name="Varcellius Piscatrum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAG_Varcellius_Piscatrum
+			traits = {	democratic_crusader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	MAG_Flavius_Caesae={
+		name="Flavius Caesae"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAG_Flavius_Caesae
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	MAG_Julianus_Nobis={
+		name="Julianus Nobis"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAG_Julianus_Nobis
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	MAG_Reminus_Sonor={
+		name="Reminus Sonor"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAG_Reminus_Sonor
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	MAG_Marcellius_Strus={
+		name="Marcellius Strus"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAG_Marcellius_Strus
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	MAG_Cassius_Lunus={
+		name="Cassius Lunus"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MAG_Cassius_Lunus
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	MAG_Prius_Regnis={
+		name="Prius Regnis"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MAG_Prius_Regnis
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	MAG_Augus_Beluvis={
+		name="Augus Beluvis"
+
+		advisor={
+			slot = air_chief
+			idea_token = MAG_Augus_Beluvis
+			traits = {	air_chief_all_weather_2 	}
+		}
+
+
+	}
+	MAG_Sextus_Philis={
+		name="Sextus Philis"
+
+		advisor={
+			slot = air_chief
+			idea_token = MAG_Sextus_Philis
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	MAG_Vibervius_Lunus={
+		name="Vibervius Lunus"
+
+		advisor={
+			slot = high_command
+			idea_token = MAG_Vibervius_Lunus
+			traits = {	air_bomber_interception_1 	}
+		}
+
+
+	}
+	MAG_Valero_Foritas={
+		name="Valero Foritas"
+
+		advisor={
+			slot = high_command
+			idea_token = MAG_Valero_Foritas
+			traits = {	army_CombinedArms_2 	}
+		}
+
+
+	}
+	MAG_Spurius_Plumbus={
+		name="Spurius Plumbus"
+
+		advisor={
+			slot = high_command
+			idea_token = MAG_Spurius_Plumbus
+			traits = {	air_close_air_support_2 	}
+		}
+
+
+	}
+	MAG_Quinus_Gentus={
+		name="Quinus Gentus"
+
+		advisor={
+			slot = high_command
+			idea_token = MAG_Quinus_Gentus
+			traits = {	air_close_air_support_2 	}
+		}
+
+
+	}
+	MAG_Flaus_Aqua={
+		name="Flaus Aqua"
+
+		advisor={
+			slot = high_command
+			idea_token = MAG_Flaus_Aqua
+			traits = {	air_naval_strike_2 	}
+		}
+
+
+	}
+	MAG_Aulius_Caravia={
+		name="Aulius Caravia"
+
+		advisor={
+			slot = high_command
+			idea_token = MAG_Aulius_Caravia
+			traits = {	army_commando_1 	}
+		}
+
+
+	}
+	MAG_Manus_Lunus={
+		name="Manus Lunus"
+
+		advisor={
+			slot = theorist
+			idea_token = MAG_Manus_Lunus
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	MAG_Paudius_Aerbumensulg={
+		name="Paudius Aerbumensulg"
+
+		advisor={
+			slot = theorist
+			idea_token = MAG_Paudius_Aerbumensulg
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	MAG_Servius_Modes={
+		name="Servius Modes"
+
+		advisor={
+			slot = theorist
+			idea_token = MAG_Servius_Modes
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

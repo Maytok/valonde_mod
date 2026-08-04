@@ -1,0 +1,37 @@
+
+state={
+	id=1496
+	name="STATE_1496"
+	manpower = 2218835
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=6
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = MQC
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = MQC
+	}
+
+	provinces={
+		16879 16880 16881 16882 16883 16884 16885 16886 16887 16888 16889 16890 
+	}
+	local_supplies=0.0 
+}

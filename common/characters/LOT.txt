@@ -1,0 +1,1083 @@
+characters = {
+	LOT_Willem_Kopf={
+		name="Willem Kopf"
+
+		
+		country_leader={
+			ideology=moderatism
+			traits = { celebrity_junta_leader  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	LOT_Larann_Wiligsheiset={
+		name="Larann Wiligsheiset"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LOT_Larann_Wiligsheiset
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	LOT_Rolf_Kopf={
+		name="Rolf Kopf"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LOT_Rolf_Kopf
+			traits = {	agricultural_nationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	LOT_Ulrich_Bogenigen={
+		name="Ulrich Bogenigen"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LOT_Ulrich_Bogenigen
+			traits = {	veteran_anti_bolshevik 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	LOT_Kasparl_Koend={
+		name="Kasparl Koend"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LOT_Kasparl_Koend
+			traits = {	national_determinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	LOT_Knut_Bruft={
+		name="Knut Bruft"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LOT_Knut_Bruft
+			traits = {	right_industrialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	LOT_Erik_Runke={
+		name="Erik Runke"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LOT_Erik_Runke
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	LOT_Jann_Seise={
+		name="Jann Seise"
+
+		advisor={
+			slot = army_chief
+			idea_token = LOT_Jann_Seise
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	LOT_Franz_Kopf={
+		name="Franz Kopf"
+
+		advisor={
+			slot = army_chief
+			idea_token = LOT_Franz_Kopf
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	LOT_Franz_Frost={
+		name="Franz Frost"
+
+		advisor={
+			slot = army_chief
+			idea_token = LOT_Franz_Frost
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	LOT_Hansels_Baum={
+		name="Hansels Baum"
+
+		advisor={
+			slot = army_chief
+			idea_token = LOT_Hansels_Baum
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	LOT_Dirk_Frost={
+		name="Dirk Frost"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LOT_Dirk_Frost
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	LOT_Sigurd_Bucht={
+		name="Sigurd Bucht"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LOT_Sigurd_Bucht
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	LOT_Otthijs_Seille={
+		name="Otthijs Seille"
+
+		advisor={
+			slot = air_chief
+			idea_token = LOT_Otthijs_Seille
+			traits = {	air_chief_night_operations_2 	}
+		}
+
+
+	}
+	LOT_Hansels_Frost={
+		name="Hansels Frost"
+
+		advisor={
+			slot = air_chief
+			idea_token = LOT_Hansels_Frost
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	LOT_Nielm_Weise={
+		name="Nielm Weise"
+
+		advisor={
+			slot = high_command
+			idea_token = LOT_Nielm_Weise
+			traits = {	navy_naval_air_defense_1 	}
+		}
+
+
+	}
+	LOT_Sigurd_Stadter={
+		name="Sigurd Stadter"
+
+		advisor={
+			slot = high_command
+			idea_token = LOT_Sigurd_Stadter
+			traits = {	air_pilot_training_2 	}
+		}
+
+
+	}
+	LOT_Sven_Hilig={
+		name="Sven Hilig"
+
+		advisor={
+			slot = high_command
+			idea_token = LOT_Sven_Hilig
+			traits = {	army_infantry_1 	}
+		}
+
+
+	}
+	LOT_Thijs_Weitz={
+		name="Thijs Weitz"
+
+		advisor={
+			slot = high_command
+			idea_token = LOT_Thijs_Weitz
+			traits = {	air_airborne_1 	}
+		}
+
+
+	}
+	LOT_Ulrich_Bruderag={
+		name="Ulrich Bruderag"
+
+		advisor={
+			slot = high_command
+			idea_token = LOT_Ulrich_Bruderag
+			traits = {	army_artillery_1 	}
+		}
+
+
+	}
+	LOT_Niels_Greuecke={
+		name="Niels Greuecke"
+
+		advisor={
+			slot = high_command
+			idea_token = LOT_Niels_Greuecke
+			traits = {	army_entrenchment_2 	}
+		}
+
+
+	}
+	LOT_Erik_Weilbe={
+		name="Erik Weilbe"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { vapsid_economist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	LOT_Thijs_Weilbe={
+		name="Thijs Weilbe"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LOT_Thijs_Weilbe
+			traits = {	autocratic_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	LOT_Rold_Hitz={
+		name="Rold Hitz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LOT_Rold_Hitz
+			traits = {	generallissimo 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	LOT_Otthiaspar_Stras={
+		name="Otthiaspar Stras"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LOT_Otthiaspar_Stras
+			traits = {	autokrator 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	LOT_Svens_Schloster={
+		name="Svens Schloster"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LOT_Svens_Schloster
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	LOT_Erik_Boger={
+		name="Erik Boger"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LOT_Erik_Boger
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	LOT_Hansels_Volz={
+		name="Hansels Volz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LOT_Hansels_Volz
+			traits = {	basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	LOT_Bers_Golz={
+		name="Bers Golz"
+
+		advisor={
+			slot = army_chief
+			idea_token = LOT_Bers_Golz
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	LOT_Matto_Boger={
+		name="Matto Boger"
+
+		advisor={
+			slot = army_chief
+			idea_token = LOT_Matto_Boger
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	LOT_Bjorg_Tage={
+		name="Bjorg Tage"
+
+		advisor={
+			slot = army_chief
+			idea_token = LOT_Bjorg_Tage
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	LOT_Kaspars_Gest={
+		name="Kaspars Gest"
+
+		advisor={
+			slot = army_chief
+			idea_token = LOT_Kaspars_Gest
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	LOT_Wilhelmut_Eise={
+		name="Wilhelmut Eise"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LOT_Wilhelmut_Eise
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	LOT_Kasparl_Bruderag={
+		name="Kasparl Bruderag"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LOT_Kasparl_Bruderag
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	LOT_Otthijs_Trab={
+		name="Otthijs Trab"
+
+		advisor={
+			slot = air_chief
+			idea_token = LOT_Otthijs_Trab
+			traits = {	air_chief_all_weather_2 	}
+		}
+
+
+	}
+	LOT_Harl_Botsch={
+		name="Harl Botsch"
+
+		advisor={
+			slot = air_chief
+			idea_token = LOT_Harl_Botsch
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	LOT_Emillem_Krin={
+		name="Emillem Krin"
+
+		advisor={
+			slot = high_command
+			idea_token = LOT_Emillem_Krin
+			traits = {	army_artillery_1 	}
+		}
+
+
+	}
+	LOT_Frik_Sont={
+		name="Frik Sont"
+
+		advisor={
+			slot = high_command
+			idea_token = LOT_Frik_Sont
+			traits = {	air_airborne_1 	}
+		}
+
+
+	}
+	LOT_Wilhelmut_Lichwest={
+		name="Wilhelmut Lichwest"
+
+		advisor={
+			slot = high_command
+			idea_token = LOT_Wilhelmut_Lichwest
+			traits = {	air_pilot_training_2 	}
+		}
+
+
+	}
+	LOT_Wilhelmut_Stras={
+		name="Wilhelmut Stras"
+
+		advisor={
+			slot = high_command
+			idea_token = LOT_Wilhelmut_Stras
+			traits = {	navy_submarine_2 	}
+		}
+
+
+	}
+	LOT_Jann_Weise={
+		name="Jann Weise"
+
+		advisor={
+			slot = high_command
+			idea_token = LOT_Jann_Weise
+			traits = {	air_close_air_support_1 	}
+		}
+
+
+	}
+	LOT_Emilhelm_Weitz={
+		name="Emilhelm Weitz"
+
+		advisor={
+			slot = high_command
+			idea_token = LOT_Emilhelm_Weitz
+			traits = {	air_air_superiority_1 	}
+		}
+
+
+	}
+	LOT_Rich_Reis={
+		name="Rich Reis"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { mastermind_code_cracker  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	LOT_Sorenrik_Licht={
+		name="Sorenrik Licht"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LOT_Sorenrik_Licht
+			traits = {	anti_bolshevik_leftist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	LOT_Bjored_Weilbe={
+		name="Bjored Weilbe"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LOT_Bjored_Weilbe
+			traits = {	revolutionary_poet 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	LOT_Willem_Bogeld={
+		name="Willem Bogeld"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LOT_Willem_Bogeld
+			traits = {	socialist_justice 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	LOT_Hanz_Seille={
+		name="Hanz Seille"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LOT_Hanz_Seille
+			traits = {	socialist_justice 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	LOT_Nielm_Marster={
+		name="Nielm Marster"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LOT_Nielm_Marster
+			traits = {	socialist_justice 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	LOT_Oskars_Geste={
+		name="Oskars Geste"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LOT_Oskars_Geste
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	LOT_Hermans_Hitz={
+		name="Hermans Hitz"
+
+		advisor={
+			slot = army_chief
+			idea_token = LOT_Hermans_Hitz
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	LOT_Knus_Kraeuer={
+		name="Knus Kraeuer"
+
+		advisor={
+			slot = army_chief
+			idea_token = LOT_Knus_Kraeuer
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	LOT_Sven_Tonneelle={
+		name="Sven Tonneelle"
+
+		advisor={
+			slot = army_chief
+			idea_token = LOT_Sven_Tonneelle
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	LOT_Fran_Ehre={
+		name="Fran Ehre"
+
+		advisor={
+			slot = army_chief
+			idea_token = LOT_Fran_Ehre
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	LOT_Jens_Fest={
+		name="Jens Fest"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LOT_Jens_Fest
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	LOT_Andermans_Bott={
+		name="Andermans Bott"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LOT_Andermans_Bott
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	LOT_Emillem_Lichwese={
+		name="Emillem Lichwese"
+
+		advisor={
+			slot = air_chief
+			idea_token = LOT_Emillem_Lichwese
+			traits = {	air_chief_all_weather_2 	}
+		}
+
+
+	}
+	LOT_Jens_Trab={
+		name="Jens Trab"
+
+		advisor={
+			slot = air_chief
+			idea_token = LOT_Jens_Trab
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	LOT_Otthiaspar_Festurm={
+		name="Otthiaspar Festurm"
+
+		advisor={
+			slot = high_command
+			idea_token = LOT_Otthiaspar_Festurm
+			traits = {	army_concealment_1 	}
+		}
+
+
+	}
+	LOT_Kasparl_Wiligsheiset={
+		name="Kasparl Wiligsheiset"
+
+		advisor={
+			slot = high_command
+			idea_token = LOT_Kasparl_Wiligsheiset
+			traits = {	army_artillery_2 	}
+		}
+
+
+	}
+	LOT_Ulrich_Weise={
+		name="Ulrich Weise"
+
+		advisor={
+			slot = high_command
+			idea_token = LOT_Ulrich_Weise
+			traits = {	air_pilot_training_1 	}
+		}
+
+
+	}
+	LOT_Magnut_Licht={
+		name="Magnut Licht"
+
+		advisor={
+			slot = high_command
+			idea_token = LOT_Magnut_Licht
+			traits = {	army_commando_1 	}
+		}
+
+
+	}
+	LOT_Fritz_Heise={
+		name="Fritz Heise"
+
+		advisor={
+			slot = high_command
+			idea_token = LOT_Fritz_Heise
+			traits = {	navy_amphibious_assault_2 	}
+		}
+
+
+	}
+	LOT_Fritz_Ster={
+		name="Fritz Ster"
+
+		advisor={
+			slot = high_command
+			idea_token = LOT_Fritz_Ster
+			traits = {	air_strategic_bombing_1 	}
+		}
+
+
+	}
+	LOT_Reif_Dorfahr={
+		name="Reif Dorfahr"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { rearmer  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	LOT_Sorenrik_Heise={
+		name="Sorenrik Heise"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LOT_Sorenrik_Heise
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	LOT_Matthias_Horiegerdend={
+		name="Matthias Horiegerdend"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LOT_Matthias_Horiegerdend
+			traits = {	veteran_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	LOT_Franz_Tage={
+		name="Franz Tage"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LOT_Franz_Tage
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	LOT_Matto_Hern={
+		name="Matto Hern"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LOT_Matto_Hern
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	LOT_Soren_Stras={
+		name="Soren Stras"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LOT_Soren_Stras
+			traits = {	veteran_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	LOT_Oskarald_Koend={
+		name="Oskarald Koend"
+
+		advisor={
+			slot = political_advisor
+			idea_token = LOT_Oskarald_Koend
+			traits = {	the_banker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	LOT_Erik_Golz={
+		name="Erik Golz"
+
+		advisor={
+			slot = army_chief
+			idea_token = LOT_Erik_Golz
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	LOT_Niels_Weise={
+		name="Niels Weise"
+
+		advisor={
+			slot = army_chief
+			idea_token = LOT_Niels_Weise
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	LOT_Otthijs_Bruft={
+		name="Otthijs Bruft"
+
+		advisor={
+			slot = army_chief
+			idea_token = LOT_Otthijs_Bruft
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	LOT_Magnus_Festurm={
+		name="Magnus Festurm"
+
+		advisor={
+			slot = army_chief
+			idea_token = LOT_Magnus_Festurm
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	LOT_Henrichar_Kraeuer={
+		name="Henrichar Kraeuer"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LOT_Henrichar_Kraeuer
+			traits = {	navy_chief_reform_2 	}
+		}
+
+
+	}
+	LOT_Anselmut_Kapelt={
+		name="Anselmut Kapelt"
+
+		advisor={
+			slot = navy_chief
+			idea_token = LOT_Anselmut_Kapelt
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	LOT_Heinrik_Seise={
+		name="Heinrik Seise"
+
+		advisor={
+			slot = air_chief
+			idea_token = LOT_Heinrik_Seise
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	LOT_Ulrich_Ehre={
+		name="Ulrich Ehre"
+
+		advisor={
+			slot = air_chief
+			idea_token = LOT_Ulrich_Ehre
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	LOT_Frichars_Seise={
+		name="Frichars Seise"
+
+		advisor={
+			slot = high_command
+			idea_token = LOT_Frichars_Seise
+			traits = {	navy_amphibious_assault_2 	}
+		}
+
+
+	}
+	LOT_Niels_Geste={
+		name="Niels Geste"
+
+		advisor={
+			slot = high_command
+			idea_token = LOT_Niels_Geste
+			traits = {	army_entrenchment_1 	}
+		}
+
+
+	}
+	LOT_Dirik_Licht={
+		name="Dirik Licht"
+
+		advisor={
+			slot = high_command
+			idea_token = LOT_Dirik_Licht
+			traits = {	navy_anti_submarine_2 	}
+		}
+
+
+	}
+	LOT_Erik_Beiseriffeit={
+		name="Erik Beiseriffeit"
+
+		advisor={
+			slot = high_command
+			idea_token = LOT_Erik_Beiseriffeit
+			traits = {	army_artillery_1 	}
+		}
+
+
+	}
+	LOT_Anselm_Blum={
+		name="Anselm Blum"
+
+		advisor={
+			slot = high_command
+			idea_token = LOT_Anselm_Blum
+			traits = {	air_airborne_2 	}
+		}
+
+
+	}
+	LOT_Matthias_Bauben={
+		name="Matthias Bauben"
+
+		advisor={
+			slot = high_command
+			idea_token = LOT_Matthias_Bauben
+			traits = {	air_air_superiority_1 	}
+		}
+
+
+	}
+	LOT_Johar_Frost={
+		name="Johar Frost"
+
+		advisor={
+			slot = theorist
+			idea_token = LOT_Johar_Frost
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	LOT_Rudold_Weise={
+		name="Rudold Weise"
+
+		advisor={
+			slot = theorist
+			idea_token = LOT_Rudold_Weise
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	LOT_Emillem_Furg={
+		name="Emillem Furg"
+
+		advisor={
+			slot = theorist
+			idea_token = LOT_Emillem_Furg
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

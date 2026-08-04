@@ -1,0 +1,17 @@
+air_wings = {
+		240 = { 								
+		fighter_equipment_0 = { owner = "OPU" amount = 10 version_name = "Colorum Mk 1" }
+
+	}
+	694 = { 								
+		nav_bomber_equipment_0 = { owner = "OPU" amount = 13 version_name = "Lens Mk 0" }
+
+	}
+	233 = { 								
+		CAS_equipment_0 = { owner = "OPU" amount = 16 version_name = "Flum Mk 0" }
+tac_bomber_equipment_0 = { owner = "OPU" amount = 17 version_name = "Milva Mk 2" }
+
+	}
+
+
+}

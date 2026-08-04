@@ -1,0 +1,37 @@
+
+state={
+	id=864
+	name="STATE_864"
+	manpower = 1826863
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=20
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = BUM
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = BUM
+	}
+
+	provinces={
+		10046 10047 10048 10049 10050 10051 10052 10053 10054 10055 10056 
+	}
+	local_supplies=0.0 
+}

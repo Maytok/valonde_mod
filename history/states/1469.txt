@@ -1,0 +1,37 @@
+
+state={
+	id=1469
+	name="STATE_1469"
+	manpower = 1397589
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=12
+		chromium=13
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=12
+		coal=31
+	}
+
+	history={
+		
+		owner = HRA
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = HRA
+	}
+
+	provinces={
+		16713 16714 16715 16716 16717 16718 16719 16720 
+	}
+	local_supplies=0.0 
+}

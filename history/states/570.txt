@@ -1,0 +1,37 @@
+
+state={
+	id=570
+	name="STATE_570"
+	manpower = 5525435
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=15
+		chromium=16
+		oil=0
+		rubber=1
+		steel=0
+		tungsten=16
+		coal=39
+	}
+
+	history={
+		
+		owner = CES
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			
+		}
+		add_core_of = CES
+	}
+
+	provinces={
+		6692 6693 6694 6695 6696 6697 6698 6699 6700 6701 6702 6703 6704 6705 6706 6707 6708 6709 6710 6711 6712 6713 6714 6715 6716 6717 6718 6719 6720 6721 6722 6723 
+	}
+	local_supplies=0.0 
+}

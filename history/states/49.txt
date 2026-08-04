@@ -1,0 +1,37 @@
+
+state={
+	id=49
+	name="STATE_49"
+	manpower = 2792454
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=27
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = HIS
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			
+		}
+		add_core_of = HIS
+	}
+
+	provinces={
+		603 604 605 606 607 608 609 610 611 612 613 614 615 616 617 618 619 
+	}
+	local_supplies=0.0 
+}

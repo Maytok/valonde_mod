@@ -1,0 +1,37 @@
+
+state={
+	id=957
+	name="STATE_957"
+	manpower = 2022110
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = ZAU
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = ZAU
+	}
+
+	provinces={
+		10981 10982 10983 10984 10985 10986 10987 10988 10989 10990 10991 
+	}
+	local_supplies=0.0 
+}

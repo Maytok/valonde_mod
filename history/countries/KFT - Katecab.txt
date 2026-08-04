@@ -1,0 +1,477 @@
+capital = 649
+
+oob = "KFT_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "KFT_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "KFT_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	support_weapons= 1
+	tech_trucks= 1
+	tech_support= 1
+	infantry_weapons1= 1
+	marines= 1
+	motorised_infantry= 1
+	tech_engineers= 1
+	tech_military_police= 1
+	tech_maintenance_company= 1
+	electronic_mechanical_engineering= 1
+	basic_fire_control_system= 1
+	basic_fortification_tech= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+		basic_heavy_tank = 1
+		improved_light_tank = 1
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+		basic_heavy_tank_chassis = 1
+		engine_tech_1 = 1
+		armor_tech_1 = 1
+		improved_light_tank_chassis = 1
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+		create_equipment_variant = {
+		name = "Amortas Mk 0"
+		type = heavy_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = wet_ammo_storage
+			special_type_slot_2 = extra_ammo_storage
+			special_type_slot_3 = expanded_fuel_tank
+			suspension_type_slot = tank_interleaved_suspension
+			turret_type_slot = tank_heavy_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Viturudax Mk 1"
+		type = heavy_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = secondary_turret_small_cannon
+			special_type_slot_2 = extra_ammo_storage
+			special_type_slot_3 = expanded_fuel_tank
+			suspension_type_slot = tank_torsion_bar_suspension
+			turret_type_slot = tank_heavy_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Tabum Mk 1"
+		type = light_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_heavy_machine_gun
+			special_type_slot_1 = extra_ammo_storage
+			special_type_slot_3 = smoke_launchers
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_light_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Flum Mk 1"
+		type = light_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_heavy_machine_gun
+			special_type_slot_1 = secondary_turret_hmg
+			special_type_slot_3 = expanded_fuel_tank
+			suspension_type_slot = tank_christie_suspension
+			turret_type_slot = tank_light_one_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Porturraetas Mk 1"
+		type = light_tank_chassis_2
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_heavy_machine_gun
+			special_type_slot_1 = secondary_turret_hmg
+			special_type_slot_2 = wet_ammo_storage
+			special_type_slot_3 = smoke_launchers
+			suspension_type_slot = tank_interleaved_suspension
+			turret_type_slot = tank_light_fixed_superstructure_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Caespus Mk 1"
+		type = medium_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_medium_cannon
+			special_type_slot_1 = wet_ammo_storage
+			special_type_slot_3 = expanded_fuel_tank
+			suspension_type_slot = tank_torsion_bar_suspension
+			turret_type_slot = tank_medium_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "KFT_1936_air_bba"
+		set_technology = {
+			bba_early_transport_plane = 1
+			iw_small_airframe = 1
+			iw_medium_airframe = 1
+			early_bombs = 1
+			photo_reconnaisance = 1
+			air_torpedoe_1 = 1
+			aa_lmg = 1
+			armor_piercing_bombs = 1
+			iw_small_airframe = 1
+			
+		}
+		create_equipment_variant = {
+			name = "Radicium Mk 1"
+			type = small_plane_cas_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = bomb_locks
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Muructudax Mk 2"
+			type = small_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = light_mg_2x
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Vensare Mk 2"
+			type = small_plane_naval_bomber_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = torpedo_mounting
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Pravis Mk 2"
+			type = medium_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_2x
+			fixed_main_weapon_slot = medium_bomb_bay
+			special_type_slot_1 = lmg_defense_turret
+
+			}
+		}
+
+	else = {
+		set_air_oob = "KFT_1936_air_legacy"
+		set_technology = {
+			early_transport_plane = 1
+			early_fighter = 1
+			early_bomber = 1
+			CAS1 = 1
+			scout_plane1 = 1
+			naval_bomber1 = 1
+			early_fighter = 1
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	early_destroyer = 1
+	
+	}
+	set_naval_oob = "KFT_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Belum Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	early_ship_hull_light = 1
+	sonar = 1
+	
+	}
+	set_naval_oob = "KFT_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Belum Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = empty
+				rear_1_custom_slot = empty
+			}
+		}
+
+	}
+
+
+recruit_character = KFT_Paulus_Beluvis
+recruit_character = KFT_Antoniustus_Regnis
+recruit_character = KFT_Julius_Bellatus
+recruit_character = KFT_Regulus_Radicium
+recruit_character = KFT_Augulus_Temper
+recruit_character = KFT_Priscus_Viturudax
+recruit_character = KFT_Valervius_Vensare
+recruit_character = KFT_Remus_Famal
+recruit_character = KFT_Cassius_Frum
+recruit_character = KFT_Quintus_Flum
+recruit_character = KFT_Drutus_Prinator
+recruit_character = KFT_Antonius_Gentus
+recruit_character = KFT_Coracchus_Aqua
+recruit_character = KFT_Valervius_Sonor
+recruit_character = KFT_Atticus_Regnis
+recruit_character = KFT_Servius_Plumbus
+recruit_character = KFT_Nonginus_Equa
+recruit_character = KFT_Otho_Arbilva
+recruit_character = KFT_Publius_Turrum
+recruit_character = KFT_Cassius_Strus
+recruit_character = KFT_Gaianus_Thea
+recruit_character = KFT_Varcelius_Machillatium
+recruit_character = KFT_Decius_Ordo
+recruit_character = KFT_Quintus_Paginciumena
+recruit_character = KFT_Cassius_Victor
+recruit_character = KFT_Decius_Centus
+recruit_character = KFT_Livius_Gentus
+recruit_character = KFT_Varcellius_Modes
+recruit_character = KFT_Horatius_Vensare
+recruit_character = KFT_Fabius_Caespus
+recruit_character = KFT_Julianus_Anitrum
+recruit_character = KFT_Prius_Neginciument
+recruit_character = KFT_Attius_Strus
+recruit_character = KFT_Atticus_Semplus
+recruit_character = KFT_Aulus_Audex
+recruit_character = KFT_Tibius_Pocus
+recruit_character = KFT_Horatius_Bonus
+recruit_character = KFT_Spuriscus_Macus
+recruit_character = KFT_Nerius_Porturraetas
+recruit_character = KFT_Otho_Forpus
+recruit_character = KFT_Spurius_Tabum
+recruit_character = KFT_Livius_Flus
+recruit_character = KFT_Viberviusus_Patructum
+recruit_character = KFT_Varcelius_Philis
+recruit_character = KFT_Augus_Domentio
+recruit_character = KFT_Fabius_Forpus
+recruit_character = KFT_Prius_Famal
+recruit_character = KFT_Servius_Ordo
+recruit_character = KFT_Antoniustus_Ponsulum
+recruit_character = KFT_Faudius_Temides
+recruit_character = KFT_Longintus_Domentio
+recruit_character = KFT_Manlianus_Temper
+recruit_character = KFT_Liviustus_Deus
+recruit_character = KFT_Valero_Philis
+recruit_character = KFT_Severius_Macus
+recruit_character = KFT_Manus_Semplus
+recruit_character = KFT_Manlianus_Famma
+recruit_character = KFT_Tibius_Lunus
+recruit_character = KFT_Brus_Orbor
+recruit_character = KFT_Julus_Macus
+recruit_character = KFT_Julus_Venstia
+recruit_character = KFT_Julianus_Deatus
+recruit_character = KFT_Quinus_Modes
+recruit_character = KFT_Scaeverus_Temper
+recruit_character = KFT_Spurius_Arbilva
+recruit_character = KFT_Paudius_Ratortium
+recruit_character = KFT_Varcus_Unita
+recruit_character = KFT_Antoniustus_Victor
+recruit_character = KFT_Augus_Piscatrum
+recruit_character = KFT_Cassius_Turrum
+recruit_character = KFT_Nerus_Macus
+recruit_character = KFT_Domiticustus_Tensarvus
+recruit_character = KFT_Servius_Aques
+recruit_character = KFT_Varcus_Beluvis
+recruit_character = KFT_Spurius_Mentura
+recruit_character = KFT_Otho_Ordo
+recruit_character = KFT_Lucimus_Aqua
+recruit_character = KFT_Julianus_Patructum
+recruit_character = KFT_Sero_Muructudax
+recruit_character = KFT_Julus_Anitrum
+recruit_character = KFT_Prius_Ratortium
+recruit_character = KFT_Flavius_Patructum
+recruit_character = KFT_Sextus_Porturraetas
+recruit_character = KFT_Marcellianus_Tribernima
+recruit_character = KFT_Lucimus_Domentio
+recruit_character = KFT_Lucimus_Regnis
+recruit_character = KFT_Antonius_Venstia
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 4
+set_convoys = 0
+set_stability = 0.75
+set_war_support = 0.47
+
+add_ideas = {
+volunteer_only
+civilian_economy
+export_focus
+}
+
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1930.9.22"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 11
+	fascism = 30
+	communism = 27
+	neutrality = 32
+}
+
+
+
+
+

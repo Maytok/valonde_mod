@@ -1,0 +1,1083 @@
+characters = {
+	AJT_Tohichen_Chilacom={
+		name="Tohichen Chilacom"
+
+		
+		country_leader={
+			ideology=moderatism
+			traits = { first_lady  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	AJT_Pakan_Tzam={
+		name="Pakan Tzam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AJT_Pakan_Tzam
+			traits = {	agricultural_nationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	AJT_Itzam_Witzik={
+		name="Itzam Witzik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AJT_Itzam_Witzik
+			traits = {	veteran_anti_bolshevik 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	AJT_Nacatl_Tohok={
+		name="Nacatl Tohok"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AJT_Nacatl_Tohok
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	AJT_Bacom_Caracom={
+		name="Bacom Caracom"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AJT_Bacom_Caracom
+			traits = {	headstrong 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	AJT_Nacatl_Witzik={
+		name="Nacatl Witzik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AJT_Nacatl_Witzik
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	AJT_Acab_Mutal={
+		name="Acab Mutal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AJT_Acab_Mutal
+			traits = {	veteran_anti_bolshevik 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	AJT_Oxib_Tzalomte={
+		name="Oxib Tzalomte"
+
+		advisor={
+			slot = army_chief
+			idea_token = AJT_Oxib_Tzalomte
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	AJT_Nacatl_Chilaktunila={
+		name="Nacatl Chilaktunila"
+
+		advisor={
+			slot = army_chief
+			idea_token = AJT_Nacatl_Chilaktunila
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	AJT_Kukulkalam_Katuna={
+		name="Kukulkalam Katuna"
+
+		advisor={
+			slot = army_chief
+			idea_token = AJT_Kukulkalam_Katuna
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	AJT_Acab_Kanil={
+		name="Acab Kanil"
+
+		advisor={
+			slot = army_chief
+			idea_token = AJT_Acab_Kanil
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	AJT_Ekchichen_Tzol={
+		name="Ekchichen Tzol"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AJT_Ekchichen_Tzol
+			traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+
+	}
+	AJT_Pakan_Noholkin={
+		name="Pakan Noholkin"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AJT_Pakan_Noholkin
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	AJT_Kukulkalam_Kabalakal={
+		name="Kukulkalam Kabalakal"
+
+		advisor={
+			slot = air_chief
+			idea_token = AJT_Kukulkalam_Kabalakal
+			traits = {	air_chief_all_weather_2 	}
+		}
+
+
+	}
+	AJT_Acab_Ajpu={
+		name="Acab Ajpu"
+
+		advisor={
+			slot = air_chief
+			idea_token = AJT_Acab_Ajpu
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	AJT_Popo_Cozumel={
+		name="Popo Cozumel"
+
+		advisor={
+			slot = high_command
+			idea_token = AJT_Popo_Cozumel
+			traits = {	air_strategic_bombing_2 	}
+		}
+
+
+	}
+	AJT_Bacom_Ahaktunilaco={
+		name="Bacom Ahaktunilaco"
+
+		advisor={
+			slot = high_command
+			idea_token = AJT_Bacom_Ahaktunilaco
+			traits = {	army_cavalry_1 	}
+		}
+
+
+	}
+	AJT_Kukulkal_Xban={
+		name="Kukulkal Xban"
+
+		advisor={
+			slot = high_command
+			idea_token = AJT_Kukulkal_Xban
+			traits = {	navy_carrier_1 	}
+		}
+
+
+	}
+	AJT_Acatl_Mutal={
+		name="Acatl Mutal"
+
+		advisor={
+			slot = high_command
+			idea_token = AJT_Acatl_Mutal
+			traits = {	navy_carrier_2 	}
+		}
+
+
+	}
+	AJT_Chua_Ajpu={
+		name="Chua Ajpu"
+
+		advisor={
+			slot = high_command
+			idea_token = AJT_Chua_Ajpu
+			traits = {	navy_amphibious_assault_2 	}
+		}
+
+
+	}
+	AJT_Pakal_Ajtznaabah={
+		name="Pakal Ajtznaabah"
+
+		advisor={
+			slot = high_command
+			idea_token = AJT_Pakal_Ajtznaabah
+			traits = {	air_air_superiority_1 	}
+		}
+
+
+	}
+	AJT_Bacom_Bona={
+		name="Bacom Bona"
+
+		
+		country_leader={
+			ideology=nazism
+			traits = { inexperienced_imperialist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	AJT_Moctez_Chichenquen={
+		name="Moctez Chichenquen"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AJT_Moctez_Chichenquen
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	AJT_Kukulkalam_Kancuen={
+		name="Kukulkalam Kancuen"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AJT_Kukulkalam_Kancuen
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	AJT_Kanek_Naabahpu={
+		name="Kanek Naabahpu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AJT_Kanek_Naabahpu
+			traits = {	militant_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	AJT_Popo_Xban={
+		name="Popo Xban"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AJT_Popo_Xban
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	AJT_Kukulkal_Balahlak={
+		name="Kukulkal Balahlak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AJT_Kukulkal_Balahlak
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	AJT_Kanek_Bonab={
+		name="Kanek Bonab"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AJT_Kanek_Bonab
+			traits = {	archon_basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	AJT_Kukulkanek_Witzik={
+		name="Kukulkanek Witzik"
+
+		advisor={
+			slot = army_chief
+			idea_token = AJT_Kukulkanek_Witzik
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	AJT_Nacom_Ajpu={
+		name="Nacom Ajpu"
+
+		advisor={
+			slot = army_chief
+			idea_token = AJT_Nacom_Ajpu
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	AJT_Ekchakal_Zotz={
+		name="Ekchakal Zotz"
+
+		advisor={
+			slot = army_chief
+			idea_token = AJT_Ekchakal_Zotz
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	AJT_Itzam_Halam={
+		name="Itzam Halam"
+
+		advisor={
+			slot = army_chief
+			idea_token = AJT_Itzam_Halam
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	AJT_Bacom_Balan={
+		name="Bacom Balan"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AJT_Bacom_Balan
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	AJT_Popo_Chilacom={
+		name="Popo Chilacom"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AJT_Popo_Chilacom
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	AJT_Nacatl_Kancuen={
+		name="Nacatl Kancuen"
+
+		advisor={
+			slot = air_chief
+			idea_token = AJT_Nacatl_Kancuen
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	AJT_Pakal_Zotzaman={
+		name="Pakal Zotzaman"
+
+		advisor={
+			slot = air_chief
+			idea_token = AJT_Pakal_Zotzaman
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	AJT_Chichen_Tzam={
+		name="Chichen Tzam"
+
+		advisor={
+			slot = high_command
+			idea_token = AJT_Chichen_Tzam
+			traits = {	air_strategic_bombing_2 	}
+		}
+
+
+	}
+	AJT_Ekchua_Chichenquen={
+		name="Ekchua Chichenquen"
+
+		advisor={
+			slot = high_command
+			idea_token = AJT_Ekchua_Chichenquen
+			traits = {	army_artillery_1 	}
+		}
+
+
+	}
+	AJT_Chichen_Nahuatun={
+		name="Chichen Nahuatun"
+
+		advisor={
+			slot = high_command
+			idea_token = AJT_Chichen_Nahuatun
+			traits = {	air_airborne_1 	}
+		}
+
+
+	}
+	AJT_Ekchichen_Kukulkaba={
+		name="Ekchichen Kukulkaba"
+
+		advisor={
+			slot = high_command
+			idea_token = AJT_Ekchichen_Kukulkaba
+			traits = {	army_artillery_1 	}
+		}
+
+
+	}
+	AJT_Kanek_Bonah={
+		name="Kanek Bonah"
+
+		advisor={
+			slot = high_command
+			idea_token = AJT_Kanek_Bonah
+			traits = {	navy_naval_air_defense_2 	}
+		}
+
+
+	}
+	AJT_Acab_Ahak={
+		name="Acab Ahak"
+
+		advisor={
+			slot = high_command
+			idea_token = AJT_Acab_Ahak
+			traits = {	navy_anti_submarine_2 	}
+		}
+
+
+	}
+	AJT_Yaxkin_Mutal={
+		name="Yaxkin Mutal"
+
+		
+		country_leader={
+			ideology=stalinism
+			traits = { revolutionary_poet  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	AJT_Kukulkanek_Kate={
+		name="Kukulkanek Kate"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AJT_Kukulkanek_Kate
+			traits = {	patriotic_socialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	AJT_Bacatl_Halamna={
+		name="Bacatl Halamna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AJT_Bacatl_Halamna
+			traits = {	leftist_intellectual 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	AJT_Acab_Balahlak={
+		name="Acab Balahlak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AJT_Acab_Balahlak
+			traits = {	leftist_intellectual 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	AJT_Acab_Katecanquen={
+		name="Acab Katecanquen"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AJT_Acab_Katecanquen
+			traits = {	patriotic_socialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	AJT_Itzam_Chilacom={
+		name="Itzam Chilacom"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AJT_Itzam_Chilacom
+			traits = {	political_dancer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	AJT_Chichen_Ahaktunilaco={
+		name="Chichen Ahaktunilaco"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AJT_Chichen_Ahaktunilaco
+			traits = {	devoted_marxist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	AJT_Popo_Nojil={
+		name="Popo Nojil"
+
+		advisor={
+			slot = army_chief
+			idea_token = AJT_Popo_Nojil
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	AJT_Balam_Yaxun={
+		name="Balam Yaxun"
+
+		advisor={
+			slot = army_chief
+			idea_token = AJT_Balam_Yaxun
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	AJT_Tecun_Halam={
+		name="Tecun Halam"
+
+		advisor={
+			slot = army_chief
+			idea_token = AJT_Tecun_Halam
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	AJT_Nacom_Oxlam={
+		name="Nacom Oxlam"
+
+		advisor={
+			slot = army_chief
+			idea_token = AJT_Nacom_Oxlam
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	AJT_Bacom_Aguate={
+		name="Bacom Aguate"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AJT_Bacom_Aguate
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	AJT_Pakan_Tunabalancue={
+		name="Pakan Tunabalancue"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AJT_Pakan_Tunabalancue
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	AJT_Ekchak_Yaxch={
+		name="Ekchak Yaxch"
+
+		advisor={
+			slot = air_chief
+			idea_token = AJT_Ekchak_Yaxch
+			traits = {	air_chief_all_weather_2 	}
+		}
+
+
+	}
+	AJT_Popo_Tzib={
+		name="Popo Tzib"
+
+		advisor={
+			slot = air_chief
+			idea_token = AJT_Popo_Tzib
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	AJT_Pakan_Cobah={
+		name="Pakan Cobah"
+
+		advisor={
+			slot = high_command
+			idea_token = AJT_Pakan_Cobah
+			traits = {	army_concealment_1 	}
+		}
+
+
+	}
+	AJT_Kukulkalam_Ahaktunilaco={
+		name="Kukulkalam Ahaktunilaco"
+
+		advisor={
+			slot = high_command
+			idea_token = AJT_Kukulkalam_Ahaktunilaco
+			traits = {	army_CombinedArms_1 	}
+		}
+
+
+	}
+	AJT_Kanek_Witznai={
+		name="Kanek Witznai"
+
+		advisor={
+			slot = high_command
+			idea_token = AJT_Kanek_Witznai
+			traits = {	navy_capital_ship_1 	}
+		}
+
+
+	}
+	AJT_Acab_Tzikin={
+		name="Acab Tzikin"
+
+		advisor={
+			slot = high_command
+			idea_token = AJT_Acab_Tzikin
+			traits = {	army_regrouping_2 	}
+		}
+
+
+	}
+	AJT_Itzam_Bacolkal={
+		name="Itzam Bacolkal"
+
+		advisor={
+			slot = high_command
+			idea_token = AJT_Itzam_Bacolkal
+			traits = {	air_naval_strike_1 	}
+		}
+
+
+	}
+	AJT_Bacatl_Naabahpu={
+		name="Bacatl Naabahpu"
+
+		advisor={
+			slot = high_command
+			idea_token = AJT_Bacatl_Naabahpu
+			traits = {	navy_naval_air_defense_1 	}
+		}
+
+
+	}
+	AJT_Oxib_Tzikin={
+		name="Oxib Tzikin"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { veteran_minister  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	AJT_Nacatl_Sayilanil={
+		name="Nacatl Sayilanil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AJT_Nacatl_Sayilanil
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	AJT_Nacatl_Ajtznaabah={
+		name="Nacatl Ajtznaabah"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AJT_Nacatl_Ajtznaabah
+			traits = {	the_banker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	AJT_Acatl_Halamna={
+		name="Acatl Halamna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AJT_Acatl_Halamna
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	AJT_Nacatl_Tzikin={
+		name="Nacatl Tzikin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AJT_Nacatl_Tzikin
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	AJT_Ahkin_Chok={
+		name="Ahkin Chok"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AJT_Ahkin_Chok
+			traits = {	conservative_grandee 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	AJT_Ekchua_Kabalakal={
+		name="Ekchua Kabalakal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AJT_Ekchua_Kabalakal
+			traits = {	rearmer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	AJT_Itzam_Tohok={
+		name="Itzam Tohok"
+
+		advisor={
+			slot = army_chief
+			idea_token = AJT_Itzam_Tohok
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	AJT_Ekchak_Chilam={
+		name="Ekchak Chilam"
+
+		advisor={
+			slot = army_chief
+			idea_token = AJT_Ekchak_Chilam
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	AJT_Acab_Bacolkal={
+		name="Acab Bacolkal"
+
+		advisor={
+			slot = army_chief
+			idea_token = AJT_Acab_Bacolkal
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	AJT_Ekchak_Haaba={
+		name="Ekchak Haaba"
+
+		advisor={
+			slot = army_chief
+			idea_token = AJT_Ekchak_Haaba
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	AJT_Nacom_Etzib={
+		name="Nacom Etzib"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AJT_Nacom_Etzib
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	AJT_Acatl_Katecanquen={
+		name="Acatl Katecanquen"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AJT_Acatl_Katecanquen
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	AJT_Balam_Bacolkal={
+		name="Balam Bacolkal"
+
+		advisor={
+			slot = air_chief
+			idea_token = AJT_Balam_Bacolkal
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	AJT_Tecun_Tzikin={
+		name="Tecun Tzikin"
+
+		advisor={
+			slot = air_chief
+			idea_token = AJT_Tecun_Tzikin
+			traits = {	air_chief_night_operations_2 	}
+		}
+
+
+	}
+	AJT_Ekchak_Katecanquen={
+		name="Ekchak Katecanquen"
+
+		advisor={
+			slot = high_command
+			idea_token = AJT_Ekchak_Katecanquen
+			traits = {	army_regrouping_2 	}
+		}
+
+
+	}
+	AJT_Ekchua_Ajawakmul={
+		name="Ekchua Ajawakmul"
+
+		advisor={
+			slot = high_command
+			idea_token = AJT_Ekchua_Ajawakmul
+			traits = {	army_logistics_2 	}
+		}
+
+
+	}
+	AJT_Kukulkanek_Halamna={
+		name="Kukulkanek Halamna"
+
+		advisor={
+			slot = high_command
+			idea_token = AJT_Kukulkanek_Halamna
+			traits = {	navy_amphibious_assault_1 	}
+		}
+
+
+	}
+	AJT_Moctez_Tzol={
+		name="Moctez Tzol"
+
+		advisor={
+			slot = high_command
+			idea_token = AJT_Moctez_Tzol
+			traits = {	army_regrouping_1 	}
+		}
+
+
+	}
+	AJT_Tecun_Kabalakal={
+		name="Tecun Kabalakal"
+
+		advisor={
+			slot = high_command
+			idea_token = AJT_Tecun_Kabalakal
+			traits = {	air_airborne_2 	}
+		}
+
+
+	}
+	AJT_Nacom_Nahuatun={
+		name="Nacom Nahuatun"
+
+		advisor={
+			slot = high_command
+			idea_token = AJT_Nacom_Nahuatun
+			traits = {	army_concealment_1 	}
+		}
+
+
+	}
+	AJT_Acab_Nahuatun={
+		name="Acab Nahuatun"
+
+		advisor={
+			slot = theorist
+			idea_token = AJT_Acab_Nahuatun
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	AJT_Bacatl_Ahak={
+		name="Bacatl Ahak"
+
+		advisor={
+			slot = theorist
+			idea_token = AJT_Bacatl_Ahak
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	AJT_Chichen_Witzik={
+		name="Chichen Witzik"
+
+		advisor={
+			slot = theorist
+			idea_token = AJT_Chichen_Witzik
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

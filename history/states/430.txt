@@ -1,0 +1,37 @@
+
+state={
+	id=430
+	name="STATE_430"
+	manpower = 1617470
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=2
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = FRE
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = FRE
+	}
+
+	provinces={
+		4977 4978 4979 4980 4981 4982 4983 4984 4985 
+	}
+	local_supplies=0.0 
+}

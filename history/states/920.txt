@@ -1,0 +1,37 @@
+
+state={
+	id=920
+	name="STATE_920"
+	manpower = 139102
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = AJT
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = AJT
+	}
+
+	provinces={
+		10652 10653 10654 10655 10656 10657 10658 10659 10660 10661 
+	}
+	local_supplies=0.0 
+}

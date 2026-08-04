@@ -1,0 +1,37 @@
+
+state={
+	id=709
+	name="STATE_709"
+	manpower = 1816245
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=18
+		chromium=19
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=18
+		coal=46
+	}
+
+	history={
+		
+		owner = BUM
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = BUM
+	}
+
+	provinces={
+		8235 8236 8237 8238 8239 8240 8241 8242 8243 8244 
+	}
+	local_supplies=0.0 
+}

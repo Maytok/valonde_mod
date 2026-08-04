@@ -1,0 +1,9 @@
+air_wings = {
+		896 = { 								
+		fighter_equipment_0 = { owner = "DUE" amount = 18 version_name = "Nasa Mk 0" }
+nav_bomber_equipment_0 = { owner = "DUE" amount = 5 version_name = "Shamaria Mk 0" }
+
+	}
+
+
+}

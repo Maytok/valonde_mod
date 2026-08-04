@@ -1,0 +1,37 @@
+
+state={
+	id=242
+	name="STATE_242"
+	manpower = 1482569
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=2
+		rubber=0
+		steel=41
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = FRE
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = FRE
+	}
+
+	provinces={
+		2817 2818 2819 2820 2821 2822 2823 2824 2825 2826 2827 2828 2829 2830 2831 
+	}
+	local_supplies=0.0 
+}

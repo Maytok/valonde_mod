@@ -1,0 +1,1083 @@
+characters = {
+	NHA_Omarid_Doharb={
+		name="Omarid Doharb"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { staunch_aristocrat  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	NHA_Yahim_Muna={
+		name="Yahim Muna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NHA_Yahim_Muna
+			traits = {	humble 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	NHA_Mohami_Basrasra={
+		name="Mohami Basrasra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NHA_Mohami_Basrasra
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	NHA_Nabilal_Muna={
+		name="Nabilal Muna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NHA_Nabilal_Muna
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	NHA_Jammed_Hija={
+		name="Jammed Hija"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NHA_Jammed_Hija
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	NHA_Nabilali_Khaman={
+		name="Nabilali Khaman"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NHA_Nabilali_Khaman
+			traits = {	agricultural_capitalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	NHA_Samza_Sahraba={
+		name="Samza Sahraba"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NHA_Samza_Sahraba
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	NHA_Fariq_Hazn={
+		name="Fariq Hazn"
+
+		advisor={
+			slot = army_chief
+			idea_token = NHA_Fariq_Hazn
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	NHA_Omar_Khaml={
+		name="Omar Khaml"
+
+		advisor={
+			slot = army_chief
+			idea_token = NHA_Omar_Khaml
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	NHA_Yusuf_Muna={
+		name="Yusuf Muna"
+
+		advisor={
+			slot = army_chief
+			idea_token = NHA_Yusuf_Muna
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	NHA_Omar_Hijraka={
+		name="Omar Hijraka"
+
+		advisor={
+			slot = army_chief
+			idea_token = NHA_Omar_Hijraka
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	NHA_Imran_Sham={
+		name="Imran Sham"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NHA_Imran_Sham
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	NHA_Faisan_Makech={
+		name="Faisan Makech"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NHA_Faisan_Makech
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	NHA_Mohal_Kitariq={
+		name="Mohal Kitariq"
+
+		advisor={
+			slot = air_chief
+			idea_token = NHA_Mohal_Kitariq
+			traits = {	air_chief_night_operations_2 	}
+		}
+
+
+	}
+	NHA_Jamir_Reej={
+		name="Jamir Reej"
+
+		advisor={
+			slot = air_chief
+			idea_token = NHA_Jamir_Reej
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	NHA_Majid_Sanamt={
+		name="Majid Sanamt"
+
+		advisor={
+			slot = high_command
+			idea_token = NHA_Majid_Sanamt
+			traits = {	navy_capital_ship_1 	}
+		}
+
+
+	}
+	NHA_Hassan_Hikmalaktasa={
+		name="Hassan Hikmalaktasa"
+
+		advisor={
+			slot = high_command
+			idea_token = NHA_Hassan_Hikmalaktasa
+			traits = {	army_regrouping_1 	}
+		}
+
+
+	}
+	NHA_Mohal_Darasjidda={
+		name="Mohal Darasjidda"
+
+		advisor={
+			slot = high_command
+			idea_token = NHA_Mohal_Darasjidda
+			traits = {	army_armored_1 	}
+		}
+
+
+	}
+	NHA_Hassal_Ghur={
+		name="Hassal Ghur"
+
+		advisor={
+			slot = high_command
+			idea_token = NHA_Hassal_Ghur
+			traits = {	air_pilot_training_2 	}
+		}
+
+
+	}
+	NHA_Omarid_Sahraba={
+		name="Omarid Sahraba"
+
+		advisor={
+			slot = high_command
+			idea_token = NHA_Omarid_Sahraba
+			traits = {	navy_naval_air_defense_2 	}
+		}
+
+
+	}
+	NHA_Khami_Narab={
+		name="Khami Narab"
+
+		advisor={
+			slot = high_command
+			idea_token = NHA_Khami_Narab
+			traits = {	army_regrouping_2 	}
+		}
+
+
+	}
+	NHA_Mohami_Shaqafa={
+		name="Mohami Shaqafa"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { autokrator  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	NHA_Ibrahim_Shibl={
+		name="Ibrahim Shibl"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NHA_Ibrahim_Shibl
+			traits = {	spirit_of_genghis 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	NHA_Hassal_Saabr={
+		name="Hassal Saabr"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NHA_Hassal_Saabr
+			traits = {	subservient_ultranationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	NHA_Zaisan_Shana={
+		name="Zaisan Shana"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NHA_Zaisan_Shana
+			traits = {	generallissimo 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	NHA_Yahim_Sharitaadi={
+		name="Yahim Sharitaadi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NHA_Yahim_Sharitaadi
+			traits = {	spirit_of_genghis 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	NHA_Sami_Shayatina={
+		name="Sami Shayatina"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NHA_Sami_Shayatina
+			traits = {	inexperienced_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	NHA_Zaisan_Hijraka={
+		name="Zaisan Hijraka"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NHA_Zaisan_Hijraka
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	NHA_Imran_Tharikma={
+		name="Imran Tharikma"
+
+		advisor={
+			slot = army_chief
+			idea_token = NHA_Imran_Tharikma
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	NHA_Bilah_Khaml={
+		name="Bilah Khaml"
+
+		advisor={
+			slot = army_chief
+			idea_token = NHA_Bilah_Khaml
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	NHA_Faid_Tifl={
+		name="Faid Tifl"
+
+		advisor={
+			slot = army_chief
+			idea_token = NHA_Faid_Tifl
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	NHA_Abdullal_Diwat={
+		name="Abdullal Diwat"
+
+		advisor={
+			slot = army_chief
+			idea_token = NHA_Abdullal_Diwat
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	NHA_Nabil_Noum={
+		name="Nabil Noum"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NHA_Nabil_Noum
+			traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+
+	}
+	NHA_Jami_Masra={
+		name="Jami Masra"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NHA_Jami_Masra
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	NHA_Yahim_Yemen={
+		name="Yahim Yemen"
+
+		advisor={
+			slot = air_chief
+			idea_token = NHA_Yahim_Yemen
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	NHA_Omal_Reej={
+		name="Omal Reej"
+
+		advisor={
+			slot = air_chief
+			idea_token = NHA_Omal_Reej
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	NHA_Khammed_Thalb={
+		name="Khammed Thalb"
+
+		advisor={
+			slot = high_command
+			idea_token = NHA_Khammed_Thalb
+			traits = {	army_concealment_1 	}
+		}
+
+
+	}
+	NHA_Yahmal_Fajd={
+		name="Yahmal Fajd"
+
+		advisor={
+			slot = high_command
+			idea_token = NHA_Yahmal_Fajd
+			traits = {	air_pilot_training_1 	}
+		}
+
+
+	}
+	NHA_Majid_Qadi={
+		name="Majid Qadi"
+
+		advisor={
+			slot = high_command
+			idea_token = NHA_Majid_Qadi
+			traits = {	air_air_superiority_1 	}
+		}
+
+
+	}
+	NHA_Samza_Hajaz={
+		name="Samza Hajaz"
+
+		advisor={
+			slot = high_command
+			idea_token = NHA_Samza_Hajaz
+			traits = {	navy_screen_2 	}
+		}
+
+
+	}
+	NHA_Faid_Amirasrabib={
+		name="Faid Amirasrabib"
+
+		advisor={
+			slot = high_command
+			idea_token = NHA_Faid_Amirasrabib
+			traits = {	army_regrouping_2 	}
+		}
+
+
+	}
+	NHA_Hassan_Shibl={
+		name="Hassan Shibl"
+
+		advisor={
+			slot = high_command
+			idea_token = NHA_Hassan_Shibl
+			traits = {	army_entrenchment_2 	}
+		}
+
+
+	}
+	NHA_Ahmoud_Irabil={
+		name="Ahmoud Irabil"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { revolutionary_poet  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	NHA_Ahmoud_Maml={
+		name="Ahmoud Maml"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NHA_Ahmoud_Maml
+			traits = {	leftist_independent 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	NHA_Faisal_Masjidda={
+		name="Faisal Masjidda"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NHA_Faisal_Masjidda
+			traits = {	indomitable_perseverance 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	NHA_Faisan_Harda={
+		name="Faisan Harda"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NHA_Faisan_Harda
+			traits = {	leftist_intellectual 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	NHA_Nabilali_Masra={
+		name="Nabilali Masra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NHA_Nabilali_Masra
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	NHA_Khammed_Kutub={
+		name="Khammed Kutub"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NHA_Khammed_Kutub
+			traits = {	mastermind_code_cracker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	NHA_Faid_Asat={
+		name="Faid Asat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NHA_Faid_Asat
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	NHA_Mohal_Rawat={
+		name="Mohal Rawat"
+
+		advisor={
+			slot = army_chief
+			idea_token = NHA_Mohal_Rawat
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	NHA_Nabilali_Ramanzim={
+		name="Nabilali Ramanzim"
+
+		advisor={
+			slot = army_chief
+			idea_token = NHA_Nabilali_Ramanzim
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	NHA_Anwarid_Maghrahr={
+		name="Anwarid Maghrahr"
+
+		advisor={
+			slot = army_chief
+			idea_token = NHA_Anwarid_Maghrahr
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	NHA_Rammed_Sahraba={
+		name="Rammed Sahraba"
+
+		advisor={
+			slot = army_chief
+			idea_token = NHA_Rammed_Sahraba
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	NHA_Omar_Saadin={
+		name="Omar Saadin"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NHA_Omar_Saadin
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	NHA_Khammed_Shabala={
+		name="Khammed Shabala"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NHA_Khammed_Shabala
+			traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+
+	}
+	NHA_Imran_Basrasra={
+		name="Imran Basrasra"
+
+		advisor={
+			slot = air_chief
+			idea_token = NHA_Imran_Basrasra
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	NHA_Hassali_Mawda={
+		name="Hassali Mawda"
+
+		advisor={
+			slot = air_chief
+			idea_token = NHA_Hassali_Mawda
+			traits = {	air_chief_all_weather_1 	}
+		}
+
+
+	}
+	NHA_Khami_Nizam={
+		name="Khami Nizam"
+
+		advisor={
+			slot = high_command
+			idea_token = NHA_Khami_Nizam
+			traits = {	army_logistics_1 	}
+		}
+
+
+	}
+	NHA_Bilal_Yemen={
+		name="Bilal Yemen"
+
+		advisor={
+			slot = high_command
+			idea_token = NHA_Bilal_Yemen
+			traits = {	army_infantry_1 	}
+		}
+
+
+	}
+	NHA_Ibrah_Mawkana={
+		name="Ibrah Mawkana"
+
+		advisor={
+			slot = high_command
+			idea_token = NHA_Ibrah_Mawkana
+			traits = {	army_regrouping_1 	}
+		}
+
+
+	}
+	NHA_Sami_Shaqq={
+		name="Sami Shaqq"
+
+		advisor={
+			slot = high_command
+			idea_token = NHA_Sami_Shaqq
+			traits = {	air_close_air_support_2 	}
+		}
+
+
+	}
+	NHA_Khami_Ramanzim={
+		name="Khami Ramanzim"
+
+		advisor={
+			slot = high_command
+			idea_token = NHA_Khami_Ramanzim
+			traits = {	army_radio_intelligence_1 	}
+		}
+
+
+	}
+	NHA_Majid_Khaml={
+		name="Majid Khaml"
+
+		advisor={
+			slot = high_command
+			idea_token = NHA_Majid_Khaml
+			traits = {	army_commando_1 	}
+		}
+
+
+	}
+	NHA_Anwariq_Basrasra={
+		name="Anwariq Basrasra"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { famous_aviator  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	NHA_Fariq_Tharikma={
+		name="Fariq Tharikma"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NHA_Fariq_Tharikma
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	NHA_Jamir_Shaqafa={
+		name="Jamir Shaqafa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NHA_Jamir_Shaqafa
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	NHA_Samza_Masjidda={
+		name="Samza Masjidda"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NHA_Samza_Masjidda
+			traits = {	leftist_legionary 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	NHA_Mahya_Yemen={
+		name="Mahya Yemen"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NHA_Mahya_Yemen
+			traits = {	first_lady 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	NHA_Nabilali_Shibl={
+		name="Nabilali Shibl"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NHA_Nabilali_Shibl
+			traits = {	veteran_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	NHA_Ibran_Diwat={
+		name="Ibran Diwat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NHA_Ibran_Diwat
+			traits = {	veteran_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	NHA_Hassali_Makech={
+		name="Hassali Makech"
+
+		advisor={
+			slot = army_chief
+			idea_token = NHA_Hassali_Makech
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	NHA_Bilah_Suwataad={
+		name="Bilah Suwataad"
+
+		advisor={
+			slot = army_chief
+			idea_token = NHA_Bilah_Suwataad
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	NHA_Mahya_Amirasrabib={
+		name="Mahya Amirasrabib"
+
+		advisor={
+			slot = army_chief
+			idea_token = NHA_Mahya_Amirasrabib
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	NHA_Samza_Ghur={
+		name="Samza Ghur"
+
+		advisor={
+			slot = army_chief
+			idea_token = NHA_Samza_Ghur
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	NHA_Bilal_Madin={
+		name="Bilal Madin"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NHA_Bilal_Madin
+			traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+
+	}
+	NHA_Karid_Rawat={
+		name="Karid Rawat"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NHA_Karid_Rawat
+			traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+
+	}
+	NHA_Faisal_Hikh={
+		name="Faisal Hikh"
+
+		advisor={
+			slot = air_chief
+			idea_token = NHA_Faisal_Hikh
+			traits = {	air_chief_all_weather_2 	}
+		}
+
+
+	}
+	NHA_Zaisalid_Ramanzim={
+		name="Zaisalid Ramanzim"
+
+		advisor={
+			slot = air_chief
+			idea_token = NHA_Zaisalid_Ramanzim
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	NHA_Samza_Hijraka={
+		name="Samza Hijraka"
+
+		advisor={
+			slot = high_command
+			idea_token = NHA_Samza_Hijraka
+			traits = {	navy_submarine_2 	}
+		}
+
+
+	}
+	NHA_Nabilali_Dohayah={
+		name="Nabilali Dohayah"
+
+		advisor={
+			slot = high_command
+			idea_token = NHA_Nabilali_Dohayah
+			traits = {	army_radio_intelligence_2 	}
+		}
+
+
+	}
+	NHA_Imran_Kitariq={
+		name="Imran Kitariq"
+
+		advisor={
+			slot = high_command
+			idea_token = NHA_Imran_Kitariq
+			traits = {	air_air_combat_training_1 	}
+		}
+
+
+	}
+	NHA_Nabilahim_Hijraka={
+		name="Nabilahim Hijraka"
+
+		advisor={
+			slot = high_command
+			idea_token = NHA_Nabilahim_Hijraka
+			traits = {	army_radio_intelligence_1 	}
+		}
+
+
+	}
+	NHA_Nabilahim_Masra={
+		name="Nabilahim Masra"
+
+		advisor={
+			slot = high_command
+			idea_token = NHA_Nabilahim_Masra
+			traits = {	air_tactical_bombing_1 	}
+		}
+
+
+	}
+	NHA_Nabilal_Harda={
+		name="Nabilal Harda"
+
+		advisor={
+			slot = high_command
+			idea_token = NHA_Nabilal_Harda
+			traits = {	air_airborne_1 	}
+		}
+
+
+	}
+	NHA_Khammed_Khalama={
+		name="Khammed Khalama"
+
+		advisor={
+			slot = theorist
+			idea_token = NHA_Khammed_Khalama
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	NHA_Samariq_Madi={
+		name="Samariq Madi"
+
+		advisor={
+			slot = theorist
+			idea_token = NHA_Samariq_Madi
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	NHA_Khami_Doharb={
+		name="Khami Doharb"
+
+		advisor={
+			slot = theorist
+			idea_token = NHA_Khami_Doharb
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

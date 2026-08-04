@@ -1,0 +1,37 @@
+
+state={
+	id=1390
+	name="STATE_1390"
+	manpower = 4588700
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=3
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = RAM
+		buildings = {
+			infrastructure = 5
+			
+			arms_factory = 2
+			industrial_complex = 4
+			dockyard = 1
+			
+		}
+		add_core_of = RAM
+	}
+
+	provinces={
+		16012 16013 16014 16015 16016 16017 16018 16019 16020 16021 16022 16023 16024 16025 16026 16027 16028 16029 16030 16031 16032 
+	}
+	local_supplies=0.0 
+}

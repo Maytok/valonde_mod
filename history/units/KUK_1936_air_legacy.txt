@@ -1,0 +1,38 @@
+air_wings = {
+		895 = { 								
+		CAS_equipment_0 = { owner = "KUK" amount = 50 version_name = "Kancuen Mk 2" }
+tac_bomber_equipment_0 = { owner = "KUK" amount = 50 version_name = "Itzikin Mk 2" }
+
+	}
+	949 = { 								
+		fighter_equipment_0 = { owner = "KUK" amount = 50 version_name = "Ajtznaabah Mk 0" }
+
+	}
+	535 = { 								
+		nav_bomber_equipment_0 = { owner = "KUK" amount = 50 version_name = "Tohil Mk 2" }
+tac_bomber_equipment_0 = { owner = "KUK" amount = 50 version_name = "Itzikin Mk 2" }
+
+	}
+	700 = { 								
+		fighter_equipment_0 = { owner = "KUK" amount = 50 version_name = "Ajtznaabah Mk 0" }
+
+	}
+	260 = { 								
+		strat_bomber_equipment_0 = { owner = "KUK" amount = 50 version_name = "Yaxch Mk 0" }
+
+	}
+	314 = { 								
+		CAS_equipment_0 = { owner = "KUK" amount = 50 version_name = "Kancuen Mk 2" }
+
+	}
+	785 = { 								
+		strat_bomber_equipment_0 = { owner = "KUK" amount = 50 version_name = "Yaxch Mk 0" }
+
+	}
+	422 = { 								
+		nav_bomber_equipment_0 = { owner = "KUK" amount = 50 version_name = "Tohil Mk 2" }
+
+	}
+
+
+}

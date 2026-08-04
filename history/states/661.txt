@@ -1,0 +1,37 @@
+
+state={
+	id=661
+	name="STATE_661"
+	manpower = 6123995
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=1
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = LAH
+		buildings = {
+			infrastructure = 4
+			
+			arms_factory = 2
+			industrial_complex = 3
+			
+			
+		}
+		add_core_of = LAH
+	}
+
+	provinces={
+		7763 7764 7765 7766 7767 7768 7769 7770 7771 7772 7773 7774 7775 7776 7777 7778 7779 7780 7781 7782 7783 7784 7785 7786 7787 7788 7789 7790 7791 7792 7793 7794 7795 
+	}
+	local_supplies=0.0 
+}

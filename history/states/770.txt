@@ -1,0 +1,37 @@
+
+state={
+	id=770
+	name="STATE_770"
+	manpower = 1530990
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=10
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = DUE
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = DUE
+	}
+
+	provinces={
+		9008 9009 9010 9011 9012 9013 9014 9015 9016 
+	}
+	local_supplies=0.0 
+}

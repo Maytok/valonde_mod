@@ -1,0 +1,37 @@
+
+state={
+	id=1081
+	name="STATE_1081"
+	manpower = 1454158
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=1
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = SVE
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = SVE
+	}
+
+	provinces={
+		12503 12504 12505 12506 12507 12508 12509 
+	}
+	local_supplies=0.0 
+}

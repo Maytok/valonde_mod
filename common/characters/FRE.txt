@@ -1,0 +1,1083 @@
+characters = {
+	FRE_Thien_Guerna={
+		name="Thien Guerna"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { inexperienced_monarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	FRE_Jeancescolo_Fumortagno={
+		name="Jeancescolo Fumortagno"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FRE_Jeancescolo_Fumortagno
+			traits = {	agricultural_nationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	FRE_Carco_Valo={
+		name="Carco Valo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FRE_Carco_Valo
+			traits = {	agricultural_nationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	FRE_Jean_Regio={
+		name="Jean Regio"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FRE_Jean_Regio
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	FRE_Andre_Spame={
+		name="Andre Spame"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FRE_Andre_Spame
+			traits = {	veteran_anti_bolshevik 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	FRE_Lucario_Morra={
+		name="Lucario Morra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FRE_Lucario_Morra
+			traits = {	national_determinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	FRE_Jeancescolo_Cavalone={
+		name="Jeancescolo Cavalone"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FRE_Jeancescolo_Cavalone
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	FRE_Jeandro_Guerna={
+		name="Jeandro Guerna"
+
+		advisor={
+			slot = army_chief
+			idea_token = FRE_Jeandro_Guerna
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	FRE_Bruno_Eseria={
+		name="Bruno Eseria"
+
+		advisor={
+			slot = army_chief
+			idea_token = FRE_Bruno_Eseria
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	FRE_Matteo_Cone={
+		name="Matteo Cone"
+
+		advisor={
+			slot = army_chief
+			idea_token = FRE_Matteo_Cone
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	FRE_Thien_Forto={
+		name="Thien Forto"
+
+		advisor={
+			slot = army_chief
+			idea_token = FRE_Thien_Forto
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	FRE_Alexandro_Destillo={
+		name="Alexandro Destillo"
+
+		advisor={
+			slot = navy_chief
+			idea_token = FRE_Alexandro_Destillo
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	FRE_Nicomonario_Profezza={
+		name="Nicomonario Profezza"
+
+		advisor={
+			slot = navy_chief
+			idea_token = FRE_Nicomonario_Profezza
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	FRE_Felien_Temoregia={
+		name="Felien Temoregia"
+
+		advisor={
+			slot = air_chief
+			idea_token = FRE_Felien_Temoregia
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	FRE_Matteon_Prinito={
+		name="Matteon Prinito"
+
+		advisor={
+			slot = air_chief
+			idea_token = FRE_Matteon_Prinito
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	FRE_Jeandre_Notte={
+		name="Jeandre Notte"
+
+		advisor={
+			slot = high_command
+			idea_token = FRE_Jeandre_Notte
+			traits = {	army_radio_intelligence_2 	}
+		}
+
+
+	}
+	FRE_Stefano_Verace={
+		name="Stefano Verace"
+
+		advisor={
+			slot = high_command
+			idea_token = FRE_Stefano_Verace
+			traits = {	air_close_air_support_1 	}
+		}
+
+
+	}
+	FRE_Julien_Fumortagno={
+		name="Julien Fumortagno"
+
+		advisor={
+			slot = high_command
+			idea_token = FRE_Julien_Fumortagno
+			traits = {	air_pilot_training_1 	}
+		}
+
+
+	}
+	FRE_Marcolas_Mira={
+		name="Marcolas Mira"
+
+		advisor={
+			slot = high_command
+			idea_token = FRE_Marcolas_Mira
+			traits = {	air_bomber_interception_1 	}
+		}
+
+
+	}
+	FRE_Thien_Cavalone={
+		name="Thien Cavalone"
+
+		advisor={
+			slot = high_command
+			idea_token = FRE_Thien_Cavalone
+			traits = {	air_air_combat_training_1 	}
+		}
+
+
+	}
+	FRE_Giacolo_Forto={
+		name="Giacolo Forto"
+
+		advisor={
+			slot = high_command
+			idea_token = FRE_Giacolo_Forto
+			traits = {	navy_screen_1 	}
+		}
+
+
+	}
+	FRE_Francescomo_Canordizia={
+		name="Francescomo Canordizia"
+
+		
+		country_leader={
+			ideology=nazism
+			traits = { basileus  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	FRE_Rico_Stre={
+		name="Rico Stre"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FRE_Rico_Stre
+			traits = {	autocratic_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	FRE_Alexandro_Tore={
+		name="Alexandro Tore"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FRE_Alexandro_Tore
+			traits = {	generallissimo 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	FRE_Anto_Dempio={
+		name="Anto Dempio"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FRE_Anto_Dempio
+			traits = {	autokrator 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	FRE_Enzo_Guerna={
+		name="Enzo Guerna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FRE_Enzo_Guerna
+			traits = {	inexperienced_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	FRE_Jeandre_Cone={
+		name="Jeandre Cone"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FRE_Jeandre_Cone
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	FRE_Felipe_Nazia={
+		name="Felipe Nazia"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FRE_Felipe_Nazia
+			traits = {	militant_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	FRE_Marlo_Ghia={
+		name="Marlo Ghia"
+
+		advisor={
+			slot = army_chief
+			idea_token = FRE_Marlo_Ghia
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	FRE_Marlos_Cielo={
+		name="Marlos Cielo"
+
+		advisor={
+			slot = army_chief
+			idea_token = FRE_Marlos_Cielo
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	FRE_Marlo_Cito={
+		name="Marlo Cito"
+
+		advisor={
+			slot = army_chief
+			idea_token = FRE_Marlo_Cito
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	FRE_Vicolas_Scrittincudo={
+		name="Vicolas Scrittincudo"
+
+		advisor={
+			slot = army_chief
+			idea_token = FRE_Vicolas_Scrittincudo
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	FRE_Pablo_Fuore={
+		name="Pablo Fuore"
+
+		advisor={
+			slot = navy_chief
+			idea_token = FRE_Pablo_Fuore
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	FRE_Nicomonario_Ombranura={
+		name="Nicomonario Ombranura"
+
+		advisor={
+			slot = navy_chief
+			idea_token = FRE_Nicomonario_Ombranura
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	FRE_Alexandre_Cielo={
+		name="Alexandre Cielo"
+
+		advisor={
+			slot = air_chief
+			idea_token = FRE_Alexandre_Cielo
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	FRE_Francescomo_Fiumorte={
+		name="Francescomo Fiumorte"
+
+		advisor={
+			slot = air_chief
+			idea_token = FRE_Francescomo_Fiumorte
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	FRE_Matteon_Tore={
+		name="Matteon Tore"
+
+		advisor={
+			slot = high_command
+			idea_token = FRE_Matteon_Tore
+			traits = {	navy_fleet_logistics_2 	}
+		}
+
+
+	}
+	FRE_Antonarlo_Sorno={
+		name="Antonarlo Sorno"
+
+		advisor={
+			slot = high_command
+			idea_token = FRE_Antonarlo_Sorno
+			traits = {	navy_naval_air_defense_1 	}
+		}
+
+
+	}
+	FRE_Giaco_Alla={
+		name="Giaco Alla"
+
+		advisor={
+			slot = high_command
+			idea_token = FRE_Giaco_Alla
+			traits = {	air_naval_strike_1 	}
+		}
+
+
+	}
+	FRE_Anto_Alla={
+		name="Anto Alla"
+
+		advisor={
+			slot = high_command
+			idea_token = FRE_Anto_Alla
+			traits = {	air_airborne_1 	}
+		}
+
+
+	}
+	FRE_Alexano_Cave={
+		name="Alexano Cave"
+
+		advisor={
+			slot = high_command
+			idea_token = FRE_Alexano_Cave
+			traits = {	air_strategic_bombing_1 	}
+		}
+
+
+	}
+	FRE_Pablos_Reginedizio={
+		name="Pablos Reginedizio"
+
+		advisor={
+			slot = high_command
+			idea_token = FRE_Pablos_Reginedizio
+			traits = {	air_close_air_support_2 	}
+		}
+
+
+	}
+	FRE_Bruno_Cappame={
+		name="Bruno Cappame"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { leftist_independent  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	FRE_Alexancescol_Scuolaggio={
+		name="Alexancescol Scuolaggio"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FRE_Alexancescol_Scuolaggio
+			traits = {	marxist_fundamentalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	FRE_Ricto_Ghia={
+		name="Ricto Ghia"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FRE_Ricto_Ghia
+			traits = {	revolutionary_poet 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	FRE_Vicolas_Cavale={
+		name="Vicolas Cavale"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FRE_Vicolas_Cavale
+			traits = {	indomitable_perseverance 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	FRE_Giacomon_Nemoreserro={
+		name="Giacomon Nemoreserro"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FRE_Giacomon_Nemoreserro
+			traits = {	leftist_independent 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	FRE_Leon_Stre={
+		name="Leon Stre"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FRE_Leon_Stre
+			traits = {	marxist_fundamentalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	FRE_Julien_Neve={
+		name="Julien Neve"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FRE_Julien_Neve
+			traits = {	devoted_marxist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	FRE_Alexano_Fiumento={
+		name="Alexano Fiumento"
+
+		advisor={
+			slot = army_chief
+			idea_token = FRE_Alexano_Fiumento
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	FRE_Marcolo_Odincano={
+		name="Marcolo Odincano"
+
+		advisor={
+			slot = army_chief
+			idea_token = FRE_Marcolo_Odincano
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	FRE_Thien_Nazia={
+		name="Thien Nazia"
+
+		advisor={
+			slot = army_chief
+			idea_token = FRE_Thien_Nazia
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	FRE_Ramo_Valo={
+		name="Ramo Valo"
+
+		advisor={
+			slot = army_chief
+			idea_token = FRE_Ramo_Valo
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	FRE_Jeandre_Memicolo={
+		name="Jeandre Memicolo"
+
+		advisor={
+			slot = navy_chief
+			idea_token = FRE_Jeandre_Memicolo
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	FRE_Carco_Guerna={
+		name="Carco Guerna"
+
+		advisor={
+			slot = navy_chief
+			idea_token = FRE_Carco_Guerna
+			traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+
+	}
+	FRE_Mardo_Alberta={
+		name="Mardo Alberta"
+
+		advisor={
+			slot = air_chief
+			idea_token = FRE_Mardo_Alberta
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	FRE_Vicardo_Cana={
+		name="Vicardo Cana"
+
+		advisor={
+			slot = air_chief
+			idea_token = FRE_Vicardo_Cana
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	FRE_Bruno_Stelta={
+		name="Bruno Stelta"
+
+		advisor={
+			slot = high_command
+			idea_token = FRE_Bruno_Stelta
+			traits = {	navy_amphibious_assault_1 	}
+		}
+
+
+	}
+	FRE_Marco_Terofezza={
+		name="Marco Terofezza"
+
+		advisor={
+			slot = high_command
+			idea_token = FRE_Marco_Terofezza
+			traits = {	air_close_air_support_1 	}
+		}
+
+
+	}
+	FRE_Jean_Villo={
+		name="Jean Villo"
+
+		advisor={
+			slot = high_command
+			idea_token = FRE_Jean_Villo
+			traits = {	army_concealment_2 	}
+		}
+
+
+	}
+	FRE_Alexancescol_Valo={
+		name="Alexancescol Valo"
+
+		advisor={
+			slot = high_command
+			idea_token = FRE_Alexancescol_Valo
+			traits = {	navy_submarine_1 	}
+		}
+
+
+	}
+	FRE_Steo_Temoneracola={
+		name="Steo Temoneracola"
+
+		advisor={
+			slot = high_command
+			idea_token = FRE_Steo_Temoneracola
+			traits = {	air_close_air_support_2 	}
+		}
+
+
+	}
+	FRE_Victor_Cave={
+		name="Victor Cave"
+
+		advisor={
+			slot = high_command
+			idea_token = FRE_Victor_Cave
+			traits = {	army_concealment_2 	}
+		}
+
+
+	}
+	FRE_Vicardo_Profezza={
+		name="Vicardo Profezza"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { leftist_independent  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	FRE_Marcolo_Ghierofezion={
+		name="Marcolo Ghierofezion"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FRE_Marcolo_Ghierofezion
+			traits = {	leftist_legionary 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	FRE_Matteo_Albernortore={
+		name="Matteo Albernortore"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FRE_Matteo_Albernortore
+			traits = {	first_lady 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	FRE_Felipe_Neve={
+		name="Felipe Neve"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FRE_Felipe_Neve
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	FRE_Thien_Dempio={
+		name="Thien Dempio"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FRE_Thien_Dempio
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	FRE_Marcolas_Nazia={
+		name="Marcolas Nazia"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FRE_Marcolas_Nazia
+			traits = {	conservative_grandee 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	FRE_Luca_Freto={
+		name="Luca Freto"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FRE_Luca_Freto
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	FRE_Vica_Freto={
+		name="Vica Freto"
+
+		advisor={
+			slot = army_chief
+			idea_token = FRE_Vica_Freto
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	FRE_Anto_Cangueltantu={
+		name="Anto Cangueltantu"
+
+		advisor={
+			slot = army_chief
+			idea_token = FRE_Anto_Cangueltantu
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	FRE_Jeandro_Temoneracola={
+		name="Jeandro Temoneracola"
+
+		advisor={
+			slot = army_chief
+			idea_token = FRE_Jeandro_Temoneracola
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	FRE_Giacomon_Luce={
+		name="Giacomon Luce"
+
+		advisor={
+			slot = army_chief
+			idea_token = FRE_Giacomon_Luce
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	FRE_Pablo_Capittima={
+		name="Pablo Capittima"
+
+		advisor={
+			slot = navy_chief
+			idea_token = FRE_Pablo_Capittima
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	FRE_Marlo_Rume={
+		name="Marlo Rume"
+
+		advisor={
+			slot = navy_chief
+			idea_token = FRE_Marlo_Rume
+			traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+
+	}
+	FRE_Andre_Scuolaggio={
+		name="Andre Scuolaggio"
+
+		advisor={
+			slot = air_chief
+			idea_token = FRE_Andre_Scuolaggio
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	FRE_Luca_Storra={
+		name="Luca Storra"
+
+		advisor={
+			slot = air_chief
+			idea_token = FRE_Luca_Storra
+			traits = {	air_chief_all_weather_2 	}
+		}
+
+
+	}
+	FRE_Pablo_Albernortore={
+		name="Pablo Albernortore"
+
+		advisor={
+			slot = high_command
+			idea_token = FRE_Pablo_Albernortore
+			traits = {	army_concealment_1 	}
+		}
+
+
+	}
+	FRE_Albertor_Nemoreserro={
+		name="Albertor Nemoreserro"
+
+		advisor={
+			slot = high_command
+			idea_token = FRE_Albertor_Nemoreserro
+			traits = {	air_naval_strike_1 	}
+		}
+
+
+	}
+	FRE_Jean_Alberta={
+		name="Jean Alberta"
+
+		advisor={
+			slot = high_command
+			idea_token = FRE_Jean_Alberta
+			traits = {	air_tactical_bombing_2 	}
+		}
+
+
+	}
+	FRE_Jeancescolo_Alberta={
+		name="Jeancescolo Alberta"
+
+		advisor={
+			slot = high_command
+			idea_token = FRE_Jeancescolo_Alberta
+			traits = {	army_infantry_2 	}
+		}
+
+
+	}
+	FRE_Felipe_Guerna={
+		name="Felipe Guerna"
+
+		advisor={
+			slot = high_command
+			idea_token = FRE_Felipe_Guerna
+			traits = {	army_regrouping_2 	}
+		}
+
+
+	}
+	FRE_Anto_Rego={
+		name="Anto Rego"
+
+		advisor={
+			slot = high_command
+			idea_token = FRE_Anto_Rego
+			traits = {	army_infantry_1 	}
+		}
+
+
+	}
+	FRE_Marco_Luce={
+		name="Marco Luce"
+
+		advisor={
+			slot = theorist
+			idea_token = FRE_Marco_Luce
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	FRE_Pablos_Tero={
+		name="Pablos Tero"
+
+		advisor={
+			slot = theorist
+			idea_token = FRE_Pablos_Tero
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	FRE_Alexano_Storra={
+		name="Alexano Storra"
+
+		advisor={
+			slot = theorist
+			idea_token = FRE_Alexano_Storra
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

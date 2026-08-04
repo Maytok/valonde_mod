@@ -1,0 +1,17 @@
+air_wings = {
+		428 = { 								
+		strat_bomber_equipment_0 = { owner = "SIR" amount = 5 version_name = "Nyoto Mk 2" }
+tac_bomber_equipment_0 = { owner = "SIR" amount = 8 version_name = "Imaifu Mk 0" }
+
+	}
+	776 = { 								
+		CAS_equipment_0 = { owner = "SIR" amount = 6 version_name = "Shini Mk 0" }
+
+	}
+	368 = { 								
+		fighter_equipment_0 = { owner = "SIR" amount = 7 version_name = "Aduiya Mk 1" }
+
+	}
+
+
+}

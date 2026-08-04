@@ -1,0 +1,37 @@
+
+state={
+	id=1245
+	name="STATE_1245"
+	manpower = 1216427
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = MUN
+		buildings = {
+			infrastructure = 2
+			air_base = 3
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = MUN
+	}
+
+	provinces={
+		14296 14297 14298 14299 14300 14301 
+	}
+	local_supplies=0.0 
+}

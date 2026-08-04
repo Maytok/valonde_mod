@@ -1,0 +1,54 @@
+air_wings = {
+		546 = { 								
+		fighter_equipment_0 = { owner = "ZAU" amount = 50 version_name = "Plumen Mk 2" }
+
+	}
+	1559 = { 								
+		nav_bomber_equipment_0 = { owner = "ZAU" amount = 50 version_name = "Virtas Mk 0" }
+
+	}
+	467 = { 								
+		nav_bomber_equipment_0 = { owner = "ZAU" amount = 50 version_name = "Virtas Mk 0" }
+fighter_equipment_0 = { owner = "ZAU" amount = 50 version_name = "Plumen Mk 2" }
+tac_bomber_equipment_0 = { owner = "ZAU" amount = 50 version_name = "Diesaenticie Mk 2" }
+
+	}
+	1492 = { 								
+		fighter_equipment_0 = { owner = "ZAU" amount = 50 version_name = "Ordo Mk 2" }
+
+	}
+	1494 = { 								
+		CAS_equipment_0 = { owner = "ZAU" amount = 50 version_name = "Cortas Mk 1" }
+
+	}
+	1446 = { 								
+		nav_bomber_equipment_0 = { owner = "ZAU" amount = 50 version_name = "Regotifex Mk 1" }
+
+	}
+	382 = { 								
+		CAS_equipment_0 = { owner = "ZAU" amount = 50 version_name = "Viturus Mk 2" }
+
+	}
+	593 = { 								
+		CAS_equipment_0 = { owner = "ZAU" amount = 50 version_name = "Viturus Mk 2" }
+
+	}
+	1585 = { 								
+		nav_bomber_equipment_0 = { owner = "ZAU" amount = 50 version_name = "Regotifex Mk 1" }
+
+	}
+	667 = { 								
+		tac_bomber_equipment_0 = { owner = "ZAU" amount = 50 version_name = "Diesaenticie Mk 2" }
+
+	}
+	1663 = { 								
+		fighter_equipment_0 = { owner = "ZAU" amount = 50 version_name = "Ordo Mk 2" }
+
+	}
+	1574 = { 								
+		CAS_equipment_0 = { owner = "ZAU" amount = 50 version_name = "Cortas Mk 1" }
+
+	}
+
+
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=984
+	name="STATE_984"
+	manpower = 2248718
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = GRU
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = GRU
+	}
+
+	provinces={
+		11239 11240 11241 11242 11243 11244 11245 11246 11247 11248 11249 11250 11251 11252 
+	}
+	local_supplies=0.0 
+}

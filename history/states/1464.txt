@@ -1,0 +1,37 @@
+
+state={
+	id=1464
+	name="STATE_1464"
+	manpower = 2116812
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = MIR
+		buildings = {
+			infrastructure = 2
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = MIR
+	}
+
+	provinces={
+		16693 16694 16695 16696 16697 16698 16699 16700 16701 16702 16703 
+	}
+	local_supplies=0.0 
+}

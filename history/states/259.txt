@@ -1,0 +1,37 @@
+
+state={
+	id=259
+	name="STATE_259"
+	manpower = 7193
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=19
+		chromium=21
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=20
+		coal=49
+	}
+
+	history={
+		
+		owner = WIM
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = WIM
+	}
+
+	provinces={
+		3054 3055 
+	}
+	local_supplies=0.0 
+}

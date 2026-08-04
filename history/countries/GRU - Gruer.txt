@@ -1,0 +1,294 @@
+capital = 809
+
+oob = "GRU_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "GRU_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "GRU_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	support_weapons= 1
+	tech_trucks= 1
+	tech_support= 1
+	gw_artillery= 1
+	motorised_infantry= 1
+	tech_military_police= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		armor_tech_1 = 1
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "GRU_1936_air_bba"
+		set_technology = {
+			bba_early_transport_plane = 1
+			iw_small_airframe = 1
+			photo_reconnaisance = 1
+			aa_lmg = 1
+			
+		}
+		create_equipment_variant = {
+			name = "Sond Mk 2"
+			type = small_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = light_mg_2x
+			special_type_slot_1 = empty
+
+			}
+		}
+
+	else = {
+		set_air_oob = "GRU_1936_air_legacy"
+		set_technology = {
+			early_transport_plane = 1
+			early_fighter = 1
+			scout_plane1 = 1
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	early_destroyer = 1
+	
+	}
+	set_naval_oob = "GRU_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Gluch Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	early_ship_hull_light = 1
+	sonar = 1
+	
+	}
+	set_naval_oob = "GRU_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Gluch Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = empty
+				rear_1_custom_slot = ship_anti_air_1
+			}
+		}
+
+	}
+
+
+recruit_character = GRU_Willem_Gest
+recruit_character = GRU_Emillem_Trab
+recruit_character = GRU_Willem_Gotsch
+recruit_character = GRU_Willem_Luft
+recruit_character = GRU_Helm_Inse
+recruit_character = GRU_Leif_Greuecke
+recruit_character = GRU_Karans_Priebenzeste
+recruit_character = GRU_Otthijs_Weilbe
+recruit_character = GRU_Anselm_Kopf
+recruit_character = GRU_Magnus_Furg
+recruit_character = GRU_Knut_Trab
+recruit_character = GRU_Willem_Sond
+recruit_character = GRU_Ulrich_Eise
+recruit_character = GRU_Sigurd_Segenig
+recruit_character = GRU_Knus_Lichwese
+recruit_character = GRU_Otthiaspar_Ster
+recruit_character = GRU_Oskarald_Erbe
+recruit_character = GRU_Lard_Gruer
+recruit_character = GRU_Hanz_Gest
+recruit_character = GRU_Hermans_Legenigienen
+recruit_character = GRU_Larann_Fest
+recruit_character = GRU_Lard_Steraube
+recruit_character = GRU_Sigurd_Kraeuer
+recruit_character = GRU_Knus_Priebenzeste
+recruit_character = GRU_Magnut_Wiligsheiset
+recruit_character = GRU_Frik_Runke
+recruit_character = GRU_Rold_Frost
+recruit_character = GRU_Erik_Priebenzeste
+recruit_character = GRU_Leif_Herden
+recruit_character = GRU_Heif_Kapelt
+recruit_character = GRU_Hanz_Inse
+recruit_character = GRU_Heif_Kopf
+recruit_character = GRU_Henrichar_Eise
+recruit_character = GRU_Frik_Beiseriffeit
+recruit_character = GRU_Sigurd_Bogeld
+recruit_character = GRU_Frichars_Fammele
+recruit_character = GRU_Rudold_Furg
+recruit_character = GRU_Anselmut_Heichwer
+recruit_character = GRU_Frich_Gotsch
+recruit_character = GRU_Heinholfren_Marster
+recruit_character = GRU_Oskars_Fammele
+recruit_character = GRU_Oskars_Weise
+recruit_character = GRU_Kasparl_Botsch
+recruit_character = GRU_Heinholfren_Scht
+recruit_character = GRU_Svens_Beitz
+recruit_character = GRU_Kasparl_Seille
+recruit_character = GRU_Bjoren_Weitz
+recruit_character = GRU_Bers_Blus
+recruit_character = GRU_Larann_Blus
+recruit_character = GRU_Rold_Hilig
+recruit_character = GRU_Henrichar_Krin
+recruit_character = GRU_Johar_Klaubend
+recruit_character = GRU_Fritz_Runke
+recruit_character = GRU_Soren_Priebenzeste
+recruit_character = GRU_Karans_Kraeuer
+recruit_character = GRU_Rudold_Scht
+recruit_character = GRU_Otthijs_Heichwer
+recruit_character = GRU_Volf_Volz
+recruit_character = GRU_Sorenrik_Beitz
+recruit_character = GRU_Andermans_Greuecke
+recruit_character = GRU_Frald_Bott
+recruit_character = GRU_Anselmut_Bruderag
+recruit_character = GRU_Rudold_Stras
+recruit_character = GRU_Rold_Wind
+recruit_character = GRU_Karans_Krin
+recruit_character = GRU_Hermans_Hilig
+recruit_character = GRU_Frik_Sont
+recruit_character = GRU_Sten_Ster
+recruit_character = GRU_Oskarald_Licht
+recruit_character = GRU_Bjorg_Kapelt
+recruit_character = GRU_Kaspars_Herden
+recruit_character = GRU_Helm_Heichwer
+recruit_character = GRU_Matthias_Geindt
+recruit_character = GRU_Wilhelmut_Koend
+recruit_character = GRU_Hanz_Krie
+recruit_character = GRU_Oskarl_Beitze
+recruit_character = GRU_Jann_Bruft
+recruit_character = GRU_Jann_Blum
+recruit_character = GRU_Jann_Volz
+recruit_character = GRU_Emilhelm_Meel
+recruit_character = GRU_Svens_Gluch
+recruit_character = GRU_Volf_Stras
+recruit_character = GRU_Sorenrik_Fest
+recruit_character = GRU_Anselm_Meel
+recruit_character = GRU_Larann_Furg
+recruit_character = GRU_Frich_Krin
+recruit_character = GRU_Andermans_Tonneelle
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 4
+set_convoys = 0
+set_stability = 0.99
+set_war_support = 0.58
+
+add_ideas = {
+disarmed_nation
+civilian_economy
+closed_economy
+}
+
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1885.6.12"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 26
+	fascism = 14
+	communism = 46
+	neutrality = 14
+}
+
+
+
+
+

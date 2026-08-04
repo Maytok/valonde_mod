@@ -1,0 +1,37 @@
+
+state={
+	id=642
+	name="STATE_642"
+	manpower = 893569
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = LAH
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = LAH
+	}
+
+	provinces={
+		7548 7549 7550 7551 
+	}
+	local_supplies=0.0 
+}

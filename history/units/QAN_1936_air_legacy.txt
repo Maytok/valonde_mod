@@ -1,0 +1,33 @@
+air_wings = {
+		1328 = { 								
+		fighter_equipment_0 = { owner = "QAN" amount = 50 version_name = "Qiniku Mk 1" }
+tac_bomber_equipment_0 = { owner = "QAN" amount = 50 version_name = "Kaniqpak Mk 0" }
+
+	}
+	1312 = { 								
+		fighter_equipment_0 = { owner = "QAN" amount = 50 version_name = "Qiniku Mk 1" }
+
+	}
+	1317 = { 								
+		strat_bomber_equipment_0 = { owner = "QAN" amount = 50 version_name = "Kigakuqa Mk 0" }
+
+	}
+	1264 = { 								
+		CAS_equipment_0 = { owner = "QAN" amount = 50 version_name = "Tuna Mk 1" }
+
+	}
+	1229 = { 								
+		tac_bomber_equipment_0 = { owner = "QAN" amount = 50 version_name = "Kaniqpak Mk 0" }
+
+	}
+	1340 = { 								
+		CAS_equipment_0 = { owner = "QAN" amount = 50 version_name = "Tuna Mk 1" }
+
+	}
+	1665 = { 								
+		strat_bomber_equipment_0 = { owner = "QAN" amount = 50 version_name = "Kigakuqa Mk 0" }
+
+	}
+
+
+}

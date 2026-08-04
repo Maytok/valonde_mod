@@ -1,0 +1,37 @@
+
+state={
+	id=23
+	name="STATE_23"
+	manpower = 1133891
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=1
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = RAM
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = RAM
+	}
+
+	provinces={
+		304 305 306 307 308 309 
+	}
+	local_supplies=0.0 
+}

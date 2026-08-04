@@ -1,0 +1,14 @@
+# Normalize text files to LF in the repository and working tree.
+* text=auto eol=lf
+
+# Binary map and media assets must never receive line-ending conversion.
+*.bmp binary
+*.dds binary
+*.gif binary
+*.jpg binary
+*.jpeg binary
+*.ogg binary
+*.png binary
+*.tga binary
+*.wav binary
+*.zip binary

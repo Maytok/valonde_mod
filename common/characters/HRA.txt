@@ -1,0 +1,1083 @@
+characters = {
+	HRA_Rado_Kulturanika={
+		name="Rado Kulturanika"
+
+		
+		country_leader={
+			ideology=moderatism
+			traits = { headstrong  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	HRA_Matefan_Moresnik={
+		name="Matefan Moresnik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HRA_Matefan_Moresnik
+			traits = {	socialite_connections 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	HRA_Mateusan_Telika={
+		name="Mateusan Telika"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HRA_Mateusan_Telika
+			traits = {	agricultural_nationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	HRA_Rado_Vetarst={
+		name="Rado Vetarst"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HRA_Rado_Vetarst
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	HRA_Bohdan_Svera={
+		name="Bohdan Svera"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HRA_Bohdan_Svera
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	HRA_Radenek_Tvrdja={
+		name="Radenek Tvrdja"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HRA_Radenek_Tvrdja
+			traits = {	humble 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	HRA_Goris_Moresnik={
+		name="Goris Moresnik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HRA_Goris_Moresnik
+			traits = {	noble_beurocrat 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	HRA_Vlado_Slik={
+		name="Vlado Slik"
+
+		advisor={
+			slot = army_chief
+			idea_token = HRA_Vlado_Slik
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	HRA_Ivan_Jezak={
+		name="Ivan Jezak"
+
+		advisor={
+			slot = army_chief
+			idea_token = HRA_Ivan_Jezak
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	HRA_Goran_Hralj={
+		name="Goran Hralj"
+
+		advisor={
+			slot = army_chief
+			idea_token = HRA_Goran_Hralj
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	HRA_Matej_Svera={
+		name="Matej Svera"
+
+		advisor={
+			slot = army_chief
+			idea_token = HRA_Matej_Svera
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	HRA_Olexei_Semljska={
+		name="Olexei Semljska"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HRA_Olexei_Semljska
+			traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+
+	}
+	HRA_Radenek_Kisac={
+		name="Radenek Kisac"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HRA_Radenek_Kisac
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	HRA_Tomir_Hradzbicaksi={
+		name="Tomir Hradzbicaksi"
+
+		advisor={
+			slot = air_chief
+			idea_token = HRA_Tomir_Hradzbicaksi
+			traits = {	air_chief_all_weather_2 	}
+		}
+
+
+	}
+	HRA_Alexei_Kisacina={
+		name="Alexei Kisacina"
+
+		advisor={
+			slot = air_chief
+			idea_token = HRA_Alexei_Kisacina
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	HRA_Velimir_Masljivo={
+		name="Velimir Masljivo"
+
+		advisor={
+			slot = high_command
+			idea_token = HRA_Velimir_Masljivo
+			traits = {	air_air_superiority_2 	}
+		}
+
+
+	}
+	HRA_Yuranko_Sneg={
+		name="Yuranko Sneg"
+
+		advisor={
+			slot = high_command
+			idea_token = HRA_Yuranko_Sneg
+			traits = {	air_pilot_training_2 	}
+		}
+
+
+	}
+	HRA_Vlan_Vetarst={
+		name="Vlan Vetarst"
+
+		advisor={
+			slot = high_command
+			idea_token = HRA_Vlan_Vetarst
+			traits = {	navy_amphibious_assault_2 	}
+		}
+
+
+	}
+	HRA_Luboslado_Svemlj={
+		name="Luboslado Svemlj"
+
+		advisor={
+			slot = high_command
+			idea_token = HRA_Luboslado_Svemlj
+			traits = {	air_close_air_support_1 	}
+		}
+
+
+	}
+	HRA_Rado_Galat={
+		name="Rado Galat"
+
+		advisor={
+			slot = high_command
+			idea_token = HRA_Rado_Galat
+			traits = {	navy_amphibious_assault_2 	}
+		}
+
+
+	}
+	HRA_Dmir_Kisacina={
+		name="Dmir Kisacina"
+
+		advisor={
+			slot = high_command
+			idea_token = HRA_Dmir_Kisacina
+			traits = {	air_bomber_interception_2 	}
+		}
+
+
+	}
+	HRA_Niko_Glana={
+		name="Niko Glana"
+
+		
+		country_leader={
+			ideology=fascism_ideology
+			traits = { dictator  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	HRA_Luboslado_Reka={
+		name="Luboslado Reka"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HRA_Luboslado_Reka
+			traits = {	militant_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	HRA_Dusz_Vatrabrir={
+		name="Dusz Vatrabrir"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HRA_Dusz_Vatrabrir
+			traits = {	warmonger 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	HRA_Vlan_Pesec={
+		name="Vlan Pesec"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HRA_Vlan_Pesec
+			traits = {	subservient_ultranationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	HRA_Radovan_Ostranaga={
+		name="Radovan Ostranaga"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HRA_Radovan_Ostranaga
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	HRA_Draj_Glana={
+		name="Draj Glana"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HRA_Draj_Glana
+			traits = {	militant_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	HRA_Miri_Sunce={
+		name="Miri Sunce"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HRA_Miri_Sunce
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	HRA_Ivanislav_Vilat={
+		name="Ivanislav Vilat"
+
+		advisor={
+			slot = army_chief
+			idea_token = HRA_Ivanislav_Vilat
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	HRA_Yuranko_Ratram={
+		name="Yuranko Ratram"
+
+		advisor={
+			slot = army_chief
+			idea_token = HRA_Yuranko_Ratram
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	HRA_Radenek_Losto={
+		name="Radenek Losto"
+
+		advisor={
+			slot = army_chief
+			idea_token = HRA_Radenek_Losto
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	HRA_Nikitri_Vetarst={
+		name="Nikitri Vetarst"
+
+		advisor={
+			slot = army_chief
+			idea_token = HRA_Nikitri_Vetarst
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	HRA_Nikitri_Obinja={
+		name="Nikitri Obinja"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HRA_Nikitri_Obinja
+			traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+
+	}
+	HRA_Bohdan_Zvetlo={
+		name="Bohdan Zvetlo"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HRA_Bohdan_Zvetlo
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	HRA_Luboslado_Hralj={
+		name="Luboslado Hralj"
+
+		advisor={
+			slot = air_chief
+			idea_token = HRA_Luboslado_Hralj
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	HRA_Zdek_Reka={
+		name="Zdek Reka"
+
+		advisor={
+			slot = air_chief
+			idea_token = HRA_Zdek_Reka
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	HRA_Matej_Hradzbicaksi={
+		name="Matej Hradzbicaksi"
+
+		advisor={
+			slot = high_command
+			idea_token = HRA_Matej_Hradzbicaksi
+			traits = {	army_logistics_1 	}
+		}
+
+
+	}
+	HRA_Zori_Kulasinaga={
+		name="Zori Kulasinaga"
+
+		advisor={
+			slot = high_command
+			idea_token = HRA_Zori_Kulasinaga
+			traits = {	navy_carrier_1 	}
+		}
+
+
+	}
+	HRA_Aleksei_Losto={
+		name="Aleksei Losto"
+
+		advisor={
+			slot = high_command
+			idea_token = HRA_Aleksei_Losto
+			traits = {	air_close_air_support_1 	}
+		}
+
+
+	}
+	HRA_Boran_Moresnik={
+		name="Boran Moresnik"
+
+		advisor={
+			slot = high_command
+			idea_token = HRA_Boran_Moresnik
+			traits = {	army_armored_1 	}
+		}
+
+
+	}
+	HRA_Zdek_Sunce={
+		name="Zdek Sunce"
+
+		advisor={
+			slot = high_command
+			idea_token = HRA_Zdek_Sunce
+			traits = {	navy_naval_air_defense_2 	}
+		}
+
+
+	}
+	HRA_Vlan_Semljska={
+		name="Vlan Semljska"
+
+		advisor={
+			slot = high_command
+			idea_token = HRA_Vlan_Semljska
+			traits = {	army_logistics_2 	}
+		}
+
+
+	}
+	HRA_Alexei_Castra={
+		name="Alexei Castra"
+
+		
+		country_leader={
+			ideology=marxism
+			traits = { patriotic_socialist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	HRA_Goranko_Muzikar={
+		name="Goranko Muzikar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HRA_Goranko_Muzikar
+			traits = {	indomitable_perseverance 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	HRA_Viktor_Ljubavezer={
+		name="Viktor Ljubavezer"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HRA_Viktor_Ljubavezer
+			traits = {	political_dancer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	HRA_Brankolavko_Prena={
+		name="Brankolavko Prena"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HRA_Brankolavko_Prena
+			traits = {	mastermind_code_cracker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	HRA_Maroslanis_Svet={
+		name="Maroslanis Svet"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HRA_Maroslanis_Svet
+			traits = {	marxist_fundamentalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	HRA_Goranko_Svinja={
+		name="Goranko Svinja"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HRA_Goranko_Svinja
+			traits = {	marxist_fundamentalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	HRA_Dmiril_Obaviteza={
+		name="Dmiril Obaviteza"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HRA_Dmiril_Obaviteza
+			traits = {	revolutionary_poet 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	HRA_Viktori_Visac={
+		name="Viktori Visac"
+
+		advisor={
+			slot = army_chief
+			idea_token = HRA_Viktori_Visac
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	HRA_Dusan_Kovo={
+		name="Dusan Kovo"
+
+		advisor={
+			slot = army_chief
+			idea_token = HRA_Dusan_Kovo
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	HRA_Radoslav_Sporisao={
+		name="Radoslav Sporisao"
+
+		advisor={
+			slot = army_chief
+			idea_token = HRA_Radoslav_Sporisao
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	HRA_Dragomir_Svera={
+		name="Dragomir Svera"
+
+		advisor={
+			slot = army_chief
+			idea_token = HRA_Dragomir_Svera
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	HRA_Niko_Vazde={
+		name="Niko Vazde"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HRA_Niko_Vazde
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	HRA_Rado_Vatrabrir={
+		name="Rado Vatrabrir"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HRA_Rado_Vatrabrir
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	HRA_Goragomir_Hradzbicaksi={
+		name="Goragomir Hradzbicaksi"
+
+		advisor={
+			slot = air_chief
+			idea_token = HRA_Goragomir_Hradzbicaksi
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	HRA_Matej_Hrava={
+		name="Matej Hrava"
+
+		advisor={
+			slot = air_chief
+			idea_token = HRA_Matej_Hrava
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	HRA_Radoslav_Tama={
+		name="Radoslav Tama"
+
+		advisor={
+			slot = high_command
+			idea_token = HRA_Radoslav_Tama
+			traits = {	navy_amphibious_assault_2 	}
+		}
+
+
+	}
+	HRA_Niktoragomas_Kulturanika={
+		name="Niktoragomas Kulturanika"
+
+		advisor={
+			slot = high_command
+			idea_token = HRA_Niktoragomas_Kulturanika
+			traits = {	navy_capital_ship_1 	}
+		}
+
+
+	}
+	HRA_Sergei_Vecnoslad={
+		name="Sergei Vecnoslad"
+
+		advisor={
+			slot = high_command
+			idea_token = HRA_Sergei_Vecnoslad
+			traits = {	army_cavalry_1 	}
+		}
+
+
+	}
+	HRA_Zdeneksei_Tezak={
+		name="Zdeneksei Tezak"
+
+		advisor={
+			slot = high_command
+			idea_token = HRA_Zdeneksei_Tezak
+			traits = {	navy_amphibious_assault_2 	}
+		}
+
+
+	}
+	HRA_Vlado_Vecnoslad={
+		name="Vlado Vecnoslad"
+
+		advisor={
+			slot = high_command
+			idea_token = HRA_Vlado_Vecnoslad
+			traits = {	army_infantry_1 	}
+		}
+
+
+	}
+	HRA_Simeon_Tvrdja={
+		name="Simeon Tvrdja"
+
+		advisor={
+			slot = high_command
+			idea_token = HRA_Simeon_Tvrdja
+			traits = {	air_close_air_support_1 	}
+		}
+
+
+	}
+	HRA_Dragomir_Muzikar={
+		name="Dragomir Muzikar"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { famous_aviator  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	HRA_Lubosh_Hradzbicaksi={
+		name="Lubosh Hradzbicaksi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HRA_Lubosh_Hradzbicaksi
+			traits = {	conservative_grandee 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	HRA_Rados_Greb={
+		name="Rados Greb"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HRA_Rados_Greb
+			traits = {	conservative_grandee 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	HRA_Brankolavko_Kovo={
+		name="Brankolavko Kovo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HRA_Brankolavko_Kovo
+			traits = {	veteran_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	HRA_Simiros_Muzikar={
+		name="Simiros Muzikar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HRA_Simiros_Muzikar
+			traits = {	leftist_legionary 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	HRA_Radimiri_Slicanikar={
+		name="Radimiri Slicanikar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HRA_Radimiri_Slicanikar
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	HRA_Bran_Kradar={
+		name="Bran Kradar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HRA_Bran_Kradar
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	HRA_Radovan_Leka={
+		name="Radovan Leka"
+
+		advisor={
+			slot = army_chief
+			idea_token = HRA_Radovan_Leka
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	HRA_Radovan_Losto={
+		name="Radovan Losto"
+
+		advisor={
+			slot = army_chief
+			idea_token = HRA_Radovan_Losto
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	HRA_Viktor_Pesec={
+		name="Viktor Pesec"
+
+		advisor={
+			slot = army_chief
+			idea_token = HRA_Viktor_Pesec
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	HRA_Luboslado_Morenik={
+		name="Luboslado Morenik"
+
+		advisor={
+			slot = army_chief
+			idea_token = HRA_Luboslado_Morenik
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	HRA_Bogdanov_Vator={
+		name="Bogdanov Vator"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HRA_Bogdanov_Vator
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	HRA_Zdek_Muzik={
+		name="Zdek Muzik"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HRA_Zdek_Muzik
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	HRA_Tomiroslanko_Masljivo={
+		name="Tomiroslanko Masljivo"
+
+		advisor={
+			slot = air_chief
+			idea_token = HRA_Tomiroslanko_Masljivo
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	HRA_Viktori_Ruca={
+		name="Viktori Ruca"
+
+		advisor={
+			slot = air_chief
+			idea_token = HRA_Viktori_Ruca
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	HRA_Matej_Vecnoslad={
+		name="Matej Vecnoslad"
+
+		advisor={
+			slot = high_command
+			idea_token = HRA_Matej_Vecnoslad
+			traits = {	army_concealment_1 	}
+		}
+
+
+	}
+	HRA_Sergei_Vatrabrir={
+		name="Sergei Vatrabrir"
+
+		advisor={
+			slot = high_command
+			idea_token = HRA_Sergei_Vatrabrir
+			traits = {	navy_screen_2 	}
+		}
+
+
+	}
+	HRA_Olexei_Moresnik={
+		name="Olexei Moresnik"
+
+		advisor={
+			slot = high_command
+			idea_token = HRA_Olexei_Moresnik
+			traits = {	army_infantry_1 	}
+		}
+
+
+	}
+	HRA_Niktoranovan_Filo={
+		name="Niktoranovan Filo"
+
+		advisor={
+			slot = high_command
+			idea_token = HRA_Niktoranovan_Filo
+			traits = {	navy_fleet_logistics_2 	}
+		}
+
+
+	}
+	HRA_Vlan_Sveralja={
+		name="Vlan Sveralja"
+
+		advisor={
+			slot = high_command
+			idea_token = HRA_Vlan_Sveralja
+			traits = {	army_CombinedArms_1 	}
+		}
+
+
+	}
+	HRA_Aleksei_Kisac={
+		name="Aleksei Kisac"
+
+		advisor={
+			slot = high_command
+			idea_token = HRA_Aleksei_Kisac
+			traits = {	navy_naval_air_defense_2 	}
+		}
+
+
+	}
+	HRA_Matefanovan_Ratram={
+		name="Matefanovan Ratram"
+
+		advisor={
+			slot = theorist
+			idea_token = HRA_Matefanovan_Ratram
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	HRA_Brankolavko_Moresnik={
+		name="Brankolavko Moresnik"
+
+		advisor={
+			slot = theorist
+			idea_token = HRA_Brankolavko_Moresnik
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	HRA_Matefan_Drza={
+		name="Matefan Drza"
+
+		advisor={
+			slot = theorist
+			idea_token = HRA_Matefan_Drza
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

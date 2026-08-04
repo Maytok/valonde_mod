@@ -1,0 +1,37 @@
+
+state={
+	id=264
+	name="STATE_264"
+	manpower = 1465005
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=51
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = KDU
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = KDU
+	}
+
+	provinces={
+		3098 3099 3100 3101 3102 3103 3104 3105 3106 
+	}
+	local_supplies=0.0 
+}

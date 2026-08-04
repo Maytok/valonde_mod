@@ -1,0 +1,37 @@
+
+state={
+	id=373
+	name="STATE_373"
+	manpower = 2071343
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = KIM
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = KIM
+	}
+
+	provinces={
+		4276 4277 4278 4279 4280 4281 4282 4283 4284 4285 4286 4287 4288 
+	}
+	local_supplies=0.0 
+}

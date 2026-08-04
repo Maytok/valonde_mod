@@ -1,0 +1,33 @@
+air_wings = {
+		1328 = { 								
+		small_plane_airframe_0 = { owner = "QAN" amount = 50 version_name = "Qiniku Mk 1" }
+medium_plane_airframe_0 = { owner = "QAN" amount = 50 version_name = "Kaniqpak Mk 0" }
+
+	}
+	1312 = { 								
+		small_plane_airframe_0 = { owner = "QAN" amount = 50 version_name = "Qiniku Mk 1" }
+
+	}
+	1317 = { 								
+		large_plane_airframe_0 = { owner = "QAN" amount = 50 version_name = "Kigakuqa Mk 0" }
+
+	}
+	1264 = { 								
+		small_plane_cas_airframe_0 = { owner = "QAN" amount = 50 version_name = "Tuna Mk 1" }
+
+	}
+	1229 = { 								
+		medium_plane_airframe_0 = { owner = "QAN" amount = 50 version_name = "Kaniqpak Mk 0" }
+
+	}
+	1340 = { 								
+		small_plane_cas_airframe_0 = { owner = "QAN" amount = 50 version_name = "Tuna Mk 1" }
+
+	}
+	1665 = { 								
+		large_plane_airframe_0 = { owner = "QAN" amount = 50 version_name = "Kigakuqa Mk 0" }
+
+	}
+
+
+}

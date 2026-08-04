@@ -1,0 +1,37 @@
+
+state={
+	id=148
+	name="STATE_148"
+	manpower = 2119062
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=7
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = AJT
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = AJT
+	}
+
+	provinces={
+		1842 1843 1844 1845 1846 1847 1848 1849 1850 1851 1852 1853 
+	}
+	local_supplies=0.0 
+}

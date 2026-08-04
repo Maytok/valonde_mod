@@ -1,0 +1,1083 @@
+characters = {
+	MAP_Bakari_Shukwelu={
+		name="Bakari Shukwelu"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { staunch_aristocrat  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MAP_Omari_Nyumbasia={
+		name="Omari Nyumbasia"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAP_Omari_Nyumbasia
+			traits = {	humble 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	MAP_Bari_Mauti={
+		name="Bari Mauti"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAP_Bari_Mauti
+			traits = {	agricultural_capitalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	MAP_Shakaraka_Kiono={
+		name="Shakaraka Kiono"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAP_Shakaraka_Kiono
+			traits = {	headstrong 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	MAP_Jumaraka_Rambiria={
+		name="Jumaraka Rambiria"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAP_Jumaraka_Rambiria
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	MAP_Mbwanga_Dhomtaba={
+		name="Mbwanga Dhomtaba"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAP_Mbwanga_Dhomtaba
+			traits = {	headstrong 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	MAP_Kwame_Hisu={
+		name="Kwame Hisu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAP_Kwame_Hisu
+			traits = {	agricultural_nationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	MAP_Kato_Nyumbasia={
+		name="Kato Nyumbasia"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAP_Kato_Nyumbasia
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	MAP_Simbana_Panguo={
+		name="Simbana Panguo"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAP_Simbana_Panguo
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	MAP_Lubana_Kumba={
+		name="Lubana Kumba"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAP_Lubana_Kumba
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	MAP_Amari_Hisu={
+		name="Amari Hisu"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAP_Amari_Hisu
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	MAP_Lubanga_Mwithi={
+		name="Lubanga Mwithi"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MAP_Lubanga_Mwithi
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	MAP_Lubana_Hati={
+		name="Lubana Hati"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MAP_Lubana_Hati
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	MAP_Temba_Piga={
+		name="Temba Piga"
+
+		advisor={
+			slot = air_chief
+			idea_token = MAP_Temba_Piga
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	MAP_Shakari_Pango={
+		name="Shakari Pango"
+
+		advisor={
+			slot = air_chief
+			idea_token = MAP_Shakari_Pango
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	MAP_Nuru_Langanishi={
+		name="Nuru Langanishi"
+
+		advisor={
+			slot = high_command
+			idea_token = MAP_Nuru_Langanishi
+			traits = {	air_air_combat_training_1 	}
+		}
+
+
+	}
+	MAP_Tano_Mshara={
+		name="Tano Mshara"
+
+		advisor={
+			slot = high_command
+			idea_token = MAP_Tano_Mshara
+			traits = {	air_strategic_bombing_1 	}
+		}
+
+
+	}
+	MAP_Mbwano_Sheli={
+		name="Mbwano Sheli"
+
+		advisor={
+			slot = high_command
+			idea_token = MAP_Mbwano_Sheli
+			traits = {	navy_submarine_1 	}
+		}
+
+
+	}
+	MAP_Lubana_Mili={
+		name="Lubana Mili"
+
+		advisor={
+			slot = high_command
+			idea_token = MAP_Lubana_Mili
+			traits = {	air_close_air_support_1 	}
+		}
+
+
+	}
+	MAP_Jumau_Mwithi={
+		name="Jumau Mwithi"
+
+		advisor={
+			slot = high_command
+			idea_token = MAP_Jumau_Mwithi
+			traits = {	navy_screen_1 	}
+		}
+
+
+	}
+	MAP_Baraka_Chuli={
+		name="Baraka Chuli"
+
+		advisor={
+			slot = high_command
+			idea_token = MAP_Baraka_Chuli
+			traits = {	navy_submarine_1 	}
+		}
+
+
+	}
+	MAP_Mbwamau_Aduiya={
+		name="Mbwamau Aduiya"
+
+		
+		country_leader={
+			ideology=fascism_ideology
+			traits = { autokrator  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MAP_Kwano_Malu={
+		name="Kwano Malu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAP_Kwano_Malu
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	MAP_Sefu_Majanaji={
+		name="Sefu Majanaji"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAP_Sefu_Majanaji
+			traits = {	basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	MAP_Kwanga_Kiji={
+		name="Kwanga Kiji"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAP_Kwanga_Kiji
+			traits = {	collaborator_king 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	MAP_Shakari_Wimui={
+		name="Shakari Wimui"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAP_Shakari_Wimui
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	MAP_Kwame_Usiwa={
+		name="Kwame Usiwa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAP_Kwame_Usiwa
+			traits = {	basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	MAP_Nuru_Heshawi={
+		name="Nuru Heshawi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAP_Nuru_Heshawi
+			traits = {	spirit_of_genghis 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	MAP_Mbwanga_Jumbasi={
+		name="Mbwanga Jumbasi"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAP_Mbwanga_Jumbasi
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	MAP_Mbwamau_Nyumbe={
+		name="Mbwamau Nyumbe"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAP_Mbwamau_Nyumbe
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	MAP_Amaraka_Usiwa={
+		name="Amaraka Usiwa"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAP_Amaraka_Usiwa
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	MAP_Shaka_Panjanguzi={
+		name="Shaka Panjanguzi"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAP_Shaka_Panjanguzi
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	MAP_Mbwamau_Lando={
+		name="Mbwamau Lando"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MAP_Mbwamau_Lando
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	MAP_Kama_Siri={
+		name="Kama Siri"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MAP_Kama_Siri
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	MAP_Chidi_Shimutaki={
+		name="Chidi Shimutaki"
+
+		advisor={
+			slot = air_chief
+			idea_token = MAP_Chidi_Shimutaki
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	MAP_Jumari_Mcheli={
+		name="Jumari Mcheli"
+
+		advisor={
+			slot = air_chief
+			idea_token = MAP_Jumari_Mcheli
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	MAP_Shaka_Chera={
+		name="Shaka Chera"
+
+		advisor={
+			slot = high_command
+			idea_token = MAP_Shaka_Chera
+			traits = {	air_tactical_bombing_2 	}
+		}
+
+
+	}
+	MAP_Kwame_Uhawi={
+		name="Kwame Uhawi"
+
+		advisor={
+			slot = high_command
+			idea_token = MAP_Kwame_Uhawi
+			traits = {	air_airborne_1 	}
+		}
+
+
+	}
+	MAP_Jumari_Taana={
+		name="Jumari Taana"
+
+		advisor={
+			slot = high_command
+			idea_token = MAP_Jumari_Taana
+			traits = {	air_pilot_training_1 	}
+		}
+
+
+	}
+	MAP_Kato_Siri={
+		name="Kato Siri"
+
+		advisor={
+			slot = high_command
+			idea_token = MAP_Kato_Siri
+			traits = {	army_regrouping_2 	}
+		}
+
+
+	}
+	MAP_Bari_Malu={
+		name="Bari Malu"
+
+		advisor={
+			slot = high_command
+			idea_token = MAP_Bari_Malu
+			traits = {	air_bomber_interception_1 	}
+		}
+
+
+	}
+	MAP_Kama_Kishalme={
+		name="Kama Kishalme"
+
+		advisor={
+			slot = high_command
+			idea_token = MAP_Kama_Kishalme
+			traits = {	navy_fleet_logistics_2 	}
+		}
+
+
+	}
+	MAP_Mbwamari_Njozi={
+		name="Mbwamari Njozi"
+
+		
+		country_leader={
+			ideology=leninism
+			traits = { leftist_intellectual  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MAP_Musa_Kani={
+		name="Musa Kani"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAP_Musa_Kani
+			traits = {	indomitable_perseverance 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	MAP_Baraka_Hofumbuka={
+		name="Baraka Hofumbuka"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAP_Baraka_Hofumbuka
+			traits = {	patriotic_socialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	MAP_Luba_Piga={
+		name="Luba Piga"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAP_Luba_Piga
+			traits = {	reluctant_stalinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	MAP_Sefu_Piga={
+		name="Sefu Piga"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAP_Sefu_Piga
+			traits = {	indomitable_perseverance 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	MAP_Simba_Mlimaisia={
+		name="Simba Mlimaisia"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAP_Simba_Mlimaisia
+			traits = {	indomitable_perseverance 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	MAP_Kamaraka_Chuli={
+		name="Kamaraka Chuli"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAP_Kamaraka_Chuli
+			traits = {	political_dancer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	MAP_Kama_Tekete={
+		name="Kama Tekete"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAP_Kama_Tekete
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	MAP_Lubanga_Uhawi={
+		name="Lubanga Uhawi"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAP_Lubanga_Uhawi
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	MAP_Mosi_Darali={
+		name="Mosi Darali"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAP_Mosi_Darali
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	MAP_Musa_Mcheli={
+		name="Musa Mcheli"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAP_Musa_Mcheli
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	MAP_Sefu_Shimutaki={
+		name="Sefu Shimutaki"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MAP_Sefu_Shimutaki
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	MAP_Lubanga_Mtifu={
+		name="Lubanga Mtifu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MAP_Lubanga_Mtifu
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	MAP_Sefu_Hadisto={
+		name="Sefu Hadisto"
+
+		advisor={
+			slot = air_chief
+			idea_token = MAP_Sefu_Hadisto
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	MAP_Kato_Nyumba={
+		name="Kato Nyumba"
+
+		advisor={
+			slot = air_chief
+			idea_token = MAP_Kato_Nyumba
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	MAP_Amaraka_Taana={
+		name="Amaraka Taana"
+
+		advisor={
+			slot = high_command
+			idea_token = MAP_Amaraka_Taana
+			traits = {	air_air_combat_training_1 	}
+		}
+
+
+	}
+	MAP_Mbwanga_Shimutaki={
+		name="Mbwanga Shimutaki"
+
+		advisor={
+			slot = high_command
+			idea_token = MAP_Mbwanga_Shimutaki
+			traits = {	air_airborne_2 	}
+		}
+
+
+	}
+	MAP_Kamaraka_Mali={
+		name="Kamaraka Mali"
+
+		advisor={
+			slot = high_command
+			idea_token = MAP_Kamaraka_Mali
+			traits = {	army_CombinedArms_2 	}
+		}
+
+
+	}
+	MAP_Baraka_Kima={
+		name="Baraka Kima"
+
+		advisor={
+			slot = high_command
+			idea_token = MAP_Baraka_Kima
+			traits = {	navy_screen_1 	}
+		}
+
+
+	}
+	MAP_Jumau_Shuli={
+		name="Jumau Shuli"
+
+		advisor={
+			slot = high_command
+			idea_token = MAP_Jumau_Shuli
+			traits = {	army_infantry_1 	}
+		}
+
+
+	}
+	MAP_Shakaraka_Kumba={
+		name="Shakaraka Kumba"
+
+		advisor={
+			slot = high_command
+			idea_token = MAP_Shakaraka_Kumba
+			traits = {	air_naval_strike_1 	}
+		}
+
+
+	}
+	MAP_Baraka_Nyumbe={
+		name="Baraka Nyumbe"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { leftist_independent  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MAP_Mosi_Imaifu={
+		name="Mosi Imaifu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAP_Mosi_Imaifu
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	MAP_Bari_Mshara={
+		name="Bari Mshara"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAP_Bari_Mshara
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	MAP_Shaka_Mcheli={
+		name="Shaka Mcheli"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAP_Shaka_Mcheli
+			traits = {	veteran_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	MAP_Simbana_Darali={
+		name="Simbana Darali"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAP_Simbana_Darali
+			traits = {	rearmer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	MAP_Kame_Hofumbuka={
+		name="Kame Hofumbuka"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAP_Kame_Hofumbuka
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	MAP_Shaka_Wando={
+		name="Shaka Wando"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MAP_Shaka_Wando
+			traits = {	veteran_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	MAP_Mbwamau_Hofu={
+		name="Mbwamau Hofu"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAP_Mbwamau_Hofu
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	MAP_Mbwanga_Pambe={
+		name="Mbwanga Pambe"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAP_Mbwanga_Pambe
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	MAP_Kamaraka_Nyoto={
+		name="Kamaraka Nyoto"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAP_Kamaraka_Nyoto
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	MAP_Nuru_Tekete={
+		name="Nuru Tekete"
+
+		advisor={
+			slot = army_chief
+			idea_token = MAP_Nuru_Tekete
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	MAP_Jumari_Nyumbasia={
+		name="Jumari Nyumbasia"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MAP_Jumari_Nyumbasia
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	MAP_Shakaraka_Kumbo={
+		name="Shakaraka Kumbo"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MAP_Shakaraka_Kumbo
+			traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+
+	}
+	MAP_Amaraka_Mlimaisia={
+		name="Amaraka Mlimaisia"
+
+		advisor={
+			slot = air_chief
+			idea_token = MAP_Amaraka_Mlimaisia
+			traits = {	air_chief_all_weather_2 	}
+		}
+
+
+	}
+	MAP_Kato_Muuji={
+		name="Kato Muuji"
+
+		advisor={
+			slot = air_chief
+			idea_token = MAP_Kato_Muuji
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	MAP_Baka_Aduiya={
+		name="Baka Aduiya"
+
+		advisor={
+			slot = high_command
+			idea_token = MAP_Baka_Aduiya
+			traits = {	air_airborne_1 	}
+		}
+
+
+	}
+	MAP_Kwano_Kishalme={
+		name="Kwano Kishalme"
+
+		advisor={
+			slot = high_command
+			idea_token = MAP_Kwano_Kishalme
+			traits = {	navy_anti_submarine_1 	}
+		}
+
+
+	}
+	MAP_Jumau_Shini={
+		name="Jumau Shini"
+
+		advisor={
+			slot = high_command
+			idea_token = MAP_Jumau_Shini
+			traits = {	army_armored_2 	}
+		}
+
+
+	}
+	MAP_Bari_Sheli={
+		name="Bari Sheli"
+
+		advisor={
+			slot = high_command
+			idea_token = MAP_Bari_Sheli
+			traits = {	navy_screen_2 	}
+		}
+
+
+	}
+	MAP_Kato_Aduiya={
+		name="Kato Aduiya"
+
+		advisor={
+			slot = high_command
+			idea_token = MAP_Kato_Aduiya
+			traits = {	army_armored_2 	}
+		}
+
+
+	}
+	MAP_Sefu_Ukuti={
+		name="Sefu Ukuti"
+
+		advisor={
+			slot = high_command
+			idea_token = MAP_Sefu_Ukuti
+			traits = {	army_radio_intelligence_1 	}
+		}
+
+
+	}
+	MAP_Amari_Nyoto={
+		name="Amari Nyoto"
+
+		advisor={
+			slot = theorist
+			idea_token = MAP_Amari_Nyoto
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	MAP_Simbana_Jumbasi={
+		name="Simbana Jumbasi"
+
+		advisor={
+			slot = theorist
+			idea_token = MAP_Simbana_Jumbasi
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	MAP_Chidi_Hisu={
+		name="Chidi Hisu"
+
+		advisor={
+			slot = theorist
+			idea_token = MAP_Chidi_Hisu
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

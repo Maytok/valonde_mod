@@ -1,0 +1,21 @@
+air_wings = {
+		261 = { 								
+		small_plane_airframe_0 = { owner = "MQC" amount = 50 version_name = "Viturudax Mk 2" }
+small_plane_airframe_0 = { owner = "MQC" amount = 50 version_name = "Viturudax Mk 2" }
+
+	}
+	1554 = { 								
+		small_plane_airframe_0 = { owner = "MQC" amount = 50 version_name = "Viturudax Mk 2" }
+
+	}
+	51 = { 								
+		small_plane_airframe_0 = { owner = "MQC" amount = 50 version_name = "Viturudax Mk 2" }
+
+	}
+	325 = { 								
+		small_plane_airframe_0 = { owner = "MQC" amount = 50 version_name = "Viturudax Mk 2" }
+
+	}
+
+
+}

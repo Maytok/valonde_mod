@@ -1,0 +1,466 @@
+capital = 1296
+
+oob = "SUW_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "SUW_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "SUW_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	support_weapons= 1
+	tech_trucks= 1
+	tech_support= 1
+	gw_artillery= 1
+	infantry_weapons1= 1
+	paratroopers= 1
+	tech_mountaineers= 1
+	armored_car1= 1
+	tech_engineers= 1
+	tech_recon= 1
+	tech_military_police= 1
+	tech_maintenance_company= 1
+	interwar_artillery= 1
+	fuel_silos= 1
+	synth_oil_experiments= 1
+	basic_fire_control_system= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+		basic_heavy_tank = 1
+		improved_light_tank = 1
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+		basic_heavy_tank_chassis = 1
+		engine_tech_1 = 1
+		armor_tech_1 = 1
+		improved_light_tank_chassis = 1
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+		create_equipment_variant = {
+		name = "Tifa Mk 1"
+		type = heavy_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = extra_ammo_storage
+			suspension_type_slot = tank_christie_suspension
+			turret_type_slot = tank_heavy_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Maml Mk 1"
+		type = heavy_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = extra_ammo_storage
+			special_type_slot_2 = expanded_fuel_tank
+			suspension_type_slot = tank_interleaved_suspension
+			turret_type_slot = tank_heavy_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Turahra Mk 0"
+		type = light_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_small_cannon_2
+			special_type_slot_1 = secondary_turret_small_cannon
+			special_type_slot_2 = expanded_fuel_tank
+			special_type_slot_3 = extra_ammo_storage
+			suspension_type_slot = tank_christie_suspension
+			turret_type_slot = tank_light_one_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Mawkaba Mk 0"
+		type = light_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_small_cannon_2
+			special_type_slot_1 = secondary_turret_hmg
+			special_type_slot_2 = wet_ammo_storage
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_light_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Shala Mk 2"
+		type = light_tank_chassis_2
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_small_cannon
+			special_type_slot_1 = smoke_launchers
+			special_type_slot_2 = wet_ammo_storage
+			special_type_slot_3 = extra_ammo_storage
+			suspension_type_slot = tank_christie_suspension
+			turret_type_slot = tank_light_fixed_superstructure_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Majarq Mk 1"
+		type = medium_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_medium_cannon
+			special_type_slot_1 = secondary_turret_hmg
+			special_type_slot_2 = smoke_launchers
+			special_type_slot_3 = wet_ammo_storage
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_medium_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "SUW_1936_air_bba"
+		set_technology = {
+			bba_early_transport_plane = 1
+			iw_small_airframe = 1
+			iw_medium_airframe = 1
+			early_bombs = 1
+			photo_reconnaisance = 1
+			armor_piercing_bombs = 1
+			aa_lmg = 1
+			
+		}
+		create_equipment_variant = {
+			name = "Yemen Mk 1"
+			type = small_plane_cas_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = bomb_locks
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Hazn Mk 2"
+			type = small_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = light_mg_2x
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Hija Mk 0"
+			type = medium_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_2x
+			fixed_main_weapon_slot = medium_bomb_bay
+			special_type_slot_1 = lmg_defense_turret
+
+			}
+		}
+
+	else = {
+		set_air_oob = "SUW_1936_air_legacy"
+		set_technology = {
+			early_transport_plane = 1
+			early_fighter = 1
+			early_bomber = 1
+			CAS1 = 1
+			scout_plane1 = 1
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	early_destroyer = 1
+	
+	}
+	set_naval_oob = "SUW_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Hikmahibl Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	early_ship_hull_light = 1
+	sonar = 1
+	
+	}
+	set_naval_oob = "SUW_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Hikmahibl Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = ship_anti_air_1
+				rear_1_custom_slot = ship_anti_air_1
+			}
+		}
+
+	}
+
+
+recruit_character = SUW_Jammed_Matanz
+recruit_character = SUW_Sami_Turahra
+recruit_character = SUW_Jamali_Qadi
+recruit_character = SUW_Abdullal_Matanz
+recruit_character = SUW_Nabil_Sahraba
+recruit_character = SUW_Hassal_Shibl
+recruit_character = SUW_Adnan_Turahra
+recruit_character = SUW_Adnan_Raba
+recruit_character = SUW_Jamza_Maktarah
+recruit_character = SUW_Ramir_Irabil
+recruit_character = SUW_Hassali_Khalama
+recruit_character = SUW_Jami_Asat
+recruit_character = SUW_Anwarid_Shaqq
+recruit_character = SUW_Faisal_Raba
+recruit_character = SUW_Bilah_Sahraba
+recruit_character = SUW_Bilal_Hikmalaktasa
+recruit_character = SUW_Ahmoud_Sanamt
+recruit_character = SUW_Samariq_Harda
+recruit_character = SUW_Fariq_Sharitaadi
+recruit_character = SUW_Jamali_Rihlakech
+recruit_character = SUW_Anwar_Ghur
+recruit_character = SUW_Hamir_Ghur
+recruit_character = SUW_Omar_Fajd
+recruit_character = SUW_Abdullal_Kalb
+recruit_character = SUW_Ibrahim_Madi
+recruit_character = SUW_Ramza_Nizam
+recruit_character = SUW_Mahmad_Ramaniyahr
+recruit_character = SUW_Samariq_Mawda
+recruit_character = SUW_Hassal_Kalb
+recruit_character = SUW_Zaid_Shayatina
+recruit_character = SUW_Omarid_Madina
+recruit_character = SUW_Karid_Saabr
+recruit_character = SUW_Mohami_Tifl
+recruit_character = SUW_Yahmal_Sahraba
+recruit_character = SUW_Anwariq_Muna
+recruit_character = SUW_Zaid_Zamt
+recruit_character = SUW_Fariq_Mawkana
+recruit_character = SUW_Zaisan_Rawat
+recruit_character = SUW_Imrahya_Hajr
+recruit_character = SUW_Mahya_Kalb
+recruit_character = SUW_Nabilal_Rawat
+recruit_character = SUW_Zaisalid_Nizam
+recruit_character = SUW_Samza_Hikmahibl
+recruit_character = SUW_Mahmad_Shibl
+recruit_character = SUW_Anwariq_Turahra
+recruit_character = SUW_Zaisan_Masjidda
+recruit_character = SUW_Yahim_Suwatin
+recruit_character = SUW_Anwar_Hazn
+recruit_character = SUW_Yahim_Rihlakech
+recruit_character = SUW_Yahim_Nizam
+recruit_character = SUW_Sammed_Zamt
+recruit_character = SUW_Fariq_Shaqq
+recruit_character = SUW_Ibrahya_Reej
+recruit_character = SUW_Ibran_Shalb
+recruit_character = SUW_Ramza_Suwatin
+recruit_character = SUW_Jami_Hikh
+recruit_character = SUW_Sami_Ghur
+recruit_character = SUW_Kariq_Hikmahibl
+recruit_character = SUW_Yahmoud_Hikmalaktasa
+recruit_character = SUW_Ibrah_Hijraka
+recruit_character = SUW_Ibrahya_Qadi
+recruit_character = SUW_Hassan_Doharb
+recruit_character = SUW_Mahya_Darasjidda
+recruit_character = SUW_Bilal_Nariq
+recruit_character = SUW_Anwariq_Thalb
+recruit_character = SUW_Ahmoud_Hafa
+recruit_character = SUW_Saad_Bahayal
+recruit_character = SUW_Sami_Sultab
+recruit_character = SUW_Karid_Majarq
+recruit_character = SUW_Zaid_Suwataad
+recruit_character = SUW_Zaid_Shana
+recruit_character = SUW_Kariq_Mawkana
+recruit_character = SUW_Ramza_Madina
+recruit_character = SUW_Yahmal_Khalaktan
+recruit_character = SUW_Nabilal_Harda
+recruit_character = SUW_Yahmal_Masra
+recruit_character = SUW_Ibrahya_Amirasrabib
+recruit_character = SUW_Sami_Rihlakech
+recruit_character = SUW_Jamir_Hikh
+recruit_character = SUW_Khamad_Rawat
+recruit_character = SUW_Zaisan_Ramanzim
+recruit_character = SUW_Anwariq_Kawat
+recruit_character = SUW_Hami_Sultab
+recruit_character = SUW_Abdullal_Namartoum
+recruit_character = SUW_Hami_Basrasra
+recruit_character = SUW_Khamad_Kitariq
+recruit_character = SUW_Ramza_Majartourhan
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 4
+set_convoys = 0
+set_stability = 0.74
+set_war_support = 0.78
+
+add_ideas = {
+extensive_conscription
+partial_economic_mobilisation
+autarkic_economy
+}
+
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1889.10.17"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 19
+	fascism = 40
+	communism = 22
+	neutrality = 19
+}
+
+
+
+
+

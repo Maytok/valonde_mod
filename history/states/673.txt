@@ -1,0 +1,37 @@
+
+state={
+	id=673
+	name="STATE_673"
+	manpower = 2490886
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = LAN
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = LAN
+	}
+
+	provinces={
+		7910 7911 7912 7913 7914 7915 7916 7917 7918 7919 7920 7921 7922 7923 
+	}
+	local_supplies=0.0 
+}

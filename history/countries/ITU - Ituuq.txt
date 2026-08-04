@@ -1,0 +1,462 @@
+capital = 111
+
+oob = "ITU_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "ITU_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "ITU_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	support_weapons= 1
+	tech_trucks= 1
+	marines= 1
+	tech_mountaineers= 1
+	basic_machine_tools= 1
+	fuel_silos= 1
+	construction1= 1
+	basic_fortification_tech= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+		basic_heavy_tank = 1
+		improved_light_tank = 1
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+		basic_heavy_tank_chassis = 1
+		engine_tech_1 = 1
+		armor_tech_1 = 1
+		improved_light_tank_chassis = 1
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+		create_equipment_variant = {
+		name = "Sikuttanuaq Mk 0"
+		type = heavy_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = expanded_fuel_tank
+			special_type_slot_2 = wet_ammo_storage
+			special_type_slot_3 = extra_ammo_storage
+			suspension_type_slot = tank_torsion_bar_suspension
+			turret_type_slot = tank_heavy_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Qikiq Mk 1"
+		type = heavy_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = secondary_turret_hmg
+			special_type_slot_2 = wet_ammo_storage
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_heavy_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Ituk Mk 1"
+		type = light_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_heavy_machine_gun
+			special_type_slot_1 = secondary_turret_small_cannon
+			special_type_slot_2 = expanded_fuel_tank
+			special_type_slot_3 = wet_ammo_storage
+			suspension_type_slot = tank_interleaved_suspension
+			turret_type_slot = tank_light_one_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Ituuq Mk 1"
+		type = light_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_heavy_machine_gun
+			special_type_slot_1 = smoke_launchers
+			special_type_slot_3 = wet_ammo_storage
+			suspension_type_slot = tank_torsion_bar_suspension
+			turret_type_slot = tank_light_fixed_superstructure_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Wrakti Mk 1"
+		type = light_tank_chassis_2
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_heavy_machine_gun
+			special_type_slot_1 = smoke_launchers
+			special_type_slot_2 = wet_ammo_storage
+			special_type_slot_3 = extra_ammo_storage
+			suspension_type_slot = tank_christie_suspension
+			turret_type_slot = tank_light_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Sikiq Mk 0"
+		type = medium_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_medium_cannon
+			special_type_slot_1 = wet_ammo_storage
+			special_type_slot_2 = expanded_fuel_tank
+			special_type_slot_3 = extra_ammo_storage
+			suspension_type_slot = tank_interleaved_suspension
+			turret_type_slot = tank_medium_one_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "ITU_1936_air_bba"
+		set_technology = {
+			bba_early_transport_plane = 1
+			iw_small_airframe = 1
+			early_bombs = 1
+			photo_reconnaisance = 1
+			air_torpedoe_1 = 1
+			aa_lmg = 1
+			engines_1 = 1
+			aircraft_construction = 1
+			armor_piercing_bombs = 1
+			
+		}
+		create_equipment_variant = {
+			name = "Anguta Mk 1"
+			type = small_plane_cas_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = bomb_locks
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Napak Mk 2"
+			type = small_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = light_mg_2x
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Spuk Mk 1"
+			type = small_plane_naval_bomber_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = torpedo_mounting
+			special_type_slot_1 = empty
+
+			}
+		}
+
+	else = {
+		set_air_oob = "ITU_1936_air_legacy"
+		set_technology = {
+			early_transport_plane = 1
+			early_fighter = 1
+			CAS1 = 1
+			scout_plane1 = 1
+			naval_bomber1 = 1
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	early_destroyer = 1
+	
+	}
+	set_naval_oob = "ITU_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Iliaqa Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	early_ship_hull_light = 1
+	sonar = 1
+	
+	}
+	set_naval_oob = "ITU_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Iliaqa Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = empty
+				rear_1_custom_slot = empty
+			}
+		}
+
+	}
+
+
+recruit_character = ITU_Tulok_Sikillutakuq
+recruit_character = ITU_Panik_Kuvalut
+recruit_character = ITU_Kanaq_Tata
+recruit_character = ITU_Tulok_Qangiq
+recruit_character = ITU_Qajaq_Upik
+recruit_character = ITU_Qajaq_Sikiq
+recruit_character = ITU_Kanik_Colvik
+recruit_character = ITU_Panuq_Kigaalawimia
+recruit_character = ITU_Kaviku_Tikupak
+recruit_character = ITU_Qajaq_Qanguniqtuug
+recruit_character = ITU_Tulok_Qaniqilulik
+recruit_character = ITU_Kunik_Ituuq
+recruit_character = ITU_Nutarak_Iliaqa
+recruit_character = ITU_Kavik_Nuniqtak
+recruit_character = ITU_Naluk_Mangiqilupak
+recruit_character = ITU_Taluk_Ipik
+recruit_character = ITU_Mana_Colvik
+recruit_character = ITU_Iluk_Tuna
+recruit_character = ITU_Taluk_Tata
+recruit_character = ITU_Kuniku_Kigaalawimia
+recruit_character = ITU_Atka_Kimiaq
+recruit_character = ITU_Nanuq_Sikillutakuq
+recruit_character = ITU_Taluk_Tuna
+recruit_character = ITU_Nutarak_Surtak
+recruit_character = ITU_Atka_Nusit
+recruit_character = ITU_Manuq_Nalikuqa
+recruit_character = ITU_Mana_Tamaruq
+recruit_character = ITU_Siku_Kuviggaq
+recruit_character = ITU_Manuq_Nusit
+recruit_character = ITU_Manuq_Tanuk
+recruit_character = ITU_Taluk_Kigaalawimia
+recruit_character = ITU_Nuvuk_Tata
+recruit_character = ITU_Naluk_Tummaq
+recruit_character = ITU_Panik_Sikuttanuaq
+recruit_character = ITU_Naluk_Ituuq
+recruit_character = ITU_Tulok_Spuk
+recruit_character = ITU_Oliku_Spuk
+recruit_character = ITU_Nanuq_Kimiaq
+recruit_character = ITU_Taluk_Amakuqatkani
+recruit_character = ITU_Kavik_Kigaalawimia
+recruit_character = ITU_Kaviku_Qanguniqtuug
+recruit_character = ITU_Sila_Tikupak
+recruit_character = ITU_Manaq_Imaq
+recruit_character = ITU_Kanaq_Qikiq
+recruit_character = ITU_Ukpik_Nushaq
+recruit_character = ITU_Kaviku_Oliatangiq
+recruit_character = ITU_Taluk_Anaapikiq
+recruit_character = ITU_Nutarak_Avanirniqa
+recruit_character = ITU_Kanik_Agluk
+recruit_character = ITU_Nuvuk_Sellupaq
+recruit_character = ITU_Nanuq_Tamaruq
+recruit_character = ITU_Sila_Aglagunaq
+recruit_character = ITU_Iluk_Nalunavibuk
+recruit_character = ITU_Nutarak_Kuvalut
+recruit_character = ITU_Sila_Anaapikiq
+recruit_character = ITU_Oliku_Kuvak
+recruit_character = ITU_Kuniku_Qanguniqtuug
+recruit_character = ITU_Manaq_Avak
+recruit_character = ITU_Kana_Nalikuqa
+recruit_character = ITU_Tulok_Tikuq
+recruit_character = ITU_Mana_Tuna
+recruit_character = ITU_Tulok_Kuvalut
+recruit_character = ITU_Kuniku_Sikiglaq
+recruit_character = ITU_Nutarak_Spurtanupalu
+recruit_character = ITU_Olik_Taktiqtuk
+recruit_character = ITU_Kanaq_Wrana
+recruit_character = ITU_Qajaq_Nanguttak
+recruit_character = ITU_Manuq_Qanguniqtuug
+recruit_character = ITU_Manaq_Kimiaq
+recruit_character = ITU_Manuq_Kuvalut
+recruit_character = ITU_Siku_Oliatangiq
+recruit_character = ITU_Ukpikigaq_Nangikiqpaan
+recruit_character = ITU_Nuvuk_Avanuk
+recruit_character = ITU_Sila_Katkamna
+recruit_character = ITU_Kana_Nanuk
+recruit_character = ITU_Kana_Kanuvuk
+recruit_character = ITU_Kunik_Sikiq
+recruit_character = ITU_Nanuq_Qiniku
+recruit_character = ITU_Nuvuk_Kuvuk
+recruit_character = ITU_Olik_Kuvi
+recruit_character = ITU_Kuniku_Agluk
+recruit_character = ITU_Taluk_Nalikuqa
+recruit_character = ITU_Manuq_Upik
+recruit_character = ITU_Manuq_Silik
+recruit_character = ITU_Nutarak_Nipik
+recruit_character = ITU_Kunik_Kigaq
+recruit_character = ITU_Kanaq_Kigaaq
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 4
+set_convoys = 0
+set_stability = 0.53
+set_war_support = 0.75
+
+add_ideas = {
+disarmed_nation
+civilian_economy
+closed_economy
+}
+
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1924.1.4"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 27
+	fascism = 26
+	communism = 30
+	neutrality = 17
+}
+
+
+
+
+

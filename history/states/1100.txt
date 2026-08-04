@@ -1,0 +1,37 @@
+
+state={
+	id=1100
+	name="STATE_1100"
+	manpower = 1315731
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=2
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = HAJ
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = HAJ
+	}
+
+	provinces={
+		12685 12686 12687 12688 12689 12690 12691 12692 
+	}
+	local_supplies=0.0 
+}

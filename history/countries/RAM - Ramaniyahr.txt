@@ -1,0 +1,464 @@
+capital = 1387
+
+oob = "RAM_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "RAM_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "RAM_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	support_weapons= 1
+	tech_trucks= 1
+	tech_support= 1
+	gw_artillery= 1
+	infantry_weapons1= 1
+	paratroopers= 1
+	marines= 1
+	tech_engineers= 1
+	tech_recon= 1
+	tech_military_police= 1
+	tech_maintenance_company= 1
+	interwar_artillery= 1
+	basic_fire_control_system= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+		basic_heavy_tank = 1
+		improved_light_tank = 1
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+		basic_heavy_tank_chassis = 1
+		engine_tech_1 = 1
+		armor_tech_1 = 1
+		improved_light_tank_chassis = 1
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+		create_equipment_variant = {
+		name = "Masra Mk 1"
+		type = heavy_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = secondary_turret_hmg
+			special_type_slot_2 = smoke_launchers
+			special_type_slot_3 = wet_ammo_storage
+			suspension_type_slot = tank_christie_suspension
+			turret_type_slot = tank_heavy_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Asat Mk 2"
+		type = heavy_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = secondary_turret_small_cannon
+			special_type_slot_3 = smoke_launchers
+			suspension_type_slot = tank_torsion_bar_suspension
+			turret_type_slot = tank_heavy_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Shaqq Mk 1"
+		type = light_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_small_cannon
+			special_type_slot_1 = wet_ammo_storage
+			special_type_slot_2 = extra_ammo_storage
+			special_type_slot_3 = smoke_launchers
+			suspension_type_slot = tank_torsion_bar_suspension
+			turret_type_slot = tank_light_one_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Shabala Mk 0"
+		type = light_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_small_cannon
+			special_type_slot_1 = secondary_turret_small_cannon
+			special_type_slot_2 = smoke_launchers
+			suspension_type_slot = tank_interleaved_suspension
+			turret_type_slot = tank_light_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Hayr Mk 2"
+		type = light_tank_chassis_2
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_close_support_gun
+			special_type_slot_1 = secondary_turret_small_cannon
+			special_type_slot_2 = expanded_fuel_tank
+			special_type_slot_3 = smoke_launchers
+			suspension_type_slot = tank_interleaved_suspension
+			turret_type_slot = tank_light_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Hikmalaktasa Mk 0"
+		type = medium_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_medium_cannon
+			special_type_slot_1 = wet_ammo_storage
+			special_type_slot_2 = extra_ammo_storage
+			special_type_slot_3 = smoke_launchers
+			suspension_type_slot = tank_interleaved_suspension
+			turret_type_slot = tank_medium_fixed_superstructure_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "RAM_1936_air_bba"
+		set_technology = {
+			iw_small_airframe = 1
+			early_bombs = 1
+			air_torpedoe_1 = 1
+			aa_lmg = 1
+			engines_1 = 1
+			bba_early_transport_plane = 1
+			armor_piercing_bombs = 1
+			
+		}
+		create_equipment_variant = {
+			name = "Sahraba Mk 0"
+			type = small_plane_cas_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = bomb_locks
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Sultab Mk 1"
+			type = small_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = light_mg_2x
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Namartoum Mk 0"
+			type = small_plane_naval_bomber_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = torpedo_mounting
+			special_type_slot_1 = empty
+
+			}
+		}
+
+	else = {
+		set_air_oob = "RAM_1936_air_legacy"
+		set_technology = {
+			early_fighter = 1
+			CAS1 = 1
+			naval_bomber1 = 1
+			early_transport_plane = 1
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	early_destroyer = 1
+	
+	}
+	set_naval_oob = "RAM_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Sanamt Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	early_ship_hull_light = 1
+	sonar = 1
+	
+	}
+	set_naval_oob = "RAM_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Sanamt Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = empty
+				rear_1_custom_slot = empty
+			}
+		}
+
+	}
+
+
+recruit_character = RAM_Khal_Noum
+recruit_character = RAM_Bilah_Maghrahr
+recruit_character = RAM_Nabilal_Harq
+recruit_character = RAM_Bilah_Shabala
+recruit_character = RAM_Khamad_Shabala
+recruit_character = RAM_Nabil_Ghur
+recruit_character = RAM_Majid_Suwatin
+recruit_character = RAM_Zaid_Turahra
+recruit_character = RAM_Hassali_Tifl
+recruit_character = RAM_Jamir_Sham
+recruit_character = RAM_Hassali_Madi
+recruit_character = RAM_Karid_Thalb
+recruit_character = RAM_Samariq_Shana
+recruit_character = RAM_Hassali_Dohayah
+recruit_character = RAM_Fariq_Imaada
+recruit_character = RAM_Khami_Hafa
+recruit_character = RAM_Samariq_Hikh
+recruit_character = RAM_Ibrahya_Muna
+recruit_character = RAM_Jamali_Hikmahibl
+recruit_character = RAM_Karid_Madi
+recruit_character = RAM_Faid_Shayatina
+recruit_character = RAM_Nabilal_Doharb
+recruit_character = RAM_Adnan_Diwat
+recruit_character = RAM_Alid_Nariq
+recruit_character = RAM_Anwarid_Hajr
+recruit_character = RAM_Jammed_Saadin
+recruit_character = RAM_Karid_Shaqafa
+recruit_character = RAM_Kariq_Reej
+recruit_character = RAM_Abdullal_Shayatina
+recruit_character = RAM_Ibrah_Kawat
+recruit_character = RAM_Ramza_Hazn
+recruit_character = RAM_Ibrah_Shayatina
+recruit_character = RAM_Abdullal_Tifa
+recruit_character = RAM_Jamali_Tifl
+recruit_character = RAM_Hassan_Makech
+recruit_character = RAM_Karid_Saabr
+recruit_character = RAM_Yahmal_Raba
+recruit_character = RAM_Rammed_Kalb
+recruit_character = RAM_Zaisalid_Saadin
+recruit_character = RAM_Alid_Mawkana
+recruit_character = RAM_Anwar_Khalaktan
+recruit_character = RAM_Mohal_Harq
+recruit_character = RAM_Ramir_Madina
+recruit_character = RAM_Hassal_Darasjidda
+recruit_character = RAM_Faid_Fartourub
+recruit_character = RAM_Mahya_Darasjidda
+recruit_character = RAM_Jammed_Maghra
+recruit_character = RAM_Ibrahim_Kitariq
+recruit_character = RAM_Khami_Khaman
+recruit_character = RAM_Bilah_Ghur
+recruit_character = RAM_Ibran_Matanz
+recruit_character = RAM_Jamir_Namartoum
+recruit_character = RAM_Saad_Dohayah
+recruit_character = RAM_Ibrahim_Suwataad
+recruit_character = RAM_Kariq_Hikh
+recruit_character = RAM_Ibrahya_Ramaniyahr
+recruit_character = RAM_Imran_Ramanzim
+recruit_character = RAM_Ibran_Harq
+recruit_character = RAM_Anwariq_Hajr
+recruit_character = RAM_Karid_Nizam
+recruit_character = RAM_Nabilahim_Makech
+recruit_character = RAM_Faid_Matanz
+recruit_character = RAM_Yahmoud_Tifl
+recruit_character = RAM_Zaisalid_Shibl
+recruit_character = RAM_Sami_Hayr
+recruit_character = RAM_Hassal_Burub
+recruit_character = RAM_Anwarid_Shala
+recruit_character = RAM_Nabil_Mawkaba
+recruit_character = RAM_Zaisalid_Khaml
+recruit_character = RAM_Ibrah_Narab
+recruit_character = RAM_Karid_Maml
+recruit_character = RAM_Omal_Majarq
+recruit_character = RAM_Ibrahya_Hayr
+recruit_character = RAM_Ahmoud_Maml
+recruit_character = RAM_Omar_Rihlakech
+recruit_character = RAM_Ibrah_Hija
+recruit_character = RAM_Alid_Hafa
+recruit_character = RAM_Yahmoud_Namartoum
+recruit_character = RAM_Mohami_Majarq
+recruit_character = RAM_Nabilali_Matanz
+recruit_character = RAM_Anwariq_Hijraka
+recruit_character = RAM_Jammed_Majartourhan
+recruit_character = RAM_Jami_Basrasra
+recruit_character = RAM_Khal_Thalb
+recruit_character = RAM_Khamad_Hajr
+recruit_character = RAM_Hamir_Doharb
+recruit_character = RAM_Nabilahim_Tifa
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 4
+set_convoys = 0
+set_stability = 0.89
+set_war_support = 0.69
+
+add_ideas = {
+limited_conscription
+low_economic_mobilisation
+autarkic_economy
+}
+
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1898.8.12"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 34
+	fascism = 40
+	communism = 1
+	neutrality = 25
+}
+
+
+
+
+

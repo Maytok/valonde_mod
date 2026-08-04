@@ -1,0 +1,20 @@
+air_wings = {
+		560 = { 								
+		nav_bomber_equipment_0 = { owner = "RAM" amount = 48 version_name = "Namartoum Mk 0" }
+
+	}
+	1659 = { 								
+		fighter_equipment_0 = { owner = "RAM" amount = 50 version_name = "Sultab Mk 1" }
+
+	}
+	1578 = { 								
+		CAS_equipment_0 = { owner = "RAM" amount = 40 version_name = "Sahraba Mk 0" }
+
+	}
+	253 = { 								
+		fighter_equipment_0 = { owner = "RAM" amount = 50 version_name = "Sultab Mk 1" }
+
+	}
+
+
+}

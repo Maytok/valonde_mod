@@ -1,0 +1,25 @@
+air_wings = {
+		891 = { 								
+		small_plane_cas_airframe_0 = { owner = "ITU" amount = 50 version_name = "Anguta Mk 1" }
+
+	}
+	547 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "ITU" amount = 50 version_name = "Spuk Mk 1" }
+
+	}
+	893 = { 								
+		small_plane_airframe_0 = { owner = "ITU" amount = 50 version_name = "Napak Mk 2" }
+small_plane_naval_bomber_airframe_0 = { owner = "ITU" amount = 50 version_name = "Spuk Mk 1" }
+
+	}
+	883 = { 								
+		small_plane_airframe_0 = { owner = "ITU" amount = 50 version_name = "Napak Mk 2" }
+
+	}
+	923 = { 								
+		small_plane_cas_airframe_0 = { owner = "ITU" amount = 50 version_name = "Anguta Mk 1" }
+
+	}
+
+
+}

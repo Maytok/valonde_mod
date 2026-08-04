@@ -1,0 +1,37 @@
+
+state={
+	id=738
+	name="STATE_738"
+	manpower = 2025412
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = RAD
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = RAD
+	}
+
+	provinces={
+		8584 8585 8586 8587 8588 8589 8590 8591 8592 8593 8594 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=806
+	name="STATE_806"
+	manpower = 1909650
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = RAD
+		buildings = {
+			infrastructure = 1
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = RAD
+	}
+
+	provinces={
+		9427 9428 9429 9430 9431 9432 9433 9434 9435 9436 9437 9438 
+	}
+	local_supplies=0.0 
+}

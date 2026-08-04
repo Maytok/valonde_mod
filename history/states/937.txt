@@ -1,0 +1,37 @@
+
+state={
+	id=937
+	name="STATE_937"
+	manpower = 2512504
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=3
+		chromium=3
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=3
+		coal=7
+	}
+
+	history={
+		
+		owner = DAN
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = DAN
+	}
+
+	provinces={
+		10774 10775 10776 10777 10778 10779 10780 10781 10782 10783 10784 10785 10786 10787 
+	}
+	local_supplies=0.0 
+}

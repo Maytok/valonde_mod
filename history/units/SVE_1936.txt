@@ -1,0 +1,155 @@
+division_template = {
+	name = "Militia Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+			cavalry = {  x = 0 y = 0 }
+			cavalry = {  x = 0 y = 1 }
+			cavalry = {  x = 0 y = 2 }
+			cavalry = {  x = 1 y = 0 }
+			cavalry = {  x = 1 y = 1 }
+			cavalry = {  x = 1 y = 2 }
+			cavalry = {  x = 2 y = 0 }
+			cavalry = {  x = 2 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Motorized Division"
+
+	regiments = {
+			motorized = {  x = 0 y = 0 }
+			motorized = {  x = 0 y = 1 }
+			motorized = {  x = 0 y = 2 }
+			motorized = {  x = 1 y = 0 }
+			motorized = {  x = 1 y = 1 }
+			motorized = {  x = 1 y = 2 }
+			motorized = {  x = 2 y = 0 }
+			motorized = {  x = 2 y = 1 }
+			motorized = {  x = 2 y = 2 }
+
+	}
+	
+	support = {
+
+	}
+}
+
+
+units = {
+	division= {
+		name = "1st 'Obarstvo' Militia Division"
+		location = 11953
+		division_template = "Militia Division"
+		start_experience_factor = 0.839733
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "2nd 'Raba' Militia Division"
+		location = 12393
+		division_template = "Militia Division"
+		start_experience_factor = 0.776542
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "3rd 'Kawat' Militia Division"
+		location = 12507
+		division_template = "Militia Division"
+		start_experience_factor = 0.397837
+		start_equipment_factor = 0.960498
+	}
+	division= {
+		name = "4th 'Vrlina' Militia Division"
+		location = 12650
+		division_template = "Militia Division"
+		start_experience_factor = 0.411115
+		start_equipment_factor = 0.998882
+	}
+	division= {
+		name = "5th 'Glana' Militia Division"
+		location = 12657
+		division_template = "Militia Division"
+		start_experience_factor = 0.251265
+		start_equipment_factor = 0.831192
+	}
+	division= {
+		name = "1st 'Burub' Infantry Division"
+		location = 12537
+		division_template = "Infantry Division"
+		start_experience_factor = 0.427228
+		start_equipment_factor = 0.976665
+	}
+	division= {
+		name = "2nd 'Vatrabrir' Infantry Division"
+		location = 12656
+		division_template = "Infantry Division"
+		start_experience_factor = 0.215564
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "1st 'Kulasinaga' Cavalry Division"
+		location = 12646
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.764905
+		start_equipment_factor = 0.841272
+	}
+	division= {
+		name = "2nd 'Shalb' Cavalry Division"
+		location = 11874
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.050109
+		start_equipment_factor = 0.872083
+	}
+	division= {
+		name = "1st 'Masljivo' Motorized Division"
+		location = 13628
+		division_template = "Motorized Division"
+		start_experience_factor = 0.144731
+		start_equipment_factor = 0.922322
+	}
+	division= {
+		name = "2nd 'Nariq' Motorized Division"
+		location = 12534
+		division_template = "Motorized Division"
+		start_experience_factor = 0.770413
+		start_equipment_factor = 0.878218
+	}
+
+}

@@ -1,0 +1,421 @@
+capital = 897
+
+oob = "SDA_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "SDA_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "SDA_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	support_weapons= 1
+	tech_trucks= 1
+	tech_support= 1
+	gw_artillery= 1
+	infantry_weapons1= 1
+	tech_mountaineers= 1
+	motorised_infantry= 1
+	armored_car1= 1
+	tech_recon= 1
+	interwar_artillery= 1
+	basic_machine_tools= 1
+	fuel_silos= 1
+	synth_oil_experiments= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+		basic_heavy_tank = 1
+		improved_light_tank = 1
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+		basic_heavy_tank_chassis = 1
+		engine_tech_1 = 1
+		armor_tech_1 = 1
+		improved_light_tank_chassis = 1
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+		create_equipment_variant = {
+		name = "Najlifl Mk 0"
+		type = heavy_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = smoke_launchers
+			special_type_slot_2 = expanded_fuel_tank
+			special_type_slot_3 = wet_ammo_storage
+			suspension_type_slot = tank_interleaved_suspension
+			turret_type_slot = tank_heavy_fixed_superstructure_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Rabat Mk 1"
+		type = heavy_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = secondary_turret_hmg
+			suspension_type_slot = tank_christie_suspension
+			turret_type_slot = tank_heavy_fixed_superstructure_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Nasrahjaz Mk 1"
+		type = light_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_small_cannon
+			special_type_slot_1 = expanded_fuel_tank
+			special_type_slot_3 = extra_ammo_storage
+			suspension_type_slot = tank_torsion_bar_suspension
+			turret_type_slot = tank_light_fixed_superstructure_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Durharyahr Mk 0"
+		type = light_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_small_cannon
+			special_type_slot_1 = secondary_turret_hmg
+			special_type_slot_2 = expanded_fuel_tank
+			special_type_slot_3 = extra_ammo_storage
+			suspension_type_slot = tank_christie_suspension
+			turret_type_slot = tank_light_one_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Imalahibl Mk 2"
+		type = light_tank_chassis_2
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_close_support_gun
+			special_type_slot_1 = secondary_turret_small_cannon
+			special_type_slot_2 = extra_ammo_storage
+			suspension_type_slot = tank_torsion_bar_suspension
+			turret_type_slot = tank_light_fixed_superstructure_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Masa Mk 0"
+		type = medium_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_medium_cannon
+			special_type_slot_1 = secondary_turret_hmg
+			special_type_slot_2 = expanded_fuel_tank
+			special_type_slot_3 = smoke_launchers
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_medium_fixed_superstructure_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "SDA_1936_air_bba"
+		set_technology = {
+			
+		}
+
+	else = {
+		set_air_oob = "SDA_1936_air_legacy"
+		set_technology = {
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	early_destroyer = 1
+	
+	}
+	set_naval_oob = "SDA_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Durhama Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	early_ship_hull_light = 1
+	sonar = 1
+	
+	}
+	set_naval_oob = "SDA_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Durhama Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = ship_anti_air_1
+				rear_1_custom_slot = empty
+			}
+		}
+
+	}
+
+
+recruit_character = SDA_Hammed_Taryat
+recruit_character = SDA_Sami_Balakech
+recruit_character = SDA_Ibrahya_Madin
+recruit_character = SDA_Zaisan_Qala
+recruit_character = SDA_Mohami_Sultarq
+recruit_character = SDA_Anwarim_Tifl
+recruit_character = SDA_Yahim_Makta
+recruit_character = SDA_Adnan_Shar
+recruit_character = SDA_Ramad_Basr
+recruit_character = SDA_Faid_Najd
+recruit_character = SDA_Ahmoud_Taryat
+recruit_character = SDA_Khamarim_Makta
+recruit_character = SDA_Zaisan_Thabal
+recruit_character = SDA_Anwarim_Dura
+recruit_character = SDA_Omal_Kharb
+recruit_character = SDA_Hassan_Dawda
+recruit_character = SDA_Samir_Amarasjid
+recruit_character = SDA_Karid_Mustarb
+recruit_character = SDA_Alid_Nadina
+recruit_character = SDA_Imrahya_Nadina
+recruit_character = SDA_Anwar_Dawda
+recruit_character = SDA_Hassal_Thayahr
+recruit_character = SDA_Faid_Turuq
+recruit_character = SDA_Ibrahim_Samlama
+recruit_character = SDA_Hassal_Balakech
+recruit_character = SDA_Karid_Mataryalb
+recruit_character = SDA_Sami_Najd
+recruit_character = SDA_Ahmarim_Shamar
+recruit_character = SDA_Tarim_Wasadi
+recruit_character = SDA_Samir_Dohaba
+recruit_character = SDA_Hammed_Shamaria
+recruit_character = SDA_Anwarim_Thabal
+recruit_character = SDA_Yahim_Balahreb
+recruit_character = SDA_Nabilahmal_Barikmal
+recruit_character = SDA_Nabil_Shamaria
+recruit_character = SDA_Samar_Jaba
+recruit_character = SDA_Mahmar_Amanz
+recruit_character = SDA_Nabilal_Kharq
+recruit_character = SDA_Ibrahya_Mufti
+recruit_character = SDA_Samza_Imanawaryah
+recruit_character = SDA_Tarid_Basr
+recruit_character = SDA_Nabil_Nariq
+recruit_character = SDA_Ramir_Kita
+recruit_character = SDA_Mohalid_Shaq
+recruit_character = SDA_Mohamariq_Tharb
+recruit_character = SDA_Mohal_Hisn
+recruit_character = SDA_Mohamariq_Janub
+recruit_character = SDA_Yahim_Rabat
+recruit_character = SDA_Fariq_Shar
+recruit_character = SDA_Abdullali_Taria
+recruit_character = SDA_Karid_Manub
+recruit_character = SDA_Mohal_Samlama
+recruit_character = SDA_Karid_Noum
+recruit_character = SDA_Mahya_Qara
+recruit_character = SDA_Tarid_Hikh
+recruit_character = SDA_Mohalid_Hijr
+recruit_character = SDA_Khamarim_Wasadi
+recruit_character = SDA_Khal_Hawi
+recruit_character = SDA_Faisan_Qala
+recruit_character = SDA_Ahmarid_Rawi
+recruit_character = SDA_Mahya_Hayalifa
+recruit_character = SDA_Yahim_Kharda
+recruit_character = SDA_Yusuf_Hayat
+recruit_character = SDA_Nabilal_Haritasr
+recruit_character = SDA_Imran_Bahel
+recruit_character = SDA_Anwar_Kharb
+recruit_character = SDA_Imrahya_Ghurhamla
+recruit_character = SDA_Fariq_Hayat
+recruit_character = SDA_Anwarim_Durhama
+recruit_character = SDA_Mohamariq_Sala
+recruit_character = SDA_Zaisan_Ghamaa
+recruit_character = SDA_Imrahim_Haritasr
+recruit_character = SDA_Imran_Taryat
+recruit_character = SDA_Yusuf_Mufti
+recruit_character = SDA_Imrahya_Mamt
+recruit_character = SDA_Yusuf_Ghurhamla
+recruit_character = SDA_Tariq_Durharyahr
+recruit_character = SDA_Anwar_Mufti
+recruit_character = SDA_Samir_Sultaa
+recruit_character = SDA_Ramad_Nour
+recruit_character = SDA_Mahmar_Kita
+recruit_character = SDA_Anwarid_Rabat
+recruit_character = SDA_Hami_Amarasjid
+recruit_character = SDA_Alid_Dohaba
+recruit_character = SDA_Anwar_Barikmal
+recruit_character = SDA_Imrahya_Khayahr
+recruit_character = SDA_Faid_Tharb
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 3
+set_convoys = 0
+set_stability = 0.34
+set_war_support = 0.56
+
+add_ideas = {
+volunteer_only
+civilian_economy
+limited_exports
+}
+
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1933.5.9"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 29
+	fascism = 25
+	communism = 18
+	neutrality = 28
+}
+
+
+
+
+

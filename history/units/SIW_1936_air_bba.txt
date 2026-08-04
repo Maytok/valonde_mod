@@ -1,0 +1,97 @@
+air_wings = {
+		1308 = { 								
+		large_plane_airframe_1 = { owner = "SIW" amount = 50 version_name = "Fajd Mk 2" }
+
+	}
+	1250 = { 								
+		large_plane_airframe_0 = { owner = "SIW" amount = 50 version_name = "Shayatina Mk 1" }
+
+	}
+	1347 = { 								
+		medium_plane_airframe_0 = { owner = "SIW" amount = 50 version_name = "Shabala Mk 2" }
+
+	}
+	1292 = { 								
+		small_plane_airframe_0 = { owner = "SIW" amount = 50 version_name = "Mawkaba Mk 0" }
+
+	}
+	1251 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "SIW" amount = 50 version_name = "Reej Mk 1" }
+large_plane_airframe_0 = { owner = "SIW" amount = 50 version_name = "Shayatina Mk 1" }
+
+	}
+	1303 = { 								
+		small_plane_cas_airframe_0 = { owner = "SIW" amount = 50 version_name = "Tifa Mk 2" }
+small_plane_cas_airframe_0 = { owner = "SIW" amount = 50 version_name = "Tifa Mk 2" }
+
+	}
+	1241 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "SIW" amount = 50 version_name = "Reej Mk 1" }
+small_plane_naval_bomber_airframe_0 = { owner = "SIW" amount = 50 version_name = "Reej Mk 1" }
+
+	}
+	1329 = { 								
+		large_plane_airframe_1 = { owner = "SIW" amount = 50 version_name = "Fajd Mk 2" }
+
+	}
+	1271 = { 								
+		medium_plane_airframe_0 = { owner = "SIW" amount = 50 version_name = "Shabala Mk 2" }
+
+	}
+	1333 = { 								
+		small_plane_airframe_0 = { owner = "SIW" amount = 50 version_name = "Mawkaba Mk 0" }
+
+	}
+	1233 = { 								
+		small_plane_airframe_0 = { owner = "SIW" amount = 50 version_name = "Mawkaba Mk 0" }
+
+	}
+	1248 = { 								
+		small_plane_cas_airframe_0 = { owner = "SIW" amount = 50 version_name = "Tifa Mk 2" }
+
+	}
+	1315 = { 								
+		small_plane_cas_airframe_0 = { owner = "SIW" amount = 50 version_name = "Tifa Mk 2" }
+
+	}
+	1295 = { 								
+		small_plane_airframe_0 = { owner = "SIW" amount = 50 version_name = "Mawkaba Mk 0" }
+
+	}
+	1307 = { 								
+		medium_plane_airframe_0 = { owner = "SIW" amount = 50 version_name = "Shabala Mk 2" }
+
+	}
+	1337 = { 								
+		large_plane_airframe_0 = { owner = "SIW" amount = 50 version_name = "Shayatina Mk 1" }
+
+	}
+	1289 = { 								
+		large_plane_airframe_1 = { owner = "SIW" amount = 50 version_name = "Fajd Mk 2" }
+small_plane_naval_bomber_airframe_0 = { owner = "SIW" amount = 50 version_name = "Reej Mk 1" }
+
+	}
+	1325 = { 								
+		large_plane_airframe_0 = { owner = "SIW" amount = 50 version_name = "Shayatina Mk 1" }
+medium_plane_airframe_0 = { owner = "SIW" amount = 50 version_name = "Shabala Mk 2" }
+
+	}
+	1344 = { 								
+		large_plane_airframe_1 = { owner = "SIW" amount = 50 version_name = "Fajd Mk 2" }
+
+	}
+	1254 = { 								
+		small_plane_airframe_0 = { owner = "SIW" amount = 50 version_name = "Mawkaba Mk 0" }
+
+	}
+	1262 = { 								
+		large_plane_airframe_0 = { owner = "SIW" amount = 50 version_name = "Shayatina Mk 1" }
+
+	}
+	1305 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "SIW" amount = 50 version_name = "Reej Mk 1" }
+
+	}
+
+
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=79
+	name="STATE_79"
+	manpower = 2650879
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = RAD
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = RAD
+	}
+
+	provinces={
+		984 985 986 987 988 989 990 991 992 993 994 995 996 997 998 999 
+	}
+	local_supplies=0.0 
+}

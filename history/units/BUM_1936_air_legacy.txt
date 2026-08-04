@@ -1,0 +1,41 @@
+air_wings = {
+		433 = { 								
+		tac_bomber_equipment_0 = { owner = "BUM" amount = 50 version_name = "Imaifu Mk 1" }
+
+	}
+	1357 = { 								
+		CAS_equipment_0 = { owner = "BUM" amount = 50 version_name = "Hisu Mk 1" }
+fighter_equipment_0 = { owner = "BUM" amount = 50 version_name = "Checho Mk 0" }
+
+	}
+	194 = { 								
+		tac_bomber_equipment_0 = { owner = "BUM" amount = 50 version_name = "Imaifu Mk 1" }
+
+	}
+	1373 = { 								
+		CAS_equipment_0 = { owner = "BUM" amount = 50 version_name = "Mlimaisia Mk 0" }
+
+	}
+	1361 = { 								
+		fighter_equipment_0 = { owner = "BUM" amount = 50 version_name = "Kumba Mk 0" }
+
+	}
+	1364 = { 								
+		fighter_equipment_0 = { owner = "BUM" amount = 50 version_name = "Checho Mk 0" }
+
+	}
+	1368 = { 								
+		CAS_equipment_0 = { owner = "BUM" amount = 50 version_name = "Hisu Mk 1" }
+
+	}
+	1672 = { 								
+		fighter_equipment_0 = { owner = "BUM" amount = 50 version_name = "Kumba Mk 0" }
+
+	}
+	1363 = { 								
+		CAS_equipment_0 = { owner = "BUM" amount = 50 version_name = "Mlimaisia Mk 0" }
+
+	}
+
+
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=584
+	name="STATE_584"
+	manpower = 3435434
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=13
+		chromium=13
+		oil=0
+		rubber=3
+		steel=0
+		tungsten=13
+		coal=32
+	}
+
+	history={
+		
+		owner = CES
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 3
+			
+			
+		}
+		add_core_of = CES
+	}
+
+	provinces={
+		6854 6855 6856 6857 6858 6859 6860 6861 6862 6863 6864 6865 6866 6867 6868 6869 6870 6871 
+	}
+	local_supplies=0.0 
+}

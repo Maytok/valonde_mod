@@ -1,0 +1,27 @@
+air_wings = {
+		1294 = { 								
+		medium_plane_airframe_0 = { owner = "MUN" amount = 50 version_name = "Masjidda Mk 2" }
+
+	}
+	1316 = { 								
+		small_plane_airframe_0 = { owner = "MUN" amount = 50 version_name = "Khalaktan Mk 0" }
+
+	}
+	1237 = { 								
+		small_plane_cas_airframe_0 = { owner = "MUN" amount = 50 version_name = "Asat Mk 2" }
+small_plane_naval_bomber_airframe_0 = { owner = "MUN" amount = 50 version_name = "Khalama Mk 2" }
+small_plane_naval_bomber_airframe_0 = { owner = "MUN" amount = 50 version_name = "Khalama Mk 2" }
+
+	}
+	1336 = { 								
+		small_plane_airframe_0 = { owner = "MUN" amount = 50 version_name = "Khalaktan Mk 0" }
+medium_plane_airframe_0 = { owner = "MUN" amount = 50 version_name = "Masjidda Mk 2" }
+
+	}
+	1240 = { 								
+		small_plane_cas_airframe_0 = { owner = "MUN" amount = 50 version_name = "Asat Mk 2" }
+
+	}
+
+
+}

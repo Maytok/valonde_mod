@@ -1,0 +1,37 @@
+
+state={
+	id=850
+	name="STATE_850"
+	manpower = 1348429
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=30
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = KDU
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = KDU
+	}
+
+	provinces={
+		9918 9919 9920 9921 9922 9923 9924 9925 9926 
+	}
+	local_supplies=0.0 
+}

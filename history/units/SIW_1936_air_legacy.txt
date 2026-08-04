@@ -1,0 +1,97 @@
+air_wings = {
+		1308 = { 								
+		strat_bomber_equipment_0 = { owner = "SIW" amount = 50 version_name = "Fajd Mk 2" }
+
+	}
+	1250 = { 								
+		strat_bomber_equipment_0 = { owner = "SIW" amount = 50 version_name = "Shayatina Mk 1" }
+
+	}
+	1347 = { 								
+		tac_bomber_equipment_0 = { owner = "SIW" amount = 50 version_name = "Shabala Mk 2" }
+
+	}
+	1292 = { 								
+		fighter_equipment_0 = { owner = "SIW" amount = 50 version_name = "Mawkaba Mk 0" }
+
+	}
+	1251 = { 								
+		nav_bomber_equipment_0 = { owner = "SIW" amount = 50 version_name = "Reej Mk 1" }
+strat_bomber_equipment_0 = { owner = "SIW" amount = 50 version_name = "Shayatina Mk 1" }
+
+	}
+	1303 = { 								
+		CAS_equipment_0 = { owner = "SIW" amount = 50 version_name = "Tifa Mk 2" }
+CAS_equipment_0 = { owner = "SIW" amount = 50 version_name = "Tifa Mk 2" }
+
+	}
+	1241 = { 								
+		nav_bomber_equipment_0 = { owner = "SIW" amount = 50 version_name = "Reej Mk 1" }
+nav_bomber_equipment_0 = { owner = "SIW" amount = 50 version_name = "Reej Mk 1" }
+
+	}
+	1329 = { 								
+		strat_bomber_equipment_0 = { owner = "SIW" amount = 50 version_name = "Fajd Mk 2" }
+
+	}
+	1271 = { 								
+		tac_bomber_equipment_0 = { owner = "SIW" amount = 50 version_name = "Shabala Mk 2" }
+
+	}
+	1333 = { 								
+		fighter_equipment_0 = { owner = "SIW" amount = 50 version_name = "Mawkaba Mk 0" }
+
+	}
+	1233 = { 								
+		fighter_equipment_0 = { owner = "SIW" amount = 50 version_name = "Mawkaba Mk 0" }
+
+	}
+	1248 = { 								
+		CAS_equipment_0 = { owner = "SIW" amount = 50 version_name = "Tifa Mk 2" }
+
+	}
+	1315 = { 								
+		CAS_equipment_0 = { owner = "SIW" amount = 50 version_name = "Tifa Mk 2" }
+
+	}
+	1295 = { 								
+		fighter_equipment_0 = { owner = "SIW" amount = 50 version_name = "Mawkaba Mk 0" }
+
+	}
+	1307 = { 								
+		tac_bomber_equipment_0 = { owner = "SIW" amount = 50 version_name = "Shabala Mk 2" }
+
+	}
+	1337 = { 								
+		strat_bomber_equipment_0 = { owner = "SIW" amount = 50 version_name = "Shayatina Mk 1" }
+
+	}
+	1289 = { 								
+		strat_bomber_equipment_0 = { owner = "SIW" amount = 50 version_name = "Fajd Mk 2" }
+nav_bomber_equipment_0 = { owner = "SIW" amount = 50 version_name = "Reej Mk 1" }
+
+	}
+	1325 = { 								
+		strat_bomber_equipment_0 = { owner = "SIW" amount = 50 version_name = "Shayatina Mk 1" }
+tac_bomber_equipment_0 = { owner = "SIW" amount = 50 version_name = "Shabala Mk 2" }
+
+	}
+	1344 = { 								
+		strat_bomber_equipment_0 = { owner = "SIW" amount = 50 version_name = "Fajd Mk 2" }
+
+	}
+	1254 = { 								
+		fighter_equipment_0 = { owner = "SIW" amount = 50 version_name = "Mawkaba Mk 0" }
+
+	}
+	1262 = { 								
+		strat_bomber_equipment_0 = { owner = "SIW" amount = 50 version_name = "Shayatina Mk 1" }
+
+	}
+	1305 = { 								
+		nav_bomber_equipment_0 = { owner = "SIW" amount = 50 version_name = "Reej Mk 1" }
+
+	}
+
+
+}

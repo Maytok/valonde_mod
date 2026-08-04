@@ -1,0 +1,16 @@
+air_wings = {
+		16 = { 								
+		fighter_equipment_0 = { owner = "DAN" amount = 50 version_name = "Goimea Mk 2" }
+
+	}
+	842 = { 								
+		fighter_equipment_0 = { owner = "DAN" amount = 50 version_name = "Goimea Mk 2" }
+
+	}
+	866 = { 								
+		fighter_equipment_0 = { owner = "DAN" amount = 50 version_name = "Goimea Mk 2" }
+
+	}
+
+
+}

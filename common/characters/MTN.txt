@@ -1,0 +1,1083 @@
+characters = {
+	MTN_Barunc_Sicakinahari={
+		name="Barunc Sicakinahari"
+
+		
+		country_leader={
+			ideology=oligarchism
+			traits = { inexperienced_monarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MTN_Hakanes_Limdiz={
+		name="Hakanes Limdiz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MTN_Hakanes_Limdiz
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	MTN_Utku_Toplul={
+		name="Utku Toplul"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MTN_Utku_Toplul
+			traits = {	humble 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	MTN_Savas_Topru={
+		name="Savas Topru"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MTN_Savas_Topru
+			traits = {	national_determinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	MTN_Sinan_Yolculturt={
+		name="Sinan Yolculturt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MTN_Sinan_Yolculturt
+			traits = {	veteran_anti_bolshevik 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	MTN_Harat_Topru={
+		name="Harat Topru"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MTN_Harat_Topru
+			traits = {	agricultural_nationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	MTN_Mustafe_Gece={
+		name="Mustafe Gece"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MTN_Mustafe_Gece
+			traits = {	national_determinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	MTN_Yalil_Agara={
+		name="Yalil Agara"
+
+		advisor={
+			slot = army_chief
+			idea_token = MTN_Yalil_Agara
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	MTN_Kerkaner_Umutlut={
+		name="Kerkaner Umutlut"
+
+		advisor={
+			slot = army_chief
+			idea_token = MTN_Kerkaner_Umutlut
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	MTN_Enes_Golda={
+		name="Enes Golda"
+
+		advisor={
+			slot = army_chief
+			idea_token = MTN_Enes_Golda
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	MTN_Onuran_Akgukar={
+		name="Onuran Akgukar"
+
+		advisor={
+			slot = army_chief
+			idea_token = MTN_Onuran_Akgukar
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	MTN_Yalim_Ordu={
+		name="Yalim Ordu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MTN_Yalim_Ordu
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	MTN_Enes_Kalp={
+		name="Enes Kalp"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MTN_Enes_Kalp
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	MTN_Mustafe_Kervanizci={
+		name="Mustafe Kervanizci"
+
+		advisor={
+			slot = air_chief
+			idea_token = MTN_Mustafe_Kervanizci
+			traits = {	air_chief_night_operations_2 	}
+		}
+
+
+	}
+	MTN_Adem_Gecmi={
+		name="Adem Gecmi"
+
+		advisor={
+			slot = air_chief
+			idea_token = MTN_Adem_Gecmi
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	MTN_Eferkan_Golce={
+		name="Eferkan Golce"
+
+		advisor={
+			slot = high_command
+			idea_token = MTN_Eferkan_Golce
+			traits = {	army_cavalry_1 	}
+		}
+
+
+	}
+	MTN_Kerem_Nehir={
+		name="Kerem Nehir"
+
+		advisor={
+			slot = high_command
+			idea_token = MTN_Kerem_Nehir
+			traits = {	air_naval_strike_2 	}
+		}
+
+
+	}
+	MTN_Taylan_Sanin={
+		name="Taylan Sanin"
+
+		advisor={
+			slot = high_command
+			idea_token = MTN_Taylan_Sanin
+			traits = {	army_commando_1 	}
+		}
+
+
+	}
+	MTN_Orhan_Anat={
+		name="Orhan Anat"
+
+		advisor={
+			slot = high_command
+			idea_token = MTN_Orhan_Anat
+			traits = {	army_commando_2 	}
+		}
+
+
+	}
+	MTN_Iskerkan_Ates={
+		name="Iskerkan Ates"
+
+		advisor={
+			slot = high_command
+			idea_token = MTN_Iskerkan_Ates
+			traits = {	navy_carrier_1 	}
+		}
+
+
+	}
+	MTN_Harunc_Umutlut={
+		name="Harunc Umutlut"
+
+		advisor={
+			slot = high_command
+			idea_token = MTN_Harunc_Umutlut
+			traits = {	navy_naval_air_defense_1 	}
+		}
+
+
+	}
+	MTN_Suat_Gecek={
+		name="Suat Gecek"
+
+		
+		country_leader={
+			ideology=nazism
+			traits = { subservient_ultranationalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MTN_Sinan_Yayat={
+		name="Sinan Yayat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MTN_Sinan_Yayat
+			traits = {	basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	MTN_Sinan_Sehirlikayna={
+		name="Sinan Sehirlikayna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MTN_Sinan_Sehirlikayna
+			traits = {	autocratic_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	MTN_Suat_Akgu={
+		name="Suat Akgu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MTN_Suat_Akgu
+			traits = {	archon_basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	MTN_Enesul_Yakinda={
+		name="Enesul Yakinda"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MTN_Enesul_Yakinda
+			traits = {	autocratic_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	MTN_Yilmal_Gemiz={
+		name="Yilmal Gemiz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MTN_Yilmal_Gemiz
+			traits = {	vapsid_economist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	MTN_Orhan_Sanin={
+		name="Orhan Sanin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MTN_Orhan_Sanin
+			traits = {	vapsid_economist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	MTN_Salcin_Sahar={
+		name="Salcin Sahar"
+
+		advisor={
+			slot = army_chief
+			idea_token = MTN_Salcin_Sahar
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	MTN_Onuran_Berek={
+		name="Onuran Berek"
+
+		advisor={
+			slot = army_chief
+			idea_token = MTN_Onuran_Berek
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	MTN_Hakanes_Duvas={
+		name="Hakanes Duvas"
+
+		advisor={
+			slot = army_chief
+			idea_token = MTN_Hakanes_Duvas
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	MTN_Kaan_Yanci={
+		name="Kaan Yanci"
+
+		advisor={
+			slot = army_chief
+			idea_token = MTN_Kaan_Yanci
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	MTN_Eminan_Karlak={
+		name="Eminan Karlak"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MTN_Eminan_Karlak
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	MTN_Zafa_Karlak={
+		name="Zafa Karlak"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MTN_Zafa_Karlak
+			traits = {	navy_chief_reform_2 	}
+		}
+
+
+	}
+	MTN_Sinan_Haylak={
+		name="Sinan Haylak"
+
+		advisor={
+			slot = air_chief
+			idea_token = MTN_Sinan_Haylak
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	MTN_Suat_Obahari={
+		name="Suat Obahari"
+
+		advisor={
+			slot = air_chief
+			idea_token = MTN_Suat_Obahari
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	MTN_Taylan_Doguncek={
+		name="Taylan Doguncek"
+
+		advisor={
+			slot = high_command
+			idea_token = MTN_Taylan_Doguncek
+			traits = {	navy_capital_ship_2 	}
+		}
+
+
+	}
+	MTN_Harunc_Nehir={
+		name="Harunc Nehir"
+
+		advisor={
+			slot = high_command
+			idea_token = MTN_Harunc_Nehir
+			traits = {	navy_carrier_2 	}
+		}
+
+
+	}
+	MTN_Iskerem_Bulturt={
+		name="Iskerem Bulturt"
+
+		advisor={
+			slot = high_command
+			idea_token = MTN_Iskerem_Bulturt
+			traits = {	army_radio_intelligence_1 	}
+		}
+
+
+	}
+	MTN_Ilker_Sanin={
+		name="Ilker Sanin"
+
+		advisor={
+			slot = high_command
+			idea_token = MTN_Ilker_Sanin
+			traits = {	army_entrenchment_1 	}
+		}
+
+
+	}
+	MTN_Tanesuf_Sehirih={
+		name="Tanesuf Sehirih"
+
+		advisor={
+			slot = high_command
+			idea_token = MTN_Tanesuf_Sehirih
+			traits = {	air_air_combat_training_1 	}
+		}
+
+
+	}
+	MTN_Harat_Duvas={
+		name="Harat Duvas"
+
+		advisor={
+			slot = high_command
+			idea_token = MTN_Harat_Duvas
+			traits = {	army_armored_2 	}
+		}
+
+
+	}
+	MTN_Suatuha_Sabahil={
+		name="Suatuha Sabahil"
+
+		
+		country_leader={
+			ideology=marxism
+			traits = { patriotic_socialist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MTN_Selim_Nehir={
+		name="Selim Nehir"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MTN_Selim_Nehir
+			traits = {	indomitable_perseverance 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	MTN_Yalim_Koyla={
+		name="Yalim Koyla"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MTN_Yalim_Koyla
+			traits = {	indomitable_perseverance 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	MTN_Resulender_Berek={
+		name="Resulender Berek"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MTN_Resulender_Berek
+			traits = {	political_dancer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	MTN_Harat_Kale={
+		name="Harat Kale"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MTN_Harat_Kale
+			traits = {	devoted_marxist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	MTN_Mustafa_Sabahil={
+		name="Mustafa Sabahil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MTN_Mustafa_Sabahil
+			traits = {	leftist_independent 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	MTN_Batuha_Ates={
+		name="Batuha Ates"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MTN_Batuha_Ates
+			traits = {	socialist_justice 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	MTN_Musuf_Saba={
+		name="Musuf Saba"
+
+		advisor={
+			slot = army_chief
+			idea_token = MTN_Musuf_Saba
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	MTN_Orha_Kale={
+		name="Orha Kale"
+
+		advisor={
+			slot = army_chief
+			idea_token = MTN_Orha_Kale
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	MTN_Onur_Duvan={
+		name="Onur Duvan"
+
+		advisor={
+			slot = army_chief
+			idea_token = MTN_Onur_Duvan
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	MTN_Harat_Gecmisla={
+		name="Harat Gecmisla"
+
+		advisor={
+			slot = army_chief
+			idea_token = MTN_Harat_Gecmisla
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	MTN_Ertugruk_Kapi={
+		name="Ertugruk Kapi"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MTN_Ertugruk_Kapi
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	MTN_Iskerkan_Sesilik={
+		name="Iskerkan Sesilik"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MTN_Iskerkan_Sesilik
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	MTN_Kerkan_Limdiz={
+		name="Kerkan Limdiz"
+
+		advisor={
+			slot = air_chief
+			idea_token = MTN_Kerkan_Limdiz
+			traits = {	air_chief_night_operations_2 	}
+		}
+
+
+	}
+	MTN_Mustafa_Sehirlikayna={
+		name="Mustafa Sehirlikayna"
+
+		advisor={
+			slot = air_chief
+			idea_token = MTN_Mustafa_Sehirlikayna
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	MTN_Hakanes_Sanin={
+		name="Hakanes Sanin"
+
+		advisor={
+			slot = high_command
+			idea_token = MTN_Hakanes_Sanin
+			traits = {	army_cavalry_2 	}
+		}
+
+
+	}
+	MTN_Yalcin_Sehirlikayna={
+		name="Yalcin Sehirlikayna"
+
+		advisor={
+			slot = high_command
+			idea_token = MTN_Yalcin_Sehirlikayna
+			traits = {	army_armored_1 	}
+		}
+
+
+	}
+	MTN_Tunc_Yanci={
+		name="Tunc Yanci"
+
+		advisor={
+			slot = high_command
+			idea_token = MTN_Tunc_Yanci
+			traits = {	air_air_superiority_1 	}
+		}
+
+
+	}
+	MTN_Tanesuf_Sicakinahari={
+		name="Tanesuf Sicakinahari"
+
+		advisor={
+			slot = high_command
+			idea_token = MTN_Tanesuf_Sicakinahari
+			traits = {	navy_fleet_logistics_2 	}
+		}
+
+
+	}
+	MTN_Onur_Akgukar={
+		name="Onur Akgukar"
+
+		advisor={
+			slot = high_command
+			idea_token = MTN_Onur_Akgukar
+			traits = {	navy_fleet_logistics_2 	}
+		}
+
+
+	}
+	MTN_Kaan_Kadeniz={
+		name="Kaan Kadeniz"
+
+		advisor={
+			slot = high_command
+			idea_token = MTN_Kaan_Kadeniz
+			traits = {	navy_screen_2 	}
+		}
+
+
+	}
+	MTN_Mustafe_Toprakin={
+		name="Mustafe Toprakin"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { leftist_independent  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MTN_Baran_Kopra={
+		name="Baran Kopra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MTN_Baran_Kopra
+			traits = {	liberal_democratic_paragon 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	MTN_Enes_Toprakin={
+		name="Enes Toprakin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MTN_Enes_Toprakin
+			traits = {	the_banker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	MTN_Utku_Gecmi={
+		name="Utku Gecmi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MTN_Utku_Gecmi
+			traits = {	the_banker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	MTN_Orha_Gemiz={
+		name="Orha Gemiz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MTN_Orha_Gemiz
+			traits = {	democratic_crusader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	MTN_Batuha_Akgukar={
+		name="Batuha Akgukar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MTN_Batuha_Akgukar
+			traits = {	leftist_legionary 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	MTN_Ilker_Yolge={
+		name="Ilker Yolge"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MTN_Ilker_Yolge
+			traits = {	rearmer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	MTN_Onur_Berek={
+		name="Onur Berek"
+
+		advisor={
+			slot = army_chief
+			idea_token = MTN_Onur_Berek
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	MTN_Savas_Sehirlikayna={
+		name="Savas Sehirlikayna"
+
+		advisor={
+			slot = army_chief
+			idea_token = MTN_Savas_Sehirlikayna
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	MTN_Onurat_Yakinda={
+		name="Onurat Yakinda"
+
+		advisor={
+			slot = army_chief
+			idea_token = MTN_Onurat_Yakinda
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	MTN_Enes_Belden={
+		name="Enes Belden"
+
+		advisor={
+			slot = army_chief
+			idea_token = MTN_Enes_Belden
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	MTN_Halil_Toprakin={
+		name="Halil Toprakin"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MTN_Halil_Toprakin
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	MTN_Yalcinan_Sanin={
+		name="Yalcinan Sanin"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MTN_Yalcinan_Sanin
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	MTN_Selim_Ulkenizci={
+		name="Selim Ulkenizci"
+
+		advisor={
+			slot = air_chief
+			idea_token = MTN_Selim_Ulkenizci
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	MTN_Kadir_Ormanlilda={
+		name="Kadir Ormanlilda"
+
+		advisor={
+			slot = air_chief
+			idea_token = MTN_Kadir_Ormanlilda
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	MTN_Ilker_Obahar={
+		name="Ilker Obahar"
+
+		advisor={
+			slot = high_command
+			idea_token = MTN_Ilker_Obahar
+			traits = {	army_CombinedArms_2 	}
+		}
+
+
+	}
+	MTN_Enes_Yanci={
+		name="Enes Yanci"
+
+		advisor={
+			slot = high_command
+			idea_token = MTN_Enes_Yanci
+			traits = {	navy_carrier_2 	}
+		}
+
+
+	}
+	MTN_Batuha_Dusun={
+		name="Batuha Dusun"
+
+		advisor={
+			slot = high_command
+			idea_token = MTN_Batuha_Dusun
+			traits = {	army_regrouping_1 	}
+		}
+
+
+	}
+	MTN_Yalcinan_Sesilik={
+		name="Yalcinan Sesilik"
+
+		advisor={
+			slot = high_command
+			idea_token = MTN_Yalcinan_Sesilik
+			traits = {	air_air_combat_training_2 	}
+		}
+
+
+	}
+	MTN_Ramalilmalil_Kayat={
+		name="Ramalilmalil Kayat"
+
+		advisor={
+			slot = high_command
+			idea_token = MTN_Ramalilmalil_Kayat
+			traits = {	army_concealment_2 	}
+		}
+
+
+	}
+	MTN_Kerkaner_Bede={
+		name="Kerkaner Bede"
+
+		advisor={
+			slot = high_command
+			idea_token = MTN_Kerkaner_Bede
+			traits = {	navy_naval_air_defense_1 	}
+		}
+
+
+	}
+	MTN_Harunc_Bahir={
+		name="Harunc Bahir"
+
+		advisor={
+			slot = theorist
+			idea_token = MTN_Harunc_Bahir
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	MTN_Ilker_Sonba={
+		name="Ilker Sonba"
+
+		advisor={
+			slot = theorist
+			idea_token = MTN_Ilker_Sonba
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	MTN_Yilmalhanes_Sevda={
+		name="Yilmalhanes Sevda"
+
+		advisor={
+			slot = theorist
+			idea_token = MTN_Yilmalhanes_Sevda
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=342
+	name="STATE_342"
+	manpower = 1031624
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=27
+		chromium=29
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=27
+		coal=69
+	}
+
+	history={
+		
+		owner = KIJ
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = KIJ
+	}
+
+	provinces={
+		3971 3972 3973 3974 3975 3976 3977 3978 3979 3980 3981 3982 3983 3984 3985 3986 
+	}
+	local_supplies=0.0 
+}

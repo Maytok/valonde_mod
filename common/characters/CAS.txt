@@ -1,0 +1,1083 @@
+characters = {
+	CAS_Kiroslav_Ratram={
+		name="Kiroslav Ratram"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { cabinet_crisis  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	CAS_Niktoranovan_Vazde={
+		name="Niktoranovan Vazde"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAS_Niktoranovan_Vazde
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	CAS_Vikitrilosla_Kisacina={
+		name="Vikitrilosla Kisacina"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAS_Vikitrilosla_Kisacina
+			traits = {	right_industrialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	CAS_Niktoranovan_Jeza={
+		name="Niktoranovan Jeza"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAS_Niktoranovan_Jeza
+			traits = {	national_determinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	CAS_Radimir_Vecnoslad={
+		name="Radimir Vecnoslad"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAS_Radimir_Vecnoslad
+			traits = {	national_determinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	CAS_Ilya_Grmlja={
+		name="Ilya Grmlja"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAS_Ilya_Grmlja
+			traits = {	socialite_connections 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	CAS_Viktori_Ljubavezer={
+		name="Viktori Ljubavezer"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAS_Viktori_Ljubavezer
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	CAS_Zdeneksei_Vetlovozdja={
+		name="Zdeneksei Vetlovozdja"
+
+		advisor={
+			slot = army_chief
+			idea_token = CAS_Zdeneksei_Vetlovozdja
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	CAS_Niktoranovan_Kisac={
+		name="Niktoranovan Kisac"
+
+		advisor={
+			slot = army_chief
+			idea_token = CAS_Niktoranovan_Kisac
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	CAS_Stej_Zvera={
+		name="Stej Zvera"
+
+		advisor={
+			slot = army_chief
+			idea_token = CAS_Stej_Zvera
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	CAS_Radimiri_Kisac={
+		name="Radimiri Kisac"
+
+		advisor={
+			slot = army_chief
+			idea_token = CAS_Radimiri_Kisac
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	CAS_Lubos_Tvrdja={
+		name="Lubos Tvrdja"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CAS_Lubos_Tvrdja
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	CAS_Andrej_Vecnoslad={
+		name="Andrej Vecnoslad"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CAS_Andrej_Vecnoslad
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	CAS_Zdek_Gvot={
+		name="Zdek Gvot"
+
+		advisor={
+			slot = air_chief
+			idea_token = CAS_Zdek_Gvot
+			traits = {	air_chief_all_weather_1 	}
+		}
+
+
+	}
+	CAS_Tomiroslanko_Vilo={
+		name="Tomiroslanko Vilo"
+
+		advisor={
+			slot = air_chief
+			idea_token = CAS_Tomiroslanko_Vilo
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	CAS_Alexei_Jeza={
+		name="Alexei Jeza"
+
+		advisor={
+			slot = high_command
+			idea_token = CAS_Alexei_Jeza
+			traits = {	air_pilot_training_1 	}
+		}
+
+
+	}
+	CAS_Boragomir_Kovo={
+		name="Boragomir Kovo"
+
+		advisor={
+			slot = high_command
+			idea_token = CAS_Boragomir_Kovo
+			traits = {	navy_fleet_logistics_2 	}
+		}
+
+
+	}
+	CAS_Tomiriloslad_Vecnoslad={
+		name="Tomiriloslad Vecnoslad"
+
+		advisor={
+			slot = high_command
+			idea_token = CAS_Tomiriloslad_Vecnoslad
+			traits = {	air_strategic_bombing_2 	}
+		}
+
+
+	}
+	CAS_Olexei_Castra={
+		name="Olexei Castra"
+
+		advisor={
+			slot = high_command
+			idea_token = CAS_Olexei_Castra
+			traits = {	air_naval_strike_2 	}
+		}
+
+
+	}
+	CAS_Radovan_Brza={
+		name="Radovan Brza"
+
+		advisor={
+			slot = high_command
+			idea_token = CAS_Radovan_Brza
+			traits = {	air_air_superiority_2 	}
+		}
+
+
+	}
+	CAS_Alexei_Naro={
+		name="Alexei Naro"
+
+		advisor={
+			slot = high_command
+			idea_token = CAS_Alexei_Naro
+			traits = {	air_airborne_2 	}
+		}
+
+
+	}
+	CAS_Boragomir_Kapijava={
+		name="Boragomir Kapijava"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { falangist_militarist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	CAS_Radek_Jeza={
+		name="Radek Jeza"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAS_Radek_Jeza
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	CAS_Zori_Kapijava={
+		name="Zori Kapijava"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAS_Zori_Kapijava
+			traits = {	subservient_ultranationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	CAS_Boriladenek_Gvot={
+		name="Boriladenek Gvot"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAS_Boriladenek_Gvot
+			traits = {	inexperienced_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	CAS_Viktori_Kisac={
+		name="Viktori Kisac"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAS_Viktori_Kisac
+			traits = {	autocratic_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	CAS_Vikitrilosla_Kulturanika={
+		name="Vikitrilosla Kulturanika"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAS_Vikitrilosla_Kulturanika
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	CAS_Boragomir_Galat={
+		name="Boragomir Galat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAS_Boragomir_Galat
+			traits = {	basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	CAS_Nikitri_Grmlja={
+		name="Nikitri Grmlja"
+
+		advisor={
+			slot = army_chief
+			idea_token = CAS_Nikitri_Grmlja
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	CAS_Nikitri_Vator={
+		name="Nikitri Vator"
+
+		advisor={
+			slot = army_chief
+			idea_token = CAS_Nikitri_Vator
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	CAS_Sergei_Ruca={
+		name="Sergei Ruca"
+
+		advisor={
+			slot = army_chief
+			idea_token = CAS_Sergei_Ruca
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	CAS_Simiros_Doba={
+		name="Simiros Doba"
+
+		advisor={
+			slot = army_chief
+			idea_token = CAS_Simiros_Doba
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	CAS_Ivanislav_Sporisao={
+		name="Ivanislav Sporisao"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CAS_Ivanislav_Sporisao
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	CAS_Dusanko_Kulturanika={
+		name="Dusanko Kulturanika"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CAS_Dusanko_Kulturanika
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	CAS_Juri_Naro={
+		name="Juri Naro"
+
+		advisor={
+			slot = air_chief
+			idea_token = CAS_Juri_Naro
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	CAS_Dusz_Masljivo={
+		name="Dusz Masljivo"
+
+		advisor={
+			slot = air_chief
+			idea_token = CAS_Dusz_Masljivo
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	CAS_Radenek_Naro={
+		name="Radenek Naro"
+
+		advisor={
+			slot = high_command
+			idea_token = CAS_Radenek_Naro
+			traits = {	army_cavalry_2 	}
+		}
+
+
+	}
+	CAS_Bran_Doba={
+		name="Bran Doba"
+
+		advisor={
+			slot = high_command
+			idea_token = CAS_Bran_Doba
+			traits = {	air_strategic_bombing_1 	}
+		}
+
+
+	}
+	CAS_Aleg_Delos={
+		name="Aleg Delos"
+
+		advisor={
+			slot = high_command
+			idea_token = CAS_Aleg_Delos
+			traits = {	navy_screen_2 	}
+		}
+
+
+	}
+	CAS_Radoslav_Sporisa={
+		name="Radoslav Sporisa"
+
+		advisor={
+			slot = high_command
+			idea_token = CAS_Radoslav_Sporisa
+			traits = {	navy_carrier_2 	}
+		}
+
+
+	}
+	CAS_Dmiril_Svera={
+		name="Dmiril Svera"
+
+		advisor={
+			slot = high_command
+			idea_token = CAS_Dmiril_Svera
+			traits = {	navy_naval_air_defense_2 	}
+		}
+
+
+	}
+	CAS_Goranko_Sveralja={
+		name="Goranko Sveralja"
+
+		advisor={
+			slot = high_command
+			idea_token = CAS_Goranko_Sveralja
+			traits = {	navy_submarine_2 	}
+		}
+
+
+	}
+	CAS_Ilya_Kisacina={
+		name="Ilya Kisacina"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { political_dancer  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	CAS_Tomiroslanko_Ribar={
+		name="Tomiroslanko Ribar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAS_Tomiroslanko_Ribar
+			traits = {	revolutionary_poet 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	CAS_Dmir_Slik={
+		name="Dmir Slik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAS_Dmir_Slik
+			traits = {	marxist_fundamentalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	CAS_Radek_Obaviteza={
+		name="Radek Obaviteza"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAS_Radek_Obaviteza
+			traits = {	anti_bolshevik_leftist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	CAS_Ilya_Svet={
+		name="Ilya Svet"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAS_Ilya_Svet
+			traits = {	political_dancer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	CAS_Maros_Tama={
+		name="Maros Tama"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAS_Maros_Tama
+			traits = {	anti_bolshevik_leftist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	CAS_Goran_Slik={
+		name="Goran Slik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAS_Goran_Slik
+			traits = {	patriotic_socialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	CAS_Dragomir_Ratram={
+		name="Dragomir Ratram"
+
+		advisor={
+			slot = army_chief
+			idea_token = CAS_Dragomir_Ratram
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	CAS_Viktori_Rekt={
+		name="Viktori Rekt"
+
+		advisor={
+			slot = army_chief
+			idea_token = CAS_Viktori_Rekt
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	CAS_Tomiros_Obaviteza={
+		name="Tomiros Obaviteza"
+
+		advisor={
+			slot = army_chief
+			idea_token = CAS_Tomiros_Obaviteza
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	CAS_Juri_Tvrdja={
+		name="Juri Tvrdja"
+
+		advisor={
+			slot = army_chief
+			idea_token = CAS_Juri_Tvrdja
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	CAS_Simeon_Moresnik={
+		name="Simeon Moresnik"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CAS_Simeon_Moresnik
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	CAS_Dragomir_Sveralja={
+		name="Dragomir Sveralja"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CAS_Dragomir_Sveralja
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	CAS_Vlado_Galat={
+		name="Vlado Galat"
+
+		advisor={
+			slot = air_chief
+			idea_token = CAS_Vlado_Galat
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	CAS_Andrej_Olod={
+		name="Andrej Olod"
+
+		advisor={
+			slot = air_chief
+			idea_token = CAS_Andrej_Olod
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	CAS_Niktoranovan_Svet={
+		name="Niktoranovan Svet"
+
+		advisor={
+			slot = high_command
+			idea_token = CAS_Niktoranovan_Svet
+			traits = {	army_regrouping_1 	}
+		}
+
+
+	}
+	CAS_Radimeon_Zivo={
+		name="Radimeon Zivo"
+
+		advisor={
+			slot = high_command
+			idea_token = CAS_Radimeon_Zivo
+			traits = {	air_tactical_bombing_1 	}
+		}
+
+
+	}
+	CAS_Olexei_Kisacina={
+		name="Olexei Kisacina"
+
+		advisor={
+			slot = high_command
+			idea_token = CAS_Olexei_Kisacina
+			traits = {	navy_carrier_2 	}
+		}
+
+
+	}
+	CAS_Draj_Obinja={
+		name="Draj Obinja"
+
+		advisor={
+			slot = high_command
+			idea_token = CAS_Draj_Obinja
+			traits = {	army_concealment_1 	}
+		}
+
+
+	}
+	CAS_Miri_Svezde={
+		name="Miri Svezde"
+
+		advisor={
+			slot = high_command
+			idea_token = CAS_Miri_Svezde
+			traits = {	army_armored_1 	}
+		}
+
+
+	}
+	CAS_Lubos_Losto={
+		name="Lubos Losto"
+
+		advisor={
+			slot = high_command
+			idea_token = CAS_Lubos_Losto
+			traits = {	air_air_combat_training_1 	}
+		}
+
+
+	}
+	CAS_Boriladenek_Vecnoslad={
+		name="Boriladenek Vecnoslad"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { leftist_independent  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	CAS_Matefanovan_Naro={
+		name="Matefanovan Naro"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAS_Matefanovan_Naro
+			traits = {	veteran_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	CAS_Viktori_Ostranaga={
+		name="Viktori Ostranaga"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAS_Viktori_Ostranaga
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	CAS_Marko_Ljubavezer={
+		name="Marko Ljubavezer"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAS_Marko_Ljubavezer
+			traits = {	veteran_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	CAS_Tomiroslanko_Vrlina={
+		name="Tomiroslanko Vrlina"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAS_Tomiroslanko_Vrlina
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	CAS_Andrej_Ratram={
+		name="Andrej Ratram"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAS_Andrej_Ratram
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	CAS_Matej_Teat={
+		name="Matej Teat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAS_Matej_Teat
+			traits = {	conservative_grandee 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	CAS_Niktoragomas_Semljska={
+		name="Niktoragomas Semljska"
+
+		advisor={
+			slot = army_chief
+			idea_token = CAS_Niktoragomas_Semljska
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	CAS_Dmiril_Obaviteza={
+		name="Dmiril Obaviteza"
+
+		advisor={
+			slot = army_chief
+			idea_token = CAS_Dmiril_Obaviteza
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	CAS_Dragomir_Vecnoslad={
+		name="Dragomir Vecnoslad"
+
+		advisor={
+			slot = army_chief
+			idea_token = CAS_Dragomir_Vecnoslad
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	CAS_Brankolavko_Olod={
+		name="Brankolavko Olod"
+
+		advisor={
+			slot = army_chief
+			idea_token = CAS_Brankolavko_Olod
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	CAS_Boran_Dana={
+		name="Boran Dana"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CAS_Boran_Dana
+			traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+
+	}
+	CAS_Juri_Filo={
+		name="Juri Filo"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CAS_Juri_Filo
+			traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+
+	}
+	CAS_Goranko_Zemenikar={
+		name="Goranko Zemenikar"
+
+		advisor={
+			slot = air_chief
+			idea_token = CAS_Goranko_Zemenikar
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	CAS_Vlav_Hradzbicaksi={
+		name="Vlav Hradzbicaksi"
+
+		advisor={
+			slot = air_chief
+			idea_token = CAS_Vlav_Hradzbicaksi
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	CAS_Dusanko_Vilat={
+		name="Dusanko Vilat"
+
+		advisor={
+			slot = high_command
+			idea_token = CAS_Dusanko_Vilat
+			traits = {	navy_anti_submarine_2 	}
+		}
+
+
+	}
+	CAS_Lubosh_Pesec={
+		name="Lubosh Pesec"
+
+		advisor={
+			slot = high_command
+			idea_token = CAS_Lubosh_Pesec
+			traits = {	air_pilot_training_2 	}
+		}
+
+
+	}
+	CAS_Radenek_Smrt={
+		name="Radenek Smrt"
+
+		advisor={
+			slot = high_command
+			idea_token = CAS_Radenek_Smrt
+			traits = {	air_pilot_training_1 	}
+		}
+
+
+	}
+	CAS_Marko_Ruca={
+		name="Marko Ruca"
+
+		advisor={
+			slot = high_command
+			idea_token = CAS_Marko_Ruca
+			traits = {	air_naval_strike_2 	}
+		}
+
+
+	}
+	CAS_Matefanovan_Delos={
+		name="Matefanovan Delos"
+
+		advisor={
+			slot = high_command
+			idea_token = CAS_Matefanovan_Delos
+			traits = {	army_logistics_1 	}
+		}
+
+
+	}
+	CAS_Dmir_Slicanikar={
+		name="Dmir Slicanikar"
+
+		advisor={
+			slot = high_command
+			idea_token = CAS_Dmir_Slicanikar
+			traits = {	navy_capital_ship_2 	}
+		}
+
+
+	}
+	CAS_Stej_Telika={
+		name="Stej Telika"
+
+		advisor={
+			slot = theorist
+			idea_token = CAS_Stej_Telika
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	CAS_Juran_Jezak={
+		name="Juran Jezak"
+
+		advisor={
+			slot = theorist
+			idea_token = CAS_Juran_Jezak
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	CAS_Vlan_Hrava={
+		name="Vlan Hrava"
+
+		advisor={
+			slot = theorist
+			idea_token = CAS_Vlan_Hrava
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

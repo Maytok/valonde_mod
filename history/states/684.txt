@@ -1,0 +1,37 @@
+
+state={
+	id=684
+	name="STATE_684"
+	manpower = 4897847
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=23
+		chromium=25
+		oil=5
+		rubber=0
+		steel=0
+		tungsten=23
+		coal=59
+	}
+
+	history={
+		
+		owner = SHA
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = SHA
+	}
+
+	provinces={
+		8004 8005 8006 8007 8008 8009 8010 8011 8012 8013 8014 8015 8016 8017 8018 8019 8020 8021 8022 8023 8024 8025 8026 8027 8028 8029 8030 8031 
+	}
+	local_supplies=0.0 
+}

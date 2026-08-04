@@ -1,0 +1,470 @@
+capital = 99
+
+oob = "MAP_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "MAP_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "MAP_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	support_weapons= 1
+	tech_trucks= 1
+	tech_support= 1
+	gw_artillery= 1
+	infantry_weapons1= 1
+	paratroopers= 1
+	marines= 1
+	tech_mountaineers= 1
+	motorised_infantry= 1
+	armored_car1= 1
+	tech_engineers= 1
+	tech_recon= 1
+	tech_military_police= 1
+	tech_maintenance_company= 1
+	interwar_antiair= 1
+	interwar_antitank= 1
+	interwar_artillery= 1
+	basic_machine_tools= 1
+	fuel_silos= 1
+	synth_oil_experiments= 1
+	electronic_mechanical_engineering= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+		basic_heavy_tank = 1
+		improved_light_tank = 1
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+		basic_heavy_tank_chassis = 1
+		engine_tech_1 = 1
+		armor_tech_1 = 1
+		improved_light_tank_chassis = 1
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+		create_equipment_variant = {
+		name = "Chera Mk 1"
+		type = heavy_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = extra_ammo_storage
+			special_type_slot_2 = expanded_fuel_tank
+			suspension_type_slot = tank_torsion_bar_suspension
+			turret_type_slot = tank_heavy_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Imaifu Mk 1"
+		type = heavy_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = secondary_turret_hmg
+			special_type_slot_2 = smoke_launchers
+			special_type_slot_3 = extra_ammo_storage
+			suspension_type_slot = tank_torsion_bar_suspension
+			turret_type_slot = tank_heavy_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Mvule Mk 2"
+		type = light_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_small_cannon_2
+			special_type_slot_1 = secondary_turret_small_cannon
+			special_type_slot_3 = wet_ammo_storage
+			suspension_type_slot = tank_christie_suspension
+			turret_type_slot = tank_light_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Hadisto Mk 0"
+		type = light_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_close_support_gun
+			special_type_slot_1 = secondary_turret_hmg
+			special_type_slot_2 = smoke_launchers
+			special_type_slot_3 = expanded_fuel_tank
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_light_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Mauti Mk 2"
+		type = light_tank_chassis_2
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_close_support_gun
+			special_type_slot_1 = secondary_turret_small_cannon
+			special_type_slot_3 = extra_ammo_storage
+			suspension_type_slot = tank_torsion_bar_suspension
+			turret_type_slot = tank_light_fixed_superstructure_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Piga Mk 2"
+		type = medium_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_medium_cannon
+			special_type_slot_1 = secondary_turret_hmg
+			special_type_slot_2 = wet_ammo_storage
+			suspension_type_slot = tank_christie_suspension
+			turret_type_slot = tank_medium_fixed_superstructure_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "MAP_1936_air_bba"
+		set_technology = {
+			bba_early_transport_plane = 1
+			iw_small_airframe = 1
+			iw_medium_airframe = 1
+			early_bombs = 1
+			photo_reconnaisance = 1
+			aa_lmg = 1
+			
+		}
+		create_equipment_variant = {
+			name = "Mali Mk 2"
+			type = small_plane_cas_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = bomb_locks
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Njozi Mk 2"
+			type = small_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = light_mg_2x
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Mapiga Mk 1"
+			type = medium_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_2x
+			fixed_main_weapon_slot = medium_bomb_bay
+			special_type_slot_1 = lmg_defense_turret
+
+			}
+		}
+
+	else = {
+		set_air_oob = "MAP_1936_air_legacy"
+		set_technology = {
+			early_transport_plane = 1
+			early_fighter = 1
+			early_bomber = 1
+			CAS1 = 1
+			scout_plane1 = 1
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	early_destroyer = 1
+	
+	}
+	set_naval_oob = "MAP_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Kumbukufu Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	early_ship_hull_light = 1
+	sonar = 1
+	
+	}
+	set_naval_oob = "MAP_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Kumbukufu Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = empty
+				rear_1_custom_slot = ship_anti_air_1
+			}
+		}
+
+	}
+
+
+recruit_character = MAP_Bakari_Shukwelu
+recruit_character = MAP_Omari_Nyumbasia
+recruit_character = MAP_Bari_Mauti
+recruit_character = MAP_Shakaraka_Kiono
+recruit_character = MAP_Jumaraka_Rambiria
+recruit_character = MAP_Mbwanga_Dhomtaba
+recruit_character = MAP_Kwame_Hisu
+recruit_character = MAP_Kato_Nyumbasia
+recruit_character = MAP_Simbana_Panguo
+recruit_character = MAP_Lubana_Kumba
+recruit_character = MAP_Amari_Hisu
+recruit_character = MAP_Lubanga_Mwithi
+recruit_character = MAP_Lubana_Hati
+recruit_character = MAP_Temba_Piga
+recruit_character = MAP_Shakari_Pango
+recruit_character = MAP_Nuru_Langanishi
+recruit_character = MAP_Tano_Mshara
+recruit_character = MAP_Mbwano_Sheli
+recruit_character = MAP_Lubana_Mili
+recruit_character = MAP_Jumau_Mwithi
+recruit_character = MAP_Baraka_Chuli
+recruit_character = MAP_Mbwamau_Aduiya
+recruit_character = MAP_Kwano_Malu
+recruit_character = MAP_Sefu_Majanaji
+recruit_character = MAP_Kwanga_Kiji
+recruit_character = MAP_Shakari_Wimui
+recruit_character = MAP_Kwame_Usiwa
+recruit_character = MAP_Nuru_Heshawi
+recruit_character = MAP_Mbwanga_Jumbasi
+recruit_character = MAP_Mbwamau_Nyumbe
+recruit_character = MAP_Amaraka_Usiwa
+recruit_character = MAP_Shaka_Panjanguzi
+recruit_character = MAP_Mbwamau_Lando
+recruit_character = MAP_Kama_Siri
+recruit_character = MAP_Chidi_Shimutaki
+recruit_character = MAP_Jumari_Mcheli
+recruit_character = MAP_Shaka_Chera
+recruit_character = MAP_Kwame_Uhawi
+recruit_character = MAP_Jumari_Taana
+recruit_character = MAP_Kato_Siri
+recruit_character = MAP_Bari_Malu
+recruit_character = MAP_Kama_Kishalme
+recruit_character = MAP_Mbwamari_Njozi
+recruit_character = MAP_Musa_Kani
+recruit_character = MAP_Baraka_Hofumbuka
+recruit_character = MAP_Luba_Piga
+recruit_character = MAP_Sefu_Piga
+recruit_character = MAP_Simba_Mlimaisia
+recruit_character = MAP_Kamaraka_Chuli
+recruit_character = MAP_Kama_Tekete
+recruit_character = MAP_Lubanga_Uhawi
+recruit_character = MAP_Mosi_Darali
+recruit_character = MAP_Musa_Mcheli
+recruit_character = MAP_Sefu_Shimutaki
+recruit_character = MAP_Lubanga_Mtifu
+recruit_character = MAP_Sefu_Hadisto
+recruit_character = MAP_Kato_Nyumba
+recruit_character = MAP_Amaraka_Taana
+recruit_character = MAP_Mbwanga_Shimutaki
+recruit_character = MAP_Kamaraka_Mali
+recruit_character = MAP_Baraka_Kima
+recruit_character = MAP_Jumau_Shuli
+recruit_character = MAP_Shakaraka_Kumba
+recruit_character = MAP_Baraka_Nyumbe
+recruit_character = MAP_Mosi_Imaifu
+recruit_character = MAP_Bari_Mshara
+recruit_character = MAP_Shaka_Mcheli
+recruit_character = MAP_Simbana_Darali
+recruit_character = MAP_Kame_Hofumbuka
+recruit_character = MAP_Shaka_Wando
+recruit_character = MAP_Mbwamau_Hofu
+recruit_character = MAP_Mbwanga_Pambe
+recruit_character = MAP_Kamaraka_Nyoto
+recruit_character = MAP_Nuru_Tekete
+recruit_character = MAP_Jumari_Nyumbasia
+recruit_character = MAP_Shakaraka_Kumbo
+recruit_character = MAP_Amaraka_Mlimaisia
+recruit_character = MAP_Kato_Muuji
+recruit_character = MAP_Baka_Aduiya
+recruit_character = MAP_Kwano_Kishalme
+recruit_character = MAP_Jumau_Shini
+recruit_character = MAP_Bari_Sheli
+recruit_character = MAP_Kato_Aduiya
+recruit_character = MAP_Sefu_Ukuti
+recruit_character = MAP_Amari_Nyoto
+recruit_character = MAP_Simbana_Jumbasi
+recruit_character = MAP_Chidi_Hisu
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 4
+set_convoys = 0
+set_stability = 0.39
+set_war_support = 0.56
+
+add_ideas = {
+limited_conscription
+partial_economic_mobilisation
+limited_exports
+}
+
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1920.1.17"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 30
+	fascism = 37
+	communism = 2
+	neutrality = 31
+}
+
+
+
+
+

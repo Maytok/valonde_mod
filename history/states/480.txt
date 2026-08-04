@@ -1,0 +1,37 @@
+
+state={
+	id=480
+	name="STATE_480"
+	manpower = 1066066
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = TEM
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = TEM
+	}
+
+	provinces={
+		5559 5560 5561 5562 5563 
+	}
+	local_supplies=0.0 
+}

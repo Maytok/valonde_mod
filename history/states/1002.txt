@@ -1,0 +1,37 @@
+
+state={
+	id=1002
+	name="STATE_1002"
+	manpower = 1041413
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=2
+		rubber=1
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = SVE
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = SVE
+	}
+
+	provinces={
+		11470 11471 11472 11473 11474 11475 
+	}
+	local_supplies=0.0 
+}

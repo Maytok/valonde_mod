@@ -1,0 +1,37 @@
+
+state={
+	id=998
+	name="STATE_998"
+	manpower = 2194359
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=2
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = CAS
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			dockyard = 1
+			
+		}
+		add_core_of = CAS
+	}
+
+	provinces={
+		11417 11418 11419 11420 11421 11422 11423 11424 11425 11426 11427 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=1291
+	name="STATE_1291"
+	manpower = 3898438
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = QAN
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 2
+			dockyard = 1
+			
+		}
+		add_core_of = QAN
+	}
+
+	provinces={
+		14807 14808 14809 14810 14811 14812 14813 14814 14815 14816 14817 14818 14819 14820 14821 14822 14823 14824 14825 14826 
+	}
+	local_supplies=0.0 
+}

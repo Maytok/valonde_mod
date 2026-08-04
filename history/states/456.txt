@@ -1,0 +1,37 @@
+
+state={
+	id=456
+	name="STATE_456"
+	manpower = 2018906
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = RAD
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = RAD
+	}
+
+	provinces={
+		5276 5277 5278 5279 5280 5281 5282 5283 5284 5285 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=1117
+	name="STATE_1117"
+	manpower = 3489553
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=2
+		rubber=1
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = SVE
+		buildings = {
+			infrastructure = 4
+			
+			arms_factory = 1
+			industrial_complex = 3
+			
+			
+		}
+		add_core_of = SVE
+	}
+
+	provinces={
+		12867 12868 12869 12870 12871 12872 12873 12874 12875 12876 12877 12878 12879 12880 12881 12882 12883 
+	}
+	local_supplies=0.0 
+}
