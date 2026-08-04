@@ -18,7 +18,7 @@ state={
 
 	history={
 		
-		owner = ITU
+		owner = DAN
 		buildings = {
 			infrastructure = 3
 			
@@ -27,7 +27,7 @@ state={
 			
 			
 		}
-		add_core_of = ITU
+		add_core_of = DAN
 	}
 
 	provinces={

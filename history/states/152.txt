@@ -18,7 +18,7 @@ state={
 
 	history={
 		
-		owner = KFT
+		owner = DAN
 		buildings = {
 			infrastructure = 3
 			air_base = 2
@@ -27,7 +27,7 @@ state={
 			
 			
 		}
-		add_core_of = KFT
+		add_core_of = DAN
 	}
 
 	provinces={

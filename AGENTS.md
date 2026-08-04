@@ -159,6 +159,7 @@ Canon y decisiones iniciales:
 - La Gran Asamblea del Pacto es la institución gobernante y el jefe federal recibe el título de **Canciller Supremo**.
 - Celebra elecciones federales cada cuatro años.
 - En la primera versión, todo El Pacto funciona bajo un solo tag. Los Estados miembros son parte del canon, pero no países jugables separados.
+- Al inicio del escenario, `DAN` posee y considera núcleos propios todos los territorios antes asignados a `KIM` (Kimiaq), `ITU` (Ituuq), `KFT` (Katecab), `MAG` (Magnus) y `MQC` (Machillatium).
 
 La **Federación híbrida** debe combinar soberanía regional y autoridad federal sin trasladar al juego una simulación innecesariamente compleja. Defensa, diplomacia y política exterior pertenecen inicialmente al gobierno federal; las diferencias internas se representarán primero mediante estados, modificadores, decisiones y eventos. Solo crear tags subordinados cuando un miembro necesite diplomacia, ejército o una secesión realmente independientes.
 
@@ -171,6 +172,7 @@ La **Federación híbrida** debe combinar soberanía regional y autoridad federa
 - [x] Establecer un gobierno democrático con elecciones cada 48 meses.
 - [x] Localizar a la Gran Asamblea del Pacto como partido o institución gobernante.
 - [x] Adaptar al líder democrático existente como Canciller Supremo y asignarle `pact_federalism`.
+- [x] Integrar bajo propiedad y núcleo de `DAN` los territorios iniciales de Kimiaq, Ituuq, Katecab, Magnus y Machillatium.
 - [ ] Verificar en juego el nombre del país, la institución, el líder y la subideología.
 - [ ] Avanzar un mes con `-debug` y revisar errores nuevos relacionados con `DAN`.
 

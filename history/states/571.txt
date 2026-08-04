@@ -18,7 +18,7 @@ state={
 
 	history={
 		
-		owner = MQC
+		owner = DAN
 		buildings = {
 			infrastructure = 3
 			air_base = 1
@@ -27,7 +27,7 @@ state={
 			
 			
 		}
-		add_core_of = MQC
+		add_core_of = DAN
 	}
 
 	provinces={
