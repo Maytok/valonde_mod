@@ -1,293 +1,214 @@
 # AGENTS.md — Valonde
 
-## Propósito del proyecto
+## Identidad del proyecto
 
-Valonde es un mod de reemplazo total del mapa. El objetivo confirmado por el propietario es crear un mapa completamente nuevo para **Hearts of Iron IV**, no limitarse a retocar provincias del mapa original.
+Valonde es una conversión total de fantasía para **Hearts of Iron IV**. El mapa propio ya es la base del proyecto; la fase activa consiste en convertir sistemas, países, política, tecnología, unidades, arte y textos para que el juego represente un mundo fantástico coherente.
 
-Un reemplazo total del mapa incluye, como mínimo:
+La ambientación toma como referencias de tono a Dungeons & Dragons, Dragon Age, The Elder Scrolls y The Witcher, pero debe tener nombres, personajes, facciones, textos, símbolos y arte originales. No copiar material protegido de esas obras.
 
-- geografía terrestre y marítima;
-- provincias, IDs y relaciones de vecindad;
-- terreno, clima y continentes o regiones equivalentes;
-- ríos, costas, estrechos y conexiones especiales;
-- posiciones de ciudades, puertos, unidades y demás objetos del mapa;
-- países, estados o regiones necesarios para que el escenario cargue;
-- localización, historia y recursos mínimos asociados al nuevo mundo;
-- recursos gráficos exigidos por el motor;
-- validación técnica hasta llegar al menú, cargar una partida y avanzar tiempo sin errores críticos.
+Principios de diseño:
 
-## Entorno confirmado
+- fantasía política y militar antes que terminología del siglo XX;
+- mecánicas de HOI4 reutilizadas cuando expresen bien la ficción;
+- cambios mecánicos propios solo cuando una adaptación de datos o localización no sea suficiente;
+- una facción jugable completa como vertical slice antes de transformar todo el mundo;
+- lore y mecánicas deben coincidir: una afirmación importante debe verse en juego, aunque inicialmente sea mediante una solución mínima.
 
-La instalación local del juego base está en:
+## Estado real del repositorio
 
-```text
-E:\SteamLibrary\steamapps\common\Hearts of Iron IV
-```
+El repositorio ya contiene el mapa y una base amplia de países, estados, personajes, ideas, unidades y localización. Parte de esa base conserva nombres, tecnologías, gobiernos, historias y otros datos vanilla usados durante la construcción inicial. Esos restos son deuda de conversión, no canon de Valonde.
 
-Los logs de ejecución que deben revisarse después de cada prueba están en:
+La fase de prototipo técnico del mapa terminó. No regenerar ni sustituir capas del mapa salvo que una tarea trate expresamente un defecto cartográfico. La prioridad actual es una vertical slice de contenido fantástico, empezando por un imperio élfico.
 
-```text
-C:\Users\sakya\OneDrive\Documentos\Paradox Interactive\Hearts of Iron IV\logs
-```
-
-Empezar por `error.log`, correlacionándolo con `system.log`, `setup.log` y `game.log` de la misma ejecución.
-
-Usar esa instalación como referencia vanilla de solo lectura. En particular, el mapa base de referencia está en:
-
-```text
-E:\SteamLibrary\steamapps\common\Hearts of Iron IV\map
-```
-
-Reglas obligatorias:
-
-- nunca editar, renombrar ni borrar archivos bajo la instalación de Steam;
-- comparar con vanilla antes de cambiar formatos o estructura;
-- copiar al mod solo los archivos que se vayan a reemplazar o que sean necesarios para mantener coherencia;
-- si Steam actualiza el juego, no sincronizar a ciegas: comparar primero y registrar la migración;
-- no usar archivos ni convenciones de Hearts of Iron II, Darkest Hour u otros títulos de Paradox.
-
-## Perfil técnico confirmado
-
-Mantener esta ficha actualizada; es la fuente de verdad del proyecto.
+## Perfil técnico
 
 | Campo | Valor actual |
 |---|---|
 | Nombre | Valonde |
-| Tipo | Reemplazo total del mapa / total conversion |
+| Tipo | Conversión total de fantasía |
 | Juego objetivo | Hearts of Iron IV para Steam |
-| Ruta vanilla | `E:\SteamLibrary\steamapps\common\Hearts of Iron IV` |
-| Versión declarada por el descriptor | `1.19.2.0` |
-| Versión instalada comprobada | Operation Postern 1.19.2.0.a729 (`d245`) |
+| Versión del mod | `v0.1a` |
+| Compatibilidad declarada | `1.19.*` |
 | Sistema principal | Windows |
 | Idioma de documentación | Español |
-| Idioma de claves y nombres técnicos | Inglés, ASCII y `snake_case` salvo requisito del motor |
-| Estado | Prototipo MVP llega al frontend; pendiente cargar `VLD` y avanzar un mes |
+| Claves técnicas | Inglés, ASCII y `snake_case`, salvo requisito del motor |
+| Fase actual | Conversión de contenido; vertical slice del imperio élfico |
 
-## Línea base y estado actual de `map/`
-
-El commit `99be615a` congeló la copia vanilla que sirve de referencia. Desde entonces el pipeline sustituyó las capas incompatibles y retiró del mod los estados, unidades, regiones estratégicas y áreas de suministro vanilla. Esas eliminaciones son recuperables mediante Git; la instalación de Steam no se modificó.
-
-Estado estático del prototipo:
-
-- mapa de 5632×2048 con heightmap y máscara tierra/mar propios;
-- 2841 provincias: 1883 terrestres y 958 marítimas;
-- una tabla maestra en `source/data/provinces.csv`;
-- una región estratégica, un área de suministro, un estado y un país provisional (`VLD`);
-- terreno, ciudades, árboles y ríos provisionales sin geografía vanilla;
-- pruebas reproducibles aprobadas mediante `python tools\validate_mvp.py`.
-
-Desde este punto:
-
-- revisar `git diff` antes y después de cada cambio;
-- no volver a copiar toda la carpeta vanilla sobre `map/`, porque borraría trabajo nuevo;
-- modificar una capa del mapa a la vez y validar sus referencias cruzadas;
-- si un archivo sigue siendo idéntico a vanilla y HOI4 no necesita que el mod lo incluya, se puede evaluar retirarlo en una tarea separada, nunca como limpieza incidental.
-
-## Jerarquía de fuentes
-
-Cuando haya dudas técnicas, usar este orden:
-
-1. archivos vanilla de la **misma edición y versión instalada**;
-2. documentación oficial y herramientas incluidas con el juego;
-3. documentación mantenida por la comunidad para esa versión exacta;
-4. mods conocidos que carguen en esa misma versión, solo como referencia secundaria.
-
-No inventar formatos ni trasladar convenciones entre juegos de Paradox. Antes de crear un tipo de archivo nuevo, encontrar su equivalente vanilla y conservar su codificación, delimitadores, dimensiones, paleta y estructura.
-
-Los archivos vanilla son referencia de formato, no material para sobrescribir. Todo cambio debe quedar dentro del mod.
-
-## Alcance funcional
-
-El trabajo se divide en capas dependientes. Completar y validar una capa antes de ampliar la siguiente:
-
-1. **Arranque del mod**: descriptor correcto, ruta correcta y carga del mod sin contenido de mapa.
-2. **Mapa mínimo**: imágenes y tablas mínimas coherentes, IDs válidos y escenario capaz de llegar al menú.
-3. **Topología**: provincias terrestres y marítimas, costas, lagos, ríos, adyacencias, estrechos y conexiones.
-4. **Semántica**: terreno, regiones, continentes, clima y posiciones.
-5. **Mundo jugable**: países, propiedad/control, capitales, recursos, infraestructuras y unidades mínimas.
-6. **Presentación**: nombres, localización, colores, iconos y acabado visual.
-7. **Contenido ampliado**: historia, eventos, IA, balance, música y narrativa.
-
-La prioridad inicial es un mapa técnicamente válido y pequeño. No comenzar árboles, eventos extensos, balance o arte final mientras el mapa base aún no carga de forma estable.
-
-### Provincias y escenario MVP
-
-- `source/map/land_mask.png` se deriva del heightmap limpio con `tools/generate_land_mask.py`.
-- `tools/generate_provinces.py` deriva `source/data/provinces.csv`, `map/provinces.bmp` y `map/definition.csv` de la misma topología.
-- Los IDs son contiguos: 1–1883 tierra y 1884–2841 mar. Los colores se calculan con `(id * 0x9E3779) & 0xFFFFFF`; el negro queda reservado.
-- La densidad provisional usa espaciado de 64 píxeles en tierra y 128 en mar; ninguna provincia tiene menos de 16 píxeles.
-- `tools/generate_mvp_rasters.py` genera capas visuales técnicas de terreno, ciudades, ríos y árboles.
-- `tools/generate_mvp_colormaps.py` deriva los DDS terrestres, acuáticos y de niebla del heightmap; no conservar colormaps vanilla porque superponen su geografía como una marca de agua.
-- `tools/generate_mvp_scenario.py` genera el escenario de prueba completo con un estado, `VLD`, su bookmark, localización, banderas provisionales y posiciones de puerto Nudge 19/20 para cada provincia costera.
-- `map/adjacency_rules.txt` debe permanecer vacío mientras `adjacencies.csv` no defina conexiones especiales. Las reglas vanilla referencian provincias inexistentes y activan el aviso de definición del mapa.
-- Las rutas vanilla incompatibles se aíslan con `replace_path` en ambos descriptores-
-
-
-## Estructura prevista del repositorio
-
-Conservar las rutas que Hearts of Iron IV espera y separar las fuentes de trabajo de los archivos que consume el juego:
+Instalaciones vanilla conocidas, siempre de solo lectura:
 
 ```text
-valonde/
-├── AGENTS.md
-├── README.md                 # instalación, versión y estado para personas
-├── CHANGELOG.md              # cambios visibles y migraciones de IDs
-├── descriptor.mod            # metadatos del mod para HOI4
-├── map/                      # archivos de mapa que consume HOI4
-├── history/                  # estados, países y unidades iniciales
-├── localisation/             # nombres visibles
-├── gfx/                      # recursos gráficos exportados
-├── tools/                    # scripts reproducibles de generación/validación
+D:\SteamLibrary\steamapps\common\Hearts of Iron IV
+C:\Program Files (x86)\Steam\steamapps\common\Hearts of Iron IV
 ```
 
-El layout vanilla de HOI4 prevalece. No añadir directorios “por limpieza” dentro de rutas que el motor analiza de forma especial.
+Antes de usar una como referencia, comprobar su versión y elegir la que coincida con `supported_version`. Nunca editar, renombrar ni borrar archivos bajo Steam.
 
-## Convenciones de datos y archivos
+Logs de ejecución conocidos:
 
-- Los archivos de texto nuevos del repositorio usan LF, impuesto por `.gitattributes` y `.vscode/settings.json`. Conservar el BOM y la codificación que HOI4 requiera para cada tipo; no convertir archivos vanilla en masa sin una prueba real.
-- Usar claves técnicas estables, descriptivas, en ASCII y sin espacios.
-- Separar el nombre visible localizado de la clave técnica.
-- Mantener números decimales con punto cuando el formato lo exija.
-- No reordenar ni reformatear archivos grandes sin necesidad: dificulta revisar cambios y puede alterar parsers antiguos.
-- No editar binarios o imágenes con herramientas que cambien metadatos críticos de manera silenciosa.
-- No incluir cachés, miniaturas, copias de seguridad del editor, logs ni artefactos temporales.
-- Las rutas y el uso de mayúsculas/minúsculas deben coincidir exactamente con vanilla, aunque Windows tolere diferencias.
+```text
+C:\Users\sakya\OneDrive\Documentos\Paradox Interactive\Hearts of Iron IV\logs
+C:\Users\sakya\Documents\Paradox Interactive\Hearts of Iron IV\logs
+```
 
-## Automatización
+Revisar primero `error.log` y correlacionarlo con `system.log`, `setup.log` y `game.log` de la misma ejecución.
 
-Toda operación repetitiva o propensa a errores debe convertirse en una herramienta reproducible dentro de `tools/`, especialmente:
+## Jerarquía de fuentes técnicas
 
-- asignación y auditoría de colores/IDs;
-- detección de colores desconocidos o duplicados;
-- comprobación de referencias huérfanas;
-- validación de dimensiones, modo de color, paleta y formato;
-- comprobación de posiciones fuera de provincia;
-- generación de tablas derivadas;
-- resumen del log de errores del juego.
+Cuando haya dudas de formato o comportamiento:
 
-Los scripts deben:
+1. archivos vanilla de la misma versión instalada;
+2. documentación y herramientas de HOI4;
+3. documentación comunitaria mantenida para esa versión;
+4. mods que carguen en esa versión, solo como referencia secundaria.
 
-- ser deterministas;
-- operar por defecto sobre copias o fuentes editables, no sobre la instalación vanilla;
-- mostrar con claridad los archivos que modificarán;
-- fallar con un mensaje útil y código distinto de cero;
-- ofrecer `--check` o modo de solo lectura cuando sea razonable;
-- documentar dependencias y comando de uso en `README.md` o en `tools/README.md`.
+No inventar formatos ni trasladar convenciones de otros juegos de Paradox. Comparar primero el archivo equivalente vanilla y conservar estructura, codificación y delimitadores. Copiar al mod solo lo necesario; nunca sincronizar carpetas vanilla completas.
 
-No introducir una dependencia pesada para una validación que pueda resolverse con la biblioteca estándar o con una herramienta ya adoptada por el proyecto.
+## Dirección de diseño: imperio élfico
+
+Canon confirmado:
+
+- existe un imperio élfico gobernado por el mismo emperador desde hace **3717 años**;
+- solo los elfos pueden ocupar cargos políticos o participar en las decisiones del Estado;
+- humanos y beastfolk viven dentro de sus fronteras, pero quedan excluidos del poder;
+- una población híbrida humano-demoníaca forma una casta servil hereditaria sin derechos;
+- legalmente, los integrantes de esa casta son propiedad del Estado y este cede su uso a individuos, en un sistema comparable al de los ilotas de Esparta;
+- “tiefling” describe únicamente la referencia visual y no será el nombre final de la especie en Valonde.
+
+Clasificación política de trabajo:
+
+- **forma de gobierno:** autocracia imperial élfica;
+- **doctrina gobernante:** supremacía élfica;
+- **orden social:** castas raciales hereditarias;
+- **sistema laboral:** servidumbre estatal, equivalente en la práctica a esclavitud;
+- **acceso al poder:** monopolio élfico bajo el emperador y su corte.
+
+Decisión técnica inicial: crear la subideología `elven_imperialism` dentro de `neutrality`. Vanilla ofrece `despotism`, que es la base mecánica más cercana, pero no expresa la supremacía élfica ni el sistema de castas. También existe `emperor_fascism` dentro de `fascism`, pero usarla asociaría el imperio con el fascismo moderno y no con su autocracia milenaria. No usar `nazism`.
+
+No crear todavía una quinta ideología global. Eso obligaría a adaptar UI, diplomacia, IA, popularidades y contenido de todos los países. Reevaluarlo cuando estén definidas las grandes familias políticas de Valonde y exista una diferencia mecánica que no pueda expresarse mediante subideologías.
+
+Los 3717 años deben representarse inicialmente en localización y, si tiene efecto jugable, mediante un rasgo o espíritu nacional. No usar una fecha de nacimiento negativa o fuera del rango del motor sin una prueba aislada que confirme que HOI4 la acepta.
+
+### Checklist de la vertical slice
+
+#### 1. Contrato mínimo de lore
+
+- [ ] Elegir el país y su tag entre los ya existentes, o justificar un tag nuevo.
+- [ ] Definir el nombre original del imperio, gentilicio y adjetivo.
+- [ ] Definir nombre, título y pronombres del emperador.
+- [ ] Fijar el calendario: fecha inicial del escenario y qué significa exactamente “3717 años”.
+- [ ] Decidir por qué ha gobernado tanto tiempo: longevidad élfica, inmortalidad, magia, sucesión ritual u otra causa original.
+- [ ] Definir tres rasgos políticos del régimen y una debilidad; estos guiarán sus modificadores.
+- [ ] Decidir si existen elecciones, regencia, consejo, nobleza, sucesión o disputas internas.
+- [ ] Dar un nombre original a la especie híbrida humano-demoníaca y evitar `tiefling` como clave o nombre visible.
+- [ ] Definir el estatus jurídico y las condiciones de vida de humanos y beastfolk fuera del gobierno.
+- [ ] Definir cómo el Estado registra, asigna, recupera y castiga a la casta servil.
+
+#### 2. Gobierno mínimo funcional
+
+- [ ] Comparar `common/ideologies/00_ideologies.txt` vanilla con la versión instalada.
+- [ ] Añadir `elven_imperialism` bajo `neutrality`, tomando `despotism` como base mecánica y conservando los tipos de gobierno que el resto del mod todavía necesite.
+- [ ] Añadir `replace_path="common/ideologies"` solo si el mod pasa a poseer una definición completa y validada de todas las ideologías necesarias.
+- [ ] Localizar el nombre y la descripción de la subideología en español e inglés.
+- [ ] Localizar el nombre largo, nombre corto y adjetivo del país bajo ese gobierno.
+- [ ] Definir el partido o institución gobernante y sus nombres localizado largo y corto.
+- [ ] Crear o adaptar al emperador en `common/characters/`, con la subideología correcta.
+- [ ] Asignar el emperador y el grupo gobernante en `history/countries/`.
+- [ ] Desactivar elecciones o rotación de líder si contradicen el canon.
+- [ ] Representar los 3717 años mediante descripción, rasgo o espíritu nacional; añadir efectos solo si expresan los rasgos políticos acordados.
+- [ ] Representar el monopolio político élfico y la casta servil mediante ideas o modificadores nacionales, sin simular especies con sistemas que HOI4 no modele realmente.
+- [ ] Añadir retrato, bandera o iconos propios cuando la lógica ya cargue sin errores.
+
+#### 3. Coherencia jugable del imperio
+
+- [ ] Sustituir nombres vanilla visibles en el país: partidos, líderes, ideas, estados, ciudades y unidades iniciales.
+- [ ] Dar al imperio una situación inicial, objetivos y relaciones diplomáticas compatibles con su historia.
+- [ ] Revisar focos, decisiones, eventos y IA que comprueben las cuatro ideologías vanilla y adaptar solo los que afecten a esta vertical slice.
+- [ ] Revisar ideas, leyes y rasgos que presupongan democracia moderna, fascismo, comunismo o política del siglo XX.
+- [ ] Comprobar que golpes, cambios de gobierno, exilio y guerras civiles no produzcan líderes o nombres vanilla.
+- [ ] Crear una descripción de bookmark que explique el imperio, el emperador y el conflicto inicial.
+
+#### 4. Validación
+
+- [ ] Buscar referencias huérfanas a la nueva clave de subideología y a las claves de localización.
+- [ ] Iniciar el juego con `-debug` y confirmar que no aparecen errores nuevos de ideologías, personajes o localización.
+- [ ] Verificar en selección de país y pantalla política el nombre del gobierno, el emperador, el partido y el retrato.
+- [ ] Cargar una partida, quitar la pausa y avanzar al menos un mes.
+- [ ] Probar una acción diplomática y cualquier cambio de popularidad o gobierno disponible.
+- [ ] Revisar los logs desde el primer error relevante y registrar los problemas repetibles.
+
+### Criterio de terminado
+
+La vertical slice está terminada cuando el imperio es seleccionable, muestra su gobierno y emperador correctos, conserva al gobernante durante la prueba, no expone texto político vanilla en sus pantallas principales y avanza un mes sin errores críticos nuevos.
+
+## Roadmap de conversión fantástica
+
+Después de aprobar la vertical slice, convertir por capas y no por carpetas completas:
+
+1. **Política:** gobiernos, ideologías, leyes, diplomacia, facciones y autonomía.
+2. **Tecnología:** definir primero la taxonomía fantástica; luego nombres, descripciones, iconos, costes y efectos.
+3. **Fuerzas armadas:** unidades, equipo, doctrinas, comandantes y vocabulario militar.
+4. **Economía:** recursos, industria, comercio, construcción y logística.
+5. **Países:** historia, líderes, ideas, focos, decisiones, eventos e IA.
+6. **Presentación:** localización completa, retratos, banderas, iconos, música y ambientación.
+7. **Depuración global:** retirar contenido vanilla ya reemplazado y auditar cada `replace_path`.
+
+Para tecnologías, empezar con una decisión explícita entre:
+
+- conservar las mecánicas y cambiar tema, nombres e iconos; o
+- cambiar también categorías, árbol y balance.
+
+Usar la primera opción como predeterminada hasta que una mecánica fantástica concreta justifique la segunda.
 
 ## Flujo de trabajo obligatorio
 
-Antes de cambiar archivos:
+Antes de cambiar contenido:
 
-1. leer este documento y el `README.md`, si existe;
-2. inspeccionar el estado real del repositorio;
-3. identificar el archivo vanilla equivalente y la versión exacta;
-4. declarar cualquier supuesto que pueda afectar IDs, dimensiones o compatibilidad;
-5. hacer el cambio mínimo que permita validar una hipótesis.
+1. leer este documento y `README.md`;
+2. revisar `git status` y el contenido ya existente del sistema y país afectados;
+3. identificar el equivalente vanilla de la versión objetivo;
+4. declarar decisiones de canon o compatibilidad que falten;
+5. hacer el cambio mínimo que produzca una vertical slice comprobable.
 
-Después de cambiar archivos:
+Después de cambiar contenido:
 
 1. ejecutar validadores estáticos disponibles;
-2. comprobar que no se modificaron archivos ajenos al alcance;
-3. iniciar el juego con logs detallados cuando sea posible;
-4. probar menú, carga del escenario y avance de tiempo;
-5. revisar el log desde el primer error relevante, no solo el último;
-6. documentar cambios de esquema, IDs o requisitos de instalación.
+2. revisar el diff y confirmar que no contiene regeneraciones o formato ajenos;
+3. probar carga con `-debug` cuando el cambio afecte datos consumidos por el motor;
+4. revisar los logs de esa ejecución;
+5. documentar claves, compatibilidad o decisiones de diseño nuevas.
 
-No afirmar que un mapa “funciona” basándose solo en que las imágenes se abren o que el juego llega al menú.
+No afirmar que una función “sirve” solo porque el parser acepta sus archivos. Distinguir siempre entre validación estática, carga del juego y prueba jugable.
 
-## Estrategia de pruebas
+## Convenciones
 
-Aplicar pruebas en este orden para localizar fallos con rapidez:
+- Mantener LF en archivos nuevos; conservar BOM o codificación cuando HOI4 lo exija.
+- Usar claves estables y descriptivas en inglés, ASCII y `snake_case`.
+- Separar claves técnicas de nombres visibles localizados.
+- No reordenar ni reformatear archivos grandes sin necesidad.
+- No incluir cachés, miniaturas, logs, copias de seguridad ni artefactos temporales.
+- Respetar exactamente mayúsculas, minúsculas y rutas vanilla.
+- Automatizar operaciones repetitivas o propensas a errores, no tareas únicas triviales.
+- No añadir dependencias pesadas si la biblioteca estándar o una herramienta existente basta.
 
-1. **Validación de archivos**: existencia, nombres, codificación, dimensiones y formato.
-2. **Integridad referencial**: IDs duplicados, faltantes, fuera de rango y referencias inexistentes.
-3. **Integridad gráfica**: colores válidos, píxeles desconocidos, costas, ríos y paleta.
-4. **Carga del motor**: arranque limpio y carga de escenario sin bloqueo.
-5. **Prueba de humo jugable**: seleccionar país, iniciar partida, quitar pausa y avanzar al menos un mes de juego.
-6. **Casos de borde**: unidades navales, puertos, islas, estrechos, cambio de propietario y pathfinding.
+## Seguridad y control de versiones
 
-Si el juego falla:
-
-- conservar el primer error reproducible y el fragmento de log pertinente;
-- reducir el caso antes de hacer varios cambios a la vez;
-- no ocultar errores eliminando contenido obligatorio;
-- registrar la causa y la corrección en `docs/troubleshooting.md` cuando pueda repetirse.
-
-## Seguridad y preservación
-
-- Nunca sobrescribir ni borrar archivos del juego base.
-- Nunca ejecutar limpiezas recursivas sobre la carpeta de usuario o instalación.
-- Hacer copia recuperable antes de reemplazar una imagen binaria que no esté bajo control de versiones.
-- Tratar cambios masivos de IDs, colores y nombres de archivo como migraciones: preparar mapa de equivalencias y validar todas las referencias.
-- Preservar cambios existentes del propietario; no revertir ni “normalizar” trabajo que no pertenece a la tarea actual.
-- No copiar recursos de terceros sin licencia o permiso compatible. Registrar autoría y licencia en `CREDITS.md`.
-
-## Control de versiones
-
-Este directorio es un repositorio Git. La política local y versionada usa LF y desactiva la firma GPG de commits y tags. No cambiar estas opciones sin petición del propietario. Mantener además un `.gitignore` específico para herramientas gráficas, logs y cachés cuando aparezcan esos artefactos.
-
-Cada cambio debe ser pequeño y describir una sola intención. En particular, separar:
-
-- cambios de IDs o esquema;
-- cambios de geometría del mapa;
-- regeneración de derivados;
-- cambios de contenido o localización;
-- cambios puramente visuales.
-
-No almacenar archivos fuente gigantes y exportaciones redundantes sin decidir primero una estrategia de almacenamiento, por ejemplo Git LFS para binarios grandes.
-
-## Registro de decisiones
-
-Crear `docs/decisions/` cuando se tome la primera decisión técnica importante. Registrar al menos:
-
-- juego, edición y versión objetivo;
-- dimensiones y proyección del mapa;
-- rango y política de asignación de IDs;
-- formato de la tabla maestra de provincias;
-- herramientas gráficas y exportadores aceptados;
-- política de compatibilidad de partidas guardadas;
-- procedencia y licencia de datos geográficos o recursos externos.
-
-Una decisión aprobada prevalece sobre preferencias personales. Si debe cambiarse, añadir una nueva nota que explique la migración y los archivos afectados.
-
-## Criterios de aceptación por tarea
-
-Una tarea se considera terminada solo cuando:
-
-- satisface el objetivo descrito sin ampliar el alcance;
-- respeta el formato de la versión confirmada;
-- no deja referencias rotas ni nuevos errores relevantes en el log;
-- incluye o actualiza validación automatizada cuando corresponde;
-- conserva fuentes editables y explica cómo regenerar derivados;
-- actualiza documentación si cambia instalación, IDs, esquema o pipeline;
-- informa qué se probó realmente y qué queda sin probar.
-
-## Definición de “mapa base jugable”
-
-El primer gran hito se alcanza cuando, en una instalación limpia de la versión objetivo:
-
-- el launcher o selector reconoce el mod;
-- el juego inicia con el mod activado;
-- el mapa completo se renderiza sin áreas corruptas;
-- el escenario carga sin bloqueo;
-- existe al menos un país seleccionable con capital y territorio válidos;
-- las rutas terrestres y navales básicas funcionan;
-- se puede avanzar un mes sin cierre inesperado ni error crítico repetitivo;
-- el procedimiento de instalación y reproducción está documentado.
+- Nunca modificar la instalación del juego base.
+- Nunca ejecutar limpiezas recursivas sobre Steam, la carpeta de usuario o la raíz del repositorio.
+- Preservar cambios del propietario y no normalizar contenido ajeno a la tarea.
+- Tratar cambios masivos de tags, IDs, claves o nombres como migraciones con mapa de equivalencias.
+- No copiar recursos de terceros sin licencia compatible; registrar autoría en `CREDITS.md`.
+- Mantener cada commit limitado a una intención: mecánica, contenido, localización, arte o derivados.
+- Revisar `replace_path` como una decisión de propiedad completa sobre una ruta, no como una forma de ocultar errores.
 
 ## Instrucciones para agentes futuros
 
-- Responder y documentar en español, salvo que el propietario pida otro idioma.
-- Ser explícito al distinguir hechos observados, inferencias y decisiones pendientes.
-- No inventar contenido geográfico o narrativo cuando la tarea sea puramente técnica.
-- Trabajar exclusivamente con formatos y estructura de Hearts of Iron IV.
-- No prometer compatibilidad con una versión que no haya sido probada.
-- Ante una duda reversible y de bajo riesgo, elegir la opción mínima y documentarla.
-- Ante una duda que cambie de motor, dimensiones, IDs globales, proyección o licencia, detenerse y pedir confirmación.
-- Entregar siempre un resumen de archivos modificados, validaciones ejecutadas y riesgos pendientes.
+- Responder y documentar en español, salvo petición contraria.
+- Distinguir hechos observados, inferencias y decisiones pendientes.
+- No inventar canon importante cuando falte una decisión del propietario; sí usar mínimos técnicos reversibles.
+- Trabajar exclusivamente con formatos de Hearts of Iron IV.
+- No prometer compatibilidad con una versión no probada.
+- Entregar siempre archivos modificados, validaciones ejecutadas y riesgos pendientes.
 
 ## Próximo hito
 
-El arranque aislado con `-debug` y solo `valonde` activo llega al frontend; el bookmark y `VLD` son seleccionables. Después de retirar `adjacency_rules.txt` vanilla, el log queda sin entradas `map.cpp`. Falta repetir la carga interactiva, confirmar que los nuevos DDS eliminaron la geografía fantasma, quitar la pausa y avanzar un mes. No considerar el MVP jugable hasta completar esa prueba.
+Completar el contrato mínimo de lore del imperio élfico y, con esas claves decididas, implementar su gobierno como primera vertical slice fantástica.
