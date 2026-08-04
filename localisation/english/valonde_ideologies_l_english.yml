@@ -4,3 +4,7 @@
  SHA_elven_imperialism: "Rohendel Empire"
  SHA_elven_imperialism_DEF: "the Rohendel Empire"
  SHA_elven_imperialism_ADJ: "Rohendel"
+ SHA_neutrality_party: "Imperial Court"
+ SHA_neutrality_party_long: "Rohendel Imperial Court"
+ SHA_eternal_emperor: "God Emperor"
+ SHA_eternal_emperor_desc: "Tarkan Rohendel, the oldest living elven mage, has ruled the Empire throughout its 3,717-year existence. His broken body endures upon a life-sustaining throne, while his will possesses vessels to act in the world."

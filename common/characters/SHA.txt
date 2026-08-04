@@ -1,12 +1,11 @@
 characters = {
 	SHA_Albertor_Lanzia={
-		name="Albertor Lanzia"
+		name="Tarkan Rohendel"
 
 		
 		country_leader={
 			ideology=elven_imperialism
-			traits = { celebrity_junta_leader  }
-			expire="1965.1.1.1"
+			traits = { SHA_eternal_emperor }
 			id=-1
 		}
 

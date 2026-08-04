@@ -68,7 +68,11 @@ No inventar formatos ni trasladar convenciones de otros juegos de Paradox. Compa
 Canon confirmado:
 
 - el imperio élfico corresponde al país `SHA`, definido en `history/countries/SHA - Shaq.txt`;
-- existe un imperio élfico gobernado por el mismo emperador desde hace **3717 años**;
+- su gobernante es Tarkan, de la dinastía Rohendel, representado como `Tarkan Rohendel` y tratado habitualmente como **Dios Emperador**;
+- Tarkan usa pronombres masculinos: `él` en español y `he/him` en inglés;
+- el Imperio Rohendel tiene **3717 años** y Tarkan lo ha gobernado durante toda su existencia;
+- Tarkan es el mago elfo vivo más antiguo; su longevidad procede de su enorme poder mágico y de la larga vida natural de los elfos;
+- su cuerpo está quebrado y permanece en un trono que lo mantiene con vida, pero puede poseer “vasos” para interactuar con el mundo;
 - solo los elfos pueden ocupar cargos políticos o participar en las decisiones del Estado;
 - humanos y beastfolk viven dentro de sus fronteras, pero quedan excluidos del poder;
 - una población híbrida humano-demoníaca forma una casta servil hereditaria sin derechos;
@@ -87,17 +91,21 @@ Decisión técnica inicial: crear la subideología `elven_imperialism` dentro de
 
 No crear todavía una quinta ideología global. Eso obligaría a adaptar UI, diplomacia, IA, popularidades y contenido de todos los países. Reevaluarlo cuando estén definidas las grandes familias políticas de Valonde y exista una diferencia mecánica que no pueda expresarse mediante subideologías.
 
-Los 3717 años deben representarse inicialmente en localización y, si tiene efecto jugable, mediante un rasgo o espíritu nacional. No usar una fecha de nacimiento negativa o fuera del rango del motor sin una prueba aislada que confirme que HOI4 la acepta.
+El escenario conserva el calendario y la fecha inicial actuales de HOI4 (`1936.1.1.12`). Los 3717 años son un dato narrativo sobre la edad del Imperio y el reinado de Tarkan; no desplazar fechas, crear años negativos ni reescribir archivos históricos para reflejarlos.
+
+Tarkan usa el rasgo `SHA_eternal_emperor` (**Dios Emperador**): +10 % de estabilidad, +10 % al factor de poder político y +25 % de defensa contra deriva ideológica. El rasgo representa continuidad, legitimidad y resistencia política; la supremacía élfica y la casta servil se modelarán por separado como ideas nacionales.
 
 ### Checklist de la vertical slice
 
 #### 1. Contrato mínimo de lore
 
 - [x] Elegir el país y su tag: `SHA` (`history/countries/SHA - Shaq.txt`).
-- [ ] Definir el nombre original del imperio, gentilicio y adjetivo.
-- [ ] Definir nombre, título y pronombres del emperador.
-- [ ] Fijar el calendario: fecha inicial del escenario y qué significa exactamente “3717 años”.
-- [ ] Decidir por qué ha gobernado tanto tiempo: longevidad élfica, inmortalidad, magia, sucesión ritual u otra causa original.
+- [x] Definir el nombre original, gentilicio y adjetivo: Imperio Rohendel / Rohendel.
+- [x] Definir nombre y título del gobernante: Tarkan Rohendel, Dios Emperador.
+- [x] Definir los pronombres del emperador: `él` / `he/him`.
+- [x] Mantener el calendario actual (`1936.1.1.12`) y tratar 3717 años como la edad narrativa del Imperio y de su reinado.
+- [x] Definir la causa de su longevidad: poder mágico, longevidad élfica y un trono que sostiene su cuerpo quebrado.
+- [ ] Definir el nombre original, los límites y el funcionamiento de los “vasos” que Tarkan posee.
 - [ ] Definir tres rasgos políticos del régimen y una debilidad; estos guiarán sus modificadores.
 - [ ] Decidir si existen elecciones, regencia, consejo, nobleza, sucesión o disputas internas.
 - [ ] Dar un nombre original a la especie híbrida humano-demoníaca y evitar `tiefling` como clave o nombre visible.
@@ -110,12 +118,12 @@ Los 3717 años deben representarse inicialmente en localización y, si tiene efe
 - [x] Añadir `elven_imperialism` bajo `neutrality`, tomando `despotism` como base mecánica y conservando los tipos de gobierno que el resto del mod todavía necesite.
 - [ ] Añadir `replace_path="common/ideologies"` solo si el mod pasa a poseer una definición completa y validada de todas las ideologías necesarias.
 - [x] Localizar el nombre y la descripción de la subideología en español e inglés.
-- [ ] Localizar el nombre largo, nombre corto y adjetivo del país bajo ese gobierno.
-- [ ] Definir el partido o institución gobernante y sus nombres localizado largo y corto.
-- [ ] Crear o adaptar al emperador en `common/characters/`, con la subideología correcta.
-- [ ] Asignar el emperador y el grupo gobernante en `history/countries/`.
-- [ ] Desactivar elecciones o rotación de líder si contradicen el canon.
-- [ ] Representar los 3717 años mediante descripción, rasgo o espíritu nacional; añadir efectos solo si expresan los rasgos políticos acordados.
+- [x] Localizar el nombre largo, nombre corto y adjetivo del país bajo ese gobierno.
+- [x] Definir y localizar la institución gobernante: Corte Imperial Rohendel.
+- [x] Adaptar a Tarkan Rohendel en `common/characters/SHA.txt`, con `elven_imperialism` y sin expiración.
+- [x] Asignar el emperador y `neutrality` como grupo gobernante de `SHA`.
+- [x] Desactivar elecciones o rotación de líder.
+- [x] Representar los 3717 años mediante el rasgo localizado `SHA_eternal_emperor`.
 - [ ] Representar el monopolio político élfico y la casta servil mediante ideas o modificadores nacionales, sin simular especies con sistemas que HOI4 no modele realmente.
 - [ ] Añadir retrato, bandera o iconos propios cuando la lógica ya cargue sin errores.
 
@@ -212,4 +220,4 @@ No afirmar que una función “sirve” solo porque el parser acepta sus archivo
 
 ## Próximo hito
 
-Completar el contrato mínimo de lore del imperio élfico y, con esas claves decididas, implementar su gobierno como primera vertical slice fantástica.
+Registrar Valonde como mod local aislado, iniciar HOI4 con `-debug` y verificar en pantalla que `SHA` aparece como Imperio Rohendel, gobernado por Tarkan Rohendel bajo el imperialismo élfico y la Corte Imperial Rohendel.
