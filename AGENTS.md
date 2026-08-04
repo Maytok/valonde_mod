@@ -110,43 +110,6 @@ El trabajo se divide en capas dependientes. Completar y validar una capa antes d
 
 La prioridad inicial es un mapa técnicamente válido y pequeño. No comenzar árboles, eventos extensos, balance o arte final mientras el mapa base aún no carga de forma estable.
 
-## Principios del pipeline de mapa
-
-- Tratar el **ID de provincia** como dato estable. No renumerar IDs ya publicados sin migrar todas sus referencias.
-- Mantener una única tabla maestra de provincias y derivar de ella, cuando sea posible, las tablas auxiliares.
-- Cada color de provincia debe ser único y cumplir las restricciones de la edición confirmada.
-- No usar antialiasing, transparencia, perfiles de color inesperados ni compresión destructiva en mapas indexados o de identificación.
-- Conservar exactamente dimensiones, profundidad de color, formato, orientación y paleta que exija el archivo vanilla equivalente.
-- No escalar una imagen de mapa con interpolación. Para máscaras e IDs usar siempre vecino más cercano y revisar el resultado píxel a píxel en fronteras.
-- Evitar píxeles aislados, provincias de un píxel, huecos, colores desconocidos y fronteras diagonales ambiguas.
-- Toda provincia terrestre debe tener clasificación, nombre, región o agrupación, propietario inicial y conexiones coherentes cuando esos datos sean obligatorios para el motor elegido.
-- Toda provincia naval debe conectarse de forma razonable; revisar mares cerrados, canales, estrechos y pasos especiales por separado.
-- Las posiciones deben caer dentro de su provincia y lejos de bordes problemáticos. Puertos y bases navales deben estar en costa válida.
-- Los ríos deben desembocar y seguir las convenciones cromáticas/direccionales del motor. No asumir que el sistema de ríos de otro título sirve aquí.
-- Guardar los archivos fuente editables del mapa separados de los artefactos exportados al formato del juego.
-
-### Fuente actual del heightmap
-
-- `mercator.png` es la fuente hipsométrica preservada del mundo, con tamaño 5632×2048 y 61 niveles discretos. No editarla para limpiezas técnicas que puedan expresarse en el pipeline.
-- Aunque se indicó un `.col` negro/gris, los píxeles reales de `mercator.png` corresponden a la paleta hipsométrica tipo Olsson del generador Planet: índices 6–36 para mar y 37–66 para tierra.
-- `tools/convert_mercator_heightmap.py` convierte esos niveles de forma determinista a valores HOI4 83–94 para mar y 96–239 para tierra. El valor 95 queda sin usar por ser el umbral del nivel del mar.
-- `tools/build_clean_heightmap.py` es ahora el exportador canónico: reconstruye desde `mercator.png`, elimina componentes tierra/agua menores de 16 píxeles y resuelve cruces diagonales ambiguos, incluida la costura horizontal. La limpieza actual modifica 10138 píxeles (0,088 %), eliminando 5042 píxeles terrestres y rellenando 5096 acuáticos.
-- El script reutiliza el contenedor BMP vanilla para conservar cabecera, paleta gris, orientación y bytes finales. El resultado canónico es `map/heightmap.bmp`.
-- Comando de regeneración: `python tools/build_clean_heightmap.py`.
-- Comando de validación sin escritura: `python tools/build_clean_heightmap.py --check`.
-- No suavizar ni reinterpretar el heightmap sin aprobación: el suavizado puede mover costas. Como el origen solo contiene 61 bandas, puede existir escalonado que deberá corregirse en una fase posterior conservando una máscara de costa.
-
-### Normal map derivado
-
-- `map/world_normal.bmp` se deriva siempre de `map/heightmap.bmp`; no editarlo como fuente independiente.
-- HOI4 espera este normal map a media resolución: 2816×1024 para el heightmap actual de 5632×2048.
-- `tools/generate_world_normal.py` reduce el heightmap mediante promedio 2×2, calcula pendientes Sobel, envuelve horizontalmente el mapa y codifica normales RGB con Y invertida.
-- La intensidad predeterminada `0.058` fue calibrada contra la pareja vanilla local `heightmap.bmp`/`world_normal.bmp`.
-- El script reutiliza el contenedor BMP vanilla para conservar cabecera, orientación, orden BGR y bytes finales.
-- Comando de regeneración: `python tools/generate_world_normal.py`.
-- Comando de validación sin escritura: `python tools/generate_world_normal.py --check`.
-- Regenerar `world_normal.bmp` después de cada cambio material en el heightmap.
-
 ### Provincias y escenario MVP
 
 - `source/map/land_mask.png` se deriva del heightmap limpio con `tools/generate_land_mask.py`.
@@ -157,22 +120,8 @@ La prioridad inicial es un mapa técnicamente válido y pequeño. No comenzar á
 - `tools/generate_mvp_colormaps.py` deriva los DDS terrestres, acuáticos y de niebla del heightmap; no conservar colormaps vanilla porque superponen su geografía como una marca de agua.
 - `tools/generate_mvp_scenario.py` genera el escenario de prueba completo con un estado, `VLD`, su bookmark, localización, banderas provisionales y posiciones de puerto Nudge 19/20 para cada provincia costera.
 - `map/adjacency_rules.txt` debe permanecer vacío mientras `adjacencies.csv` no defina conexiones especiales. Las reglas vanilla referencian provincias inexistentes y activan el aviso de definición del mapa.
-- Las rutas vanilla incompatibles se aíslan con `replace_path` en ambos descriptores.
-- La decisión completa está en `docs/decisions/0001-mvp-map-topology.md`.
-- RandomParadox (`D:\Mirror\Documents\c_projects\RandomParadox`) se usa únicamente como referencia técnica secundaria. Su soporte HOI4 confirmó los índices Nudge 19/20 y el formato de `buildings.txt`; consultar `docs/references/randomparadox.md` antes de reutilizar código GPLv3.
+- Las rutas vanilla incompatibles se aíslan con `replace_path` en ambos descriptores-
 
-### Orden canónico de regeneración
-
-```powershell
-python tools\build_clean_heightmap.py
-python tools\generate_world_normal.py
-python tools\generate_land_mask.py
-python tools\generate_provinces.py
-python tools\generate_mvp_rasters.py
-python tools\generate_mvp_colormaps.py
-python tools\generate_mvp_scenario.py
-python tools\validate_mvp.py
-```
 
 ## Estructura prevista del repositorio
 
@@ -188,11 +137,7 @@ valonde/
 ├── history/                  # estados, países y unidades iniciales
 ├── localisation/             # nombres visibles
 ├── gfx/                      # recursos gráficos exportados
-├── source/                   # fuentes editables; el juego no las consume
-│   ├── map/
-│   └── data/
 ├── tools/                    # scripts reproducibles de generación/validación
-└── docs/                     # decisiones, tablas maestras y diagramas
 ```
 
 El layout vanilla de HOI4 prevalece. No añadir directorios “por limpieza” dentro de rutas que el motor analiza de forma especial.
